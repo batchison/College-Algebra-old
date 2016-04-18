@@ -1,0 +1,190 @@
+\subsection{Trinomials with Leading Coefficient $a=1$}\pp
+
+%\maketitle
+
+{\tmstrong{Objective: Factor trinomials where the coefficient of $x^2$ is
+one.}}\pp
+
+Factoring polynomial expressions that contain three terms, or \textit{trinomials}, is the most essential
+factorization skill to algebra.  Consequently, it is also the most important factorization skill to master.  Again, since factoring is basically multiplication performed in reverse, we will start with a multiplication example and look at how we can reverse the process.
+
+\begin{example}~~~Write the expanded form for the given expression.
+  \begin{eqnarray*}
+    (x + 6) (x - 4) &  & \tmop{Distribute~} (x + 6) \tmop{~through}
+    \tmop{second} \tmop{parentheses}\\
+    x (x + 6) - 4 (x + 6) &  & \tmop{Distribute} \tmop{each} \tmop{monomial}
+    \tmop{through} \tmop{parentheses}\\
+    x^2 + 6 x - 4 x - 24 &  & \tmop{Combine} \tmop{like} \tmop{terms}\\
+    x^2 + 2 x - 24 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+	
+
+Notice that if we reverse the last three steps of the previous example, the process looks like
+grouping. This is because it is grouping! In the second-to-last line, the GCF of the first two terms is $x$
+and the GCF of the last two terms is $- 4$. In this manner, we will factor
+trinomials by writing them as a polynomial containing four terms, and then factor
+by grouping. This is demonstrated in the following example, which is the previous one done in reverse.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 + 2 x - 24 &  & \tmop{~split} \tmop{middle~(linear)~} \tmop{term} \tmop{into} + 6
+    x - 4 x\\
+    x^2 + 6 x - 4 x - 24 &  & \tmop{Grouping} : \tmop{GCF} \tmop{on}
+    \tmop{left} \tmop{is} x, \tmop{~on} \tmop{right} \tmop{is} - 4\\
+    x (x + 6) - 4 (x + 6) &  & (x + 6) \tmop{~appears~twice},
+    \tmop{~factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+    (x + 6) (x - 4) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+  
+The trick to make these problems work resides in how we split the middle (or linear) term. Why did
+we choose $+ 6 x - 4 x$ and not $+ 5 x - 3 x$? The reason is because $6 x - 4 x$
+is the only combination that will allow grouping to work!  So how do we know what is the one combination that we need? To find the correct way to split the middle term we will use what is called the $ac$-method. Later, we will discuss why
+it is called the $ac$-method.\pp
+The idea behind the $ac$-method is that we must find a pair of
+numbers that \textit{multiply} to get the last (or constant) term in the expression and \textit{add} to get the coefficient of the middle (or linear) term.  In the previous example, we would want two numbers whose product is $- 24$ and sum is $+ 2$. The only numbers that can do this are $6$ and $-4$ ($6 \cdot - 4 = - 24$ and $6 + (- 4) = 2$). This method is demonstrated in
+the next few examples.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 + 9 x + 18 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 18,
+    \tmop{add} \tmop{to} 9\\
+    x^2 + 6 x + 3 x + 18 &  & \tmop{Use~}6 \tmop{and} 3, \tmop{~split} \tmop{the}
+    \tmop{middle} \tmop{term}\\
+    x (x + 6) + 3 (x + 6) &  & \tmop{Factor} \tmop{by} \tmop{grouping}\\
+    (x + 6) (x + 3) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+  
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 - 4 x + 3 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 3,
+    \tmop{add} \tmop{to} - 4\\
+    x^2 - 3 x - x + 3 &  & \tmop{Use~}- 3 \tmop{and} - 1, \tmop{~split} \tmop{the}
+    \tmop{middle} \tmop{term}\\
+    x (x - 3) - 1 (x - 3) &  & \tmop{Factor} \tmop{by} \tmop{grouping}\\
+    (x - 3) (x - 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+  
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 - 8 x - 20 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 20,
+    \tmop{add} \tmop{to} - 8\\
+    x^2 - 10 x + 2 x - 20 &  & \tmop{Use~}- 10 \tmop{and} 2, \tmop{~split} \tmop{the}
+    \tmop{middle} \tmop{term}\\
+    x (x - 10) + 2 (x - 10) &  & \tmop{Factor} \tmop{by} \tmop{grouping}\\
+    (x - 10) (x + 2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+~\\
+Often when factoring we are faced with an expression containing two variables. These expressions are treated just like
+those containing only one variable.  As in the next example, we will still use the coefficients to decide how to split the
+linear term.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    a^2 - 9 a b + 14 b^2 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to}
+    14, \tmop{add} \tmop{to} - 9\\
+    a^2 - 7 a b - 2 a b + 14 b^2 &  & \tmop{Use~}- 7 \tmop{and} - 2, \tmop{~split}
+    \tmop{the} \tmop{middle} \tmop{term}\\
+    a (a - 7 b) - 2 b (a - 7 b) &  & \tmop{Factor} \tmop{by} \tmop{grouping}\\
+    (a - 7 b) (a - 2 b) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+
+As the past few examples has shown, it is very important to be aware of
+negatives in finding the right pair of numbers used to split the linear term.
+Consider the following example, done \textit{incorrectly}, ignoring negative signs.\pp
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 + 5 x - 6 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 6,
+    \tmop{add~to} 5\\
+    x^2 + 2 x + 3 x - 6 &  & \tmop{Use~} 2 \tmop{and} 3, \tmop{~split} \tmop{the}
+    \tmop{middle} \tmop{term}\\
+    x (x + 2) + 3 (x - 2) &  & \tmop{Factor} \tmop{by} \tmop{grouping}\\
+    ? ? ? &  & \tmop{Binomials} \tmop{do} \tmop{not} \tmop{match} !
+  \end{eqnarray*}
+\end{example}
+
+Because we did not consider the negative sign with the constant term of -6 to find our pair of
+numbers, the binomials did not match and grouping was unsuccessful. Now we show factorization done correctly.\pp
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 + 5 x - 6 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 6,
+    \tmop{add} \tmop{to} 5\\
+    x^2 + 6 x - x - 6 &  & \tmop{Use~} 6 \tmop{and} - 1, \tmop{~split} \tmop{the}
+    \tmop{middle} \tmop{term}\\
+    x (x + 6) - 1 (x + 6) &  & \tmop{Factor} \tmop{by} \tmop{grouping}\\
+    (x + 6) (x - 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+  
+
+At this point, one might notice a shortcut for factoring such expressions. Once we identify
+the two numbers that are used to split the linear term, these will be the two
+numbers in each of our factors! In the previous example, the numbers used to split the
+linear term were 6 and $- 1$, our factors turned out to be $(x + 6) (x - 1)$.\pp
+This shortcut will not always work out, as we will see momentarily.  We can use it, however, when we have a leading coefficient of $a=1$ for our quadratic term $ax^2$, which has been the case for all of the trinomials we have factored thus far. This shortcut is employed in the next few examples.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 - 7 x - 18 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 18,
+    \tmop{add} \tmop{to} - 7\\
+    &  & \tmop{Use~} - 9 \tmop{and} 2, \tmop{write} \tmop{the} \tmop{factors}\\
+    (x - 9) (x + 2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+  
+\newpage
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    m^2 - m n - 30 n^2 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} -
+    30, \tmop{add} \tmop{to} - 1\\
+    &  & \tmop{Use~}  5 \tmop{and} - 6, \tmop{write} \tmop{the} \tmop{factors}\\
+		&& \tmop{Do~not} \tmop{forget} \tmop{second} \tmop{variable!}\\
+    (m + 5 n) (m - 6 n) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+It is also certainly possible to have a trinomial that does not factor using the $ac$-method. If there is no
+combination of numbers that multiplies and adds to the correct numbers, then
+we say that we cannot factor the polynomial ``nicely'', or easily.  Later on in the chapter, we will learn of some other methods and terminology for factoring quadratic expressions of this type.  The next example is of a quadratic expression that is not easily factorable.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    x^2 + 2 x + 6 &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 6,
+    \tmop{add} \tmop{to} 2\\
+    1 \cdot 6 \tmop{~and~} 2 \cdot 3 &  & \tmop{Only} \tmop{possibilities}
+    \tmop{to} \tmop{multiply} \tmop{to} 6, \tmop{~none} \tmop{add}
+    \tmop{to} 2\\
+    \tmop{Not~easily~factorable} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+Later, we will discover that the quadratic expression above cannot be factored over the real numbers.  In other words, there exist no real numbers $r$ and $s$ such that
+  $$x^2 + 2 x + 6=(x-r)(x-s)$$
+Such expressions are said to be \textit{irreducible over the reals}, and any factorization will require us to use \textit{complex} numbers.  Complex numbers will be discussed later on in the chapter.\pp
+When factoring any expression, it is important to not forget about first identifying a GCF of all the given terms. If all the terms
+in an expression have a common factor we will want to first factor out the GCF before using any other method.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    3 x^2 - 24 x + 45 &  & \tmop{GCF} \tmop{of} \tmop{all} \tmop{terms}
+    \tmop{is} 3, \tmop{~factor} \tmop{this} \tmop{out~first}\\
+    3 (x^2 - 8 x + 15) &  & \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to}
+    15, \tmop{add} \tmop{to} - 8\\
+    &  &\tmop{Use~} - 5 \tmop{and} - 3, \tmop{~write} \tmop{the} \tmop{factors}\\
+    3 (x - 5) (x - 3) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}	
+  
+Again it is important to comment on the shortcut of jumping right to the factors, this only works if the leading coefficient $a=1$. In the example above, we applied the shortcut only \textit{after} we factored out a GCF of 3.  Next, we will look at how this process changes when $a\neq1$.\pp
+
+{\tmstrong{World View Note:}} The first person to use letters for unknown
+values was Francois Vieta in 1591 in France. He used vowels to represent
+variables, just as basic codes often use letters to encrypt a message.

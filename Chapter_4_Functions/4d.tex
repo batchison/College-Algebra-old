@@ -1,0 +1,345 @@
+\subsection{Transformations Summary}
+
+{\tmstrong{Objective: Summarize the various transformations that can be applied to a particular function and outline a strategy for graphing functions using a sequence of transformations.}}\pp
+
+We will begin to summarize the concepts outlined in this section by extending the previous example.\pp
+
+\begin{example}  Let $f(x)= \sqrt{x}$.   Use the graph of $f$ to graph the function $m(x) =1 - \sqrt{\frac{x+3}{2}}$.  Also, state the domain and range.\pp
+
+{\bf Solution.}  Solving $\frac{x+3}{2} \geq 0$ gives $x \geq -3$, so the domain of $m$ is $[-3, \infty)$.  To take advantage of what we know of transformations, we rewrite $m(x) = - \sqrt{\frac{1}{2} x + \frac{3}{2}} + 1$, or $m(x) =- f\left(\frac{1}{2} x + \frac{3}{2}\right) + 1$.   Focusing on the inputs first, we note that the input to $f$ in the formula for $m(x)$ is $\frac{1}{2} x + \frac{3}{2}$.  Multiplying the $x$ by $\frac{1}{2}$ corresponds to a horizontal stretching by a factor of $2$, and adding the $\frac{3}{2}$ corresponds to a shift to the left by $\frac{3}{2}$.  As before, we resolve which to perform first by thinking about how we would find the point on $m$ corresponding to a point on $f$, in this case, $(4,2)$.  To use $f(4) = 2$, we solve $\frac{1}{2} x + \frac{3}{2} = 4$.  Our first step is to subtract the $\frac{3}{2}$ (the horizontal shift) to obtain $\frac{1}{2} x = \frac{5}{2}$.  Next, we multiply by $2$ (the horizontal stretching) and obtain $x = 5$.  We define two intermediate functions to handle first the shift, then the stretching.  In accordance with Theorem \ref{hshifts},  $m_{\mbox{\tiny$1$}}(x) = f\left(x+ \frac{3}{2}\right) = \sqrt{x+\frac{3}{2}}$ will shift the graph of $f$ to the left $\frac{3}{2}$ units.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-3 \hspace{7pt}$} -3,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $-2$} -2, {\tiny $-1$} -1}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left $\frac{3}{2}$ units}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize subtract $\frac{3}{2}$ from }}{\mbox{\scriptsize each $x$-coordinate}}} 
+
+&
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+%\arrow \function{-1.5,3.5,0.1}{sqrt(x+1.5)}
+%\point[3pt]{(-1.5,0), (-0.5,1), (2.5,2)}
+%\tlabel[cc](-1.5,-1){\scriptsize $\left(-\frac{3}{2},0\right)$}
+%\tlabel[cc](-2,1){\scriptsize $\left(-\frac{1}{2},1\right)$}
+%\tlabel[cc](2.5,2.5){\scriptsize $\left(\frac{5}{2},2\right)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$1$}}(x)= f\left(x+\frac{3}{2}\right) = \sqrt{x+\frac{3}{2}}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-3 \hspace{7pt}$} -3,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4,, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $-2$} -2}
+\end{mfpic} \\
+
+\end{array} \]
+\newpage
+
+Next, $m_{\mbox{\tiny$2$}}(x) = m_{\mbox{\tiny$1$}}\left(\frac{1}{2} x\right) = \sqrt{\frac{1}{2} x + \frac{3}{2}}$ will, according to Theorem \ref{hscalings}, horizontally stretch the graph of $m_{\mbox{\tiny$1$}}$ by a factor of $2$.  
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{-1.5,3.5,0.1}{sqrt(x+1.5)}
+\point[3pt]{(-1.5,0), (-0.5,1), (2.5,2)}
+\tlabel[cc](-1.5,-1){\scriptsize $\left(-\frac{3}{2},0\right)$}
+\tlabel[cc](-2,1){\scriptsize $\left(-\frac{1}{2},1\right)$}
+\tlabel[cc](2.5,2.5){\scriptsize $\left(\frac{5}{2},2\right)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$1$}}(x) = \sqrt{x+\frac{3}{2}}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-3 \hspace{7pt}$} -3,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2,{\tiny $-2$} -2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scale by}}{\mbox{\scriptsize a factor of $2$}}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $2$}}} 
+
+&
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+%\arrow \function{-3,6,0.1}{sqrt(0.5*x+1.5)}
+%\point[3pt]{(-3,0), (-1,1), (5,2)}
+%\tlabel[cc](-3,-1){\scriptsize $\left(-3,0\right)$}
+%\tlabel[cc](-2,1.25){\scriptsize $\left(-1,1\right)$}
+%\tlabel[cc](5,2.5){\scriptsize $\left(5,2\right)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$2$}}(x) = m_{\mbox{\tiny$1$}}\left(\frac{1}{2} x\right) = \sqrt{\frac{1}{2} x+\frac{3}{2}}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2,  {\tiny $-1$} -1,{\tiny $-2$} -2}
+\end{mfpic} \\
+
+\end{array} \]
+
+We now examine what's happening to the outputs.  From $m(x) =$\\ $- f\left(\frac{1}{2} x + \frac{3}{2}\right) + 1$, we see that the output from $f$ is being multiplied by $-1$ (a reflection about the $x$-axis) and then a $1$ is added (a vertical shift up $1$).  As before, we can determine the correct order by looking at how the point $(4,2)$ is moved. We already know that to make use of the equation $f(4)=2$,  we need to substitute $x=5$.  We get  $m(5) = - f\left(\frac{1}{2} (5) + \frac{3}{2}\right) + 1=- f(4)+1 =$\\ $-2+1 = -1$.  We see that $f(4)$ (the output from $f$) is first multiplied by $-1$ then the $1$ is added meaning we first reflect the graph about the $x$-axis then shift up $1$.  Theorem \ref{reflections} tells us $m_{\mbox{\tiny$3$}}(x) = - m_{\mbox{\tiny$2$}}(x)$ will handle the reflection.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{-3,6,0.1}{sqrt(0.5*x+1.5)}
+\point[3pt]{(-3,0), (-1,1), (5,2)}
+\tlabel[cc](-3,-1){\scriptsize $\left(-3,0\right)$}
+\tlabel[cc](-2,1.25){\scriptsize $\left(-1,1\right)$}
+\tlabel[cc](5,2.5){\scriptsize $\left(5,2\right)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$2$}}(x)  = \sqrt{\frac{1}{2} x+\frac{3}{2}}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2,  {\tiny $-1$} -1,{\tiny $-2$} -2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across $x$-axis }}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $y$-coordinate by $-1$}}} 
+
+&
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+%\arrow \function{-3,6,0.1}{0-sqrt(0.5*x+1.5)}
+%\point[3pt]{(-3,0), (-1,-1), (5,-2)}
+%\tlabel[cc](-3,1){\scriptsize $\left(-3,0\right)$}
+%\tlabel[cc](-2.25,-1.25){\scriptsize $\left(-1,-1\right)$}
+%\tlabel[cc](5,-2.5){\scriptsize $\left(5,-2\right)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$3$}}(x) = -m_{\mbox{\tiny$2$}}(x) = -\sqrt{\frac{1}{2} x+\frac{3}{2}}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1,{\tiny $2$} 2, {\tiny $-2$} -2}
+\end{mfpic} \\
+
+\end{array} \]
+%\newpage
+Finally, to handle the vertical shift, Theorem \ref{vshifts} gives $m(x) = m_{\mbox{\tiny$3$}}(x) +1$, and we see that the range of $m$ is $(-\infty,1]$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{-3,6,0.1}{0-sqrt(0.5*x+1.5)}
+\point[3pt]{(-3,0), (-1,-1), (5,-2)}
+\tlabel[cc](-3,1){\scriptsize $\left(-3,0\right)$}
+\tlabel[cc](-2.25,-1.25){\scriptsize $\left(-1,-1\right)$}
+\tlabel[cc](5,-2.5){\scriptsize $\left(5,-2\right)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$3$}}(x) = -m_{\mbox{\tiny$2$}}(x) = -\sqrt{\frac{1}{2} x+\frac{3}{2}}$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1,{\tiny $2$} 2, {\tiny $-2$} -2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift up $1$ unit }}{\xrightarrow{\hspace{.8in}}}}{\stackrel{\mbox{ \scriptsize add $1$ to each}}{\mbox{\scriptsize $y$-coordinate}}} 
+
+&
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+%\arrow \function{-3,6,0.1}{1-sqrt(0.5*x+1.5)}
+%\point[3pt]{(-3,1), (-1,0), (5,-1)}
+%\tlabel[cc](-3,2){\scriptsize $\left(-3,1\right)$}
+%\tlabel[cc](-1,0.5){\scriptsize $\left(-1,0\right)$}
+%\tlabel[cc](5,-1.5){\scriptsize $\left(5,-1\right)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m(x) = m_{\mbox{\tiny$3$}}(x)+1 =$\tiny $-\sqrt{\frac{1}{2} x+\frac{3}{2}}+1$}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $-2$} -2}
+\end{mfpic} \\
+
+\end{array} \]
+
+\label{transformationex3}
+
+\end{example}
+
+Some comments about Example \ref{transformationex3} are in order.  First, recalling the properties of radicals from Intermediate Algebra, we know that the functions $g$ and $j$ are the same, since $j$ and $g$ have the same domains and $j(x) = \sqrt{9x} = \sqrt{9} \sqrt{x} = 3 \sqrt{x} = g(x)$. (We invite the reader to verify that all of the points we plotted on the graph of $g$ lie on the graph of $j$ and vice-versa.)  Hence, for  $f(x) = \sqrt{x}$, a vertical stretch by a factor of $3$ and a horizontal shrinking by a factor of $9$ result in the same transformation.  While this kind of phenomenon is not universal, it happens commonly enough with some of the families of functions studied in College Algebra that it is worthy of note.  Secondly, to graph the function $m$, we applied a series of four transformations.  While it would have been easier on the authors to simply inform the reader of which steps to take, we have strived to explain why the order in which the transformations were applied made sense.  We generalize the procedure in the theorem below.
+
+\bigskip
+
+\bbm
+
+%\smallskip
+
+\begin{thm} \label{transformationsthm}\index{transformations of function graphs}\index{function ! transformation of graphs}\index{graph ! transformations}\textbf{Transformations.}  Suppose $f$ is a function.  If $A \neq 0$ and $B \neq 0$, then to graph \[g(x) = A f(Bx+H)+K\] 
+
+\begin{enumerate}
+
+\item  Subtract $H$ from each of the $x$-coordinates of the points on the graph of $f$.  This results in a horizontal shift to the left if $H > 0$ or right if $H< 0$.
+
+\item  Divide the $x$-coordinates of the points on the graph obtained in Step 1 by $B$.  This results in a horizontal scaling, but may also include a reflection about the $y$-axis if $B < 0$.
+
+\item  Multiply the $y$-coordinates of the points on the graph obtained in Step 2 by $A$.   This results in a vertical scaling, but may also include a reflection about the $x$-axis if $A < 0$.
+
+\item  Add $K$ to each of the $y$-coordinates of the points on the graph obtained in Step 3.  This results in a vertical shift up if $K > 0$ or down if $K< 0$.
+
+\end{enumerate}
+
+\end{thm}
+
+\ebm
+
+\bigskip
+
+Theorem \ref{transformationsthm} can be established by generalizing the techniques developed in this section.  Suppose $(a,b)$ is on the graph of $f$. Then $f(a) = b$, and to make good use of this fact, we set $Bx+H = a$ and solve.  We first subtract the $H$ (causing the horizontal shift) and then divide by $B$.  If $B$ is a positive number, this induces only a horizontal scaling by a factor of $\frac{1}{B}$.  If  $B<0$, then we have a factor of $-1$ in play, and dividing by it induces a reflection about the $y$-axis.  So we have $x = \frac{a-H}{B}$ as the input to $g$ which corresponds to the input $x=a$ to $f$.  We now evaluate $g\left( \frac{a-H}{B}\right) = A f\left(B \cdot \frac{a-H}{B} + H\right) + K = A f(a)+K = A b + K$.  We notice that the output from $f$ is first multiplied by $A$.  As with the constant $B$, if $A > 0$, this induces only a vertical scaling.  If $A < 0$, then the $-1$ induces a reflection across the $x$-axis.  Finally, we add $K$ to the result, which is our vertical shift.  A less precise, but more intuitive way to paraphrase Theorem \ref{transformationsthm} is to think of the quantity $Bx+H$ is the `inside' of the function $f$.  What's happening inside $f$ affects the inputs or $x$-coordinates of the points on the graph of $f$.  To find the $x$-coordinates of the corresponding points on $g$, we undo what has been done to $x$ in the same way we would solve an equation.  What's happening to the output can be thought of as things happening `outside' the function, $f$.  Things happening outside affect the outputs or $y$-coordinates of the points on the graph of $f$.  Here, we follow the usual order of operations agreement: we first multiply by $A$ then add $K$ to find the corresponding $y$-coordinates on the graph of $g$.
+
+\begin{example}  Below is the complete graph of $y = f(x)$.  Use it to graph $g(x) = \frac{4-3 f(1-2x)}{2}$.
+
+\begin{center}
+
+\begin{mfpic}[20]{-5}{5}{-4}{4}
+\point[3pt]{(-2,0), (2,0), (4,-3), (-4,-3), (0,3)}
+\function{-4,4,.1}{3*cos(3.14159265*x/4)}
+\tlabel[cc](-3,0.5){\small $\left( -2, 0 \right)$}
+\tlabel[cc](2.5,0.5){\small $\left(2, 0 \right)$}
+\tlabel[cc](4,-3.5){\small $\left( 4, -3 \right)$}
+\tlabel[cc](-4,-3.5){\small $\left(-4, -3 \right)$}
+\tlabel[cc](1,3.5){\small $\left(0, 3 \right)$}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{ {$-3$} -3, {$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3}
+\normalsize
+\end{mfpic}
+
+\end{center}
+
+{\bf Solution.}  We use Theorem \ref{transformationsthm} to track the five `key points' $(-4,-3)$, $(-2,0)$, $(0,3)$, $(2,0)$ and $(4,-3)$ indicated on the graph of $f$ to their new locations.  We first rewrite $g(x)$ in the form presented in Theorem \ref{transformationsthm}, $g(x) = -\frac{3}{2}f(-2x+1) +2$.  We set $-2x+1$ equal to the $x$-coordinates of the key points and solve.  For example, solving $-2x+1 = -4$, we first subtract $1$ to get $-2x = -5$ then divide by $-2$ to get $x = \frac{5}{2}$. Subtracting the $1$ is a horizontal shift to the left $1$ unit.  Dividing by $-2$ can be thought of as a two step process:  dividing by $2$ which compresses the graph horizontally by a factor of $2$ followed by dividing (multiplying) by $-1$ which causes a reflection across the $y$-axis.  We summarize the results in the table on the next page.
+
+\[  \begin{array}{|r||r|r|r|}  
+
+\hline
+
+(a,f(a))& a & -2x+1=a & x \\ \hline
+(-4,-3) & -4 & -2x+1 = -4 & x = \frac{5}{2} \\ [1pt] \hline
+(-2,0) &  -2 &  -2x+1 = -2 & x = \frac{3}{2} \\  [1pt] \hline
+(0,3) & 0  & -2x+1 = 0 &  x = \frac{1}{2} \\ [1pt] \hline
+(2,0)  & 2 & -2x+1 = 2  &  x = -\frac{1}{2} \\[1pt] \hline
+(4,-3) & 4 & -2x+1 = 4  & x = -\frac{3}{2}  \\ [1pt] \hline
+
+\end{array} \]
+
+Next, we take each of the $x$ values and substitute them into $g(x) =$\\ $ -\frac{3}{2}f(-2x+1) +2$ to get the corresponding $y$-values.  Substituting  $x=\frac{5}{2}$, and using the fact that $f(-4)=-3$, we get \[g\left(\frac{5}{2}\right) = -\frac{3}{2}f\left(-2\left(\frac{5}{2}\right) +1\right) +2 = -\frac{3}{2} f(-4) + 2 = -\frac{3}{2}(-3) + 2 = \frac{9}{2} + 2 = \frac{13}{2}\]  We see that the output from $f$ is first multiplied by $-\frac{3}{2}$.  Thinking of this as a two step process, multiplying by $\frac{3}{2}$ then by $-1$, we have  a vertical stretching by a factor of $\frac{3}{2}$ followed by a reflection across the $x$-axis.  Adding $2$ results in a vertical shift up $2$ units.  Continuing in this manner, we get the table below.
+
+\[ \begin{array}{|r||r|r|}  
+
+\hline
+
+ x & g(x) &  (x, g(x)) \\ \hline
+\frac{5}{2}  & \frac{13}{2} &  \left(\frac{5}{2}, \frac{13}{2} \right) \\ [1pt] \hline
+\frac{3}{2}  & 2 & \left(\frac{3}{2}, 2 \right)\\ [1pt] \hline
+\frac{1}{2}  & - \frac{5}{2} & \left(\frac{1}{2}, -\frac{5}{2} \right)  \\ [1pt] \hline
+-\frac{1}{2} & 2 &  \left(-\frac{1}{2}, 2 \right) \\ [1pt] \hline
+-\frac{3}{2} & \frac{13}{2} &  \left(-\frac{3}{2}, \frac{13}{2} \right) \\ [1pt] \hline
+\end{array} \] 
+\newpage
+To graph $g$, we plot each of the points in the table above and connect them in the same order and fashion as the points to which they correspond.  Plotting $f$ and $g$ side-by-side gives
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[13]{-5}{5}{-4}{7}
+\point[3pt]{(-2,0), (2,0), (4,-3), (-4,-3), (0,3)}
+\function{-4,4,.1}{3*cos(3.14159265*x/4)}
+\tlabel[cc](-3,0.5){\scriptsize $\left( -2, 0 \right)$}
+\tlabel[cc](2.5,0.5){\scriptsize $\left(2, 0 \right)$}
+\tlabel[cc](4,-3.5){\scriptsize $\left( 4, -3 \right)$}
+\tlabel[cc](-4,-3.5){\scriptsize $\left(-4, -3 \right)$}
+\tlabel[cc](1,3.5){\scriptsize $\left(0, 3 \right)$}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,7){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2,-1,1,2,3,4,5,6}
+\tlpointsep{5pt}
+\tcaption{graph of $f$}
+\axislabels {x}{{\scriptsize $-4 \hspace{7pt}$} -4, {\scriptsize $-3 \hspace{7pt}$} -3, {\scriptsize $-2 \hspace{7pt}$} -2, {\scriptsize $-1 \hspace{7pt}$} -1, {\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize$3$} 3, {\scriptsize $4$} 4}
+\axislabels {y}{{\scriptsize $-4$} -4, {\scriptsize $-3$} -3, {\scriptsize $-2$} -2, {\scriptsize $-1$} -1, {\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3, {\scriptsize $4$} 4, {\scriptsize $5$} 5, {\scriptsize $6$} 6}
+\end{mfpic}
+
+&
+\hspace{.5in}
+&
+\begin{mfpic}[13]{-5}{5}{-4}{7}
+\point[3pt]{(-1.5,6.5), (-0.5,2), (0.5,-2.5), (1.5,2), (2.5,6.5)}
+\function{-1.5,2.5,.1}{2-4.5*cos(3.14159265*(1-2*x)/4 )}
+\tlabel[cc](-1.5,7){\scriptsize $\left( -\frac{3}{2}, \frac{13}{2} \right)$}
+\tlabel[cc](-1.75,2){\scriptsize $\left(-\frac{1}{2}, 2 \right)$}
+\tlabel[cc](1.5,-3){\scriptsize $\left( \frac{1}{2}, -\frac{5}{2} \right)$}
+\tlabel[cc](2.5,2){\scriptsize $\left(\frac{3}{2}, 2 \right)$}
+\tlabel[cc](2.5,7){\scriptsize $\left(\frac{5}{2}, \frac{13}{2} \right)$}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,7){\scriptsize $y$}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2,-1,1,2,3,4,5,6}
+\tlpointsep{5pt}
+\tcaption{graph of $g$}
+\axislabels {x}{{\scriptsize $-4 \hspace{7pt}$} -4, {\scriptsize $-3 \hspace{7pt}$} -3, {\scriptsize $-2 \hspace{7pt}$} -2, {\scriptsize $-1 \hspace{7pt}$} -1, {\scriptsize $1$} 1, {\scriptsize $2$} 2, {\scriptsize $3$} 3, {\scriptsize $4$} 4}
+\axislabels {y}{{\scriptsize $-4$} -4, {\scriptsize $-3$} -3, {\scriptsize $-2$} -2, {\scriptsize $-1$} -1,   {\scriptsize $3$} 3, {\scriptsize $4$} 4, {\scriptsize $5$} 5, {\scriptsize $6$} 6}
+\end{mfpic}
+
+\end{array}\]
+
+The reader is encouraged to graph the series of functions which shows the gradual transformation of the graph of $f$ into the graph of $g$.  We have outlined the sequence of transformations in the above exposition; all that remains is to plot the five intermediate stages.  %\qed 
+
+\end{example}
+
+Our last example turns the tables and asks for the formula of a function given a desired sequence of transformations.  If nothing else, it is a good review of function notation.
+
+
+%TRIM THIS EXAMPLE %MM EDITS
+\begin{example}  \label{graphingcalctrans} Let $f(x) = x^2$.  Find and simplify the formula of the function $g(x)$ whose graph is the result of $f$ undergoing
+ a vertical shift up $2$ units, a reflection across the $x$-axis, a horizontal shift right $1$ unit, and a horizontal stretching by a factor of $2$.
+\\%MM Heavy edits 
+\\ 
+\\
+{\bf Solution.}  We build up to a formula for $g(x)$ using intermediate functions as we've seen in previous examples.  We let $g_{\mbox{\tiny$1$}}$ take care of our first step.  From our experience with vertical shifts we can see that $g_{\mbox{\tiny$1$}}(x) = f(x) + 2 = x^2+2$.  Next, we reflect the graph of $g_{\mbox{\tiny$1$}}$ about the $x$-axis:  $g_{\mbox{\tiny$2$}}(x) = -g_{\mbox{\tiny$1$}}(x) = -\left(x^2+2\right) = -x^2-2$.  We shift the graph to the right $1$ unit by a horizontal shift where we set $g_{\mbox{\tiny$3$}}(x) = g_{\mbox{\tiny$2$}}(x-1) = -(x-1)^2-2 = -x^2+2x-3$.  Finally, we induce a horizontal stretch by a factor of $2$ to scale $g(x)$ and get $g(x) = g_{\mbox{\tiny$3$}}\left(\frac{1}{2} x\right) = -\left(\frac{1}{2} x\right)^2+2\left(\frac{1}{2} x\right)-3$ which yields $g(x) = -\frac{1}{4} x^2 + x -3$.  
+%MM edits
+\end{example}

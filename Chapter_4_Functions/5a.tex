@@ -1,0 +1,357 @@
+\subsection{Piecewise-Defined Functions}
+
+{\tmstrong{Objective: Evaluate a piecewise-defined function at a point, find all solutions for an equation involving a piecewise-defined function and graph a piecewise-defined function.}}\pp
+
+A \textit{piecewise-defined} (or simply, a \textit{piecewise}) function is a function that is defined in pieces.  More precisely, a piecewise-defined function is a function that is presented using one or more expressions, each defined over non-intersecting intervals.  An example of a piecewise-defined function is shown below.
+\begin{center}
+\[ f(x)~=~
+	\begin{cases} 
+      2x-1 & \text{if~~} x> 0\\
+			x^2-1 & \text{if~~} x\leq 0
+  \end{cases}
+\]
+\end{center}
+
+To evaluate a piecewise-defined function at a particular value of the variable, we must first compare our value to the various intervals (or domains) applied to each piece, and then substitute our value into the piece that coincides with the correct domain.  For example, since $x=1$ is greater than zero, we would use the expression $2x-1$ to evaluate $f(1)$,
+$$f(1)=2(1)-1=2-1=1.$$
+Similarly, since $x=-1$ is less than zero, we would use the expression $x^2-1$ to evaluate $f(-1)$,
+$$f(-1)=(-1)^2-1=1-1=0.$$
+Below is a table of points obtained from the piecewise-defined function $f$ above. 
+\newpage
+
+\begin{example} 
+~
+\begin{center}
+\[ f(x)~=~
+	\begin{cases} 
+      2x-1 & \text{if~~} x> 0\\
+			x^2-1 & \text{if~~} x\leq 0
+  \end{cases}
+\]
+\begin{tabular}{c|c}
+	$x$ & $f(x)$\\
+	\hline
+	$2$ & $2(2)-1=3$\\
+	\hline
+	$1$ & $2(1)-1=1$\\
+	\hline \hline
+	$0$ & $(0)^2-1=-1$\\
+	\hline
+	$-1$ & $(-1)^2-1=0$\\
+	\hline
+	$-2$ & $(-2)^2-1=3$
+\end{tabular}
+\end{center}
+\end{example}
+We have included an extra line between the values of $x=0$ and $x=1$ in the table above, in order to emphasize the changeover from one piece of our function ($2x-1$) to another ($x^2-1$).  The value of $x=0$ is very important, since it is an endpoint for the two domains of our function,  $(0,\infty)$ and $(-\infty,0]$ .  A common misconception among students is to evaluate $f(0)$ at both $2x-1$ and $x^2-1$ because it seems to ``straddle'' both individual domains.  And although the values for both pieces are equal at $x=0$,
+$$2(0)-1=-1=0^2-1$$ this will often not be the case.  Regardless, we must be careful to \textit{always} associate $x=0$ with $x^2-1$, since it is contained in our second piece's domain ($0\leq 0$) and not in our first.  Our next example demonstrates what can happen with a piecewise function, if one mishandles such values of $x$.
+
+\begin{example} 
+~
+\begin{center}
+\[ g(x)~=~
+	\begin{cases} 
+      2x+1 & \text{if~~} x> 0\\
+			x^2-1 & \text{if~~} x\leq 0
+  \end{cases}
+\]
+
+\begin{tabular}{c|c}
+	$x$ & $g(x)$\\
+	\hline
+	$2$ & $2(2)+1=5$\\
+	\hline
+	$1$ & $2(1)+1=3$\\
+	\hline \hline
+	$0$ & $(0)^2-1=-1$\\
+	\hline
+	$-1$ & $(-1)^2-1=0$\\
+	\hline
+	$-2$ & $(-2)^2-1=3$
+\end{tabular}
+\end{center}
+\end{example}
+In the previous example, we can see that both pieces for $g(x)$ do not ``match up'', since the values we obtain for both pieces at $x=0$ do not agree,
+$$g(0)=0^2-1=-1\qquad\text{but}\qquad 2(0)+1=1.$$
+Remember that when evaluating any function at a value of $x$ in its domain, we should always only ever get a \textit{single value} for $g(x)$, since this is how we defined a function earlier in the chapter.  Furthermore, if we were to associate two values ($g(0)=\pm 1$) to $x=0$, our graph would consequently contain points at $(0,-1)$ and $(0,1)$, and therefore fail the Vertical Line Test.\pp
+When we consider the graphs of both $f$ and $g$, since both pieces of $f$ seem to ``match up'' at $x=0$, we will see that the graph of $f$ will be one \textit{continuous} graph, with no breaks or separations appearing.  On the other hand, since both pieces of $g$ do not ``match up'' at $x=0$, we will see that the graph of $g$ will contain a break at $x=0$, known as a \textit{discontinuity} in the graph.  The formal definition of a \textit{continuous function} is one that is usually reserved for a follow-up course to Algebra (either Precalculus or Calculus).  Both graphs are shown below.
+
+\begin{center}
+
+\begin{tabular}{cc}
+
+\begin{mfpic}[16]{-4}{4}{-3}{6}
+\arrow \reverse \function{-2.5,0,0.1}{(x-1)*(x+1)}
+\arrow \reverse \function{2.5,0,0.1}{2*(x-0.5)}
+\point[3pt]{(0,-1),(-1,0),(-2,3),(1,1),(2,3)}
+%\gclear \circle{(1,3), 0.1}
+%\circle{(1,3), 0.1}
+%\arrow \polyline{(2,4), (2,1)}
+%\gclear \tlabelrect[cc](2,2){project down}
+%\arrow \polyline{(-3,-4), (-3,-1)}
+%\gclear \tlabelrect[cc](-3,-3){project up}
+\axes
+\tlabel[cc](4,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\xmarks{-3 step 1 until 3}
+\ymarks{-2 step 1 until 5}
+\tcaption{The graph of $f$}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3}
+\axislabels {y}{{$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4, {$5$} 5}
+\normalsize
+\end{mfpic} \hspace{.25in} &
+
+\begin{mfpic}[16]{-4}{4}{-3}{6}
+\arrow \reverse \function{-2.5,0,0.1}{(x-1)*(x+1)}
+\arrow \reverse \function{2.25,0.075,0.1}{2*(x+0.5)}
+\point[3pt]{(0,-1),(-1,0),(-2,3),(1,3),(2,5)}
+\gclear \circle{(0,1), 0.15}
+\circle{(0,1), 0.15}
+\axes
+%\arrow \polyline{(2,4), (2,1)}
+%\gclear \tlabelrect[cc](2,2){project down}
+\arrow \polyline{(1.25,1), (0.5,1)}
+\tlabel[cc](3,1){\scriptsize hole at $(0,1)$}
+\arrow \polyline{(1,-1),(0.5,-1)}
+%\gclear 
+\tlabel[cc](3,-1){\scriptsize point at $(0,-1)$}
+\tlabel[cc](4,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\xmarks{-3 step 1 until 3}
+\ymarks{-2 step 1 until 5}
+\tcaption{The graph of $g$}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3}
+\axislabels {y}{{$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4, {$5$} 5}
+\normalsize
+%\penwd{2pt} 
+%\arrow \polyline{(1,0), (-4,0)}
+%\penwd{0.5pt} 
+%\gclear \circle{(1,0), 0.1}
+%\circle{(1,0), 0.1}
+\end{mfpic}
+\end{tabular}
+\end{center}
+Notice that in order for us to have a \textit{complete} sketch of the graph of $g$, we have evaluated \textit{both} pieces of $g$ at $x=0$, so that we can properly identify the \textit{point} at the end of the quadratic piece $x^2-1$ and the \textit{hole} at the end of the linear piece, $2x+1$. In general, whenever faced with the task of graphing a piecewise-defined function, one should always make sure to identify exactly where each piece of the graph starts and stops, even if a location corresponds to a hole, i.e., a coordinate pair that is \text{not} actually a point on the graph.\pp
+We can also observe, both from how our functions are defined (algebraically) and from their graphs that the domain of both $f$ and $g$ is all real numbers, or $(-\infty,\infty)$.  To identify the range of each function, we can project each of our graphs onto the $y-$axis.  In doing so, we obtain a range of $[-1,\infty)$ for both $f$ and $g$.  Notice that although both functions produce distinctly different graphs, their range is coincidentally the same, since the quadratic piece $x^2-1$ begins at the same minimum value ($y=-1$) for each graph.\pp
+As we have already discussed evaluating piecewise-defined functions at a value of $x$, we will now address the issue of solving an equation that involves a piecewise function for all possible values of $x$.  We will do this, once again, using our functions $f$ and $g$ from before.\pp
+%\begin{center}
+%\begin{tabular}{cc}
+%\[ f(x)~=~
+%	\begin{cases} 
+%      2x-1 & \text{if~~} x> 0\\
+%			x^2-1 & \text{if~~} x\leq 0
+%  \end{cases}
+%\]
+%&
+%\[ g(x)~=~
+%	\begin{cases} 
+%      2x+1 & \text{if~~} x> 0\\
+%			x^2-1 & \text{if~~} x\leq 0
+%  \end{cases}
+%\]
+%\end{tabular}
+%\end{center}
+For some constant $k$, to find all $x$ such that $f(x)=k$, we will use the strategy outlined below, which will be the same for any piecewise-defined function.
+	\begin{itemize}
+		\item Set each separate piece equal to $k$ and solve for $x$.
+		\item Compare your answers for $x$ to the domain applied to each piece.  Only keep those solutions that coincide with the specified domain.
+	\end{itemize}
+We illustrate this approach by finding all possible zeros (or roots) of both $f$ and $g$.
+\begin{example}~~~Find the set of all zeros of \[ f(x)~=~
+	\begin{cases} 
+      2x-1 & \text{if~~} x> 0\\
+			x^2-1 & \text{if~~} x\leq 0
+  \end{cases}
+\].
+\begin{eqnarray*}
+	f(x)=0~~~~~ & &\text{Apply~to~each~piece~separately}\\
+	& &\\
+	2x-1=0,~x>0 & &\text{First~piece;~solve~for~}x\\
+	x=\frac{1}{2},~x>0 & & \text{One~solution;~coincides~with~domain}
+\end{eqnarray*}
+\begin{eqnarray*}
+	x^2-1=0~,~~~x\leq 0 & &\text{Second~piece;~solve~for~}x\\
+	(x-1)(x+1)=0,~x\leq 0 & & \text{Solve~by~factoring}\\
+	x=\pm 1,~x\leq 0 & & \text{Two~potential~solutions}\\
+	x=-1,~x\leq 0 & &\text{Exclude~} x=1; \text{does~not~coincide~with~domain}\\
+	& &\\
+	f(x)=0 \text{~when~} x=-1,~ \frac{1}{2} & & \text{Our~answer}
+\end{eqnarray*}
+\end{example} 
+~\\
+\begin{example}~~~Find the set of all zeros of \[ g(x)~=~
+\begin{cases} 
+      2x+1 & \text{if~~} x> 0\\
+			x^2-1 & \text{if~~} x\leq 0
+  \end{cases}
+\].
+\begin{eqnarray*}
+	g(x)=0~~~~~ & &\text{Apply~to~each~piece~separately}\\
+	& &\\
+	2x+1=0,~x>0 & &\text{First~piece;~solve~for~}x\\
+	x=-\frac{1}{2},~x>0 & & \text{Invalid~solution;~does~not~coincide~with~domain}\\
+	& &\\
+	x^2-1=0~,~~~x\leq 0 & &\text{Second~piece;~solve~for~}x\\
+	(x-1)(x+1)=0,~x\leq 0 & & \text{Solve~by~factoring}\\
+	x=\pm 1,~x\leq 0 & & \text{Two~potential~solutions}\\
+	x=-1,~x\leq 0 & &\text{Exclude~} x=1; \text{does~not~coincide~with~domain}\\
+	& &\\
+	g(x)=0 \text{~when~} x=-1 & & \text{Our~answer}
+\end{eqnarray*}
+\end{example}
+~\\
+Each of the previous examples can also be confirmed by the graphs that we obtained earlier.\pp
+For our next example, we will graph a piecewise function that consists of three pieces.
+\newpage
+
+\begin{example} 
+\[ h(x)~=~
+	\begin{cases} 
+      ~3 & \text{if~~} x> 0\\
+			~1 & \text{if~~} x=0\\
+			~x & \text{if~~} x<0
+  \end{cases}
+\]
+
+\begin{center}
+
+\begin{tabular}{m{1.5in}m{.25in}m{3.5in}}
+
+\begin{center}
+\begin{tabular}{c|c}
+	$x$ & $h(x)$\\
+	\hline
+	$2$ & $3$\\
+	\hline
+	$1$ & $3$\\
+	\hline \hline
+	$0$ & $1$\\
+	\hline \hline
+	$-1$ & $-1$\\
+	\hline
+	$-2$ & $-2$
+\end{tabular}
+\end{center}
+& &
+\begin{mfpic}[18]{-4}{4}{-4}{4}
+\arrow \function{0.1,3,0.1}{3}
+\arrow \reverse \function{-3,-0.1,0.1}{x}
+\point[5pt]{(0,1)}
+\gclear \circle{(0,0), 0.15}
+\circle{(0,0), 0.15}
+\gclear \circle{(0,3), 0.15}
+\circle{(0,3), 0.15}
+\axes
+\tlabel[cc](4,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\xmarks{-3 step 1 until 3}
+\ymarks{-3 step 1 until 3}
+\tcaption{The graph of $h$}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3}
+\axislabels {y}{{$-3$} -3, {$-2$} -2, {$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3}
+\normalsize
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+\end{example}
+Here, we see that our graph consists of three pieces, one of which is a single point at $(0,1)$.  We can also once again determine both algebraically and graphically that our domain is $(-\infty,\infty)$.  Using our graph, we obtain a range of $(-\infty,0)\cup\{1\}\cup\{3\}$.  Our complete graph also contains holes at $(0,3)$ and $(0,0)$.\pp
+We can easily identify all three of the coordinate pairs associated with $x=0$ (two holes and one point) by evaluating all three pieces at $x=0$.  To reinforce this concept, we will present another example of a piecewise function that consists of three pieces.
+\newpage
+\begin{example} 
+\[ f(x)~=~
+	\begin{cases} 
+      ~\frac{x}{2}-2 & \text{if~~} x\geq 3\\
+			%& \\
+			-2x^2+x+1 & \text{if~~} -2<x<2\\
+			%& \\
+			~x-8 & \text{if~~} x\leq -2
+  \end{cases}
+\]
+
+\begin{center}
+
+\begin{tabular}{m{1.5in}m{.25in}m{3.5in}}
+
+\begin{center}
+\begin{tabular}{c|c}
+	$x$ & $f(x)$\\
+	\hline
+	$4$ & $0$\\
+	\hline
+	$3$ & $-\frac{1}{2}$\\
+	\hline \hline
+	$1$ & $0$\\
+	\hline
+	%$1/4$ & $9/8$\\
+	$\frac{1}{4}$ & $\frac{9}{8}$\\
+	\hline
+	$0$ & $1$\\
+	\hline
+	$-\frac{1}{2}$ & $0$\\
+	\hline
+	$-1$ & $-2$\\
+	\hline \hline
+	$-2$ & $-10$\\
+	\hline
+	$-3$ & $-11$
+\end{tabular}
+\end{center}
+& &
+\begin{mfpic}[20]{-5}{5}{-12}{3}
+\arrow \function{3,5,0.1}{0.5*(x-4)}
+\arrow \function{-2,-4,0.1}{x-8}
+\function{-1.99,1.99,0.1}{2*(1-x)*(x+0.5)}
+\point[3.5pt]{(-3,-11),(-2,-10),(0,1),(3,-0.5),(0.25,1.125),(-0.5,0),(1,0),(4,0)}
+\gclear \circle{(-2,-9), 0.1}
+\circle{(-2,-9), 0.1}
+\gclear \circle{(2,-5), 0.1}
+\circle{(2,-5), 0.1}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-11 step 1 until 2}
+\tcaption{The graph of $f$}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-4 \hspace{7pt}$} -4, {$-3 \hspace{7pt}$} -3, {$-2 \hspace{7pt}$} -2, {$-1 \hspace{7pt}$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\axislabels {y}{{$-10$} -10, {$-8$} -8, {$-6$} -6, {$-4$} -4, {$-2$} -2, {$2$} 2}
+\normalsize
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+\end{example}
+
+In the previous example, we see that there is a ``gap'' in our domain between the $x-$coordinates of $2$ and $3$.  Hence, our domain is $(-\infty,2)\cup[3,\infty)$.  From our graph, we see that our range also contains a gap between the $y-$coordinates of $-10$ and $-9$.  Hence, our range is $(-\infty,-10]\cup(-9,\infty)$.
+\newpage
+In our example we have have also identified several other essential coordinate pairs that should be included in our graph.  We will now list each pair below, as well as the piece that is used to obtain it.  We include the function $f$, once again, for reinforcement.
+\begin{center}
+\[ f(x)~=~
+	\begin{cases} 
+      ~\frac{x}{2}-2 & \text{if~~} x\geq 3\\
+			%& \\
+			-2x^2+x+1 & \text{if~~} -2<x<2\\
+			%& \\
+			~x-8 & \text{if~~} x\leq -2
+  \end{cases}
+\]
+\end{center}
+\begin{itemize}
+\item A $y-$intercept at $(0,1)$ from our second piece
+\item An $x-$intercept at $(4,0)$ from our first piece
+\item Two $x-$intercepts at $(1,0)$ and $\left(-\frac{1}{2},0\right)$ from our second piece
+\item A vertex at $\left(\frac{1}{4},\frac{9}{8}\right)$ from our second piece
+\item An endpoint at $\left(3,-\frac{1}{2}\right)$ from our first piece
+\item An endpoint at $(-2,-10)$ from our third piece
+\item Two holes at $(-2,-9)$ and $(2,-5)$ from our second piece.
+\end{itemize}
+Lastly, we have included the point at $(-3,-11)$, to help identify the slope of the third piece of our graph.\pp
+Although this example may first appear to be quite complicated, when considered on the level of each individual piece, we see that our training in the chapters leading up to this section has adequately prepared us to handle these, as well as more challenging piecewise-defined functions that we will eventually encounter.

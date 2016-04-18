@@ -1,0 +1,95 @@
+\subsection{Evaluating Functions}
+
+%{\tmstrong{Objective: }}\pp
+
+Another function-related skill we will want to quickly master is evaluating functions at certain values of the independent variable (usually $x$).  This is accomplished by substituting the specified value into the function for $x$ and simplifying the resulting expression to find $f(x)$.  This idea of ``plugging in'' values of $x$ to find $f(x)$ is demonstrated in the following examples.
+
+\begin{example}~~~Find $f(-2)$, where $f(x)=3x^2-4x$.
+  \begin{eqnarray*}
+    f (x) = 3 x^2 - 4 x &  & \tmop{Evaluate;~Substitute~} - 2
+    \tmop{~for~each~} x\\
+    f (- 2) = 3 (- 2)^2 - 4 (- 2) &  & \tmop{Simplify~using~order~of~operations;~exponent~first}\\
+    f (- 2) = 3 (4) - 4 (- 2) &  & \tmop{Multiply}\\
+    f (- 2) = 12 + 8 &  & \tmop{Add}\\
+    f (- 2) = 20 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Find $h(4)$, where $h(x)=3^{2 x - 6}$.
+  \begin{eqnarray*}
+    h (x) = 3^{2 x - 6} &  & \tmop{Evaluate;~Substitute~} 4
+    \tmop{~for~} x\\
+    h (4) = 3^{2 (4) - 6} &  & \tmop{Simplify~exponent,~multiplying~first}\\
+    h (4) = 3^{8 - 6} &  & \tmop{Subtract} \tmop{in} \tmop{exponent}\\
+    h (4) = 3^2 &  & \tmop{Evaluate} \tmop{exponent}\\
+    h (4) = 9 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Find $k(-7)$, where $k (a) = 2 |a + 4|$.
+  \begin{eqnarray*}
+    k (a) = 2 |a + 4| &  & \tmop{Evaluate;~Substitute} -7
+    \tmop{~for~} a\\
+    k (- 7) = 2| - 7 + 4| &  & \tmop{Simplify,~add~inside~absolute~value}\\
+    k (- 7) = 2| - 3| &  & \tmop{Evaluate~absolute~value}\\
+    k (- 7) = 2 (3) &  & \tmop{Multiply}\\
+    k (- 7) = 6 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+As the previous examples show, a function can take many different forms, but
+the method to evaluate the function is always the same: replace each instance of the variable with the specified value and simplify.
+\newpage
+
+We can also substitute entire expressions into functions using this same process.  This idea is known as a \textit{composition} of two functions or expressions, and will be formally outlined in a later section.  We present the following two examples as a preview of this concept.
+
+\begin{example}~~~Find $g(3x)$, where $g(x)=x^4+1$.
+  \begin{eqnarray*}
+    g (x) = x^4 + 1 &  & \tmop{Replace~} x \tmop{~in~the~function~with~}(3 x)\\
+    g (3 x) = (3 x)^4 + 1 &  & \tmop{Simplify~exponent}\\
+    g (3 x) = 81 x^4 + 1 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Find $p(t+1)$, where $p(t)=t^2-t$.
+  \begin{eqnarray*}
+    p (t) = t^2 - t &  & \tmop{Replace~each~} t
+    \tmop{~in~} p (t) \tmop{~with~} (t + 1)\\
+    p (t + 1) = (t + 1)^2 - (t + 1) &  & \tmop{Simplify;~square~binomial}\\
+    p (t + 1) = t^2 + 2 t + 1 - (t + 1) &  & \tmop{Distribute~negative~sign}\\
+    p (t + 1) = t^2 + 2 t + 1 - t - 1 &  & \tmop{Combine~like~terms}\\
+    p (t + 1) = t^2 + t &  & \tmop{Our} \tmop{solution}\\
+    p (t + 1) = t(t + 1) &  & \tmop{Our~solution~in~factored~form}
+  \end{eqnarray*}
+\end{example}
+
+As is the case with each of the previous examples, it is important to keep in mind that each expression (or function) will often use the same variable.  Hence, it is critical that we recognize that each variable must be replaced by whatever expression appears in parentheses.\pp
+%MM
+So far, all of the previous examples have shown how to find an output when given a specific input.  Next, we will demonstrate how one can also algebraically find which input(s) yield a required output. 
+
+
+\begin{example}~~~Given $f(x)=x^2+3x+5$, find all $x$ such that $f(x)=5$.
+  \begin{eqnarray*}
+			f (x) = x^2+3x+5 & & \text{Substitute~5~in~for~} f(x)\\
+			5 = x^2+3x+5  &  & \text{Solve for~} x \text{~by~factoring}\\
+			0 = x^2+3x  &  & \text{Set~equal~to~0}\\
+			0 = x(x+3)  &  & \text{Factor}\\
+			x=0 \text{~or~} x= -3  & & \text{Our solutions}\\
+\end{eqnarray*}
+\end{example}
+
+The above answer can be verified by checking.  When we input $x=0$ into the function, we simplify to find that $f(0)=5$.  Similarly, we see that when $x=-3$, $f(-3)=5$.
+%Always be mindful that when you are given an output, your answers will always be in the form of an equation such as $x = -3$ meaning that the input the yields the required output is $-3$.
+
+\begin{example}~~~Given $h(x)=4x-1$, find all $x$ such that $h(x)=-3$.
+
+  \begin{eqnarray*}
+    h (x) = 4x-1 & & \text{Substitute~}-3 \text{~for~} h(x)\\
+   -3 = 4x-1  &  & \text{Solve~for~}x\\
+   -2 = 4x  &  & \text{Divide}\\
+	x=-\frac{1}{2}  &  & \text{Our solution}\\
+	\end{eqnarray*}
+ \end{example}
+
+It is important that we become comfortable with function notation and how to use it, as we begin to transition to more advanced algebraic concepts.
+

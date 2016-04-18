@@ -1,0 +1,157 @@
+\subsection{Quadratic Equations}\pp
+
+%\maketitle
+
+{\tmstrong{Objective: Recognize and classify a quadratic equation algebraically and graphically}}\pp
+
+A quadratic equation is an equation of the form: $$y=ax^2+bx+c$$ where the \textit{coefficients} of $a$,$b$, and $c$ are real numbers and $a\neq 0$.  This form is most commonly referred to as the \textit{standard form} of a quadratic.  We call $a$ the \textit{leading coefficient}, $ax^2$ the \textit{leading term} (also known as the \textit{quadratic term}), $bx$ the \textit{linear term} and $c$ the \textit{constant term} of the equation.  The quadratic term $ax^2$, must have a nonzero coefficient in order for the equation to be a quadratic (otherwise $y$ would be linear, in slope-intercept form). The most fundamental quadratic equation is $y=x^2$ and its graph, like all quadratics, is known as a \textit{parabola}.  
+
+\newpage
+\begin{multicols}{2}
+\begin{example}~~~$y=x^2$\\
+
+ From the standard form, since $a>0$, the graph opens upwards and is said to be \textit{concave up}.\\ \\
+ As a result, there is a minimum point, known as the \textit{vertex}, located at the origin, $(0,0)$. \\  \\
+ Notice the symmetry over the $y$-axis.\\ \\
+
+\begin{mfpic}[25]{-2.5}{2.5}{0}{5}
+\arrow \reverse \arrow \function{-2,2,.1}{x**2}
+ \axes 
+\xmarks{-2,-1,0,1,2,}
+\ymarks{1,2,3,4}
+\tlabelsep{3pt}
+\axislabels x{{$-2$}-2,{$-1$}-1,{$0$}0,{$1$}1,{$2$}2}
+\axislabels y{{$1$}1,{$2$}2,{$3$}3,{$4$}4}
+\end{mfpic}
+\end{example} 
+
+\end{multicols}
+
+~\par
+
+
+\begin{multicols}{2}
+\begin{example}~~~$y=-x^2$\\
+
+Since $a = -1$, the graph opens downward or we say that it is \textit{concave down}.\\  \\Every parabola with a negative leading coefficient ($a<0$) will be concave down with a maximum value at its vertex.\\ \\
+\begin{mfpic}[25]{-2.5}{2.5}{-4.5}{0.5}
+\arrow \reverse \arrow \function{-2,2,.1}{(-1)*((x)**2)}
+\axes
+\xmarks{-2,-1,1,2}
+\ymarks{-4,-3,-2,-1}
+\tlabelsep{3pt}
+\axislabels x{{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2}
+\axislabels y{{$-4$}-4,{$-3$}-3,{$-2$}-2,{$-1$}-1}
+\end{mfpic}
+\end{example} 
+\end{multicols}
+The graph above has the same vertex as that in the previous example, but is a reflection of the previous graph about the $y$-axis. This flip of the graph is known as a transformation and will be discussed in the next chapter.\pp
+%~\pp
+Aside from the shape and concavity, there is little else that the standard form immediately provides for graphing a quadratic.  Additional aspects related to graphing quadratics will be covered a bit later in the chapter.  Following this introduction, we will primarily focus on factoring quadratics from standard form.  With all of the algebraic material that will follow, however, it will help to have a graphical sense of a quadratic equation.
+
+\newpage
+\subsection{Introduction to Vertex Form and Graphing}\pp
+
+{\tmstrong{Objective: Recognize and utilize the vertex form to graph a quadratic}}\pp
+
+\par The most useful form for graphing a quadratic equation is the \textit{vertex form}.  A quadratic equation is said to be in vertex form if it is represented as
+%\begin{center}
+$$y=a(x-h)^2+k,$$ where $h$ and $k$ are real numbers.\pp
+%\end{center}
+It is important to note that the value $a$ appearing above is also the leading coefficient from the standard form for a quadratic.  Later, we will see the relationships between the coefficients $a,b,$ and $c$ in the standard form with $h$ and $k$ above.\pp
+When $a=1$, the graph of a quadratic equation given in vertex form can be represented as a \textit{shift}, or translation, of the original or ``parent equation'' $y = x^2$ presented earlier. %The same rules for translating absolute value and all other functions apply to moving the quadratic up, down, left, or right, as well as flipping it over the y-axis and stretching or shrinking it.  
+The vertex form, unlike the standard form, allows us to immediately identify the vertex of the resulting parabola, which will be the point ($h,k$).\pp
+
+Next, we will see a few examples of quadratics in vertex form, the last of which is a bit surprising.
+
+\begin{multicols}{2}
+\begin{example}~~~$y = (x+3)^2-9$\\
+
+The vertex is at $(-3,-9)$ and the graph can be realized as the graph of $y=x^2$ shifted left 3 units and down 9 units from the origin.\\ \\  
+Since our graph is concave up there will be two $x$-intercepts as the function opens upward from below the $x$-axis.\\ \\
+
+\begin{mfpic}[20]{-6.5}{.5}{-9.5}{.5}
+\arrow \reverse \arrow \function{-6,0,.1}{((x+3)**2)-9}
+\plotsymbol[4]{SolidCircle}{(-3,-9)}
+\axes
+\xmarks{-6,-5,-4,-3,-2,-1,0}
+\ymarks{-9,-8,-7,-6,-5,-4,-3,-2,-1}
+\tlabelsep{3pt}
+\axislabels x{%{$-5$}-5,{$-4$}-4,
+{$-3$}-3}%,{$-2$}-2,{$-1$}-1}
+\axislabels y{%{$-10$}-10,
+{$-9$}-9,%,{$-8$}-8,{$-7$}-7,
+{$-6$}-6,%{$-5$}-5,{$-4$}-4,
+{$-3$}-3}%,{$-2$}-2,{$-1$}-1}
+\end{mfpic}
+\end{example}
+\end{multicols}
+
+
+\begin{multicols}{2}
+\begin{example}~~~$y=-3(x-1)^2+2$\\
+~\\
+The vertex is at $(1,2)$ and represents a translation of the vertex for the graph of $y=x^2$ right 1 unit and up 2 units.\\  \\ 
+This graph is also concave down, since the leading coefficient $a=-3$ is less than zero.\\  \\ 
+Moreover, since $|a|>1$, the shape of the graph is narrower than those which we have seen thus far.\\ \\  
+Just like the previous example, this graph will have two $x$-intercepts as its vertex is above the $x$-axis and it opens downward.\\  
+~\vspace{1in}
+\begin{mfpic}[25]{-1.5}{3.5}{-8}{3}
+\arrow \reverse \arrow \function{-.825,2.825,.1}{((-3)*((x-1)**2))+2}
+\plotsymbol[4]{SolidCircle}{(1,2)}
+\axes
+\xmarks{-1,1,2,3}
+\ymarks{-7,-6,-5,-4,-3,-2,-1,1,2}
+\tlabelsep{3pt}
+\axislabels x{{$-1$}-1,{$1$}1,{$2$}2,{$3$}3}
+\axislabels y{{$-7$}-7,{$-6$}-6,{$-5$}-5,{$-4$}-4,{$-3$}-3, {$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2}
+\end{mfpic}
+\end{example}
+
+\end{multicols}
+
+
+\begin{multicols}{2}
+\begin{example}~~~$y=-\frac{1}{5}(x+1)^2$\\
+~\\
+The vertex is at $(-1,0)$ and represents a translation of the vertex for the graph of $y=x^2$ left 1 unit. \\ \\
+There is no vertical shift, since there is no addition of a constant outside of the given expression.\\  \\ 
+Our graph is concave down and is much wider than any example we have seen thus far.  This is on account of the fact that $a$ is both negative and $|a|<1$.  \\
+~\vspace{.5in}
+
+\begin{mfpic}[25]{-5.5}{3.5}{-3.5}{2}
+\arrow \reverse \arrow \function{-5,3,.1}{((-.2)*((x+1)**2))}
+\plotsymbol[4]{SolidCircle}{(-1,0)}
+\axes
+\xmarks{-5,-4,-3,-2,-1,1,2}
+\ymarks{-3,-2,-1,1}
+\tlabelsep{3pt}
+\axislabels x{{$-5$}-5,{$-4$}-4,{$-3$}-3,{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2,{$3$}3}
+\axislabels y{{$-3$}-3, {$-2$}-2,{$-1$}-1,{$1$}1}
+\end{mfpic}
+\end{example}
+\end{multicols}
+
+\newpage
+
+The following example shows an equation represented in both vertex and standard forms.
+	
+\begin{multicols}{2}
+\begin{example}~~~$y=x^2+3$\\
+~\\
+The vertex is at $(0,3)$ and our graph is a shift of the graph of $y=x^2$ up 3 units.\\ \\ Since our graph is concave up with a vertex above the $x$-axis, there will be no real $x$-intercepts.\\ \\  Notice that there is no horizontal shift because no number has been added or subtracted to $x$ prior to it being squared.\\ \\
+\begin{mfpic}[25]{-2.5}{2.5}{0}{7.5}
+\arrow \reverse \arrow \function{-2,2,.1}{(((x)**2))+3}
+\axes
+\xmarks{-2,-1,0,1,2}
+\ymarks{1,2,3,4,5,6,7}
+\plotsymbol[4]{SolidCircle}{(0,3)}
+\tlabelsep{3pt}
+\axislabels x{{$-2$}-2,{$-1$}-1,{$0$}0,{$1$}1,{$2$}2}
+\axislabels y{{$1$}1,{$2$}2,{$3$}3,{$4$}4,{$5$}5,{$6$}6,{$7$}7}
+\end{mfpic}
+\end{example}
+\end{multicols}
+
+This final example above may be recognized as a quadratic equation in standard form, where $b=0$.  Since there is no linear term, this quadratic is also in vertex form.\pp
+More generally, the graph of any equation of the form $$y= ax^2+c$$ has a $y$-intercept and vertex at $(0,c)$, since the resulting parabola represents a only a vertical shift of the graph of $y=x^2$ by $c$ units and no horizontal shift.

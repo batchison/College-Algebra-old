@@ -1,0 +1,390 @@
+\subsection{Reflections}
+
+{\tmstrong{Objective: Graph functions by reflecting vertically or horizontally}}\pp
+
+We now turn our attention to reflections. 
+\comment{If we %MM edits
+ reflect a point $(x,y)$ across the $x$-axis, we replace $y$ with $-y$.  If $(x,y)$ is on the graph of $f$, then $y=f(x)$, so replacing $y$ with $-y$ is the same as replacing $f(x)$ with $-f(x)$.  Hence, the graph of $y=-f(x)$ is the graph of $f$ reflected across the $x$-axis.  Similarly, the graph of $y=f(-x)$ is the graph of $f$ reflected across the $y$-axis.   Returning to the language of inputs and outputs,
+}
+%MM
+As we know from graphing quadratics,
+ multiplying the output from a function by $-1$ reflects its graph across the $x$-axis.  Alternatively, it can be verified that multiplying the input to a function by $-1$ reflects the graph across the $y$-axis.
+
+\smallskip
+
+\bbm
+
+%\smallskip
+
+\begin{thm} \label{reflections}\index{graph ! reflection about an axis}\index{reflection ! of a function graph}\textbf{Reflections}  Suppose $f$ is a function. 
+
+\begin{itemize}
+
+\item To graph $y=-f(x)$, reflect the graph of $y=f(x)$ across the $x$-axis by multiplying the $y$-coordinates of the points on the graph of $f$ by $-1$.
+
+\item To graph $y=f(-x)$, reflect the graph of $y=f(x)$ across the $y$-axis by multiplying the $x$-coordinates of the points on the graph of $f$ by $-1$.
+
+\end{itemize}
+
+\end{thm}
+
+\ebm
+
+\smallskip
+
+Applying Theorem \ref{reflections} to the graph of $y=f(x)$ given at the beginning of the section, we can graph $y=-f(x)$ by reflecting the graph of $f$ about the $x$-axis
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-1}{6}{-6}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $-1$} -1,{\tiny $-2$} -2, {\tiny $-3$} -3, {\tiny $-4$} -4, {\tiny $-5$} -5, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across $x$-axis}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize multiply each $y$-coordinate by $-1$}} 
+
+
+&
+
+\begin{mfpic}[12]{-1}{6}{-6}{6}
+%%\polyline{(0,-1), (2,-3), (4,-3), (5,-5)}
+%\point[3pt]{(0,-1), (2,-3), (4,-3), (5,-5)}
+%\tlabel[cc](-1.25,-1){\scriptsize $(0,-1)$}
+%\tlabel[cc](2,-3.5){\scriptsize $(2,-3)$}
+%\tlabel[cc](4,-2.5){\scriptsize $(4,-3)$}
+%\tlabel[cc](5,-5.5){\scriptsize $(5,-5)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=-f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $-2$} -2, {\tiny $-3$} -3, {\tiny $-4$} -4, {\tiny $-5$} -5,{\tiny $1$} 1,{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{array}\]
+
+By reflecting the graph of $f$ across the $y$-axis, we obtain the graph of $y=f(-x)$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[10]{-6}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2\hspace{7pt}$} -2, {\tiny $-3\hspace{7pt}$} -3, {\tiny $-4\hspace{7pt}$} -4, {\tiny $-5\hspace{7pt}$} -5, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across $y$-axis}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $-1$}}} 
+
+&
+
+\begin{mfpic}[10]{-6}{6}{-1}{6}
+%\polyline{(0,1), (-2,3), (-4,3), (-5,5)}
+%\point[3pt]{(0,1), (-2,3), (-4,3), (-5,5)}
+%\tlabel[cc](1,1){\scriptsize $(0,1)$}
+%\tlabel[cc](-2,3.5){\scriptsize $(-2,3)$}
+%\tlabel[cc](-4,2.5){\scriptsize $(-4,3)$}
+%\tlabel[cc](-5,5.5){\scriptsize $(-5,5)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(-x)$}
+\axes
+\xmarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1 \hspace{7pt}$} -1, {\tiny $-2\hspace{7pt}$} -2, {\tiny $-3\hspace{7pt}$} -3, {\tiny $-4\hspace{7pt}$} -4, {\tiny $-5\hspace{7pt}$} -5, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{array}\]
+
+
+%KEEP THESE EXAMPLES BUT SMUSH THEM TOGETHER
+With the addition of reflections, it is now more important than ever to consider the order of transformations, as the next example illustrates.
+
+\begin{example} Let $f(x) = \sqrt{x}$.  Use the graph of $f$ to graph the following functions.  Also, state their domains and ranges.\\
+
+%\enlargethispage{.25in}
+%\vspace{-.1in}
+\begin{multicols}{3}
+\begin{enumerate}
+
+\item  $g(x) = \sqrt{-x}$
+\item  $j(x) = \sqrt{3-x}$
+\item  $m(x) = 3 - \sqrt{x}$
+
+\end{enumerate}
+\end{multicols}
+
+%\vspace{-.2in}
+~\\
+{\bf Solution.}
+
+\begin{enumerate}
+
+\item  Looking at a $\sqrt{-x}$ may seem unacceptable, especially after we disallowed negatives from the radicands of even roots having to make those solutions be non-real.
+%MM Edit
+
+  However, we must remember that $x$ is a variable, and as such, the quantity $-x$ isn't always negative. For example, if $x=-4$, $-x = 4$, thus $\sqrt{-x} = \sqrt{-(-4)} = 2$ is perfectly well-defined.  To find the domain analytically, we set $-x \geq 0$ which gives  $x \leq 0$, so that the domain of $g$ is $(-\infty, 0]$.  Since $g(x) = f(-x)$, Theorem \ref{reflections} tells us that the graph of $g$ is the reflection of the graph of $f$ across the $y$-axis.  We accomplish this by multiplying each $x$-coordinate on the graph of $f$ by $-1$, so that the points $(0,0)$, $(1,1)$, and $(4,2)$ move to $(0,0)$, $(-1,1)$, and $(-4,2)$, respectively.  Graphically, we see that the domain of $g$ is $(-\infty, 0]$ and the range of $g$ is the same as the range of $f$, namely $[0,\infty)$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\tiny $(0,0)$}
+\tlabel[cc](1,1.5){\tiny $(1,1)$}
+\tlabel[cc](4,2.5){\tiny  $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{-1,-2,-3,-4,1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1\hspace{7pt}$} -1, {\tiny $-2\hspace{7pt}$} -2, {\tiny $-3\hspace{7pt}$} -3, {\tiny $-4\hspace{7pt}$} -4,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across $y$-axis}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $-1$}}} 
+
+&
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+%\arrow \function{0,-5,0.1}{sqrt(0-x)}
+%\point[3pt]{(0,0), (-1,1), (-4,2)}
+%\tlabel[cc](1,0.5){\tiny  $(0,0)$}
+%\tlabel[cc](-2,0.5){\tiny  $(-1,1)$}
+%\tlabel[cc](-5,1.5){\tiny  $(-4,2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=g(x) = f(-x)=\sqrt{-x}$}
+\axes
+\xmarks{-1,-2,-3,-4,1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-1\hspace{7pt}$} -1, {\tiny $-2\hspace{7pt}$} -2, {\tiny $-3\hspace{7pt}$} -3, {\tiny $-4\hspace{7pt}$} -4,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+\end{array}\]
+
+\item  To determine the domain of  $j(x) = \sqrt{3-x}$, we solve $3-x \geq 0$ and get $x \leq 3$, or $(-\infty, 3]$.  To determine which transformations we need to apply to the graph of $f$ to obtain the graph of $j$, we rewrite $j(x) = \sqrt{-x+3} = f(-x+3)$. Comparing this formula with $f(x) = \sqrt{x}$, we see that not only are we multiplying the input $x$ by $-1$, which results in a reflection across the $y$-axis, but also we are adding $3$, which indicates a horizontal shift to the left.  Does it matter in which order we do the transformations?  If so, which order is the correct order?  Let's consider the point $(4,2)$ on the graph of $f$.  We refer to the discussion leading up to Theorem \ref{hshifts}.  We know $f(4) = 2$ and wish to find the point on $y=j(x) = f(-x+3)$ which corresponds to $(4,2)$.  We set $-x+3 = 4$ and solve.  Our first step is to subtract $3$ from both sides to get $-x=1$.  Subtracting $3$ from the $x$-coordinate $4$ is shifting the point $(4,2)$ to the left.   From $-x=1$, we then multiply (or divide) both sides by $-1$ to get $x=-1$.  Multiplying the $x$-coordinate by $-1$ corresponds to reflecting the point about the $y$-axis.  Hence, we perform the horizontal shift first, then follow it with the reflection about the $y$-axis.  Starting with $f(x) = \sqrt{x}$, we let $j_{\mbox{\tiny$1$}}(x)$ be the intermediate function which shifts the graph of $f$ $3$ units to the left, $j_{\mbox{\tiny$1$}}(x) = f(x+3)$. 
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\tiny $(0,0)$}
+\tlabel[cc](1,1.5){\tiny $(1,1)$}
+\tlabel[cc](4,2.5){\tiny $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-4 \hspace{7pt}$} -4,{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left $3$ units}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize subtract $3$ from each}}{\mbox{\scriptsize $x$-coordinate}}} 
+
+&
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+%\arrow \function{-3,2,0.1}{sqrt(x+3)}
+%\point[3pt]{(-3,0), (-2,1), (1,2)}
+%\tlabel[cc](-4,0.25){\tiny $(-3,0)$}
+%\tlabel[cc](-2,1.5){\tiny $(-2,1)$}
+%\tlabel[cc](1,2.5){\tiny $(1,2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=j_{\mbox{\tiny$1$}}(x)=f(x+3)=\sqrt{x+3}$}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-4 \hspace{7pt}$} -4,{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic} \\
+
+\end{array}\]
+
+To obtain the function $j$, we reflect the graph of $j_{\mbox{\tiny$1$}}$ about $y$-axis.   Theorem \ref{reflections} tells us we have $j(x) = j_{\mbox{\tiny$1$}}(-x)$. Putting it all together, we have $j(x) = j_{\mbox{\tiny$1$}}(-x) = f(-x+3) = \sqrt{-x+3}$, which is what we want.\footnote{If we had done the reflection first, then $j_{\mbox{\tiny$1$}}(x) = f(-x)$.  Following this by a shift left would give us $j(x) = j_{\mbox{\tiny$1$}}(x+3) = f(-(x+3)) = f(-x-3) = \sqrt{-x-3}$ which isn't what we want.  However, if we did the reflection first and followed it by a shift to the right $3$ units, we would have arrived at the function $j(x)$.  We leave it to the reader to verify the details.} From the graph, we confirm the domain of $j$ is $(-\infty, 3]$ and we get that the range is $[0, \infty)$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\arrow \function{-3,2,0.1}{sqrt(x+3)}
+\point[3pt]{(-3,0), (-2,1), (1,2)}
+\tlabel[cc](-4,0.25){\tiny $(-3,0)$}
+\tlabel[cc](-2,1.5){\tiny $(-2,1)$}
+\tlabel[cc](1,2.5){\tiny $(1,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=j_{\mbox{\tiny$1$}}(x)=\sqrt{x+3}$}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-4 \hspace{7pt}$} -4,{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic} 
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across $y$-axis}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $-1$}}} 
+
+&
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+%\arrow \function{3,-2,0.1}{sqrt(3-x)}
+%\point[3pt]{(3,0), (2,1), (-1,2)}
+%\tlabel[cc](4,0.5){\tiny $(3,0)$}
+%\tlabel[cc](2,1.5){\tiny $(2,1)$}
+%\tlabel[cc](-1.5,1){\tiny $(-1,2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=j(x)=j_{\mbox{\tiny$1$}}(-x) =\sqrt{-x+3}$}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-4 \hspace{7pt}$} -4,{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{ {\tiny $2$} 2}
+\end{mfpic} \\
+
+\end{array}\]
+
+\item  The domain of $m$ works out to be the domain of $f$, $[0, \infty)$.  Rewriting $m(x) = -\sqrt{x} + 3$, we see $m(x) = -f(x) + 3$.  Since we are multiplying the output of $f$ by $-1$ and then adding $3$, we once again have two transformations to deal with:  a reflection across the $x$-axis and a vertical shift.  To determine the correct order in which to apply the transformations, we imagine trying to determine the point on the graph of $m$ which corresponds to $(4,2)$ on the graph of $f$.  Since in the formula for $m(x)$, the input to $f$ is just $x$, we substitute to find  $m(4) = -f(4)+3 = -2+3=1$.  Hence, $(4,1)$ is the corresponding point on the graph of $m$. If we closely examine the arithmetic, we see that we first multiply $f(4)$ by $-1$, which corresponds to the reflection across the $x$-axis, and then we add $3$, which corresponds to the vertical shift.  If we define an intermediate function $m_{\mbox{\tiny$1$}}(x) = -f(x)$ to take care of the reflection, we get
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,4){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-2,-1,1,2,3}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-2$} -2, {\tiny $-1$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across $x$-axis}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $y$-coordinate by $-1$}}} 
+
+&
+
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+%\arrow \function{0,5,0.1}{0-sqrt(x)}
+%\point[3pt]{(0,0), (1,-1), (4,-2)}
+%\tlabel[cc](-1,-0.5){\scriptsize $(0,0)$}
+%\tlabel[cc](1,-1.75){\scriptsize $(1,-1)$}
+%\tlabel[cc](4,-2.75){\scriptsize $(4,-2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,4){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$1$}}(x)=-f(x) = -\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,-2,1,2,3}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3}
+\end{mfpic} \\
+
+\end{array} \]
+
+To shift the graph of $m_{\mbox{\tiny$1$}}$ up $3$ units, we set $m(x) = m_{\mbox{\tiny$1$}}(x)+3$.  Since $m_{\mbox{\tiny$1$}}(x) = -f(x)$, when we put it all together, we get $m(x) = m_{\mbox{\tiny$1$}}(x)+3 = -f(x) + 3 = -\sqrt{x}+3$.   We see from the graph that the range of $m$ is $(-\infty, 3]$.
+
+\[ \begin{array}{ccc}
+ 
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+\arrow \function{0,5,0.1}{0-sqrt(x)}
+%\point[3pt]{(0,0), (1,-1), (4,-2)}
+%\tlabel[cc](-1,-0.5){\scriptsize $(0,0)$}
+%\tlabel[cc](1,-1.75){\scriptsize $(1,-1)$}
+%\tlabel[cc](4,-2.75){\scriptsize $(4,-2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,4){\scriptsize $y$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,-2,1,2,3}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2, {\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift up $3$ units}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize add $3$ to each $y$-coordinate}} 
+
+&
+
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+%\arrow \function{0,5,0.1}{3-sqrt(x)}
+%\point[3pt]{(0,3), (1,2), (4,1)}
+%\tlabel[cc](-1,3){\scriptsize $(0,3)$}
+%\tlabel[cc](1,2.5){\scriptsize $(1,2)$}
+%%\tlabel[cc](4,1.5){\scriptsize $(4,1)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,4){\scriptsize $y$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2,3,-1,-2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2, {\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic} \\
+
+\mbox{\scriptsize $y=m_{\mbox{\tiny$1$}}(x) = -\sqrt{x}$} & & \mbox{\scriptsize $y=m(x) = m_{\mbox{\tiny$1$}}(x) + 3 = -\sqrt{x} + 3$}
+
+\end{array} \]
+
+\end{enumerate}
+\end{example}

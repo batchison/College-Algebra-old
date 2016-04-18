@@ -1,0 +1,369 @@
+{\tmstrong{Objective: Solve quadratic equations by using the quadratic
+formula and use the discriminant to determine the number of real zeros of a quadratic.}}\pp
+
+Recall that the general from of a quadratic equation is $y=a x^2 + b x + c$, where $a\neq 0$. We are now ready to solve the general equation $ax^2+bx+c=0$ for $x$ by completing the square, which we show in the following example.
+
+\begin{example}~~~Solve the equation $ax^2+bx+c=0$ for all values of $x$ using the method of completing the square.
+  \begin{eqnarray*}
+    a x^2 + b x + c = 0 &  & \text{Divide each term by~} a\\
+		%\tmmathbf{\overline{a} ~~~~ \overline{a} ~~~~\overline{a}~~~~\overline{a}} &  & \\
+		x^2 + \frac{b}{a} x +\frac{c}{a}=0 & & \tmop{Separate} \tmop{constant} \tmop{term~} \frac{c}{a}\\	
+		\left( x^2 + \frac{b}{a} x\right) + \frac{c}{a} = 0 &  & \tmop{Complete} \tmop{the} \tmop{square}\\
+    %\underline{- c - c} &  & \tmop{Subtract} c \tmop{from} \tmop{both}
+    %\tmop{sides}\\
+    %a x^2 + b x = - c &  & \tmop{Divide} \tmop{each} \tmop{term} \tmop{by} a\\
+    & & \\
+		\left( \frac{1}{2} \cdot \frac{b}{a} \right)^2 = \left( \frac{b}{2 a}\right)^2 = \frac{b^2}{4 a^2} &  & \tmop{Add~and~subtract~} \frac{b^2}{4a^2}\text{~inside~parentheses}\\
+    &  & \\
+    \left( x^2 + \frac{b}{a} x+\frac{b^2}{4 a^2}-\frac{b^2}{4 a^2}\right) + \frac{c}{a} = 0 &  & \text{Separate~trinomial}\\
+    &  & \\
+	\left( x^2 + \frac{b}{a} x+\frac{b^2}{4 a^2}\right)-\frac{b^2}{4 a^2} + \frac{c}{a} = 0 &  & \text{Simplify:}\\
+		& &\\
+		-\frac{b^2}{4 a^2} + \frac{c}{a} \left( \frac{4 a}{4 a} \right) = -\frac{b^2}{4 a^2} + \frac{4 a c}{4 a^2} = -\frac{b^2 - 4 a c}{4 a^2} &  & (1) \text{~Combine~constant~terms}\\
+		&  & \\
+		\left( x^2 + \frac{b}{a} x+\frac{b^2}{4 a^2}\right)=\left( x + \frac{b}{2a}\right)^2& & (2) \text{~Factor~trinomial}\\
+		& & \\
+    \left( x + \frac{b}{2a}\right)^2-\frac{b^2 - 4 a c}{4 a^2}=0 & & \text{Now~solve~by~extracting~square~roots}\\
+    \left( x + \frac{b}{2a}\right)^2=\frac{b^2 - 4 a c}{4 a^2} & & \text{Isolate~the~square}	\end{eqnarray*}
+	\begin{eqnarray*}
+    %\tmop{Get} \tmop{common} \tmop{denominator} \tmop{on} \tmop{right}\\
+    \sqrt[]{\left( x + \frac{b}{2 a} \right)^2} = \pm \sqrt{\frac{b^2 - 4 ac}{4 a^2}} &  & \tmop{Square~root~both~sides}\\
+    &  & \\
+    x + \frac{b}{2 a} = \frac{\pm~ \sqrt[]{b^2 - 4 a c}}{2 a} &  & \tmop{Subtract} \frac{b}{2 a} \tmop{from} \tmop{both} \tmop{sides}\\
+    &  & \\
+    x = -\frac{b}{2a} \pm \frac{\sqrt[]{b^2 - 4 a c}}{2 a}&  & \text{Write as single fraction}\\
+    x=\frac{- b \pm \sqrt[]{b^2 - 4 a c}}{2 a} & &  \tmop{Our} \tmop{solution}
+	\end{eqnarray*}
+\end{example}
+
+%\newpage
+
+This solution is a very important one to us. Since we solved a \textit{general} equation
+by completing the square, we can now use this formula to solve any quadratic
+equation. Once we identify what $a, b, \tmop{and} c$ are, we
+can substitute those values into the equation $x = \frac{- b \pm~ \sqrt[]{b^2 - 4
+ac}}{2 a}$ and simplify in order to find our solution to the given quadratic. This formula is known as
+the \textit{quadratic formula}.  We call the expression underneath the square root, $b^2 - 4ac$, the \textit{discriminant} of the quadratic equation $ax^2+bx+c=0$, and will see its importance later on in the section.\pp
+
+{\bf Quadratic Formula:} The solutions to $ax^2+bx+c=0$ are given by the formula $x = \dfrac{- b \pm~ \sqrt[]{b^2 - 4 a c}}{2 a}$\pp
+
+{\bf Discriminant:} The discriminant of a quadratic equation $ax^2+bx+c=0$ is the expression  $b^2 - 4 a c$\pp
+
+
+
+%%MM Edit
+%\[ \tmmathbf{\tmop{Quadratic} \tmop{Formula} : \text{The~solutions~to~} a x^2 + b x + c = 0\\
+ %  \text{~are given by the formula~} x = \frac{- b \pm \sqrt[]{b^2 - 4 a c}}{2 a}}\]
+	
+%\[ \tmmathbf{\tmop{Discriminant} :	\text{The discriminant of a quadratic equation~} a x^2 + b x + c = 0\\ \text{~is the expression~} \sqrt[]{b^2 - 4ac}} \]
+
+We can use the quadratic formula to solve any quadratic, this is shown in the
+following examples. 
+%MM
+Notice that we focus on calculating the discriminant first, and that it will have a major impact on the type of solutions that we receive.
+%/MM
+%\newpage
+
+\begin{example}~~~Solve the given equation for all values of $x$.
+  \begin{eqnarray*}
+    x^2 + 3 x + 2 = 0 &  & \text{Identify~} a,b, \text{~and~}c\\
+		a = 1,~ b = 3,~ c = 2 & & \tmop{Use} \tmop{quadratic}
+    \tmop{formula}\\ 
+		& & \\
+    x = \frac{- 3 \pm \sqrt[]{3^2 - 4 (1) (2)}}{2 (1)} &  & \text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}%\\
+   \end{eqnarray*}
+	\begin{eqnarray*}
+    %x = \frac{- 3 \pm \sqrt[]{3^2 - 4 (1) (2)}}{2 (1)} &  & \text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}\\
+    x = \frac{- 3 \pm \sqrt[]{3^2 - 4 (1) (2)}}{2 (1)} &  & \\%\text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}\\
+		x = \frac{- 3 \pm \sqrt[]{9 - 8}}{2} &  & \tmop{Simplify}\\
+    x = \frac{- 3 \pm \sqrt[]{1}}{2} &  & \tmop{Discriminant~is~}1\\
+    x = \frac{- 3 \pm 1}{2} &  & \tmop{Evaluate} \pm; \text{~write as two equations}\\
+& & \\
+    x = \frac{- 3 + 1}{2} \tmop{~or~} \frac{- 3 - 1}{2}&  & \tmop{Simplify}\\
+    x = \frac{- 2}{2} \tmop{~or~} \frac{- 4}{2} &  & \\
+    x = - 1 \tmop{~or~} - 2 &  & \tmop{Our} \tmop{solutions}
+  \end{eqnarray*}
+\end{example}
+%MM
+%\newpage
+Notice that the previous equation resulted in two real solutions.  This is directly related to the discriminant being positive (in this case, 1).  If the discriminant had been zero, then we would not have had anything underneath the square root, meaning that the plus or minus ($\pm$) would have had no effect on the rest of the procedure.  Consequently, we would have only had one real solution.  Furthermore, since the discriminant was a perfect square, we actually could have factored our quadratic from the start.
+$$x^2+3x+2=(x+1)(x+2)$$
+%/MM
+It is important to mention that when solving using the quadratic formula, we must remember to first set the
+given equation equal to zero and make sure the quadratic is in standard form.%\pp   
+%/MM
+
+\begin{example}~~~Solve the given equation for all values of $x$.
+\begin{eqnarray*}
+   25 x^2 = 30 x + 11 &  & \tmop{First} \tmop{set} \tmop{equal} \tmop{to} \tmop{zero}\\
+%    \underline{- 30 x - 11 - 30 x - 11} &  & \tmop{Subtract} 30 x \tmop{and}
+    %11 \tmop{from} \tmop{both} \tmop{sides}\\
+    25 x^2 - 30 x - 11 = 0 &  & \text{Identify~} a,b, \text{~and~}c\\
+		a = 25,~ b = -30,~ c = -11 & & \tmop{Use} \tmop{quadratic}
+    \tmop{formula}\\ 
+		& & \\
+		x = \frac{30 \pm \sqrt[]{(- 30)^2 - 4 (25) (- 11)}}{2 (25)} &  & \text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}%\\
+  \end{eqnarray*}
+	\begin{eqnarray*}
+		x = \frac{30 \pm \sqrt[]{(- 30)^2 - 4 (25) (- 11)}}{2 (25)} &  & \\%\text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}%\\
+	  x = \frac{30 \pm \sqrt[]{900 + 1100}}{50} &  & \tmop{Simplify}\\
+    x = \frac{30 \pm \sqrt[]{2000}}{50} &  & \tmop{Discriminant~is~} 2000\\
+    x = \frac{30 \pm 20~ \sqrt[]{5}}{50} &  & \tmop{Divide} \tmop{each} \tmop{term} \tmop{by} 10\\
+    x = \frac{3 \pm 2~ \sqrt[]{5}}{5} &  & \tmop{Our} \tmop{solutions}
+		\end{eqnarray*}
+\end{example}
+~\\
+
+%\begin{vwcol}[widths={0.4,0.6},
+%sep=.3cm, %justify=flush
+%,rule=0pt]%indent=1em]
+\begin{multicols}{2}
+\begin{mfpic}[30][10]{-.5}{2}{-20.5}{1.5}
+\arrow \reverse \arrow \function{-.33,1.53,.1}{((25)*((x)**2))-(30)*x-11}
+\axes
+%\xmarks{-2,-1,1,2,3,4}
+%\ymarks{-1,1,2,3}
+\plotsymbol[4]{SolidCircle}{(1.52,0),(-.3,0)}
+%\axislabels x{{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2}
+%\axislabels y{{$-1$}-1,{$1$}1,{$2$}2,{$3$}3,{$4$}4}
+\end{mfpic}
+%\end{vwcol}
+~\vspace{.6in}\\
+In each of the previous two examples the discriminant was positive, and consequently, there were two real solutions. Graphically, quadratics with a positive discriminant will intersect the $x$-axis at two distinct points.\pp
+\noindent The included graph shows the two real solutions to $25 x^2 - 30 x - 11 = 0 $.  This example demonstrates the importance of our efforts to relate an algebraic solution to a graphical representation, in order to help internalize the meaning behind the quadratic formula.%\pp
+\end{multicols}
+%\end{vwcol}
+
+%\newpage
+
+{\tmstrong{World View Note:}} Indian mathematician Brahmagupta gave the first
+explicit formula for solving quadratics in 628. However, at that time
+mathematics was not done with variables and symbols, so the formula he gave
+was, ``To the absolute number multiplied by four times the square, add the
+square of the middle term; the square root of the same, less the middle term,
+being divided by twice the square is the value.'' This would translate to
+$\frac{\sqrt[]{4 ac + b^2} - b}{2 a}$ as the solution to the equation $a x^2 + b x = c$.\pp
+
+\begin{example}~~~Solve the given equation for all values of $x$.
+\begin{eqnarray*}
+    3 x^2 + 4 x + 8 = 2 x^2 + 6 x - 5 &  & \tmop{First} \tmop{set}
+    \tmop{equation} \tmop{equal} \tmop{to} \tmop{zero}\\
+    %\underline{- 2 x^2 - 6 x + 5 - 2 x^2 - 6 x + 5} &  & \tmop{Subtract} 2 x^2
+    %\tmop{and} 6 x \tmop{and} \tmop{add} 5\\
+    x^2 - 2 x + 13 = 0 &  &  \text{Identify~} a,b, \text{~and~}c\\ 
+		a = 1,~ b = - 2,~ c = 13, & & \tmop{Use} \tmop{quadratic} \tmop{formula}\\
+		& & \\
+    x = \frac{2 \pm \sqrt[]{(- 2)^2 - 4 (1) (13)}}{2 (1)} &  & \text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}\\
+    x = \frac{2 \pm \sqrt[]{4 - 52}}{2} &  & \text{Simplify}\\
+    x = \frac{2 \pm \sqrt[]{- 48}}{2} &  & \tmop{Discriminant~is~}-48\\
+    x = \frac{2 \pm 4 i~ \sqrt[]{3}}{2} &  & \tmop{Simplify:~reduce~radical,} \text{divide~by~2}\\
+    x = 1 \pm 2 i~ \sqrt[]{3} &  & \tmop{Our} \tmop{solutions}
+  \end{eqnarray*}
+\end{example}
+
+%\begin{vwcol}[widths={0.87,0.13},
+% sep=.8cm, justify=flush,rule=0pt,indent=1em]
+%x^2 - 2 x + 13
+%\begin{mfpic}[20][10]{-2.5}{4.5}{-0.5}{20}
+\begin{multicols}{2}
+\begin{mfpic}[10]{-2.5}{3.5}{-0.5}{17}
+\arrow \reverse \arrow \function{-1.2,3.15,.1}{(((x)**2))-(2)*x+13}
+\axes
+%\xmarks{-2,-1,1,2,3,4}
+%\ymarks{-1,1,2,3}q
+%\tlabelsep{3pt} %change
+%\axislabels x{{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2}
+%\axislabels y{{$-1$}-1,{$1$}1,{$2$}2,{$3$}3,{$4$}4}
+\end{mfpic}
+
+~\vspace{.5in}\\
+%\end{vwcol}
+The previous example has two complex solutions that are not real.  Consequently, we see that graphically our parabola has no $x-$intercepts.  This results from the discriminant being negative, -48 in this case.
+\end{multicols}
+
+
+
+%\begin{mfpic}[20]{-2.5}{4.5}{-0.5}{25}
+%\arrow \reverse \arrow \function{-2.5,4.5,.1}{(((x)**2))-(2)*x+13}
+%\axes
+%\tlabelsep{3pt}
+%\end{mfpic}
+
+
+
+
+When using the quadratic formula, it is possible to \textit{not} obtain two unique real (or complex) solutions.  If the discriminant under the square root simplifies to zero, we can end up with only one real solution.\pp
+As it turns out, this single solution will coincide with the vertex of our parabola, ($h,k$).  Recalling that $h=-\frac{b}{2a}$, we can verify that this result makes sense, when we consider that a discriminant of zero will eliminate the term $\pm\frac{\sqrt{b^2-4ac}}{2a}$ from our quadratic formula completely.  What we are left with is precisely $h$.\pp
+Our next example will result in a single real solution, and will coincide to a parabola that touches the $x$-axis exactly once, at its vertex. 
+
+%\newpage
+
+\begin{example}~~~Solve the given equation for all values of $x$.
+%\begin{vwcol}[widths={0.87,0.13},
+% sep=.8cm, justify=flush,rule=0pt,indent=1em]
+   \begin{eqnarray*}
+    4 x^2 - 12 x + 9 = 0 &  & \text{Identify~} a,b, \text{~and~}c\\
+		 a = 4,~ b = - 12,~ c = 9, & & \tmop{Use} \tmop{quadratic} \tmop{formula}\\
+		& & \\
+    x = \frac{12 \pm \sqrt[]{(- 12)^2 - 4 (4) (9)}}{2 (4)} &  &\text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}\\
+    x = \frac{12 \pm \sqrt[]{144 - 144}}{8} &  & \tmop{Simplify}\\
+    x = \frac{12 \pm \sqrt[]{0}}{8} &  & \tmop{Discriminant~is~zero}\\
+    x = \frac{12 \pm 0}{8} &  & \tmop{We~get~one~real~solution}\\
+    x = \frac{12}{8} &  & \tmop{Reduce} \tmop{fraction}\\
+    x = \frac{3}{2} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+A graph of our resulting parabola, shown below, confirms our previous result.%4 x^2 - 12 x + 9 
+\begin{center}
+\begin{mfpic}[20]{-.5}{3}{-0.5}{5}
+\arrow \reverse \arrow \function{0.5,2.5,.1}{((4)*((x)**2))-(12)*x+9}
+\axes
+%\xmarks{-2,-1,1,2,3,4}
+%\ymarks{-1,1,2,3}q
+\plotsymbol[4]{SolidCircle}{(1.5,0)}
+\tlabelsep{3pt}
+\axislabels x{{$3/2$}1.5}%,{$-1$}-1,{$1$}1,{$2$}2}
+%\axislabels y{{$-1$}-1,{$1$}1,{$2$}2,{$3$}3,{$4$}4}
+\end{mfpic}
+%\end{vwcol}
+%\end{example}
+\end{center}
+%\vspace{.25 in}
+
+If a term is absent from our quadratic, we can still use the quadratic
+formula and simply use zero in place of the missing coefficient. The order of terms, however, is still important.  If, for example, the
+linear term was absent, we would use $b = 0$.  And, if the constant term is missing, we
+would use $c=0$.\pp
+%MM
+\newpage
+
+It is necessary that we take extra precautions when using the quadratic formula, since one false step can lead to a substantial amount of time lost.  Taking the time to write the quadratic in standard form, set equal to zero, and identify the correct values for $a$,$b$, and $c$ is crucial to the success of the quadratic formula.
+
+\begin{example}~~~Solve the given equation for all values of $x$.
+%\begin{vwcol}[widths={0.87,0.13},
+% sep=.8cm, justify=flush,rule=0pt,indent=1em]  
+  \begin{eqnarray*}
+    3 x^2 + 7 = 0 &  & \text{Identify~} a,b, \text{~and~}c\\
+		a = 3,~ b = 0~ (\tmop{missing} \tmop{term}),~ c = 7 & & \tmop{Use} \tmop{quadratic} \tmop{formula}\\
+    & & \\
+		x = \frac{- 0 \pm \sqrt[]{0^2 - 4 (3) (7)}}{2 (3)} &  & \text{Substitute~} a,b, \text{~and~} c \text{~without~simplifying}\\
+    x = \frac{\pm~ \sqrt[]{- 84}}{6} &  & \tmop{Simplify;~discriminant~is~}-84\\
+    x = \frac{\pm 2 i~ \sqrt[]{21}}{6} &  & \tmop{Reduce~radical} \tmop{and~divide~by~}2\\
+    x = \frac{\pm i~ \sqrt[]{21}}{3} &  & \tmop{Our} \tmop{solutions}
+  \end{eqnarray*}
+\end{example}
+We leave it as an exercise to the reader to graph the corresponding parabola and confirm that our solution is correct.  Remember, the fact that we have two imaginary solutions means that our parabola should have no $x-$intercepts.\pp
+	%MAKE A GRAPH
+	%\end{vwcol}
+
+%MM
+\newpage
+
+As we have seen in the previous examples, the discriminant determines the nature and quantity of the solutions of the quadratic formula.  The following collection of graphs summarizes both the graphical and algebraic consequences for each type of discriminant (negative, zero, or positive).\pp %\MM
+
+\begin{center}
+\begin{mfpic}[17]{-10}{10}{-5}{5}
+\arrow\reverse\arrow\function{-9.3,-6.7,0.1}{(x+8)**2+1}
+%\tlabel[bc](-8.3,-6.8){Negative Disciminant}%OTHER OPTION
+\tlabel[bc](-7.3,-2.8){Negative Disciminant} %$\sqrt{b^2 - 4 a c}$  $<$0}%OTHER OPTION
+\tlabel[bc](-7.3,-3.8){$b^2 - 4 a c$  $<$0} 
+\tlabel[bc](-7.3,-4.8){Zero Real Solutions} 
+%\tlabel[bc](-9.3,-6.8){Negative Disciminant }%OTHER OPTION
+\arrow\reverse\arrow\function{-0.65,2.65,0.1}{(x-1)**2}
+%\tlabel[bc](-.65,-6.8){Zero Disciminant}%OTHER OPTION
+\tlabel[bc](0,-2.8){Zero Disciminant}%OTHER OPTION
+\tlabel[bc](0,-3.8){$b^2 - 4 a c$  $=$0}
+\tlabel[bc](0,-4.8){One Real Solution} 
+\arrow\reverse\arrow\function{5.25,8.75,0.1}{(x-6)*(x-8)}
+\tlabel[bc](7.25,-2.8){Positive Disciminant} %OTHER OPTION
+\tlabel[bc](7.25,-3.8){$b^2 - 4 a c$  $>$0}
+\tlabel[bc](7.25,-4.8){Two Real Solutions}
+\nocenteredcaptions
+%\tcaption[.1,.75]{Positive ~~~ Negative ~~~ Zero ~~~Discriminant}
+%\tcaption{Positive ~~~ Negative ~~~ Zero ~~~Discriminant} %ONE OPTION
+%\xmarks{-9,-8,-7,-6,-5,-2,-1,0,1,2,5,6,7,8,9}
+%\ymarks{-2,-1,0,1,2,3,4}
+\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-10,0),(-4,0)}
+\arrow\reverse\arrow\polyline{(-3,0),(3,0)}
+\arrow\reverse\arrow\polyline{(4,0),(10,0)}
+\arrow\reverse\arrow\polyline{(-7,-1.5),(-7,3)}
+\arrow\reverse\arrow\polyline{(0,-1.5),(0,3)}
+\arrow\reverse\arrow\polyline{(7,-1.5),(7,3)}
+\point[2.3pt]{(1,0),(6,0),(8,0)}
+\end{mfpic}
+\end{center}
+
+\begin{center}
+\begin{mfpic}[17]{-10}{10}{-5}{5}
+\arrow\reverse\arrow\function{-9.3,-6.7,0.1}{(-1)*((x+8)**2)-1}
+\arrow\reverse\arrow\function{-0.65,2.65,0.1}{(-1)*((x-1)**2)}
+\arrow\reverse\arrow\function{5.25,8.75,0.1}{(-1)*(x-6)*(x-8)}
+
+%\xmarks{-9,-8,-7,-6,-5,-2,-1,0,1,2,5,6,7,8,9}
+%\ymarks{-2,-1,0,1,2,3,4}
+\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-10,0),(-4,0)}
+\arrow\reverse\arrow\polyline{(-3,0),(3,0)}
+\arrow\reverse\arrow\polyline{(4,0),(10,0)}
+\arrow\reverse\arrow\polyline{(-7,-1.5),(-7,3)}
+\arrow\reverse\arrow\polyline{(0,-1.5),(0,3)}
+\arrow\reverse\arrow\polyline{(7,-1.5),(7,3)}
+\point[2.3pt]{(1,0),(6,0),(8,0)}
+\end{mfpic}
+\end{center}
+
+\newpage
+
+We have now outlined three different methods to use to solve a quadratic equation:
+factoring, extracting square roots, and using the quadratic formula. It is important to
+be familiar with all three methods, since each has its advantages.\pp
+The following table suggests a procedure to help determine which method
+might be best to use for solving a given quadratic equation.\pp
+
+\begin{tabular}{|l|l|}
+  \hline
+  1. If we can easily factor, solve by factoring & $\begin{array}{l}
+    ~~~~~~~x^2 - 5 x + 6 = 0\\
+    ~~~(x - 2) (x - 3) = 0\\
+    ~~~~~~~x = 2 \tmop{~or~} x = 3
+  \end{array}$\\
+  \hline
+  2.~$\begin{array}{l}
+	\text{If~} a=1 \text{~and~} b \text{~is even, complete the square}\\
+	\text{(or use the vertex formula) and extract}\\
+	\text{square roots}
+	\end{array}$ & $\begin{array}{l}
+    ~~~~~~~~x^2 + 2 x - 4=0\\
+    ~\\
+		~~~~~~~~\left( \frac{1}{2} \cdot 2 \right)^2 = 1^2 = 1\\
+    ~\\
+		(x^2 + 2 x + 1) -1-4=0\\
+    ~~~~~~~(x + 1)^2 - 5=0\\
+    ~~~(x + 1)^2=5\\
+    ~~~~~~~x + 1 = \pm~ \sqrt[]{5}\\
+    ~~~~~~~~~~~~x = - 1 \pm~ \sqrt[]{5}
+  \end{array}$\\
+  \hline
+  3. As a last resort, apply the quadratic formula & $\begin{array}{l}
+    ~~~~~~~~x^2 - 3 x + 4 = 0\\
+    ~\\
+		x = \dfrac{3 \pm~ \sqrt[]{(- 3)^2 - 4 (1) (4)}}{2 (1)}\\
+    ~\\
+		~~~~~~~~x = \dfrac{3 \pm i~ \sqrt[]{7}}{2}\\
+		~
+  \end{array}$\\
+  \hline
+\end{tabular}
+~\pp
+
+The above table is merely a suggestion for approaching quadratic equations. %MM 
+Recall that completing the square and extracting square roots, as well as the quadratic formula may always
+be used to solve any quadratic, but often may not be the most efficient or ``clean'' method. %/MM
+Factoring can be very efficient but only works if the given equation can be factored.
+ 
+
+
+
+
+

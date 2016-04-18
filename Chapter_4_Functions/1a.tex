@@ -1,0 +1,343 @@
+\subsection{Definitions and the Vertical Line Test}
+
+\noindent {\tmstrong{Objective: Identify functions and use correct notation to evaluate functions at specific values.}}\pp
+
+A {\bf relation} $R$ is a set of points in the $xy$-plane.  A relation in which each $x$-coordinate is paired with exactly one $y$-coordinate is said to describe $y$ as a {\bf function} of $x$.  Relations which represent functions of $x$ will often be denoted by $f$, or $f(x)$, rather than $R$.  The set of all $x$-coordinates of the points in a function $f$ is called the {\bf domain} of $f$, and the set of all $y$-coordinates of the points in $f$ is called the {\bf range} of $f$.\par
+
+\begin{example}
+
+The following examples represent relations.  Examples (5) and (6) also represent $y$ as a \textit{function} of $x$, $y=f(x)$, since each $x-$coordinate is paired with exactly one $y-$coordinate.
+
+\begin{enumerate}
+\item $\{(1,1),(2,-3),(2,0),(0,3),(-2,1/2)\}$
+\item $\{(x,y)~|~x>3 \text{~and~} y\leq 2\}$
+\item $x^2+y^2=9$
+\item $x=y^2$
+\item $y=x^2$
+\item $y=3-2x$
+\end{enumerate}
+\end{example}
+
+Alternatively, one can define a function as a rule that assigns to each element of one set (the domain) exactly one element of a second set (the range).  This definition is essentially the same as that given above, but avoids the term ``relation'' entirely.  In each definition, however, the critical phrase that cannot be overlooked is ``\textit{exactly one}''.  This means that the first four relations given above cannot represent $y$ as a function of $x$, since, for example, the third relation contains the points $(0,3)$ and $(0,-3)$.  On the other hand, each of the last two relations above can be considered to represent $y$ as a function of $x$.  Furthermore, their graphs should also look familiar, since they represent a quadratic equation ($y=x^2$) and a linear equation ($y=-2x+3$).\pp
+%\newpage
+In each of the last two examples above, we refer to the variable $x$ as the {\bf independent variable}, since we are free to choose any real number for $x$.  We consequently refer to $y$ as the {\bf dependent variable}, since its value depends on the choice of value for $x$.  One can also more simply refer to $x$ as the \textit{input} of the function and $y$ as the \textit{output}.  This terminology naturally lends itself to what is the standard function notation of $f(x)$, read as ``$f$ of $x$''.  In the following example, we will use the given function to complete a table of values for $x$ and $f(x)$.  Each pair $(x,f(x))$ corresponds to a point $(x,y)$ on the graph of $f$.\par
+%\newpage
+
+\begin{example} $f(x)=x^2-4x-5$
+\begin{center}
+\begin{tabular}{c|c}
+	$x$ & $f(x)$\\
+	\hline
+	$-2$ & $(-2)^2-4(-2)-5=7$\\
+	\hline
+	$-1$ & $(-1)^2-4(-1)-5=0$\\
+	\hline
+	$0$ & $(0)^2-4(0)-5=-5$\\
+	\hline
+	$1$ & $(1)^2-4(1)-5=-8$\\
+	\hline
+	$2$ & $(2)^2-4(2)-5=-9$
+\end{tabular}
+\end{center}
+\end{example}
+
+%\newpage
+To complete each row of the table, we simply substitute the specified value for $x$ into the given equation and simplify.  So, if we wanted to complete another row in the table, we could substitute $x=3$ into the equation to obtain $f(3)=(3)^2-4(3)-5=-8$.
+\newpage
+
+In the previous example, the $y$-coordinates for the relation $y=x^2-4x-5$ are represented by $f(x)$, or more simply $y=f(x)$.  It is important to note that the parentheses in function notation do not represent multiplication.  This is a common misconception among students.  Instead, one should consider the parentheses as an identifier, enclosing the value of $x$ that the rule $f$ is applied to.  This will be especially important as we discuss composite functions later in the chapter.\pp 
+%\newpage
+% RIGHT HERE SHOULD GO THE FUNCTION NOTATION PIECE
+% From a graph as well as algebraically
+
+In the following examples we will answer a variety of questions related to functions and their graphs.  First, we will consider the case where we are presented with the graph of a particular function and asked to identify specific values of $x$ or $f(x)$ from it.
+ 
+\begin{center}
+\begin{mfpic}[20]{-3}{3}{-2}{5}
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\arrow   \function{1.05,2.5,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+%\gclear \circle{(1,-1), 0.1}
+\point[3.5pt]{(1,-1)}
+%\point[3pt]{(0,.2),(.5,1),(1,.7),(1.5,0),(2,.3)}
+
+
+\axes
+\tlabel[cc](3,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tcaption{The graph of $f$}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-2$} -2, {-1} -1, {$1$} 1, {$2$} 2}
+\axislabels {y}{{$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\normalsize
+\end{mfpic}
+\end{center}
+
+In our first scenario, we will be provided with an input $x$ and asked to find the output $f(x)$.  To find an output when given a specific input, locate the input value on the $x$-axis and follow the vertical line (above and below) the input value until it intersects, or ``hits'', the graph.  The corresponding $y-$coordinate for the point of intersection will be the desired output, $y=f(x)$.
+\newpage
+
+\begin{example}~~~Use the graph of $f$ provided to find the desired outputs.
+  \begin{eqnarray*}
+    f (2) =~?  & & \text{What is~} y \text{~when~} x=2?\\
+   f (2) = 0 &  & \text{Our answer}\\ \\
+    f (0) =~? & & \text{What is~} y \text{~when~} x=0?\\
+   f (0) = 4 &  & \text{Our answer}\\ \\
+	 f (1) =~? & & \text{What is~} y \text{~when~} x=1?\\
+   f (1) = -1 &  & \text{Our answer}
+	\end{eqnarray*}
+ \end{example}
+	
+It is important to point out that many students will misinterpret the last example and incorrectly conclude that $f(1)=3$, since the open circle at $(1,3)$ appears to coincide with the rest of the graph of $f$.  An \textit{open} circle, however, is used to identify a \textit{break} in the graph of $f$, also known as a point of \textit{discontinuity}.  In fact, the given function is not defined at $(1,3)$, but rather at the \textbf{solid} (or \textit{closed}) point $(1,-1)$.  Hence, we get a corresponding value of $y=-1$ for $f(x)$.\pp
+
+Next, we will be provided with an output $y$ and asked to find all corresponding inputs $x$ such that $f(x)=y$.  To find all possible inputs, we will make a simple adjustment to the method used in the previous example.  Now, we will locate the output value on the $y$-axis and follow the horizontal line (left and right) of the output value until it intersects, or ``hits'', the graph.  All corresponding $x-$coordinates for the points of intersection will represent the set of all values of $x$ such that $f(x)$ equals our given output $y$ and should be included as part of our final answer.
+
+\begin{center}
+\begin{mfpic}[20]{-3}{3}{-2}{5}
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\arrow   \function{1.05,2.5,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+%\gclear \circle{(1,-1), 0.1}
+\point[3.5pt]{(1,-1)}
+%\point[3pt]{(0,.2),(.5,1),(1,.7),(1.5,0),(2,.3)}
+
+
+\axes
+\tlabel[cc](3,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tcaption{The graph of $f$}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{{$-2$} -2, {-1} -1, {$1$} 1, {$2$} 2}
+\axislabels {y}{{$-1$} -1, {$1$} 1, {$2$} 2, {$3$} 3, {$4$} 4}
+\normalsize
+\end{mfpic}
+\end{center}
+
+\begin{example}~~~Use the graph above to find all possible inputs that correspond to the specified output.
+  \begin{eqnarray*}
+    \text{Find~} x \text{~where~} f (x) = 0. & & \text{Which inputs for~} x \text{~have an output of~} y=0?\\
+   x=-2,2 &  & \text{Our answers}\\
+    \text{Find~} x \text{~where~} f (x) = 3. & & \text{Which inputs for~} x \text{~have an output of~} y=3?\\
+   x=-1 & & \text{Our answer; We should not include~} x=1.
+	\end{eqnarray*}
+ \end{example}
+
+Similarly, if we were also asked to find all possible $x$ such that $f(x)=-1$, then we would end up with three values, since there are three points that intersect the horizontal line $y=-1$, namely $x\approx -2.2$, $x=1$, and $x\approx 2.2$.\pp
+
+There are four major representations of functions: verbal (in words), numerical (using a table), symbolic (with an algebraic expression), and visual (with a graph).  %Up until this point, we have seen examples of graphical and symbolic representations.  
+In many cases, we will be asked to identify one representation of $y$ as a function of $x$ when given a different representation.  The next two examples demonstrate this.\pp
+
+\begin{example}~~~Provide the symbolic form for each of the following verbal descriptions of a function.
+\begin{enumerate}
+	\item Add $2$ to a value and then take the square root of the resulting value. 
+\begin{center}
+Our answer~~~~~~~$f(x)=\sqrt{2+x}$
+\end{center}
+	\item Take the square root of a value and then add $2$ to the resulting value.
+\begin{center}
+Our answer~~~~~~~$g(x)=\sqrt{x}+2$
+\end{center}
+\end{enumerate}
+\end{example}
+Note: It is often beneficial to rewrite $g(x)$ in the previous example as $g(x)=2+\sqrt{x}$, so as not to accidentally extend the radical to include the $+2$.
+\newpage
+
+\begin{example}~~~Provide a graphical representation for the function given by the following table of values.
+\begin{center}
+\begin{tabular}{m{1.5in}m{3.5in}}
+
+\begin{tabular}{c|c}
+	$x$ & $f(x)$\\
+	\hline
+	-3 & -1/3\\
+	\hline
+	-2 & -1/2\\
+	\hline
+	-1 & -1\\
+	\hline
+	-1/2 & -2\\
+	\hline
+	1/2 & 2\\
+	\hline
+	1 & 1\\
+	\hline
+	2 & 1/2\\
+	\hline
+	3 & 1/3
+\end{tabular}
+ 
+&
+
+\begin{mfpic}[20]{-4}{4}{-3}{3}
+\arrow \reverse \arrow \function{-3.25,-.35,0.1}{1/x}
+\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](4,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\xmarks{-3 step 1 until 3}
+\ymarks{-2 step 1 until 2}
+\tlpointsep{5pt}
+\scriptsize
+\axislabels {x}{%{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, 
+{$1$} 1,{$2$} 2,{$3$} 3}
+\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+
+\end{tabular}
+
+\end{center}
+\end{example}
+
+Since there are often advantages to working with either symbolic or graphical representations of functions, we will focus our attention on working with these two representations.  One major test that is used to determine whether or not a graph of a relation represents $y$ as a function of $x$ is known as the Vertical Line Test.  We will now state the Vertical Line Test as a mathematical theorem and then demonstrate its use.\pp
+
+{\bf Vertical Line Test}: A set of points in the $xy$-plane represents $y$ as a function of $x$ if and only if no two points lie on the same vertical line.\pp
+
+Alternatively stated, if a graph is known to represent $y$ as a function of $x$, then there can be no vertical line that intersects the graph in more than one point.  Conversely, if a known graph has the property that no vertical line intersects it in more than one point, then the given graph represents $y$ as a function of $x$.
+\newpage 
+
+\begin{example}~~~Use the Vertical Line Test to determine whether or not each of the following graphs represent $y$ as a function of $x$.
+\begin{center}
+\begin{tabular}{m{2.5in}m{2.5in}}
+
+\begin{mfpic}[14]{-5}{5}{-5}{5}
+%\arrow \reverse \arrow \function{-3.25,-.35,0.1}{1/x}
+%\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+\point[4pt]{(1,1),(2,-3),(2,0),(0,3),(-2,.5)}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+\scriptsize
+\tcaption{\small$\{(1,1),(2,-3),(2,0),(0,3),(-2,1/2)\}$}
+%\axislabels {x}{{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2,{$3$} 3}
+%\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+\hspace{.25in} 
+ 
+&
+
+\begin{mfpic}[14]{-5}{5}{-4.5}{5}
+\polyline{(3,2), (4.5,2)}
+\dashed\polyline{(3,2), (3,-4.5)}
+\fillcolor[gray]{0.8}
+\gfill \rect{(3.05,-4.5), (4.5,1.95)}
+\circle{(3,2), 0.15}
+%\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+%\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+\scriptsize
+\tcaption{$\{(x,y)~|~x>3$ ~and~ $y\leq 2\}$}
+%\axislabels {x}{{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2,{$3$} 3}
+%\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{m{2.5in}m{2.5in}}
+
+\begin{mfpic}[14]{-5}{5}{-5}{5}
+\parafcn{0,3.14159,0.1}{(3cos(t),3sin(t))}
+\parafcn{0,3.14159,0.1}{(3cos(t),-3sin(t))}
+\axes
+%\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+\scriptsize
+\tcaption{$x^2+y^2=9$}
+%\axislabels {x}{{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2,{$3$} 3}
+%\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+\hspace{.25in} 
+ 
+&
+
+\begin{mfpic}[14]{-5}{5}{-5}{5}
+\arrow \parafcn{0,2.25,0.1}{(t^2,t)}
+\arrow\parafcn{0,-2.25,0.1}{(t^2,t)}
+%\arrow \reverse \arrow \function{-3.25,-.35,0.1}{1/x}
+%\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+%\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+\scriptsize
+\tcaption{$x=y^2$}
+%\axislabels {x}{{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2,{$3$} 3}
+%\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{m{2.5in}m{2.5in}}
+
+\begin{mfpic}[14]{-5}{5}{-5}{5}
+\arrow \reverse \arrow \function{-2.1,2.1,0.1}{x**2}
+%\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+%\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+\scriptsize
+\tcaption{$y=x^2$}
+%\axislabels {x}{{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2,{$3$} 3}
+%\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+\hspace{.25in} 
+
+&
+
+\begin{mfpic}[14]{-5}{5}{-5}{5}
+\arrow \reverse \arrow \function{-1.25,3.5,0.1}{3-2*x}
+%\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+%\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+\scriptsize
+\tcaption{$y=3-2x$}
+%\axislabels {x}{{$-3 \hspace{7pt}$} -3,{$-2 \hspace{7pt}$} -2,{$-1 \hspace{7pt}$} -1, {$1$} 1,{$2$} 2,{$3$} 3}
+%\axislabels {y}{{$1$} 1, {$2$} 2}
+\normalsize
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+\end{example}
+
+In each example, we utilize the Vertical Line Test by ``slicing'' through each graph with several vertical lines, located at various values along the $x$-axis.  Consequently, we can see that each of the first four examples at the beginning of the section \textit{do not} represent $y$ as a function of $x$, since in each case there exists at least one vertical line that intersects the graph in two (or possibly more) points.  The last two examples \textit{do} represent $y$ as a function of $x$, since no such vertical line exists.  As a result, we say that the first four examples \textit{fail} the Vertical Line Test, and the last two examples \textit{pass} the Vertical Line Test.\par

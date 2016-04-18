@@ -1,0 +1,277 @@
+{\tmstrong{Objective: Solve and give interval notation for the solution to a polynomial inequality.  Create a sign diagram to identify those intervals where a polynomial expression is positive or negative.}}\pp
+
+%\subsection{Quadratic Inequalities}
+
+Recall that in Chapter 1 we were faced with having to solve linear inequalities such as $-2x+3\geq 0$.  For the most part, this process was just as straight-forward as solving a linear equation, with the only exception being the careful consideration of division (or multiplication) by a negative.  This simply required a change in the direction of the inequality.\pp
+For example, we now know that $-2x+3\geq 0$ when $x\leq \frac{3}{2}$.  This solution could then be reinforced graphically through the introduction of a sign diagram, which describes the intervals in which a given expression (or function) is positive or negative.  An example for $f(x)=-2x+3$ is shown below.\pp
+
+%INSERT DIAGRAM 1 HERE\pp
+
+
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Case} & \underline{Test Value} & \underline{Unsimplified} & \underline{Result} \\
+i & $x=0$ & ($-2(0)+3$) & ($+$) \\
+ii & $x=2$ & ($-2(2)+3$) & ($-$)\\
+
+\end{tabular}
+\end{center}
+Our end result can be summarized in the following \textit{sign diagram}.
+%PASTE HERE
+\begin{center}
+\begin{mfpic}[15]{-9}{3}{-3}{2}
+\arrow \reverse \arrow \polyline{(-9,0),(3,0)}
+\xmarks{-3}
+\tlpointsep{4pt}
+\tlabel[cc](-3,-1){$\frac{3}{2}$}
+\tlabel[cc](-6,1){$(+)$}
+\tlabel[cc](-6,-1.5){$x=0$}
+\tlabel[cc](0,1){$(-)$}
+\tlabel[cc](0,-1.5){$x=2$}
+
+\polyline{(-3,0.5),(-3,2)}
+%\polyline{(3,0.5),(3,2)}
+\end{mfpic} 
+\end{center}
+
+%From our sign diagram, we can conclude that $x^2-1<0$ when $-1<x<1$, or using interval notation, %($-1,1$).
+
+
+
+
+
+
+
+
+
+
+
+Later, in Chapter 3 we discovered that solving a quadratic inequality such as $-2x^2+13x-15<0$ required a more careful treatment of the expression.  In this case, since $-2x^2+13x-15=(-2x+3)(x-5)$, we recognized that the inequality $-2x^2+13x-15<0$ holds whenever:
+
+\begin{center}
+1.$\qquad -2x+3<0\qquad$ and $\qquad x-5>0~$\\
+~\\
+OR\\
+~\\
+2.$\qquad -2x+3>0\qquad$ and $\qquad x-5<0.$
+\end{center}
+In other words, the inequality $-2x^2+13x-15<0$ will hold for all values of $x$ that, when plugged into the expression, yield \text{opposite signs} for each factor, since $(-)\cdot(+)=(-)$ and vice versa.\pp
+Similarly, if both factors of the original expression yield the same sign for a particular value of $x$, either $(+)\cdot(+)$ or $(-)\cdot(-)$, then we know that\\ $-2x^2+13x-15>0$ for $x$.\pp
+The resulting sign diagram for this case is shown below.\pp
+
+%INSERT DIAGRAM 2 HERE\pp
+
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Case} & \underline{Test Value} & \underline{Unsimplified} & \underline{Simplified} & \underline{Result}\\
+i & $x=0$ & ($-2(0)+3$)($0-5$) & ($+$)$\cdot$($-$) & ($-$)\\
+ii & $x=2$ & ($-2(2)+3$)($2-5$) & ($-$)$\cdot$($-$) & ($+$)\\
+iii & $x=6$ & ($-2(6)+3$)($6-5$) & ($-$)$\cdot$($+$) & ($-$)
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{mfpic}[15]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,3}
+\tlpointsep{4pt}
+%\axislabels {x}{{$-1.5$} -3}
+\tlabel[cc](-6,1){$(-)$}
+\tlabel[cc](-6,-1.5){$x=0$}
+\tlabel[cc](0,1){$(+)$}
+\tlabel[cc](0,-1.5){$x=2$}
+\tlabel[cc](6,1){$(-)$}
+\tlabel[cc](6,-1.5){$x=6$}
+\polyline{(-3,0.5),(-3,2)}
+\tlabel[cc](-3,-1){$\frac{3}{2}$}
+\polyline{(3,0.5),(3,2)}
+\tlabel[cc](3,-1){$5$}
+\end{mfpic} 
+\end{center}
+
+We conclude that $-2x^2+13x-15>0$ for $x$ on the interval $\left(\frac{3}{2},5\right)$.\pp
+
+Once again, our sign diagram for $f(x)=-2x^2+13x-15$ presented us with a nice visual of this, which we were able to relate to the graph of $f$.  Specifically, if $-2x^2+13x-15>0$, then the graph of $f$ will reside \textit{above} the $x$-axis.  On the other hand, if $-2x^2+13x-15<0$, then the graph of $f$ will reside \textit{below} the $x$-axis.  We include the graph in this case for confirmation that our diagram and solution to the inequality are correct.\pp
+
+
+
+\begin{center}
+\begin{mfpic}[20][6]{-2}{8}{-18}{8}
+\arrow\reverse\arrow\function{-0.25,6.75,0.1}{(-2x+3)*(x-5)}
+\xmarks{0,1,2,3,4,5,6,7}
+\ymarks{-16,-14,-12,-10,-8,-6,-4,-2,0,2,4,6}
+%\tlabel[cc](-1,-1){\scriptsize $-1$}
+\tlabel[cc](1,-1){\scriptsize $1$}
+\tlabel[cc](2,-1){\scriptsize $2$}
+\tlabel[cc](3,-1){\scriptsize $3$}
+\tlabel[cc](4,-1){\scriptsize $4$}
+\tlabel[cc](6,-1){\scriptsize $6$}
+\tlabel[cc](7,-1){\scriptsize $7$}
+%\tlabel[cc](-0.75,9){$9$}
+%\tlabel[cc](-.8,-16){\scriptsize $-16$}
+\tlabel[cc](-.8,-14){\scriptsize $-14$}
+\tlabel[cc](-.8,-12){\scriptsize $-12$}
+\tlabel[cc](-.8,-10){\scriptsize $-10$}
+\tlabel[cc](-.8,-8){\scriptsize $-8$}
+\tlabel[cc](-.8,-6){\scriptsize $-6$}
+\tlabel[cc](-.8,-4){\scriptsize $-4$}
+\tlabel[cc](-.8,-2){\scriptsize $-2$}
+\tlabel[cc](0.3,2){\scriptsize $2$}
+\tlabel[cc](0.3,4){\scriptsize $4$}
+\tlabel[cc](0.3,6){\scriptsize $6$}
+\tlabel[cc](-0.3,8){$y$}
+\tlabel[cc](8,-1){$x$}
+%\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-2,0),(8,0)}
+\arrow\reverse\arrow\polyline{(0,-18),(0,8)}
+\point[2.9pt]{(1.5,0),(5,0),(0,-15)}
+%\penwd{2pt}
+%\function{.5,6,0.1}{(-2x+3)*(x-5)}
+\end{mfpic}
+\end{center}
+
+Notice that our treatment of a quadratic inequality proved significantly more challenging than solving a linear inequality due to the introduction of a second factor.  This same treatment must be applied to a polynomial inequality, which may contain one (linear), two (quadratic), three (cubic), or even more factors.  Working off of our previous two inequalities, we will consider the following cubic polynomial, which includes an additional factor of $x$.
+\begin{eqnarray*}
+f(x)&=&-2x^3+13x^2-15x\\
+&=&x(-2x+3)(x-5)
+\end{eqnarray*} 
+
+Here we will make our sign diagram, being careful to plug in any test values located between the zeros, just as in the previous examples.
+
+
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Case} & \underline{Test Value} & \underline{Unsimplified} & \underline{Simplified} & \underline{Result}\\
+i & $x=-1$ & (-1)($-2(-1)+3$)($-1-5$) & ($-$)$\cdot$($+$)$\cdot$($-$) & ($+$)\\
+ii & $x=1$ & (1)($-2(1)+3$)($1-5$) & ($+$)$\cdot$($+$)$\cdot$($-$) & ($-$)\\
+iii & $x=3$ & (3)($-2(3)+3$)($3-5$) & ($+$)$\cdot$($-$)$\cdot$($-$) & ($+$)\\
+iv &  $x=6$ & (6)($-2(6)+3$)($6-5$)& ($+$)$\cdot$($-$)$\cdot$($+$) & ($-$)
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{mfpic}[15]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-4,0,4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$-1.5$} -3}
+\tlabel[cc](-6,1){$(+)$}
+\tlabel[cc](-6,-1.5){$x=-1$}
+\tlabel[cc](-2,1){$(-)$}
+\tlabel[cc](-2,-1.5){$x=1$}
+\tlabel[cc](2,1){$(+)$}
+\tlabel[cc](2,-1.5){$x=3$}
+\tlabel[cc](6,1){$(-)$}
+\tlabel[cc](6,-1.5){$x=6$}
+\polyline{(-4,0.5),(-4,2)}
+\tlabel[cc](-4,-1){$0$}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](0,-1){$\frac{3}{2}$}
+\polyline{(4,0.5),(4,2)}
+\tlabel[cc](4,-1){$5$}
+\end{mfpic} 
+\end{center}
+
+So, if we were asked to solve the polynomial inequality $$-2x^3+13x^2-15x\leq 0,$$ we could conclude from our diagram that the solution is $$\left[0,\frac{3}{2}\right]\cup[5,\infty).$$
+
+Once again, we can verify that our answer is correct by comparing it to the graph of $f$, shown below.
+
+\begin{center}
+\begin{mfpic}[30][8]{0}{6}{-7}{25}
+\arrow\reverse\arrow\function{-.5,5.1,0.1}{(x)*(-2x+3)*(x-5)}
+\xmarks{-1,1,2,3,4,5}
+\ymarks{-6,-3,3,6,9,12,15,18,21,24}
+\tlabel[cc](-1,-1){\scriptsize $-1$}
+\tlabel[cc](1,-1){\scriptsize $1$}
+\tlabel[cc](2,-1){\scriptsize $2$}
+\tlabel[cc](3,-1){\scriptsize $3$}
+\tlabel[cc](4,-1){\scriptsize $4$}
+\tlabel[cc](-0.3,-3){\scriptsize $-3$}
+\tlabel[cc](-0.3,-6){\scriptsize $-6$}
+\tlabel[cc](0.3,3){\scriptsize $3$}
+\tlabel[cc](0.3,6){\scriptsize $6$}
+\tlabel[cc](0.3,9){\scriptsize $9$}
+\tlabel[cc](0.3,12){\scriptsize $12$}
+\tlabel[cc](0.3,15){\scriptsize $15$}
+\tlabel[cc](0.3,18){\scriptsize $18$}
+\tlabel[cc](0.3,21){\scriptsize $21$}
+\tlabel[cc](0.3,24){\scriptsize $24$}
+\tlabel[cc](-0.2,25){$y$}
+\tlabel[cc](6,-1){$x$}
+%\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-2,0),(6,0)}
+\arrow\reverse\arrow\polyline{(0,-7),(0,25)}
+\point[2.9pt]{(0,0),(1.5,0),(5,0)}
+%\penwd{2pt}
+%\axes
+\end{mfpic}
+\end{center}
+
+Now that we have arrived at sign diagrams of cubic functions, we will give one more example of solving a cubic inequality.
+
+
+\begin{example}~~~Find all $x$ such that $x^3<4x^2$.
+\end{example}
+
+Before we begin solving the given inequality, we must \textit{always} begin by setting one side equal to zero, leaving us with the inequality $x^3-4x^2<0$.\pp
+
+By factoring $x^3-4x^2$ as $x^2(x-4)$, we can identify zeros of the expression on the left-hand side at $x=0$ and $x=4$.
+From here, we construct a sign diagram. \\ \\
+
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Case} & \underline{Test Value} & \underline{Unsimplified} & \underline{Simplified} & \underline{Result}\\
+i & $x=-1$ & $(-1)^2($-1-4$)$ & ($+$)$\cdot$($-$) & ($-$)\\
+ii & $x=1$ & $(1)^2($1-4$)$ & ($+$)$\cdot$($-$) & ($-$)\\
+iii & $x=5$ & $(5)^2($5-4$)$ & ($+$)$\cdot$($+$) & ($+$)\\
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{mfpic}[15]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,3}
+\tlpointsep{4pt}
+%\axislabels {x}{{$-1.5$} -3}
+\tlabel[cc](-6,1){$(-)$}
+\tlabel[cc](-6,-1.5){$x=-1$}
+\tlabel[cc](0,1){$(-)$}
+\tlabel[cc](0,-1.5){$x=1$}
+\tlabel[cc](6,1){$(+)$}
+\tlabel[cc](6,-1.5){$x=5$}
+\polyline{(-3,0.5),(-3,2)}
+\tlabel[cc](-3,-1){$0$}
+\polyline{(3,0.5),(3,2)}
+\tlabel[cc](3,-1){$4$}
+\end{mfpic} 
+\end{center}
+
+Finally, our answer includes the regions where the expression $x^3-4x^2$ is less than but not equal to zero, which we will represent as the union of  two intervals:  $(-\infty,0) \cup (0,4)$.  Our careful steps have insured that this is also the solution for the original inequality of $x^3<4x^2$.  We leave it as an exercise to the reader to sketch a graph of the function $f(x)=x^3-4x^2$, and confirm that our answer is correct.\pp
+
+At this point it is worth mentioning that one should never assume that the signs appearing in a sign diagram will always alternate from ($+$) to ($-$) or vice versa.  This is a common misconception by students, and our previous example illustrates its fallacy.  In fact, the appearance of a ($-$) on either side of the root $x=0$ in our previous example, is directly related to the \textit{even multiplicity} of the root.\pp
+
+Additionally, the value at $x=0$ is identified as a ``critical point'' in our previous sign diagram \textit{only} because it appears as a \textit{root} of $x^3-4x^2$.  Although we are always interested in identifying the point that corresponds to $x=0$ (a $y-$intercept) on a graph, we need only label $x=0$ on a sign diagram if it is either a root or is being used as a test value for a particular interval.  The following diagram has been included for reinforcement of this concept.
+ 
+\begin{center}
+\begin{mfpic}[22]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-4,0,4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$-1.5$} -3}
+\tlabel[cc](-6,1){($\pm$)}
+\tlabel[cc](-6,-1.5){\scriptsize $x=$~Test Value}
+\tlabel[cc](-2,1){($\pm$)}
+\tlabel[cc](-2,-1.5){\scriptsize $x=$~Test Value}
+\tlabel[cc](2,1){($\pm$)}
+\tlabel[cc](2,-1.5){\scriptsize $x=$~Test Value}
+\tlabel[cc](6,1){($\pm$)}
+\tlabel[cc](6,-1.5){\scriptsize $x=$~Test Value}
+\polyline{(-4,0.5),(-4,2)}
+\tlabel[cc](-4,-0.7){\scriptsize Root}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](0,-0.7){\scriptsize Root}
+\polyline{(4,0.5),(4,2)}
+\tlabel[cc](4,-0.7){\scriptsize Root}
+\end{mfpic} 
+\end{center}
+\newpage
+Whether we are faced with a linear function (degree 1) a quadratic function (degree 2), or a polynomial having a much larger degree (3,4,...), if the polynomial can be easily factored, one can always quickly construct a sign diagram to get a better idea of the behavior of the polynomial function and its corresponding graph.  The method for this is the same as that which we have outlined in each of the previous examples.  The difficulty only lies in what function or inequality we are presented with.

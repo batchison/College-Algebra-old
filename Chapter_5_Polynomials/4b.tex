@@ -1,0 +1,124 @@
+\subsection{Zeros and Local Behavior}
+
+{\tmstrong{Objective: Determine how local behavior at each zero is determined by the multiplicity of its corresponding factor.}}\pp
+
+Consider $f(x) = x^3 (x-3)^2 (x+2)\left(x^2+1\right)$, whose sign diagram and graph are reproduced below for reference.   Its end behavior is the same as that of its leading term $x^{8}$ based on our end behavior discussion in the first part of this section. 
+This tells us that the graph of $y=f(x)$ starts and ends above the $x$-axis.  In other words, $f(x)$ is $(+)$ as $x \rightarrow \pm \infty$, and as a result, we no longer need to evaluate $f$ at the test values $x=-3$ and $x=4$.  Is there a way to eliminate the need to evaluate $f$ at the other test values?  What we would really need to know is how the function behaves near its zeros: does it cross through the $x$-axis at these points, as it does at $x=-2$ and $x=0$, or does it simply touch and rebound like it does at $x=3$?  From the sign diagram, the graph of $f$ will cross the $x$-axis whenever the signs on either side of the zero switch (like they do at $x=-2$ and $x=0$);  it will touch when the signs are the same on either side of the zero (as is the case with $x=3$). What we need to determine is the reason behind whether or not the sign change occurs.\\ \\
+
+\begin{center}
+\begin{multicols}{2}
+
+\begin{mfpic}[10]{-8}{8}{-2}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,0,3}
+\arrow \polyline{(-5,-1.5),(-5,-0.5)}
+\arrow \polyline{(-1.5,-1.5),(-1.5,-0.5)}
+\arrow \polyline{(1.5,-1.5),(1.5,-0.5)}
+\arrow \polyline{(5,-1.5),(5,-0.5)}
+\tlpointsep{4pt}
+\axislabels {x}{{$-2$} -3, {$0$} 0, {$3$} 3 }
+\tlabel[cc](-5,1){$(+)$}
+\tlabel[cc](-5,-2.25){$-3$}
+\tlabel[cc](-3,1){$0$}
+\tlabel[cc](-1.5,1){$(-)$}
+\tlabel[cc](-1.75,-2.25){$-1$}
+\tlabel[cc](0,1){$0$}
+\tlabel[cc](1.5,1){$(+)$}
+\tlabel[cc](1.5,-2.25){$1$}
+\tlabel[cc](3,1){$0$}
+\tlabel[cc](5,1){$(+)$}
+\tlabel[cc](5,-2.25){$4$}
+\end{mfpic} 
+
+\begin{mfpic}[15]{-5}{5}{-2}{3}
+\arrow \reverse \arrow \function{-2.2,3.5, 0.1}{0.05*((x)**3)*(x+2)*((x-3)**2)} 
+\axes
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\point[3pt]{(-2,0), (0,0), (3,0)}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\tcaption{ \scriptsize A sketch of $y=f(x)$}
+\end{mfpic} 
+
+\end{multicols}
+\end{center}
+
+Fortunately, $f$ was given to us in factored form:  $f(x) = x^3 (x-3)^2 (x+2)$.  When we attempt to determine the sign of $f(-4)$, we are attempting to find the sign of the number $(-4)^3 (-7)^2 (-2)$, which works out to be $(-)(+)(-)$ which is $(+)$.  If we move to the other side of $x=-2$, and find the sign of $f(-1)$, we are determining the sign of  $(-1)^3 (-4)^2 (+1)$, which is $(-)(+)(+)$ which gives us the $(-)$.  Notice that signs of the first two factors in both expressions are the same in $f(-4)$ and $f(-1)$.  The only factor which switches sign is the third factor, $(x+2)$, precisely the factor which gave us the zero $x=-2$.  If we move to the other side of $0$ and look closely at $f(1)$, we get the sign pattern $(+1)^3(-2)^2(+3)$ or $(+)(+)(+)$ and we note that, once again, going from $f(-1)$ to $f(1)$, the only factor which changed sign was the first factor, $x^3$, which corresponds to the zero $x=0$.  Finally, to find $f(4)$, we substitute to get $(+4)^3(+2)^2(+5)$ which is $(+)(+)(+)$ or $(+)$.  The sign didn't change for the middle factor $(x-3)^2$.  Even though this is the factor which corresponds to the zero $x=3$, the fact that the quantity is \textit{squared} kept the sign of the middle factor the same on either side of $3$.  If we look back at the exponents on the factors $(x+2)$ and $x^3$, we see that they both were both odd, so as we substitute values to the left and right of the corresponding zeros, the signs of the corresponding factors changed which resulted in the sign of the function value changing.  This is the key to the behavior of the function near the zeros with odd degree.  Alternatively, notice how the sign didn't change for the factor with an even exponent.  
+\smallskip
+
+\begin{defn} \label{multiplicity} 
+Suppose $f$ is a polynomial function and $m$ is a natural number. If $(x-c)^{m}$ is a factor of $f(x)$ but $(x-c)^{m+1}$ is not, then we say $x=c$ is a zero of \index{polynomial function ! zero ! multiplicity}\index{multiplicity ! of a zero}\index{zero ! multiplicity of}\textbf{multiplicity} $m$.
+\end{defn}
+
+\smallskip
+
+Hence,  rewriting  $f(x) = x^3 (x-3)^2 (x+2)$ as $f(x) = (x-0)^3 (x-3)^2 (x-(-2))^{1}$, we see that $x=0$ is a zero of multiplicity $3$, $x=3$ is a zero of multiplicity $2$ and $x=-2$ is a zero of multiplicity $1$.
+
+\smallskip
+
+\begin{thm} \label{roleofmultiplicity}
+ \textbf{The Role of Multiplicity:}  Suppose $f$ is a polynomial function  and $x=c$ is a zero of multiplicity $m$.  \index{multiplicity ! effect on the graph of a polynomial}
+
+\begin{itemize}
+
+\item  If $m$ is even, the graph of $y=f(x)$ touches and rebounds from the $x$-axis at $(c,0)$, leaving the y-values to maintain the same sign on either side of the given zero.
+
+\item  If $m$ is odd, the graph of $y=f(x)$ crosses through the $x$-axis at $(c,0)$, leaving the y-values to change signs on either side of the zero.
+
+\end{itemize}
+
+\end{thm}
+
+\medskip
+
+Our last example shows how end behavior and multiplicity allow us to sketch a decent graph without needing to create a sign diagram. 
+
+\begin{example}
+ \ 
+\end{example} Sketch the graph of $f(x) = -3(2x-1)(x+1)^2$ using end behavior and the multiplicity of its zeros.
+
+\bigskip
+
+{ \bf Solution.}  The end behavior of the graph of $f$ will match that of its leading term.  To find the leading term, we multiply by the leading terms of each factor to get $(-3)(2x)(x)^2 = -6x^3$.  This tells us that the graph will start above the $x$-axis, in Quadrant II, and finish below the $x$-axis, in Quadrant IV.  Next, we find the zeros of $f$.  Fortunately for us, $f$ is factored.
+Setting each factor equal to zero gives is $x = \frac{1}{2}$ and $x=-1$ as zeros. To find the multiplicity of $x=\frac{1}{2}$ we note that it corresponds to the factor $(2x-1)$ and that exponent, and thus the multiplicity of this factor is 1.
+Since $1$ is an odd number, we know that the graph of $f$ will cross through the $x$-axis at $\left(\frac{1}{2},0\right)$.   Since the zero $x=-1$ corresponds to the factor $(x+1)^2 = (x-(-1))^2$, we find its multiplicity to be $2$ which is an even number.  As such, the graph of $f$ will touch and rebound from the $x$-axis at $(-1,0)$.  Though we're not asked to, we can find the $y$-intercept by finding $f(0) = -3(2(0)-1)(0+1)^2 = 3$.  Thus,  $(0,3)$ is an additional point on the graph.  Putting this together gives us the graph below.
+
+\begin{center}
+
+\begin{mfpic}[20][10]{-3}{3}{-5}{5}
+\arrow \reverse \arrow \function{-1.75,0.75,0.1}{0-1.5*(2*x-1)*((x+1)**2)}
+\axes
+\tlabel[cc](3,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,5){\scriptsize $y$}
+\point[3pt]{(0.5,0), (-1,0), (0,1.5) }
+\xmarks{-2,-1,0,1,2}
+\ymarks{0.5, 1.0, 1.5, 2}
+\end{mfpic}
+
+\end{center} 
+
+\vspace{-.25in}
+
+\begin{example}
+ \ 
+\end{example} Sketch the graph of $f(x) = x^2(x-2)^2$ using end behavior and the multiplicity of its zeros.
+
+\bigskip
+
+{ \bf Solution.}  The end behavior of the graph of $f$ will match that of its leading term.  To find the leading term, we multiply by the leading terms of each factor to get $(x^2)(x^2) = x^4$.  This tells us that the graph will start above the $x$-axis, in Quadrant II, and finish above the $x$-axis, in Quadrant I.  Conversationally, we might say that the graph \"Starts up\" (from the left) and \"ends up\" (to the right).  Next, we find the zeros of $f$ since it is in factored form.  Setting each factor equal to zero gives us zeros of $x=0$ with multiplicity two, and $x= 2$ with multiplicity 2 as well. Since $2$ is an even number, we know that the graph of $f$ will touch the x-axis and rebound without changing sign at both $x=0$ and $x=2$.  
+In addition, plugging in zero for x will yield a $y$-intercept of zero so $(0,0)$ is an additional point on the graph.  Putting this together gives us the following graph:\\
+
+\begin{center}
+
+\begin{mfpic}[30][20]{-1}{2}{-5}{2}
+\arrow \reverse \arrow \function{-.8,2.8,0.1}{0-1.0*((x-2)**2)*((x)**2)}
+\axes
+\tlabel[cc](2,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+
+\point[3pt]{(2,0), (0,0) }
+\xmarks{1,2}
+\ymarks{-5,-4,-3,-2,-1,1}
+\end{mfpic}
+
+\end{center}
