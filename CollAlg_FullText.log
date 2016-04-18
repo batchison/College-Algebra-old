@@ -1,0 +1,5225 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.5.29)  18 APR 2016 00:35
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**CollAlg_FullText.tex
+(./CollAlg_FullText.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(c:/texlive/2014/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2014/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(c:/texlive/2014/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(c:/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(c:/texlive/2014/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count100
+\ST@wd=\dimen112
+\ST@rightskip=\skip58
+\ST@leftskip=\skip59
+\ST@parfillskip=\skip60
+\ST@pageleft=\dimen113
+\ST@headht=\dimen114
+\ST@tailht=\dimen115
+\ST@pagesofar=\dimen116
+\ST@pboxht=\dimen117
+\ST@lineht=\dimen118
+\ST@stretchht=\dimen119
+\ST@prevht=\dimen120
+\ST@toadd=\dimen121
+\ST@dimen=\dimen122
+\ST@pbox=\box28
+)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count101
+\LTcapwidth=\dimen123
+\LT@head=\box29
+\LT@firsthead=\box30
+\LT@foot=\box31
+\LT@lastfoot=\box32
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks26
+)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(c:/texlive/2014/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen124
+\extrarowheight=\dimen125
+\NC@list=\toks27
+\extratabsurround=\skip65
+\backup@length=\skip66
+)
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+
+(c:/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count106
+))
+\everycr=\toks28
+\minrowclearance=\skip67
+)
+(c:/texlive/2014/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
+\c@tracingmulticols=\count107
+\mult@box=\box33
+\multicol@leftmargin=\dimen126
+\c@unbalance=\count108
+\c@collectmore=\count109
+\doublecol@number=\count110
+\multicoltolerance=\count111
+\multicolpretolerance=\count112
+\full@width=\dimen127
+\page@free=\dimen128
+\premulticols=\dimen129
+\postmulticols=\dimen130
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen131
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count113
+\c@finalcolumnbadness=\count114
+\last@try=\dimen132
+\multicolovershoot=\dimen133
+\multicolundershoot=\dimen134
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count115
+)
+(c:/texlive/2014/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty)
+(c:/texlive/2014/texmf-dist/tex/latex/chapterfolder/chapterfolder.sty
+Package: chapterfolder 2005/11/24 v2.0 Package for dealing with folder
+
+(c:/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@@cf@currentpos=\count116
+)
+(c:/texlive/2014/texmf-dist/tex/generic/mfpic/mfpic.sty
+Package: mfpic 2012/12/03 v1.10. Macros for drawing with Metafont/MetaPost.
+
+(c:/texlive/2014/texmf-dist/tex/generic/mfpic/mfpic.tex
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\mfp@out=\write3
+\mfp@graph=\read1
+\mfp@count=\count117
+\mfp@linetype=\count118
+\mfp@sequence=\count119
+\mfp@toks=\toks29
+\mfp@verbtex=\toks30
+\mfp@fdc=\count120
+\@wholegraph=\box59
+\@textbox=\box60
+\@alltlabels=\box61
+\@backtext=\box62
+\@tlabelstop=\fontdimen 23\mfp@dummy 
+\@tlabelsbot=\fontdimen 24\mfp@dummy 
+\@tlabelsleft=\fontdimen 25\mfp@dummy 
+\@graphright=\fontdimen 26\mfp@dummy 
+\@graphleft=\fontdimen 27\mfp@dummy 
+\@graphtop=\fontdimen 28\mfp@dummy 
+\@graphbot=\fontdimen 29\mfp@dummy 
+\tb@raise=\fontdimen 30\mfp@dummy 
+\tb@moveright=\fontdimen 31\mfp@dummy 
+\tb@totalht=\fontdimen 32\mfp@dummy 
+\tlabel@hadj=\fontdimen 33\mfp@dummy 
+\tlabel@vadj=\fontdimen 34\mfp@dummy 
+\tlabel@sep=\fontdimen 35\mfp@dummy 
+\tlpath@sep=\fontdimen 36\mfp@dummy 
+\mfpicunit=\fontdimen 37\mfp@dummy 
+\@mfpicunit=\fontdimen 38\mfp@dummy 
+\pointsize=\fontdimen 39\mfp@dummy 
+\shadespace=\fontdimen 40\mfp@dummy 
+\polkadotspace=\fontdimen 41\mfp@dummy 
+\hatchspace=\fontdimen 42\mfp@dummy 
+\headlen=\fontdimen 43\mfp@dummy 
+\axisheadlen=\fontdimen 44\mfp@dummy 
+\sideheadlen=\fontdimen 45\mfp@dummy 
+\hashlen=\fontdimen 46\mfp@dummy 
+\dashlen=\fontdimen 47\mfp@dummy 
+\dashspace=\fontdimen 48\mfp@dummy 
+\dotsize=\fontdimen 49\mfp@dummy 
+\griddotsize=\fontdimen 50\mfp@dummy 
+\dotspace=\fontdimen 51\mfp@dummy 
+\symbolspace=\fontdimen 52\mfp@dummy 
+\mfp@scratch=\dimen135
+\mfpframesep=\dimen136
+\mfpframethickness=\dimen137
+\mfpicheight=\dimen138
+\mfpicwidth=\dimen139
+\mfpiccaptionskip=\skip70
+\tl@vpos=\count121
+\tl@hpos=\count122
+\mfp@commentchar=\count123
+))
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+)
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen142
+\pgfutil@tempdimb=\dimen143
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box63
+
+(c:/texlive/2014/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen144
+\pgf@y=\dimen145
+\pgf@xa=\dimen146
+\pgf@ya=\dimen147
+\pgf@xb=\dimen148
+\pgf@yb=\dimen149
+\pgf@xc=\dimen150
+\pgf@yc=\dimen151
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count124
+\c@pgf@countb=\count125
+\c@pgf@countc=\count126
+\c@pgf@countd=\count127
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+ (c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count128
+\pgfsyssoftpath@bigbuffer@items=\count129
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (c:/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen152
+\pgfmath@count=\count130
+\pgfmath@box=\box64
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count131
+))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen153
+\pgf@picmaxx=\dimen154
+\pgf@picminy=\dimen155
+\pgf@picmaxy=\dimen156
+\pgf@pathminx=\dimen157
+\pgf@pathmaxx=\dimen158
+\pgf@pathminy=\dimen159
+\pgf@pathmaxy=\dimen160
+\pgf@xx=\dimen161
+\pgf@xy=\dimen162
+\pgf@yx=\dimen163
+\pgf@yy=\dimen164
+\pgf@zx=\dimen165
+\pgf@zy=\dimen166
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen167
+\pgf@path@lasty=\dimen168
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen169
+\pgf@shorten@start@additional=\dimen170
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count132
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen171
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen172
+\pgf@pt@y=\dimen173
+\pgf@pt@temp=\dimen174
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen175
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen176
+\pgf@sys@shading@range@num=\count133
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box68
+))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box69
+)
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen177
+\pgf@nodesepend=\dimen178
+)
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+)) (c:/texlive/2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen179
+\pgffor@skip=\dimen180
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count134
+\pgfplotmarksize=\dimen181
+)
+\tikz@lastx=\dimen182
+\tikz@lasty=\dimen183
+\tikz@lastxsaved=\dimen184
+\tikz@lastysaved=\dimen185
+\tikzleveldistance=\dimen186
+\tikzsiblingdistance=\dimen187
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count135
+\tikznumberofchildren=\count136
+\tikznumberofcurrentchild=\count137
+\tikz@fig@count=\count138
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count139
+\pgfmatrixcurrentcolumn=\count140
+\pgf@matrix@numberofcolumns=\count141
+)
+\tikz@expandcount=\count142
+
+(c:/texlive/2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+))) (c:/texlive/2014/texmf-dist/tex/generic/xypic/xy.sty
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes,
+docmode, (c:/texlive/2014/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen188
+\Y@c=\dimen189
+\U@c=\dimen190
+\D@c=\dimen191
+\L@c=\dimen192
+\R@c=\dimen193
+\Edge@c=\toks44
+\X@p=\dimen194
+\Y@p=\dimen195
+\U@p=\dimen196
+\D@p=\dimen197
+\L@p=\dimen198
+\R@p=\dimen199
+\Edge@p=\toks45
+\X@origin=\dimen200
+\Y@origin=\dimen201
+\X@xbase=\dimen202
+\Y@xbase=\dimen203
+\X@ybase=\dimen204
+\Y@ybase=\dimen205
+\X@min=\dimen206
+\Y@min=\dimen207
+\X@max=\dimen208
+\Y@max=\dimen209
+\lastobjectbox@=\box74
+\zerodotbox@=\box75
+\almostz@=\dimen210
+ direction,
+\d@X=\dimen211
+\d@Y=\dimen212
+\K@=\count143
+\KK@=\count144
+\Direction=\count145
+\K@dXdY=\dimen213
+\K@dYdX=\dimen214
+\xyread@=\read3
+\xywrite@=\write5
+\csp@=\count146
+\quotPTK@=\dimen215
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks46
+\connectobjectbox@@=\box76
+ objects,
+\styletoks@=\toks47
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count147
+\Col=\count148
+\queue@=\toks48
+\queue@@=\toks49
+\qcount@=\count149
+\qcount@@=\count150
+\matrixsize@=\count151
+ loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count152
+\crvpts@=\toks50
+\splinebox@=\box77
+\splineval@=\dimen216
+\splinedepth@=\dimen217
+\splinetol@=\dimen218
+\splinelength@=\dimen219
+ circles,
+\L@=\dimen220
+ loaded)
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `curve' extension support
+(c:/texlive/2014/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded) loaded))
+(c:/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(c:/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(c:/texlive/2014/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen221
+\nom@tempdim=\dimen222
+\nomitemsep=\skip71
+)
+(c:/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(c:/texlive/2014/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(c:/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count153
+\U@D=\dimen223
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen224
+\Hy@linkcounter=\count154
+\Hy@pagecounter=\count155
+
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count156
+
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4319.
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count157
+
+(c:/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen225
+\Fld@menulength=\count158
+\Field@Width=\dimen226
+\Fld@charsize=\dimen227
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count159
+\c@Item=\count160
+\c@Hfootnote=\count161
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count162
+\c@bookmark@seq@number=\count163
+
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip72
+)
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+)
+(c:/texlive/2014/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(c:/texlive/2014/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+(c:/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(c:/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(c:/texlive/2014/texmf-dist/tex/latex/vwcol/vwcol.sty
+Package: vwcol 2015/02/10 v0.2 Variable-width multicolumn text
+
+(c:/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count164
+\calc@Bcount=\count165
+\calc@Adimen=\dimen228
+\calc@Bdimen=\dimen229
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count166
+\calc@Cskip=\skip75
+)
+(c:/texlive/2014/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/texlive/2014/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+(c:/texlive/2014/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(c:/texlive/2014/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip76
+\RaggedLeftLeftskip=\skip77
+\RaggedRightLeftskip=\skip78
+\CenteringRightskip=\skip79
+\RaggedLeftRightskip=\skip80
+\RaggedRightRightskip=\skip81
+\CenteringParfillskip=\skip82
+\RaggedLeftParfillskip=\skip83
+\RaggedRightParfillskip=\skip84
+\JustifyingParfillskip=\skip85
+\CenteringParindent=\skip86
+\RaggedLeftParindent=\skip87
+\RaggedRightParindent=\skip88
+\JustifyingParindent=\skip89
+)
+\vwcol@sep=\skip90
+\vwcol@rule=\skip91
+\vwcol@totalwidth=\skip92
+\vwcol@averagewidth=\skip93
+\vwcol@parindent=\skip94
+\vwcol@last=\count167
+\vwcol@Ncols=\count168
+\vwcol@Nlines=\count169
+\vwcol@maxrecursion=\count170
+\vwcol@box=\box78
+\vwcol@plainbox=\box79
+\vwcol@outputbox=\box80
+)
+(c:/texlive/2014/texmf-dist/tex/latex/doclicense/doclicense.sty
+Package: doclicense 2015/04/06 v1.1 Support for putting documents under a licen
+se
+
+(c:/texlive/2014/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2009/04/17 v1.3 Extended ifthen features
+
+(c:/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count171
+)
+(c:/texlive/2014/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+(c:/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count172
+)
+(c:/texlive/2014/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\doclicense@hsize=\skip95
+
+(c:/texlive/2014/texmf-dist/tex/latex/doclicense/doclicense-english.ldf
+File: doclicense-english.ldf 
+))
+\c@thm=\count173
+\c@eqn=\count174
+\c@ex=\count175
+\c@example=\count176
+\c@fig=\count177
+\c@HW=\count178
+\c@HWindent=\count179
+
+(c:/texlive/2014/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+\csq@reset=\count180
+\csq@gtype=\count181
+\csq@glevel=\count182
+\csq@qlevel=\count183
+\csq@maxlvl=\count184
+\csq@tshold=\count185
+\csq@ltx@everypar=\toks51
+
+(c:/texlive/2014/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2014/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(c:/texlive/2014/texmf-dist/tex/latex/ccicons/ccicons.sty
+Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
+
+(c:/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2014/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
+)
+\XKV@depth=\count186
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(./CollAlg_FullText.aux)
+\openout1 = `CollAlg_FullText.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 74.
+ (c:/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 74.
+
+(c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen230
+\scratchbox=\box81
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen231
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks55
+) (c:/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(c:/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(c:/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+
+(c:/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package xypdf Info: Line width: 0.43799pt on input line 74.
+\AtBeginShipoutBox=\box82
+Package hyperref Info: Link coloring ON on input line 74.
+
+(c:/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(c:/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count193
+)
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
+
+(./CollAlg_FullText.out) (./CollAlg_FullText.out)
+\@outlinefile=\write6
+\openout6 = `CollAlg_FullText.out'.
+
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 74.
+
+
+LaTeX Warning: No \author given.
+
+[1
+
+
+{c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./CollAlg_FullText.toc [1
+
+
+] [2] [3])
+\tf@toc=\write7
+\openout7 = `CollAlg_FullText.toc'.
+
+ [4] (./BookPreface.tex [5
+
+] [6]
+<doclicense-CC-by-nc-sa.pdf, id=689, 121.45375pt x 43.16125pt>
+File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
+
+<use doclicense-CC-by-nc-sa.pdf>
+Package pdftex.def Info: doclicense-CC-by-nc-sa.pdf used on input line 46.
+(pdftex.def)             Requested size: 109.50027pt x 38.91324pt.
+ [7 <./doclicense-CC-by-nc-sa.pdf>]) [8]
+Chapter 1.
+(./Chapter_1_Linears/Chapter_1.tex
+
+Mfpic: Initializing 1_Linears.mp.
+\openout3 = `1_Linears.mp'.
+
+Mfpic: Don't forget to process 1_Linears.mp!
+Mfpic: Apply metapost to 1_Linears.mp.
+Mfpic: Then reprocess this file "CollAlg_FullText".
+
+(./Chapter_1_Linears/1a.texpdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32  \begin{eqnarray*}
+                        [1
+
+
+] [2] [3] [4]) [5] (./Chapter_1_Linears/1b.tex
+[6] [7]) [8] (./Chapter_1_Linears/1c.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 2591) has occurred while \output is active []
+
+ [12]
+Overfull \hbox (41.38672pt too wide) in alignment at lines 218--228
+ [][][] []
+ []
+
+[13]) [14] (./Chapter_1_Linears/1d.tex [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Overfull \hbox (34.16599pt too wide) in alignment at lines 115--134
+ [][][] []
+ []
+
+
+Overfull \hbox (3.46466pt too wide) in alignment at lines 144--175
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 4595) has occurred while \output is active []
+
+ [17])
+[18] (./Chapter_1_Linears/2.tex [19] [20] [21]) [22]
+(./Chapter_1_Linears/3a.tex
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 12.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-1.eps>
+(epstopdf)                    date: 2015-06-25 11:32:57
+(epstopdf)                    size: 191754 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-1-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:01
+(epstopdf)                    size: 4558 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-1-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-1.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-1-eps-converted-to.pdf, id=859, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-1-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-1-eps-converted-to.pdf use
+d on input line 12.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 12--13
+[][] 
+ []
+
+[23 <./Chapter_1_Linears/II_1_3b-1-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 45.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-2.eps>
+(epstopdf)                    date: 2015-06-25 11:32:57
+(epstopdf)                    size: 192745 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-2-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:03
+(epstopdf)                    size: 4853 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-2-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-2.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-2-eps-converted-to.pdf, id=871, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-2-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-2-eps-converted-to.pdf use
+d on input line 45.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 45--46
+[][] 
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 65.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-3.eps>
+(epstopdf)                    date: 2015-06-25 11:32:57
+(epstopdf)                    size: 193310 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-3-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:05
+(epstopdf)                    size: 7363 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-3-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-3.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-3-eps-converted-to.pdf, id=873, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-3-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-3-eps-converted-to.pdf use
+d on input line 65.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 65--66
+[][] 
+ []
+
+[24 <./Chapter_1_Linears/II_1_3b-2-eps-converted-to.pdf> <./Chapter_1_Linears/I
+I_1_3b-3-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 80.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-4.eps>
+(epstopdf)                    date: 2015-06-25 11:32:57
+(epstopdf)                    size: 193520 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-4-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:07
+(epstopdf)                    size: 8022 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-4-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-4.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-4-eps-converted-to.pdf, id=893, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-4-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-4-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-4-eps-converted-to.pdf use
+d on input line 80.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 80--81
+[][] 
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 95.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-5.eps>
+(epstopdf)                    date: 2015-06-25 11:32:58
+(epstopdf)                    size: 193504 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-5-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:09
+(epstopdf)                    size: 7550 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-5-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-5.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-5-eps-converted-to.pdf, id=895, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-5-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-5-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-5-eps-converted-to.pdf use
+d on input line 95.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 95--96
+[][] 
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 110.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-6.eps>
+(epstopdf)                    date: 2015-06-25 11:32:58
+(epstopdf)                    size: 193155 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-6-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:11
+(epstopdf)                    size: 5862 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-6-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-6.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-6-eps-converted-to.pdf, id=897, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-6-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-6-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-6-eps-converted-to.pdf use
+d on input line 110.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 110--111
+[][] 
+ []
+
+) [25 <./Chapter_1_Linears/II_1_3b-4-eps-converted-to.pdf> <./Chapter_1_Linears
+/II_1_3b-5-eps-converted-to.pdf> <./Chapter_1_Linears/II_1_3b-6-eps-converted-t
+o.pdf>] (./Chapter_1_Linears/3b.tex
+Overfull \hbox (28.22424pt too wide) in alignment at lines 14--53
+ [][][] []
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 55.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-7.eps>
+(epstopdf)                    date: 2015-06-25 11:32:58
+(epstopdf)                    size: 13071 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-7-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:13
+(epstopdf)                    size: 3233 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-7-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-7.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-7-eps-converted-to.pdf, id=921, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-7-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-7-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-7-eps-converted-to.pdf use
+d on input line 55.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 55--56
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[26 <./Chapter_1_Linears/II_1_3b-7-eps-converted-to.pdf>] [27]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 141.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3b-8.eps>
+(epstopdf)                    date: 2015-06-25 11:32:58
+(epstopdf)                    size: 13112 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3b-8-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:14
+(epstopdf)                    size: 3244 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+b-8-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3b-8.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3b-8-eps-converted-to.pdf, id=937, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3b-8-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3b-8-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3b-8-eps-converted-to.pdf use
+d on input line 141.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
+) [28 <./Chapter_1_Linears/II_1_3b-8-eps-converted-to.pdf>]
+(./Chapter_1_Linears/3c.tex
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 27.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3c-1.eps>
+(epstopdf)                    date: 2015-06-25 07:28:10
+(epstopdf)                    size: 293330 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3c-1-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:16
+(epstopdf)                    size: 7723 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+c-1-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3c-1.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3c-1-eps-converted-to.pdf, id=947, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3c-1-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3c-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3c-1-eps-converted-to.pdf use
+d on input line 27.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+[29 <./Chapter_1_Linears/II_1_3c-1-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 48.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3c-2.eps>
+(epstopdf)                    date: 2015-06-25 07:28:10
+(epstopdf)                    size: 193678 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3c-2-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:18
+(epstopdf)                    size: 6295 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+c-2-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3c-2.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3c-2-eps-converted-to.pdf, id=968, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3c-2-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3c-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3c-2-eps-converted-to.pdf use
+d on input line 48.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 48--49
+[][] 
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 68.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3c-3.eps>
+(epstopdf)                    date: 2015-06-25 07:28:10
+(epstopdf)                    size: 12989 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3c-3-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:20
+(epstopdf)                    size: 3114 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+c-3-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3c-3.eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3c-3-eps-converted-to.pdf, id=970, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3c-3-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3c-3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3c-3-eps-converted-to.pdf use
+d on input line 68.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 68--69
+[][] 
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 77.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3c-4.eps>
+(epstopdf)                    date: 2015-06-25 07:28:10
+(epstopdf)                    size: 12991 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3c-4-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:22
+(epstopdf)                    size: 3113 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+c-4-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3c-4.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3c-4-eps-converted-to.pdf, id=972, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_3c-4-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_3c-4-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3c-4-eps-converted-to.pdf use
+d on input line 77.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 77--78
+[][] 
+ []
+
+[30 <./Chapter_1_Linears/II_1_3c-2-eps-converted-to.pdf> <./Chapter_1_Linears/I
+I_1_3c-3-eps-converted-to.pdf> <./Chapter_1_Linears/II_1_3c-4-eps-converted-to.
+pdf>]
+Overfull \hbox (6.77487pt too wide) in alignment at lines 121--129
+ [][][] []
+ []
+
+[31]
+Overfull \hbox (27.45825pt too wide) in alignment at lines 149--157
+ [][][] []
+ []
+
+
+Overfull \hbox (1.90817pt too wide) in alignment at lines 161--169
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--206
+
+ []
+
+) [33] (./Chapter_1_Linears/4a.tex [34]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 58.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_4a-1.eps>
+(epstopdf)                    date: 2015-06-25 12:21:47
+(epstopdf)                    size: 13499 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_4a-1-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:24
+(epstopdf)                    size: 3285 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_4
+a-1-eps-converted-to.pdf ./Chapter_1_Linears/II_1_4a-1.eps>
+(epstopdf)             \includegraphics on input line 58.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_4a-1-eps-converted-to.pdf, id=1017, 427.5975pt x 255.
+95625pt>
+File: ./Chapter_1_Linears/II_1_4a-1-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_4a-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_4a-1-eps-converted-to.pdf use
+d on input line 58.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
+[35 <./Chapter_1_Linears/II_1_4a-1-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 107.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_4a-2.eps>
+(epstopdf)                    date: 2015-06-25 12:21:47
+(epstopdf)                    size: 12994 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_4a-2-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:26
+(epstopdf)                    size: 3156 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_4
+a-2-eps-converted-to.pdf ./Chapter_1_Linears/II_1_4a-2.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_4a-2-eps-converted-to.pdf, id=1029, 427.5975pt x 255.
+95625pt>
+File: ./Chapter_1_Linears/II_1_4a-2-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_4a-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_4a-2-eps-converted-to.pdf use
+d on input line 107.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 107--108
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+[36 <./Chapter_1_Linears/II_1_4a-2-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 143.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_4a-3.eps>
+(epstopdf)                    date: 2015-06-25 12:21:48
+(epstopdf)                    size: 12989 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_4a-3-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:28
+(epstopdf)                    size: 3151 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_4
+a-3-eps-converted-to.pdf ./Chapter_1_Linears/II_1_4a-3.eps>
+(epstopdf)             \includegraphics on input line 143.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_4a-3-eps-converted-to.pdf, id=1040, 427.5975pt x 255.
+95625pt>
+File: ./Chapter_1_Linears/II_1_4a-3-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_4a-3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_4a-3-eps-converted-to.pdf use
+d on input line 143.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 143--144
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
+
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 175.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_4a-4.eps>
+(epstopdf)                    date: 2015-06-25 12:21:48
+(epstopdf)                    size: 12813 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_4a-4-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:31
+(epstopdf)                    size: 2970 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_4
+a-4-eps-converted-to.pdf ./Chapter_1_Linears/II_1_4a-4.eps>
+(epstopdf)             \includegraphics on input line 175.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_4a-4-eps-converted-to.pdf, id=1042, 427.5975pt x 255.
+95625pt>
+File: ./Chapter_1_Linears/II_1_4a-4-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use ./Chapter_1_Linears/II_1_4a-4-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_4a-4-eps-converted-to.pdf use
+d on input line 175.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 175--176
+[][] 
+ []
+
+) [37 <./Chapter_1_Linears/II_1_4a-3-eps-converted-to.pdf> <./Chapter_1_Linears
+/II_1_4a-4-eps-converted-to.pdf>] (./Chapter_1_Linears/4b.tex [38] [39]
+Overfull \hbox (34.05476pt too wide) in alignment at lines 118--136
+ [][][] []
+ []
+
+) [40] [41] (./Chapter_1_Linears/5.tex
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 13.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_5-1.eps>
+(epstopdf)                    date: 2015-06-25 12:23:06
+(epstopdf)                    size: 13383 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_5-1-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:33
+(epstopdf)                    size: 3365 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_5
+-1-eps-converted-to.pdf ./Chapter_1_Linears/II_1_5-1.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_5-1-eps-converted-to.pdf, id=1079, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_5-1-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Chapter_1_Linears/II_1_5-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_5-1-eps-converted-to.pdf used
+ on input line 13.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 13--14
+[][] 
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 19.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_5-2.eps>
+(epstopdf)                    date: 2015-06-25 12:23:06
+(epstopdf)                    size: 13303 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_5-2-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:35
+(epstopdf)                    size: 3357 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_5
+-2-eps-converted-to.pdf ./Chapter_1_Linears/II_1_5-2.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_5-2-eps-converted-to.pdf, id=1081, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_1_Linears/II_1_5-2-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Chapter_1_Linears/II_1_5-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_5-2-eps-converted-to.pdf used
+ on input line 19.
+(pdftex.def)             Requested size: 176.15692pt x 112.9211pt.
+
+Overfull \hbox (1.15692pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+[42 <./Chapter_1_Linears/II_1_5-1-eps-converted-to.pdf> <./Chapter_1_Linears/II
+_1_5-2-eps-converted-to.pdf>]
+Overfull \hbox (21.68939pt too wide) in alignment at lines 39--56
+ [][][] []
+ []
+
+
+Overfull \hbox (21.68945pt too wide) in alignment at lines 60--77
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 6252) has occurred while \output is active []
+
+ [43]
+[44]
+Overfull \hbox (1.05692pt too wide) in alignment at lines 146--159
+ [][][] []
+ []
+
+) [45] (./Chapter_1_Linears/6a.tex
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+ [46]
+[47] [48]
+Overfull \hbox (13.061pt too wide) in alignment at lines 167--195
+ [][][] []
+ []
+
+[49]
+Overfull \hbox (11.83437pt too wide) in alignment at lines 215--242
+ [][][] []
+ []
+
+[50]
+Overfull \hbox (0.84908pt too wide) in alignment at lines 300--315
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 2478) has occurred while \output is active []
+
+ [51])
+[52] (./Chapter_1_Linears/6b.tex
+Underfull \hbox (badness 2591) in paragraph at lines 67--70
+[]|$[]$ $[]$ $[]$ $[]$ \OT1/cmr/m/n/10.95 20 $[]$
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 110--112
+[]|$[]$ $\OML/cmm/m/it/10.95 B$ $[]$ $A$ $[]$ $[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+Overfull \hbox (19.16286pt too wide) in alignment at lines 165--205
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+
+Overfull \hbox (8.84102pt too wide) in alignment at lines 206--246
+ [][][] []
+ []
+
+[55]
+Overfull \hbox (6.65611pt too wide) in paragraph at lines 272--273
+[]|$[]$
+ []
+
+
+Overfull \hbox (53.70276pt too wide) in alignment at lines 289--333
+ [][][] []
+ []
+
+[56] [57]) [58] (./Chapter_1_Linears/6c.tex
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]|$[]$
+ []
+
+
+Overfull \hbox (34.18326pt too wide) in paragraph at lines 93--94
+[]$\OT1/cmr/m/n/10.95 .| 
+ []
+
+
+Underfull \vbox (badness 6141) has occurred while \output is active []
+
+ [59]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]|$[]$
+ []
+
+
+Overfull \hbox (34.18326pt too wide) in paragraph at lines 156--157
+[]$\OT1/cmr/m/n/10.95 .| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 176--177
+[]$ $[]$ $[]$ \OT1/cmr/m/n/10.95 4 $[]$ $[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 6675) has occurred while \output is active []
+
+ [61]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 231--233
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 239--240
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 239--240
+[]$\OT1/cmr/m/n/10.95 , $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \hbox (badness 1112) in paragraph at lines 297--299
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 306--307
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 306--307
+[]$\OT1/cmr/m/n/10.95 , $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \vbox (badness 3281) has occurred while \output is active []
+
+ [63]
+Underfull \hbox (badness 2547) in paragraph at lines 365--366
+[]$ $\OML/cmm/m/it/10.95 t$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 380--382
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 384--385
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+[]|$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+[]$
+ []
+
+) [64] (./Chapter_1_Linears/7a.tex [65]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.1 Graphic file (type mps)
+[MP to PDF] (./1_Linears.1) [66]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.2 Graphic file (type mps)
+[MP to PDF] (./1_Linears.2) [67]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.3 Graphic file (type mps)
+[MP to PDF] (./1_Linears.3)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.4 Graphic file (type mps)
+[MP to PDF] (./1_Linears.4)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.5 Graphic file (type mps)
+[MP to PDF] (./1_Linears.5) [68]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.6 Graphic file (type mps)
+[MP to PDF] (./1_Linears.6) [69]) [70] (./Chapter_1_Linears/7b.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.7 Graphic file (type mps)
+[MP to PDF] (./1_Linears.7) [71]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.8 Graphic file (type mps)
+[MP to PDF] (./1_Linears.8) [72]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.9 Graphic file (type mps)
+[MP to PDF] (./1_Linears.9)) [73] (./Chapter_1_Linears/8a.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.10 Graphic file (type mps)
+[MP to PDF] (./1_Linears.10)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.11 Graphic file (type mps)
+[MP to PDF] (./1_Linears.11)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.12 Graphic file (type mps)
+[MP to PDF] (./1_Linears.12)
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [75]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.13 Graphic file (type mps)
+[MP to PDF] (./1_Linears.13)
+Underfull \vbox (badness 2894) has occurred while \output is active []
+
+ [76]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.14 Graphic file (type mps)
+[MP to PDF] (./1_Linears.14)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.15 Graphic file (type mps)
+[MP to PDF] (./1_Linears.15)
+Underfull \hbox (badness 10000) in paragraph at lines 287--290
+
+ []
+
+
+Underfull \vbox (badness 3746) has occurred while \output is active []
+
+ [77]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.16 Graphic file (type mps)
+[MP to PDF] (./1_Linears.16)) [78] (./Chapter_1_Linears/8b.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.17 Graphic file (type mps)
+[MP to PDF] (./1_Linears.17)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.18 Graphic file (type mps)
+[MP to PDF] (./1_Linears.18) [79]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.19 Graphic file (type mps)
+[MP to PDF] (./1_Linears.19) [80]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.20 Graphic file (type mps)
+[MP to PDF] (./1_Linears.20)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.21 Graphic file (type mps)
+[MP to PDF] (./1_Linears.21) [81]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.22 Graphic file (type mps)
+[MP to PDF] (./1_Linears.22)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 1_Linears.23 Graphic file (type mps)
+[MP to PDF] (./1_Linears.23)) [82] (./Chapter_1_Linears/p.tex [83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [85]
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+
+Underfull \vbox (badness 4084) has occurred while \output is active []
+
+ [86]
+[87]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 499.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3bp-1.eps>
+(epstopdf)                    date: 2015-06-26 11:09:10
+(epstopdf)                    size: 193494 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3bp-1-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:38
+(epstopdf)                    size: 6583 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+bp-1-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3bp-1.eps>
+(epstopdf)             \includegraphics on input line 499.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3bp-1-eps-converted-to.pdf, id=1346, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_3bp-1-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_3bp-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3bp-1-eps-converted-to.pdf us
+ed on input line 499.
+(pdftex.def)             Requested size: 195.73125pt x 125.46875pt.
+
+Overfull \hbox (20.73125pt too wide) in paragraph at lines 499--500
+[][] 
+ []
+
+[88 <./Chapter_1_Linears/II_1_3bp-1-eps-converted-to.pdf>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 568.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3cp-1.eps>
+(epstopdf)                    date: 2015-06-26 11:09:26
+(epstopdf)                    size: 12985 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3cp-1-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:40
+(epstopdf)                    size: 3128 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+cp-1-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3cp-1.eps>
+(epstopdf)             \includegraphics on input line 568.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3cp-1-eps-converted-to.pdf, id=1361, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_3cp-1-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_3cp-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3cp-1-eps-converted-to.pdf us
+ed on input line 568.
+(pdftex.def)             Requested size: 156.58559pt x 100.37538pt.
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 571.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3cp-2.eps>
+(epstopdf)                    date: 2015-06-26 11:09:26
+(epstopdf)                    size: 12869 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3cp-2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:43
+(epstopdf)                    size: 3092 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+cp-2-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3cp-2.eps>
+(epstopdf)             \includegraphics on input line 571.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3cp-2-eps-converted-to.pdf, id=1363, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_3cp-2-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_3cp-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3cp-2-eps-converted-to.pdf us
+ed on input line 571.
+(pdftex.def)             Requested size: 156.58559pt x 100.37538pt.
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 585.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3cp-6.eps>
+(epstopdf)                    date: 2015-06-26 11:09:26
+(epstopdf)                    size: 12866 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3cp-6-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:45
+(epstopdf)                    size: 3112 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+cp-6-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3cp-6.eps>
+(epstopdf)             \includegraphics on input line 585.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3cp-6-eps-converted-to.pdf, id=1365, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_3cp-6-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_3cp-6-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3cp-6-eps-converted-to.pdf us
+ed on input line 585.
+(pdftex.def)             Requested size: 156.58559pt x 100.37538pt.
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 588.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3cp-7.eps>
+(epstopdf)                    date: 2015-06-26 11:09:26
+(epstopdf)                    size: 12864 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3cp-7-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:47
+(epstopdf)                    size: 3114 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+cp-7-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3cp-7.eps>
+(epstopdf)             \includegraphics on input line 588.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3cp-7-eps-converted-to.pdf, id=1367, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_3cp-7-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_3cp-7-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3cp-7-eps-converted-to.pdf us
+ed on input line 588.
+(pdftex.def)             Requested size: 156.58559pt x 100.37538pt.
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 596.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3cp-9.eps>
+(epstopdf)                    date: 2015-06-26 11:09:26
+(epstopdf)                    size: 12946 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3cp-9-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:50
+(epstopdf)                    size: 3120 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+cp-9-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3cp-9.eps>
+(epstopdf)             \includegraphics on input line 596.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3cp-9-eps-converted-to.pdf, id=1369, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_3cp-9-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_3cp-9-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3cp-9-eps-converted-to.pdf us
+ed on input line 596.
+(pdftex.def)             Requested size: 156.58559pt x 100.37538pt.
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 599.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_3cp-10.eps>
+(epstopdf)                    date: 2015-06-26 11:09:27
+(epstopdf)                    size: 12821 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_3cp-10-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:52
+(epstopdf)                    size: 3079 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_3
+cp-10-eps-converted-to.pdf ./Chapter_1_Linears/II_1_3cp-10.eps>
+(epstopdf)             \includegraphics on input line 599.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_3cp-10-eps-converted-to.pdf, id=1371, 427.5975pt x 25
+5.95625pt>
+File: ./Chapter_1_Linears/II_1_3cp-10-eps-converted-to.pdf Graphic file (type p
+df)
+ <use ./Chapter_1_Linears/II_1_3cp-10-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_3cp-10-eps-converted-to.pdf u
+sed on input line 599.
+(pdftex.def)             Requested size: 156.58559pt x 100.37538pt.
+
+Underfull \vbox (badness 7777) has occurred while \output is active []
+
+ [89 <./Chapter_1_Linears/II_1_3cp-1-eps-converted-to.pdf> <./Chapter_1_Linears
+/II_1_3cp-2-eps-converted-to.pdf> <./Chapter_1_Linears/II_1_3cp-6-eps-converted
+-to.pdf> <./Chapter_1_Linears/II_1_3cp-7-eps-converted-to.pdf> <./Chapter_1_Lin
+ears/II_1_3cp-9-eps-converted-to.pdf> <./Chapter_1_Linears/II_1_3cp-10-eps-conv
+erted-to.pdf>]
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+ [90]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 715.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_4ap-2.eps>
+(epstopdf)                    date: 2015-06-26 11:09:45
+(epstopdf)                    size: 12715 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_4ap-2-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:54
+(epstopdf)                    size: 2945 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_4
+ap-2-eps-converted-to.pdf ./Chapter_1_Linears/II_1_4ap-2.eps>
+(epstopdf)             \includegraphics on input line 715.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_4ap-2-eps-converted-to.pdf, id=1400, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_4ap-2-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_4ap-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_4ap-2-eps-converted-to.pdf us
+ed on input line 715.
+(pdftex.def)             Requested size: 137.01126pt x 87.82773pt.
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 718.
+
+Package epstopdf Info: Source file: <./Chapter_1_Linears/II_1_4ap-3.eps>
+(epstopdf)                    date: 2015-06-26 11:09:45
+(epstopdf)                    size: 12849 bytes
+(epstopdf)             Output file: <./Chapter_1_Linears/II_1_4ap-3-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:56
+(epstopdf)                    size: 3033 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_1_Linears/II_1_4
+ap-3-eps-converted-to.pdf ./Chapter_1_Linears/II_1_4ap-3.eps>
+(epstopdf)             \includegraphics on input line 718.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_1_Linears/II_1_4ap-3-eps-converted-to.pdf, id=1402, 427.5975pt x 255
+.95625pt>
+File: ./Chapter_1_Linears/II_1_4ap-3-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use ./Chapter_1_Linears/II_1_4ap-3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_1_Linears/II_1_4ap-3-eps-converted-to.pdf us
+ed on input line 718.
+(pdftex.def)             Requested size: 137.01126pt x 87.82773pt.
+ [91 <./Chapter_1_Linears/II_1_4ap-2-eps-converted-to.pdf> <./Chapter_1_Linears
+/II_1_4ap-3-eps-converted-to.pdf>]
+Overfull \hbox (0.839pt too wide) in paragraph at lines 858--859
+[]\OT1/cmr/m/n/10.95 29) through:$(\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 3\
+OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 4)$, slope=undefined 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+[94]
+Underfull \vbox (badness 6608) has occurred while \output is active []
+
+ [95]
+[96] [97] [98] [99] [100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+[102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103]
+Underfull \vbox (badness 6775) has occurred while \output is active []
+
+ [104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105]
+Underfull \vbox (badness 6825) has occurred while \output is active []
+
+ [106]
+[107]) [108])
+Chapter 2.
+(./Chapter_2_Systems/Chapter_2.tex
+
+Mfpic: No file 2_Systems.1.
+
+Mfpic: Initializing 2_Systems.mp.
+\openout3 = `2_Systems.mp'.
+
+Mfpic: Don't forget to process 2_Systems.mp!
+Mfpic: Apply metapost to 2_Systems.mp.
+Mfpic: Then reprocess this file "CollAlg_FullText".
+
+(./Chapter_2_Systems/1.tex [109
+
+]
+Overfull \hbox (5.47176pt too wide) in alignment at lines 56--68
+ [][][] []
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 74.
+
+Package epstopdf Info: Source file: <./Chapter_2_Systems/II_2_1-1.eps>
+(epstopdf)                    date: 2015-06-25 13:58:31
+(epstopdf)                    size: 193232 bytes
+(epstopdf)             Output file: <./Chapter_2_Systems/II_2_1-1-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:16:59
+(epstopdf)                    size: 4943 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_2_Systems/II_2_1
+-1-eps-converted-to.pdf ./Chapter_2_Systems/II_2_1-1.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_2_Systems/II_2_1-1-eps-converted-to.pdf, id=1500, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_2_Systems/II_2_1-1-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Chapter_2_Systems/II_2_1-1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_2_Systems/II_2_1-1-eps-converted-to.pdf used
+ on input line 74.
+(pdftex.def)             Requested size: 166.37274pt x 106.6492pt.
+ [110 <./Chapter_2_Systems/II_2_1-1-eps-converted-to.pdf>]
+Overfull \hbox (10.33846pt too wide) in alignment at lines 111--118
+ [][][] []
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 120.
+
+Package epstopdf Info: Source file: <./Chapter_2_Systems/II_2_1-2.eps>
+(epstopdf)                    date: 2015-06-25 13:58:31
+(epstopdf)                    size: 193341 bytes
+(epstopdf)             Output file: <./Chapter_2_Systems/II_2_1-2-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:17:01
+(epstopdf)                    size: 5092 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_2_Systems/II_2_1
+-2-eps-converted-to.pdf ./Chapter_2_Systems/II_2_1-2.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_2_Systems/II_2_1-2-eps-converted-to.pdf, id=1513, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_2_Systems/II_2_1-2-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Chapter_2_Systems/II_2_1-2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_2_Systems/II_2_1-2-eps-converted-to.pdf used
+ on input line 120.
+(pdftex.def)             Requested size: 166.37274pt x 106.6492pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[111 <./Chapter_2_Systems/II_2_1-2-eps-converted-to.pdf>]
+Overfull \hbox (2.36925pt too wide) in alignment at lines 150--157
+ [][][] []
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 159.
+
+Package epstopdf Info: Source file: <./Chapter_2_Systems/II_2_1-3.eps>
+(epstopdf)                    date: 2015-06-25 13:58:31
+(epstopdf)                    size: 13316 bytes
+(epstopdf)             Output file: <./Chapter_2_Systems/II_2_1-3-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:17:03
+(epstopdf)                    size: 3317 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_2_Systems/II_2_1
+-3-eps-converted-to.pdf ./Chapter_2_Systems/II_2_1-3.eps>
+(epstopdf)             \includegraphics on input line 159.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_2_Systems/II_2_1-3-eps-converted-to.pdf, id=1526, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_2_Systems/II_2_1-3-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Chapter_2_Systems/II_2_1-3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_2_Systems/II_2_1-3-eps-converted-to.pdf used
+ on input line 159.
+(pdftex.def)             Requested size: 166.37274pt x 106.6492pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Overfull \hbox (5.89055pt too wide) in alignment at lines 191--203
+ [][][] []
+ []
+
+[112 <./Chapter_2_Systems/II_2_1-3-eps-converted-to.pdf>]
+Overfull \hbox (2.36925pt too wide) in alignment at lines 204--211
+ [][][] []
+ []
+
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 213.
+
+Package epstopdf Info: Source file: <./Chapter_2_Systems/II_2_1-4.eps>
+(epstopdf)                    date: 2015-06-25 13:58:31
+(epstopdf)                    size: 13033 bytes
+(epstopdf)             Output file: <./Chapter_2_Systems/II_2_1-4-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2016-04-02 13:17:06
+(epstopdf)                    size: 3137 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Chapter_2_Systems/II_2_1
+-4-eps-converted-to.pdf ./Chapter_2_Systems/II_2_1-4.eps>
+(epstopdf)             \includegraphics on input line 213.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Chapter_2_Systems/II_2_1-4-eps-converted-to.pdf, id=1537, 427.5975pt x 255.9
+5625pt>
+File: ./Chapter_2_Systems/II_2_1-4-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use ./Chapter_2_Systems/II_2_1-4-eps-converted-to.pdf>
+Package pdftex.def Info: ./Chapter_2_Systems/II_2_1-4-eps-converted-to.pdf used
+ on input line 213.
+(pdftex.def)             Requested size: 166.37274pt x 106.6492pt.
+) [113 <./Chapter_2_Systems/II_2_1-4-eps-converted-to.pdf>] (./Chapter_2_System
+s/2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+[114] [115]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+[117]
+Overfull \hbox (13.39977pt too wide) in alignment at lines 245--273
+ [][][] []
+ []
+
+[118]) [119] (./Chapter_2_Systems/3.tex
+Overfull \hbox (11.49147pt too wide) in paragraph at lines 2--2
+\OT1/cmr/bx/n/10.95 Objective: Solve sys-tems of equa-tions us-ing the ad-di-ti
+on/elimination
+ []
+
+[120]
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+[121]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+
+Overfull \hbox (21.88199pt too wide) in paragraph at lines 125--181
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--181
+
+ []
+
+[122]
+Underfull \vbox (badness 2050) has occurred while \output is active []
+
+ [123]
+[124]) [125] (./Chapter_2_Systems/4.tex [126] [127]
+Underfull \vbox (badness 6559) has occurred while \output is active []
+
+ [128]
+Underfull \vbox (badness 6978) has occurred while \output is active []
+
+ [129]
+[130] [131] [132]) [133] (./Chapter_2_Systems/5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]|[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+Underfull \hbox (badness 1117) in paragraph at lines 85--87
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+\OT1/cmr/m/n/10.95 (185) $[]$ 25 $[]$ 10
+ []
+
+[135]
+Underfull \hbox (badness 2698) in paragraph at lines 141--145
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+[]|[]
+ []
+
+[136] [137]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+[]|[]
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 263--265
+[]$[]$ $[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+ [138]
+Underfull \hbox (badness 4229) in paragraph at lines 333--335
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+[]|[]
+ []
+
+[139] [140]
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
+[]|$[]$ $[]$ $[]$\OT1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 408--410
+[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Overfull \hbox (10.57108pt too wide) in alignment at lines 396--440
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141]
+[142]
+Underfull \hbox (badness 3884) in paragraph at lines 775--776
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+[143]
+Underfull \hbox (badness 3884) in paragraph at lines 849--851
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+
+Overfull \hbox (0.48286pt too wide) in alignment at lines 820--854
+ [][][] []
+ []
+
+[144]
+Underfull \hbox (badness 1259) in paragraph at lines 894--898
+[]|$[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 894--898
+[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 894--898
+[]$ $[]$ $[]$ $[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 911--913
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+[145] [146]
+Underfull \hbox (badness 3884) in paragraph at lines 975--977
+[]|$[]$ $[]$ $[]$ $[]$
+ []
+
+[147] [148]) [149] (./Chapter_2_Systems/6.tex [150] [151] [152] [153] [154]
+[155]) [156] (./Chapter_2_Systems/p.tex
+Overfull \vbox (3.11536pt too high) has occurred while \output is active []
+
+
+[157] [158] [159] [160] [161]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [162]
+[163] [164] [165] [166] [167] [168] [169] [170] [171] [172]) [173]) [174
+
+]
+Chapter 3.
+(./Chapter_3_Quadratics/Chapter_3.tex
+
+Mfpic: Initializing 3_Quadratics.mp.
+\openout3 = `3_Quadratics.mp'.
+
+Mfpic: Don't forget to process 3_Quadratics.mp!
+Mfpic: Apply metapost to 3_Quadratics.mp.
+Mfpic: Then reprocess this file "CollAlg_FullText".
+
+(./Chapter_3_Quadratics/1.tex
+Overfull \hbox (6.78758pt too wide) in paragraph at lines 5--5
+[]\OT1/cmr/bx/n/10.95 Objective: Rec-og-nize and clas-sify a quadratic equa-tio
+n al-ge-braically
+ []
+
+[175]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.1 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.1)
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.2 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.2)
+Underfull \hbox (badness 10000) in paragraph at lines 36--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--46
+
+ []
+
+[176]
+Overfull \hbox (14.57118pt too wide) in paragraph at lines 55--55
+[]\OT1/cmr/bx/n/10.95 Objective: Rec-og-nize and uti-lize the ver-tex form to g
+raph a quadratic 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.3 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.3)
+Overfull \vbox (0.62549pt too high) has occurred while \output is active []
+
+
+[177]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.4 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.4)
+Underfull \hbox (badness 10000) in paragraph at lines 92--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--121
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.5 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.5)
+Overfull \hbox (51.84749pt too wide) in paragraph at lines 131--132
+[][] 
+ []
+
+[178]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.6 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.6)
+Underfull \hbox (badness 10000) in paragraph at lines 140--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--153
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--153
+
+ []
+
+) [179] (./Chapter_3_Quadratics/2a.tex [180] [181]
+Overfull \hbox (12.98645pt too wide) in alignment at lines 60--69
+ [][][] []
+ []
+
+[182] [183]) [184] (./Chapter_3_Quadratics/2b.tex
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+[185]
+Overfull \hbox (1.33798pt too wide) in alignment at lines 78--95
+ [][][] []
+ []
+
+[186]
+Overfull \hbox (12.1257pt too wide) in alignment at lines 101--110
+ [][][] []
+ []
+
+[187]
+Overfull \hbox (16.50824pt too wide) in alignment at lines 209--229
+ [][][] []
+ []
+
+[188] [189]
+Overfull \hbox (4.25305pt too wide) in alignment at lines 277--303
+ [][][] []
+ []
+
+) [190] (./Chapter_3_Quadratics/2c.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+[191] [192] [193] [194]) [195] (./Chapter_3_Quadratics/2d.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\not' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Overfull \hbox (1.13034pt too wide) in alignment at lines 37--44
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 2961) has occurred while \output is active []
+
+ [196]
+Overfull \hbox (4.17203pt too wide) in alignment at lines 48--55
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
+
+ []
+
+
+Overfull \hbox (13.47191pt too wide) in alignment at lines 76--86
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+[197]) [198] (./Chapter_3_Quadratics/3.tex
+Overfull \hbox (4.78024pt too wide) in alignment at lines 28--37
+ [][][] []
+ []
+
+[199] [200]
+Underfull \vbox (badness 3895) has occurred while \output is active []
+
+ [201]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Underfull \vbox (badness 2189) has occurred while \output is active []
+
+ [202])
+[203] (./Chapter_3_Quadratics/4a.tex
+Overfull \hbox (9.58722pt too wide) in paragraph at lines 9--14
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+[204]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+
+Mfpic warning: Arrow option 1 invalid  on input line 43; it will be ignored
+File: 3_Quadratics.7 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.7)
+Overfull \hbox (4.83992pt too wide) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 2)[] + 1 = \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1$, so 
+$(\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/
+n/10.95 ^^@\OT1/cmr/m/n/10.95 1)$ is a point on our parabola. 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+
+Mfpic warning: Arrow option 1 invalid  on input line 43; it will be ignored
+File: 3_Quadratics.8 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.8)
+Underfull \vbox (badness 10000) detected at line 43
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 43
+ []
+
+
+Overfull \hbox (258.82768pt too wide) detected at line 43
+[] []|[] []
+ []
+
+[205]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+[206]) [207] (./Chapter_3_Quadratics/4b.tex
+Overfull \hbox (10.40723pt too wide) in paragraph at lines 4--4
+[]\OT1/cmr/bx/n/10.95 Objective: Graph quadratic equa-tions us-ing the ver-tex,
+ $\OML/cmm/m/it/10.95 x$\OT1/cmr/bx/n/10.95 -intercepts,
+ []
+
+[208]
+Underfull \hbox (badness 10000) in paragraph at lines 82--104
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.9 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.9)
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.10 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.10)
+Underfull \vbox (badness 10000) detected at line 104
+ []
+
+
+Overfull \vbox (12.26624pt too high) detected at line 104
+ []
+
+
+Overfull \hbox (241.96477pt too wide) detected at line 104
+[] []|[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.11 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.11)
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+[209]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+
+Overfull \hbox (1.89047pt too wide) in alignment at lines 174--184
+ [][][] []
+ []
+
+[210]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.12 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.12)
+Overfull \hbox (0.19249pt too wide) in paragraph at lines 207--207
+[]\OT1/cmr/m/n/10.95 the $\OML/cmm/m/it/10.95 x$\OT1/cmr/m/n/10.95 -intercepts 
+at $(\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 ; \OT1/cmr/
+m/n/10.95 0)$ and $(\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10
+.95 ; \OT1/cmr/m/n/10.95 0)$,  
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.13 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.13)
+Underfull \vbox (badness 10000) detected at line 207
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 207
+ []
+
+
+Overfull \hbox (225.107pt too wide) detected at line 207
+[] []|[] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [211]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.14 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.14)) [212] (./Chapter_3_Quadratics/5.tex [213]
+[214] [215] [216] [217]
+Overfull \hbox (14.67574pt too wide) in alignment at lines 197--199
+ [][][] []
+ []
+
+[218] [219] [220] [221] [222]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [223]
+[224] [225]) [226] (./Chapter_3_Quadratics/6.tex
+Overfull \hbox (0.62036pt too wide) in paragraph at lines 15--16
+[]\OT1/cmr/m/n/10.95 We will now in-tro-duce a new tech-nique for iden-ti-fy-in
+g the ze-ros of a quadratic
+ []
+
+[227] [228]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.15 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.15)
+Overfull \hbox (85.72607pt too wide) in alignment at lines 75--75
+ [][][] []
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.16 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.16)
+Overfull \hbox (8.51642pt too wide) in paragraph at lines 75--75
+|       [] 
+ []
+
+
+Overfull \hbox (170.0355pt too wide) in alignment at lines 75--75
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 75
+ []
+
+
+Overfull \vbox (4.79999pt too high) detected at line 75
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 75
+[] []|[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.17 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.17)
+Overfull \hbox (92.11678pt too wide) in alignment at lines 116--116
+ [][][] []
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.18 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.18)
+Overfull \hbox (178.56018pt too wide) in alignment at lines 116--116
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 116
+ []
+
+
+Overfull \vbox (0.19998pt too high) detected at line 116
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 116
+[] []|[] []
+ []
+
+[229]
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.19 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.19)
+Overfull \hbox (83.32648pt too wide) in alignment at lines 159--159
+ [][][] []
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.20 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.20)
+Overfull \hbox (169.76988pt too wide) in alignment at lines 159--159
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 159
+ []
+
+
+Overfull \vbox (24.4pt too high) detected at line 159
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 159
+[] []|[] []
+ []
+
+) [230] (./Chapter_3_Quadratics/7.tex [231]
+Overfull \hbox (41.17035pt too wide) in paragraph at lines 50--93
+[][] 
+ []
+
+[232]
+Overfull \hbox (17.62888pt too wide) in alignment at lines 103--132
+ [][][] []
+ []
+
+[233] [234] [235]) [236] (./Chapter_3_Quadratics/8.tex
+Overfull \hbox (76.57127pt too wide) in alignment at lines 7--27
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 2744) has occurred while \output is active []
+
+ [237]
+[238]
+Overfull \hbox (14.21463pt too wide) in alignment at lines 97--106
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+ [239]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.21 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.21) [240]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.22 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.22) [241]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.23 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.23) [242]
+Overfull \hbox (24.24464pt too wide) in alignment at lines 245--253
+ [][][] []
+ []
+
+
+Overfull \hbox (7.42618pt too wide) in paragraph at lines 255--255
+\OT1/cmr/m/n/10.95 two imag-i-nary so-lu-tions means that our parabola should h
+ave no $\OML/cmm/m/it/10.95 x\OMS/cmsy/m/n/10.95 ^^@$\OT1/cmr/m/n/10.95 interce
+pts. 
+ []
+
+[243]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.24 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.24)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.25 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.25) [244]
+Overfull \hbox (31.10014pt too wide) in paragraph at lines 324--358
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--358
+
+ []
+
+) [245] (./Chapter_3_Quadratics/9.tex) [246] (./Chapter_3_Quadratics/10.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.26 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.26)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.27 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.27) [247]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.28 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.28) [248]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.29 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.29) [249]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.30 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.30)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.31 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.31) [250] [251]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 3_Quadratics.32 Graphic file (type mps)
+[MP to PDF] (./3_Quadratics.32)) [252] [253] (./Chapter_3_Quadratics/p.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+[254]
+Underfull \hbox (badness 10000) in paragraph at lines 49--82
+
+ []
+
+
+Overfull \vbox (6.13788pt too high) has occurred while \output is active []
+
+
+[255]
+Underfull \hbox (badness 10000) in paragraph at lines 127--162
+
+ []
+
+[256]
+Underfull \hbox (badness 10000) in paragraph at lines 171--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--212
+
+ []
+
+[257] [258]
+Underfull \hbox (badness 10000) in paragraph at lines 273--294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--294
+
+ []
+
+[259]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 298.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 298.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--348
+
+ []
+
+[260] [261] [262]
+Underfull \hbox (badness 10000) in paragraph at lines 461--510
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--510
+
+ []
+
+[263] [264] [265]
+Overfull \hbox (32.98985pt too wide) in paragraph at lines 585--585
+\OT1/cmr/bx/n/10.95 Construct a sign di-a-gram for each of the fol-low-ing ex-p
+res-sions/equations.
+ []
+
+) [266])
+Chapter 4.
+(./Chapter_4_Functions/Chapter_4.tex
+
+Mfpic: Initializing 4_Functions.mp.
+\openout3 = `4_Functions.mp'.
+
+Mfpic: Don't forget to process 4_Functions.mp!
+Mfpic: Apply metapost to 4_Functions.mp.
+Mfpic: Then reprocess this file "CollAlg_FullText".
+
+(./Chapter_4_Functions/1a.tex [267
+
+] [268]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.1 Graphic file (type mps)
+[MP to PDF] (./4_Functions.1) [269]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.2 Graphic file (type mps)
+[MP to PDF] (./4_Functions.2) [270] [271]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.3 Graphic file (type mps)
+[MP to PDF] (./4_Functions.3)
+Overfull \hbox (25.34999pt too wide) in paragraph at lines 154--196
+ [] 
+ []
+
+[272]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.4 Graphic file (type mps)
+[MP to PDF] (./4_Functions.4)
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+[]|[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.5 Graphic file (type mps)
+[MP to PDF] (./4_Functions.5)
+Overfull \hbox (25.34998pt too wide) in paragraph at lines 209--252
+ [] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.6 Graphic file (type mps)
+[MP to PDF] (./4_Functions.6)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.7 Graphic file (type mps)
+[MP to PDF] (./4_Functions.7)
+Overfull \hbox (25.34998pt too wide) in paragraph at lines 255--297
+ [] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.8 Graphic file (type mps)
+[MP to PDF] (./4_Functions.8)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.9 Graphic file (type mps)
+[MP to PDF] (./4_Functions.9)
+Overfull \hbox (25.34998pt too wide) in paragraph at lines 300--340
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [273])
+[274] (./Chapter_4_Functions/1b.tex
+Overfull \hbox (17.97908pt too wide) in alignment at lines 8--15
+ [][][] []
+ []
+
+[275] [276]) [277] (./Chapter_4_Functions/2a.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.10 Graphic file (type mps)
+[MP to PDF] (./4_Functions.10) [278]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.11 Graphic file (type mps)
+[MP to PDF] (./4_Functions.11)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.12 Graphic file (type mps)
+[MP to PDF] (./4_Functions.12)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.13 Graphic file (type mps)
+[MP to PDF] (./4_Functions.13)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.14 Graphic file (type mps)
+[MP to PDF] (./4_Functions.14)) [279] (./Chapter_4_Functions/2b.tex [280]
+[281]) [282] (./Chapter_4_Functions/2c.tex [283]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+[284]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+[285]
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[286]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[287]) (./Chapter_4_Functions/3a.tex [288]
+Overfull \hbox (1.42839pt too wide) in alignment at lines 36--44
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 1158) has occurred while \output is active []
+
+ [289])
+[290] [291] (./Chapter_4_Functions/3b.tex [292] [293]) [294]
+(./Chapter_4_Functions/4a.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.15 Graphic file (type mps)
+[MP to PDF] (./4_Functions.15) [295]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.16 Graphic file (type mps)
+[MP to PDF] (./4_Functions.16)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.17 Graphic file (type mps)
+[MP to PDF] (./4_Functions.17) [296] [297]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.18 Graphic file (type mps)
+[MP to PDF] (./4_Functions.18)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.19 Graphic file (type mps)
+[MP to PDF] (./4_Functions.19)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [298])
+[299] (./Chapter_4_Functions/4b.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.20 Graphic file (type mps)
+[MP to PDF] (./4_Functions.20)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.21 Graphic file (type mps)
+[MP to PDF] (./4_Functions.21)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.22 Graphic file (type mps)
+[MP to PDF] (./4_Functions.22)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.23 Graphic file (type mps)
+[MP to PDF] (./4_Functions.23)
+Underfull \vbox (badness 4024) has occurred while \output is active []
+
+ [300]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.24 Graphic file (type mps)
+[MP to PDF] (./4_Functions.24)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.25 Graphic file (type mps)
+[MP to PDF] (./4_Functions.25)
+Overfull \hbox (1.06862pt too wide) detected at line 203
+[]
+ []
+
+[301]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.26 Graphic file (type mps)
+[MP to PDF] (./4_Functions.26)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.27 Graphic file (type mps)
+[MP to PDF] (./4_Functions.27)
+Overfull \hbox (6.45242pt too wide) detected at line 249
+[]
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.28 Graphic file (type mps)
+[MP to PDF] (./4_Functions.28)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.29 Graphic file (type mps)
+[MP to PDF] (./4_Functions.29)
+Overfull \hbox (2.16577pt too wide) detected at line 295
+[]
+ []
+
+
+Underfull \vbox (badness 4144) has occurred while \output is active []
+
+ [302]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.30 Graphic file (type mps)
+[MP to PDF] (./4_Functions.30)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.31 Graphic file (type mps)
+[MP to PDF] (./4_Functions.31)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.32 Graphic file (type mps)
+[MP to PDF] (./4_Functions.32)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.33 Graphic file (type mps)
+[MP to PDF] (./4_Functions.33)
+Overfull \hbox (20.02213pt too wide) detected at line 387
+[]
+ []
+
+[303]) [304] (./Chapter_4_Functions/4c.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.34 Graphic file (type mps)
+[MP to PDF] (./4_Functions.34)
+Overfull \hbox (25.34999pt too wide) in paragraph at lines 13--48
+ [] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.35 Graphic file (type mps)
+[MP to PDF] (./4_Functions.35)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.36 Graphic file (type mps)
+[MP to PDF] (./4_Functions.36)
+Overfull \hbox (22.70442pt too wide) detected at line 100
+[]
+ []
+
+[305]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.37 Graphic file (type mps)
+[MP to PDF] (./4_Functions.37)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.38 Graphic file (type mps)
+[MP to PDF] (./4_Functions.38)
+Overfull \hbox (22.70442pt too wide) detected at line 148
+[]
+ []
+
+
+Underfull \vbox (badness 4886) has occurred while \output is active []
+
+ [306]
+[307]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.39 Graphic file (type mps)
+[MP to PDF] (./4_Functions.39)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.40 Graphic file (type mps)
+[MP to PDF] (./4_Functions.40)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.41 Graphic file (type mps)
+[MP to PDF] (./4_Functions.41)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.42 Graphic file (type mps)
+[MP to PDF] (./4_Functions.42)
+Overfull \hbox (24.8069pt too wide) detected at line 312
+[]
+ []
+
+[308]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.43 Graphic file (type mps)
+[MP to PDF] (./4_Functions.43)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.44 Graphic file (type mps)
+[MP to PDF] (./4_Functions.44) [309]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.45 Graphic file (type mps)
+[MP to PDF] (./4_Functions.45)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.46 Graphic file (type mps)
+[MP to PDF] (./4_Functions.46)) [310] (./Chapter_4_Functions/4d.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.47 Graphic file (type mps)
+[MP to PDF] (./4_Functions.47)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.48 Graphic file (type mps)
+[MP to PDF] (./4_Functions.48) [311]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.49 Graphic file (type mps)
+[MP to PDF] (./4_Functions.49)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.50 Graphic file (type mps)
+[MP to PDF] (./4_Functions.50)
+Overfull \hbox (1.39972pt too wide) detected at line 100
+[]
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.51 Graphic file (type mps)
+[MP to PDF] (./4_Functions.51)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.52 Graphic file (type mps)
+[MP to PDF] (./4_Functions.52)
+Overfull \hbox (5.95827pt too wide) detected at line 146
+[]
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.53 Graphic file (type mps)
+[MP to PDF] (./4_Functions.53)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.54 Graphic file (type mps)
+[MP to PDF] (./4_Functions.54)
+Overfull \hbox (10.88347pt too wide) detected at line 192
+[]
+ []
+
+[312] [313]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.55 Graphic file (type mps)
+[MP to PDF] (./4_Functions.55) [314]
+Overfull \hbox (5.51564pt too wide) detected at line 269
+\OML/cmm/m/it/10.95 g [] \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@[]\OML/cmm
+/m/it/10.95 f [] \OT1/cmr/m/n/10.95 + 2 = \OMS/cmsy/m/n/10.95 ^^@[]\OML/cmm/m/i
+t/10.95 f\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 4) + 2 =
+ \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m
+/n/10.95 3) + 2 = [] + 2 = []
+ []
+
+[315]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.56 Graphic file (type mps)
+[MP to PDF] (./4_Functions.56)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.57 Graphic file (type mps)
+[MP to PDF] (./4_Functions.57)
+Underfull \hbox (badness 10000) in paragraph at lines 338--345
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--345
+
+ []
+
+) [316]
+Overfull \hbox (5.66965pt too wide) in paragraph at lines 40--40
+[]\OT1/cmr/m/sc/14.4 Piecewise-Defined and Ab-so-lute Value Func-
+ []
+
+(./Chapter_4_Functions/5a.tex [317] [318]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.58 Graphic file (type mps)
+[MP to PDF] (./4_Functions.58)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.59 Graphic file (type mps)
+[MP to PDF] (./4_Functions.59) [319]
+Overfull \hbox (4.26051pt too wide) in alignment at lines 176--183
+ [][][] []
+ []
+
+
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [320]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Overfull \hbox (9.22133pt too wide) in alignment at lines 192--204
+ [][][] []
+ []
+
+[321]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.60 Graphic file (type mps)
+[MP to PDF] (./4_Functions.60)
+Overfull \hbox (55.41748pt too wide) in paragraph at lines 222--262
+ [] 
+ []
+
+[322]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.61 Graphic file (type mps)
+[MP to PDF] (./4_Functions.61)
+Overfull \hbox (55.41748pt too wide) in paragraph at lines 280--330
+ [] 
+ []
+
+[323]) [324] (./Chapter_4_Functions/5b.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.62 Graphic file (type mps)
+[MP to PDF] (./4_Functions.62) [325]
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.63 Graphic file (type mps)
+[MP to PDF] (./4_Functions.63)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.64 Graphic file (type mps)
+[MP to PDF] (./4_Functions.64)
+Overfull \hbox (25.34998pt too wide) in paragraph at lines 61--94
+ [] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.65 Graphic file (type mps)
+[MP to PDF] (./4_Functions.65)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.66 Graphic file (type mps)
+[MP to PDF] (./4_Functions.66) [326]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.67 Graphic file (type mps)
+[MP to PDF] (./4_Functions.67)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.68 Graphic file (type mps)
+[MP to PDF] (./4_Functions.68)
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.69 Graphic file (type mps)
+[MP to PDF] (./4_Functions.69)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.70 Graphic file (type mps)
+[MP to PDF] (./4_Functions.70) [327]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.71 Graphic file (type mps)
+[MP to PDF] (./4_Functions.71)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.72 Graphic file (type mps)
+[MP to PDF] (./4_Functions.72)
+Overfull \hbox (7.47812pt too wide) in paragraph at lines 282--282
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+
+ []
+
+[328]
+Overfull \hbox (4.79218pt too wide) detected at line 304
+\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 mx \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/
+10.95 b\OMS/cmsy/m/n/10.95 j \OT1/cmr/m/n/10.95 = [] = []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+
+ []
+
+[329]) [330] (./Chapter_4_Functions/p.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+
+(c:/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.73 Graphic file (type mps)
+[MP to PDF] (./4_Functions.73)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.74 Graphic file (type mps)
+[MP to PDF] (./4_Functions.74) [331]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.75 Graphic file (type mps)
+[MP to PDF] (./4_Functions.75)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.76 Graphic file (type mps)
+[MP to PDF] (./4_Functions.76)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.77 Graphic file (type mps)
+[MP to PDF] (./4_Functions.77)
+Overfull \hbox (20.7712pt too wide) in paragraph at lines 153--154
+[][] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.78 Graphic file (type mps)
+[MP to PDF] (./4_Functions.78)
+Overfull \hbox (5.7712pt too wide) in paragraph at lines 170--171
+[][] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.79 Graphic file (type mps)
+[MP to PDF] (./4_Functions.79)
+Overfull \hbox (25.7712pt too wide) in paragraph at lines 199--200
+[][] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.80 Graphic file (type mps)
+[MP to PDF] (./4_Functions.80)
+Overfull \hbox (5.7712pt too wide) in paragraph at lines 224--225
+[][] 
+ []
+
+[332]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.81 Graphic file (type mps)
+[MP to PDF] (./4_Functions.81)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.82 Graphic file (type mps)
+[MP to PDF] (./4_Functions.82)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.83 Graphic file (type mps)
+[MP to PDF] (./4_Functions.83)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.84 Graphic file (type mps)
+[MP to PDF] (./4_Functions.84)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.85 Graphic file (type mps)
+[MP to PDF] (./4_Functions.85)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.86 Graphic file (type mps)
+[MP to PDF] (./4_Functions.86) [333]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.87 Graphic file (type mps)
+[MP to PDF] (./4_Functions.87)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.88 Graphic file (type mps)
+[MP to PDF] (./4_Functions.88)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.89 Graphic file (type mps)
+[MP to PDF] (./4_Functions.89)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.90 Graphic file (type mps)
+[MP to PDF] (./4_Functions.90)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.91 Graphic file (type mps)
+[MP to PDF] (./4_Functions.91)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.92 Graphic file (type mps)
+[MP to PDF] (./4_Functions.92) [334] [335] [336] [337]
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
+
+ []
+
+[338]
+Overfull \hbox (10.56305pt too wide) in paragraph at lines 1178--1179
+[]$\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/1
+0.95 ) = 2\OML/cmm/m/it/10.95 x[]$   [] 
+ []
+
+
+Overfull \hbox (22.12129pt too wide) in paragraph at lines 1257--1258
+[][] 
+ []
+
+[339] [340]
+Overfull \hbox (13.72124pt too wide) in paragraph at lines 1686--1687
+[][] 
+ []
+
+[341]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.93 Graphic file (type mps)
+[MP to PDF] (./4_Functions.93)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.94 Graphic file (type mps)
+[MP to PDF] (./4_Functions.94)
+Overfull \hbox (16.67923pt too wide) in paragraph at lines 1882--1921
+ [] 
+ []
+
+[342]
+Overfull \hbox (0.15504pt too wide) in paragraph at lines 2030--2031
+[][] 
+ []
+
+
+Overfull \hbox (13.53831pt too wide) in paragraph at lines 2031--2032
+[][] 
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.95 Graphic file (type mps)
+[MP to PDF] (./4_Functions.95) [343]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.96 Graphic file (type mps)
+[MP to PDF] (./4_Functions.96) [344]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.97 Graphic file (type mps)
+[MP to PDF] (./4_Functions.97)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 4_Functions.98 Graphic file (type mps)
+[MP to PDF] (./4_Functions.98) [345] [346]
+
+LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 2507
+.
+
+
+Overfull \hbox (19.90993pt too wide) in paragraph at lines 2506--2510
+[]$[]$ 
+ []
+
+
+Overfull \hbox (27.70168pt too wide) in paragraph at lines 2511--2515
+[]$[]$ 
+ []
+
+[347]
+Overfull \hbox (7.43922pt too wide) in paragraph at lines 2527--2530
+[]$[]$ 
+ []
+
+
+Overfull \hbox (22.95161pt too wide) in paragraph at lines 2534--2538
+[]$[]$ 
+ []
+
+) [348])
+Chapter 5.
+(./Chapter_5_Polynomials/Chapter_5.tex
+
+Mfpic: Initializing 5_Polynomials.mp.
+\openout3 = `5_Polynomials.mp'.
+
+Mfpic: Don't forget to process 5_Polynomials.mp!
+Mfpic: Apply metapost to 5_Polynomials.mp.
+Mfpic: Then reprocess this file "CollAlg_FullText".
+
+(./Chapter_5_Polynomials/1.tex [349
+
+] [350] [351]) [352]
+(./Chapter_5_Polynomials/2a.tex [353] [354] [355] [356] [357]
+Overfull \hbox (8.69392pt too wide) in alignment at lines 203--209
+ [][][] []
+ []
+
+
+Overfull \hbox (6.9463pt too wide) in alignment at lines 213--218
+ [][][] []
+ []
+
+[358]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [359]
+Overfull \hbox (15.44983pt too wide) in alignment at lines 267--274
+ [][][] []
+ []
+
+
+Overfull \hbox (26.78941pt too wide) in alignment at lines 280--287
+ [][][] []
+ []
+
+[360]) [361] (./Chapter_5_Polynomials/2b.tex [362]) [363]
+(./Chapter_5_Polynomials/3a.tex [364] [365] [366]
+Overfull \hbox (31.38199pt too wide) in alignment at lines 136--149
+ [][][] []
+ []
+
+[367]
+Overfull \hbox (28.30446pt too wide) in alignment at lines 151--160
+ [][][] []
+ []
+
+
+Overfull \hbox (43.45457pt too wide) in alignment at lines 161--173
+ [][][] []
+ []
+
+[368]
+Overfull \hbox (53.3124pt too wide) in alignment at lines 183--196
+ [][][] []
+ []
+
+
+Overfull \hbox (102.27315pt too wide) in alignment at lines 197--207
+ [][][] []
+ []
+
+
+Overfull \hbox (73.44826pt too wide) in alignment at lines 208--221
+ [][][] []
+ []
+
+[369] [370]
+Overfull \hbox (78.48972pt too wide) in alignment at lines 244--252
+ [][][] []
+ []
+
+
+Overfull \hbox (107.19803pt too wide) in alignment at lines 253--263
+ [][][] []
+ []
+
+
+Overfull \hbox (107.1397pt too wide) in alignment at lines 264--277
+ [][][] []
+ []
+
+) [371] (./Chapter_5_Polynomials/3b.tex [372] [373] [374] [375]) [376]
+(./Chapter_5_Polynomials/4a.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.1 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.1)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.2 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.2)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.3 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.3) [377]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.4 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.4)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.5 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.5)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.6 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.6)
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.7 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.7)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.8 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.8)
+Overfull \hbox (1.215pt too wide) in paragraph at lines 96--117
+[][] 
+ []
+
+[378]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.9 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.9)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.10 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.10)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.11 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.11)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.12 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.12)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.13 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.13)
+Overfull \hbox (7.76634pt too wide) in paragraph at lines 174--174
+$\OML/cmm/m/it/10.95 y \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/i
+t/10.95 x[]$
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.14 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.14)
+Overfull \hbox (9.77383pt too wide) in paragraph at lines 181--181
+$\OML/cmm/m/it/10.95 y \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/i
+t/10.95 x[]$
+ []
+
+[379]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.15 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.15)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.16 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.16)
+Overfull \hbox (1.215pt too wide) in paragraph at lines 216--239
+[][] 
+ []
+
+[380] [381]) [382] (./Chapter_5_Polynomials/4b.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.17 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.17)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.18 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.18) [383] [384]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.19 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.19)
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.20 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.20) [385]) [386] (./Chapter_5_Polynomials/5.tex
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.21 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.21) [387]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.22 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.22)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.23 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.23)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [388]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.24 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.24) [389]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.25 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.25)
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+[390]
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.26 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.26)
+
+Mfpic warning: \qspline is already defined.
+
+Mfpic warning: \curve is already defined.
+
+Mfpic warning: \connect is already defined.
+File: 5_Polynomials.27 Graphic file (type mps)
+[MP to PDF] (./5_Polynomials.27) [391]) [392] (./Chapter_5_Polynomials/p.tex
+[393]
+Underfull \hbox (badness 10000) in paragraph at lines 42--53
+
+ []
+
+[394]
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--126
+
+ []
+
+[395]
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+
+ []
+
+[396]
+Underfull \hbox (badness 10000) in paragraph at lines 157--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--182
+
+ []
+
+[397]) [398])
+No file CollAlg_FullText.ind.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+(./CollAlg_FullText.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package rerunfilecheck Info: File `CollAlg_FullText.out' has not changed.
+(rerunfilecheck)             Checksum: 5688997EAA4A3662C9C37A5D8F94AD81;9308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+ )
+(\end occurred inside a group at level 4)
+
+### simple group (level 4) entered at line 191 ({)
+### simple group (level 3) entered at line 185 ({)
+### simple group (level 2) entered at line 169 ({)
+### simple group (level 1) entered at line 155 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 25353 strings out of 493109
+ 418058 string characters out of 6138581
+ 567326 words of memory out of 5000000
+ 26398 multiletter control sequences out of 15000+600000
+ 23733 words of font info for 89 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,21n,54p,1872b,1324s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+s1.enc}<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><
+c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2014/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmex7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+extra/cmex8.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c
+:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cmextra/cmmib6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.
+pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsl10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/latxfont/line10.pfb><c:/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2014/texmf-dist/fonts/
+type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2014/texmf-dist/fonts/type
+1/public/cm-super/sfrm1095.pfb>
+Output written on CollAlg_FullText.pdf (407 pages, 1436061 bytes).
+PDF statistics:
+ 3797 PDF objects out of 4296 (max. 8388607)
+ 3247 compressed objects within 33 object streams
+ 1252 named destinations out of 1440 (max. 500000)
+ 1375 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,165 @@
+\documentclass[11pt]{book}
+%\oddsidemargin 0in
+%\evensidemargin 0in
+%\marginparwidth 0in
+
+%\usepackage[top=1in
+%,left=1.5in,
+%bottom=1in,%right=1in,textheight=8.5in,textwidth=6in
+%]{geometry}
+
+\usepackage{amsfonts,amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{graphics}
+\usepackage{pgf, tikz}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{setspace}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage[english]{babel}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{vwcol}
+\usepackage{cancel}
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+%\usepackage{bbm}
+
+%First appears in II.1.1
+\newcommand{\tmdummy}{$\mbox{}$}
+\newcommand{\tmmathbf}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+\newcommand{\tmstrong}[1]{\textbf{#1}}
+%{\theorembodyfont{\rmfamily}
+%First appears in II.1.?
+\newcommand{\tmem}[1]{{\em #1\/}}
+%\newenvironment{enumeratenumeric}{\begin{enumerate}[1.] }{\end{enumerate}}
+%First appears in II.1.6a
+\newenvironment{itemizedot}{\begin{itemize} \renewcommand{\labelitemi}{$\bullet$}\renewcommand{\labelitemii}{$\bullet$}\renewcommand{\labelitemiii}{$\bullet$}\renewcommand{\labelitemiv}{$\bullet$}}{\end{itemize}}
+
+
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{1.0} %SZ set to gray, 0.9
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem*{defn}{Definition}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+%\newtheorem*{thm}{Theorem}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{thm}{Theorem}[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem*{cor}%[thm]
+{Corollary} % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{eqn}{Equation}[chapter]
+\newtheorem{ex}{Example}[chapter] % this is needed for all Stitz Zeager content.
+\newtheorem{example}{Example}[chapter]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\setlength{\extrarowheight}{2pt}
+\newcommand{\bbm}{\begin{boxedminipage}{4.80in}} %SZ set to 6.41
+\newcommand{\ebm}{\end{boxedminipage}}
+\newcounter{HW}
+\newcounter{HWindent}
+
+\newcommand{\comment}[1]{}
+\newcommand{\pp}{\par~\par}
+
+\begin{document}
+
+%\textheight 8in
+%\textwidth 6.5in
+%\topmargin 1in
+
+%\allsectionsfont{\scshape}
+
+
+\renewcommand{\chaptermark}[1]%
+                  {\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]%
+               {\markright{\thesection\ #1}}
+\renewcommand{\headrulewidth}{0pt}
+\lhead[\fancyplain{}{\sc\thepage}]%
+      {\fancyplain{}{\sc \nouppercase{\rightmark}}}
+\rhead[\fancyplain{}{\sc \nouppercase{\leftmark}}]%
+      {\fancyplain{}{\sc\thepage}}
+\cfoot{}
+
+%\frontmatter
+
+\title{\Huge \sc College Algebra}% \\ \vspace{.1in} \Large Framingham State University}
+
+%\author{\sc \begin{tabular}{cc} Carl Stitz, Ph.D. &  Jeff Zeager, Ph.D. \\ Lakeland Community College & Lorain County Community College \\   \end{tabular}}
+
+%\renewcommand{\today}{\sc August 31, 2015}
+
+\maketitle
+
+%\include{acknowledgements}
+
+\thispagestyle{empty}
+
+\pagenumbering{roman}
+
+\renewcommand{\contentsname}{Table of Contents}
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\clearpage
+\phantomsection
+\pdfbookmark[1]{\contentsname}{toc}
+
+
+\tableofcontents
+
+\chapter*{Preface}
+\label{Preface}
+%\thispagestyle{empty}
+\input{BookPreface}
+
+\mainmatter
+ 
+\renewcommand{\chaptername}{Chapter}
+
+\setcounter{page}{1}
+\pagestyle{plain}
+
+\chapter{Linear Equations}
+\label{Linear Equations}
+%\thispagestyle{empty}
+\import{./Chapter_1_Linears/}{Chapter_1}
+
+\chapter{Systems of Linear Equations}
+\label{Systems of Linear Equations}
+\import{./Chapter_2_Systems/}{Chapter_2}
+
+\chapter{Quadratic Equations}
+\label{Quadratic Equations}
+\import{./Chapter_3_Quadratics/}{Chapter_3}
+
+\chapter{Introduction to Functions}
+\label{Introduction to Functions}
+\import{./Chapter_4_Functions/}{Chapter_4}
+
+\chapter{Polynomial Functions}
+\label{Polynomial Functions}
+\import{./Chapter_5_Polynomials/}{Chapter_5}
+
+%\chapter{Rational Functions}
+%\label{Rational Functions}
+%\import{./Chapter_6_Rationals/}{Chapter_6}
+
+%\chapter{Exponential and Logarithmic Functions}
+%\label{Exponential and Logarithmic Functions}
+%\import{./Chapter_7_ExpsLogs/}{Chapter_7}
+
+\printindex
+
+
+\end{document}

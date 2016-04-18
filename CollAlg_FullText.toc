@@ -1,0 +1,165 @@
+\select@language {english}
+\thispagestyle {empty}
+\contentsline {chapter}{\numberline {1}Linear Equations}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Solving Linear Equations}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}One-Step Equations}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Two-Step Equations}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}General Equations}{9}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Equations Containing Fractions}{15}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Absolute Value Equations}{19}{section.1.2}
+\contentsline {section}{\numberline {1.3}Graphing Linear Equations}{23}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}The Cartesian Plane}{23}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Graphing Lines from Points}{26}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}The Slope of a Line}{29}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}The Two Forms of a Linear Equation}{34}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Slope-Intercept Form}{34}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Point-Slope Form}{38}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Parallel and Perpendicular Lines}{42}{section.1.5}
+\contentsline {section}{\numberline {1.6}Applications}{46}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Numbers and Geometry}{46}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Age Problems}{53}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Distance, Rate and Time}{59}{subsection.1.6.3}
+\contentsline {section}{\numberline {1.7}Linear Inequalities and Sign Diagrams}{65}{section.1.7}
+\contentsline {subsection}{\numberline {1.7.1}Linear Inequalities}{65}{subsection.1.7.1}
+\contentsline {subsection}{\numberline {1.7.2}Introduction to Sign Diagrams}{71}{subsection.1.7.2}
+\contentsline {section}{\numberline {1.8}Compound and Absolute Value Inequalities}{74}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Compound Inequalities}{74}{subsection.1.8.1}
+\contentsline {subsection}{\numberline {1.8.2}Absolute Value Inequalities}{79}{subsection.1.8.2}
+\contentsline {section}{\numberline {1.9}Practice Problems}{83}{section.1.9}
+\contentsline {subsection}{\numberline {1.9.1}Solving Linear Equations}{83}{subsection.1.9.1}
+\contentsline {subsubsection}{One-Step Equations}{83}{section*.4}
+\contentsline {subsubsection}{Two-Step Equations}{84}{section*.5}
+\contentsline {subsubsection}{General Linear Equations}{85}{section*.6}
+\contentsline {subsubsection}{Equations Containing Fractions}{86}{section*.7}
+\contentsline {subsection}{\numberline {1.9.2}Absolute Value Equations}{87}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.3}Graphing Linear Equations}{88}{subsection.1.9.3}
+\contentsline {subsubsection}{The Cartesian Plane}{88}{section*.8}
+\contentsline {subsubsection}{Graphing Lines from Points}{88}{section*.9}
+\contentsline {subsubsection}{The Slope of a Line}{89}{section*.10}
+\contentsline {subsection}{\numberline {1.9.4}The Two Forms of a Linear Equation}{91}{subsection.1.9.4}
+\contentsline {subsubsection}{Slope-Intercept Form}{91}{section*.11}
+\contentsline {subsubsection}{Point-Slope Form}{92}{section*.12}
+\contentsline {subsection}{\numberline {1.9.5}Parallel and Perpendicular Lines}{94}{subsection.1.9.5}
+\contentsline {subsection}{\numberline {1.9.6}Applications}{96}{subsection.1.9.6}
+\contentsline {subsubsection}{Numbers and Geometry}{96}{section*.13}
+\contentsline {subsubsection}{Age Problems}{99}{section*.14}
+\contentsline {subsubsection}{Distance, Rate and Time}{102}{section*.15}
+\contentsline {subsection}{\numberline {1.9.7}Linear Inequalities and Sign Diagrams}{106}{subsection.1.9.7}
+\contentsline {subsection}{\numberline {1.9.8}Compound and Absolute Value Inequalities}{107}{subsection.1.9.8}
+\contentsline {subsubsection}{Compound Inequalities}{107}{section*.16}
+\contentsline {subsubsection}{Absolute Value Inequalities}{108}{section*.17}
+\contentsline {chapter}{\numberline {2}Systems of Linear Equations}{109}{chapter.2}
+\contentsline {section}{\numberline {2.1}Graphing}{109}{section.2.1}
+\contentsline {section}{\numberline {2.2}Substitution}{114}{section.2.2}
+\contentsline {section}{\numberline {2.3}Addition/Elimination}{120}{section.2.3}
+\contentsline {section}{\numberline {2.4}Three Variables}{126}{section.2.4}
+\contentsline {section}{\numberline {2.5}Applications}{134}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Value Problems}{134}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Mixture Problems}{143}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Matrix Notation}{150}{section.2.6}
+\contentsline {section}{\numberline {2.7}Practice Problems}{157}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Graphing}{157}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Substitution}{158}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Addition/Elimination}{160}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}Three Variables}{161}{subsection.2.7.4}
+\contentsline {subsection}{\numberline {2.7.5}Applications}{163}{subsection.2.7.5}
+\contentsline {subsubsection}{Value Problems}{163}{section*.18}
+\contentsline {subsubsection}{Mixture Problems}{168}{section*.19}
+\contentsline {subsection}{\numberline {2.7.6}Matrix Notation}{173}{subsection.2.7.6}
+\contentsline {chapter}{\numberline {3}Quadratic Equations}{175}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{175}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Quadratic Equations}{175}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Introduction to Vertex Form and Graphing}{177}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Factoring}{180}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Greatest Common Factor}{180}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Grouping}{185}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Trinomials with Leading Coefficient $a=1$}{191}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Trinomials with Leading Coefficient $a\not =1$}{196}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Solving by Factoring}{199}{section.3.3}
+\contentsline {section}{\numberline {3.4}Vertex Form and Graphing}{204}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Vertex Form}{204}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Graphing Quadratics}{208}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Square Roots and the Imaginary Number \textit {i}}{213}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Square Roots}{213}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Introduction to Complex Numbers}{218}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Solving by Extracting Square Roots}{227}{section.3.6}
+\contentsline {section}{\numberline {3.7}Completing the Square}{231}{section.3.7}
+\contentsline {section}{\numberline {3.8}The Quadratic Formula and the Discriminant}{237}{section.3.8}
+\contentsline {section}{\numberline {3.9}Applications}{246}{section.3.9}
+\contentsline {section}{\numberline {3.10}Quadratic Inequalities and Sign Diagrams}{247}{section.3.10}
+\contentsline {section}{\numberline {3.11}Practice Problems}{254}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Introduction}{254}{subsection.3.11.1}
+\contentsline {subsubsection}{Quadratic Equations}{254}{section*.20}
+\contentsline {subsubsection}{Vertex Form of a Quadratic}{254}{section*.21}
+\contentsline {subsection}{\numberline {3.11.2}Factoring}{255}{subsection.3.11.2}
+\contentsline {subsubsection}{Greatest Common Factor}{255}{section*.22}
+\contentsline {subsubsection}{Grouping}{255}{section*.23}
+\contentsline {subsubsection}{Trinomials with Leading Coefficient $a=1$}{256}{section*.24}
+\contentsline {subsubsection}{Trinomials with Leading Coefficient $a\not =1$}{257}{section*.25}
+\contentsline {subsection}{\numberline {3.11.3}Solving by Factoring}{258}{subsection.3.11.3}
+\contentsline {subsection}{\numberline {3.11.4}Vertex Form and Graphing}{259}{subsection.3.11.4}
+\contentsline {subsubsection}{Vertex Form of a Quadratic}{259}{section*.26}
+\contentsline {subsubsection}{Graphing Quadratics}{259}{section*.27}
+\contentsline {subsection}{\numberline {3.11.5}Square Roots and the Imaginary Number $i$}{260}{subsection.3.11.5}
+\contentsline {subsubsection}{Square Roots}{260}{section*.28}
+\contentsline {subsubsection}{Intro to Complex Numbers}{261}{section*.29}
+\contentsline {subsection}{\numberline {3.11.6}Solving by Extracting Square Roots}{262}{subsection.3.11.6}
+\contentsline {subsection}{\numberline {3.11.7}Completing the Square}{263}{subsection.3.11.7}
+\contentsline {subsection}{\numberline {3.11.8}The Quadratic Formula and the Discriminant}{264}{subsection.3.11.8}
+\contentsline {subsection}{\numberline {3.11.9}Applications}{265}{subsection.3.11.9}
+\contentsline {subsection}{\numberline {3.11.10}Quadratic Inequalities and Sign Diagrams}{266}{subsection.3.11.10}
+\contentsline {chapter}{\numberline {4}Introduction to Functions}{267}{chapter.4}
+\contentsline {section}{\numberline {4.1}Notation and Basic Examples}{267}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Definitions and the Vertical Line Test}{267}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Evaluating Functions}{275}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Domain and Range}{278}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Identifying Domain and Range Graphically}{278}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Identifying Domain and Range Algebraically}{280}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Ten Fundamental Functions}{283}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Combining Functions}{288}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Function Arithmetic}{288}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Composite Functions}{292}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Transformations}{295}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Shifts}{295}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Reflections}{300}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Scalings}{305}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Transformations Summary}{311}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Piecewise-Defined and Absolute Value Functions}{317}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Piecewise-Defined Functions}{317}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Absolute Value Functions}{325}{subsection.4.5.2}
+\contentsline {subsubsection}{Graphing Absolute Value Equations}{325}{section*.30}
+\contentsline {subsubsection}{Recognizing Absolute Value Functions as Piecewise-Defined}{329}{section*.31}
+\contentsline {section}{\numberline {4.6}Practice Problems}{331}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Notation and Basic Examples}{331}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Domain and Range}{338}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Combining Functions}{339}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Transformations}{343}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Piecewise-Defined and Absolute Value Functions}{347}{subsection.4.6.5}
+\contentsline {subsubsection}{Piecewise-Defined Functions}{347}{section*.32}
+\contentsline {subsubsection}{Absolute Value Functions}{348}{section*.33}
+\contentsline {chapter}{\numberline {5}Polynomial Functions}{349}{chapter.5}
+\contentsline {section}{\numberline {5.1}Notation and Basic Examples}{349}{section.5.1}
+\contentsline {section}{\numberline {5.2}Factoring}{353}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Special Products}{353}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Quadratic Type}{359}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Factoring Summary}{362}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Division}{364}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Polynomial Division}{364}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Synthetic Division}{372}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Graphing}{377}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}End Behavior}{377}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Zeros and Local Behavior}{383}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Polynomial Inequalities and Sign Diagrams}{387}{section.5.5}
+\contentsline {section}{\numberline {5.6}Practice Problems}{393}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Notation and Basic Examples}{393}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Factoring}{394}{subsection.5.6.2}
+\contentsline {subsubsection}{Special Products}{394}{section*.34}
+\contentsline {subsubsection}{Quadratic Type}{394}{section*.35}
+\contentsline {subsubsection}{Factoring Summary}{394}{section*.36}
+\contentsline {subsection}{\numberline {5.6.3}Division}{395}{subsection.5.6.3}
+\contentsline {subsubsection}{Polynomial Division}{395}{section*.37}
+\contentsline {subsubsection}{Synthetic Division}{396}{section*.38}
+\contentsline {subsection}{\numberline {5.6.4}Graphing}{397}{subsection.5.6.4}
+\contentsline {subsubsection}{End Behavior}{397}{section*.39}
+\contentsline {subsubsection}{Zeros and Local Behavior}{397}{section*.40}
+\contentsline {subsection}{\numberline {5.6.5}Polynomial Inequalities and Sign Diagrams}{398}{subsection.5.6.5}
