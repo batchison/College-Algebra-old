@@ -1,0 +1,335 @@
+\subsection{Compound Inequalities}
+
+{\tmstrong{Objective: Solve, graph and give interval notation to the solution
+of compound inequalities and inequalities containing absolute values.}}\par
+~\par
+Several inequalities can be combined together to form what are called compound
+inequalities. There are three types of compound inequalities which we will
+investigate in this section.\par
+~\par
+The first type of a compound inequality is an OR inequality. For this type of
+inequality we want a true statement from either one inequality OR the other
+inequality OR both. When we are graphing these type of inequalities we will
+graph each individual inequality above the number line, then combine them together on the number line for our graph.\par
+~\par
+When we provide interval notation for our solution, if there are two different
+intervals to the graph we will put a $\cup$ (union) symbol between the two intervals.%\pp
+
+\begin{example}\label{Lin100}~~~ Solve each inequality, graph the solution, and provide the interval notation of your solution.
+  \begin{eqnarray*}
+    2 x - 5 > 3 \tmop{~~or~~} 4 - x \geq 6~~ &  & \tmop{Solve} \tmop{each}
+    \tmop{inequality}\\
+    \tmmathbf{\underline{+ 5 ~ + 5}} ~~~ \tmmathbf{\underline{- 4 ~~~~~~ - 4}} &  & \tmop{Add} \tmop{or}
+    \tmop{subtract} \tmop{first}\\
+    2 x > 8 \tmop{~~~~or~~~~~} - x \geq 2~~ &  & \tmop{Divide}\\
+    \tmmathbf{\overline{2} ~~~~~ \overline{2}} ~~~~~~~~~~~~ \tmmathbf{\overline{- 1} ~~~ \overline{- 1}} &  &
+    \tmop{Dividing} \tmop{by} \tmop{negative} \tmop{flips} \tmop{sign}\\
+    x > 4 \tmop{~~~~or~~~~~} x \leq - 2~~ &  & \tmop{Graph} \tmop{the}
+    \tmop{inequalities} \tmop{separately},\\
+		& & ~~~\tmop{then~combine}
+  \end{eqnarray*}
+\end{example}
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-7}{6}
+\pointfilltrue
+\penwd{0.5pt}
+\polyline{(8,6),(-8,6)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](3,4){$4$}
+\penwd{2.3pt}
+\tlabel[cc](3,6){{\Large\bf (}}
+\arrow[b -5.8pt][l 6pt]\polyline{(3.15,6),(8,6)}
+
+\penwd{0.5pt}
+\polyline{(8,3),(-8,3)}
+\tlabel[cc](-1,1){$-2$}
+\penwd{2.3pt}
+\tlabel[cc](-1,3){{\Large\bf ]}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-1.15,3),(-8,3)}
+
+\tlabel[cc](0,-2){$\Downarrow$}
+
+\penwd{0.5pt}
+\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](-1,-7){$-2$}
+\penwd{2.3pt}
+\tlabel[cc](-1,-5){{\Large\bf ]}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-1.15,-5),(-8,-5)}
+\tlabel[cc](3,-7){$4$}
+\penwd{2.3pt}
+\tlabel[cc](3,-5){{\Large\bf (}}
+\arrow[b -5.8pt][l 6pt]\polyline{(3.15,-5),(8,-5)}
+
+\tcaption{$x\leq-2$~~or~~$x>4$}
+\end{mfpic}
+\end{center}
+
+{\tmstrong{World View Note:}} The symbol for infinity was first used by the
+Romans, although at the time the number was used for 1000. The Greeks also
+used the symbol for 10,000.\pp
+
+There are several different results that could result from an OR statement.
+The graphs could be pointing different directions, as in the graph above.  The graphs could also be pointing in the same direction, as in the graph below on the left.  Lastly, the graphs could be pointing in opposite directions, but overlapping, as in the graph below on the right.
+Notice how interval notation works for each of these cases.
+
+\begin{center}
+\begin{multicols}{2}
+\begin{mfpic}[8]{-8}{8}{-7}{6}
+\pointfilltrue
+\penwd{0.5pt}
+\polyline{(8,6),(-8,6)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](-3,4){$-3$}
+\penwd{2.3pt}
+\tlabel[cc](-3,6){{\Large\bf ]}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-3.15,6),(-8,6)}
+
+\penwd{0.5pt}
+\polyline{(8,3),(-8,3)}
+\tlabel[cc](-1,1){$-1$}
+\penwd{2.3pt}
+\tlabel[cc](-1,3){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-1.15,3),(-8,3)}
+
+\tlabel[cc](0,-2){$\Downarrow$}
+
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](-1,-7){$-1$}
+\penwd{2.3pt}
+\tlabel[cc](-1,-5){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-1.15,-5),(-8,-5)}
+\tcaption{$x\leq-3$~~or~~$x<-1$}
+\end{mfpic}
+
+\begin{mfpic}[8]{-8}{8}{-7}{6}
+\pointfilltrue
+\penwd{0.5pt}
+\polyline{(8,6),(-8,6)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](-3,4){$-3$}
+\penwd{2.3pt}
+\tlabel[cc](-3,6){{\Large\bf [}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-2.85,6),(8,6)}
+
+\penwd{0.5pt}
+\polyline{(8,3),(-8,3)}
+\tlabel[cc](-1,1){$-1$}
+\penwd{2.3pt}
+\tlabel[cc](-1,3){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-1.15,3),(-8,3)}
+
+\tlabel[cc](0,-2){$\Downarrow$}
+
+\penwd{0.5pt}
+\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](-1,-7){~}
+\penwd{2.3pt}
+%\tlabel[cc](-1,-5){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt] \reverse \arrow[b -5.8pt][l 6pt]\polyline{(8,-5),(-8,-5)}
+\tcaption{$x\geq-3$~~or~~$x<-1$}
+\end{mfpic}
+
+\end{multicols}
+\end{center}
+
+\begin{multicols}{2}
+  As the graphs overlap, we take\\ the largest graph ($x<-1$) for\\ our solution.\\
+	Interval notation: $(- \infty, 1)$
+  
+  When the graphs are combined they cover the entire number line.\\
+  
+  Interval notation: $(- \infty, \infty)$ \tmop{~or~} $\mathbb{R}$
+\end{multicols}
+
+\pagebreak
+
+The second type of compound inequality is an AND inequality. These inequalities require \textit{both} statements to be true. If one is false, they both are false. When we graph these inequalities we can follow a similar process.  First, graph both inequalities above the number line.  This time, however, we will only consider where they overlap to the number line for our final graph. When our solution is given in interval notation it will be expressed in a manner very similar to single inequalities (there is a symbol that can be used for AND, the intersection, denoted by a $\cap$, but we will not use it here).
+
+%
+\begin{example}\label{Lin101}~~~ Solve each inequality, graph the solution, and provide the interval notation of your solution.
+  \begin{eqnarray*}
+    2 x + 8 \geq 5 x - 7 \tmop{~~and~~} 5 x - 3 > 3 x + 1 &  & \tmop{Move}
+    \tmop{variables} \tmop{to} \tmop{one} \tmop{side}\\
+    \tmmathbf{\underline{- 2 x ~~~~~- 2 x}} ~~~~~~~~~~~~  \tmmathbf{\underline{- 3 x ~~~~- 3 x}}~~~~  &  & \\
+    8 \geq 3 x - 7 \tmop{~~~and~~~} 2 x - 3 > 1~~~~~~ &  & \tmop{Add} 7 \tmop{~or~} 3
+    \tmop{to} \tmop{both} \tmop{sides}\\
+    \tmmathbf{\underline{+ 7 ~~~~~~+ 7}} ~~~~~~~~~~~~~~~~ \tmmathbf{\underline{+ 3 ~~+ 3}}~~~ &  & \\
+    15 \geq 3 x \tmop{~~~~~~and~~~~~~~} 2 x > 4~~~~~~~ &  & \tmop{Divide}\\
+    \tmmathbf{\overline{3} ~~~~~ \overline{3}} ~~~~~~~~~~~~~~~~~~~~ \tmmathbf{\overline{2} ~~~~~ \overline{2}}~~~~~~~ &  & \\
+    5 \geq x \tmop{~~~~~~~and~~~~~~~} x > 2~~~~~~~~~ &  & \tmop{Graph~the~inequalities~}\\
+		& & ~~~\tmop{separately,~then~combine}%x \tmop{~is}
+    %\tmop{less~than} (\tmop{or} \tmop{equal~to}) 5,\\
+		%& & \tmop{greater} \tmop{than} 2
+  \end{eqnarray*}
+\end{example}
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-7}{6}
+\pointfilltrue
+\penwd{0.5pt}
+\polyline{(8,6),(-8,6)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](5,4){$5$}
+\penwd{2.3pt}
+\tlabel[cc](5,6){{\Large\bf ]}}
+\arrow[b -5.8pt][l 6pt]\polyline{(4.85,6),(-8,6)}
+
+\penwd{0.5pt}
+\polyline{(8,3),(-8,3)}
+\tlabel[cc](2,1){$2$}
+\penwd{2.3pt}
+\tlabel[cc](2,3){{\Large\bf (}}
+\arrow[b -5.8pt][l 6pt]\polyline{(2.15,3),(8,3)}
+
+\tlabel[cc](0,-2){$\Downarrow$}
+
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](5,-7){$5$}
+\tlabel[cc](2,-7){$2$}
+\penwd{2.5pt}
+\tlabel[cc](2,-5){{\Large\bf (}}
+\tlabel[cc](5,-5){{\Large\bf ]}}
+\polyline{(2.15,-5),(4.85,-5)}
+
+\tcaption{$x>2$~~and~~$x\leq 5$}
+\end{mfpic}
+\end{center}
+  \begin{eqnarray*}
+    (2,5] && \text{Interval~notation}
+  \end{eqnarray*}
+
+\vspace{2.5in}
+~
+
+
+Again, as we graph AND inequalities, only the overlapping parts of the
+individual graphs makes it to the final number line.  There are also three different types of results we could get. The first is shown in the above example. The second occurs when the arrows both point
+in the same direction, as shown below on the left. The third occurs when the arrows point in opposite directions, but do not overlap, as shown below on the right. Notice how interval notation is expressed in each case.
+
+%\pagebreak
+
+\begin{center}
+\begin{multicols}{2}
+\begin{mfpic}[8]{-8}{8}{-7}{6}
+\pointfilltrue
+\penwd{0.5pt}
+\polyline{(8,6),(-8,6)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](-2,4){$-1$}
+\penwd{2.3pt}
+\tlabel[cc](-2,6){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-2.15,6),(-8,6)}
+
+\penwd{0.5pt}
+\polyline{(8,3),(-8,3)}
+\tlabel[cc](-4,1){$-2$}
+\penwd{2.3pt}
+\tlabel[cc](-4,3){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-4.15,3),(-8,3)}
+
+\tlabel[cc](0,-2){$\Downarrow$}
+
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](-4,-7){$-2$}
+\penwd{2.3pt}
+\tlabel[cc](-4,-5){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-4.15,-5),(-8,-5)}
+\tcaption{$x<-1$~~and~~$x<-2$}
+\end{mfpic}
+
+\begin{mfpic}[8]{-8}{8}{-7}{6}
+\pointfilltrue
+\penwd{0.5pt}
+\polyline{(8,6),(-8,6)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](4,4){$2$}
+\penwd{2.3pt}
+\tlabel[cc](4,6){{\Large\bf (}}
+\arrow[b -5.8pt][l 6pt]\polyline{(4.15,6),(8,6)}
+
+\penwd{0.5pt}
+\polyline{(8,3),(-8,3)}
+\tlabel[cc](-2,1){$-1$}
+\penwd{2.3pt}
+\tlabel[cc](-2,3){{\Large\bf )}}
+\arrow[b -5.8pt][l 6pt]\polyline{(-2.15,3),(-8,3)}
+
+\tlabel[cc](0,-2){$\Downarrow$}
+
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](-1,-7){~}
+%\penwd{2.3pt}
+%\tlabel[cc](-1,-5){{\Large\bf )}}
+%\arrow[b -5.8pt][l 6pt] \reverse \arrow[b -5.8pt][l 6pt]\polyline{(8,-5),(-8,-5)}
+\tcaption{$x>2$~~and~~$x<-1$}
+\end{mfpic}
+\end{multicols}
+\end{center}
+
+\begin{multicols}{2}
+  In this graph, the overlap is only\\ the smaller graph ($x<-2$), so\\ this is what makes
+  it to the\\ final number line.\\
+  Interval notation: $(- \infty, - 2)$\\
+	
+  In this graph there is no overlap of the parts.	Because there is no overlap, no values make it to the final number line.\\
+	Interval notation: No solution or $\varnothing$
+\end{multicols}
+
+The third type of compound inequality is a special type of AND inequality.
+When our variable (or expression containing the variable) is between two
+numbers.  We can write this as a single mathematical sentence with three parts, such as $5 < x \leq 8$, to show $x$ is between 5 and 8 (or equal to 8). This type of inequality is often referred to as a \textit{double inequality}, since it contains two inequalities.  When solving these types of inequalities, as there are three parts to work with, in order to stay balanced we will do the same thing to all three parts (rather than just two sides), and eventually isolate the variable in the middle. The resulting graph will contain all values between the numbers on either side of the double inequality, with appropriate brackets on the ends.%\pp
+
+\pagebreak
+
+\begin{example}\label{Lin102}~~~ Solve each inequality, graph the solution, and provide the interval notation of your solution.
+  \begin{eqnarray*}
+    - 6 \leq - 4 x + 2 < 2~~ &  & \tmop{Subtract} 2 \tmop{from} \tmop{all}
+    \tmop{three} \tmop{parts}\\
+    \tmmathbf{\underline{- 2} ~~~~~~~~~~\underline{- 2} ~~~\underline{- 2}} &  & \\
+    - 8 \leq - 4 x < 0~~ &  & \tmop{Divide} \tmop{all} \tmop{three}
+    \tmop{parts} \tmop{by} - 4\\
+    \tmmathbf{\overline{- 4} ~~~~ \overline{- 4} ~~~~ \overline{- 4}} &  & \tmop{Dividing}
+    \tmop{by~a} \tmop{negative} \tmop{flips} \tmop{the} \tmop{symbols}\\
+    2 \geq x > 0~~ &  & \tmop{Flip} \tmop{entire} \tmop{statement}
+    \tmop{so} \tmop{values} \tmop{get} \tmop{larger} \tmop{left} \tmop{to}
+    \tmop{right}\\
+    0 < x \leq 2~~ &  & \text{Graph~} x \text{~between~0~and~2}%\\
+%		& & ~~~\tmop{then~combine}% x \tmop{between} 0 \tmop{and} 2
+  \end{eqnarray*}
+\end{example}
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-7}{-5}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](0,-7){$0$}
+\tlabel[cc](3,-7){$2$}
+\penwd{2.3pt}
+\tlabel[cc](0,-5){{\Large\bf (}}
+\tlabel[cc](3,-5){{\Large\bf ]}}
+\polyline{(0.15,-5),(2.85,-5)}
+
+\tcaption{$0<x\leq 2$}
+\end{mfpic}
+\end{center}
+	\begin{eqnarray*}
+    (0, 2] &  & \tmop{Interval} \tmop{notation}
+  \end{eqnarray*}
