@@ -1,0 +1,221 @@
+
+<section>
+<title>Introduction</title>
+<subsection>
+<title>Quadratic Equations</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Recognize and classify a quadratic equation algebraically and graphically}}\pp
+</p>
+  
+<p>
+A quadratic equation is an equation of the form:
+</p>
+  
+<me>
+y=ax^2+bx+c
+</me>
+ 
+<p>
+where the <i>coefficients</i> of <m>a</m>,<m>b</m>, and <m>c</m> are real numbers and <m>a\neq 0</m>. This form is most commonly referred to as the <i>standard form</i> of a quadratic. We call <m>a</m> the <i>leading coefficient</i>, <m>ax^2</m> the <i>leading term</i> (also known as the <i>quadratic term</i>), <m>bx</m> the <i>linear term</i> and <m>c</m> the <i>constant term</i> of the equation. The quadratic term <m>ax^2</m>, must have a nonzero coefficient in order for the equation to be a quadratic (otherwise <m>y</m> would be linear, in slope-intercept form). The most fundamental quadratic equation is <m>y=x^2</m> and its graph, like all quadratics, is known as a <i>parabola</i>.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>y=x^2</m><br />
+</p>
+  
+<p>
+From the standard form, since <m>a>0</m>, the graph opens upwards and is said to be <i>concave up</i>.<br /> <br />
+As a result, there is a minimum point, known as the <i>vertex</i>, located at the origin, <m>(0,0)</m>. <br /> <br />
+Notice the symmetry over the <m>y</m>-axis.<br /> <br />
+</p>
+  
+<p>
+\begin{mfpic}[25]{-2.5}{2.5}0{5}
+\arrow \reverse \arrow \function{-2,2,.1}{x**2}
+\axes
+\xmarks{-2,-1,0,1,2,}
+\ymarks{1,2,3,4}
+\tlabelsep{3pt}
+\axislabels x{{<m>-2</m>}-2,{<m>-1</m>}-1,{<m>0</m>}0,{<m>1</m>}1,{<m>2</m>}2}
+\axislabels y{{<m>1</m>}1,{<m>2</m>}2,{<m>3</m>}3,{<m>4</m>}4}
+\end{mfpic}
+</p>
+ </statement>
+</example>
+  
+<p>
+<nbsp />
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>y=-x^2</m><br />
+</p>
+  
+<p>
+Since <m>a = -1</m>, the graph opens downward or we say that it is <i>concave down</i>.<br /> <br />Every parabola with a negative leading coefficient (<m>a\lt 0</m>) will be concave down with a maximum value at its vertex.<br /> <br />
+\begin{mfpic}[25]{-2.5}{2.5}{-4.5}{0.5}
+\arrow \reverse \arrow \function{-2,2,.1}{(-1)*((x)**2)}
+\axes
+\xmarks{-2,-1,1,2}
+\ymarks{-4,-3,-2,-1}
+\tlabelsep{3pt}
+\axislabels x{{<m>-2</m>}-2,{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2}
+\axislabels y{{<m>-4</m>}-4,{<m>-3</m>}-3,{<m>-2</m>}-2,{<m>-1</m>}-1}
+\end{mfpic}
+</p>
+ </statement>
+</example>
+  
+<p>
+The graph above has the same vertex as that in the previous example, but is a reflection of the previous graph about the <m>y</m>-axis. This flip of the graph is known as a transformation and will be discussed in the next chapter.\pp
+Aside from the shape and concavity, there is little else that the standard form immediately provides for graphing a quadratic. Additional aspects related to graphing quadratics will be covered a bit later in the chapter. Following this introduction, we will primarily focus on factoring quadratics from standard form. With all of the algebraic material that will follow, however, it will help to have a graphical sense of a quadratic equation.
+</p>
+ </subsection> 
+<subsection>
+<title>Introduction to Vertex Form and Graphing</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Recognize and utilize the vertex form to graph a quadratic}}\pp
+</p>
+  
+<p>
+The most useful form for graphing a quadratic equation is the <i>vertex form</i>. A quadratic equation is said to be in vertex form if it is represented as
+</p>
+  
+<me>
+y=a(x-h)^2+k,
+</me>
+ 
+<p>
+where <m>h</m> and <m>k</m> are real numbers.\pp
+It is important to note that the value <m>a</m> appearing above is also the leading coefficient from the standard form for a quadratic. Later, we will see the relationships between the coefficients <m>a,b,</m> and <m>c</m> in the standard form with <m>h</m> and <m>k</m> above.\pp
+When <m>a=1</m>, the graph of a quadratic equation given in vertex form can be represented as a <i>shift</i>, or translation, of the original or "parent equation" <m>y = x^2</m> presented earlier.
+The vertex form, unlike the standard form, allows us to immediately identify the vertex of the resulting parabola, which will be the point (<m>h,k</m>).\pp
+</p>
+  
+<p>
+Next, we will see a few examples of quadratics in vertex form, the last of which is a bit surprising.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>y = (x+3)^2-9</m><br />
+</p>
+  
+<p>
+The vertex is at <m>(-3,-9)</m> and the graph can be realized as the graph of <m>y=x^2</m> shifted left 3 units and down 9 units from the origin.<br /> <br />
+Since our graph is concave up there will be two <m>x</m>-intercepts as the function opens upward from below the <m>x</m>-axis.<br /> <br />
+</p>
+  
+<p>
+\begin{mfpic}[20]{-6.5}{.5}{-9.5}{.5}
+\arrow \reverse \arrow \function{-6,0,.1}{((x+3)**2)-9}
+\plotsymbol[4]{SolidCircle}{(-3,-9)}
+\axes
+\xmarks{-6,-5,-4,-3,-2,-1,0}
+\ymarks{-9,-8,-7,-6,-5,-4,-3,-2,-1}
+\tlabelsep{3pt}
+\axislabels x{
+{<m>-3</m>}-3}
+\axislabels y{
+{<m>-9</m>}-9,
+{<m>-6</m>}-6,
+{<m>-3</m>}-3}
+\end{mfpic}
+</p>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>y=-3(x-1)^2+2</m><br />
+<nbsp /><br />
+The vertex is at <m>(1,2)</m> and represents a translation of the vertex for the graph of <m>y=x^2</m> right 1 unit and up 2 units.<br /> <br />
+This graph is also concave down, since the leading coefficient <m>a=-3</m> is less than zero.<br /> <br />
+Moreover, since <m>|a|>1</m>, the shape of the graph is narrower than those which we have seen thus far.<br /> <br />
+Just like the previous example, this graph will have two <m>x</m>-intercepts as its vertex is above the <m>x</m>-axis and it opens downward.<br />
+<nbsp />
+\begin{mfpic}[25]{-1.5}{3.5}{-8}3
+\arrow \reverse \arrow \function{-.825,2.825,.1}{((-3)*((x-1)**2))+2}
+\plotsymbol[4]{SolidCircle}{(1,2)}
+\axes
+\xmarks{-1,1,2,3}
+\ymarks{-7,-6,-5,-4,-3,-2,-1,1,2}
+\tlabelsep{3pt}
+\axislabels x{{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2,{<m>3</m>}3}
+\axislabels y{{<m>-7</m>}-7,{<m>-6</m>}-6,{<m>-5</m>}-5,{<m>-4</m>}-4,{<m>-3</m>}-3, {<m>-2</m>}-2,{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2}
+\end{mfpic}
+</p>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>y=-\frac{1}{5}(x+1)^2</m><br />
+<nbsp /><br />
+The vertex is at <m>(-1,0)</m> and represents a translation of the vertex for the graph of <m>y=x^2</m> left 1 unit. <br /> <br />
+There is no vertical shift, since there is no addition of a constant outside of the given expression.<br /> <br />
+Our graph is concave down and is much wider than any example we have seen thus far. This is on account of the fact that <m>a</m> is both negative and <m>|a|\lt 1</m>. <br />
+<nbsp />
+</p>
+  
+<p>
+\begin{mfpic}[25]{-5.5}{3.5}{-3.5}2
+\arrow \reverse \arrow \function{-5,3,.1}{((-.2)*((x+1)**2))}
+\plotsymbol[4]{SolidCircle}{(-1,0)}
+\axes
+\xmarks{-5,-4,-3,-2,-1,1,2}
+\ymarks{-3,-2,-1,1}
+\tlabelsep{3pt}
+\axislabels x{{<m>-5</m>}-5,{<m>-4</m>}-4,{<m>-3</m>}-3,{<m>-2</m>}-2,{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2,{<m>3</m>}3}
+\axislabels y{{<m>-3</m>}-3, {<m>-2</m>}-2,{<m>-1</m>}-1,{<m>1</m>}1}
+\end{mfpic}
+</p>
+ </statement>
+</example>
+  
+<p>
+The following example shows an equation represented in both vertex and standard forms.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>y=x^2+3</m><br />
+<nbsp /><br />
+The vertex is at <m>(0,3)</m> and our graph is a shift of the graph of <m>y=x^2</m> up 3 units.<br /> <br /> Since our graph is concave up with a vertex above the <m>x</m>-axis, there will be no real <m>x</m>-intercepts.<br /> <br /> Notice that there is no horizontal shift because no number has been added or subtracted to <m>x</m> prior to it being squared.<br /> <br />
+\begin{mfpic}[25]{-2.5}{2.5}0{7.5}
+\arrow \reverse \arrow \function{-2,2,.1}{(((x)**2))+3}
+\axes
+\xmarks{-2,-1,0,1,2}
+\ymarks{1,2,3,4,5,6,7}
+\plotsymbol[4]{SolidCircle}{(0,3)}
+\tlabelsep{3pt}
+\axislabels x{{<m>-2</m>}-2,{<m>-1</m>}-1,{<m>0</m>}0,{<m>1</m>}1,{<m>2</m>}2}
+\axislabels y{{<m>1</m>}1,{<m>2</m>}2,{<m>3</m>}3,{<m>4</m>}4,{<m>5</m>}5,{<m>6</m>}6,{<m>7</m>}7}
+\end{mfpic}
+</p>
+ </statement>
+</example>
+  
+<p>
+This final example above may be recognized as a quadratic equation in standard form, where <m>b=0</m>. Since there is no linear term, this quadratic is also in vertex form.\pp
+More generally, the graph of any equation of the form
+</p>
+  
+<me>
+y= ax^2+c
+</me>
+ 
+<p>
+has a <m>y</m>-intercept and vertex at <m>(0,c)</m>, since the resulting parabola represents a only a vertical shift of the graph of <m>y=x^2</m> by <m>c</m> units and no horizontal shift.
+</p>
+ </subsection> </section>

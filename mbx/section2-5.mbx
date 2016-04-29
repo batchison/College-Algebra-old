@@ -1,0 +1,1454 @@
+
+<section>
+<title>Applications</title>
+<subsection>
+<title>Value Problems</title>
+<p>
+{\tmstrong{Objective: Solve value and mixture problems by setting up a system of
+equations.}}\pp
+</p>
+  
+<p>
+One application related to solving systems of equations is known as a value problem. Value
+problems are problems where each variable has a value attached to it. For example,
+if our variable is the number of nickels in a person's pocket, those nickels
+would have a value of five cents each. We will use a table to help us set up
+and solve value problems. The basic structure of the table is shown below.
+</p>
+  
+<me>
+ \begin{array}{|c|c|c|c|}
+     \hline
+     \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+     \hline
+     \tmop{Item} 1 \amp   \amp   \amp  \\
+     \hline
+     \tmop{Item} 2 \amp   \amp   \amp  \\
+     \hline
+     \tmop{Total} \amp   \amp   \amp  \\
+     \hline
+\end{array}  
+</me>
+ 
+<p>
+The first column in the table is used for the number of things we have. Quite
+often, this will contain our variables. The second column is used for the value each item has. The third column is used for the total value, which we calculate by multiplying the number by the value. For example, if we have 7 dimes, each with a value of 10 cents, the total value is <m>7 \cdot 10 = 70</m>
+cents. The last row of the table is for totals. We will only use the third row
+(also marked total) for the totals that are given to us. This means that this row may sometimes contain blank cells. Once the table is filled in we can easily
+make equations by adding each column and setting it equal to the total at the
+bottom of the column. This is shown in the following example.
+</p>
+  
+<example><statement>
+<p>
+In a Luke's bank there are 11 coins that have a value of <m>\dollar1.85</m>. The coins are either quarters or dimes. How many of each coin does Luke have?
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Quarter} \amp  q \amp  25 \amp  \\
+      \hline
+      \tmop{Dime} \amp  d \amp  10 \amp  \\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Using} \tmop{the~value} \tmop{table}, \tmop{use} <m>q</m> \tmop{for}
+      \tmop{quarters}, <m>d</m> \tmop{for} \tmop{dimes}.\pp
+      \tmop{Each} \tmop{quarter's} \tmop{value} \tmop{is} 25 \tmop{cents},
+      \tmop{each~dime's} \tmop{is} 10 \tmop{cents}.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Quarter} \amp  q \amp  25 \amp  25 q\\
+      \hline
+      \tmop{Dime} \amp  d \amp  10 \amp  10 d\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+		\text{Multiply~the~number~by}  \text{the~value}  \text{to~get}  \text{the~totals} .
+\end{array}</mrow>
+ 
+</md>
+ 
+<p>
+We have a total of 11 coins. This is the number total (first column). We also know that we have \$1.85. This is the money total (last column).
+</p>
+  
+<md><mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Quarter} \amp  q \amp  25 \amp  25 q\\
+      \hline
+      \tmop{Dime} \amp  d \amp  10 \amp  10 d\\
+      \hline
+      \tmop{Total} \amp  11 \amp   \amp  185\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Write~the} \tmop{final} \tmop{total} \tmop{in} \tmop{cents} (185)
+      \tmop{because} 25 \tmop{and} 10 \tmop{represent} \tmop{cents}.
+\end{array}</mrow>
+ 
+</md>
+ 
+<p>
+Next, we add the first and last columns to obtain our system of equations.
+</p>
+  
+<me>
+q + d = 11\qquad\qquad 25 q + 10 d = 185
+</me>
+ 
+<p>
+We may either solve by substitution or addition/elimination. Here, we will use addition/elimination.
+</p>
+  
+<md><mrow>- 10 (q + d) = (11) (- 10) \amp   \amp  \tmop{Multiply} \tmop{first} \tmop{equation} \tmop{by} - 10</mrow>
+ <mrow>- 10 q - 10 d = - 110~~~~~~ \amp   \amp \text{Simplify,~distribute~and~multiply}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>- 10 q - 10 d = - 110 \amp   \amp </mrow>
+ <mrow>\underline{25 q + 10 d = 185~}~ \amp   \amp  \tmop{Add} \tmop{equations} \tmop{together}</mrow>
+ <mrow>15 q = 75~~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{15} ~~~~ \overline{15}}~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 15.</mrow>
+ <mrow>q = 5~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} q</mrow>
+  
+</md>
+ 
+<p>
+The number of quarters is <m>q=5</m>. We can plug this back into one of our original equations to obtain <m>d</m>. For simplicity, we will use the first equation.
+</p>
+  
+<md><mrow>(5) + d = 11 \amp   \amp  \text{Solve~for~}  d</mrow>
+ <mrow>\tmmathbf{\underline{- 5 ~~~- 5}} \amp   \amp  \tmop{Subtract~} 5</mrow>
+ <mrow>d = 6~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} d</mrow>
+ 
+</md>
+ 
+<p>
+The number of dimes is <m>d=6</m>. Luke's bank contains 6 dimes and 5 quarters.
+</p>
+ </statement>
+</example>
+  
+<p>
+{\tmstrong{World View Note:}} American coins are the only coins that do not
+state the value of the coin. On the back of the dime it says "one dime" (not
+10 cents). On the back of the quarter it says "one quarter" (not 25 cents).
+On the penny it says "one cent" (not 1 cent). The rest of the world (Euros,
+Yen, Pesos, etc.) all write the value as a number so people who don't speak the
+language can easily use the coins.\pp
+</p>
+  
+<p>
+Ticket sales also have a value. Often different types of tickets sell for
+different prices (values). These problems can be solved in much the same way.
+</p>
+  
+<example><statement>
+<p>
+There were 41 tickets sold for an event. Tickets for children cost
+<m>\dollar1.50</m> and tickets for adults cost <m>\dollar2.00</m>. Ticket sales for the event totaled <m>\dollar73.50</m>. How many of each type of ticket were sold?\pp
+	We will use <m>c</m> to denote the number of child tickets sold and <m>a</m> to denote the number of adult tickets sold.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Child} \amp  c \amp  1.5 \amp  \\
+      \hline
+      \tmop{Adult} \amp  a \amp  2 \amp  \\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Child} \tmop{tickets} \tmop{have} \tmop{a~value~of} \dollar1.50, \tmop{adult}
+      \tmop{tickets~have} \tmop{a~value} \tmop{of} \dollar2.00
+      (\tmop{we} \tmop{can} \tmop{drop} \tmop{the} \tmop{zeros} \tmop{after}
+      \tmop{the} \tmop{decimal} \tmop{point}).
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Child} \amp  c \amp  1.5 \amp  1.5 c\\
+      \hline
+      \tmop{Adult} \amp  a \amp  2 \amp  2 a\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+		\text{Multiply~the~number~by}  \text{the~value}  \text{to~get}  \text{the~totals} .
+\end{array}</mrow>
+  
+</md>
+ 
+<p>
+<nbsp />\pp
+We have a total of 41 tickets sold. This is the number total (first column). We also know that we have \$73.50. This is the money total (last column).
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Child} \amp  c \amp  1.5 \amp  1.5 c\\
+      \hline
+      \tmop{Adult} \amp  a \amp  2 \amp  2 a\\
+      \hline
+      \tmop{Total} \amp  41 \amp   \amp  73.5\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Write} \tmop{the} \tmop{ticket} \tmop{values} \tmop{in} \tmop{dollars} \tmop{as} 1.5 \tmop{and} 2.
+\end{array}</mrow>
+ 
+</md>
+ 
+<p>
+Next, we add the first and last columns to obtain our system of equations.
+</p>
+  
+<me>
+c + a = 41\qquad\qquad 1.5 c + 2 a = 73.5
+</me>
+ 
+<p>
+We may either solve by substitution or addition/elimination. Here, we will use substitution.
+</p>
+  
+<md><mrow>c + a = 41~~~~~ \amp   \amp  \text{Solve~for~}  a</mrow>
+ <mrow>\tmmathbf{\underline{- c ~~~~~- c}}~~~~~ \amp   \amp  \tmop{Subtract~} c</mrow>
+ <mrow>a = 41 - c \amp   \amp  \text{Equation~for~}  a</mrow>
+ <mrow>1.5 c + 2 \tmmathbf{(41 - c)} = 73.5~ \amp   \amp  \tmop{Substitute} \tmop{into}
+    \tmop{untouched} \tmop{equation}</mrow>
+ <mrow>1.5 c + 82 - 2 c = 73.5~ \amp   \amp  \tmop{Distribute}</mrow>
+ <mrow>- 0.5 c + 82 = 73.5~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
+ <mrow>\tmmathbf{\underline{- 82 ~~~- 82}}~ \amp   \amp  \tmop{Subtract~} 82 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>- 0.5 c = - 8.5 \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{- 0.5} ~~~ \overline{- 0.5}} \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} -
+    0.5</mrow>
+ <mrow>c = 17~~~ \amp   \amp  \tmop{We} \tmop{have~} c</mrow>
+ 
+</md>
+ 
+<p>
+The number of child tickets sold is <m>c=17</m>. We can plug this back into our equation for <m>a</m>.
+</p>
+  
+<md><mrow>a = 41 - (17) \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>a = 24~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} a</mrow>
+ 
+</md>
+ 
+<p>
+The number of adult tickets sold is <m>a=24</m>. We conclude that there were 17 child tickets and 24 adult tickets sold for the event.
+</p>
+ </statement>
+</example>
+  
+<p>
+Some problems will not give us the total number of items we have. Instead they
+will provide a relationship between the items. Here we will have statements such
+as "There are twice as many dimes as nickels". While it is clear that we
+need to multiply one variable by 2, it may not be clear which variable gets
+multiplied. Generally the equations are determined by working backwards from the actual
+sentence. If there are twice as many dimes, than we multiply the other
+variable (nickels) by two. So the equation would be <m>d = 2 n</m>. This type of
+problem is worked out in the next example.
+</p>
+  
+<example><statement>
+<p>
+Bryce has a collection made up of 5-cent stamps and 8-cent
+stamps. There are three times as many 8-cent stamps as 5-cent stamps. The
+total value of all the stamps is <m>\dollar3.48</m>. How many of each stamp
+does Bryce have?\pp
+	We will use <m>f</m> to denote the number of 5-cent stamps and <m>e</m> to denote the number of 8-cent stamps in the collection.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Five} \amp  f \amp  5 \amp  5 f\\
+      \hline
+      \tmop{Eight} \amp  3 f \amp  8 \amp  24 f\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  348\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{List~the} \tmop{value} \tmop{of} \tmop{each} \tmop{stamp}
+      \tmop{in} \tmop{the} \tmop{value} \tmop{column}.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Five} \amp  f \amp  5 \amp  5 f\\
+      \hline
+      \tmop{Eight} \amp  e \amp  8 \amp  8 e\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+		\text{Multiply~the~number~by}  \text{the~value}  \text{to~get}  \text{the~totals} .\\
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Number} \amp  \tmop{Value} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Five} \amp  f \amp  5 \amp  5 f\\
+      \hline
+      \tmop{Eight} \amp  e \amp  8 \amp  8 e\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  348\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{The} \tmop{final} \tmop{total} \tmop{was} 338 (\tmop{written}
+      \tmop{in} \tmop{cents}).\pp
+      \tmop{We} \tmop{do} \tmop{not} \tmop{know} \tmop{the} \tmop{total}
+      \tmop{number}, \tmop{this} \tmop{is} \tmop{left} \tmop{blank}.
+\end{array}</mrow>
+  
+</md>
+ 
+<p>
+Recall that there are 3 times as many 8-cent stamps as there are 5-cent stamps. This enables us to establish the following equation.
+</p>
+  
+<me>
+e=3f
+</me>
+ 
+<p>
+Adding up the last (total) column gives us our second equation.
+</p>
+  
+<me>
+5 f + 8 e = 348
+</me>
+ 
+<p>
+We will now use substitution to solve for <m>e</m> and <m>f</m>.
+</p>
+  
+<md><mrow>5 f + 8 \tmmathbf{(3 f)} = 348 \amp   \amp  \tmop{Substitute}
+    \tmop{first} \tmop{equation} \tmop{in} \tmop{second}</mrow>
+ <mrow>5 f + 24 f = 348 \amp   \amp  \tmop{Simplify,~multiply}</mrow>
+ <mrow>29 f = 348 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
+ <mrow>\tmmathbf{\overline{29} ~~~~~~ \overline{29}}  \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides}
+    \tmop{by~} 29.</mrow>
+ <mrow>f = 12~ \amp   \amp  \tmop{We} \tmop{have~} f</mrow>
+ 
+</md>
+ 
+<p>
+There are <m>f=12</m> 5-cent stamps.
+</p>
+  
+<md><mrow>e = 3 (12) \amp   \amp  \tmop{Plug} \tmop{into} \tmop{first} \tmop{equation}</mrow>
+ <mrow>e = 36~~~~ \amp   \amp  \tmop{We} \tmop{have~} e</mrow>
+ 
+</md>
+ 
+<p>
+There are <m>e=36</m> 8-cent stamps. We conclude that Bryce has twelve 5-cent stamps and thirty-six 8-cent stamps in his collection.
+</p>
+ </statement>
+</example>
+  
+<p>
+The same process for solving value problems can be applied to solving interest
+problems. For these problems we will make a slight adjustment to our table titles.\pp
+</p>
+  
+<me>
+ \begin{array}{|c|c|c|c|}
+     \hline
+     \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+     \hline
+     \tmop{Account} 1 \amp   \amp   \amp  \\
+     \hline
+     \tmop{Account} 2 \amp   \amp   \amp  \\
+     \hline
+     \tmop{Total} \amp   \amp   \amp  \\
+     \hline
+\end{array}  
+</me>
+ 
+<p>
+<nbsp />\pp
+Our first column represents the amount invested in each account. The second column
+represents the interest rate earned (written as a decimal - move the decimal point two spaces to the left), and the last column represents the amount of interest earned. Just as
+before, we multiply the investment amount by the interest rate to find the final
+column, the interest earned. This is demonstrated in the following example.
+</p>
+  
+<example><statement>
+<p>
+Nicki invests <m>\dollar4000</m> in two accounts, one at 6% interest, the other at 9% interest for one year. At the end of the year she had earned <m>\dollar270</m> in interest. How much did Nicki invest in each account?\pp
+	Let <m>x</m> represent the amount invested in the first account and <m>y</m> represent the amount invested in the second account.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+      \hline
+      \tmop{Account} 1 \amp  x \amp  0.06 \amp  \\
+      \hline
+      \tmop{Account} 2 \amp  y \amp  0.09 \amp  \\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Fill} \tmop{in~the} \tmop{interest} \tmop{rates} \tmop{as}
+      \tmop{decimals}.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+      \hline
+      \tmop{Account} 1 \amp  x \amp  0.06 \amp  0.06 x\\
+      \hline
+      \tmop{Account} 2 \amp  y \amp  0.09 \amp  0.09 y\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+		\text{Multiply~the~investment~by}  \text{the~rate}  \text{to~get}  \text{the~interest} .
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+      \hline
+      \tmop{Account} 1 \amp  x \amp  0.06 \amp  0.06 x\\
+      \hline
+      \tmop{Account} 2 \amp  y \amp  0.09 \amp  0.09 y\\
+      \hline
+      \tmop{Total} \amp  4000 \amp   \amp  270\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{The~total} \tmop{investment} \tmop{is} \dollar4000.\\
+      \tmop{The~total} \tmop{interest} \tmop{is} \dollar270.
+\end{array}</mrow>
+ 
+</md>
+ 
+<p>
+Next, we add the first and last columns to obtain our system of equations.
+</p>
+  
+<me>
+x + y = 4000\qquad\qquad 0.06 x + 0.09 y = 270
+</me>
+ 
+<p>
+We may either solve by substitution or addition/elimination. Here, we will use addition/elimination.
+</p>
+  
+<md><mrow>- 0.06 (x + y) = (4000) (- 0.06) \amp   \amp  \tmop{Multiply} \tmop{first} \tmop{equation} \tmop{by} - 0.06</mrow>
+ <mrow>- 0.06 x - 0.06 y = - 240~~~~~~~~~~~ \amp   \amp  \text{Simplify,~distribute~and~multiply}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>- 0.06 x - 0.06 y = - 240 \amp   \amp </mrow>
+ <mrow>\underline{~0.06 x + 0.09 y = ~270~} \amp   \amp  \tmop{Add} \tmop{equations} \tmop{together}</mrow>
+ <mrow>0.03 y = 30~~~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{0.03} ~~~ \overline{0.03}}~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 0.03</mrow>
+ <mrow>y = 1000~ \amp   \amp  \tmop{We} \tmop{have~} y</mrow>
+ 
+</md>
+ 
+<p>
+Nicki invested \$1000 at an interest rate of 9%. We can plug this back into one of our original equations to obtain <m>x</m>. For simplicity, we will use the first equation.
+</p>
+  
+<md><mrow>x + 1000 = 4000~~~~ \amp   \amp  \text{Solve~for~}  x</mrow>
+ <mrow>\tmmathbf{\underline{- 1000 ~~- 1000}} \amp   \amp  \tmop{Subtract} 1000 \tmop{from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>x = 3000~~~~ \amp   \amp  \tmop{We} \tmop{have~} x</mrow>
+ 
+</md>
+ 
+<p>
+Nicki invested \$3000 at an interest rate of 6%. We conclude that Nicki invested \$3000 and \$100 at interest rates of 6% and 9%, respectively.
+</p>
+ </statement>
+</example>
+ 
+<p>
+The same process can be used to find an unknown interest rate.
+</p>
+  
+<example><statement>
+<p>
+Whit invests <m>\dollar5000</m> in one account and <m>\dollar8000</m> in an
+account paying 4% more in interest. He earned <m>\dollar1230</m> in interest
+after one year. At what rates did Whit invest?\pp
+	In the previous example, we used <m>x</m> and <m>y</m> to represent investment amounts. Here, we will use <m>x</m> and <m>y</m> to represent interest rates for each investment. Since we are told that the second account pays 4% more than the first account in interest, we may immediately replace <m>y</m> with <m>x+0.04</m> (since <m>y=x+0.04</m>).
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+      \hline
+      \tmop{Account} 1 \amp  5000 \amp  x \amp  \\
+      \hline
+      \tmop{Account} 2 \amp  8000 \amp  x + 0.04 \amp  \\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \mbox{\hspace{.8in}} \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.35\textwidth}}
+      \tmop{Our} \tmop{investment} \tmop{table}. \tmop{Make} \tmop{sure} \tmop{to} \tmop{write} \tmop{all} \tmop{rates}
+      \tmop{as} \tmop{decimals}!
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+      \hline
+      \tmop{Account} 1 \amp  5000 \amp  x \amp  5000 x\\
+      \hline
+      \tmop{Account} 2 \amp  8000 \amp  x + 0.04 \amp  8000 x + 320\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.35\textwidth}}
+      \tmop{Multiply} \tmop{to} \tmop{fill} \tmop{in} \tmop{interest}
+      \tmop{column}.\\
+      \tmop{Make} \tmop{sure} \tmop{to} \tmop{distribute},\\
+			8000 (<m>x</m> + 0.04).
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Invest} \amp  \tmop{Rate} \amp  \tmop{Interest}\\
+      \hline
+      \tmop{Account} 2 \amp  5000 \amp  x \amp  5000 x\\
+      \hline
+      \tmop{Account} 2 \amp  8000 \amp  x + 0.04 \amp  8000 x + 320\\
+      \hline
+      \tmop{Total} \amp   \amp   \amp  1230\\
+      \hline
+\end{array}  \amp   \amp  \tmop{Total} \tmop{interest} \tmop{was} \dollar1230.</mrow>
+ 
+</md>
+ 
+<p>
+Adding up the last column gives our equation.
+</p>
+  
+<me>
+5000 x + 8000 x + 320 = 1230
+</me>
+  
+<md><mrow>5000 x + 8000 x + 320 = 1230~~ \amp   \amp  \text{Solve~for~}  x</mrow>
+ <mrow>13000 x + 320 = 1230~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
+ <mrow>\tmmathbf{\underline{- 320 ~~- 320}} \amp   \amp  \tmop{Subtract~} 320 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>13000 x = ~~910~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{13000} ~~~~ \overline{13000}} \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 13000.</mrow>
+ <mrow>x = 0.07~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} x</mrow>
+  
+</md>
+ 
+<p>
+The first account had an interest rate of <m>x=7\%</m>. Plugging this back into our equation for <m>y</m> gives us <m>y=(0.07) + 0.04=0.11</m>. The second account has an interest rate of <m>y=11\%</m>.\pp
+		We conclude that Whit invested \$5000 and \$8000 at interest rates of 7% and 11%, respectively.
+</p>
+ </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>Mixture Problems</title>
+<p>
+One application related to solving systems of equations is known as a mixture problem. Mixture problems
+are problems where two different solutions are mixed together, resulting in a new
+final solution. We will use the following table to help us solve mixture
+problems.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+    \hline
+    \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+    \hline
+    \tmop{Item} 1 \amp   \amp   \amp  \\
+    \hline
+    \tmop{Item} 2 \amp   \amp   \amp  \\
+    \hline
+    \tmop{Final} \amp   \amp   \amp  \\
+    \hline
+\end{array}  \amp   \amp </mrow>
+ 
+</md>
+ 
+<p>
+The first column represents the amount (usually a volume or weight) of each solution that we have. The second column, labeled "part", represents the percentage (written as a decimal) of the particular item that is used in each solution. If we are mixing prices we will put them in this column.
+Then we can multiply the amount by the part to find the total. Once we have the total, we can obtain
+an equation(s) by adding the amount and/or total columns, which will enable us to solve
+the problem.\pp
+</p>
+  
+<p>
+Basic mixture problems can have either one or two variables. We will start with a mixture problem containing one variable.
+</p>
+  
+<example><statement>
+<p>
+A chemist has 70 mL of a 50% methane solution. How much of an 80% solution
+must he add so that the final solution is 60% methane?
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Start} \amp  70 \amp  0.5 \amp  \\
+      \hline
+      \tmop{Add} \amp  x \amp  0.8 \amp  \\
+      \hline
+      \tmop{Final} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  
+      \tmop{Set} \tmop{up} \tmop{the} \tmop{mixture} \tmop{table}.</mrow>
+ 
+</md>
+ 
+<p>
+We start the problem with 70 mL, but do not know how much of the other solution is added. This amount is denoted by <m>x</m> above. The respective parts for each solution (entered as decimals) are 0.5 and 0.8.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Start} \amp  70 \amp  0.5 \amp  \\
+      \hline
+      \tmop{Add} \amp  x \amp  0.8 \amp  \\
+      \hline
+      \tmop{Final} \amp  70 + x \amp  0.6 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Add} \tmop{the~amount} \tmop{column} \tmop{to} \tmop{get} \tmop{final}
+      \tmop{amount}.\\
+			\tmop{The} \tmop{part} \tmop{for} \tmop{the~final} \tmop{amount} \tmop{is} 0.6,
+      \tmop{since} \tmop{we} \tmop{want} \tmop{the}
+      \tmop{final} \tmop{solution} \tmop{to} \tmop{be} 60\% \tmop{methane}.
+\end{array}</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Start} \amp  70 \amp  0.5 \amp  35\\
+      \hline
+      \tmop{Add} \amp  x \amp  0.8 \amp  0.8 x\\
+      \hline
+      \tmop{Final} \amp  70 + x \amp  0.6 \amp  42 + 0.6 x\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Multiply~the} \tmop{amount} \tmop{by} \tmop{the} \tmop{part} \tmop{to} \tmop{get}
+      \tmop{the~total}.\pp
+      \tmop{Be} \tmop{sure} \tmop{to} \tmop{distribute} \tmop{for} \tmop{the}
+      \tmop{last} \tmop{row} : (70 + <m>x</m>) 0.6.
+\end{array}</mrow>
+ 
+</md>
+ 
+<p>
+Next we add the Total column to obtain the following equation.
+</p>
+  <m>35 + 0.8 x = 42 + 0.6 x</m>  
+<md><mrow>35 + 0.8 x = 42 + 0.6 x~~ \amp  \amp  \tmop{Solve~for~} x</mrow>
+ <mrow>\tmmathbf{\underline{- 0.6 x ~~~~~~~- 0.6 x}} \amp   \amp  \tmop{Subtract~} -0.6 x \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>35 + 0.2 x = 42~~~~~~~~~~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\underline{- 35 ~~~~~~~~~~- 35}}~~~~~~~~~ \amp   \amp  \tmop{Subtract~} 35 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>0.2 x = 7~~~~~~~~~~~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{0.2} ~~~~ \overline{0.2}}~~~~~~~~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 0.2</mrow>
+ <mrow>x = 35~~~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} x</mrow>
+ 
+</md>
+ 
+<p>
+We conclude that 35 mL of the 80% methane solution must be added.
+</p>
+ </statement>
+</example>
+ 
+<p>
+The same process can be used if the starting and final amount have a price
+attached to them, rather than a percentage.
+</p>
+  
+<example><statement>
+<p>
+A coffee mix that sells for <m>\dollar2.50</m> is to be made by mixing two
+types of coffee. The cafe plans to use 40 mL of the first type of coffee, which costs <m>\dollar3.00</m>.
+How much of the second type of coffee, costing <m>\dollar1.50</m>, should the cafe mix with the first?
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Start} \amp  40 \amp  3 \amp  \mbox{\hspace{.70in}} \\
+      \hline
+      \tmop{Add} \amp  x \amp  1.5 \amp  \\
+      \hline
+      \tmop{Final} \amp   \amp   \amp  \\
+      \hline
+\end{array}  \amp   \amp  
+      \tmop{Set} \tmop{up} \tmop{mixture} \tmop{table}.</mrow>
+ 
+</md>
+ 
+<p>
+We know the starting amount is 40 mL. The amount that is added is unknown; label it as <m>x</m>. The costs for each type of coffee, \$3 and \$1.5, are entered in the Part column.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Start} \amp  40 \amp  3 \amp  \mbox{\hspace{.70in}} \\
+      \hline
+      \tmop{Add} \amp  x \amp  1.5 \amp  \\
+      \hline
+      \tmop{Final} \amp  40 + x \amp  2.5 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Add} \tmop{the} \tmop{amounts} \tmop{to} \tmop{get} \tmop{the}
+      \tmop{final} \tmop{amount}.\pp
+      \tmop{We} \tmop{want} \tmop{this} \tmop{final} \tmop{amount} \tmop{to}
+      \tmop{sell} \tmop{for} \dollar2.50.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Start} \amp  40 \amp  3 \amp  120\\
+      \hline
+      \tmop{Add} \amp  x \amp  1.5 \amp  1.5 x\\
+      \hline
+      \tmop{Final} \amp  40 + x \amp  2.5 \amp  100 + 2.5 x\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Multiply~the} \tmop{amount} \tmop{by} \tmop{the} \tmop{part} \tmop{to} \tmop{get}
+      \tmop{the~total}.\\
+      \tmop{Be} \tmop{sure} \tmop{to} \tmop{distribute} \tmop{on} \tmop{the}
+      \tmop{last} \tmop{row} (40 + <m>x</m>) 2.5.
+\end{array}</mrow>
+  
+</md>
+ 
+<p>
+Next we add the Total column to obtain the following equation.
+</p>
+  
+<me>
+120 + 1.5 x = 100 + 2.5 x
+</me>
+  
+<md><mrow>120 + 1.5 x = 100 + 2.5 x~ \amp  \amp  \tmop{Solve~for~} x</mrow>
+ <mrow>\tmmathbf{\underline{- 1.5 x ~~~~~~~~- 1.5 x}} \amp   \amp  \tmop{Subtract~} 1.5 x \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>120 = 100 + x~~~~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\underline{- 100 ~~- 100}}~~~~~~~ \amp   \amp  \tmop{Subtract~} 100 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>20 = x~~~~~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} x</mrow>
+ 
+</md>
+ 
+<p>
+We conclude that 20 mL of the \$1.50 coffee must be added.
+</p>
+ </statement>
+</example>
+  
+<p>
+{\tmstrong{World View Note:}} Brazil is the world's largest coffee producer,
+producing 2.59 million metric tons of coffee a year! That is more than three times
+the amount that the second-largest producer, Vietnam, produces!\pp
+</p>
+  
+<p>
+The previous examples illustrate how we can construct a table in order to obtain
+a related equation and solve a mixture problem. But we are also interested in <i>systems</i> of
+equations, with two or more unknowns. The following example is one such problem.
+</p>
+  
+<example><statement>
+<p>
+Farmer Reeb has two types of milk, one that is 24% butterfat and another
+which is 18% butterfat. How much of each should he use to end up with 42
+gallons of 20% butterfat?\pp
+	Here, we don't know either amount of milk. Label them as <m>x</m> and <m>y</m>, respectively. The final amount of milk is entered in the table below as 42.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Milk} 1 \amp  x \amp  0.24 \amp  \\
+      \hline
+      \tmop{Milk} 2 \amp  y \amp  0.18 \amp  \\
+      \hline
+      \tmop{Final} \amp  42 \amp  0.2 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+			\tmop{Fill} \tmop{in} \tmop{the~Part}
+      \tmop{column} \tmop{with} \tmop{the~percentage}
+      \tmop{of} \tmop{each} \tmop{type} \tmop{of} \tmop{milk} \tmop{included}
+      \tmop{in~the} \tmop{final} \tmop{solution}.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Milk} 1 \amp  x \amp  0.24 \amp  0.24 x\\
+      \hline
+      \tmop{Milk} 2 \amp  y \amp  0.18 \amp  0.18 y\\
+      \hline
+      \tmop{Final} \amp  42 \amp  0.2 \amp  8.4\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+			\tmop{Multiply~the} \tmop{amount} \tmop{by} \tmop{the} \tmop{part} \tmop{to} \tmop{get}
+      \tmop{the~total}.
+\end{array}</mrow>
+  
+</md>
+ 
+<p>
+Adding up the Amount column provides us with our first equation. Adding up the Total column gives our second equation. Both are stated below.
+</p>
+  
+<me>
+x + y = 42\qquad\qquad 0.24 x + 0.18 y = 8.4
+</me>
+ 
+<p>
+We will use addition/elimination to solve the new system of equations.
+</p>
+  
+<md><mrow>- 0.18 (x + y) = (42) (- 0.18) \amp   \amp  \tmop{Multiply} \tmop{the~first} \tmop{equation} \tmop{by~} - 0.18</mrow>
+ <mrow>- 0.18 x - 0.18 y = - 7.56~~~~~~~~ \amp   \amp  \text{Simplify;~distribute~and~multiply}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>- 0.18 x - 0.18 y = - 7.56 \amp   \amp </mrow>
+ <mrow>\underline{0.24 x + 0.18 y = ~~8.4~~} \amp   \amp   \tmop{Add} \tmop{the} \tmop{equations}
+    \tmop{together}</mrow>
+ <mrow>0.06 x = 0.84~~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{0.06} ~~~~ \overline{0.06}}~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 0.06.</mrow>
+ <mrow>x = 14~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} x</mrow>
+ 
+</md>
+ 
+<p>
+We know that <m>x=14</m> gal of the 24% butterfat milk should be added. Next, we can plug 14 into either of the two equations in our system to find <m>y</m>. For simplicity, we will use the first equation.
+</p>
+  
+<md><mrow>(14) + y = 42~~~ \amp   \amp \tmop{Solve~for~} y</mrow>
+ <mrow>\tmmathbf{\underline{- 14 ~~~~~~~- 14}} \amp   \amp  \tmop{Subtract~} 14 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>y = 28~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y</mrow>
+ 
+</md>
+ 
+<p>
+So <m>y=28</m> gal of the 18% butterfat milk should be added. We conclude that farmer Reeb should add 14 gallons of the 24% milk and 28 gallons of the 18% milk in order to end up with 42 gallons of a 20% butterfat milk.
+</p>
+ </statement>
+</example>
+  
+<p>
+The same process can be used to solve mixtures of prices with two unknowns.
+</p>
+  
+<example><statement>
+<p>
+In a candy shop, chocolate which sells for <m>\dollar4</m> a pound is mixed
+with nuts which are sold for <m>\dollar2.50</m> a pound to form a
+chocolate-nut candy which sells for <m>\dollar3.50</m> a pound. How much of
+each are used to make 30 pounds (lbs) of the mixture?\pp
+	As we fill in the mixture table below, we will use <m>c</m> and <m>n</m> to represent the amounts of chocolate and nuts, respectively.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Chocolate} \amp  c \amp  4 \amp  \\
+      \hline
+      \tmop{Nut} \amp  n \amp  2.5 \amp  \\
+      \hline
+      \tmop{Final} \amp  30 \amp  3.5 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{We} \tmop{know} \tmop{the} \tmop{final} \tmop{amount~(30)}
+      \tmop{and} \tmop{price~(\dollar3.5)};
+      \tmop{include} \tmop{these} \tmop{in} \tmop{the} \tmop{table}.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Chocolate} \amp  c \amp  4 \amp  4 c\\
+      \hline
+      \tmop{Nut} \amp  n \amp  2.5 \amp  2.5 n\\
+      \hline
+      \tmop{Final} \amp  30 \amp  3.5 \amp  105\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+			\tmop{Multiply~the} \tmop{amount} \tmop{by} \tmop{the} \tmop{part} \tmop{to} \tmop{get}
+      \tmop{the~total}.
+\end{array}</mrow>
+ 
+</md>
+ 
+<p>
+Adding up the Amount and the Total columns gives us our system of equations, shown below.
+</p>
+  
+<me>
+c+n=30\qquad\qquad 4 c + 2.5 n = 105
+</me>
+ 
+<p>
+We will solve this system using substitution.
+</p>
+  
+<md><mrow>c + n = 30~~~~~ \amp   \amp  \text{Solve~for~}  c</mrow>
+ <mrow>\tmmathbf{\underline{- n ~~- n}}~~~ \amp   \amp \tmop{Subtract~} n
+    \tmop{~from} \tmop{both~sides}</mrow>
+ <mrow>c = 30 - n \amp   \amp  \text{Equation~for~}  c</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>4 \tmmathbf{(30 - n)} + 2.5 n = 105~~~ \amp   \amp  \tmop{Substitute} \tmop{into}
+    \tmop{untouched} \tmop{equation}</mrow>
+ <mrow>120 - 4 n + 2.5 n = 105~~~ \amp   \amp  \tmop{Distribute}</mrow>
+ <mrow>120 - 1.5 n = 105~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
+ <mrow>\tmmathbf{\underline{- 120 ~~~~~~~~~~- 120}} \amp   \amp  \tmop{Subtract~} 120 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>- 1.5 n = - 15~~ \amp   \amp </mrow>
+ <mrow>\tmmathbf{\overline{- 1.5} ~~~~ \overline{- 1.5}}~ \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} -
+    1.5</mrow>
+ <mrow>n = 10~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} n</mrow>
+ 
+</md>
+ 
+<p>
+We know that <m>n=10</m> lbs of nuts must be added. Next, we can plug 10 into our equation for <m>c</m>.
+</p>
+  
+<md><mrow>c = 30 - (10) \amp   \amp  \text{Simplify}</mrow>
+ <mrow>c = 20~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} c</mrow>
+ 
+</md>
+ 
+<p>
+So <m>c=20</m> lbs of chocolate must be added. We conclude that 10 pounds of nuts and 20 pounds of chocolate must be mixed in order to obtain a 30-pound chocolate-nut candy mixture that sells for \$3.50 a pound.
+</p>
+ </statement>
+</example>
+  
+<p>
+With mixture problems we often are mixing with a pure solution or using water
+which contains none of the chemical we are interested in. For pure solutions,
+the percentage is 100% (or 1 in the table). For water, the percentage is 0% (or 0).
+This following example solves one such problem.
+</p>
+  
+<example><statement>
+<p>
+A solution of pure antifreeze is mixed with water to make a 65% antifreeze
+solution. How much of each item should be used to make 70 L?\pp
+	Here, we will use <m>a</m> and <m>w</m> to denote the amounts of pure antifreeze and water, respectively, that are added.
+</p>
+  
+<md><mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Final}\\
+      \hline
+      \tmop{Antifreeze} \amp  a \amp  1 \amp  \\
+      \hline
+      \tmop{Water} \amp  w \amp  0 \amp  \\
+      \hline
+      \tmop{Total} \amp  70 \amp  0.65 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+      \tmop{Antifreeze}
+      \tmop{is} \tmop{pure,~} 100\% \tmop{~or~} 1 \tmop{~in} \tmop{our}
+      \tmop{table}, \tmop{written} \tmop{as~a}
+      \tmop{decimal}.\\
+			\tmop{Water} \tmop{contains} \tmop{no} \tmop{antifreeze;}
+      \tmop{its}
+      \tmop{percentage} \tmop{is~} 0.
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|c|c|}
+      \hline
+      \amp  \tmop{Amount} \amp  \tmop{Part} \amp  \tmop{Total}\\
+      \hline
+      \tmop{Antifreeze} \amp  a \amp  1 \amp  a\\
+      \hline
+      \tmop{Water} \amp  w \amp  0 \amp  0\\
+      \hline
+      \tmop{Final} \amp  70 \amp  0.65 \amp  45.5\\
+      \hline
+\end{array}  \amp   \amp  \tmop{Multiply} \tmop{across~to} \tmop{find} \tmop{totals}</mrow>
+ 
+</md>
+ 
+<p>
+Adding up the Amount and the Total columns gives us our system of equations, shown below.
+</p>
+  
+<me>
+a + w = 70\qquad\qquad a = 45.5
+</me>
+ 
+<p>
+<nbsp />\pp
+Since our second equation gives us <m>a</m>, we need only plug this into our first equation to find <m>w</m>.
+</p>
+  
+<md><mrow>(45.5) + w = 70~~~~~ \amp   \amp  \text{Solve for~}  w</mrow>
+ <mrow>\tmmathbf{\underline{- 45.5 ~~~~~~~- 45.5}} \amp   \amp  \tmop{Subtract~} 45.5 \tmop{~from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>w = 24.5~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} w</mrow>
+ 
+</md>
+ 
+<p>
+We quickly conclude that <m>a=45.5</m> L pure antifreeze and <m>w=24.5</m> L of water must be used in order to produce a 70 L mixture that is 65% antifreeze.
+</p>
+ </statement>
+</example>
+  
+<p>
+{\tmstrong{Practice Problems: Solve each problem.}}
+</p>
+  
+<p>
+1) A tank contains 8000 liters of a solution that is 40% acid. How much water should be added to make a solution that is 30% acid?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+2) How much antifreeze should be added to 5 quarts of a 30% mixture of antifreeze to make a solution that is 50\antifreeze?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+3) Of 12 pounds of salt water 10% is salt; of another mixture 3% is salt.
+How many pounds of the second should be added to the first
+in order to get a mixture of 5% salt?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+4) How much alcohol must be added to 24 gallons of a 14% solution of alcohol
+in order to produce a 20% solution?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+5) How many pounds of a 4% solution of borax must be added to 24 pounds of a 12% solution of borax to obtain a 10% solution of borax?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+6) How many grams of pure acid must be added to 40 grams of a 20% acid solution to make a solution which is 36% acid?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+7) A 100 LB bag of animal feed is 40% oats. How many pounds of oats must be added to this feed to produce a mixture which is 50% oats?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+8) A 20 oz alloy of platinum that costs <m>\dollar220</m> per ounce is mixed
+with an alloy that costs <m>\dollar400</m> per ounce. How many ounces of the <m>\dollar400</m> alloy should be used to make an
+alloy that costs <m>\dollar300</m> per ounce?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+9) How many pounds of tea that cost <m>\dollar4.20</m> per pound must be mixed
+with 12 lb of tea that cost <m>\dollar2.25</m> per pound to make a
+mixture that costs <m>\dollar3.40</m> per pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+10) How many liters of a solvent that costs <m>\dollar80</m> per liter must be
+mixed with 6 L of a solvent that costs <m>\dollar25</m> per liter
+to make a solvent that costs <m>\dollar36</m> per liter?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+11) How many kilograms of hard candy that cost <m>\dollar7.50</m> per kilogram
+must be mixed with 24 kg of jelly beans that cost
+<m>\dollar3.25</m> per kilogram to make a mixture
+that sells for <m>\dollar4.50</m> per kilogram?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+12) How many kilograms of soil supplement that costs <m>\dollar7.00</m> per
+kilogram must be mixed with 20 kg of aluminum nitrate that
+costs <m>\dollar3.50</m> per kilogram to make a fertilizer
+that costs <m>\dollar4.50</m> per kilogram?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+13) How many pounds of lima beans that cost 90-cents per pound must be
+mixed with 16 lb of corn that cost 50-cents per pound to make
+a mixture of vegetables that costs 65-cents per
+pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+14) How many liters of a blue dye that costs <m>\dollar1.60</m> per liter must
+be mixed with 18 L of a dye that costs <m>\dollar2.50</m> per
+liter to make a mixture that costs <m>\dollar1.90</m> per liter?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+15) Solution A is 50% acid and solution B is 80% acid. How much of each
+should be used to make 100cc. of a solution that is 68% acid?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+16) A certain grade of milk contains 10% butter fat and a certain grade of
+cream 60% butter fat. How many quarts of each must be taken so
+as to obtain a mixture of 100 quarts that will be 45\butter fat?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+17) A farmer has some cream which is 21% butterfat and some which is 15% butter fat. How many gallons of each must be mixed to
+produce 60 gallons of cream which is 19% butterfat?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+18) A syrup manufacturer has some pure maple syrup and some which is 85% maple syrup. How many liters of each should be mixed to make
+150L which is 96% maple syrup?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+19) A chemist wants to make 50ml of a 16% acid solution by mixing a 13% acid solution and an 18% acid solution. How many milliliters of
+each solution should the chemist use?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+20) A hair dye is made by blending 7% hydrogen peroxide solution and a 4% hydrogen peroxide solution. How many milliliters of each
+are used to make a 300 ml solution that is 5% hydrogen
+peroxide?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+21) A paint that contains 21% green dye is mixed with a paint that contains
+15% green dye. How many gallons of each must be used to make 60
+gal of paint that is 19% green dye?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+22) A candy mix sells for <m>\dollar2.20</m> per kilogram. It contains
+chocolates worth <m>\dollar1.80</m> per kilogram and other candy
+worth <m>\dollar3.00</m> per kilogram. How much of each are in
+15 kilograms of the mixture?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+23) To make a weed and feed mixture, the Green Thumb Garden Shop mixes fertilizer worth <m>\dollar4.00</m>/lb. with a weed killer
+worth <m>\dollar8.00</m>/lb. The mixture will cost
+<m>\dollar6.00</m>/lb. How much of each should be used to prepare 500 lb. of the mixture?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+24) A grocer is mixing 40 cent per lb. coffee with 60 cent per lb. coffee to
+make a mixture worth 54-cents per lb. How much of each kind
+of coffee should be used to make 70 lb. of the mixture?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+25) A grocer wishes to mix sugar at 9-cents per pound with sugar at 6-cents
+per pound to make 60 pounds at 7-cents per pound. What quantity
+of each must he take?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+26) A high-protein diet supplement that costs <m>\dollar6.75</m> per pound is
+mixed with a vitamin supplement that costs <m>\dollar3.25</m>
+per pound. How many pounds of each should be used to make 5
+lb of a mixture that costs <m>\dollar4.65</m> per pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+27) A goldsmith combined an alloy that costs <m>\dollar4.30</m> per ounce with
+an alloy that costs <m>\dollar1.80</m>per ounce. How many ounces
+of each were used to make a mixture of 200 oz costing
+<m>\dollar2.50</m> per ounce?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+28) A grocery store offers a cheese and fruit sampler that combines cheddar
+cheese that costs <m>\dollar8</m> per kilogram with kiwis that cost
+<m>\dollar3</m> per kilogram. How many kilograms of each were
+used to make a 5 kg mixture that costs <m>\dollar4.50</m> per kilogram?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+29) The manager of a garden shop mixes grass seed that is 60% rye grass with
+70 lb of grass seed that is 80% rye grass to make a mixture
+that is 74% rye grass. How much of the 60% mixture
+is used?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+30) How many ounces of water evaporated from 50 oz of a 12% salt solution to produce a 15% salt solution?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+31) A caterer made an ice cream punch by combining fruit juice that cost
+<m>\dollar2.25</m> per gallon with ice cream that costs
+<m>\dollar3.25</m> per gallon. How many gallons of each were
+used to make 100 gal of punch costing <m>\dollar2.50</m> per pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+32) A clothing manufacturer has some pure silk thread and some thread that is 85% silk. How many kilograms of each must be woven
+together to make 75 kg of cloth that is 96% silk?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+33) A carpet manufacturer blends two fibers, one 20% wool and the second 50% wool. How many pounds of each fiber should be woven together
+to produce 600 lb of a fabric that is 28% wool?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+34) How many pounds of coffee that is 40% java beans must be mixed with 80 lbs of coffee that is 30% java beans to make a coffee blend that is
+32% java beans?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+35) The manager of a specialty food store combined almonds that cost
+<m>\dollar4.50</m> per pound with walnuts that cost
+<m>\dollar2.50</m> per pound. How many pounds of each were
+used to make a 100 lb mixture that cost <m>\dollar3.24</m> per pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+36) A tea that is 20% jasmine is blended with a tea that is 15% jasmine. How many pounds of each tea are used to make 5 lb of tea
+that is 18% jasmine?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+37) How many ounces of dried apricots must be added to 18 oz of a snack mix that contains 20% dried apricots to make a mixture that
+is 25% dried apricots?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+38) How many milliliters of pure chocolate must be added to 150 ml of chocolate topping that is 50% chocolate to make a topping that is 75\chocolate?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+39) How many ounces of pure bran flakes must be added to 50 oz of cereal that is 40% bran flakes to produce a mixture that is 50% bran
+flakes?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+40) A ground meat mixture is formed by combining meat that costs <m>\dollar2.20</m> per pound with meat that costs
+<m>\dollar4.20</m> per pound. How many pounds of each were used to make a 50 lb mixture that costs <m>\dollar3.00</m> per pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+41) How many grams of pure water must be added to 50 g of pure acid to make a solution that is 40% acid?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+42) A lumber company combined oak wood chips that cost <m>\dollar3.10</m> per pound with pine wood chips that cost <m>\dollar2.50</m> per pound.
+How many pounds of each were used to make an 80 lb mixture
+costing <m>\dollar2.65</m> per pound?
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+43) How many ounces of pure water must be added to 50 oz of a 15% saline solution to make a saline solution that is 10% salt?
+</p>
+ </subsection> </section>

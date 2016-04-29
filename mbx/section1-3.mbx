@@ -1,0 +1,611 @@
+
+<section>
+<title>Graphing Linear Equations</title>
+<subsection>
+<title>The Cartesian Plane</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Locate and graph points using <m>xy</m>-coordinates}}\pp
+</p>
+  
+<p>
+Often, to get an idea of the behavior of an equation we will make a picture
+that represents the solutions to the equations. A {\tmstrong{graph}} is simply
+a picture of the solutions to an equation. Before we spend much time on making
+a visual representation of an equation, we first have to understand the basis
+of graphing. Following is an example of what is called the coordinate plane.
+</p>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+The plane is divided into four <i>quadrants</i>, or sections, by a horizontal number line
+(<m>x</m>-axis) and a vertical number line (<m>y</m>-axis). The quadrants are numbered using the roman numerals I, II, III, and IV, beginning with the top-right quadrant (where both <m>x</m> and <m>y</m> are positive) and moving counter-clockwise.
+</p>
+  
+<p>
+Where the two lines, or axes, meet
+in the center is called the origin. This center origin is where <m>x</m> = 0 and <m>y</m> = 0.\pp
+	As we move to the right the numbers count up from zero,
+representing <m>x = 1, 2, 3 \ldots</m>. To the left the numbers count down from zero, representing \mbox{<m>x = - 1, - 2, - 3,\ldots</m>} .
+Similarly, as we move up the numbers count up from zero, \mbox{<m>y = 1, 2, 3,\ldots</m>} , and as we move down count down from zero, \mbox{<m>y = - 1, - 2, - 3\ldots</m>} .\pp
+We can put dots on the graph which we will call points. Each point has an
+"address" that defines its location. The first number will be the value on
+the <m>x - \tmop{axis}</m> or horizontal number line. This is the distance the
+point moves left/right from the origin. The second number will represent the
+value on the <m>y - \tmop{axis}</m> or vertical number line. This is the distance
+the point moves up/down from the origin. The points are given as an ordered
+pair <m>(x, y) .</m>\pp
+</p>
+  
+<p>
+{\tmstrong{World View Note: }}Locations on the globe are given in the same
+manner, each number is a distance from a central point, the origin which is
+where the prime meridian and the equator. This "origin is just off the
+western coast of Africa.\pp
+</p>
+  
+<p>
+The following example finds the address or coordinate pair for each of
+several points on the coordinate plane.
+</p>
+  
+<example xml:id="Lin42"><statement>
+<p>
+Give the coordinates of each point.
+</p>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+Tracing from the origin, point A is right 1, up 4. This becomes A<m>(1, 4)</m>.
+Point B is left 5, up 3. Left is backwards or negative so we have B<m>(- 5,
+    3)</m>. C is straight down 2 units. There is no left or right. This means we
+go right zero so the point is C<m>(0, - 2)</m>.
+</p>
+  
+<md><mrow>A (1, 4), B (- 5, 3), C (0, - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Just as we can give the coordinates for a set of points, we can take a set of
+points and plot them on the plane.
+</p>
+  
+<example xml:id="Lin43"><statement>
+<p>
+Graph the points <m>A (3, 2), B (- 2, 1), C (3, - 4), D (- 2, - 3),</m><br /> <m>E (- 3,
+  0), F (0, 2), G (0, 0)</m>
+</p>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+The first point, A is at <m>(3, 2)</m> this means <m>x = 3</m> (right 3) and <m>y = 2</m>
+(up 2). Following these instructions, starting from the origin, we get our
+point.
+</p>
+   
+<p>
+The second point, <m>B (- 2, 1)</m>, is left 2 (negative moves backwards), up
+1. This is also illustrated on the graph.
+</p>
+   
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+The third point, <m>C (3, - 4)</m> is right 3, down 4 (negative moves
+backwards).
+</p>
+   
+<p>
+The fourth point, D (<m>- 2, - 3</m>) is left 2, down 3 (both negative, both
+move backwards)
+</p>
+  
+<p>
+The last three points have zeros in them. We still treat these points just
+like the other points. If there is a zero there is just no movement.
+</p>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+Next is <m>E (- 3, 0)</m>. This is left 3 (negative is backwards), and up zero,
+right on the <m>x - \tmop{axis}</m>.
+</p>
+  
+<p>
+Then is <m>F (0, 2)</m>. This is right zero, and up two, right on the <m>y -
+    \tmop{axis}</m>.
+</p>
+  
+<p>
+Finally is <m>G (0, 0)</m>. This point has no movement. Thus the point is right
+on the origin.
+</p>
+   
+<p>
+<image source="images/" />
+</p>
+    
+<p>
+Our solution
+</p>
+ </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>Graphing Lines from Points</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Graph lines using <m>xy</m>-coordinates.}}\pp
+</p>
+  
+<p>
+The main purpose of graphs is not to plot random points, but rather to give a
+picture of the solutions to an equation. We may have an equation such as <m>y =
+2 x - 3</m>. We may be interested in what type of solution are possible in this
+equation. We can visualize the solution by making a graph of possible <m>x
+\tmop{and} y</m> combinations that make this equation a true statement. We will
+have to start by finding possible <m>x \tmop{and} y</m> combinations. We will do
+this using a table of values.
+</p>
+  
+<example xml:id="Lin44"><statement>
+<md><mrow>\tmop{Graph} y = 2 x - 3 \amp   \amp  \tmop{We} \tmop{make~a} \tmop{table}
+    \tmop{of} \tmop{values}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|}
+      \hline
+      x \amp  ~~y~~\\
+      \hline
+      - 1 \amp  \\
+      \hline
+      0 \amp  \\
+      \hline
+      1 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \tmop{We} \tmop{will} \tmop{test} \tmop{three}
+    \tmop{values} \tmop{for} x. \tmop{Any} \tmop{three} \tmop{can} \tmop{be}
+    \tmop{used}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|}
+      \hline
+      x \amp  y\\
+      \hline
+      - 1 \amp  - 5\\
+      \hline
+      0 \amp  - 3\\
+      \hline
+      1 \amp  - 1\\
+      \hline
+\end{array}  \amp   \amp  \begin{array}{l}
+      \tmop{Evaluate} \tmop{each} \tmop{by} \tmop{replacing} x \tmop{with}
+      \tmop{the} \tmop{given} \tmop{value}\\
+      x = - 1 ~~~~~~~ y = 2 (- 1) - 3 = - 2 - 3 = - 5\\
+      x = 0  ~~~~~~~~~y = 2 (0) - 3 = 0 - 3 = - 3\\
+      x = 1  ~~~~~~~~~y = 2 (1) - 3 = 2 - 3 = - 1
+\end{array}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>(- 1, - 5), (0, - 3), (1, - 1) \amp   \amp  \tmop{These} \tmop{then} \tmop{become}
+    \tmop{the} \tmop{points} \tmop{to} \tmop{graph} \tmop{on} \tmop{our}
+    \tmop{equation}</mrow>
+ 
+</md>
+  
+<p>
+<image source="images/" />
+</p>
+   
+<p>
+Plot each point.<br />
+</p>
+  
+<p>
+Once the point are on the graph, connect the dots to make a line.<br />
+</p>
+  
+<p>
+The graph is our solution.
+</p>
+ </statement>
+</example>
+  
+<p>
+What this line tells us is that any point on the line will work in the
+equation <m>y = 2 x - 3</m>. For example, notice the graph also goes through the
+point <m>(2, 1)</m>. If we use <m>x = 2</m>, we should get <m>y = 1</m>. Sure enough, <m>y = 2
+(2) - 3 = 4 - 3 = 1</m>, just as the graph suggests. Thus we have the line is a
+picture of all the solutions for <m>y = 2 x - 3</m>. We can use this table of
+values method to draw a graph of any linear equation.
+</p>
+  
+<example xml:id="Lin45"><statement>
+<md><mrow>\tmop{Graph} 2 x - 3 y = 6 \amp   \amp  \tmop{We} \tmop{will} \tmop{use} \tmop{a}
+    \tmop{table} \tmop{of} \tmop{values}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\begin{array}{|c|c|}
+      \hline
+      x \amp  ~y~~\\
+      \hline
+      - 3 \amp  \\
+      \hline
+      0 \amp  \\
+      \hline
+      3 \amp  \\
+      \hline
+\end{array}  \amp   \amp  \tmop{We} \tmop{will} \tmop{test} \tmop{three}
+    \tmop{values} \tmop{for} x. \tmop{~Any} \tmop{three} \tmop{can} \tmop{be}
+    \tmop{used}.</mrow>
+  
+</md>
+  
+<md><mrow>2 (- 3) - 3 y = 6~ \amp   \amp  \tmop{Substitute} \tmop{each} \tmop{value}
+    \tmop{in} \tmop{for} x \tmop{and} \tmop{solve} \tmop{for} y</mrow>
+ <mrow>- 6 - 3 y = 6~ \amp   \amp  \tmop{Start} \tmop{with} x = - 3, \tmop{multiply}
+    \tmop{first}</mrow>
+ <mrow>\bf{\underline{+ 6 ~~~~~~~+ 6}} \amp   \amp  \tmop{Add} 6 \tmop{to} \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 3 y = 12~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} - 3</mrow>
+ <mrow>\bf{\overline{- 3} ~~~ \overline{- 3}}~ \amp   \amp </mrow>
+ <mrow>y = - 4~ \amp   \amp  \tmop{solution} \tmop{for} y \tmop{when} x = - 3, \tmop{add}
+    \tmop{this} \tmop{to} \tmop{table}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>2 (0) - 3 y = 6~ \amp   \amp  \tmop{Next} x = 0</mrow>
+ <mrow>- 3 y = 6~ \amp   \amp  \tmop{Multiplying} \tmop{clears} \tmop{the} \tmop{constant}
+    \tmop{term}</mrow>
+ <mrow>\bf{\overline{- 3} ~~~~ \overline{- 3}} \amp   \amp  \tmop{Divide} \tmop{each} \tmop{side}
+    \tmop{by} - 3</mrow>
+ <mrow>y = - 2~ \amp   \amp  \tmop{solution} \tmop{for} y \tmop{when} x = 0, \tmop{add}
+    \tmop{this} \tmop{to} \tmop{table}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>2 (3) - 3 y = 6~ \amp   \amp  \tmop{Next} x = 3</mrow>
+ <mrow>6 - 3 y = 6~ \amp   \amp  \tmop{Multiply}</mrow>
+ <mrow>\bf{\underline{- 6 ~~~~~~~~- 6}} \amp   \amp  \tmop{Subtract} 9 \tmop{from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>- 3 y = 0~ \amp   \amp  \tmop{Divide} \tmop{each} \tmop{side} \tmop{by} - 3</mrow>
+ <mrow>\bf{\overline{- 3} ~~~ \overline{- 3}} \amp   \amp </mrow>
+ <mrow>y = 0~ \amp   \amp  \tmop{solution} \tmop{for} y \tmop{when} x = - 3, \tmop{add}
+    \tmop{this} \tmop{to} \tmop{table}</mrow>
+ <mrow>\amp   \amp </mrow>
+  
+</md>
+  
+<md><mrow>\begin{array}{|c|c|}
+      \hline
+      x \amp  y\\
+      \hline
+      - 3 \amp  - 4\\
+      \hline
+      0 \amp  - 2\\
+      \hline
+      3 \amp  0\\
+      \hline
+\end{array}  \amp   \amp  \tmop{Our} \tmop{completed} \tmop{table}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>(- 3, - 4), (0, 2), (3, 0) \amp   \amp  \tmop{Coordinate} \tmop{points} \tmop{from}
+    \tmop{table}</mrow>
+ 
+</md>
+  
+<p>
+<image source="images/" />
+</p>
+   
+<p>
+Graph points and connect dots
+</p>
+   
+<p>
+Our solution
+</p>
+ </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>The Slope of a Line</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Find the slope of a line given a graph or two points.}}\pp
+</p>
+  
+<p>
+As we graph lines, we will want to be able to identify different properties of
+the lines we graph. One of the most important properties of a line is its
+slope. {\tmstrong{Slope}} is a measure of steepness. A line with a large
+slope, such as 25, is very steep. A line with a small slope, such as
+<m>\frac{1}{10}</m> is very flat. We will also use slope to describe the direction
+of the line. A line that goes up from left to right will have a positive slope
+and a line that goes down from left to right will have a negative slope.\pp
+</p>
+  
+<p>
+As we measure steepness we are interested in how fast the line rises compared
+to how far the line runs. For this reason we will describe slope as the
+fraction <m>\frac{\tmop{rise}}{\tmop{run}}</m>. Rise would be a vertical change, or
+a change in the <m>y</m>-values. Run would be a horizontal change, or a change in
+the <m>x</m>-values. So another way to describe slope would be the fraction
+<m>\frac{\tmop{change} \tmop{in} y}{\tmop{change} \tmop{in} x}</m>. It turns out
+that if we have a graph we can draw vertical and horiztonal lines from one
+point to another to make what is called a slope triangle. The sides of the
+slope triangle give us our slope. The following examples show graphs that we
+find the slope of using this idea.
+</p>
+  
+<example xml:id="Lin46"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  
+<p>
+<image source="images/" />
+</p>
+   
+<p>
+To find the slope of this line we will consider the rise, or vertical
+change and the run or horizontal change. Drawing these lines in makes a
+slope triangle that we can use to count from one point to the next the
+graph goes down 4, right 6. This is rise <m>- 4</m>, run 6. As a fraction it
+would be, <m>\frac{- 4}{6}</m>. Reduce the fraction to get <m>\frac{-2}{3}</m>.
+</p>
+  A slope of <m>-\displaystyle\frac{2}{3}</m> is our solution. 
+<p>
+<nbsp />
+</p>
+  
+<p>
+{\tmstrong{World View Note: }}When French mathematicians Rene Descartes and
+Pierre de Fermat first developed the coordinate plane and the idea of graphing
+lines (and other functions) the <m>y</m>-axis was not a vertical line!\pp
+</p>
+  
+<example xml:id="Lin47"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+To find the slope of this line, the rise is up 6, the run is right 3.\pp
+		Our slope is then written as a fraction, <m>\frac{\tmop{rise}}{\tmop{run}}</m> or
+<m>\frac{6}{3}</m>.\pp
+		This fraction reduces to 2. This will be our slope.
+</p>
+  A slope of <m>2</m> is our solution.  
+<p>
+There are two special lines that have unique slopes that we need to be aware
+of. They are illustrated in the following example.
+</p>
+  
+<example xml:id="Lin48"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+In this graph there is no rise, but the run is 3 units. This slope becomes
+</p>
+  
+<p>
+<m>\frac{0}{3} = 0</m>. \tmop{This} \tmop{line}, \tmop{and} \tmop{all}
+\tmop{horizontal} \tmop{lines} \tmop{have} a \tmop{zero} \tmop{slope}.
+</p>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+This line has a rise of 5, but no run. The slope becomes <m>\frac{5}{0} =</m>
+\tmop{undefined}. \tmop{This} \tmop{line}, \tmop{and} \tmop{all}
+\tmop{vertical} \tmop{lines}, \tmop{have} \tmop{no} \tmop{slope}.
+</p>
+  
+<p>
+As you can see there is a big difference between having a zero slope and
+having no slope or undefined slope. Remember, slope is a measure of steepness.
+The first slope is not steep at all, in fact it is flat. Therefore it has a
+zero slope. The second slope can't get any steeper. It is so steep that there
+is no number large enough to express how steep it is. This is an undefined
+slope.\pp
+</p>
+  
+<p>
+We can find the slope of a line through two points without seeing the points
+on a graph. We can do this using a slope formula. If the rise is the change in
+<m>y</m> values, we can calculate this by subtracting the <m>y</m> values of a point.
+Similarly, if run is a change in the <m>x</m> values, we can calculate this by
+subtracting the <m>x</m> values of a point. In this way we get the following
+equation for slope.\pp
+</p>
+  
+<p>
+{\tmstrong{
+</p>
+  
+<me>
+ \tmop{The} \tmop{slope} \tmop{of} \tmop{a} \tmop{line} \tmop{through~} (x_1, y_1)
+   \tmop{~and~} (x_2, y_2) \tmop{~is~} \frac{y_2 - y_1}{x_2 - x_1}. 
+</me>
+ 
+<p>
+}}
+</p>
+  
+<p>
+When mathematicians began working with slope, it was called the modular slope.
+For this reason we often represent the slope with the variable <m>m</m>. Now we
+have the following for slope.\pp
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<me>
+ \tmmathbf{\tmop{Slope} = m = \frac{\tmop{rise}}{\tmop{run}} =
+   \frac{\tmop{change} \tmop{in} y}{\tmop{change} \tmop{in} x} = \frac{y_2 -
+   y_1}{x_2 - x_1}} 
+</me>
+ 
+<p>
+\end{boxedminipage}
+\pp
+As we subtract the <m>y</m> values and the <m>x</m> values when calculating slope it is
+important we subtract them in the same order. This process is shown in the
+following examples.
+</p>
+  
+<example xml:id="Lin49"><statement>
+<md><mrow>\tmop{Find} \tmop{the} \tmop{slope} \tmop{between} (- 4, 3) \tmop{~and~} (2,
+    - 9) \amp   \amp  \tmop{Identify} x_1, y_1, x_2, y_2</mrow>
+ <mrow>(x_1, y_1) \tmop{~and~} (x_2, y_2) \amp   \amp  \tmop{Use} \tmop{slope}
+    \tmop{formula}, m = \frac{y_2 - y_1}{x_2 - x_1}</mrow>
+ <mrow>m = \frac{- 9 - 3}{2 - (- 4)} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>m = \frac{-12}{6} \amp   \amp  \tmop{Reduce}</mrow>
+ <mrow>m = - 2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example xml:id="Lin50"><statement>
+<md><mrow>\tmop{Find} \tmop{the} \tmop{slope} \tmop{between} (4, 6) \tmop{~and~} (2, -
+    1) \amp   \amp  \tmop{Identify} x_1, y_1, x_2, y_2</mrow>
+ <mrow>(x_1, y_1) \tmop{~and~} (x_2, y_2) \amp   \amp  \tmop{Use} \tmop{slope}
+    \tmop{formula}, m = \frac{y_2 - y_1}{x_2 - x_1}</mrow>
+ <mrow>m = \frac{- 1 - 6}{2 - 4} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>m = \frac{- 7}{- 2} \amp   \amp  \tmop{Reduce}, \tmop{dividing} \tmop{by} - 1</mrow>
+ <mrow>m = \frac{7}{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+We may come up against a problem that has a zero slope (horizontal line) or no
+slope (vertical line) just as with using the graphs.
+</p>
+  
+<example xml:id="Lin51"><statement>
+<md><mrow>\tmop{Find} \tmop{the} \tmop{slope} \tmop{between~} (- 4, - 1) \tmop{~and~}
+    (- 4, - 5) \amp   \amp  \tmop{Identify} x_1, y_1, x_2, y_2</mrow>
+ <mrow>(x_1, y_1) \tmop{~and~} (x_2, y_2) \amp   \amp  \tmop{Use} \tmop{slope}
+    \tmop{formula}, m = \frac{y_2 - y_1}{x_2 - x_1}</mrow>
+ <mrow>m = \frac{- 5 - (- 1)}{- 4 - (- 4)} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>m = \frac{- 4}{0} \amp   \amp  \tmop{Can' t} \tmop{divide} \tmop{by} \tmop{zero}</mrow>
+ <mrow>\tmop{Slope} m \tmop{is~undefined} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example xml:id="Lin52"><statement>
+<md><mrow>\tmop{Find} \tmop{the} \tmop{slope} \tmop{between~} (3, 1) \tmop{~and~} (- 2,
+    1) \amp   \amp  \tmop{Identify} x_1, y_1, x_2, y_2</mrow>
+ <mrow>(x_1, y_1) \tmop{~and~} (x_2, y_2) \amp   \amp  \tmop{Use} \tmop{slope}
+    \tmop{formula}, m = \frac{y_2 - y_1}{x_2 - x_1}</mrow>
+ <mrow>m = \frac{1 - 1}{- 2 - 3} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>m = \frac{0}{- 5} \amp   \amp  \tmop{Reduce}</mrow>
+ <mrow>m = 0 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Again, there is a big difference between no slope and a zero slope. Zero is an
+integer and it has a value, the slope of a flat horizontal line. No slope has
+no value, it is undefined, the slope of a vertical line.\pp
+</p>
+  
+<p>
+Using the slope formula we can also find missing points if we know what the
+slope is. This is shown in the following two examples.
+</p>
+  
+<example xml:id="Lin53"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp />
+Find the value of <m>y</m> between the points (2, <m>y</m>) \tmop{<nbsp />and<nbsp />} <br />(5, - 1) with
+slope <m>- 3</m>.<br />
+</p>
+  
+<md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{We} \tmop{will} \tmop{plug}
+    \tmop{values} \tmop{into~the} \tmop{slope} \tmop{formula}</mrow>
+ <mrow>- 3 = \frac{- 1 - y}{5 - 2} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>- 3 = \frac{- 1 - y}{3} \amp   \amp  \tmop{Multiply} \tmop{both} \tmop{sides}
+    \tmop{by} 3</mrow>
+ <mrow>- 3 {\bf(3)} = \frac{- 1 - y}{3} {\bf(3)} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>- 9 = - 1 - y \amp   \amp  \tmop{Add} 1 \tmop{to} \tmop{both} \tmop{sides}</mrow>
+ <mrow>\bf{\underline{+ 1 ~~~+ 1}}~~~~  \amp   \amp </mrow>
+ <mrow>- 8 = - y \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} - 1</mrow>
+ <mrow>\bf{\overline{- 1} ~~~~ \overline{- 1}} \amp   \amp </mrow>
+ <mrow>8 = y \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example xml:id="Lin54"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp />
+Find the value of <m>x</m> between the points (- 3, 2) \tmop{<nbsp />and<nbsp />} <br />(<m>x</m>, 6) with
+slope <m>\displaystyle\frac{2}{5}</m>.<br />
+</p>
+  
+<md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{We} \tmop{will} \tmop{plug}
+    \tmop{values} \tmop{into} \tmop{slope} \tmop{formula}</mrow>
+ <mrow>\frac{2}{5} = \frac{6 - 2}{x - (- 3)} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>\frac{2}{5} = \frac{4}{x + 3} \amp   \amp  \tmop{Multiply} \tmop{both}
+    \tmop{sides} \tmop{by~} (x + 3)</mrow>
+ <mrow>\frac{2}{5} (x + 3) = 4 \amp   \amp  \tmop{Multiply} \tmop{by} 5 \tmop{to}
+    \tmop{clear} \tmop{fraction}</mrow>
+ <mrow>{\bf(5)} \frac{2}{5} (x + 3) = 4 {\bf(5)} \amp   \amp  \tmop{Simplify}</mrow>
+ <mrow>2 (x + 3) = 20 \amp   \amp  \tmop{Distribute}</mrow>
+ <mrow>2 x + 6 = 20 \amp   \amp </mrow>
+ <mrow>\bf{\underline{- 6 ~~- 6}} \amp   \amp  \tmop{Subtract} 6 \tmop{from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>2 x = 14 \amp   \amp  \tmop{Divide} \tmop{each} \tmop{side} \tmop{by} 2</mrow>
+ <mrow>\bf{\overline{2} ~~~~~ \overline{2}}~ \amp   \amp </mrow>
+ <mrow>x = 7 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+ </subsection> </section>
