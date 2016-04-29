@@ -1,0 +1,290 @@
+
+<section>
+<title>Domain and Range</title>
+<subsection>
+<title>Identifying Domain and Range Graphically</title>
+<p>
+{\tmstrong{Objective: Identify the domain and range of a function that is described either graphically or algebraically. Establish several fundamental functions and identify their domain and range.}}\pp
+</p>
+  
+<p>
+In this section, we will first discuss how one can identify the domain and range of a function using its graph. Later, we will explore finding the domain of a function using algebraic methods. As finding the range of a function using algebraic methods can often prove quite challenging, we will postpone this topic for a later section. We conclude the section with an introduction to a few of the most fundamental and foundational functions in algebra.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the domain and range of the function <m>f</m> whose graph is given below.
+</p>
+  \begin{mfpic}[20]{-3}3{-2}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tcaption{The graph of <m>f</m>}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-1 \ </m>} -1, {<m>1</m>} 1}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\end{mfpic} </statement>
+</example>
+  
+<p>
+To determine the domain and range of <m>f</m>, we need to determine which <m>x</m> and <m>y</m>-values respectively occur as coordinates of points on the given graph.\pp
+To find the domain, it will be helpful to imagine collapsing the curve onto the <m>x</m>-axis and determining the portion of the <m>x</m>-axis that gets covered. This is often described as <b>projecting</b> the curve onto the <m>x</m>-axis.
+</p>
+  
+<p>
+Before we project, we need to pay attention to two subtle notations on the graph: the arrowhead on the lower left corner of the graph indicates that the graph continues to curve downwards to the left forever; and the open circle at <m>(1,3)</m> indicates that the point <m>(1,3)</m> is <i>not</i> on the graph, but all the points on the curve leading up to <m>(1,3)</m> are on the graph.
+</p>
+  <table id="6ab6d5d93e20b827cc50de14fa7ad4b5a905026a" ><tr><td class='c'>
+
+\begin{mfpic}[16]{-4}3{-4}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\arrow \polyline{(2,4), (2,1)}
+\gclear \tlabelrect[cc](2,2){project down}
+\arrow \polyline{(-3,-4), (-3,-1)}
+\gclear \tlabelrect[cc](-3,-3){project up}
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-1 \ </m>} -1, {<m>1</m>} 1}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\end{mfpic} \hspace{.27in} </td><td class='c'>
+
+\begin{mfpic}[16]{-4}3{-4}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-1 \ </m>} -1, {<m>1</m>} 1}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\penwd{2pt} 
+\arrow \polyline{(1,0), (-4,0)}
+\penwd{0.5pt} 
+\gclear \circle{(1,0), 0.1}
+\circle{(1,0), 0.1}
+\end{mfpic} </td></tr>
+<tr><td class='c'></td></tr>
+</table>  
+<p>
+We see from the figure that if we project the graph of <m>f</m> to the <m>x</m>-axis, we get all real numbers less than <m>1</m>. Using interval notation, we write the domain of <m>f</m> as <m>(-\infty, 1)</m>.<br />
+To determine the range of <m>f</m>, we use a similar method, projecting the curve onto the <m>y</m>-axis as follows.
+</p>
+  <table id="48cddb281c6e4e79b6a451c030cf4e79ff2a220f" ><tr><td class='c'>
+
+\begin{mfpic}[16]{-4}3{-4}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\arrow \polyline{(3,2), (1,2)}
+\tlabel[cc](2,1){project left}
+\arrow \polyline{(-4,3), (-2,3)}
+\tlabel[cc](-3.5,2){project right}
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-1 \ </m>} -1, {<m>1</m>} 1}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\end{mfpic} \hspace{.27in} </td><td class='c'>
+
+\begin{mfpic}[16]{-4}3{-4}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-1 \ </m>} -1, {<m>1</m>} 1}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\penwd{2pt} 
+\arrow \polyline{(0,4), (0,-3)}
+\penwd{0.5pt} 
+\gfill \circle{(0,4), 0.1}
+\end{mfpic} </td></tr>
+<tr><td class='c'></td></tr>
+</table>  
+<p>
+Note that even though there is an open circle at <m>(1,3)</m>, we still include the <m>y</m> value of <m>3</m> in our range, since the point <m>(-1,3)</m> is on the graph of <m>f</m>. We also include <m>y=4</m> in our answer, since the point <m>(0,4)</m> is also on our graph. Consequently, the range of <m>f</m> is all real numbers less than or equal to <m>4</m>, or <m>(-\infty, 4]</m>.
+</p>
+ </subsection> 
+<subsection>
+<title>Identifying Domain and Range Algebraically</title>
+<p>
+When trying to identify the domain of a function that has been described algebraically or whose graph is not known, we will often need to consider what is <i>not</i> permissible for the function, then exclude any values of <m>x</m> that will make the function undefined from the interval <m>(-\infty,\infty)</m>. What is left will be our domain. With virtually every algebraic function, this amounts to avoiding the following situations.
+</p>
+  <ul><li>Negatives under an even radical <m>\left(\sqrt{~}~,~~\sqrt[4]{~}~,~~\sqrt[6]{~}~,~\ldots\right)</m></li>
+<li>Zero in a denominator</li>
+ </ul>  
+<p>
+In the previous three chapters, we dealt exclusively with linear and quadratic equations. While both linears and quadratics also represent <m>y</m> as a function of <m>x</m>, they are also included in a much larger family of functions known as <i>polynomials</i>. Polynomial functions, which are discussed in detail in the next chapter, are functions of the form
+</p>
+  
+<me>
+f(x)=a_nx^n+a_{n-1}x^{n-1}+\ldots+a_2x+a_1x+a_0,
+</me>
+ 
+<p>
+where each of the coefficients <m>a_i</m> represent real numbers (with <m>a_n\neq 0</m>) and <m>n</m> represents a positive integer. Since polynomials contain no radicals or variables in a denominator, we can immediately conclude that their domain will always be all real numbers, or <m>(-\infty,\infty)</m>. We reiterate this with our first example.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the domain of <m>f(x)=\frac{1}{3} x^2-x</m>.
+</p>
+  
+<md><mrow>f (x) = \frac{1}{3} x^2 - x \amp  \amp  \text{No~radicals~or~variables~in~a~denominator}</mrow>
+ <mrow>\amp  \amp  \text{No~values~of~}  x\text{~need~to~be~excluded}</mrow>
+ <mrow>\tmop{All~real~numbers~or~}(-\infty,\infty) \amp  \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Our next example will be of a <i>rational<nbsp />function</i>, which is defined as a ratio of two polynomial functions. We will explore rational functions and their graphs in a later chapter. Since rational functions usually include expressions in a denominator, their domains will often require us to exclude one or more values of <m>x</m>.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the domain of the function <m>f (x) = \dfrac{3 x - 1}{x^2 + x - 6}</m>.
+</p>
+  
+<md><mrow>f (x) = \frac{3 x - 1}{x^2 + x - 6}
+    \amp   \amp  \tmop{Cannot~have~zero~in~a~denominator}</mrow>
+ <mrow>\amp  \amp </mrow>
+ <mrow>x^2 + x - 6 \neq 0 \amp   \amp  \tmop{Solve} \tmop{by} \tmop{factoring}</mrow>
+ <mrow>(x + 3) (x - 2) \neq 0 \amp   \amp  \tmop{Set} \tmop{each} \tmop{factor}
+    \tmop{not} \tmop{equal} \tmop{to} \tmop{zero}</mrow>
+ <mrow>x + 3 \neq 0 \tmop{~and~} x - 2 \neq 0 \amp   \amp  \tmop{Solve} \tmop{each}
+    \tmop{inequality}</mrow>
+ <mrow>x \neq - 3, 2 \amp   \amp  \tmop{Our~solution~as~an~inequality}</mrow>
+ <mrow>(-\infty,-3)\cup(-3,2)\cup(2,\infty) \amp  \amp  \text{Our~solution~using~interval~notation}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The notation in the previous example tells us that <m>x</m> can be any value except
+for <m>- 3</m> and <m>2</m>. If <m>x</m> were to equal one of those two values, our expression in the denominator would reduce to zero and the function
+would consequently be undefined. Furthermore, although one can easily see that <m>x=\frac{1}{3}</m> will make the numerator equal zero, since <m>x=\frac{1}{3}</m> does not coincide with the two values obtained above (either -3 or 2), we should not exclude it from our domain.\pp
+This example further illustrates that whenever we are finding the domain of a rational function, we need not be concerned at all with the numerator, and instead must restrict our domain to exclude any value for <m>x</m> that would make the <i>denominator</i> equal to zero.\pp
+For our final two examples, we will introduce a square root in our function, first in the numerator and later in the denominator.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the domain of <m>f (x) = \sqrt[]{-2 x + 3}</m>.
+</p>
+  
+<md><mrow>f (x) = \sqrt[]{-2 x + 3} \amp   \amp  \tmop{Even~radical;~cannot~have~negative~underneath}</mrow>
+ <mrow>-2 x + 3 \geq 0 \amp   \amp  \tmop{Set~greater~than~or~equal~to~zero~and~solve}</mrow>
+ <mrow>-2 x \geq -3 \amp   \amp  \tmop{Remember~to~switch~direction~of~inequality}</mrow>
+ <mrow>\amp  \amp </mrow>
+ <mrow>x \leq \frac{3}{2} \text{~~or~}  \left(-\infty,\frac{3}{2}\right]\amp   \amp  \tmop{Our~solution~as~an~inequality~or~an~interval}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The notation in the above example states that our variable can be
+<m>\frac{3}{2}</m> or any real number less than <m>\frac{3}{2}</m>. But any number greater
+than <m>\frac{3}{2}</m> would make the function undefined.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the domain of <m>m (x) = \dfrac{-x}{\sqrt[]{7x-3}}</m>.\pp
+The even radical tells us that we cannot have a negative value underneath. But also, the denominator cannot equal zero. This results in two inequalities.
+</p>
+  
+<me>
+7x - 3 \geq  0 \text{~~AND~~}  7x-3 \neq 0
+</me>
+ 
+<p>
+Solving for <m>x</m>, we get the following.
+</p>
+  
+<me>
+	x \geq \frac{3}{7} \text{~~AND~~}  x \neq \frac{3}{7}
+</me>
+ 
+<p>
+Our final solution is <m>x > \dfrac{3}{7}</m>, or <m>\left(\dfrac{3}{7},\infty\right)</m> as an interval. This represents the intersection of both inequalities above.
+</p>
+ </statement>
+</example>
+  
+<p>
+The previous two examples can be generalized as follows.
+</p>
+  <ul><li>In instances where the given function is a square root (or even radical), to find the domain we may set up and solve an inequality in which the entire expression underneath is set <m>\geq 0</m>.</li>
+<li>In instances where the numerator of a given function is a polynomial and the denominator is a square root (or even radical), to find the domain we may set up and solve an inequality in which the expression underneath is set <m>> 0</m> (strictly positive).</li>
+ </ul>  
+<p>
+Since these two cases certainly do not handle every possible function than we may encounter, one should always be cautious when attempting to find the domain of any function.
+</p>
+ </subsection> 
+<subsection>
+<title>Ten Fundamental Functions</title>
+<p>
+This subsection will be completed at a later date. Extra pages have been included for instructors and students to list their own fundamental functions. This list will most likely include one or more of the following functions.
+</p>
+  <ol><li><m>f(x)=x</m></li>
+<li><m>g(x)=x^2</m></li>
+<li><m>h(x)=\sqrt{x}</m></li>
+<li><m>k(x)=\sqrt{9-x^2}</m></li>
+<li><m>\ell(x)=|x|</m></li>
+<li><m>m(x)=x^3</m></li>
+<li><m>n(x)=\sqrt[3]{x}</m></li>
+<li><m>p(x)=\dfrac{1}{x}</m></li>
+<li><m>r(x)=2^x</m></li>
+<li><m>s(x)=\log_2(x)</m></li>
+ </ol>   
+<p>
+<nbsp /><br />
+</p>
+  
+<p>
+<nbsp /><br />
+</p>
+  
+<p>
+<nbsp /><br />
+</p>
+  
+<p>
+<nbsp /><br />
+</p>
+ </subsection> </section>

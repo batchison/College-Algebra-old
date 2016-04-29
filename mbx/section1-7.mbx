@@ -1,0 +1,418 @@
+
+<section>
+<title>Linear Inequalities and Sign Diagrams</title><introduction>
+<p>
+{\tmstrong{Objective: Solve, graph, and give interval notation for the solution to a linear inequality. Create a sign diagram to identify those intervals where a linear expression is positive or negative.}}
+</p>
+ </introduction> 
+<subsection>
+<title>Linear Inequalities</title>
+<p>
+When given a linear equation such as <m>x+2=5</m>, one can solve to obtain <i>one</i> solution (<m>x=3</m>). Although the method for solving an inequality is, in general, very similar to that for solving an equation, we will see that the solution to a inequality will usually include an entire range of values.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+In order to solve any inequality, we must first understand the accompanying notation and respective terminology. Much of what will follow may seem familiar, as it was also introduced in the last chapter of Part I of this text. Students struggling with the notation may wish to review the earlier material in Part I regarding Number Sets.
+</p>
+  <table id="9bb672c7a576851ca97b723eec85411a22160a8c" ><tr><td class='c'>
+<u>Symbol</u> </td><td class='l'> <u>Meaning</u></td></tr>
+<tr><td class='c'>
+<m>\lt </m> </td><td class='l'> less than</td></tr>
+<tr><td class='c'>
+<m>></m> </td><td class='l'> greater than</td></tr>
+<tr><td class='c'>
+<m>\leq</m> </td><td class='l'> less than or equal to</td></tr>
+<tr><td class='c'>
+<m>\geq</m> </td><td class='l'> greater than or equal to</td></tr>
+<tr><td class='c'>
+<m>\neq</m> </td><td class='l'> not equal to</td></tr></table>  
+<p>
+{\tmstrong{World View Note:}} English mathematician Thomas Harriot first used the above symbols in 1631. However, they were not immediately accepted as symbols such as <m>\sqsubset</m> and <m>\sqsupset</m> were already coined by another English mathematician, William Oughtred.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+Notice that the "equals" symbol <m>=</m> is not listed above, as we will be working with <i>inequalities</i>, rather than <i>equations</i>. It is also worth mentioning that there are several alternate ways of describing the same symbol. For example, the phrases "at most" or "no more than" can easily be interchanged with "less than or equal to", and similarly for "at least", "no less than", and "greater than or equal to". Because of this, one needs to use a bit of caution, when faced with any problem that is presented verbally.
+</p>
+    
+<me>
+2\lt 5, \qquad\qquad 1>-1, \qquad\qquad 5\leq 10, \qquad\qquad 3\leq 3,
+</me>
+  
+<me>
+7\geq-2, \qquad\qquad 4\geq 4, \qquad\qquad -1\neq 1
+</me>
+  
+<p>
+The examples above, though true, do not contain a variable. We now will work with inequalities containing one (or more) variable(s). Following the previous sections of this chapter, we will first concern ourselves with linear inequalities, followed by basic absolute value inequalities. The solution to an inequality is the set of all real numbers that make the inequality true.
+</p>
+  
+<example xml:id="Lin92"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve the linear inequality <m>x+2\lt 5</m>.
+</p>
+  
+<md><mrow>x+2\lt 5~~ \amp \amp </mrow>
+ <mrow>\tmmathbf{\underline{-2}~~~\underline{-2}} \amp \amp  \text{Subtract~}  2 \text{~from~both~sides}</mrow>
+ <mrow>x\lt 3~~ \amp \amp  \text{Our~solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Notice that we solve the previous inequality using the same method that one would use to solve the equation <m>x+2=5</m>. Some differences will be seen later.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+When describing the solution to a given inequality, it will often be useful to graph the solution on a number line and shade the section(s) of the number line that coincide with the solution set. The number line below illustrates our previous example.
+</p>
+  \begin{mfpic}[10]{-8}8{-2}{0.5}
+\reverse \arrow \polyline{(-8,0),(8,0)}
+\tlpointsep{4pt}
+\tlabel[cc](4,-1){<m>3</m>}
+\circle{(4,0),.275}
+\penwd{2.3pt}
+\arrow[b -5.8pt][l 6pt]\polyline{(3.65,0),(-8,0)}
+\tcaption{<m>x\lt 3</m>}
+\end{mfpic}  
+<p>
+Note that an open circle is used to indicate that the value <m>x=3</m> is <i>not</i> a valid solution to the given inequality. A closed circle would therefore indicate that <m>x=3</m> is a valid solution. It is also a good idea to test a few values in order to check our work.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+<u>Check</u>:
+</p>
+  <table id="7f14fa42c95e3a900cfa18f942e81553f043ee0c" ><tr><td class='c'>
+<u>Test Location</u> </td><td class='c'> <u>Test Value</u> </td><td class='c'> <u>Unsimplified</u> </td><td class='c'> <u>Simplified</u> </td><td class='c'> <u>Result</u></td></tr>
+<tr><td class='c'>
+Shaded region </td><td class='c'> <m>x=1</m> </td><td class='c'> <m>1+2\lt 5</m> </td><td class='c'> <m>3\lt 5</m> </td><td class='c'> True</td></tr>
+<tr><td class='c'>
+Boundary value </td><td class='c'> <m>x=3</m> </td><td class='c'> <m>3+2\lt 5</m> </td><td class='c'> <m>5\lt 5</m> </td><td class='c'> False</td></tr>
+<tr><td class='c'>
+Unshaded region </td><td class='c'> <m>x=5</m> </td><td class='c'> <m>5+2\lt 5</m> </td><td class='c'> <m>7\lt 5</m> </td><td class='c'> False</td></tr></table>  
+<p>
+A common misconception that many students have with an inequality such as <m>x\lt 3</m> and is worth mentioning has to do with the values between <m>x=2</m> and <m>x=3</m>. Although we have seen that <m>x</m> cannot equal <m>3</m> in the given inequality, this does not mean that the solution set has a largest value at <m>x=2</m> (the largest <i>integer</i> solution to the inequality). In fact, there are infinitely many <i>real-number</i> solutions to the inequality between the integers <m>2</m> and <m>3</m>. For example, <m>2.5</m>, <m>2.7</m>, <m>2.9</m>, <m>2.99</m>, <m>2.999</m>, and <m>2.9999999999999999</m> are all valid solutions to <m>x\lt 3</m>. Because of this, one could say that the inequality is <i>bounded above by</i> <m>x=3</m>, but there is no <i>largest</i> solution that satisfies it.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+There are four primary ways of presenting the solution to an inequality:
+</p>
+  <ol><li>In words (verbally): "All real numbers <m>x</m> greater than or equal to <m>4</m>."</li>
+<li>Using inequality (and set-builder) notation: <m>\{x|x\geq 4\}</m>.</li>
+<li>Using interval notation: <m>[4,\infty)</m>.</li>
+<li>Using real-number line notation (graphically):
+
+\begin{mfpic}[10]{-8}8{-2}{0.5}
+\pointfilltrue
+\arrow\polyline{(8,0),(-8,0)}
+\tlpointsep{4pt}
+\tlabel[cc](4,-1){<m>4</m>}
+\penwd{2.3pt}
+\point[6pt]{(4,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(4,0),(8,0)}
+\end{mfpic} </li>
+ </ol>  
+<p>
+In many of our examples, it will be acceptable to exclude the set-builder notation <m>\{x|\qquad\}</m> altogether, and instead simply present the inequality <m>x\geq 4</m>. Still, it is important that students recognize the meaning behind the notation ("The set of all real numbers <m>x</m> such that...").
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+Recall that for interval notation we use brackets <m>[</m> or <m>]</m> to denote <i>inclusion</i> of a boundary value, and parentheses <m>(</m> and <m>)</m> to denote <i>exclusion</i>. This notation can therefore be interchanged with a closed circle (inclusion) or an open circle (exclusion), when graphing a given solution set on the real-number line. As a convention, from this point forward we will adopt brackets and parentheses instead of closed and open circles for graphical representations of solution sets, since it presents a nice connection between interval and real-number line notation. Both notations, however, are generally accepted. An example is shown below.
+</p>
+  
+<example xml:id="Lin93"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  \begin{mfpic}[8]{-20}{20}{-2}0
+\reverse \arrow \polyline{(-20,0),(-4,0)}
+\tlpointsep{4pt}
+\tlabel[cc](-8,-2){<m>3</m>}
+\circle{(-8,0),.325}
+\tcaption{<m>x\lt 3</m>}
+\reverse \arrow \polyline{(4,0),(20,0)}
+\tlpointsep{4pt}
+\tlabel[cc](16,-2){<m>3</m>}
+\tlabel[cc](16,0){{\bf )}}
+\penwd{2.3pt}
+\arrow[b -5.8pt][l 6pt]\polyline{(-8.35,0),(-20,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(15.9,0),(4,0)}
+\end{mfpic}  \begin{mfpic}[8]{-20}{20}{-2}0
+\pointfilltrue
+\arrow\polyline{(-4,0),(-20,0)}
+\arrow\polyline{(20,0),(4,0)}
+\tlpointsep{4pt}
+\tlabel[cc](-8,-2){<m>4</m>}
+\penwd{2.3pt}
+\point[6pt]{(-8,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(-8,0),(-4,0)}
+\tlabel[cc](16,-2){<m>4</m>}
+\tlabel[cc](16,0){{\bf [}}
+\penwd{2.3pt}
+\arrow[b -5.8pt][l 6pt]\polyline{(16.15,0),(20,0)}
+\tcaption{<m>x\geq 4</m>}
+\end{mfpic}  
+<p>
+Next, we will solve and present the solution to a linear equality using all four presentation methods.
+</p>
+  
+<example xml:id="Lin94"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve the linear inequality <m>4x-3\geq 5</m>.
+</p>
+  
+<md><mrow>4x-3\geq 5~~~\amp \amp </mrow>
+ <mrow>\tmmathbf{\underline{+3}~~~~\underline{+3}} \amp \amp   \text{Add~}  3 \text{~to~both~sides}</mrow>
+ <mrow>4x\geq 8~~~ \amp \amp </mrow>
+ <mrow>\tmmathbf{\overline{4}~~~~\overline{4}}~~~\amp \amp  \text{Divide~both~sides~by~}  4</mrow>
+ <mrow>x\geq 2~~~ \amp \amp  \text{Our~solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Our solution can be expressed as follows.
+</p>
+  <ol><li>Verbally: "The set of all values of <m>x</m> that are greater than or equal to (at least) <m>2</m>".</li>
+<li>Inequality: <m>\{x|x\geq 2\}</m></li>
+<li>Interval: <m>[2,\infty)</m></li>
+<li>Real-number Line (Graphically):</li>
+ </ol>   \begin{mfpic}[10]{-8}8{-2}0
+\pointfilltrue
+\arrow\polyline{(8,0),(-8,0)}
+\tlpointsep{4pt}
+\tlabel[cc](2,-2){<m>2</m>}
+\penwd{2.3pt}
+\tlabel[cc](2,0){{\bf [}}
+\arrow[b -5.8pt][l 6pt]\polyline{(2.15,0),(8,0)}
+\end{mfpic}  
+<p>
+<u>Check</u>:
+</p>
+  <table id="da325249627f77c7ab117c129778a844fd3e6d54" ><tr><td class='c'>
+<u>Test Location</u> </td><td class='c'> <u>Test Value</u> </td><td class='c'> <u>Unsimplified</u> </td><td class='c'> <u>Simplified</u> </td><td class='c'> <u>Result</u></td></tr>
+<tr><td class='c'>
+Shaded region </td><td class='c'> <m>x=3</m> </td><td class='c'> <m>4(3)-3\geq 5</m> </td><td class='c'> <m>~9\geq 5</m> </td><td class='c'> True</td></tr>
+<tr><td class='c'>
+Boundary value </td><td class='c'> <m>x=2</m> </td><td class='c'> <m>4(2)-3\geq 5</m> </td><td class='c'> <m>~5\geq 5</m> </td><td class='c'> True</td></tr>
+<tr><td class='c'>
+Unshaded region </td><td class='c'> <m>x=0</m> </td><td class='c'> <m>4(0)-3\geq 5</m> </td><td class='c'> <m>-3\geq 5</m> </td><td class='c'>False</td></tr></table>  
+<p>
+Next, we would like to closely examine the impact that each of the four main operations (<m>+</m>, <m>-</m>, <m>\times</m>, <m>\div</m>) has on a given inequality. This will shed more light on one of the fundamental differences between solving an equation and solving an inequality. To demonstrate this, we will repeatedly use an obvious true statement, <m>4\lt 10</m>.
+</p>
+   
+<p>
+<u>Original Inequality:</u> <m>4\lt 10</m>
+</p>
+  <table id="3ccbccfb584af5048e3852f228f9d42de695c7dc" ><tr><td class='l'>
+<u>Action</u> </td><td class='c'> <u>Resulting Inequality</u> </td><td class='l'> <u>Outcome</u></td></tr>
+<tr><td class='l'>
+Add <m>5</m> </td><td class='c'> <m>9\lt 15</m> </td><td class='l'> True</td></tr>
+<tr><td class='l'>
+Subtract <m>5</m> </td><td class='c'> <m>-1\lt 5</m> </td><td class='l'> True</td></tr>
+<tr><td class='l'>
+Add <m>-3</m> </td><td class='c'> <m>1\lt 7</m> </td><td class='l'> True</td></tr>
+<tr><td class='l'>
+Subtract <m>-3</m> </td><td class='c'> <m>7\lt 13</m> </td><td class='l'> True</td></tr>
+<tr><td class='l'></td></tr></table> 
+<p>
+Note that since addition and subtraction are closely related, we see that the original inequality is also preserved when negative values are either added or subtracted. In other words, adding (or subtracting) <m>-3</m> will also preserve the validity of the inequality. It is also worth noting that the action of adding <m>-3</m> is analogous with that of subtracting <m>3</m>, so there are no surprises. Later on, we will use the term <i>inverse</i> to describe the relationship between these two operations.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+<u>Original Inequality:</u> <m>4\lt 10</m>
+</p>
+  <table id="a9f1f04b34f915c12936996ea9e184906d7e0979" ><tr><td class='l'>
+<u>Action</u> </td><td class='c'> <u>Resulting Inequality</u> </td><td class='l'> <u>Outcome</u></td></tr>
+<tr><td class='l'>
+Multiply by <m>3</m> </td><td class='c'> <m>12\lt 30</m> </td><td class='l'> True</td></tr>
+<tr><td class='l'>
+Divide by <m>2</m> </td><td class='c'> <m>2\lt 5</m> </td><td class='l'> True</td></tr>
+<tr><td class='l'>
+Multiply by <m>-3</m> </td><td class='c'> <m>-12\lt -30</m> </td><td class='l'> <b>False</b></td></tr>
+<tr><td class='l'>
+Divide by <m>-2</m> </td><td class='c'> <m>-2\lt -5</m> </td><td class='l'> <b>False</b></td></tr>
+<tr><td class='l'></td></tr></table> 
+<p>
+Here, we see that multiplication, and consequently division, by a negative value forces us to change the direction of the inequality (<m>-2\lt -5</m> changes to <m>-2>-5</m>) in order to preserve its validity. This is best illustrated by the following diagram.
+</p>
+  \begin{mfpic}[8]{-20}{20}{-2}4
+\arrow\reverse\arrow\polyline{(-20,0),(-4,0)}
+\xmarks{-12,-10,-7,7,10,12}
+\tlpointsep{4pt}
+\tlabel[cc](-12,-1.5){<m>0</m>}
+\tlabel[cc](-10,-1.5){<m>2</m>}
+\tlabel[cc](-7,-1.5){<m>5</m>}
+\arrow\curve{(-2.5,2),(0,3),(2.5,2)}
+\tcaption{<m>2\lt 5</m>\hspace{0.8in}<i>Multiply by <m>-1</m></i>\hspace{0.7in}<m>-5\lt -2</m>}
+\arrow\reverse\arrow\polyline{(4,0),(20,0)}
+\tlabel[cc](12,-1.5){<m>0</m>}
+\tlabel[cc](10,-1.5){<m>-2</m>}
+\tlabel[cc](7,-1.5){<m>-5</m>}
+\point[6pt]{(-10,0),(-7,0),(7,0),(10,0)}
+\end{mfpic}  
+<p>
+Note that as with addition and subtraction, the <i>inverse</i> relationship between the operations of multiplication and division is again at work, since for example, division by <m>-2</m> is analogous to multiplication by <m>-1/2</m>.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+We conclude our treatment of linear inequalities with a more complicated example. All our solution steps will be identical to those for solving a linear equation, with the only exception being those steps related to multiplication or division by a negative number.
+</p>
+  
+<example xml:id="Lin96"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve the linear inequality <m>-1-2(x-3)\leq 5x-9</m>.
+</p>
+  
+<md><mrow>-1-2(x-3)~\leq~ 5x-9~~ \amp \amp </mrow>
+ <mrow>-1-2x+6~\leq~ 5x-9~~ \amp \amp  \text{Distribute~}  -2</mrow>
+ <mrow>5-2x~\leq~ 5x-9~~ \amp \amp  \text{Combine~like~terms}</mrow>
+ <mrow>\tmmathbf{\underline{-5}~~~~~~~~~~~~~~~~\underline{-5}}~~ \amp \amp   \text{Subtract~}  5 \text{~from~both~sides}</mrow>
+ <mrow>-2x~\leq~ 5x-14 \amp \amp </mrow>
+ <mrow>\tmmathbf{\underline{-5x}~~~~\underline{-5x}}~~~~~ \amp \amp  \text{Subtract~}  5x \text{~from~both~sides}</mrow>
+ <mrow>-7x~\leq~ -14~~~~~ \amp \amp </mrow>
+ <mrow>\tmmathbf{\overline{-7}~~~~~~~\overline{-7}}~~~~~\amp \amp  \text{Divide~both~sides~by~}  -7</mrow>
+ <mrow>x\geq 2~~~~~~~~~ \amp \amp  \text{Our~solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+We leave it as an exercise to the reader to check that our solution is correct.
+</p>
+ </subsection> 
+<subsection>
+<title>Introduction to Sign Diagrams</title>
+<p>
+In a later chapter we will define a <i>function</i>, providing several examples of <m>y</m> as a function of <m>x</m>, and discuss in detail the processes associated with graphing certain families of functions. As both linears and quadratics (the next chapter) present the most basic examples of polynomials, we will take this opportunity to introduce a tool, called a sign diagram (or sign chart), that will be incredibly useful for graphing these and more complicated functions. For the sake of the mathematics, it should be noted that the usefulness of the sign diagram for graphing is a direct consequence of the <i>continuity</i> of a function and the <i>Intermediate Value Theorem</i> (IVT). The notion of continuity is one that will be studied more closely in subsequent courses (e.g. Calculus), and the IVT will be deferred to the later chapter on polynomials.
+</p>
+  
+<example xml:id="Lin97"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Graph the linear equation <m>y=2x+3</m>.\pp
+Our graph will have a <m>y</m>-intercept at the point (<m>0,3</m>). By setting <m>y=0</m>, we obtain an <m>x</m>-intercept at the point <m>(-3/2,0)</m>. We then obtain the following graph by plotting these two intercepts and connecting them.
+</p>
+  \begin{mfpic}[20]{-2.5}{2.5}{-2.5}{4.5}
+\arrow\reverse\arrow\function{-2.5,0.5,0.1}{2*(x+1.5)}
+\xmarks{-2,-1,0,1,2}
+\ymarks{-2,-1,0,1,2,3,4}
+\tlabelsep{3pt}
+\axislabels x{{ <m>-2</m>}-2,{ <m>2</m>}2}
+\axislabels y{{ <m>-2</m>}-2,{ <m>2</m>}2,{ <m>4</m>}4}
+\point[3pt]{(0,3),(-1.5,0)}
+\axes
+\arrow[l 5pt]\polyline{(-2.4,0),(-2.5,0)}
+\arrow[l 5pt]\polyline{(0,-2.4),(0,-2.5)}
+\end{mfpic} </statement>
+</example>
+  
+<p>
+When graphing any equation, it will be of particular interest to identify any <m>x</m>-intercepts on the graph. Though this will sometimes prove a daunting and even impossible task, as we have seen, it is relatively straightforward when faced with a linear equation. Recall that all lines which are not horizontal will have exactly one <m>x</m>-intercept. Horizontal lines will either have no <m>x</m>-intercepts or, in the case of the horizontal line <m>y=0</m>, will have infinitely many <m>x</m>-intercepts. Once we know the <m>x</m>-intercept of the graph of our linear equation, we can easily determine the sign (<m>+</m> or <m>-</m>) of the <m>y</m>-coordinate for every point to the left or right of our <m>x</m>-intercept. Since all lines are by their nature straight, this amounts to testing our equation, by plugging in a single <i>test value</i> for each interval on either side of our <m>x</m>-intercept.\pp
+</p>
+  
+<p>
+In the case of our example, though we are free to choose any real-numbered test values we would like, we will make the more common selections of <m>x=-2</m> and <m>x=0</m>. Note that <m>x=-1</m> would have been a perfectly fine value instead of <m>x=0</m>, but it is often easier to plug <m>x=0</m> into a function than any other value. After plugging each test value into the equation, we determine the sign of the <m>y</m>-coordinate associated with <m>x=-2</m> is negative (<m>-</m>), since <m>2(-2)+3\lt 0</m>, and the sign of the <m>y</m>-coordinate associated with <m>x=0</m> is positive (<m>+</m>), since <m>2(0)+3>0</m>. Note that here we are <b>not</b> concerned with the actual values of the <m>y</m>-coordinates, just their respective signs. This point will be reiterated as we encounter more complicated mathematical expressions. The results of our calculations are presented on the real-number line shown below.
+</p>
+  
+<example xml:id="Lin98"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Sign Diagram for <m>y=2x+3</m>.
+</p>
+  \begin{mfpic}[10]{-8}8{-3}2
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{0}
+\tlpointsep{4pt}
+\axislabels x{{<m>-\frac{3}{2}</m>} 0}
+\tlabel[cc](-4,1){<m>(-)</m>}
+\tlabel[cc](-4,-1.75){<m>x=-2</m>}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](4,1){<m>(+)</m>}
+\tlabel[cc](4,-1.75){<m>x=0</m>}
+\end{mfpic} </statement>
+</example>
+  
+<p>
+Note that if constructed correctly, our sign diagram should be consistent with the graph of <m>y=2x+3</m>. Specifically, a (<m>+</m>) corresponds to those points on the graph that sit <i>above</i> the <m>x</m>-axis, and a (<m>-</m>) corresponds to those points that sit <i>below</i> the <m>x</m>-axis.\pp
+</p>
+  
+<p>
+We now will summarize the steps for constructing a sign diagram for a linear equation (or function) with a nonzero slope.
+</p>
+  <ol><li>If not provided, put the equation in slope-intercept form.</li>
+<li>Determine the <m>x</m>-intercept of the graph of the equation.  Mark this value on a real-number line by placing a symbol { (}<m>~|~</m>{ )} directly above it that divides the line into two intervals.</li>
+<li>Identify a test value for each interval.  Write your test values below their respective test intervals.</li>
+<li>Determine the sign (<m>+</m> or <m>-</m>) of the <m>y</m>-coordinate for each test value.  Mark this on the real-number line by placing either a <m>+</m> or <m>-</m> above the interval.</li>
+ </ol>   
+<example xml:id="Lin99"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Construct a sign diagram for the linear equation<br /> <m>y=-12x-50</m>.\pp
+By setting <m>y=0</m>, we get <m>x=-\frac{50}{12}=-\frac{25}{6}=4.1\overline{6}</m>. For test values, we will use <m>x=-5</m> and <m>x=0</m>.
+</p>
+  <table id="a25c8445f7f181545c4a5dda8c405f8cea7315ce" ><tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='vcv'>
+Test Value </td><td class='cv'> Resulting <m>y</m>-coordinate </td><td class='cv'> Sign</td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='vcv'>
+<m>x=-5</m> </td><td class='cv'> <m>-12(-5)-50=60-50>0</m> </td><td class='cv'> (<m>+</m>)</td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='vcv'>
+<m>x=0</m> </td><td class='cv'> <m>-12(0)-50=0-50\lt 0</m> </td><td class='cv'> (<m>-</m>)</td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+
+</table>  \begin{mfpic}[10]{-8}8{-3}2
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{0}
+\tlpointsep{4pt}
+\axislabels x{{<m>-\frac{25}{6}</m>} 0}
+\tlabel[cc](-4,1){<m>(+)</m>}
+\tlabel[cc](-4,-1.75){<m>x=-5</m>}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](4,1){<m>(-)</m>}
+\tlabel[cc](4,-1.75){<m>x=0</m>}
+\end{mfpic} </statement>
+</example>
+  
+<p>
+Note that in the instance of a horizontal line <m>m=0</m>, our sign diagram will only require us to test a single value for the entire interval (<m>-\infty,\infty</m>). It therefore suffices to just identify the sign of the <m>y</m>-intercept for the graph of our equation. Lastly, if the <m>y</m>-intercept is zero, then our sign diagram will have no test intervals to check, since all points on our graph will be of the form (<m>x,0</m>).\pp
+</p>
+  
+<p>
+It is worth mentioning that here we have only sought to "set the table" for the construction of sign diagrams, using linear equations as a very basic introduction. Once we are exposed to more complicated equations and functions, such as quadratics in the next chapter, we will see how the construction of a sign diagram will become more involved. In short, more complicated examples will include more <m>x</m>-intercepts, which will result in more test intervals to check. The process, however, will essentially remain the same as we have outlined, and the resulting sign diagram will be critical in understanding the graph of a function.
+</p>
+ </subsection> </section>

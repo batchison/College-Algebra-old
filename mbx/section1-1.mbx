@@ -1,0 +1,1111 @@
+
+<section>
+<title>Solving Linear Equations</title>
+<subsection>
+<title>One-Step Equations</title>
+<p>
+<nbsp />
+</p>
+  
+<p>
+{<b>Objective:</b>} {<b>Solve one-step linear equations by
+balancing using inverse operations</b>}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+Solving linear equations is an important and fundamental skill in algebra. In
+algebra, we are often presented with a problem where the answer is known, but
+part of the problem is missing. The missing part of the problem is what we
+seek to find. An example of such a problem is shown below.
+</p>
+  
+<example xml:id="Lin1"><statement>
+<me>
+ 4 x + 16 = - 4 
+</me>
+ </statement>
+</example>
+ 
+<p>
+Notice the above problem has a missing part, or unknown, that is marked by
+<m>x</m>. If we are given that the solution to this equation is <m>x=- 5</m>, it could be
+plugged into the equation, replacing the <m>x</m> with <m>- 5</m>. This is shown in
+<xref ref="Lin2">Example</xref>.
+</p>
+  
+<example xml:id="Lin2"><statement>
+<md><mrow>4 (- 5) + 16 = - 4 \amp   \amp  \tmop{Multiply} 4 (- 5)</mrow>
+ <mrow>- 20 + 16 = - 4 \amp   \amp  \tmop{Add} - 20 + 16</mrow>
+ <mrow>- 4 = - 4 \amp   \amp  \tmop{True} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Now the equation comes out to a true statement! Notice also that if another
+number, for example, <m>x=3</m>, was plugged in, we would not get a true statement as
+seen in <xref ref="Lin3">Example</xref>.
+</p>
+  
+<example xml:id="Lin3"><statement>
+<md><mrow>4 (3) + 16 = - 4 \amp   \amp  \tmop{Multiply} 4 (3)</mrow>
+ <mrow>12 + 16 = - 4 \amp   \amp  \tmop{Add} 12 + 16</mrow>
+ <mrow>28 \neq - 4 \amp   \amp  \tmop{False} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+ 
+<p>
+Due to the fact that this is not a true statement, this demonstrates that <m>x=3</m>
+is not the solution. However, depending on the complexity of the problem, this
+"guess and check" method is not very efficient. Thus, we take a more
+algebraic approach to solving equations. Here we will focus on what are called
+"one-step equations" or equations that only require one step to solve. While
+these equations often seem very fundamental, it is important to master the
+pattern for solving these problems so we can solve more complex problems.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+{<b>Addition Problems</b>}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+To solve equations, the general rule is to do the opposite, as demonstrated in the following example.
+</p>
+  
+<example xml:id="Lin4"><statement>
+<md><mrow>x + 7 = - 5 \amp   \amp  \tmop{The} 7 \tmop{is} \tmop{added} \tmop{to} \tmop{the}
+  x</mrow>
+ <mrow>~~~\underline{\tmmathbf{- 7 ~~- 7}} \amp   \amp  \tmop{Subtract} 7 \tmop{from}
+  \tmop{both} \tmop{sides} \tmop{to} \tmop{get} \tmop{rid} \tmop{of}
+  \tmop{it}</mrow>
+ <mrow>x = - 12 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+It is important for the reader to recognize the benefit of checking an answer by plugging it back into the given equation, as we did with <xref ref="Lin2">examples</xref> and <xref ref="Lin3"></xref> above. This is a step that often gets overlooked by many individuals who may be eager to attempt the next problem. As is the case with most textbooks, we will often omit this step from this point forward, with the understanding that it will usually be an exercise that is left to the reader to verify the validity of each answer.\pp
+</p>
+  
+<p>
+The same process is used in each of the following examples.
+</p>
+  
+<example xml:id="Lin5"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  <figure>
+<caption>Addition Examples</caption>
+<table id="395683927a37fd6b776abb57047494e89bd82038" ><tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>4 + x = 8</m></td></tr>
+<tr><td class='l'>
+    <u><m>\ensuremath{\boldsymbol{- 4 ~~~~~~~- 4}}</m></u><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /></td></tr>
+<tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 4</m></td></tr></table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="1000ba41818a9e0cb03f18f5cb4ef08820282bc4" ><tr><td class='l'>
+    <nbsp /><nbsp /><m>7 = x + 9</m></td></tr>
+<tr><td class='l'>
+    <m>\tmmathbf{\underline{- 9 ~~~~- 9}}</m></td></tr>
+<tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 2 = x</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="e6af90459792c139d23715899902fa49dd2bd9f8" ><tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>5 = 8 + x</m></td></tr>
+<tr><td class='l'>
+    <m>\tmmathbf{\underline{- 8 ~~- 8}}</m></td></tr>
+<tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 3 = x</m></td></tr>
+</table> 
+  </figure>
+  
+<p>
+{<b>Subtraction Problems</b>}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+In a subtraction problem, we get rid of negative numbers by adding them to
+both sides of the equation, as demonstrated in the following example.
+</p>
+  
+<example xml:id="Lin6"><statement>
+<md><mrow>x - 5 = 4~~~ \amp   \amp  \tmop{The} 5 \tmop{is} \tmop{negative}, \tmop{or}
+    \tmop{subtracted} \tmop{from} x</mrow>
+ <mrow>~~~~~~\tmmathbf{\underline{+ 5 ~~+ 5}} \amp   \amp  \tmop{Add} 5 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>x = 9\qquad  \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The same process is used in each of the following examples. Notice that each time we are getting rid of a negative
+number by adding.\pp
+In every example, we introduce the opposite operation of what is shown, in order to solve the given equation. This notion of opposites is more commonly referred to as an <i>inverse</i> operation. The inverse operation of addition is subtraction, and vice versa. Similarly, the inverse operation of multiplication is division, and vice versa, which we will see momentarily.
+</p>
+  
+<example xml:id="Lin7"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  <figure>
+<caption>Subtraction Examples</caption>
+<table id="077abf0fe049eb077cad2caaa463d7829bfa65c1" ><tr><td class='l'>
+      <m>- 6 + x = - 2</m></td></tr>
+<tr><td class='l'>
+      <m>\tmmathbf{\underline{+ 6 ~~~~~~~+ 6}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 4</m></td></tr>
+</table>  <table id="0332d485ad855b2e4ad6c1e8f8c96dded27b4602" ><tr><td class='l'></td></tr>
+</table> <table id="0332d485ad855b2e4ad6c1e8f8c96dded27b4602" ><tr><td class='l'></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /><table id="6fafaec9f6bd2941636bdd8e8475daebd12a2cf4" ><tr><td class='l'>
+      <m>- 10 = x - 7</m></td></tr>
+<tr><td class='l'>
+      <m> \tmmathbf{\underline{+ 7 ~~~~~~~+ 7}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 3 = x</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="aeab7b4cdfa3c2b3459c356a7619edc8b23617f1" ><tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>5 = - 8 + x</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><m>\tmmathbf{\underline{+ 8 ~~~+ 8}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>13 = x</m></td></tr>
+</table> 
+    </figure>
+  
+<p>
+{<b>Multiplication Problems</b>}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+With a multiplication problem, we get rid of the number by dividing on both
+sides, as demonstrated in the following examples.
+</p>
+  
+<example xml:id="Lin8"><statement>
+<md><mrow>4 x = 20 ~~\amp   \amp  \tmop{Variable} \tmop{is} \tmop{multiplied} \tmop{by} 4</mrow>
+ <mrow>~~~\tmmathbf{\overline{4} ~~~~~ \overline{4}}~~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 4</mrow>
+ <mrow>x = 5~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+With multiplication problems it is very important that care is taken with
+signs. If <m>x</m> is multiplied by a negative then we will divide by a negative.
+This is shown in <xref ref="Lin9">example</xref>.
+</p>
+  
+<example xml:id="Lin9"><statement>
+<md><mrow>- 5 x = 30 \amp   \amp  \tmop{Variable} \tmop{is} \tmop{multiplied} \tmop{by} -
+    5</mrow>
+ <mrow>\tmmathbf{\overline{- 5} ~~~~ \overline{- 5}} \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} - 5</mrow>
+ <mrow>x = - 6 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The same process is used in each of the following examples. Notice how
+negative and positive numbers are handled as each problem is solved.
+</p>
+  
+<example xml:id="Lin10"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  <figure>
+<caption>Multiplication Examples</caption>
+<table id="3bc5b7ca1398b8d37d1097e4f5f29b035b62d8b0" ><tr><td class='l'>
+      <m>8 x = - 24</m></td></tr>
+<tr><td class='l'>
+      <m>\tmmathbf{\overline{8} ~~~~~~~~ \overline{8}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = - 3</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="3ce57cccf512aed7d701ed086b8b805a47f63ca6" ><tr><td class='l'>
+      <m>- 4 x = - 20</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><m>\tmmathbf{\overline{- 4} ~~~~~ \overline{- 4}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 5</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="7f077dae21126aefebc760139fcf3180d8b13e36" ><tr><td class='l'>
+      <m>42 = 7 x</m><nbsp /><nbsp /><nbsp /><nbsp /></td></tr>
+<tr><td class='l'>
+      <nbsp /><m>\tmmathbf{\overline{7} ~~~~~ \overline{7}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>6 = x</m></td></tr>
+</table> 
+    </figure>
+  
+<p>
+{<b>Division Problems</b>}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+In division problems, we get rid of the denominator by multiplying on both
+sides, since multiplication is the opposite, or <i>inverse</i>, operation of division. This is demonstrated in the examples shown below.
+</p>
+  
+<example xml:id="Lin11"><statement>
+<md><mrow>\frac{x}{5} = - 3 \amp   \amp  \tmop{Variable} \tmop{is} \tmop{divided} \tmop{by}
+    5</mrow>
+ <mrow>\tmmathbf{(5)} \frac{x}{5} = - 3 \tmmathbf{(5)} \amp   \amp  \tmop{Multiply}
+    \tmop{both} \tmop{sides} \tmop{by} 5</mrow>
+ <mrow>x = - 15 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Then we get our solution <m>x = - 15</m>.
+</p>
+  
+<example xml:id="Lin12"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  <figure>
+<caption>Division Examples</caption>
+<table id="634a20f13bad488ddc8c61b8cb234e015d40b31a" ><tr><td class='l'>
+    <m> \frac{x}{- 7} = - 2</m></td></tr>
+<tr><td class='l'>
+    <m>\tmmathbf{(-7)}\frac{x}{- 7} = - 2\tmmathbf{(-7)}</m></td></tr>
+<tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 14</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /><table id="237e8d7abf16f9fc9eeb8dfee931f6bc1f85f18a" ><tr><td class='l'>
+    <m> \frac{x}{8} = 5</m></td></tr>
+<tr><td class='l'>
+    <m>\tmmathbf{(8)} \frac{x}{8} = 5 \tmmathbf{(8)}</m></td></tr>
+<tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 40</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /><table id="d907ae433d6bd80e6a70087277203b762ae73684" ><tr><td class='l'>
+    <m> \frac{x}{- 4} = 9</m></td></tr>
+<tr><td class='l'>
+    <m>\tmmathbf{(-4)}\frac{x}{- 4} = 9\tmmathbf{(-4)}</m></td></tr>
+<tr><td class='l'>
+    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = - 36</m></td></tr>
+</table> 
+  </figure>
+  
+<p>
+The process described above is fundamental to solving equations. Once this
+process is mastered, the problems we will see have several more steps. These
+problems may seem more complex, but the process and patterns used will remain
+the same.\pp
+{<b>World View Note: </b>}The study of algebra originally was called the
+"Cossic Art"  from the Latin, the study of "things" (which we now call
+variables).
+</p>
+ </subsection> 
+<subsection>
+<title>Two-Step Equations</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Solve two-step equations by balancing and using inverse
+operations.}}\pp
+</p>
+  
+<p>
+After mastering the technique for solving one-step equations, we are ready to consider two-step equations. As we solve two-step
+equations, the important thing to remember is that everything works backwards!
+When working with one-step equations, we learned that in order to clear a
+"plus five" in the equation, we would subtract five from both sides. We
+learned that to clear "divided by seven" we multiply by seven on both sides.
+The same pattern applies to the order of operations. When solving for our
+variable <m>x</m>, we use order of operations backwards as well. This means we will
+add or subtract first, then multiply or divide second (then exponents, and
+finally any parentheses or grouping symbols, but that's another lesson).
+</p>
+  
+<example xml:id="Lin13"><statement>
+<md><mrow>4 x - 20 = - 8 \amp   \amp </mrow>
+ 
+</md>
+ 
+<p>
+We have two numbers on the same side as the <m>x</m>. We need to move the <m>4</m> and
+the <m>20</m> to the other side. We know to move the <m>4</m> we need to divide, and
+to move the <m>20</m> we will add <m>20</m> to both sides. If order of operations
+is done backwards, we will add or subtract first. Therefore we will add <m>20</m>
+to both sides first. Once we are done with that, we will divide both sides
+by <m>4</m>. The steps are shown below.
+</p>
+  
+<md><mrow>4 x - 20 = - 8~~ \amp   \amp  \tmop{Start} \tmop{by} \tmop{focusing} \tmop{on}
+    \tmop{the} \tmop{subtract} 20</mrow>
+ <mrow>\tmmathbf{\underline{+ 20 ~~+ 20}} \amp   \amp  \tmop{Add} 20 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>4 x = 12~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{focus} \tmop{on} \tmop{the} 4
+    \tmop{multiplied} \tmop{by} x</mrow>
+ <mrow>\tmmathbf{\overline{4} ~~~~~ \overline{4}~}~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 4</mrow>
+ <mrow>x = 3~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Notice in our next example when we replace the <m>x</m> with <m>3</m>  we get a true
+statement.
+</p>
+  
+<md><mrow>4 (3) - 20 = - 8 \amp   \amp  \tmop{Multiply} 4 (3)</mrow>
+ <mrow>12 - 20 = - 8 \amp   \amp  \tmop{Subtract} 12 - 20</mrow>
+ <mrow>- 8 = - 8 \amp   \amp  \tmop{True} !</mrow>
+ 
+</md>
+ 
+<p>
+The same process is used to solve any two-step equation. Add or subtract
+first, then multiply or divide.
+</p>
+  
+<example xml:id="Lin14"><statement>
+<md><mrow>5 x + 7 = 7~~ \amp   \amp  \tmop{Start} \tmop{by} \tmop{focusing} \tmop{on}
+    \tmop{the} \tmop{plus} 7</mrow>
+ <mrow>\tmmathbf{\underline{- 7 ~~- 7}} \amp   \amp  \tmop{Subtract} 7 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>5 x = 0~~ \amp   \amp  \tmop{Now} \tmop{focus} \tmop{on} \tmop{the}
+    \tmop{multiplication} \tmop{by} 5</mrow>
+ <mrow>\tmmathbf{\overline{5} ~~~~~ \overline{5}}~~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 5</mrow>
+ <mrow>x = 0~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Notice the seven subtracted out completely! Many students get stuck on this
+point, do not forget that we have a number for "nothing left", and that
+number is zero. With this in mind the process is almost identical to our first
+example.\pp
+</p>
+  
+<p>
+A common error students make with two-step equations is with negative signs.
+Remember the sign always stays with the number. Consider the following
+example.
+</p>
+  
+<example xml:id="Lin15"><statement>
+<md><mrow>4 - 2 x = 10 \amp   \amp  \tmop{Start} \tmop{by} \tmop{focusing} \tmop{on}
+    \tmop{the} \tmop{positive} 4</mrow>
+ <mrow>\underline{\tmmathbf{- 4 ~~~~~~- 4}} \amp   \amp  \tmop{Subtract} 4 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 2 x = 6~~ \amp   \amp  \tmop{Negative~} (\tmop{subtraction}) \tmop{~stays} \tmop{on}
+    \tmop{the} 2 x</mrow>
+ <mrow>\tmmathbf{\overline{- 2} ~~~ \overline{- 2}} \amp   \amp  \tmop{Divide} \tmop{by} -
+    2</mrow>
+ <mrow>x = - 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The same is true even if there is no apparent coefficient in front of the variable. The coefficient is <m>1</m> or <m>-1</m> in this case.
+Consider the next example.
+</p>
+  
+<example xml:id="Lin16"><statement>
+<md><mrow>8 - x = 2~ \amp   \amp  \tmop{Start} \tmop{by} \tmop{focusing} \tmop{on} \tmop{the}
+    \tmop{positive} 8</mrow>
+ <mrow>\tmmathbf{\underline{- 8 ~~~~~- 8}} \amp   \amp  \tmop{Subtract} 8 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- x = - 6 \amp   \amp  \tmop{Negative} (\tmop{subtraction}) \tmop{stays} \tmop{on}
+    \tmop{the} x</mrow>
+ <mrow>- 1 x = - 6 \amp   \amp  \tmop{Remember}, \tmop{no} \tmop{number} \tmop{in}
+    \tmop{front} \tmop{of} \tmop{variable} \tmop{means} 1</mrow>
+ <mrow>\tmmathbf{\overline{- 1} ~~~~ \overline{- 1}} \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} - 1</mrow>
+ <mrow>x = 6 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Solving two-step equations is a very important skill to master, as we study
+algebra. The first step is to add or subtract, the second is to multiply or
+divide. This pattern is seen in each of the following examples.
+</p>
+  
+<example xml:id="Lin17"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  <figure>
+<caption>Two-Step Equation Examples</caption>
+<table id="5f25c79a847b5c206b85507f034339f15f57b350" ><tr><td class='l'>
+      <m>- 3 x + 7 = - 8</m></td></tr>
+<tr><td class='l'>
+      <m> ~~~~~~~\tmmathbf{\underline{- 7 ~~- 7}}~</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 3 x = - 15</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m> \tmmathbf{\overline{- 3} ~~~~~ \overline{- 3}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 5</m></td></tr>
+</table> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> 
+		<table id="620b368f427e0fb4d225dc9f607d33a905599540" ><tr><td class='l'>
+      <m>- 2 + 9 x = 7~</m></td></tr>
+<tr><td class='l'>
+      <u><m>\tmmathbf{+ 2 ~~~~~~~~+ 2}</m></u></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>9 x = 9</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m> \tmmathbf{ \overline{9} ~~~~~ \overline{9}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 1</m></td></tr></table> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />
+		
+		<table id="8bbb741aef3925d4ddc2a7a1ddc084aed32ed159" ><tr><td class='l'>
+      <m>~~~~8 = 2 x + 10</m></td></tr>
+<tr><td class='l'>
+      <m>\tmmathbf{\underline{- 10 ~~~~~~ - 10} }</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 2 = 2 x</m></td></tr>
+<tr><td class='l'>
+      <m>~~~~~~~\tmmathbf{\overline{2} ~~~~~ \overline{2}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 1 = x</m></td></tr>
+</table> 
+    
+    
+    
+    
+    
+    
+    
+    <table id="ab08fb1d74be5d716f3fac18f3d2f8eec29ca30d" ><tr><td class='l'>
+      <m>~~~7 - 5 x = 17</m></td></tr>
+<tr><td class='l'>
+      <m>\tmmathbf{\underline{- 7 ~~~~~~~~~- 7}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 5 x = 10</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m> \tmmathbf{ \overline{- 5} ~~~~~ \overline{- 5}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = - 2</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="6ecd3f090de7c1e0fc087fe05eb0a1793e401a38" ><tr><td class='l'>
+      <m>- 5 - 3 x = - 5</m></td></tr>
+<tr><td class='l'>
+      <m>\tmmathbf{\underline{+ 5 ~~~~~~~~~+ 5}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>- 3 x = 0</m><nbsp /></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m> \tmmathbf{ \overline{- 3} ~~~~ \overline{- 3}}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>x = 0</m></td></tr>
+</table>   <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <nbsp /> <table id="ea2425348768971e3596a634c13bf56d1cd6edb8" ><tr><td class='l'>
+      <m>- 3 = \frac{x}{5} - 4~</m></td></tr>
+<tr><td class='l'>
+      {\tmmathbf{<u>+ 4 <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />+ 4</u>}}</td></tr>
+<tr><td class='l'>
+			</td></tr>
+<tr><td class='l'>
+      <m>\tmmathbf{(5)} (1) = \frac{x}{5} \tmmathbf{(5)}</m></td></tr>
+<tr><td class='l'>
+      <nbsp /><nbsp /><nbsp /><nbsp /><m>5 = x</m></td></tr></table> 
+    </figure>
+  
+<p>
+As problems in algebra become more complex the process covered here will
+remain the same. In fact, as we solve problems like those in the next example,
+each one of them will have several steps to solve, but the last two steps will resemble solving a two-step equation. This is why it is very important
+to master two-step equations now!
+</p>
+  
+<example xml:id="Lin18"><statement>
+<md><mrow>3 x^2 + 4 - x = 6 \amp  \mbox{\hspace{1.5in}}  \amp  \displaystyle\frac{1}{x - 8} + \displaystyle\frac{1}{x} = \displaystyle\frac{1}{3}</mrow>
+ <mrow>\amp  \amp </mrow>
+ <mrow>\sqrt{5 x -
+    5} + 1 = x \amp  \mbox{\hspace{1.5in}}  \amp  \log_5 (2 x - 4) = 1</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+{\tmstrong{World View Note:}} Persian mathematician Omar Khayyam would solve
+algebraic problems geometrically by intersecting graphs rather than solving
+them algebraically.
+</p>
+ </subsection> 
+<subsection>
+<title>General Equations</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Solve general linear equations with variables on both
+sides.}}\pp
+</p>
+  
+<p>
+Often as we are solving linear equations we will need to do some work to set
+them up into a form we are familiar with solving. This section will focus on
+manipulating an equation we are asked to solve in such a way that we can use
+our pattern for solving two-step equations to ultimately arrive at the
+solution.\pp
+</p>
+  
+<p>
+One such issue that needs to be addressed is parentheses. Often the
+parentheses can get in the way of solving an otherwise easy problem. As you
+might expect we can get rid of the unwanted parentheses by using the
+distributive property. This is shown in the following example. Notice the
+first step is distributing, then it is solved like any other two-step
+equation.
+</p>
+  
+<example xml:id="Lin19"><statement>
+<md><mrow>4 (2 x - 6) = 16~~ \amp   \amp  \tmop{Distribute} 4 \tmop{through}
+    \tmop{parentheses}</mrow>
+ <mrow>8 x - 24 = 16~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{subtraction}
+    \tmop{first}</mrow>
+ <mrow>\tmmathbf{\underline{+ 24 ~+ 24}} \amp   \amp  \tmop{Add} 24 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>8 x = 40~~ \amp   \amp  \tmop{Now} \tmop{focus} \tmop{on} \tmop{the} \tmop{multiply}
+    \tmop{by} 8</mrow>
+ <mrow>\tmmathbf{ \overline{8} ~~~~~~ \overline{8}}~~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 8</mrow>
+ <mrow>x = 5 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Often after we distribute there will be some like terms on one side of the
+equation. <xref ref="Lin20">Example</xref> shows distributing to clear the parentheses and then
+combining like terms next. Notice we only combine like terms on the same side
+of the equation. Once we have done this, our next example solves just like any
+other two-step equation.
+</p>
+  
+<example xml:id="Lin20"><statement>
+<md><mrow>3 (2 x - 4) + 9 = 15 \amp   \amp  \tmop{Distribute} \tmop{the} 3 \tmop{through}
+    \tmop{the} \tmop{parentheses}</mrow>
+ <mrow>6 x - 12 + 9 = 15 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}, - 12 + 9</mrow>
+ <mrow>6 x - 3 = 15 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{subtraction}
+    \tmop{first}</mrow>
+ <mrow>\tmmathbf{\underline{+ 3 ~+ 3}} \amp   \amp  \tmop{Add} 3 \tmop{to} \tmop{both} \tmop{sides}</mrow>
+ <mrow>6 x = 18 \amp   \amp  \tmop{Now} \tmop{focus} \tmop{on} \tmop{multiply} \tmop{by}
+    6</mrow>
+ <mrow>\tmmathbf{\overline{6} ~~~~~~ \overline{6}} \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides}
+    \tmop{by} 6</mrow>
+ <mrow>x = 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+A second type of problem that becomes a two-step equation after a bit of work
+is one where we see the variable on both sides. This is shown in the following
+example.
+</p>
+  
+<example xml:id="Lin21"><statement>
+<md><mrow>4 x - 6 = 2 x + 10 \amp   \amp </mrow>
+ 
+</md>
+ 
+<p>
+Notice here the {\tmem{x}} is on both the left and right sides of the
+equation. This can make it difficult to decide which side to work with. We
+fix this by moving one of the terms with <m>x</m> to the other side, much like we
+moved a constant term. It doesn't matter which term gets moved, <m>4 x</m> or <m>2
+  x</m>, however, it would be the author's suggestion to move the smaller term
+(to avoid negative coefficients). For this reason we begin this problem by
+clearing the positive <m>2 x</m> by subtracting <m>2 x</m> from both sides.
+</p>
+  
+<md><mrow>4 x - 6 = 2 x + 10 \amp   \amp  \tmop{Notice} \tmop{the} \tmop{variable} \tmop{on}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>\tmmathbf{\underline{- 2 x ~~~~~- 2 x}}~~~~~~  \amp   \amp  \tmop{Subtract} 2 x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>2 x - 6 = 10 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{subtraction}
+    \tmop{first}</mrow>
+ <mrow>\tmmathbf{\underline{+ 6 ~+ 6}}  \amp   \amp  \tmop{Add} 6 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>2 x = 16 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{multiplication}
+    \tmop{by} 2</mrow>
+ <mrow>\tmmathbf{\overline{2} ~~~~~~ \overline{2} } \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 2</mrow>
+ <mrow>x = 8 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The previous example shows the check on this solution. Here the solution is
+plugged into the {\tmem{x}} on both the left and right sides before
+simplifying.
+</p>
+  
+<example xml:id="Lin22"><statement>
+<md><mrow>4 (8) - 6 = 2 (8) + 10 \amp   \amp  \tmop{Multiply} 4 (8) \tmop{and} 2 (8)
+  \tmop{first}</mrow>
+ <mrow>32 - 6 = 16 + 10 \amp   \amp  \tmop{Add} \tmop{and} \tmop{Subtract}</mrow>
+ <mrow>26 = 26 \amp   \amp  \tmop{True} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The next example illustrates the same process with negative coefficients.
+Notice first the smaller term with the variable is moved to the other side,
+this time by adding because the coefficient is negative.
+</p>
+  
+<example xml:id="Lin23"><statement>
+<md><mrow>- 3 x + 9 = 6 x - 27 \amp   \amp  \tmop{Notice} \tmop{the} \tmop{variable}
+    \tmop{on} \tmop{both} \tmop{sides}, - 3 x \tmop{is} \tmop{smaller}</mrow>
+ <mrow>\tmmathbf{\underline{+ 3 x ~~~~~~+ 3 x}}~~~~~  \amp   \amp  \tmop{Add} 3 x \tmop{to}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>9 = 9 x - 27 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{subtraction}
+    \tmop{by} 27</mrow>
+ <mrow>\tmmathbf{\underline{+ 27 ~~~~~+ 27}} \amp   \amp  \tmop{Add} 27 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>36 = 9 x \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{multiplication}
+    \tmop{by} 9</mrow>
+ <mrow>\tmmathbf{\overline{9} ~~~~~ \overline{9} }~  \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 9</mrow>
+ <mrow>4 = x \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Linear equations can become particularly interesting when the two processes are
+combined. In the following problems we have parentheses and the variable on
+both sides. Notice in each of the following examples we distribute, then
+combine like terms, then move the variable to one side of the equation.
+</p>
+  
+<example xml:id="Lin24"><statement>
+<md><mrow>2 (x - 5) + 3 x = x + 18~~ \amp   \amp  \tmop{Distribute} \tmop{the} 2
+    \tmop{through} \tmop{parentheses}</mrow>
+ <mrow>2 x - 10 + 3 x = x + 18~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x +
+    3 x</mrow>
+ <mrow>5 x - 10 = x + 18~~ \amp   \amp  \tmop{Notice} \tmop{the} \tmop{variable} \tmop{is}
+    \tmop{on} \tmop{both} \tmop{sides}</mrow>
+ <mrow>\tmmathbf{\underline{- x ~~~~~~- x}}~~~~~~~~  \amp   \amp  \tmop{Subtract} x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>4 x - 10 = 18~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{the} \tmop{subtraction}
+    \tmop{of} 10</mrow>
+ <mrow>\tmmathbf{\underline{+ 10 ~+10}}  \amp   \amp  \tmop{Add} 10 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>4 x = 28~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{by} 4</mrow>
+ <mrow>\tmmathbf{ \overline{4} ~~~~~ \overline{4}}~~~  \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 4</mrow>
+ <mrow>x = 7~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Sometimes we may have to distribute more than once to clear several
+parentheses. Remember to combine like terms after you distribute!
+</p>
+  
+<example xml:id="Lin25"><statement>
+<md><mrow>3 (4 x - 5) - 4 (2 x + 1) = 5~~~ \amp   \amp  \tmop{Distribute} 3 \tmop{and} - 4
+    \tmop{through} \tmop{parentheses}</mrow>
+ <mrow>12 x - 15 - 8 x - 4 = 5~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 12 x
+    - 8 x \tmop{and} - 15 - 4</mrow>
+ <mrow>4 x - 19 = 5~~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{subtraction} \tmop{of} 19</mrow>
+ <mrow>\underline{\tmmathbf{+ 19 ~~+ 19}} \amp   \amp  \tmop{Add} 19 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>4 x = 24~~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{by} 4</mrow>
+ <mrow>\tmmathbf{\overline{4} ~~~~~~ \overline{4}}~~~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 4</mrow>
+ <mrow>x = 6~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+This leads to a 5-step process to solve any linear equation. While all five
+steps aren't always needed, this can serve as a guide to solving equations.
+</p>
+  <ol><li>Distribute through any parentheses.</li>
+<li>Combine like terms on each side of the equation.</li>
+<li>Get the variables on one side by adding or subtracting</li>
+<li>Solve the remaining 2-step equation (add or subtract then multiply or
+  divide)</li>
+<li>Check your answer by plugging it back in for {\tmem{x}} to find a true
+  statement.  If your resulting statement is false, repeat the procedure, beginning with the first step.</li>
+ </ol>  
+<p>
+The order of these steps is very important.\pp
+</p>
+  
+<p>
+{\tmstrong{World View Note:}} The Chinese developed a method for solving
+equations that involved finding each digit one at a time about 2000 years ago!\pp
+</p>
+  
+<p>
+We can see each of the above five steps worked through our next example.
+</p>
+  
+<example xml:id="Lin26"><statement>
+<md><mrow>4 (2 x - 6) + 9 = 3 (x - 7) + 8 x \amp   \amp  \tmop{Distribute} 4 \tmop{and} 3
+    \tmop{through} \tmop{parentheses}</mrow>
+ <mrow>8 x - 24 + 9 = 3 x - 21 + 8 x \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}
+    - 24 + 9 \tmop{and} 3 x + 8 x</mrow>
+ <mrow>8 x - 15 = 11 x - 21 \amp   \amp  \tmop{Notice} \tmop{the} \tmop{variable}
+    \tmop{is} \tmop{on} \tmop{both} \tmop{sides}</mrow>
+ <mrow>\tmmathbf{\underline{- 8 x ~~~~~~~- 8 x}}~~~~~~~  \amp   \amp  \tmop{Subtract} 8 x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 15 = 3 x - 21 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{subtraction} \tmop{of}
+    21</mrow>
+ <mrow>\tmmathbf{\underline{+ 21 ~~~~~+ 21}}  \amp   \amp  \tmop{Add} 21 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>6 = 3 x \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{by} 3</mrow>
+ <mrow>\tmmathbf{\overline{3} ~~~~ \overline{3} }~  \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 3</mrow>
+ <mrow>2 = x \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ 
+<p>
+{\tmem{Check:}}
+</p>
+  
+<md><mrow>4 [2 (2) - 6] + 9 = 3 [(2) - 7] + 8 (2) \amp   \amp  \tmop{Plug} 2 \tmop{in}
+    \tmop{for} \tmop{each} x. \tmop{Multiply} \tmop{inside}
+    \tmop{parentheses}</mrow>
+ <mrow>4 [4 - 6] + 9 = 3 [- 5] + 8 (2)  \amp   \amp  \tmop{Finish} \tmop{parentheses}
+    \tmop{on} \tmop{left}, \tmop{multiply} \tmop{on} \tmop{right}</mrow>
+ <mrow>4 [- 2] + 9 = - 15 + 8 (2)  \amp   \amp  \tmop{Finish} \tmop{multiplication}
+    \tmop{on} \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 8 + 9 = - 15 + 16 \amp   \amp  \tmop{Add}</mrow>
+ <mrow>1 = 1 \amp   \amp  \tmop{True} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+When we check our solution of <m>x = 2</m> we found a true statement, <m>1 = 1</m>.
+Therefore, we know our solution <m>x = 2</m> is the correct solution for the
+problem.\pp
+</p>
+  
+<p>
+There are two special cases that can come up as we are solving these linear
+equations. The first is illustrated in the next two examples. Notice we start
+by distributing and moving the variables all to the same side.\pp
+</p>
+  
+<example xml:id="Lin27"><statement>
+<md><mrow>3 (2 x - 5) = 6 x - 15 \amp   \amp  \tmop{Distribute} 3 \tmop{through}
+    \tmop{parentheses}</mrow>
+ <mrow>6 x - 15 = 6 x - 15 \amp   \amp  \tmop{Notice} \tmop{the} \tmop{variable}
+    \tmop{on} \tmop{both} \tmop{sides}</mrow>
+ <mrow>\tmmathbf{\underline{- 6 x ~~~~~~~- 6 x}}~~~~~~  \amp   \amp  \tmop{Subtract} 6 x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 15 = - 15 \amp   \amp  \tmop{Variable} \tmop{is} \tmop{gone} ! \tmop{True} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Here the variable subtracted out completely! We are left with a true
+statement, <m>- 15 = - 15</m>. If the variables subtract out completely and we
+are left with a true statement, this indicates that the equation is always
+true, no matter what <m>x</m> is. Thus, for our solution we say {\tmstrong{all real numbers}} or <m>\mathbb{R}</m>.\pp
+	It is worth mentioning that in both the previous and following examples, we are still <i>solving</i> a given equation for all possible values of <m>x</m>. When the variable is eliminated entirely, this can sometimes be confused with <i>checking</i> a solution.
+</p>
+  
+<example xml:id="Lin28"><statement>
+<md><mrow>2 (3 x - 5) - 4 x = 2 x + 7 \amp   \amp  \tmop{Distribute} 2 \tmop{through}
+    \tmop{parentheses}</mrow>
+ <mrow>6 x - 10 - 4 x = 2 x + 7 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 6 x
+    - 4 x</mrow>
+ <mrow>2 x - 10 = 2 x + 7 \amp   \amp  \tmop{Notice} \tmop{the} \tmop{variable} \tmop{is}
+    \tmop{on} \tmop{both} \tmop{sides}</mrow>
+ <mrow>\tmmathbf{\underline{- 2 x ~~~~~~- 2 x} }~~~~~  \amp   \amp  \tmop{Subtract} 2 x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 10 \neq 7 \amp   \amp  \tmop{Variable} \tmop{is} \tmop{gone} ! \tmop{False} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Again, the variable subtracted out completely! However, this time we are
+left with a false statement, this indicates that the equation is never true,
+no matter what <m>x</m> is. Thus, for our solution we say {\tmstrong{no
+solution}} or <m>\varnothing</m>.
+</p>
+ </subsection> 
+<subsection>
+<title>Equations Containing Fractions</title>
+<p>
+<nbsp />
+</p>
+  
+<p>
+{\tmstrong{Objective: Solve linear equations with rational coefficients by
+multiplying by the least common denominator to clear the fractions. }}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+Often when solving linear equations we will need to work with an equation with
+fraction coefficients. We can solve these problems as we have in the past.
+This is demonstrated in our next example.
+</p>
+  
+<example xml:id="Lin29"><statement>
+<md><mrow>\frac{3}{4} x - \frac{7}{2} = \frac{5}{6}~~ \amp   \amp  \tmop{Focus} \tmop{on}
+    \tmop{subtraction}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\underline{\tmmathbf{+ \frac{7}{2} ~~+ \frac{7}{2}}} \amp   \amp  \tmop{Add}
+    \frac{7}{2} \tmop{to} \tmop{both} \tmop{sides}</mrow>
+ 
+</md>
+ 
+<p>
+Notice we will need to get a common denominator to add <m>\frac{5}{6} +
+  \frac{7}{2}</m>. Notice we have a common denominator of <m>6</m>. So we build up the
+denominator, <m>\frac{7}{2} \left( \frac{3}{3} \right) = \frac{21}{6}</m>, and we
+can now add the fractions:
+</p>
+  
+<md><mrow>\frac{3}{4} x - \frac{21}{6} = \frac{5}{6}~~~ \amp   \amp  \tmop{Same}
+    \tmop{problem}, \tmop{with} \tmop{common} \tmop{denominator} 6</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\tmmathbf{\underline{+ \frac{21}{6} ~~+ \frac{21}{6}}} \amp   \amp  \tmop{Add}
+    \frac{21}{6} \tmop{to} \tmop{both} \tmop{sides}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\frac{3}{4} x = \frac{26}{6}~~~ \amp   \amp  \tmop{Reduce} \frac{26}{6} \tmop{to}
+    \frac{13}{3}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\frac{3}{4} x = \frac{13}{3}~~~ \amp   \amp  \tmop{Focus} \tmop{on}
+    \tmop{multiplication} \tmop{by} \frac{3}{4}</mrow>
+ 
+</md>
+  
+<p>
+We can get rid of <m>\frac{3}{4}</m> by dividing both sides by <m>\frac{3}{4}</m>.\pp
+Dividing by a fraction is the same as multiplying by the reciprocal, so we
+will multiply both sides by <m>\frac{4}{3}</m>.
+</p>
+  
+<md><mrow>\tmmathbf{\left( \frac{4}{3} \right)} \frac{3}{4} x = \frac{13}{3}
+    \tmmathbf{\left( \frac{4}{3} \right)} \amp   \amp  \tmop{Multiply} \tmop{by}
+    \tmop{reciprocal}</mrow>
+ <mrow>x = \frac{52}{9}  \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+While this process does help us arrive at the correct solution, the fractions
+can make the process quite difficult. This is why we have an alternate method
+for dealing with fractions - clearing fractions. Clearing fractions is nice as
+it gets rid of the fractions for the majority of the problem. We can easily
+clear the fractions by finding the LCD and multiplying each term by the LCD.
+This is shown in the next example, the same problem as our first example, but
+this time we will solve by clearing fractions.
+</p>
+  
+<example xml:id="Lin30"><statement>
+<md><mrow>\frac{3}{4} x - \frac{7}{2} = \frac{5}{6} \amp   \amp  \tmop{LCD} = 12,
+    \tmop{multiply} \tmop{each} \tmop{term} \tmop{by} 12</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\frac{\tmmathbf{(12)} 3}{4} x - \frac{\tmmathbf{(12)} 7}{2} =
+    \frac{\tmmathbf{(12)} 5}{6} \amp   \amp  \tmop{Reduce} \tmop{each} 12 \tmop{with}
+    \tmop{denominators}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\tmmathbf{(3)} 3 x - \tmmathbf{(6)} 7 = \tmmathbf{(2)} 5 \amp   \amp 
+    \tmop{Multiply} \tmop{out} \tmop{each} \tmop{term}</mrow>
+ <mrow>9 x - 42 = 10~~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{subtraction} \tmop{by}
+    42</mrow>
+ <mrow>\tmmathbf{\underline{+ 42 ~~+ 42}} \amp   \amp  \tmop{Add} 42 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>9 x = 52~~~ \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{by} 9</mrow>
+ <mrow>\tmmathbf{\overline{9} ~~~~~ \overline{9}}~~~~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 9</mrow>
+ <mrow>x = \frac{52}{9}~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+The next example illustrates this as well. Notice the <m>2</m> isn't a fraction in
+the original equation, but to solve it we put the <m>2</m> over <m>1</m> to make it a
+fraction.
+</p>
+  
+<example xml:id="Lin31"><statement>
+<md><mrow>\frac{2}{3} x - 2 = \frac{3}{2} x + \frac{1}{6} \amp   \amp  \tmop{LCD} = 6,
+    \tmop{multiply} \tmop{each} \tmop{term} \tmop{by} 6</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\frac{\tmmathbf{(6)} 2}{3} x - \frac{\tmmathbf{(6)} 2}{1} =
+    \frac{\tmmathbf{(6)} 3}{2} x + \frac{\tmmathbf{(6)} 1}{6} \amp   \amp 
+    \tmop{Reduce} 6 \tmop{with} \tmop{each} \tmop{denominator}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\tmmathbf{(2)} 2 x - \tmmathbf{(6)} 2 = \tmmathbf{(3)} 3 x +
+    \tmmathbf{(1)} 1 \amp   \amp  \tmop{Multiply} \tmop{out} \tmop{each} \tmop{term}</mrow>
+ 
+</md>
+  
+<md><mrow>4 x - 12 = 9 x + 1 \amp   \amp  \tmop{Notice} \tmop{variable} \tmop{on}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>\underline{\tmmathbf{- 4 x ~~~~~~- 4 x}}~~~~  \amp   \amp  \tmop{Subtract} 4 x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 12 = 5 x + 1 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{addition} \tmop{of} 1</mrow>
+ <mrow>\tmmathbf{\underline{- 1 ~~~~~~- 1}} \amp   \amp  \tmop{Subtract} 1 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 13 = 5 x \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{of} 5</mrow>
+ <mrow>\tmmathbf{\overline{5} ~~~~~ \overline{5}}~  \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 5</mrow>
+ <mrow>- \frac{13}{5} = x \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+We can use this same process if there are parenthesis in the problem. We will
+first distribute the coefficient in front of the parenthesis, then clear the
+fractions. This is seen in the following example.
+</p>
+  
+<example xml:id="Lin32"><statement>
+<md><mrow>\frac{3}{2} \left( \frac{5}{9} x + \frac{4}{27} \right) = 3 \amp   \amp 
+    \tmop{Distribute} \frac{3}{2} \tmop{through} \tmop{parenthesis},
+    \tmop{reducing} \tmop{if} \tmop{possible}</mrow>
+ <mrow>\frac{5}{6} x + \frac{2}{9} = 3 \amp   \amp  \tmop{LCD} = 18, \tmop{multiply}
+    \tmop{each} \tmop{term} \tmop{by} 18</mrow>
+ <mrow>\frac{\tmmathbf{(18)} 5}{6} x + \frac{\tmmathbf{(18)} 2}{9} =
+    \frac{\tmmathbf{(18)} 3}{9} \amp   \amp  \tmop{Reduce} 18 \tmop{with} \tmop{each}
+    \tmop{denominator}</mrow>
+ <mrow>\tmmathbf{(3)} 5 x + \tmmathbf{(2)} 2 = \tmmathbf{(18)} 3 \amp   \amp 
+    \tmop{Multiply} \tmop{out} \tmop{each} \tmop{term}</mrow>
+ <mrow>15 x + 4 = 54 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{addition} \tmop{of} 4</mrow>
+ <mrow>\underline{\tmmathbf{- 4 ~- 4}} \amp   \amp  \tmop{Subtract} 4 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>15 x = 50 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{by} 15</mrow>
+ <mrow>\tmmathbf{\overline{15} ~~~~ \overline{15}} \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 15, \tmop{reduce} \tmop{on} \tmop{right}
+    \tmop{side}</mrow>
+ <mrow>x = \frac{10}{3} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+While the problem can take many different forms, the pattern to clear the
+fraction is the same, after distributing through any parentheses we multiply
+each term by the LCD and reduce. This will give us a problem with no fractions
+that is much easier to solve. The following example again illustrates this
+process.
+</p>
+  
+<example xml:id="Lin33"><statement>
+<md><mrow>\frac{3}{4} x - \frac{1}{2} = \frac{1}{3} (\frac{3}{4} x + 6) -
+    \frac{7}{2} \amp   \amp  \tmop{Distribute} \frac{1}{3}, \tmop{reduce} \tmop{if}
+    \tmop{possible}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\frac{3}{4} x - \frac{1}{2} = \frac{1}{4} x + 2 - \frac{7}{2} \amp   \amp 
+    \tmop{LCD} = 4, \tmop{multiply} \tmop{each} \tmop{term} \tmop{by} 4</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\frac{\tmmathbf{(4)} 3}{4} x - \frac{\tmmathbf{(4)} 1}{2} =
+    \frac{\tmmathbf{(4)} 1}{4} x + \frac{\tmmathbf{(4)} 2}{1} -
+    \frac{\tmmathbf{(4)} 7}{2} \amp   \amp  \tmop{Reduce} 4 \tmop{with} \tmop{each}
+    \tmop{denominator}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>\tmmathbf{(1)} 3 x - \tmmathbf{(2)} 1 = \tmmathbf{(1)} 1 x +
+    \tmmathbf{(4)} 2 - \tmmathbf{(2)} 7 \amp   \amp  \tmop{Multiply} \tmop{out}
+    \tmop{each} \tmop{term}</mrow>
+ <mrow>3 x - 2 = x + 8 - 14 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 8 - 14</mrow>
+ <mrow>3 x - 2 = x - 6 \amp   \amp  \tmop{Notice} \tmop{variable} \tmop{on} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>\tmmathbf{\underline{- x ~~~~~~- x}}~~~~  \amp   \amp  \tmop{Subtract} x \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>2 x - 2 = - 6 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{subtraction} \tmop{by} 2</mrow>
+ <mrow>\tmmathbf{\underline{+ 2 ~~+ 2}} \amp   \amp  \tmop{Add} 2 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>2 x = - 4 \amp   \amp  \tmop{Focus} \tmop{on} \tmop{multiplication} \tmop{by} 2</mrow>
+ <mrow>\tmmathbf{\overline{2} ~~~~~~~ \overline{2}} \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 2</mrow>
+ <mrow>x = - 2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+{\tmstrong{World View Note:}} The Egyptians were among the first to study
+fractions and linear equations. The most famous mathematical document from
+Ancient Egypt is the Rhind Papyrus where the unknown variable was called
+"heap"
+</p>
+ </subsection> </section>

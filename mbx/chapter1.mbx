@@ -1,0 +1,17 @@
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Linear_Equations">
+<title>Linear Equations</title><introduction>
+<p>
+\mfpicnumber{1}
+&#xf8;pengraphsfile{1_Linears}
+</p>
+ </introduction> <xi:include  href="section1-1.mbx" />
+ <xi:include  href="section1-2.mbx" />
+ <xi:include  href="section1-3.mbx" />
+ <xi:include  href="section1-4.mbx" />
+ <xi:include  href="section1-5.mbx" />
+ <xi:include  href="section1-6.mbx" />
+ <xi:include  href="section1-7.mbx" />
+ <xi:include  href="section1-8.mbx" />
+ <xi:include  href="section1-9.mbx" />
+ </chapter>

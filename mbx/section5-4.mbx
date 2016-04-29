@@ -1,0 +1,406 @@
+
+<section>
+<title>Graphing</title>
+<subsection>
+<title>End Behavior</title>
+<p>
+{\tmstrong{Objective: Determine the end behavior of polynomial functions for graphing purposes.}}\pp
+Now that we have learned how to classify polynomials, we are ready to see how the leading term (the leading coefficient and degree) will affect the graph.
+Below are the graphs of <m>y=x^2</m>, <m>y=x^4</m> and <m>y=x^6</m>, side-by-side. We have omitted the axes to allow you to see that as the exponent increases, the `bottom' becomes `flatter' and the `sides' become `steeper'.
+</p>
+  <table id="17b1f209dc11a79a925592579f03c67fae4c2a52" ><tr><td class='c'>
+
+\begin{mfpic}[10][5]{-3.0}{3.0}{-1}{10}
+\arrow \reverse \arrow \function{-3,3,0.1}{x**2}
+\tcaption{<m>y=x^2</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-1}{10}
+\arrow \reverse \arrow \function{-1.7783,1.7783,0.1}{x**4}
+\tcaption{<m>y=x^4</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-1}{10}
+\arrow \reverse \arrow \function{-1.4678,1.4678,0.1}{x**6}
+\tcaption{<m>y=x^6</m>}
+\end{mfpic}</td></tr>
+</table>  
+<p>
+All of these functions are <i>even</i>, since <m>f(x)=-f(x)</m>, and consequently, their graphs are symmetric about the <m>y-</m>axis. It is no coincidence that each of their degrees are even. The symmetry of these graphs is important, but we want to explore a different, yet equally important feature of these functions which can be seen graphically &#x2013; their <index><main>polynomial function </main><sub> end behavior</sub></index><index><main>end behavior </main><sub> of a function graph</sub></index><b>end behavior</b>.\pp
+The end behavior of a function identifies what is happening to the function's values (the <m>y</m>-values) as the <m>x</m>-values approach the extreme left (written <m>x \rightarrow -\infty</m>) and the extreme right (written <m>x \rightarrow \infty</m>) of the <m>x-</m>axis.\pp
+</p>
+  
+<p>
+For example, given <m>f(x) = x^2</m>, as <m>x \rightarrow -\infty</m>, we imagine substituting<br />
+<m>x=-100</m>, <m>x=-1000</m>, etc., into <m>f</m> to get <m>f(-100)=10000</m>,
+<m>f(-1000)=1000000</m>, and so on. Thus, the function's values are becoming larger and larger positive numbers (without bound). To describe this behavior, we write the following.
+</p>
+  As <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow \infty</m>. 
+<p>
+If we study the behavior of <m>f</m> as <m>x</m> gets large in the positive direction, we obtain the following result.
+</p>
+  As <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow \infty</m>. 
+<p>
+Each of the three equations above produce graphs that are also concave up, all with even degree, and consequently exhibit the same end-behavior.\pp
+</p>
+  
+<p>
+Below are the graphs of <m>y=-x^2</m>, <m>y=-x^4</m> and <m>y=-x^6</m>, side-by-side. Each of these graphs is a reflection of the previous three graphs, respectively, over the <m>x-</m>axis. Hence, each graph is concave down, with end behavior described below.
+</p>
+  <table id="cdf1592ac563eadc1ca0434417a68fb8f923e47c" ><tr><td class='c'>
+
+
+\begin{mfpic}[10][5]{-3.0}{3.0}{-1}{10}
+\arrow \reverse \arrow \function{-3,3,0.1}{0-(x**2)+10}
+\tcaption{<m>y=-x^2</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-1}{10}
+\arrow \reverse \arrow \function{-1.7783,1.7783,0.1}{0-(x**4)+10}
+\tcaption{<m>y=-x^4</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-1}{10}
+\arrow \reverse \arrow \function{-1.4678,1.4678,0.1}{0-(x**6)+10}
+\tcaption{<m>y=-x^6</m>}
+\end{mfpic}</td></tr>
+</table>  As <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow -\infty</m>.<br />
+As <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow -\infty</m>. 
+<p>
+Remember that when determining the end behavior for these three functions, our last operation is multiplication by -1, since we have <m>-x^2</m><nbsp />and not <m>(-x)^2</m>, for example. This will always produce a negative value as <m>x\rightarrow \pm\infty</m>. \pp
+</p>
+  
+<p>
+The following table summarizes our findings for the end behavior of a power function having a degree of <m>n</m>, where <m>n</m> represents a positive even integer.<br />
+</p>
+  
+<p>
+<b>End Behavior of <m>f(x) = ax^{n}</m>, where <m>n>0</m> is even.</b>
+</p>
+  
+<p>
+Suppose <m>f(x) = a x^{n}</m> where <m>a \neq 0</m> is a real number and <m>n</m>, the degree, is an even integer. The end behavior of the graph of <m>y=f(x)</m> matches one of the following. <index><main>end behavior </main><sub> of <m>f(x) = ax^{n}, n</m> even</sub></index>
+</p>
+  <ul><li>For <m>a > 0</m>, as <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow \infty</m> and as <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow \infty</m></li>
+<li>For <m>a \lt  0</m>, as <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow -\infty</m> and as <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow -\infty</m></li>
+ </ul>   
+<p>
+Graphically:
+</p>
+  <table id="8b2a964becba70c963477f3737af6c555975d7d3" >{m{1.5in}m{1.5in}m{1.5in}}
+
+&
+
+\begin{mfpic}[5]{-5}5{-1}5
+\arrow \reverse \function{-5,-3, 0.1}{(x**2)/5}
+\dotted \function{-3,3, 0.1}{(x**2)/5}
+\arrow \function{3,5, 0.1}{(x**2)/5}
+\tcaption{<m>a>0</m>}
+\end{mfpic}
+
+&
+
+\begin{mfpic}[5]{-5}5{-5}1
+\arrow \reverse \function{-5,-3, 0.1}{(0-(x**2))/5} 
+\dotted \function{-3,3, 0.1}{-(x**2)/5}
+\arrow \function{3,5, 0.1}{(0-(x**2))/5} 
+\tcaption{<m>a\lt 0</m>}
+\end{mfpic}</table>    
+<p>
+It is important to note that what we have discussed thus far only pertains to the <i>end</i> behavior (or `tails') of the graph of a particular function, and does not relate to identifying what happens in its interior, which we will refer to as its <i>local</i> behavior. The local behavior of a polynomial function is tied closely to its zeros, and will be discussed shortly.\pp
+We now turn our attention to functions of the form <m>f(x) = x^{n}</m>, where <m>n \geq 3</m> is an odd integer.
+We omit the function <m>f(x)=x</m>, having degree 1 because it is just the linear identity function (whose graph splits the first and third quadrants) and has already been covered extensively.\pp
+Below we have graphed <m>y=x^3</m>, <m>y=x^5</m>, and <m>y=x^7</m>. The `flattening' and `steepening' that we saw with the even-powered examples before presents itself here as well, but all of these equations are of odd-degree. Recall that each of these functions is <i>odd</i>, and their graphs are symmetric about the origin.
+</p>
+  <table id="1b5e43199ea10790389fcdc29447b00b806d51ea" ><tr><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-5}5
+\arrow \reverse \arrow \function{-1.700,1.700,0.1}{x**3}
+\tcaption{<m>y=x^3</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-5}5
+\arrow \reverse \arrow \function{-1.3800,1.3800,0.1}{x**5}
+\tcaption{<m>y=x^5</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-5}5
+\arrow \reverse \arrow \function{-1.2585,1.2585,0.1}{x**7}
+\tcaption{<m>y=x^7</m>}
+\end{mfpic}</td></tr>
+</table> 
+<p>
+Determining the end behavior is addressed in the same manner as before, which can be confirmed by looking at the graphs.
+</p>
+  As <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow -\infty</m>.<br />
+As <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow \infty</m>.  
+<p>
+Below we have shown <m>y=-x^3</m>, <m>y=-x^5</m>, and <m>y=-x^7</m>, whose graphs are simply reflections of the previous three graphs over the <m>x-</m>axis.
+</p>
+  <table id="379b493590bb4ad5c2c1783f1652d84abde37072" ><tr><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-5}5
+\arrow \reverse \arrow \function{-1.700,1.700,0.1}{0-(x**3)}
+\tcaption{<m>y=-x^3</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-5}5
+\arrow \reverse \arrow \function{-1.3800,1.3800,0.1}{0-(x**5)}
+\tcaption{<m>y=-x^5</m>}
+\end{mfpic}
+
+\hspace{1in} </td><td class='c'>
+
+\begin{mfpic}[10][5]{-2}2{-5}5
+\arrow \reverse \arrow \function{-1.2585,1.2585,0.1}{0-(x**7)}
+\tcaption{<m>y=-x^7</m>}
+\end{mfpic}</td></tr>
+</table>  
+<p>
+The end behavior is given below.
+</p>
+  As <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow \infty</m>.<br />
+As <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow -\infty</m>.  
+<p>
+As with power functions <m>f(x)=ax^n</m> having a positive even degree <m>n</m>, we can also generalize the end behavior when <m>n</m> is odd.
+</p>
+  
+<p>
+<b>End Behavior of <m>f(x) = ax^{n}</m>, where <m>n>0</m> is odd.</b>
+</p>
+  
+<p>
+Suppose <m>f(x) = a x^{n}</m> where <m>a \neq 0</m> is a real number and <m>n \geq 1</m> is an odd integer. The end behavior of the graph of <m>y=f(x)</m> matches one of the following. <index><main>end behavior </main><sub> of <m>f(x) = ax^{n}, n</m> odd</sub></index>
+</p>
+  <ul><li>For <m>a > 0</m>, as <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow -\infty</m> and as <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow \infty</m></li>
+<li>For <m>a \lt  0</m>, as <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow \infty</m> and as <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow -\infty</m></li>
+ </ul>   
+<p>
+Graphically:
+</p>
+  <table id="b060056373b299d26671c398a9bca26676587a17" >{m{1.5in}m{1.5in}m{1.5in}}
+
+&
+
+\begin{mfpic}[5]{-5}5{-1}5
+\arrow \reverse \function{-5,-3, 0.1}{0 - (x**2)/5}
+\dotted \function{-3,0, 0.1}{-(x**2)/5}
+\dotted \function{0,3, 0.1}{(x**2)/5}
+\arrow \function{3,5, 0.1}{(x**2)/5}
+\tcaption{<m>a>0</m>}
+\end{mfpic}
+
+&
+
+\begin{mfpic}[5]{-5}5{-1}5
+\arrow \reverse \function{-5,-3, 0.1}{(x**2)/5}
+\dotted \function{-3,0, 0.1}{(x**2)/5}
+\dotted \function{0,3, 0.1}{-(x**2)/5}
+\arrow \function{3,5, 0.1}{0 - (x**2)/5}
+\tcaption{<m>a\lt 0</m>}
+\end{mfpic}</table>    
+<p>
+As an immediate consequence of what we have just established, we can identify the end behavior of any polynomial function
+</p>
+  
+<me>
+f(x) = a_{n} x^{n} + a_{n-\mbox{\tiny<m>1</m>} } x^{n-\mbox{\tiny<m>1</m>} } + \ldots + a_{\mbox{\tiny <m>2</m>} } x^{\mbox{\tiny <m>2</m>} } + a_{\mbox{\tiny <m>1</m>} } x + a_{\mbox{\tiny <m>0</m>} },
+</me>
+ 
+<p>
+where <m>a_{n} \neq 0</m>, with the end behavior of the related power function<br /> <m>g(x) = a_{n} x^{n}</m>. The following example demonstrates this connection.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Determine the end behavior of <m>f(x) = 4x^3 - x + 5</m>.\pp
+To determine the end behavior of <m>f</m>, it will help us to write it in the following form.
+</p>
+  
+<me>
+f(x) = 4x^3 \left( 1 - \dfrac{1}{4x^2} + \dfrac{5}{4x^3}\right)
+</me>
+ 
+<p>
+Since we are only concerned with large positive and negative values of <m>x</m> (<m>x \rightarrow \pm \infty</m>), by using this form for <m>f</m>, we can see that as <m>x</m> becomes unbounded (in either direction), the terms <m>\dfrac{1}{4x^2}</m><nbsp />and <m>\dfrac{5}{4x^3}</m><nbsp /> become smaller and smaller (approach <m>0</m>). The table below confirms this.
+</p>
+  
+<me>
+ \begin{array}{|r||r|r|}  
+
+\hline 
+
+ x \amp  \frac{1}{4x^2} \amp  \frac{5}{4x^3} \vphantom{\dfrac{a}{a}} \\ \hline
+-1000  \amp  0.00000025 \amp  -0.00000000125 \\  \hline
+-100  \amp  0.000025 \amp  -0.00000125 \\  \hline
+-10 \amp  0.0025 \amp  -0.00125 \\  \hline\hline
+10  \amp  0.0025 \amp  0.00125 \\  \hline
+100 \amp  0.000025 \amp  0.00000125 \\  \hline
+1000 \amp  0.00000025 \amp  0.00000000125 \\  \hline
+\end{array}  
+</me>
+  
+<p>
+In other words, as <m>x \rightarrow \pm \infty</m>, <m>f(x) \approx 4x^3\left( 1 - 0 +0\right) = 4x^3</m>, which is the leading term of <m>f</m>.\pp
+</p>
+  
+<p>
+Our final answer is summarized below.
+</p>
+  As <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow -\infty</m>.<br />
+As <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow \infty</m>. </statement>
+</example>
+  
+<p>
+Below is another example to further cement the effect of the leading coefficient and degree of a polynomial on the end behavior of the graph of a polynomial.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Determine the end behavior of<br /> <m>g(x) = -5x^4 +2x^3 -2x^2+4x-1</m>.\pp
+As in the previous example, we can rewrite <m>g(x)</m> as follows.
+</p>
+  
+<me>
+g(x) = -5x^4 \left( 1 - \dfrac{2}{5x} + \dfrac{2}{5x^2} - \dfrac{4}{5x^3} +\dfrac{1}{5x^4} \right)
+</me>
+  
+<p>
+Again, as <m>x</m> becomes unbounded (in either direction), the terms <m>- \dfrac{2}{5x}</m>,<nbsp /><m>\dfrac{2}{5x^2}</m>,<br /> <m>- \dfrac{4}{5x^3}</m><nbsp />and <m>\dfrac{1}{5x^4}</m> will tend closer and closer to <m>0</m>, so we need only focus on the leading term. Thus considering the power function <m>g(x)=-5x^4</m>. Since <m>g</m> has an even degree and a negative leading coefficient, the end behavior for the graph of <m>f</m> is as follows:
+</p>
+  As <m>x \rightarrow -\infty</m>, <m>f(x) \rightarrow -\infty</m>.<br />
+As <m>x \rightarrow \infty</m>, <m>f(x) \rightarrow -\infty</m>. </statement>
+</example>
+  
+<p>
+In general, as in each of the previous examples, when determining the end behavior of the graph of a polynomial, if we factor out the leading term, the polynomial will always become:
+</p>
+  
+<me>
+f(x) = a_{n} x^{n} \left( 1 + \dfrac{a_{n-\mbox{\tiny<m>1</m>} }}{a_{n} x}+ \ldots + \dfrac{a_{\mbox{\tiny<m>2</m>} }}{a_{n} x^{n-2}} + \dfrac{a_{\mbox{\tiny<m>1</m>} }}{a_{n} x^{n-1}}+\dfrac{a_{\mbox{\tiny<m>0</m>} }}{a_{n} x^{n}}\right).
+</me>
+ 
+<p>
+So, as <m>x \rightarrow \pm \infty</m>, any term with an <m>x</m> in the denominator will become smaller and smaller (approaches <m>0</m>), and we have <m>f(x) \approx a_{n} x^{n}</m>.\pp
+Geometrically, if we graph <m>y=f(x)</m> using a graphing calculator, and continue to `zoom out', the graph of it and its leading term will become indistinguishable. Next, we will address the <i>local behavior</i> of a polynomial function, which unlike its end behavior, will distinguish a polynomial <m>f</m> from its leading term.
+</p>
+ </subsection> 
+<subsection>
+<title>Zeros and Local Behavior</title>
+<p>
+{\tmstrong{Objective: Determine how local behavior at each zero is determined by the multiplicity of its corresponding factor.}}\pp
+</p>
+  
+<p>
+Consider <m>f(x) = x^3 (x-3)^2 (x+2)\left(x^2+1\right)</m>, whose sign diagram and graph are reproduced below for reference. Its end behavior is the same as that of its leading term <m>x^{8}</m> based on our end behavior discussion in the first part of this section.
+This tells us that the graph of <m>y=f(x)</m> starts and ends above the <m>x</m>-axis. In other words, <m>f(x)</m> is <m>(+)</m> as <m>x \rightarrow \pm \infty</m>, and as a result, we no longer need to evaluate <m>f</m> at the test values <m>x=-3</m> and <m>x=4</m>. Is there a way to eliminate the need to evaluate <m>f</m> at the other test values? What we would really need to know is how the function behaves near its zeros: does it cross through the <m>x</m>-axis at these points, as it does at <m>x=-2</m> and <m>x=0</m>, or does it simply touch and rebound like it does at <m>x=3</m>? From the sign diagram, the graph of <m>f</m> will cross the <m>x</m>-axis whenever the signs on either side of the zero switch (like they do at <m>x=-2</m> and <m>x=0</m>); it will touch when the signs are the same on either side of the zero (as is the case with <m>x=3</m>). What we need to determine is the reason behind whether or not the sign change occurs.<br /> <br />
+</p>
+  \begin{mfpic}[10]{-8}8{-2}2
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,0,3}
+\arrow \polyline{(-5,-1.5),(-5,-0.5)}
+\arrow \polyline{(-1.5,-1.5),(-1.5,-0.5)}
+\arrow \polyline{(1.5,-1.5),(1.5,-0.5)}
+\arrow \polyline{(5,-1.5),(5,-0.5)}
+\tlpointsep{4pt}
+\axislabels x{{<m>-2</m>} -3, {<m>0</m>} 0, {<m>3</m>} 3 }
+\tlabel[cc](-5,1){<m>(+)</m>}
+\tlabel[cc](-5,-2.25){<m>-3</m>}
+\tlabel[cc](-3,1){<m>0</m>}
+\tlabel[cc](-1.5,1){<m>(-)</m>}
+\tlabel[cc](-1.75,-2.25){<m>-1</m>}
+\tlabel[cc](0,1){<m>0</m>}
+\tlabel[cc](1.5,1){<m>(+)</m>}
+\tlabel[cc](1.5,-2.25){<m>1</m>}
+\tlabel[cc](3,1){<m>0</m>}
+\tlabel[cc](5,1){<m>(+)</m>}
+\tlabel[cc](5,-2.25){<m>4</m>}
+\end{mfpic} 
+
+\begin{mfpic}[15]{-5}5{-2}3
+\arrow \reverse \arrow \function{-2.2,3.5, 0.1}{0.05*((x)**3)*(x+2)*((x-3)**2)} 
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,3){ <m>y</m>}
+\point[3pt]{(-2,0), (0,0), (3,0)}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\tcaption{  A sketch of <m>y=f(x)</m>}
+\end{mfpic}  
+<p>
+Fortunately, <m>f</m> was given to us in factored form: <m>f(x) = x^3 (x-3)^2 (x+2)</m>. When we attempt to determine the sign of <m>f(-4)</m>, we are attempting to find the sign of the number <m>(-4)^3 (-7)^2 (-2)</m>, which works out to be <m>(-)(+)(-)</m> which is <m>(+)</m>. If we move to the other side of <m>x=-2</m>, and find the sign of <m>f(-1)</m>, we are determining the sign of <m>(-1)^3 (-4)^2 (+1)</m>, which is <m>(-)(+)(+)</m> which gives us the <m>(-)</m>. Notice that signs of the first two factors in both expressions are the same in <m>f(-4)</m> and <m>f(-1)</m>. The only factor which switches sign is the third factor, <m>(x+2)</m>, precisely the factor which gave us the zero <m>x=-2</m>. If we move to the other side of <m>0</m> and look closely at <m>f(1)</m>, we get the sign pattern <m>(+1)^3(-2)^2(+3)</m> or <m>(+)(+)(+)</m> and we note that, once again, going from <m>f(-1)</m> to <m>f(1)</m>, the only factor which changed sign was the first factor, <m>x^3</m>, which corresponds to the zero <m>x=0</m>. Finally, to find <m>f(4)</m>, we substitute to get <m>(+4)^3(+2)^2(+5)</m> which is <m>(+)(+)(+)</m> or <m>(+)</m>. The sign didn't change for the middle factor <m>(x-3)^2</m>. Even though this is the factor which corresponds to the zero <m>x=3</m>, the fact that the quantity is <i>squared</i> kept the sign of the middle factor the same on either side of <m>3</m>. If we look back at the exponents on the factors <m>(x+2)</m> and <m>x^3</m>, we see that they both were both odd, so as we substitute values to the left and right of the corresponding zeros, the signs of the corresponding factors changed which resulted in the sign of the function value changing. This is the key to the behavior of the function near the zeros with odd degree. Alternatively, notice how the sign didn't change for the factor with an even exponent.
+</p>
+  
+<definition xml:id="multiplicity"><statement>
+<p>
+Suppose <m>f</m> is a polynomial function and <m>m</m> is a natural number. If <m>(x-c)^{m}</m> is a factor of <m>f(x)</m> but <m>(x-c)^{m+1}</m> is not, then we say <m>x=c</m> is a zero of <index><main>polynomial function </main><sub> zero ! multiplicity</sub></index><index><main>multiplicity </main><sub> of a zero</sub></index><index><main>zero </main><sub> multiplicity of</sub></index><term>multiplicity</term> <m>m</m>.
+</p>
+ </statement>
+</definition>
+  
+<p>
+Hence, rewriting <m>f(x) = x^3 (x-3)^2 (x+2)</m> as <m>f(x) = (x-0)^3 (x-3)^2 (x-(-2))^{1}</m>, we see that <m>x=0</m> is a zero of multiplicity <m>3</m>, <m>x=3</m> is a zero of multiplicity <m>2</m> and <m>x=-2</m> is a zero of multiplicity <m>1</m>.
+</p>
+  
+<theorem xml:id="roleofmultiplicity"><statement>
+<p>
+<b>The Role of Multiplicity:</b> Suppose <m>f</m> is a polynomial function and <m>x=c</m> is a zero of multiplicity <m>m</m>. <index><main>multiplicity </main><sub> effect on the graph of a polynomial</sub></index>
+</p>
+  <ul><li>If <m>m</m> is even, the graph of <m>y=f(x)</m> touches and rebounds from the <m>x</m>-axis at <m>(c,0)</m>, leaving the y-values to maintain the same sign on either side of the given zero.</li>
+<li>If <m>m</m> is odd, the graph of <m>y=f(x)</m> crosses through the <m>x</m>-axis at <m>(c,0)</m>, leaving the y-values to change signs on either side of the zero.</li>
+ </ul>  </statement>
+</theorem>
+  
+<p>
+Our last example shows how end behavior and multiplicity allow us to sketch a decent graph without needing to create a sign diagram.
+</p>
+   
+<p>
+Sketch the graph of <m>f(x) = -3(2x-1)(x+1)^2</m> using end behavior and the multiplicity of its zeros.
+</p>
+  
+<p>
+<b>Solution.</b> The end behavior of the graph of <m>f</m> will match that of its leading term. To find the leading term, we multiply by the leading terms of each factor to get <m>(-3)(2x)(x)^2 = -6x^3</m>. This tells us that the graph will start above the <m>x</m>-axis, in Quadrant II, and finish below the <m>x</m>-axis, in Quadrant IV. Next, we find the zeros of <m>f</m>. Fortunately for us, <m>f</m> is factored.
+Setting each factor equal to zero gives is <m>x = \frac{1}{2}</m> and <m>x=-1</m> as zeros. To find the multiplicity of <m>x=\frac{1}{2}</m> we note that it corresponds to the factor <m>(2x-1)</m> and that exponent, and thus the multiplicity of this factor is 1.
+Since <m>1</m> is an odd number, we know that the graph of <m>f</m> will cross through the <m>x</m>-axis at <m>\left(\frac{1}{2},0\right)</m>. Since the zero <m>x=-1</m> corresponds to the factor <m>(x+1)^2 = (x-(-1))^2</m>, we find its multiplicity to be <m>2</m> which is an even number. As such, the graph of <m>f</m> will touch and rebound from the <m>x</m>-axis at <m>(-1,0)</m>. Though we're not asked to, we can find the <m>y</m>-intercept by finding <m>f(0) = -3(2(0)-1)(0+1)^2 = 3</m>. Thus, <m>(0,3)</m> is an additional point on the graph. Putting this together gives us the graph below.
+</p>
+  \begin{mfpic}[20][10]{-3}3{-5}5
+\arrow \reverse \arrow \function{-1.75,0.75,0.1}{0-1.5*(2*x-1)*((x+1)**2)}
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\point[3pt]{(0.5,0), (-1,0), (0,1.5) }
+\xmarks{-2,-1,0,1,2}
+\ymarks{0.5, 1.0, 1.5, 2}
+\end{mfpic}     
+<p>
+Sketch the graph of <m>f(x) = x^2(x-2)^2</m> using end behavior and the multiplicity of its zeros.
+</p>
+  
+<p>
+<b>Solution.</b> The end behavior of the graph of <m>f</m> will match that of its leading term. To find the leading term, we multiply by the leading terms of each factor to get <m>(x^2)(x^2) = x^4</m>. This tells us that the graph will start above the <m>x</m>-axis, in Quadrant II, and finish above the <m>x</m>-axis, in Quadrant I. Conversationally, we might say that the graph &Suml;tarts up\" (from the left) and &euml;nds up\" (to the right). Next, we find the zeros of <m>f</m> since it is in factored form. Setting each factor equal to zero gives us zeros of <m>x=0</m> with multiplicity two, and <m>x= 2</m> with multiplicity 2 as well. Since <m>2</m> is an even number, we know that the graph of <m>f</m> will touch the x-axis and rebound without changing sign at both <m>x=0</m> and <m>x=2</m>.
+In addition, plugging in zero for x will yield a <m>y</m>-intercept of zero so <m>(0,0)</m> is an additional point on the graph. Putting this together gives us the following graph:<br />
+</p>
+  \begin{mfpic}[30][20]{-1}2{-5}2
+\arrow \reverse \arrow \function{-.8,2.8,0.1}{0-1.0*((x-2)**2)*((x)**2)}
+\axes
+\tlabel[cc](2,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,3){ <m>y</m>}
+
+\point[3pt]{(2,0), (0,0) }
+\xmarks{1,2}
+\ymarks{-5,-4,-3,-2,-1,1}
+\end{mfpic} </subsection> </section>

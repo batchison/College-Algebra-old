@@ -1,0 +1,1305 @@
+
+<section>
+<title>Transformations</title><introduction>
+<p>
+<b>Note:</b> This section has been taken in its entirety from Carl Stitz and Jeff Zeager's <i>College Algebra</i> text. As of this version of the text, it remains largely unedited. In many of the examples that follow, graphs have been intentionally left blank for the student to complete directly in the text, so as to further reinforce each concept.
+</p>
+ </introduction> 
+<subsection xml:id="Transformations">
+<title>Shifts</title>
+<p>
+{\tmstrong{Objective: Graph functions by translating up, down, left or right}}\pp In this section, we study how the graphs of functions change, or <b>transform</b>, when certain specialized modifications are made to their formulas. The transformations we will study fall into three broad categories: shifts, reflections and scalings, and we will present them in that order. Suppose the graph below is the complete graph of a function <m>f</m>.<index><main>transformations of function graphs</main></index><index><main>function </main><sub> transformation of graphs</sub></index>
+</p>
+  \begin{mfpic}[15]{-1}6{-1}6
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){ <m>(0,1)</m>}
+\tlabel[cc](2,3.5){ <m>(2,3)</m>}
+\tlabel[cc](4,2.5){ <m>(4,3)</m>}
+\tlabel[cc](5,5.5){ <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,6){ <m>y</m>}
+\tcaption{ <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels x{{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4, { <m>5</m>} 5}
+\axislabels y{{ <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4, { <m>5</m>} 5}
+\end{mfpic}  
+<p>
+The Fundamental Graphing Principle for Functions says that for a point <m>(a,b)</m> to be on the graph, <m>f(a) = b</m>. In particular, we know <m>f(0) = 1</m>, <m>f(2)=3</m>, <m>f(4)=3</m> and <m>f(5)=5</m>. Suppose we wanted to graph the function defined by the formula <m>g(x) = f(x) + 2</m>. Let's take a minute to remind ourselves of what <m>g</m> is doing. We start with an input <m>x</m> to the function <m>f</m> and we obtain the output <m>f(x)</m>. The function <m>g</m> takes the output <m>f(x)</m> and adds <m>2</m> to it. In order to graph <m>g</m>, we need to graph the points <m>(x,g(x))</m>. How are we to find the values for <m>g(x)</m> without a formula for <m>f(x)</m>? The answer is that we don't need a <i>formula</i> for <m>f(x)</m>, we just need the <i>values</i> of <m>f(x)</m>. The values of <m>f(x)</m> are the <m>y</m> values on the graph of <m>y=f(x)</m>. For example, using the points indicated on the graph of <m>f</m>, we can make the following table.
+</p>
+  
+<me>
+ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+ x \amp  (x,f(x)) \amp  f(x) \amp  g(x)=f(x)+2 \amp  (x, g(x)) \\ \hline
+0  \amp  (0,1)\amp  1 \amp  3 \amp (0, 3) \\  \hline
+2 \amp  (2,3) \amp  3 \amp   5 \amp (2,5) \\  \hline
+4 \amp  (4,3) \amp  3 \amp   5 \amp (4, 5) \\  \hline
+5 \amp  (5,5) \amp  5 \amp   7 \amp ( 5 ,7) \\  \hline
+\end{array}  
+</me>
+  
+<p>
+In general, if <m>(a,b)</m> is on the graph of <m>y=f(x)</m>, then <m>f(a) = b</m>, so <m>g(a) = f(a) +2 = b+2</m>. Hence, <m>(a,b+2)</m> is on the graph of <m>g</m>. In other words, to obtain the graph of <m>g</m>, we add <m>2</m> to the <m>y</m>-coordinate of each point on the graph of <m>f</m>. Geometrically, adding <m>2</m> to the <m>y</m>-coordinate of a point moves the point <m>2</m> units above its previous location. Adding <m>2</m> to every <m>y</m>-coordinate on a graph <i>en masse</i> is usually described as `shifting the graph up <m>2</m> units'. Notice that the graph retains the same basic shape as before, it is just <m>2</m> units above its original location. In other words, we connect the four points we moved in the same manner in which they were connected before. We have the results side-by-side below.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{8}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,8){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2,  {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6, {\tiny <m>7</m>} 7}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize shift up <m>2</m> units} }{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize add <m>2</m> to each <m>y</m>-coordinate} } 
+
+\amp  
+
+\begin{mfpic}[15]{-1}{6}{-1}{8}
+\tcaption{\scriptsize <m>y=g(x) = f(x)+2</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1,{\tiny <m>2</m>} 2,  {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6, {\tiny <m>7</m>} 7}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+You'll note that the domain of <m>f</m> and the domain of <m>g</m> are the same, namely <m>[0,5]</m>, but that the range of <m>f</m> is <m>[1,5]</m> while the range of <m>g</m> is <m>[3,7]</m>. In general, shifting a function vertically like this will leave the domain unchanged, but could very well affect the range. You can easily imagine what would happen if we wanted to graph the function <m>j(x) = f(x) - 2</m>. Instead of adding <m>2</m> to each of the <m>y</m>-coordinates on the graph of <m>f</m>, we'd be subtracting <m>2</m>. Geometrically, we would be moving the graph down <m>2</m> units. We leave it to the reader to verify that the domain of <m>j</m> is the same as <m>f</m>, but the range of <m>j</m> is <m>[-1,3]</m>. What we have discussed is generalized in the following theorem.
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<theorem xml:id="vshifts"><statement>
+<p>
+<b>Vertical Shifts</b><index><main>graph </main><sub> vertical shift</sub></index> Suppose <m>f</m> is a function and <m>k</m> is a positive number.
+</p>
+  <ul><li>To graph <m>y=f(x)+k</m>, shift the graph of <m>y=f(x)</m> up <m>k</m> units by adding <m>k</m> to the <m>y</m>-coordinates of the points on the graph of <m>f</m>.</li>
+<li>To graph <m>y=f(x)-k</m>, shift the graph of <m>y=f(x)</m> down <m>k</m> units by subtracting <m>k</m> from the <m>y</m>-coordinates of the points on the graph of <m>f</m>.</li>
+ </ul>  </statement>
+</theorem>
+  
+<p>
+\end{boxedminipage}
+</p>
+  
+<p>
+The key to understanding <xref ref="vshifts">Theorem</xref> and, indeed, all of the theorems in this section comes from an understanding of the Fundamental Graphing Principle for Functions. If <m>(a,b)</m> is on the graph of <m>f</m>, then <m>f(a) = b</m>. Substituting <m>x=a</m> into the equation <m>y=f(x)+k</m> gives <m>y=f(a)+k = b+k</m>. Hence, <m>(a,b+k)</m> is on the graph of <m>y=f(x)+k</m>, and we have the result. In the language of `inputs' and `outputs', <xref ref="vshifts">Theorem</xref> can be paraphrased as "Adding to, or subtracting from, the <i>output</i> of a function causes the graph to shift up or down, respectively." So what happens if we add to or subtract from the <i>input</i> of the function?
+</p>
+  
+<p>
+Keeping with the graph of <m>y=f(x)</m> above, suppose we wanted to graph <m>g(x) = f(x+2)</m>. In other words, we are looking to see what happens when we add <m>2</m> to the input of the function. It is worth noting that <m>f(x+2)</m> and <m>f(x)+2</m> are, in general, wildly different algebraic animals. We will see momentarily that their geometry is also dramatically different. Let's try to generate a table of values of <m>g</m> based on those we know for <m>f</m>. We quickly find that we run into some difficulties.
+</p>
+  
+<me>
+ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+x \amp  (x,f(x)) \amp  f(x)\amp  g(x)=f(x+2) \amp  (x, g(x)) \\ \hline
+0  \amp  (0,1)\amp  1 \amp  f(0+2) = f(2) = 3   \amp (0, 3) \\  \hline
+2 \amp  (2,3) \amp  3 \amp  f(2+2) = f(4) = 3  \amp (2,3) \\  \hline
+4 \amp  (4,3) \amp  3 \amp   f(4+2) = f(6) = ? \amp   \\  \hline
+5 \amp  (5,5) \amp  5 \amp  f(5+2) = f(7) = ?  \amp   \\  \hline
+\end{array}  
+</me>
+  
+<p>
+When we substitute <m>x=4</m> into the formula <m>g(x)=f(x+2)</m>, we are asked to find <m>f(4+2)=f(6)</m> which doesn't exist because the domain of <m>f</m> is only <m>[0,5]</m>. The same thing happens when we attempt to find <m>g(5)</m>. What we need here is a new strategy. We know, for instance, <m>f(0) = 1</m>. To determine the corresponding point on the graph of <m>g</m>, we need to figure out what value of <m>x</m> we must substitute into <m>g(x) = f(x+2)</m> so that the quantity <m>x+2</m>, works out to be <m>0</m>. Solving <m>x+2=0</m> gives <m>x=-2</m>, and <m>g(-2) = f((-2)+2) = f(0) = 1</m> so <m>(-2,1)</m> is on the graph of <m>g</m>. To use the fact <m>f(2) = 3</m>, we set <m>x+2 = 2</m> to get <m>x=0</m>. Substituting gives <m>g(0) = f(0+2) = f(2) = 3</m>. Continuing in this fashion, we get
+</p>
+  
+<me>
+ \begin{array}{|r||c|c|c|}  
+
+\hline
+
+x \amp  x+2 \amp  g(x)=f(x+2) \amp  (x, g(x)) \\ \hline
+-2 \amp  0 \amp  g(-2)=f(0) = 1   \amp (-2, 1) \\  \hline
+0 \amp   2 \amp   g(0)=f(2) = 3  \amp (0,3) \\  \hline
+2 \amp  4  \amp  g(2)=f(4) = 3 \amp   (2,3)\\  \hline
+3 \amp  5 \amp  g(3)=f(5) = 5  \amp  (3,5) \\  \hline
+\end{array}  
+</me>
+  
+<p>
+In summary, the points <m>(0,1)</m>, <m>(2,3)</m>, <m>(4,3)</m> and <m>(5,5)</m> on the graph of <m>y=f(x)</m> give rise to the points <m>(-2,1)</m>, <m>(0,3)</m>, <m>(2,3)</m> and <m>(3,5)</m> on the graph of <m>y=g(x)</m>, respectively. In general, if <m>(a,b)</m> is on the graph of <m>y=f(x)</m>, then <m>f(a) = b</m>. Solving <m>x+2 = a</m> gives <m>x = a-2</m> so that <m>g(a-2) = f((a-2)+2) = f(a) = b</m>. As such, <m>(a-2,b)</m> is on the graph of <m>y=g(x)</m>. The point <m>(a-2,b)</m> is exactly <m>2</m> units to the <em>left</em> of the point <m>(a,b)</m> so the graph of <m>y=g(x)</m> is obtained by shifting the graph <m>y=f(x)</m> to the left <m>2</m> units, as pictured below.
+</p>
+  
+<me>
+\begin{array}{ccc}
+
+\begin{mfpic}[12]{-3}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,6){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{-2,-1, 1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-2 \ </m>} -2, {\tiny <m>-1\ </m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic} 
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left <m>2</m> units} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize subtract <m>2</m> from each} }{\mbox{\scriptsize<m>x</m>-coordinate} }} 
+
+\amp  
+
+\begin{mfpic}[12]{-3}{6}{-1}{6}
+\tcaption{\scriptsize <m>y=g(x)=f(x+2)</m>}
+\axes
+\xmarks{-2,-1, 1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-2 \ </m>} -2, {\tiny <m>-1\ </m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+Note that while the ranges of <m>f</m> and <m>g</m> are the same, the domain of <m>g</m> is <m>[-2,3]</m> whereas the domain of <m>f</m> is <m>[0,5]</m>. In general, when we shift the graph horizontally, the range will remain the same, but the domain could change. If we set out to graph <m>j(x) = f(x-2)</m>, we would find ourselves <i>adding</i> <m>2</m> to all of the <m>x</m> values of the points on the graph of <m>y=f(x)</m> to effect a shift to the <em>right</em> <m>2</m> units. Generalizing these notions produces the following result.
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<theorem xml:id="hshifts"><statement>
+<p>
+<b>Horizontal Shifts</b><index><main>graph </main><sub> horizontal shift</sub></index> Suppose <m>f</m> is a function and <m>h</m> is a positive number.
+</p>
+  <ul><li>To graph <m>y=f(x+h)</m>, shift the graph of <m>y=f(x)</m> left <m>h</m> units by subtracting <m>h</m> from the <m>x</m>-coordinates of the points on the graph of <m>f</m>.</li>
+<li>To graph <m>y=f(x-h)</m>, shift the graph of <m>y=f(x)</m> right <m>h</m> units by adding <m>h</m> to the <m>x</m>-coordinates of the points on the graph of <m>f</m>.</li>
+ </ul>  </statement>
+</theorem>
+  
+<p>
+\end{boxedminipage}
+</p>
+  
+<p>
+In other words, <xref ref="hshifts">Theorem</xref> says that adding to or subtracting from the <i>input</i> to a function amounts to shifting the graph left or right, respectively. <xref ref="vshifts">Theorems</xref> and <xref ref="hshifts"></xref> present a theme which will run common throughout the section: changes to the outputs from a function affect the <m>y</m>-coordinates of the graph, resulting in some kind of vertical change; changes to the inputs to a function affect the <m>x</m>-coordinates of the graph, resulting in some kind of horizontal change.
+</p>
+ </subsection> 
+<subsection>
+<title>Reflections</title>
+<p>
+{\tmstrong{Objective: Graph functions by reflecting vertically or horizontally}}\pp
+</p>
+  
+<p>
+We now turn our attention to reflections.
+As we know from graphing quadratics,
+multiplying the output from a function by <m>-1</m> reflects its graph across the <m>x</m>-axis. Alternatively, it can be verified that multiplying the input to a function by <m>-1</m> reflects the graph across the <m>y</m>-axis.
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<theorem xml:id="reflections"><statement>
+<p>
+<index><main>graph </main><sub> reflection about an axis</sub></index><index><main>reflection </main><sub> of a function graph</sub></index><b>Reflections</b> Suppose <m>f</m> is a function.
+</p>
+  <ul><li>To graph <m>y=-f(x)</m>, reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis by multiplying the <m>y</m>-coordinates of the points on the graph of <m>f</m> by <m>-1</m>.</li>
+<li>To graph <m>y=f(-x)</m>, reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis by multiplying the <m>x</m>-coordinates of the points on the graph of <m>f</m> by <m>-1</m>.</li>
+ </ul>  </statement>
+</theorem>
+  
+<p>
+\end{boxedminipage}
+</p>
+  
+<p>
+Applying <xref ref="reflections">Theorem</xref> to the graph of <m>y=f(x)</m> given at the beginning of the section, we can graph <m>y=-f(x)</m> by reflecting the graph of <m>f</m> about the <m>x</m>-axis
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-1}{6}{-6}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,6){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>-1</m>} -1,{\tiny <m>-2</m>} -2, {\tiny <m>-3</m>} -3, {\tiny <m>-4</m>} -4, {\tiny <m>-5</m>} -5, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across <m>x</m>-axis} }{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize multiply each <m>y</m>-coordinate by <m>-1</m>} } 
+
+
+\amp 
+
+\begin{mfpic}[12]{-1}{6}{-6}{6}
+\tcaption{\scriptsize <m>y=-f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>-2</m>} -2, {\tiny <m>-3</m>} -3, {\tiny <m>-4</m>} -4, {\tiny <m>-5</m>} -5,{\tiny <m>1</m>} 1,{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+By reflecting the graph of <m>f</m> across the <m>y</m>-axis, we obtain the graph of <m>y=f(-x)</m>.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[10]{-6}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,6){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2\ </m>} -2, {\tiny <m>-3\ </m>} -3, {\tiny <m>-4\ </m>} -4, {\tiny <m>-5\ </m>} -5, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across <m>y</m>-axis} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>-1</m>} }} 
+
+\amp 
+
+\begin{mfpic}[10]{-6}{6}{-1}{6}
+\tcaption{\scriptsize <m>y=f(-x)</m>}
+\axes
+\xmarks{-1,-2,-3,-4,-5,1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2\ </m>} -2, {\tiny <m>-3\ </m>} -3, {\tiny <m>-4\ </m>} -4, {\tiny <m>-5\ </m>} -5, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+With the addition of reflections, it is now more important than ever to consider the order of transformations, as the next example illustrates.
+</p>
+  
+<example><statement>
+<p>
+Let <m>f(x) = \sqrt{x}</m>. Use the graph of <m>f</m> to graph the following functions. Also, state their domains and ranges.<br />
+</p>
+  <ol><li><m>g(x) = \sqrt{-x}</m></li>
+<li><m>j(x) = \sqrt{3-x}</m></li>
+<li><m>m(x) = 3 - \sqrt{x}</m></li>
+ </ol>   
+<p>
+<nbsp /><br />
+<b>Solution.</b>
+</p>
+  <ol><li>Looking at a <m>\sqrt{-x}</m> may seem unacceptable, especially after we disallowed negatives from the radicands of even roots having to make those solutions be non-real.
+
+  However, we must remember that <m>x</m> is a variable, and as such, the quantity <m>-x</m> isn't always negative. For example, if <m>x=-4</m>, <m>-x = 4</m>, thus <m>\sqrt{-x} = \sqrt{-(-4)} = 2</m> is perfectly well-defined.  To find the domain analytically, we set <m>-x \geq 0</m> which gives  <m>x \leq 0</m>, so that the domain of <m>g</m> is <m>(-\infty, 0]</m>.  Since <m>g(x) = f(-x)</m>, <xref ref="reflections">Theorem</xref> tells us that the graph of <m>g</m> is the reflection of the graph of <m>f</m> across the <m>y</m>-axis.  We accomplish this by multiplying each <m>x</m>-coordinate on the graph of <m>f</m> by <m>-1</m>, so that the points <m>(0,0)</m>, <m>(1,1)</m>, and <m>(4,2)</m> move to <m>(0,0)</m>, <m>(-1,1)</m>, and <m>(-4,2)</m>, respectively.  Graphically, we see that the domain of <m>g</m> is <m>(-\infty, 0]</m> and the range of <m>g</m> is the same as the range of <m>f</m>, namely <m>[0,\infty)</m>.
+
+
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\tiny <m>(0,0)</m>}
+\tlabel[cc](1,1.5){\tiny <m>(1,1)</m>}
+\tlabel[cc](4,2.5){\tiny  <m>(4,2)</m>}
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)=\sqrt{x}</m>}
+\axes
+\xmarks{-1,-2,-3,-4,1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1\ </m>} -1, {\tiny <m>-2\ </m>} -2, {\tiny <m>-3\ </m>} -3, {\tiny <m>-4\ </m>} -4,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across <m>y</m>-axis} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>-1</m>} }} 
+
+\amp 
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\tcaption{\scriptsize <m>y=g(x) = f(-x)=\sqrt{-x}</m>}
+\axes
+\xmarks{-1,-2,-3,-4,1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1\ </m>} -1, {\tiny <m>-2\ </m>} -2, {\tiny <m>-3\ </m>} -3, {\tiny <m>-4\ </m>} -4,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic}
+\end{array} 
+</me>
+</li>
+<li>To determine the domain of  <m>j(x) = \sqrt{3-x}</m>, we solve <m>3-x \geq 0</m> and get <m>x \leq 3</m>, or <m>(-\infty, 3]</m>.  To determine which transformations we need to apply to the graph of <m>f</m> to obtain the graph of <m>j</m>, we rewrite <m>j(x) = \sqrt{-x+3} = f(-x+3)</m>. Comparing this formula with <m>f(x) = \sqrt{x}</m>, we see that not only are we multiplying the input <m>x</m> by <m>-1</m>, which results in a reflection across the <m>y</m>-axis, but also we are adding <m>3</m>, which indicates a horizontal shift to the left.  Does it matter in which order we do the transformations?  If so, which order is the correct order?  Let's consider the point <m>(4,2)</m> on the graph of <m>f</m>.  We refer to the discussion leading up to <xref ref="hshifts">Theorem</xref>.  We know <m>f(4) = 2</m> and wish to find the point on <m>y=j(x) = f(-x+3)</m> which corresponds to <m>(4,2)</m>.  We set <m>-x+3 = 4</m> and solve.  Our first step is to subtract <m>3</m> from both sides to get <m>-x=1</m>.  Subtracting <m>3</m> from the <m>x</m>-coordinate <m>4</m> is shifting the point <m>(4,2)</m> to the left.   From <m>-x=1</m>, we then multiply (or divide) both sides by <m>-1</m> to get <m>x=-1</m>.  Multiplying the <m>x</m>-coordinate by <m>-1</m> corresponds to reflecting the point about the <m>y</m>-axis.  Hence, we perform the horizontal shift first, then follow it with the reflection about the <m>y</m>-axis.  Starting with <m>f(x) = \sqrt{x}</m>, we let <m>j_{\mbox{\tiny<m>1</m>} }(x)</m> be the intermediate function which shifts the graph of <m>f</m> <m>3</m> units to the left, <m>j_{\mbox{\tiny<m>1</m>} }(x) = f(x+3)</m>. 
+
+
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\tiny <m>(0,0)</m>}
+\tlabel[cc](1,1.5){\tiny <m>(1,1)</m>}
+\tlabel[cc](4,2.5){\tiny <m>(4,2)</m>}
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)=\sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-4 \ </m>} -4,{\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left <m>3</m> units} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize subtract <m>3</m> from each} }{\mbox{\scriptsize <m>x</m>-coordinate} }} 
+
+\amp 
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\tcaption{\scriptsize <m>y=j_{\mbox{\tiny<m>1</m>} }(x)=f(x+3)=\sqrt{x+3}</m>}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-4 \ </m>} -4,{\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic} \\
+\end{array} 
+</me>
+ 
+
+To obtain the function <m>j</m>, we reflect the graph of <m>j_{\mbox{\tiny<m>1</m>} }</m> about <m>y</m>-axis.   <xref ref="reflections">Theorem</xref> tells us we have <m>j(x) = j_{\mbox{\tiny<m>1</m>} }(-x)</m>. Putting it all together, we have <m>j(x) = j_{\mbox{\tiny<m>1</m>} }(-x) = f(-x+3) = \sqrt{-x+3}</m>, which is what we want.<fn>If we had done the reflection first, then <m>j_{\mbox{\tiny<m>1</m>} }(x) = f(-x)</m>.  Following this by a shift left would give us <m>j(x) = j_{\mbox{\tiny<m>1</m>} }(x+3) = f(-(x+3)) = f(-x-3) = \sqrt{-x-3}</m> which isn't what we want.  However, if we did the reflection first and followed it by a shift to the right <m>3</m> units, we would have arrived at the function <m>j(x)</m>.  We leave it to the reader to verify the details.</fn> From the graph, we confirm the domain of <m>j</m> is <m>(-\infty, 3]</m> and we get that the range is <m>[0, \infty)</m>.
+
+
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\arrow \function{-3,2,0.1}{sqrt(x+3)}
+\point[3pt]{(-3,0), (-2,1), (1,2)}
+\tlabel[cc](-4,0.25){\tiny <m>(-3,0)</m>}
+\tlabel[cc](-2,1.5){\tiny <m>(-2,1)</m>}
+\tlabel[cc](1,2.5){\tiny <m>(1,2)</m>}
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=j_{\mbox{\tiny<m>1</m>} }(x)=\sqrt{x+3}</m>}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-4 \ </m>} -4,{\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic} 
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across <m>y</m>-axis} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>-1</m>} }} 
+
+\amp 
+
+\begin{mfpic}[11]{-5}{5}{-1}{3}
+\tcaption{\scriptsize <m>y=j(x)=j_{\mbox{\tiny<m>1</m>} }(-x) =\sqrt{-x+3}</m>}
+\axes
+\xmarks{1,2,3,4,-1,-2,-3,-4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-4 \ </m>} -4,{\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{ {\tiny <m>2</m>} 2}
+\end{mfpic} \\
+\end{array} 
+</me>
+</li>
+<li>The domain of <m>m</m> works out to be the domain of <m>f</m>, <m>[0, \infty)</m>.  Rewriting <m>m(x) = -\sqrt{x} + 3</m>, we see <m>m(x) = -f(x) + 3</m>.  Since we are multiplying the output of <m>f</m> by <m>-1</m> and then adding <m>3</m>, we once again have two transformations to deal with:  a reflection across the <m>x</m>-axis and a vertical shift.  To determine the correct order in which to apply the transformations, we imagine trying to determine the point on the graph of <m>m</m> which corresponds to <m>(4,2)</m> on the graph of <m>f</m>.  Since in the formula for <m>m(x)</m>, the input to <m>f</m> is just <m>x</m>, we substitute to find  <m>m(4) = -f(4)+3 = -2+3=1</m>.  Hence, <m>(4,1)</m> is the corresponding point on the graph of <m>m</m>. If we closely examine the arithmetic, we see that we first multiply <m>f(4)</m> by <m>-1</m>, which corresponds to the reflection across the <m>x</m>-axis, and then we add <m>3</m>, which corresponds to the vertical shift.  If we define an intermediate function <m>m_{\mbox{\tiny<m>1</m>} }(x) = -f(x)</m> to take care of the reflection, we get
+
+
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize <m>(0,0)</m>}
+\tlabel[cc](1,1.5){\scriptsize <m>(1,1)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,2)</m>}
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,4){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)=\sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-2,-1,1,2,3}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>-2</m>} -2, {\tiny <m>-1</m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across <m>x</m>-axis} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>y</m>-coordinate by <m>-1</m>} }} 
+
+\amp 
+
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>1</m>} }(x)=-f(x) = -\sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,-2,1,2,3}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>-1</m>} -1, {\tiny <m>-2</m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\end{mfpic} \\
+\end{array}  
+</me>
+ 
+
+To shift the graph of <m>m_{\mbox{\tiny<m>1</m>} }</m> up <m>3</m> units, we set <m>m(x) = m_{\mbox{\tiny<m>1</m>} }(x)+3</m>.  Since <m>m_{\mbox{\tiny<m>1</m>} }(x) = -f(x)</m>, when we put it all together, we get <m>m(x) = m_{\mbox{\tiny<m>1</m>} }(x)+3 = -f(x) + 3 = -\sqrt{x}+3</m>.   We see from the graph that the range of <m>m</m> is <m>(-\infty, 3]</m>.
+
+
+<me>
+ \begin{array}{ccc}
+ 
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+\arrow \function{0,5,0.1}{0-sqrt(x)}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,-2,1,2,3}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>-1</m>} -1, {\tiny <m>-2</m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize shift up <m>3</m> units} }{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize add <m>3</m> to each <m>y</m>-coordinate} } 
+
+\amp 
+
+\begin{mfpic}[15]{-1}{5}{-3}{4}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2,3,-1,-2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>-1</m>} -1, {\tiny <m>-2</m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic} \\
+
+\mbox{\scriptsize <m>y=m_{\mbox{\tiny</m>1<m>}}(x) = -\sqrt{x}</m>}  \amp  \amp  \mbox{\scriptsize <m>y=m(x) = m_{\mbox{\tiny</m>1<m>}}(x) + 3 = -\sqrt{x} + 3</m>} 
+\end{array}  
+</me>
+</li>
+ </ol>  </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>Scalings</title>
+<p>
+{\tmstrong{Objective: Graph functions by stretching or shrinking}}\pp
+</p>
+  
+<p>
+We now turn our attention to our last class of transformations known as <b>scalings</b>. A thorough discussion of scalings can get complicated because they are not as straight-forward as the previous transformations. A quick review of what we've covered so far, namely vertical shifts, horizontal shifts and reflections, will show you why those transformations are known as <index><main>transformation </main><sub> rigid</sub></index><b>rigid transformations</b>. Simply put, they do not change the <em>shape</em> of the graph, only its position and orientation in the plane. If, however, we wanted to make a new graph twice as tall as a given graph, or one-third as wide, we would be changing the shape of the graph. This type of transformation is called <b>non-rigid</b><index><main>transformation </main><sub> non-rigid</sub></index> for obvious reasons. Not only will it be important for us to differentiate between modifying inputs versus outputs, we must also pay close attention to the magnitude of the changes we make. As you will see shortly, the Mathematics turns out to be easier than the associated grammar.
+</p>
+  
+<p>
+Suppose we wish to graph the function <m>g(x) =2 f(x)</m> where <m>f(x)</m> is the function whose graph is given at the beginning of the section. From its graph, we can build a table of values for <m>g</m> as before.
+</p>
+  <table id="fee38b94e2912d32c10a9f03d920fc383b11bfaa" >{m{1.5in}m{3.5in}}
+
+\begin{mfpic}[12]{-1}6{-1}6
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){ <m>(0,1)</m>}
+\tlabel[cc](2,3.5){ <m>(2,3)</m>}
+\tlabel[cc](4,2.5){ <m>(4,3)</m>}
+\tlabel[cc](5,5.5){ <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,6){ <m>y</m>}
+\tcaption{ <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels x{{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4, { <m>5</m>} 5}
+\axislabels y{{ <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4, { <m>5</m>} 5}
+\end{mfpic}
+ 
+&
+
+
+<me>
+ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+ x \amp  (x,f(x)) \amp  f(x) \amp  g(x)=2f(x) \amp  (x, g(x)) \\ \hline
+0  \amp  (0,1)\amp  1 \amp  2 \amp (0, 2) \\  \hline
+2 \amp  (2,3) \amp  3 \amp   6 \amp (2,6) \\  \hline
+4 \amp  (4,3) \amp  3 \amp   6 \amp (4, 6) \\  \hline
+5 \amp  (5,5) \amp  5 \amp   10 \amp ( 5 ,10) \\  \hline
+\end{array}  
+</me>
+ </table>    
+<p>
+In general, if <m>(a,b)</m> is on the graph of <m>f</m>, then <m>f(a) = b</m> so that <m>g(a) = 2 f(a) = 2b</m> puts <m>(a,2b)</m> on the graph of <m>g</m>. In other words, to obtain the graph of <m>g</m>, we multiply all of the <m>y</m>-coordinates of the points on the graph of <m>f</m> by <m>2</m>. Multiplying all of the <m>y</m>-coordinates of all of the points on the graph of <m>f</m> by <m>2</m> causes what is known as a `vertical scaling<fn>Also called a `vertical stretching', `vertical expansion' or `vertical dilation' by a factor of <m>2</m>.</fn> by a factor of <m>2</m>', and the results are given on the next page.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{11}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,11){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7,8,9,10}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6, {\tiny <m>7</m>} 7, {\tiny <m>8</m>} 8, {\tiny <m>9</m>} 9,  {\tiny <m>10</m>} 10 }
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize vertical scaling by a factor of <m>2</m> } }{\xrightarrow{\hspace{1.7in}}}}{\mbox{ \scriptsize multiply each <m>y</m>-coordinate by <m>2</m>} } 
+
+\amp 
+
+
+\begin{mfpic}[15]{-1}{6}{-1}{11}
+\tcaption{\scriptsize <m>y= 2f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7,8,9,10}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6, {\tiny <m>7</m>} 7, {\tiny <m>8</m>} 8, {\tiny <m>9</m>} 9,  {\tiny <m>10</m>} 10 }
+\end{mfpic}
+\end{array}  
+</me>
+  
+<p>
+If we wish to graph <m>y = \frac{1}{2} f(x)</m>, we multiply the all of the <m>y</m>-coordinates of the points on the graph of <m>f</m> by <m>\frac{1}{2}</m>. This creates a `vertical scaling<fn>Also called `vertical shrinking', `vertical compression' or `vertical contraction' by a factor of <m>2</m>.</fn> by a factor of <m>\frac{1}{2}</m>' as seen below.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,6){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize vertical scaling by a factor of <m>\frac{1}{2}</m> } }{\xrightarrow{\hspace{1.7in}}}}{\mbox{ \scriptsize multiply each <m>y</m>-coordinate by <m>\frac{1}{2}</m>} } 
+
+\amp 
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\tcaption{\scriptsize <m>y=\frac{1}{2} f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1,{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+\end{array}  
+</me>
+  
+<p>
+These results are generalized in the following theorem.
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<theorem xml:id="vscalings"><statement>
+<p>
+<index><main>graph </main><sub> vertical scaling</sub></index><b>Vertical Scalings.</b> Suppose <m>f</m> is a function and <m>a>0</m>. To graph <m>y=a f(x)</m>, multiply all of the <m>y</m>-coordinates of the points on the graph of <m>f</m> by <m>a</m>. We say the graph of <m>f</m> has been vertically scaled by a factor of <m>a</m>.
+</p>
+  <ul><li>If <m>a > 1</m>, we say the graph of <m>f</m> has undergone a vertical stretching (expansion, dilation) by a factor of <m>a</m>.</li>
+<li>If <m>0 \lt  a \lt  1</m>, we say the graph of <m>f</m> has undergone a vertical shrinking (compression, contraction) by a factor of <m>\frac{1}{a}</m>.</li>
+ </ul>  </statement>
+</theorem>
+  
+<p>
+\end{boxedminipage}
+</p>
+  
+<p>
+A few remarks about <xref ref="vscalings">Theorem</xref> are in order. First, a note about the verbiage. To the authors, the words `stretching', `expansion', and `dilation' all indicate something getting bigger. Hence, `stretched by a factor of <m>2</m>' makes sense if we are scaling something by multiplying it by <m>2</m>. Similarly, we believe words like `shrinking', `compression' and `contraction' all indicate something getting smaller, so if we scale something by a factor of <m>\frac{1}{2}</m>, we would say it `shrinks by a factor of <m>2</m>' - not `shrinks by a factor of <m>\frac{1}{2}</m>'. This is why we have written the descriptions `stretching by a factor of <m>a</m>' and `shrinking by a factor of <m>\frac{1}{a}</m>' in the statement of the theorem. Second, in terms of inputs and outputs, <xref ref="vscalings">Theorem</xref> says multiplying the <i>outputs</i> from a function by positive number <m>a</m> causes the graph to be vertically scaled by a factor of <m>a</m>. It is natural to ask what would happen if we multiply the <i>inputs</i> of a function by a positive number. This leads us to our last transformation of the section.
+</p>
+  
+<p>
+Referring to the graph of <m>f</m> given at the beginning of this section, suppose we want to graph <m>g(x) = f(2x)</m>. In other words, we are looking to see what effect multiplying the inputs to <m>f</m> by <m>2</m> has on its graph. If we attempt to build a table directly, we quickly run into the same problem we had in our discussion leading up to <xref ref="hshifts">Theorem</xref>, as seen in the table below.
+</p>
+  <m> \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+x \amp  (x,f(x)) \amp  f(x)\amp  g(x)=f(2x) \amp  (x, g(x)) \\ \hline
+0  \amp  (0,1)\amp  1 \amp  f(2 \cdot 0) = f(0) = 1   \amp (0, 1) \\  \hline
+2 \amp  (2,3) \amp  3 \amp  f(2\cdot2) = f(4) = 3  \amp (2,3) \\  \hline
+4 \amp  (4,3) \amp  3 \amp   f(2 \cdot 4) = f(8) = ? \amp   \\  \hline
+5 \amp  (5,5) \amp  5 \amp  f(2 \cdot 5) = f(10) = ?  \amp   \\  \hline
+\end{array}  </m>  
+<p>
+We solve this problem in the same way we solved this problem before. For example, if we want to determine the point on <m>g</m> which corresponds to the point <m>(2,3)</m> on the graph of <m>f</m>, we set <m>2x =2 </m> so that <m>x=1</m>. Substituting <m>x=1</m> into <m>g(x)</m>, we obtain <m>g(1) = f(2 \cdot 1) = f(2) = 3</m>, so that <m>(1,3)</m> is on the graph of <m>g</m>. Continuing in this fashion, we obtain the following table.
+</p>
+  <m> \begin{array}{|r||c|c|c|}  
+
+\hline
+
+x \amp  2x \amp  g(x)=f(2x) \amp  (x, g(x)) \\ \hline
+0 \amp  0 \amp  g(0)=f(0) = 1   \amp (0, 0) \\  \hline
+1 \amp   2 \amp   g(1)=f(2) = 3  \amp (1,3) \\  \hline
+2 \amp  4  \amp  g(2)=f(4) = 3 \amp   (2,3)\\  \hline
+\frac{5}{2}  \amp  5 \amp  g\left(\frac{5}{2}\right)=f(5) = 5  \amp  \left(\frac{5}{2},5\right) \\ \hline
+\end{array}  </m>  
+<p>
+In general, if <m>(a,b)</m> is on the graph of <m>f</m>, then <m>f(a) = b</m>. Hence <m>g\left(\frac{a}{2}\right) = f\left(2 \cdot \frac{a}{2}\right) = f(a) = b</m> so that <m>\left(\frac{a}{2}, b\right)</m> is on the graph of <m>g</m>. In other words, to graph <m>g</m> we divide the <m>x</m>-coordinates of the points on the graph of <m>f</m> by <m>2</m>. This results in a horizontal scaling<fn>Also called `horizontal shrinking', `horizontal compression' or `horizontal contraction' by a factor of <m>2</m>.</fn> by a factor of <m>\frac{1}{2}</m>.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\scriptsize <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\scriptsize <m>(5,5)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,6){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scaling by} }{\mbox{\scriptsize a factor of <m>\frac{1}{2}</m> } }}{\xrightarrow{\hspace{1.3in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>\frac{1}{2}</m>} }} 
+
+\amp 
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,6){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=g(x) = f(2x)</m>}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+If, on the other hand, we wish to graph <m>y = f\left( \frac{1}{2} x\right)</m>, we end up multiplying the <m>x</m>-coordinates of the points on the graph of <m>f</m> by <m>2</m> which results in a horizontal scaling<fn>Also called `horizontal stretching', `horizontal expansion' or `horizontal dilation' by a factor of <m>2</m>.</fn> by a factor of <m>2</m>, as demonstrated below.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-1}{11}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\tiny <m>(0,1)</m>}
+\tlabel[cc](2,3.5){\tiny <m>(2,3)</m>}
+\tlabel[cc](4,2.5){\tiny <m>(4,3)</m>}
+\tlabel[cc](5,5.5){\tiny <m>(5,5)</m>}
+\tlabel[cc](11,-0.5){\tiny <m>x</m>}
+\tlabel[cc](0.5,6){\tiny <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)</m>}
+\axes
+\xmarks{1,2,3,4,5,6,7,8,9,10}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6, {\tiny <m>7</m>} 7, {\tiny <m>8</m>} 8, {\tiny <m>9</m>} 9, {\tiny <m>10</m>} 10}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scaling by} }{\mbox{\scriptsize a factor of <m>2</m> } }}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>2</m>} }} 
+
+\amp 
+
+\begin{mfpic}[11]{-1}{11}{-1}{6}
+\tcaption{\scriptsize <m>y=g(x) = f\left( \frac{1}{2} x \right)</m>}
+\axes
+\xmarks{1,2,3,4,5,6,7,8,9,10}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6, {\tiny <m>7</m>} 7, {\tiny <m>8</m>} 8, {\tiny <m>9</m>} 9, {\tiny <m>10</m>} 10}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+We have the following theorem.
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<theorem xml:id="hscalings"><statement>
+<p>
+<index><main>graph </main><sub> horizontal scaling</sub></index><b>Horizontal Scalings.</b> Suppose <m>f</m> is a function and <m>b>0</m>. To graph <m>y= f(bx)</m>, divide all of the <m>x</m>-coordinates of the points on the graph of <m>f</m> by <m>b</m>. We say the graph of <m>f</m> has been horizontally scaled by a factor of <m>\frac{1}{b}</m>.
+</p>
+  <ul><li>If <m>0 \lt  b \lt  1</m>, we say the graph of <m>f</m> has undergone a horizontal stretching (expansion, dilation) by a factor of <m>\frac{1}{b}</m>.</li>
+<li>If <m>b>1</m>, we say the graph of <m>f</m> has undergone a horizontal shrinking (compression, contraction) by a factor of <m>b</m>.</li>
+ </ul>  </statement>
+</theorem>
+  
+<p>
+\end{boxedminipage}
+</p>
+  
+<p>
+<xref ref="hscalings">Theorem</xref> tells us that if we multiply the input to a function by <m>b</m>, the resulting graph is scaled horizontally by a factor of <m>\frac{1}{b}</m> since the <m>x</m>-values are divided by <m>b</m> to produce corresponding points on the graph of <m>y = f(bx)</m>. The next example explores how vertical and horizontal scalings sometimes interact with each other and with the other transformations introduced in this section.
+</p>
+  
+<example><statement>
+<p>
+Let <m>f(x)= \sqrt{x}</m>. Use the graph of <m>f</m> to graph the following functions. Also, state their domains and ranges.
+</p>
+  <ol><li><m>g(x) =  3 \sqrt{x}</m></li>
+<li><m>j(x) = \sqrt{9x}</m></li>
+ </ol>   
+<p>
+<b>Solution.</b>
+</p>
+  <ol><li>First we note that the domain of <m>g</m> is <m>[0, \infty)</m> for the usual reason.  Next, we have <m>g(x) = 3 f(x)</m> so by <xref ref="vscalings">Theorem</xref>, we obtain the graph of <m>g</m> by multiplying all of the <m>y</m>-coordinates of the points on the graph of <m>f</m> by <m>3</m>.  The result is a vertical scaling of the graph of <m>f</m> by a factor of <m>3</m>.  We find the range of <m>g</m> is also <m>[0, \infty)</m>.
+
+
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[13]{-1}{5}{-1}{7}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize <m>(0,0)</m>}
+\tlabel[cc](1,1.5){\scriptsize <m>(1,1)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,2)</m>}
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,7){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)=\sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2,3,4,5,6}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize vertical scaling by} }{\mbox{\scriptsize a factor of <m>3</m> } }}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>y</m>-coordinate by <m>3</m>} }} 
+
+
+\amp 
+
+\begin{mfpic}[13]{-1}{5}{-1}{7}
+\tcaption{\scriptsize <m>y= g(x) = 3 f(x)=3 \sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2,3,4,5,6}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5, {\tiny <m>6</m>} 6}
+\end{mfpic} \\
+\end{array}  
+</me>
+</li>
+<li>To determine the domain of <m>j</m>, we solve <m>9x \geq 0</m> to find <m>x \geq 0</m>. Our domain is once again <m>[0,\infty)</m>.   We recognize <m>j(x) = f(9x)</m> and by <xref ref="hscalings">Theorem</xref>, we obtain the graph of <m>j</m> by dividing the <m>x</m>-coordinates of the points on the graph of <m>f</m> by <m>9</m>.  From the graph, we see the range of <m>j</m> is also <m>[0,\infty)</m>.
+
+
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-0.5,0.25){\scriptsize <m>(0,0)</m>}
+\tlabel[cc](1,1.5){\scriptsize <m>(1,1)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,2)</m>}
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)=\sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scaling by} }{\mbox{\scriptsize a factor of <m>\frac{1}{9}</m> } }}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>\frac{1}{9}</m>} }} 
+
+\amp 
+
+\begin{mfpic}[15]{-1}{5}{-1}{3}
+\tcaption{\scriptsize <m>y=j(x) = f(9x)=\sqrt{9x}</m>}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2}
+\end{mfpic} \\
+\end{array}  
+</me>
+</li>
+ </ol>  </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>Transformations Summary</title>
+<p>
+{\tmstrong{Objective: Summarize the various transformations that can be applied to a particular function and outline a strategy for graphing functions using a sequence of transformations.}}\pp
+</p>
+  
+<p>
+We will begin to summarize the concepts outlined in this section by extending the previous example.\pp
+</p>
+  
+<example xml:id="transformationex3"><statement>
+<p>
+Let <m>f(x)= \sqrt{x}</m>. Use the graph of <m>f</m> to graph the function <m>m(x) =1 - \sqrt{\frac{x+3}{2}}</m>. Also, state the domain and range.\pp
+</p>
+  
+<p>
+<b>Solution.</b> Solving <m>\frac{x+3}{2} \geq 0</m> gives <m>x \geq -3</m>, so the domain of <m>m</m> is <m>[-3, \infty)</m>. To take advantage of what we know of transformations, we rewrite <m>m(x) = - \sqrt{\frac{1}{2} x + \frac{3}{2}} + 1</m>, or <m>m(x) =- f\left(\frac{1}{2} x + \frac{3}{2}\right) + 1</m>. Focusing on the inputs first, we note that the input to <m>f</m> in the formula for <m>m(x)</m> is <m>\frac{1}{2} x + \frac{3}{2}</m>. Multiplying the <m>x</m> by <m>\frac{1}{2}</m> corresponds to a horizontal stretching by a factor of <m>2</m>, and adding the <m>\frac{3}{2}</m> corresponds to a shift to the left by <m>\frac{3}{2}</m>. As before, we resolve which to perform first by thinking about how we would find the point on <m>m</m> corresponding to a point on <m>f</m>, in this case, <m>(4,2)</m>. To use <m>f(4) = 2</m>, we solve <m>\frac{1}{2} x + \frac{3}{2} = 4</m>. Our first step is to subtract the <m>\frac{3}{2}</m> (the horizontal shift) to obtain <m>\frac{1}{2} x = \frac{5}{2}</m>. Next, we multiply by <m>2</m> (the horizontal stretching) and obtain <m>x = 5</m>. We define two intermediate functions to handle first the shift, then the stretching. In accordance with <xref ref="hshifts">Theorem</xref>, <m>m_{\mbox{\tiny<m>1</m>} }(x) = f\left(x+ \frac{3}{2}\right) = \sqrt{x+\frac{3}{2}}</m> will shift the graph of <m>f</m> to the left <m>\frac{3}{2}</m> units.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize <m>(0,0)</m>}
+\tlabel[cc](1,1.5){\scriptsize <m>(1,1)</m>}
+\tlabel[cc](4,2.5){\scriptsize <m>(4,2)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=f(x)=\sqrt{x}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-3 \ </m>} -3,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>-2</m>} -2, {\tiny <m>-1</m>} -1}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left <m>\frac{3}{2}</m> units} }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize subtract <m>\frac{3}{2}</m> from } }{\mbox{\scriptsize each <m>x</m>-coordinate} }} 
+
+\amp 
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>1</m>} }(x)= f\left(x+\frac{3}{2}\right) = \sqrt{x+\frac{3}{2}}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-3 \ </m>} -3,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4,, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>-2</m>} -2}
+\end{mfpic} \\
+\end{array}  
+</me>
+  
+<p>
+Next, <m>m_{\mbox{\tiny<m>2</m>} }(x) = m_{\mbox{\tiny<m>1</m>} }\left(\frac{1}{2} x\right) = \sqrt{\frac{1}{2} x + \frac{3}{2}}</m> will, according to <xref ref="hscalings">Theorem</xref>, horizontally stretch the graph of <m>m_{\mbox{\tiny<m>1</m>} }</m> by a factor of <m>2</m>.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{-1.5,3.5,0.1}{sqrt(x+1.5)}
+\point[3pt]{(-1.5,0), (-0.5,1), (2.5,2)}
+\tlabel[cc](-1.5,-1){\scriptsize <m>\left(-\frac{3}{2},0\right)</m>}
+\tlabel[cc](-2,1){\scriptsize <m>\left(-\frac{1}{2},1\right)</m>}
+\tlabel[cc](2.5,2.5){\scriptsize <m>\left(\frac{5}{2},2\right)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>1</m>} }(x) = \sqrt{x+\frac{3}{2}}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-3 \ </m>} -3,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2,{\tiny <m>-2</m>} -2}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scale by} }{\mbox{\scriptsize a factor of <m>2</m>} }}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>x</m>-coordinate by <m>2</m>} }} 
+
+\amp 
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>2</m>} }(x) = m_{\mbox{\tiny<m>1</m>} }\left(\frac{1}{2} x\right) = \sqrt{\frac{1}{2} x+\frac{3}{2}}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2,  {\tiny <m>-1</m>} -1,{\tiny <m>-2</m>} -2}
+\end{mfpic} \\
+\end{array}  
+</me>
+  
+<p>
+We now examine what's happening to the outputs. From <m>m(x) =</m><br /> <m>- f\left(\frac{1}{2} x + \frac{3}{2}\right) + 1</m>, we see that the output from <m>f</m> is being multiplied by <m>-1</m> (a reflection about the <m>x</m>-axis) and then a <m>1</m> is added (a vertical shift up <m>1</m>). As before, we can determine the correct order by looking at how the point <m>(4,2)</m> is moved. We already know that to make use of the equation <m>f(4)=2</m>, we need to substitute <m>x=5</m>. We get <m>m(5) = - f\left(\frac{1}{2} (5) + \frac{3}{2}\right) + 1=- f(4)+1 =</m><br /> <m>-2+1 = -1</m>. We see that <m>f(4)</m> (the output from <m>f</m>) is first multiplied by <m>-1</m> then the <m>1</m> is added meaning we first reflect the graph about the <m>x</m>-axis then shift up <m>1</m>. <xref ref="reflections">Theorem</xref> tells us <m>m_{\mbox{\tiny<m>3</m>} }(x) = - m_{\mbox{\tiny<m>2</m>} }(x)</m> will handle the reflection.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{-3,6,0.1}{sqrt(0.5*x+1.5)}
+\point[3pt]{(-3,0), (-1,1), (5,2)}
+\tlabel[cc](-3,-1){\scriptsize <m>\left(-3,0\right)</m>}
+\tlabel[cc](-2,1.25){\scriptsize <m>\left(-1,1\right)</m>}
+\tlabel[cc](5,2.5){\scriptsize <m>\left(5,2\right)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>2</m>} }(x)  = \sqrt{\frac{1}{2} x+\frac{3}{2}}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2,  {\tiny <m>-1</m>} -1,{\tiny <m>-2</m>} -2}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize reflect across <m>x</m>-axis } }{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each} }{\mbox{\scriptsize <m>y</m>-coordinate by <m>-1</m>} }} 
+
+\amp 
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>3</m>} }(x) = -m_{\mbox{\tiny<m>2</m>} }(x) = -\sqrt{\frac{1}{2} x+\frac{3}{2}}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1,{\tiny <m>2</m>} 2, {\tiny <m>-2</m>} -2}
+\end{mfpic} \\
+\end{array}  
+</me>
+ 
+<p>
+Finally, to handle the vertical shift, <xref ref="vshifts">Theorem</xref> gives <m>m(x) = m_{\mbox{\tiny<m>3</m>} }(x) +1</m>, and we see that the range of <m>m</m> is <m>(-\infty,1]</m>.
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\arrow \function{-3,6,0.1}{0-sqrt(0.5*x+1.5)}
+\point[3pt]{(-3,0), (-1,-1), (5,-2)}
+\tlabel[cc](-3,1){\scriptsize <m>\left(-3,0\right)</m>}
+\tlabel[cc](-2.25,-1.25){\scriptsize <m>\left(-1,-1\right)</m>}
+\tlabel[cc](5,-2.5){\scriptsize <m>\left(5,-2\right)</m>}
+\tlabel[cc](6,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,3){\scriptsize <m>y</m>}
+\tcaption{\scriptsize <m>y=m_{\mbox{\tiny<m>3</m>} }(x) = -m_{\mbox{\tiny<m>2</m>} }(x) = -\sqrt{\frac{1}{2} x+\frac{3}{2}}</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>1</m>} 1,{\tiny <m>2</m>} 2, {\tiny <m>-2</m>} -2}
+\end{mfpic}
+
+\amp 
+
+\stackrel{\stackrel{\mbox{\scriptsize shift up <m>1</m> unit } }{\xrightarrow{\hspace{.8in}}}}{\stackrel{\mbox{ \scriptsize add <m>1</m> to each} }{\mbox{\scriptsize <m>y</m>-coordinate} }} 
+
+\amp 
+
+\begin{mfpic}[12]{-4}{6}{-3}{3}
+\tcaption{\scriptsize <m>y=m(x) = m_{\mbox{\tiny<m>3</m>} }(x)+1 =</m>\tiny <m>-\sqrt{\frac{1}{2} x+\frac{3}{2}}+1</m>}
+\axes
+\xmarks{1,2,3,4,5,-1,-2,-3}
+\ymarks{-1,-2,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>-2 \ </m>} -2, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4, {\tiny <m>5</m>} 5}
+\axislabels {y}{{\tiny <m>2</m>} 2, {\tiny <m>-2</m>} -2}
+\end{mfpic} \\
+\end{array}  
+</me>
+ </statement>
+</example>
+  
+<p>
+Some comments about <xref ref="transformationex3">Example</xref> are in order. First, recalling the properties of radicals from Intermediate Algebra, we know that the functions <m>g</m> and <m>j</m> are the same, since <m>j</m> and <m>g</m> have the same domains and <m>j(x) = \sqrt{9x} = \sqrt{9} \sqrt{x} = 3 \sqrt{x} = g(x)</m>. (We invite the reader to verify that all of the points we plotted on the graph of <m>g</m> lie on the graph of <m>j</m> and vice-versa.) Hence, for <m>f(x) = \sqrt{x}</m>, a vertical stretch by a factor of <m>3</m> and a horizontal shrinking by a factor of <m>9</m> result in the same transformation. While this kind of phenomenon is not universal, it happens commonly enough with some of the families of functions studied in College Algebra that it is worthy of note. Secondly, to graph the function <m>m</m>, we applied a series of four transformations. While it would have been easier on the authors to simply inform the reader of which steps to take, we have strived to explain why the order in which the transformations were applied made sense. We generalize the procedure in the theorem below.
+</p>
+  
+<p>
+\begin{boxedminipage}{4.80in}
+</p>
+  
+<theorem xml:id="transformationsthm"><statement>
+<p>
+<index><main>transformations of function graphs</main></index><index><main>function </main><sub> transformation of graphs</sub></index><index><main>graph </main><sub> transformations</sub></index><b>Transformations.</b> Suppose <m>f</m> is a function. If <m>A \neq 0</m> and <m>B \neq 0</m>, then to graph
+</p>
+  
+<me>
+g(x) = A f(Bx+H)+K
+</me>
+  <ol><li>Subtract <m>H</m> from each of the <m>x</m>-coordinates of the points on the graph of <m>f</m>.  This results in a horizontal shift to the left if <m>H > 0</m> or right if <m>H\lt  0</m>.</li>
+<li>Divide the <m>x</m>-coordinates of the points on the graph obtained in Step 1 by <m>B</m>.  This results in a horizontal scaling, but may also include a reflection about the <m>y</m>-axis if <m>B \lt  0</m>.</li>
+<li>Multiply the <m>y</m>-coordinates of the points on the graph obtained in Step 2 by <m>A</m>.   This results in a vertical scaling, but may also include a reflection about the <m>x</m>-axis if <m>A \lt  0</m>.</li>
+<li>Add <m>K</m> to each of the <m>y</m>-coordinates of the points on the graph obtained in Step 3.  This results in a vertical shift up if <m>K > 0</m> or down if <m>K\lt  0</m>.</li>
+ </ol>  </statement>
+</theorem>
+  
+<p>
+\end{boxedminipage}
+</p>
+  
+<p>
+<xref ref="transformationsthm">Theorem</xref> can be established by generalizing the techniques developed in this section. Suppose <m>(a,b)</m> is on the graph of <m>f</m>. Then <m>f(a) = b</m>, and to make good use of this fact, we set <m>Bx+H = a</m> and solve. We first subtract the <m>H</m> (causing the horizontal shift) and then divide by <m>B</m>. If <m>B</m> is a positive number, this induces only a horizontal scaling by a factor of <m>\frac{1}{B}</m>. If <m>B\lt 0</m>, then we have a factor of <m>-1</m> in play, and dividing by it induces a reflection about the <m>y</m>-axis. So we have <m>x = \frac{a-H}{B}</m> as the input to <m>g</m> which corresponds to the input <m>x=a</m> to <m>f</m>. We now evaluate <m>g\left( \frac{a-H}{B}\right) = A f\left(B \cdot \frac{a-H}{B} + H\right) + K = A f(a)+K = A b + K</m>. We notice that the output from <m>f</m> is first multiplied by <m>A</m>. As with the constant <m>B</m>, if <m>A > 0</m>, this induces only a vertical scaling. If <m>A \lt  0</m>, then the <m>-1</m> induces a reflection across the <m>x</m>-axis. Finally, we add <m>K</m> to the result, which is our vertical shift. A less precise, but more intuitive way to paraphrase <xref ref="transformationsthm">Theorem</xref> is to think of the quantity <m>Bx+H</m> is the `inside' of the function <m>f</m>. What's happening inside <m>f</m> affects the inputs or <m>x</m>-coordinates of the points on the graph of <m>f</m>. To find the <m>x</m>-coordinates of the corresponding points on <m>g</m>, we undo what has been done to <m>x</m> in the same way we would solve an equation. What's happening to the output can be thought of as things happening `outside' the function, <m>f</m>. Things happening outside affect the outputs or <m>y</m>-coordinates of the points on the graph of <m>f</m>. Here, we follow the usual order of operations agreement: we first multiply by <m>A</m> then add <m>K</m> to find the corresponding <m>y</m>-coordinates on the graph of <m>g</m>.
+</p>
+  
+<example><statement>
+<p>
+Below is the complete graph of <m>y = f(x)</m>. Use it to graph <m>g(x) = \frac{4-3 f(1-2x)}{2}</m>.
+</p>
+  \begin{mfpic}[20]{-5}5{-4}4
+\point[3pt]{(-2,0), (2,0), (4,-3), (-4,-3), (0,3)}
+\function{-4,4,.1}{3*cos(3.14159265*x/4)}
+\tlabel[cc](-3,0.5){ <m>\left( -2, 0 \right)</m>}
+\tlabel[cc](2.5,0.5){ <m>\left(2, 0 \right)</m>}
+\tlabel[cc](4,-3.5){ <m>\left( 4, -3 \right)</m>}
+\tlabel[cc](-4,-3.5){ <m>\left(-4, -3 \right)</m>}
+\tlabel[cc](1,3.5){ <m>\left(0, 3 \right)</m>}
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,4){ <m>y</m>}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-3,-2,-1,1,2,3}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-4 \ </m>} -4, {<m>-3 \ </m>} -3, {<m>-2 \ </m>} -2, {<m>-1 \ </m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+\axislabels y{ {<m>-3</m>} -3, {<m>-2</m>} -2, {<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
+
+\end{mfpic}  
+<p>
+<b>Solution.</b> We use <xref ref="transformationsthm">Theorem</xref> to track the five `key points' <m>(-4,-3)</m>, <m>(-2,0)</m>, <m>(0,3)</m>, <m>(2,0)</m> and <m>(4,-3)</m> indicated on the graph of <m>f</m> to their new locations. We first rewrite <m>g(x)</m> in the form presented in <xref ref="transformationsthm">Theorem</xref>, <m>g(x) = -\frac{3}{2}f(-2x+1) +2</m>. We set <m>-2x+1</m> equal to the <m>x</m>-coordinates of the key points and solve. For example, solving <m>-2x+1 = -4</m>, we first subtract <m>1</m> to get <m>-2x = -5</m> then divide by <m>-2</m> to get <m>x = \frac{5}{2}</m>. Subtracting the <m>1</m> is a horizontal shift to the left <m>1</m> unit. Dividing by <m>-2</m> can be thought of as a two step process: dividing by <m>2</m> which compresses the graph horizontally by a factor of <m>2</m> followed by dividing (multiplying) by <m>-1</m> which causes a reflection across the <m>y</m>-axis. We summarize the results in the table on the next page.
+</p>
+  
+<me>
+  \begin{array}{|r||r|r|r|}  
+
+\hline
+
+(a,f(a))\amp  a \amp  -2x+1=a \amp  x \\ \hline
+(-4,-3) \amp  -4 \amp  -2x+1 = -4 \amp  x = \frac{5}{2} \\ \hline
+(-2,0) \amp   -2 \amp   -2x+1 = -2 \amp  x = \frac{3}{2} \\ \hline
+(0,3) \amp  0  \amp  -2x+1 = 0 \amp   x = \frac{1}{2} \\ \hline
+(2,0)  \amp  2 \amp  -2x+1 = 2  \amp   x = -\frac{1}{2} \\ \hline
+(4,-3) \amp  4 \amp  -2x+1 = 4  \amp  x = -\frac{3}{2}  \\ \hline
+\end{array}  
+</me>
+  
+<p>
+Next, we take each of the <m>x</m> values and substitute them into <m>g(x) =</m><br /> <m> -\frac{3}{2}f(-2x+1) +2</m> to get the corresponding <m>y</m>-values. Substituting <m>x=\frac{5}{2}</m>, and using the fact that <m>f(-4)=-3</m>, we get
+</p>
+  
+<me>
+g\left(\frac{5}{2}\right) = -\frac{3}{2}f\left(-2\left(\frac{5}{2}\right) +1\right) +2 = -\frac{3}{2} f(-4) + 2 = -\frac{3}{2}(-3) + 2 = \frac{9}{2} + 2 = \frac{13}{2}
+</me>
+ 
+<p>
+We see that the output from <m>f</m> is first multiplied by <m>-\frac{3}{2}</m>. Thinking of this as a two step process, multiplying by <m>\frac{3}{2}</m> then by <m>-1</m>, we have a vertical stretching by a factor of <m>\frac{3}{2}</m> followed by a reflection across the <m>x</m>-axis. Adding <m>2</m> results in a vertical shift up <m>2</m> units. Continuing in this manner, we get the table below.
+</p>
+  
+<me>
+ \begin{array}{|r||r|r|}  
+
+\hline
+
+ x \amp  g(x) \amp   (x, g(x)) \\ \hline
+\frac{5}{2}  \amp  \frac{13}{2} \amp   \left(\frac{5}{2}, \frac{13}{2} \right) \\ \hline
+\frac{3}{2}  \amp  2 \amp  \left(\frac{3}{2}, 2 \right)\\ \hline
+\frac{1}{2}  \amp  - \frac{5}{2} \amp  \left(\frac{1}{2}, -\frac{5}{2} \right)  \\ \hline
+-\frac{1}{2} \amp  2 \amp   \left(-\frac{1}{2}, 2 \right) \\ \hline
+-\frac{3}{2} \amp  \frac{13}{2} \amp   \left(-\frac{3}{2}, \frac{13}{2} \right) \\ \hline
+\end{array}  
+</me>
+  
+<p>
+To graph <m>g</m>, we plot each of the points in the table above and connect them in the same order and fashion as the points to which they correspond. Plotting <m>f</m> and <m>g</m> side-by-side gives
+</p>
+  
+<me>
+ \begin{array}{ccc}
+
+\begin{mfpic}[13]{-5}{5}{-4}{7}
+\point[3pt]{(-2,0), (2,0), (4,-3), (-4,-3), (0,3)}
+\function{-4,4,.1}{3*cos(3.14159265*x/4)}
+\tlabel[cc](-3,0.5){\scriptsize <m>\left( -2, 0 \right)</m>}
+\tlabel[cc](2.5,0.5){\scriptsize <m>\left(2, 0 \right)</m>}
+\tlabel[cc](4,-3.5){\scriptsize <m>\left( 4, -3 \right)</m>}
+\tlabel[cc](-4,-3.5){\scriptsize <m>\left(-4, -3 \right)</m>}
+\tlabel[cc](1,3.5){\scriptsize <m>\left(0, 3 \right)</m>}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,7){\scriptsize <m>y</m>}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2,-1,1,2,3,4,5,6}
+\tlpointsep{5pt}
+\tcaption{graph of <m>f</m>}
+\axislabels {x}{{\scriptsize <m>-4 \ </m>} -4, {\scriptsize <m>-3 \ </m>} -3, {\scriptsize <m>-2 \ </m>} -2, {\scriptsize <m>-1 \ </m>} -1, {\scriptsize <m>1</m>} 1, {\scriptsize <m>2</m>} 2, {\scriptsize<m>3</m>} 3, {\scriptsize <m>4</m>} 4}
+\axislabels {y}{{\scriptsize <m>-4</m>} -4, {\scriptsize <m>-3</m>} -3, {\scriptsize <m>-2</m>} -2, {\scriptsize <m>-1</m>} -1, {\scriptsize <m>1</m>} 1, {\scriptsize <m>2</m>} 2, {\scriptsize <m>3</m>} 3, {\scriptsize <m>4</m>} 4, {\scriptsize <m>5</m>} 5, {\scriptsize <m>6</m>} 6}
+\end{mfpic}
+
+\amp 
+\hspace{.5in}
+\amp 
+\begin{mfpic}[13]{-5}{5}{-4}{7}
+\point[3pt]{(-1.5,6.5), (-0.5,2), (0.5,-2.5), (1.5,2), (2.5,6.5)}
+\function{-1.5,2.5,.1}{2-4.5*cos(3.14159265*(1-2*x)/4 )}
+\tlabel[cc](-1.5,7){\scriptsize <m>\left( -\frac{3}{2}, \frac{13}{2} \right)</m>}
+\tlabel[cc](-1.75,2){\scriptsize <m>\left(-\frac{1}{2}, 2 \right)</m>}
+\tlabel[cc](1.5,-3){\scriptsize <m>\left( \frac{1}{2}, -\frac{5}{2} \right)</m>}
+\tlabel[cc](2.5,2){\scriptsize <m>\left(\frac{3}{2}, 2 \right)</m>}
+\tlabel[cc](2.5,7){\scriptsize <m>\left(\frac{5}{2}, \frac{13}{2} \right)</m>}
+\axes
+\tlabel[cc](5,-0.5){\scriptsize <m>x</m>}
+\tlabel[cc](0.5,7){\scriptsize <m>y</m>}
+\xmarks{-4,-3,-2,-1,1,2,3,4}
+\ymarks{-4,-3,-2,-1,1,2,3,4,5,6}
+\tlpointsep{5pt}
+\tcaption{graph of <m>g</m>}
+\axislabels {x}{{\scriptsize <m>-4 \ </m>} -4, {\scriptsize <m>-3 \ </m>} -3, {\scriptsize <m>-2 \ </m>} -2, {\scriptsize <m>-1 \ </m>} -1, {\scriptsize <m>1</m>} 1, {\scriptsize <m>2</m>} 2, {\scriptsize <m>3</m>} 3, {\scriptsize <m>4</m>} 4}
+\axislabels {y}{{\scriptsize <m>-4</m>} -4, {\scriptsize <m>-3</m>} -3, {\scriptsize <m>-2</m>} -2, {\scriptsize <m>-1</m>} -1,   {\scriptsize <m>3</m>} 3, {\scriptsize <m>4</m>} 4, {\scriptsize <m>5</m>} 5, {\scriptsize <m>6</m>} 6}
+\end{mfpic}
+\end{array} 
+</me>
+  
+<p>
+The reader is encouraged to graph the series of functions which shows the gradual transformation of the graph of <m>f</m> into the graph of <m>g</m>. We have outlined the sequence of transformations in the above exposition; all that remains is to plot the five intermediate stages.
+</p>
+ </statement>
+</example>
+  
+<p>
+Our last example turns the tables and asks for the formula of a function given a desired sequence of transformations. If nothing else, it is a good review of function notation.
+</p>
+  
+<example xml:id="graphingcalctrans"><statement>
+<p>
+Let <m>f(x) = x^2</m>. Find and simplify the formula of the function <m>g(x)</m> whose graph is the result of <m>f</m> undergoing
+a vertical shift up <m>2</m> units, a reflection across the <m>x</m>-axis, a horizontal shift right <m>1</m> unit, and a horizontal stretching by a factor of <m>2</m>.
+<br />
+<br />
+<br />
+<b>Solution.</b> We build up to a formula for <m>g(x)</m> using intermediate functions as we've seen in previous examples. We let <m>g_{\mbox{\tiny<m>1</m>} }</m> take care of our first step. From our experience with vertical shifts we can see that <m>g_{\mbox{\tiny<m>1</m>} }(x) = f(x) + 2 = x^2+2</m>. Next, we reflect the graph of <m>g_{\mbox{\tiny<m>1</m>} }</m> about the <m>x</m>-axis: <m>g_{\mbox{\tiny<m>2</m>} }(x) = -g_{\mbox{\tiny<m>1</m>} }(x) = -\left(x^2+2\right) = -x^2-2</m>. We shift the graph to the right <m>1</m> unit by a horizontal shift where we set <m>g_{\mbox{\tiny<m>3</m>} }(x) = g_{\mbox{\tiny<m>2</m>} }(x-1) = -(x-1)^2-2 = -x^2+2x-3</m>. Finally, we induce a horizontal stretch by a factor of <m>2</m> to scale <m>g(x)</m> and get <m>g(x) = g_{\mbox{\tiny<m>3</m>} }\left(\frac{1}{2} x\right) = -\left(\frac{1}{2} x\right)^2+2\left(\frac{1}{2} x\right)-3</m> which yields <m>g(x) = -\frac{1}{4} x^2 + x -3</m>.
+</p>
+ </statement>
+</example>
+ </subsection> </section>

@@ -1,0 +1,476 @@
+
+<section>
+<title>Notation and Basic Examples</title>
+<subsection>
+<title>Definitions and the Vertical Line Test</title>
+<p>
+{\tmstrong{Objective: Identify functions and use correct notation to evaluate functions at specific values.}}\pp
+</p>
+  
+<p>
+A <b>relation</b> <m>R</m> is a set of points in the <m>xy</m>-plane. A relation in which each <m>x</m>-coordinate is paired with exactly one <m>y</m>-coordinate is said to describe <m>y</m> as a <b>function</b> of <m>x</m>. Relations which represent functions of <m>x</m> will often be denoted by <m>f</m>, or <m>f(x)</m>, rather than <m>R</m>. The set of all <m>x</m>-coordinates of the points in a function <m>f</m> is called the <b>domain</b> of <m>f</m>, and the set of all <m>y</m>-coordinates of the points in <m>f</m> is called the <b>range</b> of <m>f</m>.
+</p>
+  
+<example><statement>
+<p>
+The following examples represent relations. Examples (5) and (6) also represent <m>y</m> as a <i>function</i> of <m>x</m>, <m>y=f(x)</m>, since each <m>x-</m>coordinate is paired with exactly one <m>y-</m>coordinate.
+</p>
+  <ol><li><m>\{(1,1),(2,-3),(2,0),(0,3),(-2,1/2)\}</m></li>
+<li><m>\{(x,y)~|~x>3 \text{~and~}  y\leq 2\}</m></li>
+<li><m>x^2+y^2=9</m></li>
+<li><m>x=y^2</m></li>
+<li><m>y=x^2</m></li>
+<li><m>y=3-2x</m></li>
+ </ol>  </statement>
+</example>
+  
+<p>
+Alternatively, one can define a function as a rule that assigns to each element of one set (the domain) exactly one element of a second set (the range). This definition is essentially the same as that given above, but avoids the term "relation" entirely. In each definition, however, the critical phrase that cannot be overlooked is "<i>exactly one</i>". This means that the first four relations given above cannot represent <m>y</m> as a function of <m>x</m>, since, for example, the third relation contains the points <m>(0,3)</m> and <m>(0,-3)</m>. On the other hand, each of the last two relations above can be considered to represent <m>y</m> as a function of <m>x</m>. Furthermore, their graphs should also look familiar, since they represent a quadratic equation (<m>y=x^2</m>) and a linear equation (<m>y=-2x+3</m>).\pp
+In each of the last two examples above, we refer to the variable <m>x</m> as the <b>independent variable</b>, since we are free to choose any real number for <m>x</m>. We consequently refer to <m>y</m> as the <b>dependent variable</b>, since its value depends on the choice of value for <m>x</m>. One can also more simply refer to <m>x</m> as the <i>input</i> of the function and <m>y</m> as the <i>output</i>. This terminology naturally lends itself to what is the standard function notation of <m>f(x)</m>, read as "<m>f</m> of <m>x</m>". In the following example, we will use the given function to complete a table of values for <m>x</m> and <m>f(x)</m>. Each pair <m>(x,f(x))</m> corresponds to a point <m>(x,y)</m> on the graph of <m>f</m>.
+</p>
+  
+<example><statement>
+<p>
+<m>f(x)=x^2-4x-5</m>
+</p>
+  <table id="ef9098f45e09f55c562374dda4d346daa62a73f9" ><tr><td class='cv'>
+	<m>x</m> </td><td class='c'> <m>f(x)</m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	<m>-2</m> </td><td class='c'> <m>(-2)^2-4(-2)-5=7</m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	<m>-1</m> </td><td class='c'> <m>(-1)^2-4(-1)-5=0</m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	<m>0</m> </td><td class='c'> <m>(0)^2-4(0)-5=-5</m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	<m>1</m> </td><td class='c'> <m>(1)^2-4(1)-5=-8</m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	<m>2</m> </td><td class='c'> <m>(2)^2-4(2)-5=-9</m></td></tr>
+</table> </statement>
+</example>
+  
+<p>
+To complete each row of the table, we simply substitute the specified value for <m>x</m> into the given equation and simplify. So, if we wanted to complete another row in the table, we could substitute <m>x=3</m> into the equation to obtain <m>f(3)=(3)^2-4(3)-5=-8</m>.
+</p>
+  
+<p>
+In the previous example, the <m>y</m>-coordinates for the relation <m>y=x^2-4x-5</m> are represented by <m>f(x)</m>, or more simply <m>y=f(x)</m>. It is important to note that the parentheses in function notation do not represent multiplication. This is a common misconception among students. Instead, one should consider the parentheses as an identifier, enclosing the value of <m>x</m> that the rule <m>f</m> is applied to. This will be especially important as we discuss composite functions later in the chapter.\pp
+</p>
+  
+<p>
+In the following examples we will answer a variety of questions related to functions and their graphs. First, we will consider the case where we are presented with the graph of a particular function and asked to identify specific values of <m>x</m> or <m>f(x)</m> from it.
+</p>
+  \begin{mfpic}[20]{-3}3{-2}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\arrow   \function{1.05,2.5,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\point[3.5pt]{(1,-1)}
+
+
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tcaption{The graph of <m>f</m>}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-2</m>} -2, {-1} -1, {<m>1</m>} 1, {<m>2</m>} 2}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\end{mfpic}  
+<p>
+In our first scenario, we will be provided with an input <m>x</m> and asked to find the output <m>f(x)</m>. To find an output when given a specific input, locate the input value on the <m>x</m>-axis and follow the vertical line (above and below) the input value until it intersects, or "hits", the graph. The corresponding <m>y-</m>coordinate for the point of intersection will be the desired output, <m>y=f(x)</m>.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use the graph of <m>f</m> provided to find the desired outputs.
+</p>
+  
+<md><mrow>f (2) =~?  \amp  \amp  \text{What is~}  y \text{~when~}  x=2?</mrow>
+ <mrow>f (2) = 0 \amp   \amp  \text{Our answer}</mrow>
+  <mrow>f (0) =~? \amp  \amp  \text{What is~}  y \text{~when~}  x=0?</mrow>
+ <mrow>f (0) = 4 \amp   \amp  \text{Our answer}</mrow>
+  <mrow>f (1) =~? \amp  \amp  \text{What is~}  y \text{~when~}  x=1?</mrow>
+ <mrow>f (1) = -1 \amp   \amp  \text{Our answer}</mrow>
+ 
+</md>
+ </statement>
+</example>
+ 
+<p>
+It is important to point out that many students will misinterpret the last example and incorrectly conclude that <m>f(1)=3</m>, since the open circle at <m>(1,3)</m> appears to coincide with the rest of the graph of <m>f</m>. An <i>open</i> circle, however, is used to identify a <i>break</i> in the graph of <m>f</m>, also known as a point of <i>discontinuity</i>. In fact, the given function is not defined at <m>(1,3)</m>, but rather at the <b>solid</b> (or <i>closed</i>) point <m>(1,-1)</m>. Hence, we get a corresponding value of <m>y=-1</m> for <m>f(x)</m>.\pp
+</p>
+  
+<p>
+Next, we will be provided with an output <m>y</m> and asked to find all corresponding inputs <m>x</m> such that <m>f(x)=y</m>. To find all possible inputs, we will make a simple adjustment to the method used in the previous example. Now, we will locate the output value on the <m>y</m>-axis and follow the horizontal line (left and right) of the output value until it intersects, or "hits", the graph. All corresponding <m>x-</m>coordinates for the points of intersection will represent the set of all values of <m>x</m> such that <m>f(x)</m> equals our given output <m>y</m> and should be included as part of our final answer.
+</p>
+  \begin{mfpic}[20]{-3}3{-2}5
+\arrow \reverse \function{-2.5,1,0.1}{4-x**2}
+\arrow   \function{1.05,2.5,0.1}{4-x**2}
+\gclear \circle{(1,3), 0.1}
+\circle{(1,3), 0.1}
+\point[3.5pt]{(1,-1)}
+
+
+\axes
+\tlabel[cc](3,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-2 step 1 until 2 }
+\ymarks{-1 step 1 until 4}
+\tcaption{The graph of <m>f</m>}
+\tlpointsep{5pt}
+
+\axislabels x{{<m>-2</m>} -2, {-1} -1, {<m>1</m>} 1, {<m>2</m>} 2}
+\axislabels y{{<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+
+\end{mfpic}  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use the graph above to find all possible inputs that correspond to the specified output.
+</p>
+  
+<md><mrow>\text{Find~}  x \text{~where~}  f (x) = 0. \amp  \amp  \text{Which inputs for~}  x \text{~have an output of~}  y=0?</mrow>
+ <mrow>x=-2,2 \amp   \amp  \text{Our answers}</mrow>
+ <mrow>\text{Find~}  x \text{~where~}  f (x) = 3. \amp  \amp  \text{Which inputs for~}  x \text{~have an output of~}  y=3?</mrow>
+ <mrow>x=-1 \amp  \amp  \text{Our answer; We should not include~}  x=1.</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Similarly, if we were also asked to find all possible <m>x</m> such that <m>f(x)=-1</m>, then we would end up with three values, since there are three points that intersect the horizontal line <m>y=-1</m>, namely <m>x\approx -2.2</m>, <m>x=1</m>, and <m>x\approx 2.2</m>.\pp
+</p>
+  
+<p>
+There are four major representations of functions: verbal (in words), numerical (using a table), symbolic (with an algebraic expression), and visual (with a graph).
+In many cases, we will be asked to identify one representation of <m>y</m> as a function of <m>x</m> when given a different representation. The next two examples demonstrate this.\pp
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Provide the symbolic form for each of the following verbal descriptions of a function.
+</p>
+  <ol><li>Add <m>2</m> to a value and then take the square root of the resulting value. 
+Our answer<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>f(x)=\sqrt{2+x}</m> </li>
+<li>Take the square root of a value and then add <m>2</m> to the resulting value.
+Our answer<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>g(x)=\sqrt{x}+2</m> </li>
+ </ol>  </statement>
+</example>
+ 
+<p>
+Note: It is often beneficial to rewrite <m>g(x)</m> in the previous example as <m>g(x)=2+\sqrt{x}</m>, so as not to accidentally extend the radical to include the <m>+2</m>.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Provide a graphical representation for the function given by the following table of values.
+</p>
+  <table id="427c5760fca1eaa81fbfaaae9ad47209c35da962" >{m{1.5in}m{3.5in}}
+
+<table id="0c1f72c0534a497b8f0ca09efedef4d84b5c81ce" ><tr><td class='cv'>
+	<m>x</m> </td><td class='c'> <m>f(x)</m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	-3 </td><td class='c'> -1/3</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	-2 </td><td class='c'> -1/2</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	-1 </td><td class='c'> -1</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	-1/2 </td><td class='c'> -2</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	1/2 </td><td class='c'> 2</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	1 </td><td class='c'> 1</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	2 </td><td class='c'> 1/2</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='cv'>
+	3 </td><td class='c'> 1/3</td></tr>
+</table> 
+ 
+&
+
+\begin{mfpic}[20]{-4}4{-3}3
+\arrow \reverse \arrow \function{-3.25,-.35,0.1}{1/x}
+\arrow \reverse \arrow\function{.35,3.25,0.1}{1/x}
+\axes
+\point[3pt]{(-3,-.333),(-2,-.5),(-1,-1),(-.5,-2),(.5,2),(1,1),(2,.5),(3,.333)}
+\tlabel[cc](4,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,3){ <m>y</m>}
+\xmarks{-3 step 1 until 3}
+\ymarks{-2 step 1 until 2}
+\tlpointsep{5pt}
+
+\axislabels x{
+{<m>1</m>} 1,{<m>2</m>} 2,{<m>3</m>} 3}
+\axislabels y{{<m>1</m>} 1, {<m>2</m>} 2}
+
+\end{mfpic}</table> </statement>
+</example>
+  
+<p>
+Since there are often advantages to working with either symbolic or graphical representations of functions, we will focus our attention on working with these two representations. One major test that is used to determine whether or not a graph of a relation represents <m>y</m> as a function of <m>x</m> is known as the Vertical Line Test. We will now state the Vertical Line Test as a mathematical theorem and then demonstrate its use.\pp
+</p>
+  
+<p>
+<b>Vertical Line Test</b>: A set of points in the <m>xy</m>-plane represents <m>y</m> as a function of <m>x</m> if and only if no two points lie on the same vertical line.\pp
+</p>
+  
+<p>
+Alternatively stated, if a graph is known to represent <m>y</m> as a function of <m>x</m>, then there can be no vertical line that intersects the graph in more than one point. Conversely, if a known graph has the property that no vertical line intersects it in more than one point, then the given graph represents <m>y</m> as a function of <m>x</m>.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use the Vertical Line Test to determine whether or not each of the following graphs represent <m>y</m> as a function of <m>x</m>.
+</p>
+  <table id="b1279b74695a862f25d38bf814404f1b0e5b18c2" >{m{2.5in}m{2.5in}}
+
+\begin{mfpic}[14]{-5}5{-5}5
+\axes
+\point[4pt]{(1,1),(2,-3),(2,0),(0,3),(-2,.5)}
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+
+\tcaption{\small<m>\{(1,1),(2,-3),(2,0),(0,3),(-2,1/2)\}</m>}
+
+\end{mfpic}
+\hspace{.25in} 
+ 
+&
+
+\begin{mfpic}[14]{-5}5{-4.5}5
+\polyline{(3,2), (4.5,2)}
+\dashed\polyline{(3,2), (3,-4.5)}
+\fillcolor[gray]{0.8}
+\gfill \rect{(3.05,-4.5), (4.5,1.95)}
+\circle{(3,2), 0.15}
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+
+\tcaption{<m>\{(x,y)~|~x>3</m> ~and~ <m>y\leq 2\}</m>}
+
+\end{mfpic}</table>  <table id="f423b30ec5d6b7052e4786c5546658fe12cb1e88" >{m{2.5in}m{2.5in}}
+
+\begin{mfpic}[14]{-5}5{-5}5
+\parafcn{0,3.14159,0.1}{(3cos(t),3sin(t))}
+\parafcn{0,3.14159,0.1}{(3cos(t),-3sin(t))}
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+
+\tcaption{<m>x^2+y^2=9</m>}
+
+\end{mfpic}
+\hspace{.25in} 
+ 
+&
+
+\begin{mfpic}[14]{-5}5{-5}5
+\arrow \parafcn{0,2.25,0.1}{(t^2,t)}
+\arrow\parafcn{0,-2.25,0.1}{(t^2,t)}
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+
+\tcaption{<m>x=y^2</m>}
+
+\end{mfpic}</table>  <table id="a2763d3e745509c3ec8cfb72db709a807808e6bb" >{m{2.5in}m{2.5in}}
+
+\begin{mfpic}[14]{-5}5{-5}5
+\arrow \reverse \arrow \function{-2.1,2.1,0.1}{x**2}
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+
+\tcaption{<m>y=x^2</m>}
+
+\end{mfpic}
+\hspace{.25in} 
+
+&
+
+\begin{mfpic}[14]{-5}5{-5}5
+\arrow \reverse \arrow \function{-1.25,3.5,0.1}{3-2*x}
+\axes
+\tlabel[cc](5,-0.5){ <m>x</m>}
+\tlabel[cc](0.5,5){ <m>y</m>}
+\xmarks{-4 step 1 until 4}
+\ymarks{-4 step 1 until 4}
+\tlpointsep{5pt}
+
+\tcaption{<m>y=3-2x</m>}
+
+\end{mfpic}</table> </statement>
+</example>
+  
+<p>
+In each example, we utilize the Vertical Line Test by "slicing" through each graph with several vertical lines, located at various values along the <m>x</m>-axis. Consequently, we can see that each of the first four examples at the beginning of the section <i>do not</i> represent <m>y</m> as a function of <m>x</m>, since in each case there exists at least one vertical line that intersects the graph in two (or possibly more) points. The last two examples <i>do</i> represent <m>y</m> as a function of <m>x</m>, since no such vertical line exists. As a result, we say that the first four examples <i>fail</i> the Vertical Line Test, and the last two examples <i>pass</i> the Vertical Line Test.
+</p>
+ </subsection> 
+<subsection>
+<title>Evaluating Functions</title>
+<p>
+Another function-related skill we will want to quickly master is evaluating functions at certain values of the independent variable (usually <m>x</m>). This is accomplished by substituting the specified value into the function for <m>x</m> and simplifying the resulting expression to find <m>f(x)</m>. This idea of "plugging in" values of <m>x</m> to find <m>f(x)</m> is demonstrated in the following examples.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>f(-2)</m>, where <m>f(x)=3x^2-4x</m>.
+</p>
+  
+<md><mrow>f (x) = 3 x^2 - 4 x \amp   \amp  \tmop{Evaluate;~Substitute~} - 2
+    \tmop{~for~each~} x</mrow>
+ <mrow>f (- 2) = 3 (- 2)^2 - 4 (- 2) \amp   \amp  \tmop{Simplify~using~order~of~operations;~exponent~first}</mrow>
+ <mrow>f (- 2) = 3 (4) - 4 (- 2) \amp   \amp  \tmop{Multiply}</mrow>
+ <mrow>f (- 2) = 12 + 8 \amp   \amp  \tmop{Add}</mrow>
+ <mrow>f (- 2) = 20 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>h(4)</m>, where <m>h(x)=3^{2 x - 6}</m>.
+</p>
+  
+<md><mrow>h (x) = 3^{2 x - 6} \amp   \amp  \tmop{Evaluate;~Substitute~} 4
+    \tmop{~for~} x</mrow>
+ <mrow>h (4) = 3^{2 (4) - 6} \amp   \amp  \tmop{Simplify~exponent,~multiplying~first}</mrow>
+ <mrow>h (4) = 3^{8 - 6} \amp   \amp  \tmop{Subtract} \tmop{in} \tmop{exponent}</mrow>
+ <mrow>h (4) = 3^2 \amp   \amp  \tmop{Evaluate} \tmop{exponent}</mrow>
+ <mrow>h (4) = 9 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>k(-7)</m>, where <m>k (a) = 2 |a + 4|</m>.
+</p>
+  
+<md><mrow>k (a) = 2 |a + 4| \amp   \amp  \tmop{Evaluate;~Substitute} -7
+    \tmop{~for~} a</mrow>
+ <mrow>k (- 7) = 2| - 7 + 4| \amp   \amp  \tmop{Simplify,~add~inside~absolute~value}</mrow>
+ <mrow>k (- 7) = 2| - 3| \amp   \amp  \tmop{Evaluate~absolute~value}</mrow>
+ <mrow>k (- 7) = 2 (3) \amp   \amp  \tmop{Multiply}</mrow>
+ <mrow>k (- 7) = 6 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+As the previous examples show, a function can take many different forms, but
+the method to evaluate the function is always the same: replace each instance of the variable with the specified value and simplify.
+</p>
+  
+<p>
+We can also substitute entire expressions into functions using this same process. This idea is known as a <i>composition</i> of two functions or expressions, and will be formally outlined in a later section. We present the following two examples as a preview of this concept.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>g(3x)</m>, where <m>g(x)=x^4+1</m>.
+</p>
+  
+<md><mrow>g (x) = x^4 + 1 \amp   \amp  \tmop{Replace~} x \tmop{~in~the~function~with~}(3 x)</mrow>
+ <mrow>g (3 x) = (3 x)^4 + 1 \amp   \amp  \tmop{Simplify~exponent}</mrow>
+ <mrow>g (3 x) = 81 x^4 + 1 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>p(t+1)</m>, where <m>p(t)=t^2-t</m>.
+</p>
+  
+<md><mrow>p (t) = t^2 - t \amp   \amp  \tmop{Replace~each~} t
+    \tmop{~in~} p (t) \tmop{~with~} (t + 1)</mrow>
+ <mrow>p (t + 1) = (t + 1)^2 - (t + 1) \amp   \amp  \tmop{Simplify;~square~binomial}</mrow>
+ <mrow>p (t + 1) = t^2 + 2 t + 1 - (t + 1) \amp   \amp  \tmop{Distribute~negative~sign}</mrow>
+ <mrow>p (t + 1) = t^2 + 2 t + 1 - t - 1 \amp   \amp  \tmop{Combine~like~terms}</mrow>
+ <mrow>p (t + 1) = t^2 + t \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ <mrow>p (t + 1) = t(t + 1) \amp   \amp  \tmop{Our~solution~in~factored~form}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+As is the case with each of the previous examples, it is important to keep in mind that each expression (or function) will often use the same variable. Hence, it is critical that we recognize that each variable must be replaced by whatever expression appears in parentheses.\pp
+So far, all of the previous examples have shown how to find an output when given a specific input. Next, we will demonstrate how one can also algebraically find which input(s) yield a required output.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Given <m>f(x)=x^2+3x+5</m>, find all <m>x</m> such that <m>f(x)=5</m>.
+</p>
+  
+<md><mrow>f (x) = x^2+3x+5 \amp  \amp  \text{Substitute~5~in~for~}  f(x)</mrow>
+ <mrow>5 = x^2+3x+5  \amp   \amp  \text{Solve for~}  x \text{~by~factoring}</mrow>
+ <mrow>0 = x^2+3x  \amp   \amp  \text{Set~equal~to~0}</mrow>
+ <mrow>0 = x(x+3)  \amp   \amp  \text{Factor}</mrow>
+ <mrow>x=0 \text{~or~}  x= -3  \amp  \amp  \text{Our solutions}</mrow>
+  
+</md>
+ </statement>
+</example>
+  
+<p>
+The above answer can be verified by checking. When we input <m>x=0</m> into the function, we simplify to find that <m>f(0)=5</m>. Similarly, we see that when <m>x=-3</m>, <m>f(-3)=5</m>.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Given <m>h(x)=4x-1</m>, find all <m>x</m> such that <m>h(x)=-3</m>.
+</p>
+  
+<md><mrow>h (x) = 4x-1 \amp  \amp  \text{Substitute~} -3 \text{~for~}  h(x)</mrow>
+ <mrow>-3 = 4x-1  \amp   \amp  \text{Solve~for~} x</mrow>
+ <mrow>-2 = 4x  \amp   \amp  \text{Divide}</mrow>
+ <mrow>x=-\frac{1}{2}  \amp   \amp  \text{Our solution}</mrow>
+  
+</md>
+ </statement>
+</example>
+  
+<p>
+It is important that we become comfortable with function notation and how to use it, as we begin to transition to more advanced algebraic concepts.
+</p>
+ </subsection> </section>

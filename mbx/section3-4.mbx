@@ -1,0 +1,406 @@
+
+<section>
+<title>Vertex Form and Graphing</title>
+<subsection>
+<title>Vertex Form</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Express a quadratic equation in vertex form.}}\pp
+</p>
+  
+<p>
+Recall the two forms of a quadratic equation, shown below. In both forms, assume <m>a\neq 0</m>.
+</p>
+  <table id="4fb9052a72047b35ceaa5bbff10d83206d7c1f43" ><tr><td class='l'>
+Standard Form: </td><td class='c'> </td><td class='c'> <m>y=ax^2+bx+c</m>, where <m>a,b,</m> and <m>c</m> are real numbers</td></tr>
+<tr><td class='l'>
+</td><td class='c'></td><td class='c'></td></tr>
+<tr><td class='l'>
+Vertex Form: </td><td class='c'> </td><td class='c'> <m>y=a(x-h)^2+k,</m> where <m>a,h,</m> and <m>k</m> are real numbers</td></tr>
+</table> 
+<p>
+Unlike the standard form, a quadratic equation written in vertex form allows for immediate recognition of the vertex (<m>h,k</m>), which will always coincide with either a maximum (if <m>a\lt 0</m>) or a minimum (if <m>a>0</m>) on the accompanying graph, called a parabola. Additionally, using the vertex form, we can easily identify the <i>axis of symmetry</i> for the parabola, which is a vertical line <m>x=h</m> that passes through the <m>x</m>-coordinate of the vertex and "splits" the graph into two identical halves.\pp
+When graphing parabolas, it will help to think of the axis of symmetry as a vertical line over which either half of the graph could be "folded", to produce the other half. This will allow us to reflect (by symmetry) any point on the parabola to the other side of the axis of symmetry, and identify another point on the graph. As a result, both points will have the same <m>y</m>-coordinate, and will be (horizontally) equidistant from the axis of symmetry. By reflecting points about the axis of symmetry, we can graph not just one, but two points on the graph, for every single value of <m>x</m> that we plug into the given equation.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Consider <m>y=-2(x+2)^2+1</m>.<br />
+<nbsp /><br />
+In this example we can see immediately that the vertex is at <m>(-2,1)</m>. It is important that we not overlook the negative value for <m>h</m>. The axis of symmetry, passes through the <m>x</m>-coordinate for the vertex, <m>x=-2</m>.
+</p>
+  
+<p>
+\begin{vwcol}[widths={0.7,0.3},
+sep=.8cm, justify=flush,rule=0pt,indent=1em]
+Now to find more points on the parabola we can plug in <m>x=-1</m>. We can see that <m>y = -2(-1+2)^2+1=-1</m>, so <m>(-1,-1)</m> is a point on our parabola.\pp
+Since the point we just located sits one unit to the right of the axis of symmetry, we also know that the point <m>(-3,-1)</m>, sitting one to the left of the axis of symmetry will also be a point on our graph. We can always check this by plugging <m>x=-3</m> into the equation and solving for <m>y</m>.\pp
+In a similar fashion we can plug in <m>x=0</m>, a coordinate that is two units to the right of the axis of symmetry and get a <m>y</m>-coordinate of -7. Thus an <m>x</m>-coordinate two units left of the axis, <m>x=-4</m>, will also yield a <m>y</m>-coordinate of -7. The accompanying graph shows our parabola, with the axis of symmetry appearing as a dashed vertical line at <m>x=-2</m>.
+</p>
+  
+<p>
+\begin{mfpic}[20]{-4}{0.5}{-7}3
+\arrow \reverse \arrow \function{-4,0,.1}{((-2)*((x+2)**2))+1}
+\axes
+\xmarks{-4,-3,-2,-1}
+\ymarks{-7,-6,-5,-4,-3,-2,-1,1,2}
+\tlabelsep{3pt}
+\dashed \arrow \reverse \arrow[1 5pt]
+\polyline{(-2,-7),(-2,2)}
+\axislabels x{{<m>-4</m>}-4,{<m>-3</m>}-3,{<m>-2</m>}-2,{<m>-1</m>}-1}
+\axislabels y{{<m>-7</m>}-7,{<m>-6</m>}-6,{<m>-5</m>}-5,{<m>-4</m>}-4,{<m>-3</m>}-3, {<m>-2</m>}-2,{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2}
+\end{mfpic}
+\end{vwcol}
+</p>
+ </statement>
+</example>
+  
+<p>
+We began the discussion of vertex form in the introductory section of this chapter. It follows naturally to learn how to transform a quadratic equation that is given in standard form into one written in vertex form.\pp
+If <m>y=ax^2+bx+c</m> (<m>a\neq0</m>), we can identify the <m>x</m>-coordinate for the vertex (and consequently the equation for the axis of symmetry) using the following formula.
+</p>
+  
+<me>
+h=-~\frac{b}{2a}
+</me>
+ 
+<p>
+After identifying <m>h</m>, we can determine based upon the sign of the leading coefficient <m>a</m> whether the vertex will be a maximum (if <m>a</m> is negative, <m>a\lt 0</m>) or a minimum (if <m>a</m> is positive, <m>a>0</m>). The equation for the vertical line <m>x=h</m> will be our axis of symmetry.\pp
+</p>
+  
+<p>
+Finally, we know that the <m>y</m>-coordinate for our vertex must occur somewhere on the axis of symmetry. This can easily be found by plugging <m>x=h</m> back into the given equation for our quadratic, and simplifying to find the <m>y</m>-coordinate, which we will relabel as <m>k</m>.\pp
+</p>
+  
+<p>
+Once we have <m>h</m> and <m>k</m>, we can use them, along with <m>a</m>, to write the vertex form for our quadratic,
+</p>
+  
+<me>
+y=a(x-h)^2+k.
+</me>
+ 
+<p>
+The following examples will clearly demonstrate this process.<br />
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Identify the vertex and axis of symmetry for the parabola represented by the given quadratic equation.
+</p>
+  
+<md><mrow>y=x^2+8x-12       \amp   \amp  \text{Given an equation in standard form}</mrow>
+ <mrow>a=1,~~~b=8,~~~c=-12       \amp   \amp  \text{Identify~}  a,b, \text{~and~}  c</mrow>
+ <mrow>h=-~\frac{b}{2a}=-~\frac{8}{2(1)}=-4 \amp  \amp  \text{Identify~}  h</mrow>
+ <mrow>x=-4 \amp  \amp  \text{Use~}  h \text{~for~axis~of~symmetry,~a~vertical~line}</mrow>
+ <mrow>k= (-4)^2+8(-4)-12   \amp   \amp  \text{Plug in~}  h \text{~to~find~}  k</mrow>
+ <mrow>k= 16-32-12= -28  \amp   \amp \mathrm{Simplify}</mrow>
+ <mrow>(-4,-28)    \amp   \amp  \text{Write the vertex as an ordered pair <m>(h,k)</m>}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Identify the vertex and axis of symmetry for the parabola represented by the given quadratic equation.
+</p>
+  
+<md><mrow>y=-3x^2+6x-1      \amp   \amp \text{Given an equation in standard form}</mrow>
+ <mrow>a=-3,~~~b=6,~~~c=-1       \amp   \amp  \text{Identify~}  a,b, \text{~and~}  c</mrow>
+ <mrow>h=-~\frac{b}{2a}=-~\frac{6}{2(-3)}=1 \amp  \amp  \text{Identify~}  h</mrow>
+ <mrow>x=1 \amp  \amp  \text{Use~}  h \text{~for~axis~of~symmetry,~a~vertical~line}</mrow>
+ <mrow>k= -3(1)^2+6(1)-1   \amp   \amp  \text{Plug in~}  h \text{~to~find~}  k</mrow>
+ <mrow>k= -3+6-1= 2  \amp   \amp \mathrm{Simplify}</mrow>
+ <mrow>(1,2)    \amp   \amp  \text{Write the vertex as an ordered pair <m>(h,k)</m>}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Identify the vertex and axis of symmetry for the parabola represented by the given quadratic equation.
+</p>
+  
+<md><mrow>y=-x^2-12      \amp   \amp  \text{Given an equation in standard form}</mrow>
+ <mrow>a=-1,~~~b=0,~~~c=-12       \amp   \amp  \text{Identify~}  a,b, \text{~and~}  c</mrow>
+ <mrow>h=-~\frac{b}{2a}=-~\frac{0}{2(-1)}=0 \amp  \amp  \text{Identify~}  h</mrow>
+  
+</md>
+  
+<md><mrow>x=0 \amp  \amp  \text{Use~}  h \text{~for~axis~of~symmetry,~a~vertical~line}</mrow>
+ <mrow>k= -(0)^2-12   \amp   \amp  \text{Plug in~}  h \text{~to~find~}  k</mrow>
+ <mrow>k= 0-12= -12  \amp   \amp \mathrm{Simplify}</mrow>
+ <mrow>(0,-12)    \amp   \amp  \text{Write the vertex as an ordered pair <m>(h,k)</m>}</mrow>
+ 
+</md>
+ </statement>
+</example>
+ 
+<p>
+There is a more algebraic (and complicated) method of transforming a quadratic equation given in standard form into one that is in vertex form, known as <i>completing the square</i>. This method will be explained in detail towards the end of the chapter.\pp
+We will also see how the vertex form can be particularly useful when solving a quadratic equation, in order to identify the <m>x</m>-intercepts of the corresponding parabola. Solving a quadratic equation using the vertex form is know as the method of <i>extracting square roots</i>, and will be seen once we have had a thorough discussion of square roots, as well as complex numbers.
+</p>
+ </subsection> 
+<subsection>
+<title>Graphing Quadratics</title>
+<p>
+\pp
+</p>
+  
+<p>
+{\tmstrong{Objective: Graph quadratic equations using the vertex,
+<m>x</m>-intercepts, and <m>y</m>-intercept.}}\pp
+</p>
+  
+<p>
+Up until now, we have discussed the general shape of the graph of a quadratic equation (known as a <i>parabola</i>), but have only seen a few examples. Furthermore, most of our examples have only identified the vertex of the parabola, and perhaps an <m>x-</m> or <m>y-</m>intercept of the graph. Although these examples have been able to show us the general shape of each graph (where it is centered, whether it opens up or down, whether it is narrow or wide), our steps for obtaining each graph have not followed a standard procedure. Here, we will define that procedure more precisely, and provide a few examples for reinforcement.\pp
+</p>
+  
+<p>
+One way that we can always build a picture of the general shape of a graph is to make a table of values, as we will do in our first example.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Sketch a graph of the quadratic equation <m>y = x^2 - 4 x + 3</m> by making a table of values and plotting points on the graph.\pp
+We will test five values to get an idea of the shape of the graph.
+</p>
+  <table id="89af50698880c08a31e1b57c510e59293f66c859" ><tr><td class='hline' colspan='6'><hr /></td></tr>
+<tr><td class='vcv'> 
+	<m>x</m> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />0<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />1<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />2<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />3<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />4<nbsp /><nbsp /><nbsp /><nbsp /></td></tr>
+<tr><td class='hline' colspan='6'><hr /></td></tr>
+<tr><td class='vcv'> 
+	<m>y</m> </td><td class='cv'>  </td><td class='cv'>  </td><td class='cv'>  </td><td class='cv'>  </td><td class='cv'> </td></tr>
+<tr><td class='hline' colspan='6'><hr /></td></tr>
+
+</table>  <table id="b297280b15030875144a8059d97f96111e40562c" ><tr><td class='l'>
+	  <m>y =(0)^2 + 4 (0) + 3=0 - 0 + 3~~=~3</m> </td><td class='c'></td><td class='l'>  Plug in 0 for <m>x</m> and evaluate.</td></tr>
+<tr><td class='l'>
+		<m>y =(1)^2 - 4 (1) + 3=1 - 4 + 3~~=~0</m> </td><td class='c'></td><td class='l'>  Plug in 1 for <m>x</m> and evaluate.</td></tr>
+<tr><td class='l'>
+    <m>y =(2)^2 - 4 (2) + 3=4 - 8 + 3~~=- 1</m> </td><td class='c'></td><td class='l'>  Plug in 2 for <m>x</m> and evaluate.</td></tr>
+<tr><td class='l'>
+    <m>y =(3)^2 - 4 (3) + 3=9 - 12 + 3~=~0</m> </td><td class='c'></td><td class='l'>  Plug in 3 for <m>x</m> and evaluate.</td></tr>
+<tr><td class='l'>
+    <m>y =(4)^2 - 4 (4) + 3=16 - 16 + 3=~3</m> </td><td class='c'></td><td class='l'>  Plug in 4 for <m>x</m> and evaluate.</td></tr>
+</table>  
+<p>
+Our completed table is below. Plot the points on the <m>xy-</m>plane.
+</p>
+  <table id="faa20475c436d4f139c8161c8a3255db780a6a6f" ><tr><td class='hline' colspan='6'><hr /></td></tr>
+<tr><td class='vcv'> 
+	<m>x</m> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />0<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />1<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />2<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />3<nbsp /><nbsp /><nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /><nbsp /><nbsp />4<nbsp /><nbsp /><nbsp /><nbsp /></td></tr>
+<tr><td class='hline' colspan='6'><hr /></td></tr>
+<tr><td class='vcv'> 
+	<m>y</m> </td><td class='cv'> 3 </td><td class='cv'> 0 </td><td class='cv'> -1 </td><td class='cv'> 0 </td><td class='cv'> 3</td></tr>
+<tr><td class='hline' colspan='6'><hr /></td></tr>
+
+</table> </statement>
+</example>
+ 
+<p>
+<nbsp /><br />
+\begin{vwcol}[widths={0.65,0.35},
+sep=.8cm, justify=flush,rule=0pt,indent=1em]
+<nbsp /><br />
+<nbsp /><br />
+Plot the points <m>(0, 3), (1, 0), (2, - 1), (3, 0),</m> and <m>(4, 3)</m>.<br />
+<nbsp /><br />
+Connect the dots with a smooth curve.
+</p>
+  
+<p>
+\begin{mfpic}[15]{-1}5{-1.5}{5.0}
+\arrow \reverse \arrow \function{-.5,4.5,.1}{(((x-2)**2))-1}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,1,2,3,4}
+\tlabelsep{3pt}
+\axislabels x{{<m>1</m>}1, {<m>2</m>}2,{<m>3</m>}3,{<m>4</m>}4 }
+\axislabels y{{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2, {<m>3</m>}3,{<m>4</m>}4}
+\plotsymbol[4]{SolidCircle}{(0,3),(1,0),(2,-1),(3,0),(4,3)}
+\end{mfpic}
+\end{vwcol}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+{\tmstrong{World View Note: }}The first major female mathematician was
+Hypatia of Egypt who was born around 370 A.D.. She studied conic sections. The
+parabola is one type of conic section.\pp
+The above method to graph a parabola works for any equation, however, it can be very difficult to find a sufficient collection of points in order to identify the overall shape of the complete graph. For this reason, we will now formally identify several key points on the graph of a parabola, which will enable us to always determine a complete graph. These points are the <m>y-</m>intercept, <m>x-</m>intercepts, and the vertex <m>(h,k)</m>.<br />
+</p>
+  
+<p>
+\begin{mfpic}[18]{-1}4{-4.5}{3.5}
+\arrow \reverse \arrow \function{-1.5,3.5,.1}{(((x-1)**2))-4}
+\axes
+\tlabelsep{3pt}
+\pointdef{B}(-1,0)
+\pointdef{A}(0,-3)
+\pointdef{C}(3,0)
+\pointdef{V}(1,-4)
+</p>
+  
+<p>
+\point{\A, \B, \C, \V}
+\tlpointsep{3pt}
+\tlabels
+{
+				[cl](-1,-3 ){<m>A</m>} [cc](-0.75,0.5){<m>B</m>} [cc](2.75,0.5){<m>C</m>} [cc](1,-3.5){<m>V</m>}}
+\tlpointsep{6pt}
+\end{mfpic}
+</p>
+  
+<p>
+<nbsp /><br />	
+	
+Point <m>A</m>: <m>y</m>-intercept; where the graph crosses the vertical <m>y</m>-axis (when <m>x=0</m>).\pp
+Points <m>B</m> and <m>C</m>: <m>x</m>-intercepts; where the graph crosses the horizontal <m>x</m>-axis (when <m>y=0</m>)\pp
+	Point <m>V</m>: vertex (<m>h,k</m>); The point of the minimum (or maximum) value, where the graph changes direction.
+</p>
+  
+<p>
+We will use the following method to find each of the key points on our parabola.
+</p>
+  {\tmstrong{Steps for graphing a quadratic in standard form, <m>y = a x^2 + b x + c</m>.}}  <ol><li>Identify and plot the vertex: <m>h = -\displaystyle\frac{b}{2 a}</m>. Plug <m>h</m> into the equation to find <m>k</m>.  Resulting point is <m>(h,k)</m>.</li>
+<li>Identify and plot the <m>y</m>-intercept: Set <m>x = 0</m> and solve.  The <m>y</m>-intercept will correspond to the constant term <m>c</m>.  Resulting point is <m>(0,c)</m>.</li>
+<li>Identify and plot the <m>x</m>-intercept(s): Set <m>y = 0</m> and solve for <m>x</m>.  Depending on the expression, we will end up with zero, one or two <m>x-</m>intercepts.\pp
+	<b>Important:</b> Up until now, we have only discussed how to solve a quadratic equation for <m>x</m> by factoring.  If an expression is not easily factorable, we may not be able to identify the <m>x</m>-intercepts.  Soon, we will learn of two additional methods for finding <m>x</m>-intercepts, which will prove especially useful, when an equation is not easily factorable.</li>
+ </ol>  
+<p>
+After ploting these points we can connect them with a smooth curve to find a complete sketch of our parabola!<br />
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Provide a complete sketch of the equation <m>y = x^2 + 4 x + 3</m>.
+</p>
+  
+<md><mrow>y = x^2 + 4 x + 3 \amp   \amp  \tmop{Find} \tmop{the} \tmop{key} \tmop{points}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>h = -\frac{4}{2 (1)} = -\frac{4}{2} = - 2 \amp   \amp  \tmop{To} \tmop{find}
+    \tmop{the} \tmop{vertex}, \tmop{use~} h = -\frac{b}{2 a}</mrow>
+ <mrow>k = (- 2)^2 + 4 (- 2) + 3 \amp   \amp  \tmop{Plug} h \tmop{into~the} \tmop{equation} \tmop{to} \tmop{find} k</mrow>
+ <mrow>k = 4 - 8 + 3 \amp   \amp  \tmop{Evaluate}</mrow>
+ <mrow>k = - 1 \amp   \amp  \tmop{The} y \tmop{-coordinate~of~the~vertex}</mrow>
+ <mrow>(- 2, - 1) \amp   \amp  \tmop{Vertex} \tmop{as~a} \tmop{point}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y = 3 \amp   \amp  (0,c) \tmop{~is} \tmop{the} y \tmop{-intercept}</mrow>
+ 
+</md>
+  
+<md><mrow>0 = x^2 + 4 x + 3 \amp   \amp  \tmop{To} \tmop{find~the~} x \tmop{-intercept}
+    \tmop{we} \tmop{solve} \tmop{the} \tmop{equation}</mrow>
+ <mrow>0 = (x + 3) (x + 1) \amp   \amp  \tmop{Factor}</mrow>
+ <mrow>x + 3 = 0 \tmop{~and~} x + 1 = 0~~~ \amp   \amp  \tmop{Set} \tmop{each} \tmop{factor}
+    \tmop{equal} \tmop{to} \tmop{zero}</mrow>
+ <mrow>\tmmathbf{\underline{- 3 ~~- 3} ~~~~~~~~ \underline{- 1 ~~- 1}} \amp   \amp  \tmop{Solve} \tmop{each}
+    \tmop{equation}</mrow>
+ <mrow>x = - 3 \tmop{~~and~~} x = - 1~ \amp   \amp  \tmop{Our} x\tmop{-intercepts}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+\begin{vwcol}[widths={0.6,0.4},
+sep=.8cm, rule=0pt]
+</p>
+  
+<p>
+Graph the <m>y</m>-intercept at <m>(0,3)</m>,\pp
+		the <m>x</m>-intercepts at <m>(- 3,0)</m> and <m>(- 1,0)</m>,\pp
+		and the vertex at <m>(- 2, - 1)</m>.\pp
+		Connect the dots with a smooth curve<br />
+		
+		in a `U'-shape to get our parabola.<br />
+		
+		\begin{mfpic}[18]{-4.5}{0.75}{-1.5}{5.5}
+\arrow \reverse \arrow \function{-4.25,0.25,.1}{(((x+2)**2))-1}
+\axes
+\xmarks{-3,-2,-1}
+\ymarks{-1,1,2,3}
+</p>
+  
+<p>
+\axislabels x{{<m>-3</m>}-3,{<m>-2</m>}-2,{<m>-1</m>}-1,}
+\axislabels y{{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2, {<m>3</m>}3}
+\plotsymbol[4]{SolidCircle}{(-2,-1),(-3,0),(-1,0),(0,3)}
+\end{mfpic}
+\end{vwcol}
+Remember that if <m>a>0</m>, then our parabola will open upwards, as in the previous example. In our next example, <m>a\lt 0</m>, and the resulting parabola will open downwards.
+</p>
+  
+<example><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Provide a complete sketch of the equation<br />
+<m>y = - 3 x^2 + 12 x - 9</m>.
+</p>
+  
+<md><mrow>y = - 3 x^2 + 12 x - 9 \amp   \amp  \tmop{Find} \tmop{key} \tmop{points}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>h = -\frac{12}{2 (- 3)} = -\frac{12}{- 6} = 2 \amp   \amp  \tmop{To} \tmop{find}
+    \tmop{the} \tmop{vertex}, \tmop{use~} h = -\frac{b}{2 a}</mrow>
+ <mrow>k = - 3 (2)^2 + 12 (2) - 9 \amp   \amp  \tmop{Plug} h \tmop{into~the} \tmop{equation} \tmop{to} \tmop{find} k</mrow>
+ <mrow>k = - 3 (4) + 24 - 9 \amp   \amp  \tmop{Evaluate}</mrow>
+ <mrow>k = 3 \amp   \amp  \tmop{The} y \tmop{-coordinate~of~the~vertex}</mrow>
+ <mrow>(2, 3) \amp   \amp  \tmop{Vertex} \tmop{as~a} \tmop{point}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y = -9 \amp   \amp  (0,c) \tmop{~is} \tmop{the} y \tmop{-intercept}</mrow>
+  
+</md>
+  
+<md><mrow>0 = - 3 x^2 + 12 x - 9 \amp   \amp  \tmop{To} \tmop{find~the~} x \tmop{-intercept}
+    \tmop{we} \tmop{solve} \tmop{the} \tmop{equation}</mrow>
+ <mrow>0 = - 3 (x^2 - 4 x + 3) \amp   \amp  \tmop{Factor} \tmop{out} \tmop{GCF}
+    \tmop{first}</mrow>
+ <mrow>0 = - 3 (x - 3) (x - 1) \amp   \amp  \tmop{Factor~remaining~trinomial}</mrow>
+ <mrow>x - 3 = 0 \tmop{~and~} x - 1 = 0~~ \amp   \amp  \tmop{Set~each~factor~with~a~variable~equal~to~zero}</mrow>
+ <mrow>\tmmathbf{\underline{+ 3 ~~+ 3} ~~~~~~~~ \underline{+ 1 ~+ 1}} \amp   \amp  \tmop{Solve} \tmop{each}
+    \tmop{equation}</mrow>
+ <mrow>x =  3 \tmop{~~~and~~~~} x =  1~~ \amp   \amp  \tmop{Our} x\tmop{-intercepts}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+\begin{mfpic}[20]{-0.5}5{-10.5}4
+\arrow \reverse \arrow \function{-0.1,4.1,.1}{((-3)*((x-2)**2))+3}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3}
+\axislabels x{{<m>1</m>}1, {<m>2</m>}2,{<m>3</m>}3,{<m>4</m>}4}
+\axislabels y{{<m>-9</m>}-9,{<m>-8</m>}-8,{<m>-7</m>}-7,{<m>-6</m>}-6,{<m>-5</m>}-5,{<m>-4</m>}-4,{<m>-3</m>}-3,{<m>-2</m>}-2,{<m>-1</m>}-1,{<m>1</m>}1,{<m>2</m>}2, {<m>3</m>}3}
+\plotsymbol[4]{SolidCircle}{(0,-9),(1,0),(2,3),(3,0)}
+\end{mfpic}
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+Graph the <m>y</m>-intercept at <m>(0,-9)</m>,\pp
+the <m>x</m>-intercepts at <m>(3,0)</m> and <m>(1,0)</m>,\pp
+and the vertex at <m>(2,3)</m>.\pp
+Connect the dots with a smooth curve
+		
+in a `U'-shape to get our parabola.
+</p>
+  
+<p>
+Remember that the graph of any quadratic is a parabola with the
+same `U'-shape (opening up or down). If we plot our points and we
+cannot connect them in the correct `U'-shape, then one or more of our points is likely to be incorrect. If this happens, a simple check of our calculations should identify where any mistakes were made! Each of our examples have involved quadratics that were easily factorable. Although we can still graph quadratics such as <m>y=x^2-3</m> without actually identifying the <m>x-</m>intercepts, being able to identify them by solving <m>x^2-3=0</m> and other more involved quadratic equations for <m>x</m> is a skill that we will eventually come to master.
+</p>
+ </subsection> </section>

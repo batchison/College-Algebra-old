@@ -1,0 +1,406 @@
+
+<section>
+<title>Matrix Notation</title>
+<p>
+{\tmstrong{Objective: Represent a system of linear equations as an augmented matrix. Solve a system of linear equations using matrix row reduction.}}\pp
+In this section, we will solve systems of linear equations using matrices and row operations. The first step will be to represent a system as an augmented matrix, as in the following example.
+</p>
+    <u>System</u>\pp
+<m>x-2y+z=7</m><br />
+<m>3x-5y+z=14</m><br />
+<m>2x-2y-z=3</m><br />
+<u>Augmented Matrix</u>\pp
+<m>\left[\begin{array}{ccc|c}
+1 \amp  -2 \amp  ~~1 \amp  7\\
+3 \amp  -5 \amp  ~~1 \amp  14\\
+2 \amp  -2 \amp  -1 \amp  3~
+\end{array} \right]</m>  
+<p>
+In our example the entries in the first three columns of the matrix are given by the coefficients of each of the variables in their corresponding equations; the first column contains the coefficients of <m>x</m>, the second column contains the coefficients of <m>y</m>, and the third the coefficients of <m>z</m>. The last column of the matrix will always contain the constant term from each equation, and is separated from the coefficient columns by a vertical line. Each row of the matrix should also match its respective equation in the ordered system.
+\pp
+The following row operations may be used to reduce an augmented matrix.
+</p>
+  <ol><li>Interchange two rows.</li>
+<li>Multiply all entries of a row by a nonzero constant.</li>
+<li>Add one row to another row.</li>
+ </ol>  
+<p>
+Furthermore, multiple row operations may be used in combination, as our first example will demonstrate.\pp
+</p>
+  
+<p>
+Initially, our goal will be to transform (or reduce) the given augmented matrix using the row operations specified above into a matrix in <i>triangular form</i>. A matrix obtained from our original matrix that is in triangular form will have a solution that equals the solution for our original matrix, but which will be easier to identify.
+\pp
+{\tmstrong{World View Note:}} Transforming a matrix to triangular form is commonly referred to as <i>Gaussian elimination</i>, named after the German mathematician Carl Friedrich Gauss (1777-1855).
+\pp
+We will now use the specified row reduction operations to transform our given matrix to a matrix in triangular form.
+</p>
+  
+<example><statement>
+<md><mrow>~~~~~~~~~~~~\text{Original~Matrix} 
+\amp  \amp 
+~~~~~~~~~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  -2 \amp  ~~1 \amp  7\\
+3 \amp  -5 \amp  ~~1 \amp  14\\
+2 \amp  -2 \amp  -1 \amp  3~\\
+\end{array} \right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 1 by -3 and} \\
+\text{~~~add to Row 2 (replacing Row 2)} \\
+\text{Symbolic: R2+(-3)R1~} \Rightarrow \text{~R2} 
+\end{array} 
+\amp \amp 
+\left[
+\begin{array}{ccc|c}
+1 \amp  -2 \amp  ~~1 \amp  ~7\\
+0 \amp  ~~1 \amp  -2 \amp  -7\\
+2 \amp  -2 \amp  -1 \amp  ~3\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 1 by -2 and} \\
+\text{~~~add to Row 3} \\
+\text{Symbolic: R3+(-2)R1~} \Rightarrow \text{~R3} 
+\end{array} 
+\amp \amp 
+~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  -2 \amp  ~~1 \amp  ~~7\\
+0 \amp  ~~1 \amp  -2 \amp  -7\\
+0 \amp  ~~2 \amp  -3 \amp  -11\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 2 by -2 and} \\
+\text{~~~add to Row 3} \\
+\text{Symbolic: R3+(-2)R2~} \Rightarrow \text{~R3} 
+\end{array} 
+\amp \amp 
+~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  -2 \amp  ~~1 \amp  ~7\\
+0 \amp  ~~1 \amp  -2 \amp  -7\\
+0 \amp  ~~0 \amp  ~~1 \amp  ~3\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<p>
+The new matrix is now in triangular form, with resulting system of equations listed below.
+</p>
+  <m>x-2y+z=~7</m><br />
+<m>~~~~~~~y-2z=-7</m><br />
+<m>~~~~~~~~~~~~z=~3</m> 
+<p>
+At this point, we can easily solve the new system by first substituting <m>z=3</m> into the second equation to find <m>y</m>, and then substituting both known values for <m>z</m> and <m>y</m> into the first equation to find <m>x</m>. This results in the following solution, which the reader can easily verify.
+</p>
+  
+<me>
+(x,y,z)=(2,-1,3)
+</me>
+ </statement>
+</example>
+ 
+<p>
+It is also worth mentioning that, just as with every problem we have encountered, it is straightforward to check whether a particular answer is correct. In our previous example, this will amount to plugging <m>(x,y,z)=(2,-1,3)</m> into each equation and simplifying. Although this can be a tedious process, it is important to do every so often, in order to ensure accuracy. In the previous example, we see below that the answer checks out.
+</p>
+  <table id="b3df917d8f81560e41b56c7977c09158d8f49f71" ><tr><td class='c'>
+<m>x-2y+z=7</m></td><td class='c'>=</td><td class='c'><m>2-2(-1)+3</m></td><td class='c'>=</td><td class='c'><m>2+2+3</m></td><td class='c'>=</td><td class='c'><m>7</m></td></tr>
+<tr><td class='c'>
+<m>3x-5y+z=14</m></td><td class='c'>=</td><td class='c'><m>3(2)-5(-1)+3</m></td><td class='c'>=</td><td class='c'><m>6+5+3</m></td><td class='c'>=</td><td class='c'><m>14</m></td></tr>
+<tr><td class='c'>
+<m>2x-2y-z=3</m></td><td class='c'>=</td><td class='c'><m>2(2)-2(-1)-3</m></td><td class='c'>=</td><td class='c'><m>4+2-3</m></td><td class='c'>=</td><td class='c'><m>3</m></td></tr>
+</table> 
+<p>
+The last matrix obtained in the previous example is said to be in <b>row echelon form</b>. A matrix is in row echelon form if the following conditions are satisfied.
+</p>
+  <ol><li>Any row consisting entirely of zeros (if any exist) is listed at the bottom of the matrix.</li>
+<li>The first coefficient entry of any nonzero row (i.e., a row that does not consist entirely of zeros) is 1.  We will call such an entry a "leading one".</li>
+<li>The leading ones indent.  In other words, the column number for the leading ones increases from left to right as the row numbers increase from top to bottom.</li>
+ </ol>  
+<p>
+In fact, if we continue to apply the permissible row operations to the row echelon form of a matrix, we can obtain a matrix in which all the columns that contain a leading one will have zeros elsewhere. This particular type of matrix is known as the <b><i>reduced</i> row echelon form</b> of a matrix.\pp
+Continuing with our previous example, we will obtain the reduced row echelon form for our original augmented matrix.
+</p>
+  
+<example><statement>
+<md><mrow>~~~~~~~~~~\text{Row Echelon Form} 
+\amp \amp 
+~~~~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  -2 \amp  ~~1 \amp  ~7\\
+0 \amp  ~~1 \amp  -2 \amp  -7\\
+0 \amp  ~~0 \amp  ~~1 \amp  ~3\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 2 by 2 and} \\
+\text{~~~add to Row 1} \\
+\text{Symbolic: R1+(2)R2~} \Rightarrow \text{~R1} 
+\end{array} 
+\amp \amp 
+~~\left[
+\begin{array}{ccc|c}
+1 \amp  0 \amp  -3 \amp  -7\\
+0 \amp  1 \amp  -2 \amp  -7\\
+0 \amp  0 \amp  ~~1 \amp  ~3\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 3 by 2 and} \\
+\text{~~~add to Row 2} \\
+\text{Symbolic: R2+(2)R3~} \Rightarrow \text{~R2} 
+\end{array} 
+\amp \amp 
+~~\left[
+\begin{array}{ccc|c}
+1 \amp  0 \amp  -3 \amp  -7\\
+0 \amp  1 \amp  ~~0 \amp  -1\\
+0 \amp  0 \amp  ~~1 \amp  ~3\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 3 by 3 and} \\
+\text{~~~add to Row 1} \\
+\text{Symbolic: R1+(3)R3~} \Rightarrow \text{~R1} 
+\end{array} 
+\amp \amp 
+\left[
+\begin{array}{ccc|c}
+1 \amp  0 \amp  0 \amp  ~2\\
+0 \amp  1 \amp  0 \amp  -1\\
+0 \amp  0 \amp  1 \amp  ~3\\
+\end{array} 
+\right]</mrow>
+ 
+</md>
+ </statement>
+</example>
+ 
+<p>
+Our resulting equations are shown below.
+</p>
+  <m>x=~2</m><br />
+<m>~y=-1</m><br />
+<m>z=~3</m> 
+<p>
+Consequently, no additional work is needed to obtain our solution!\pp
+This example helps demonstrate the benefit to solving a given system of equations by row reducing its corresponding augmented matrix. And, although the row echelon form was certainly helpful in completing our task, by continuing our row reduction to obtain the <i>reduced</i> row echelon form of the matrix we completely eliminated the requirement to directly solve any equations.\pp
+This is because the applied row operations have done the work of solving the equations for us. In fact, throughout our reduction process, it would not be difficult for us to "translate" each step into an application of the addition/elimination procedure learned earlier in the chapter. So, although row reducing an augmented matrix may appear somewhat as `mathematical magic', it is nothing more than a prescribed arithmetic manipulation of coefficients and constants to achieve a solution to a system of equations.\pp
+We continue with our next example.
+</p>
+    <u>System</u>\pp
+<m>x+y+z=3</m><br />
+<m>2x+y+4z=8</m><br />
+<m>x+2y-z=1</m><br />
+<u>Augmented Matrix</u>\pp
+<m>\left[\begin{array}{ccc|c}
+1 \amp  1 \amp  ~~1 \amp  3\\
+2 \amp  1 \amp  ~~4 \amp  8\\
+1 \amp  2 \amp  -1 \amp  1
+\end{array} \right]</m>  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 1 by -2 and} \\
+\text{~~~add to Row 2} \\
+\text{Symbolic: R2+(-2)R1~} \Rightarrow \text{~R2} 
+\end{array} 
+\amp \amp 
+~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  ~~1 \amp  ~~1 \amp  3\\
+0 \amp  -1 \amp  ~~2 \amp  2\\
+1 \amp  ~~2 \amp  -1 \amp  1
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 1 by -1 and} \\
+\text{~~~add to Row 3} \\
+\text{Symbolic: R3+(-1)R1~} \Rightarrow \text{~R3} 
+\end{array} 
+\amp \amp 
+~~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  ~~1 \amp  ~~1 \amp  ~~3\\
+0 \amp  -1 \amp  ~~2 \amp  ~~2\\
+0 \amp  ~~1 \amp  -2 \amp  -2
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Add Row 2 to Row 3} \\
+\text{Symbolic: R3+R2~} \Rightarrow \text{~R3} 
+\end{array} 
+\amp \amp 
+~~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  ~~1 \amp  1 \amp  3\\
+0 \amp  -1 \amp  2 \amp  2\\
+0 \amp  ~~0 \amp  0 \amp  0
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Add Row 2 to Row 1} \\
+\text{Symbolic: R1+R2~} \Rightarrow \text{~R1} 
+\end{array} 
+\amp \amp 
+~~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  ~~0 \amp  3 \amp  5\\
+0 \amp  -1 \amp  2 \amp  2\\
+0 \amp  ~~0 \amp  0 \amp  0
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 2 by -1} \\
+\text{Symbolic: (-1)R2~} \Rightarrow \text{~R2} 
+\end{array} 
+\amp \amp 
+~~~~~~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  0 \amp  ~~3 \amp  ~~5\\
+0 \amp  1 \amp  -2 \amp  -2\\
+0 \amp  0 \amp  ~~0 \amp  ~~0
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<p>
+Our last matrix is in reduced row echelon form, since the row containing all zeros occurs at the bottom and the two columns that contain leading ones also contain zeros elsewhere. The resulting system of equations is shown below.
+</p>
+  <m>x+3z=~5</m><br />
+<m>~~y-2z=-2</m><br />
+<m>~~~~~~~~0=~0</m> 
+<p>
+The last equation in our system (<m>0=0</m>) above can be interpreted to mean that the variable <m>z</m> in this example is an <i>independent variable</i>. In other words, we are free to choose any real number for <m>z</m> (since <m>0=0</m> is a true statement). On the other hand, the variables <m>x</m> and <m>y</m> in this case are <i>dependent variables</i>, since they depend on the choice of <m>z</m>. Specifically, solving for both <m>x</m> and <m>y</m>, we get <m>x=5-3z</m> and <m>y=-2+2z</m>. Since we are free to choose any value for <m>z</m>, we may conclude that there are infinitely many solutions to the given system of equations. Moreover, a solution to the given system must be of the following form.
+</p>
+  
+<me>
+(x,y,z)=(5-3z,-2+2z,z)
+</me>
+ 
+<p>
+Furthermore, we may once again check that our solution makes sense by plugging it back into the original system.
+</p>
+  <table id="1b9d824db42c5bcfd2a549b70386cbede9263851" ><tr><td class='c'>
+<m>x+y+z</m></td><td class='c'>=</td><td class='l'><m>(5-3z)+(-2+2z)+z</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>5-3z-2+2z+z</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>(5-2)+(-3z+2z+z)</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>3</m></td></tr>
+</table>  <table id="8342c27e19b17674f77ca2a48013374795777187" ><tr><td class='c'>
+<m>2x+y+4z</m></td><td class='c'>=</td><td class='l'><m>2(5-3z)+(-2+2z)+4z</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>10-6z-2+2z+4z</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>(10-2)+(-6z+2z+4z)</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>8</m></td></tr>
+</table>  <table id="8db3cb0891746a73c98c2075965af5713fb8172d" ><tr><td class='c'>
+<m>x+2y-z</m></td><td class='c'>=</td><td class='l'><m>(5-3z)+2(-2+2z)-z</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>5-3z-4+4z-z</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>(5-4)+(-3z+4z-z)</m></td></tr>
+<tr><td class='c'>
+</td><td class='c'>=</td><td class='l'><m>1</m></td></tr>
+</table> 
+<p>
+For out last example, we will work with a system of equations that will have no solution.
+</p>
+    <u>System</u>\pp
+<m>x+y+3z=2</m><br />
+<m>3x+4y+10z=5</m><br />
+<m>x+2y+4z=3</m><br />
+<u>Augmented Matrix</u>\pp
+<m>\left[\begin{array}{ccc|c}
+1 \amp  1 \amp  3 \amp  2\\
+3 \amp  4 \amp  10 \amp  5\\
+1 \amp  2 \amp  4 \amp  3
+\end{array} \right]</m>  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 1 by -3 and} \\
+\text{~~~add to Row 2} \\
+\text{Symbolic: R2+(-3)R1~} \Rightarrow \text{~R2} 
+\end{array} 
+\amp \amp 
+~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  1 \amp  3 \amp  ~~2\\
+0 \amp  1 \amp  1 \amp  -1\\
+1 \amp  2 \amp  4 \amp  ~~3
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 1 by -1 and} \\
+\text{~~~add to Row 3} \\
+\text{Symbolic: R3+(-1)R1~} \Rightarrow \text{~R3} 
+\end{array} 
+\amp \amp 
+~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  1 \amp  3 \amp  ~~2\\
+0 \amp  1 \amp  1 \amp  -1\\
+0 \amp  1 \amp  1 \amp  ~~1
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<md><mrow>\begin{array}{l}
+\text{Multiply Row 2 by -1 and} \\
+\text{~~~add to Row 3} \\
+\text{Symbolic: R3+(-1)R2~} \Rightarrow \text{~R3} 
+\end{array} 
+\amp \amp 
+~~~~~~\left[
+\begin{array}{ccc|c}
+1 \amp  1 \amp  3 \amp  ~~2\\
+0 \amp  1 \amp  1 \amp  -1\\
+0 \amp  0 \amp  0 \amp  ~~2
+\end{array} 
+\right]</mrow>
+ 
+</md>
+  
+<p>
+The resulting matrix is in row echelon form, but not reduced row echelon form. Notice that the last row of our matrix has corresponding equation<br /> <m>0=2</m>, which is false. Since our row reduction has resulted in a false statement, we conclude that the given system of equations has no solution. Therefore, we have no need to continue row reducing in order to obtain the reduced row echelon form.\pp
+We have now seen three examples of how matrices can be used to solve a system of equations containing three variables: one example with a single solution, one with infinitely many solutions, and one with no solution. Naturally, we can apply this approach to simpler systems, containing just two variables/equations, as well as to more complicated systems.
+</p>
+ </section>

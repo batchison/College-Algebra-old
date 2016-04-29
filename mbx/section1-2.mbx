@@ -1,0 +1,278 @@
+
+<section>
+<title>Absolute Value Equations</title>
+<p>
+{\tmstrong{Objective: Solve linear absolute value equations.}}\pp
+</p>
+  
+<p>
+When solving equations with absolute value we can end up with more than one
+possible answer. This is because what is in the absolute value can be either
+negative or positive and we must account for both possibilities when solving
+equations. This is illustrated in the following example.
+</p>
+  
+<example xml:id="Lin34"><statement>
+<md><mrow>|x| = 7 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can} \tmop{be}
+    \tmop{positive} \tmop{or} \tmop{negative}</mrow>
+ <mrow>x = 7 \tmop{~or~} x = - 7 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Notice that we have considered two possibilities, both the positive and
+negative. Either way, the absolute value of our number will be positive <m>7</m>.\pp
+</p>
+  
+<p>
+{\tmstrong{World View Note:}} The first set of rules for working with
+negatives came from 7th century India. However, in 1758, almost a thousand
+years later, British mathematician Francis Maseres claimed that negatives
+"darken the very whole doctrines of the equations and make dark of the things
+which are in their nature excessively obvious and simple."\pp
+</p>
+  
+<p>
+When we have absolute values in our problem it is important to first isolate
+the absolute value, then remove the absolute value by considering both the
+positive and negative solutions. Notice in the next two examples, all the
+numbers outside of the absolute value are moved to the other side first before
+we remove the absolute value bars and consider both positive and negative
+solutions.
+</p>
+  
+<example xml:id="Lin35"><statement>
+<md><mrow>5 + |x| = 8~~ \amp   \amp  \tmop{Notice} \tmop{absolute} \tmop{value} \tmop{is}
+    \tmop{not} \tmop{alone}</mrow>
+ <mrow>\tmmathbf{\underline{- 5 ~~~~~~~~- 5}} \amp   \amp  \tmop{Subtract} 5 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>|x| = 3~ \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can} \tmop{be}
+    \tmop{positive} \tmop{~or~} \tmop{negative}</mrow>
+ <mrow>x = 3 \tmop{~or~} x = - 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example xml:id="Lin36"><statement>
+<md><mrow>- 4 |x| = - 20 \amp   \amp  \tmop{Notice} \tmop{absolute} \tmop{value} \tmop{is}
+    \tmop{not} \tmop{alone}</mrow>
+ <mrow>\tmmathbf{\overline{- 4} ~~~~~ \overline{- 4}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} - 4</mrow>
+ <mrow>|x| = 5 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can} \tmop{be}
+    \tmop{positive} \tmop{or} \tmop{negative}</mrow>
+ <mrow>x = 5 \tmop{~or~} x = - 5 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Notice we never combine what is inside the absolute value with what is outside
+the absolute value. This is very important as it will often change the final
+result to an incorrect solution. The next example requires two steps to
+isolate the absolute value. The idea is the same as a two-step equation, add
+or subtract, then multiply or divide.
+</p>
+  
+<example xml:id="Lin37"><statement>
+<md><mrow>5 |x| - 4 = 26 \amp   \amp  \tmop{Notice} \tmop{the} \tmop{absolute} \tmop{value}
+    \tmop{is} \tmop{not} \tmop{alone}</mrow>
+ <mrow>\underline{\tmmathbf{+ 4 ~+ 4}} \amp   \amp  \tmop{Add} 4 \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>5 |x| = 30 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{still} \tmop{not}
+    \tmop{alone}</mrow>
+ <mrow>\tmmathbf{\overline{5} ~~~~~~ \overline{5}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 5</mrow>
+ <mrow>|x| = 6 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can} \tmop{be}
+    \tmop{positive} \tmop{or} \tmop{negative}</mrow>
+ <mrow>x = 6 \tmop{~or~} x = - 6 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Again we see the same process, get the absolute value alone first, then
+consider the positive and negative solutions. Often the absolute value will
+have more than just a variable in it. In this case we will have to solve the
+resulting equations when we consider the positive and negative possibilities.
+This is shown in the next example.
+</p>
+  
+<example xml:id="Lin38"><statement>
+<md><mrow>|2x - 1| = 7 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can} \tmop{be}
+    \tmop{positive} \tmop{or} \tmop{negative}</mrow>
+ <mrow>2 x - 1 = 7 \tmop{~or~} 2 x - 1 = - 7 \amp   \amp  \tmop{Two} \tmop{equations}
+    \tmop{to} \tmop{solve}</mrow>
+ 
+</md>
+ 
+<p>
+Now notice we have two equations to solve, each equation will give us a
+different solution. Both equations solve like any other two-step equation.
+</p>
+  
+<md><mrow>\begin{array}{l}
+      2 x - 1 = 7\\
+      ~~~~\tmmathbf{\underline{+ 1 ~+ 1}}\\
+      2 x = 8\\
+      ~\tmmathbf{\overline{2} ~~~~~ \overline{2}}\\
+      x = 4
+\end{array}  \tmop{~or~} \begin{array}{l}
+      2 x - 1 = - 7\\
+      ~~~~\underline{\tmmathbf{+ 1 ~~+ 1}}\\
+      2 x = - 6\\
+      \tmmathbf{\overline{2} ~~~~~~~ \overline{2}}\\
+      x = - 3
+\end{array}  \amp   \amp </mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Thus, from our previous example we have two solutions, <m>x = 4</m> or <m>x = - 3</m>.\pp
+</p>
+  
+<p>
+Again, it is important to remember that the absolute value must be alone first
+before we consider the positive and negative possibilities. This is
+illustrated below.
+</p>
+  
+<example xml:id="Lin39"><statement>
+<md><mrow>2 - 4 |2x + 3| = - 18 \amp   \amp </mrow>
+ 
+</md>
+ 
+<p>
+To get the absolute value alone we first need to get rid of the <m>2</m> by
+subtracting, then divide by <m>- 4</m>. Notice we cannot combine the <m>2</m> and <m>-
+  4</m> because they are not like terms, the <m>- 4</m> has the absolute value
+connected to it. Also notice we do not distribute the <m>- 4</m> into the
+absolute value. This is because the numbers outside cannot be combined with
+the numbers inside the absolute value. Thus we get the absolute value alone
+in the following way:
+</p>
+  
+<md><mrow>2 - 4 |2x + 3| = - 18 \amp   \amp  \tmop{Notice} \tmop{absolute} \tmop{value}
+    \tmop{is} \tmop{not} \tmop{alone}</mrow>
+ <mrow>\underline{\tmmathbf{- 2 ~~~~~~~~~~~~~~~~~~- 2}} \amp   \amp  \tmop{Subtract} 2 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>- 4 |2x + 3| = - 20 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{still}
+    \tmop{not} \tmop{alone}</mrow>
+ <mrow>\tmmathbf{\overline{~~- 4~~~} ~~~~~~ \overline{- 4}} \amp   \amp  \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} - 4</mrow>
+ <mrow>|2x + 3| = 5 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can} \tmop{be}
+    \tmop{positive} \tmop{or} \tmop{negative}</mrow>
+ <mrow>2 x + 3 = 5 \tmop{~or~} 2 x + 3 = - 5 \amp   \amp  \tmop{Two} \tmop{equations}
+    \tmop{to} \tmop{solve}</mrow>
+ 
+</md>
+ 
+<p>
+Now we just solve these two remaining equations to find our solutions.
+</p>
+  
+<md><mrow>\begin{array}{l}
+      2 x + 3 = 5\\
+      ~~~~\tmmathbf{\underline{- 3 ~~- 3}}\\
+      2 x = 2\\
+      \tmmathbf{ \overline{2} ~~~~~ \overline{2}}\\
+      x = 1
+\end{array}  \tmop{~or~} \begin{array}{l}
+      2 x + 3 = - 5\\
+      ~~~~\tmmathbf{\underline{- 3 ~~- 3}}\\
+      2 x = - 8\\
+      ~\tmmathbf{ \overline{2} ~~~~~~ \overline{2}}\\
+      x = - 4
+\end{array}  \amp   \amp </mrow>
+ 
+</md>
+ 
+<p>
+We now have our two solutions, <m>x = 1</m> and <m>x = - 4</m>.
+</p>
+ </statement>
+</example>
+  
+<p>
+As we are solving absolute value equations it is important to be aware of
+special cases. Remember the result of an absolute value must always be
+positive. Notice what happens in the next example.
+</p>
+  
+<example xml:id="Lin40"><statement>
+<md><mrow>7 + |2x - 5| = 4~ \amp   \amp  \tmop{Notice} \tmop{absolute} \tmop{value} \tmop{is}
+    \tmop{not} \tmop{alone}</mrow>
+ <mrow>\underline{\tmmathbf{- 7 ~~~~~~~~~~~~~~- 7}} \amp   \amp  \tmop{Subtract} 7 \tmop{from}
+    \tmop{both} \tmop{sides}</mrow>
+ <mrow>|2x - 5| = - 3~~ \amp   \amp  \tmop{Result} \tmop{of} \tmop{absolute} \tmop{value}
+    \tmop{is} \tmop{negative} !</mrow>
+ 
+</md>
+ </statement>
+</example>
+ 
+<p>
+Notice the absolute value equals a negative number! This is impossible with
+absolute value. When this occurs we say there is {\tmstrong{no solution}} or
+<m>\varnothing</m>.\pp
+</p>
+  
+<p>
+One other type of absolute value problem is when two absolute values are equal
+to each other. We still will consider both the positive and negative result,
+the difference here will be that we will have to distribute a negative into
+the second absolute value for the negative possibility.
+</p>
+  
+<example xml:id="Lin41"><statement>
+<md><mrow>|2x - 7| = |4x + 6|  \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{can}
+    \tmop{be}</mrow>
+ <mrow>\amp  \amp  \tmop{~~~positive} \tmop{or} \tmop{negative}</mrow>
+ <mrow>2 x - 7 = 4 x + 6~~~~~\amp   \amp  \tmop{Make}
+    \tmop{second} \tmop{part} \tmop{of}</mrow>
+ <mrow>\tmop{or~~~} 2 x - 7 = - (4 x + 6) \amp  \amp \tmop{~~~second} \tmop{equation} \tmop{negative}</mrow>
+ 
+</md>
+ 
+<p>
+Notice the first equation is the positive possibility and has no significant
+difference other than the missing absolute value bars. The second equation
+considers the negative possibility. For this reason we have a negative in
+front of the expression which will be distributed through the equation on
+the first step of solving. So we solve both these equations as follows:
+</p>
+  
+<md><mrow>\begin{array}{l}
+      ~~~2 x - 7 = 4 x + 6\\
+      \tmmathbf{\underline{- 2 x ~~~~~- 2 x}~~~}~~~~~\\
+      - 7 = 2 x + 6\\
+      \tmmathbf{\underline{- 6 ~~~~~~- 6}}\\
+      - 13 = 2 x\\
+      ~~~\tmmathbf{\overline{2} ~~~~~ \overline{2}}\\
+      -\frac{13}{2} = x\\
+    			~
+\end{array}  \tmop{~or~} \begin{array}{l}
+      ~~2 x - 7 = - (4 x + 6)\\
+      ~~2 x - 7 = - 4 x - 6\\
+      \tmmathbf{\underline{+ 4 x ~~~~~~~+ 4 x}}\\
+      ~~6 x - 7 = - 6\\
+      ~~~~~~\tmmathbf{ \underline{+ 7 ~~+ 7}}\\
+      ~~6 x = 1\\
+      ~~\tmmathbf{\overline{6} ~~~~~ \overline{6}}\\
+      ~~x = \frac{1}{6}
+\end{array}  \amp   \amp </mrow>
+ 
+</md>
+ 
+<p>
+This gives us our two solutions, <m>x = -\frac{13}{2}</m> or <m>x = \frac{1}{6}</m>.
+</p>
+ </statement>
+</example>
+ </section>

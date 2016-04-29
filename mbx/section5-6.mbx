@@ -1,0 +1,218 @@
+
+<section>
+<title>Practice Problems</title>
+<subsection>
+<title>Notation and Basic Examples</title>
+<p>
+{\tmstrong{Objective: Identify the degree, leading coefficient, leading term, and constant term. Classify each polynomial by type (linear, quadratic, cubic,<nbsp />...) and number of terms (monomial, binomial, trinomial,<nbsp />...)}.}\pp
+</p>
+  
+<p>
+1)<nbsp /><m>y=-2x^3 + 4x+1</m><br />
+	2)<nbsp /><m>y=32x^5+x^2+15</m><br />
+	3)<nbsp /><m>y=-3x^4+4x^2</m><br />
+	4)<nbsp /><m>y=15x^4-32x^2-x-14</m><br />
+5)<nbsp /><m>y=x^5+40</m><br />
+6)<nbsp /><m>y=5x^5+3x^2+x+14</m><br />
+7)<nbsp /><m>y=123x^4-7x^3-5x^2-3x+1</m><br />
+	8)<nbsp /><m>y=-2x^3-1</m><br />
+9)<nbsp /><m>y=-23x^6+x^3+x^2+x+1</m><br />
+10)<nbsp /><m>y=-3x^4-15x^4+x^4-27x^3+x^2-13</m>
+</p>
+ </subsection> 
+<subsection>
+<title>Factoring</title>
+<subsubsection>
+<title>Special Products</title>
+<p>
+{\tmstrong{Objective: Classify each expression as one of the following and perform the necessary factorization:
+difference of squares, perfect squares, and/or sum and difference of cubes.}}
+</p>
+  
+<p>
+1)<nbsp /><m>x^4-81</m><br />
+3)<nbsp /><m>2x^4-32</m><br />
+5)<nbsp /><m>x^2-2x+1</m><br />
+7)<nbsp /><m>16 x^2 + 24 x y + 9 y^2</m><br />
+9)<nbsp /><m>25 x^2 + 20 x y + 4 y^2</m><br />
+2)<nbsp /><m>x^4-1</m><br />
+4)<nbsp /><m>x^2-25</m><br />
+6)<nbsp /><m>x^3-8</m><br />
+8)<nbsp /><m>x^3+8</m><br />
+10)<nbsp /><m>x^3-27</m>
+</p>
+ </subsubsection> 
+<subsubsection>
+<title>Quadratic Type</title>
+<p>
+{\tmstrong{Factor each quadratic type completely over the real numbers.}}
+</p>
+  
+<p>
+1)<nbsp /> <m>x^4 +13x^2+40</m><br />
+3)<nbsp /> <m>x^4-5x^2+4</m><br />
+5)<nbsp /> <m>x^4 -17x^2+16</m><br />
+7)<nbsp /> <m>x^4 +13x^2+40</m><br />
+9)<nbsp /> <m>3x^4 -32x^2+45</m><br />
+<nbsp /><br />
+	2)<nbsp /> <m>x^4 +x^2-12</m><br />
+4)<nbsp /> <m>x^4 -3x^2-10</m><br />
+6)<nbsp /> <m>x^6 -82x^3+81</m><br />
+8)<nbsp /> <m>8x^4 +2x^2-3</m><br />
+10)<nbsp /> <m>2x^4 -19x^2+9</m>
+</p>
+ </subsubsection> 
+<subsubsection>
+<title>Factoring Summary</title>
+<p>
+{\tmstrong{Factor each expression completely, making certain to factor out a GCF whenever possible.}}\pp
+</p>
+  
+<p>
+1)<nbsp /><m>24 a z - 18 a h + 60 y z - 45 y h</m><br />
+2)<nbsp /><m>2 x^2 - 11 x + 15</m><br />
+3)<nbsp /><m>5 u^2 - 9 u v + 4 v^2</m><br />
+4)<nbsp /><m>16 x^2 + 48 x y + 36 y^2</m><br />
+5)<nbsp /><m>- 2 x^3 + 128 y^3</m><br />
+6)<nbsp /><m>20 u v - 60 u^3 - 5 x v + 15 x u^2</m><br />
+7)<nbsp /><m>5 n^3 + 7 n^2 - 6 n</m><br />
+8)<nbsp /><m>2 x^3 + 5 x^2 y + 3 y^2 x</m><br />
+9)<nbsp /><m>54 u^3 - 16</m><br />
+10)<nbsp /><m>54 - 128 x^3</m><br />
+11)<nbsp /><m>n^2 - n</m><br />
+12)<nbsp /><m>2x^4 -21x^2-11</m>
+</p>
+ </subsubsection> </subsection> 
+<subsection>
+<title>Division</title>
+<subsubsection>
+<title>Polynomial Division</title>
+<p>
+{\tmstrong{Use polynomial long division to divide and simplify the given expression. Express each answer in the form below.}}
+</p>
+  
+<me>
+\frac{\text{dividend} }{\text{divisor} }~=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
+</me>
+   
+<p>
+1) <m>\frac{20 x^4 + x^3 + 2 x^2}{4 x^3}</m><br />
+3) <m>\frac{20 n^4_{} + n^3_{} + 40 n^2}{10 n}</m><br />
+5) <m>\frac{12 x^4 + 24 x^3 + 3 x^2}{6 x}</m><br />
+7) <m>\frac{10 n^4 + 50 n^3 + 2 n^2}{10 n^2}</m><br />
+9) <m>\frac{x^2 - 2 x - 71}{x + 8}</m><br />
+11) <m>\frac{n^2 + 13 n + 32}{n + 5}</m><br />
+13) <m>\frac{v^2 - 2 v - 89}{v - 10}</m><br />
+15) <m>\frac{a^2 - 4 a - 38}{a - 8}</m><br />
+17) <m>\frac{45 p^2 + 56 p + 19}{9 p + 4}</m><br />
+19) <m>\frac{10 x^2 - 32 x + 9}{10 x - 2}</m><br />
+21) <m>\frac{4 r^2 - r - 1}{4 r + 3}</m><br />
+23) <m>\frac{n^2 - 4}{n - 2}</m><br />
+25) <m>\frac{27 b^2 + 87 b + 35}{3 b + 8}</m><br />
+27) <m>\frac{4 x^2 - 33 x + 28}{4 x - 5}</m><br />
+29) <m>\frac{a^3 + 15 a^2 + 49 a - 55}{a + 7}</m><br />
+31) <m>\frac{x^3 - 26 x - 41}{x + 4}</m><br />
+33) <m>\frac{3 n^3 + 9 n^2 - 64 n - 68}{n + 6}</m><br />
+35) <m>\frac{x^3 - 46 x + 22}{x + 7}</m><br />
+37) <m>\frac{9 p^3 + 45 p^2 + 27 p - 5}{9 p + 9}</m><br />
+39) <m>\frac{r^3 - r^2 - 16 r + 8}{r - 4}</m><br />
+41) <m>\frac{12 n^3 + 12 n^2 - 15 n - 4}{2 n + 3}</m><br />
+43) <m>\frac{4 v^3 - 21 v^2 + 6 v + 19}{4 v + 3}</m><br />
+2) <m>\frac{5 x^4 + 45 x^3 + 4 x^2}{9 x}</m><br />
+4) <m>\frac{3 k^3 + 4 k^2 + 2 k}{8 k}</m><br />
+6) <m>\frac{5 p^4 + 16 p^3 + 16 p^2}{4 p}</m><br />
+8) <m>\frac{3 m^4 + 18 m^3 + 27 m^2}{9 m^2}</m><br />
+10) <m>\frac{r^2 - 3 r - 53}{r - 9}</m><br />
+12) <m>\frac{b^2 - 10 b + 16}{b - 7}</m><br />
+14) <m>\frac{x^2 + 4 x - 26}{x + 7}</m><br />
+16) <m>\frac{x^2 - 10 x + 22}{x - 4}</m><br />
+18) <m>\frac{48 k^2 - 70 k + 16}{6 k - 2}</m><br />
+20) <m>\frac{n^2 + 7 n + 15}{n + 4}</m><br />
+22) <m>\frac{3 m^2 + 9 m - 9}{3 m - 3}</m><br />
+24) <m>\frac{2 x^2 - 5 x - 8}{2 x + 3}</m><br />
+26) <m>\frac{3 v^2 - 32}{3 v - 9}</m><br />
+28) <m>\frac{4 n^2 - 23 n - 38}{4 n + 5}</m><br />
+30) <m>\frac{8 k^3 - 66 k^2 + 12 k + 37}{k - 8}</m><br />
+32) <m>\frac{x^3 - 16 x^2 + 71 x - 56}{x - 8}</m><br />
+34) <m>\frac{k^3 - 4 k^2 - 6 k + 4}{k - 1}</m><br />
+36) <m>\frac{2 n^3 + 21 n^2 + 25 n}{2 n + 3}</m><br />
+38) <m>\frac{8 m^3 - 57 m^2 + 42}{8 m + 7}</m><br />
+40) <m>\frac{2 x^3 + 12 x^2 + 4 x - 37}{2 x + 6}</m><br />
+42) <m>\frac{24 b^3 - 38 b^2 + 29 b - 60}{4 b - 7}</m><br />
+<nbsp /><br />
+</p>
+ </subsubsection> 
+<subsubsection>
+<title>Synthetic Division</title>
+<p>
+{\tmstrong{Use synthetic division to divide and simplify the given expression. Express each answer in the form below.}}
+</p>
+  
+<me>
+\frac{\text{dividend} }{\text{divisor} }~=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
+</me>
+   
+<p>
+1)<nbsp /><m>\frac{x^4-4x^3+2x^2-x+1 }{x+2}</m><br />
+3)<nbsp /><m>\frac{x^4-2x^3+7x^2-6x+3 }{x-2}</m><br />
+5)<nbsp /><m>\frac{2x^3-2x^3+10x^2+1 }{x+2}</m><br />
+7)<nbsp /><m>\frac{5x^3-2x^3+4x^2-5x }{x-5}</m><br />
+9)<nbsp /><m>\frac{-x^4-x^3+x^2+x+1 }{x+5}</m><br />
+11)<nbsp /><m>\frac{x^4-3x^3+2x^2-x+1 }{x-4}</m><br />
+2)<nbsp /><m>\frac{12x^4-x^3+x^2-3x+1 }{x+2}</m><br />
+4)<nbsp /><m>\frac{3x^4+3x^3+13x^2-4x+14 }{x+1}</m><br />
+6)<nbsp /><m>\frac{1x^4-3x^3+5x^2-14x+2 }{x-2}</m><br />
+8)<nbsp /><m>\frac{2x^4-2x+1 }{x+3}</m><br />
+10)<nbsp /><m>\frac{x^4-3x-4 }{x-3}</m><br />
+12)<nbsp /><m>\frac{x^4-4x^3+13x^2-5x+7 }{x-4}</m>
+</p>
+ </subsubsection> </subsection> 
+<subsection>
+<title>Graphing</title>
+<subsubsection xml:id="Mults">
+<title>End Behavior</title>
+<p>
+{\tmstrong{Use the degree and leading coefficient of each polynomial function below to identify the end behavior of its graph.}\pp
+</p>
+  
+<p>
+1)<nbsp /><m>f(x)=-2x^3 + 4x+1</m><br />
+	2)<nbsp /><m>g(x)=32x^5+x^2+15</m><br />
+	3)<nbsp /><m>h(x)=-3x^4+4x^2</m><br />
+	4)<nbsp /><m>k(x)=15x^4-32x^2-x-14</m><br />
+5)<nbsp /><m>\ell(x)=x^5+40</m><br />
+6)<nbsp /><m>m(x)=5x^5+3x^2+x+14</m><br />
+7)<nbsp /><m>n(x)=123x^4-7x^3-5x^2-3x+1</m><br />
+	8)<nbsp /><m>p(x)=x^3-1</m><br />
+9)<nbsp /><m>q(x)=-23x^6+x^3+x^2+x+1</m><br />
+</p>
+  
+<p>
+{\tmstrong{Identify the degree and leading coefficient of each polynomial function below. Use the degree and leading coefficient to identify the end behavior of the graph of each function.}\pp 10)<nbsp /><m>f(x)=x^3(x-2)(x+2)</m><br />
+	11)<nbsp /><m>g(x)=(x^2+1)(1-x)</m><br />
+	12)<nbsp /><m>h(x)=x(x-3)^2(x+3)</m><br />
+	13)<nbsp /><m>k(x)=(3x-4)(3-4x)</m><br />
+14)<nbsp /><m>\ell(x)=(x^2+2)(x^2+3)</m><br />
+15)<nbsp /><m>m(x)=-2(x+7)^2(1-2x)^2</m><br />
+16)<nbsp /><m>f(x)=(x^2-1)(x+4)</m><br />
+	17)<nbsp /><m>g(x)=(x^2-1)(x^2-16)</m><br />
+	18)<nbsp /><m>h(x)=-2x^3(3x-1)(2-x)</m><br />
+	19)<nbsp /><m>k(x)=(x^2-4x+1)(x+2)^2</m><br />
+</p>
+ </subsubsection> 
+<subsubsection>
+<title>Zeros and Local Behavior</title>
+<p>
+{\tmstrong{Identify the set of real zeros and their respective multiplicities for each of functions (10)-(19) above. Provide a rough sketch of each function, making sure to identify any <m>x-</m> and <m>y-</m>intercepts. Use a graphing utility to check your graph.}\pp
+</p>
+ </subsubsection> </subsection> 
+<subsection>
+<title>Polynomial Inequalities and Sign Diagrams</title>
+<p>
+{\tmstrong{Construct a sign diagram for each of functions (10)-(19) on <xref ref="Mults">page</xref>. Use your diagram to identify the intervals where each function is nonnegative (<m>y\geq 0</m>).}\pp
+</p>
+  
+<p>
+\closegraphsfile
+</p>
+   </subsection> </section>

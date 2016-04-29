@@ -1,0 +1,216 @@
+
+<section>
+<title>Parallel and Perpendicular Lines</title>
+<p>
+{\tmstrong{Objective: Identify the equation of a line given a parallel or
+perpendicular line.}}\pp
+</p>
+  
+<p>
+There is an interesting connection between the slopes of lines that are
+parallel, as well as the slopes of lines that are perpendicular (meet at a right
+angle). This is shown in the following example.
+</p>
+  
+<example xml:id="Lin68"><statement>
+<p>
+<nbsp />
+</p>
+ </statement>
+</example>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+The above graph has two parallel lines. The slope of the top line is down
+2, run 3, or <m>- \frac{2}{3}</m>.<br />
+		The slope of the bottom line is down 2, run 3 as well, or <m>- \frac{2}{3}</m>.
+</p>
+  
+<p>
+<image source="images/" />
+</p>
+  
+<p>
+The above graph has two perpendicular lines. The slope of the flatter line
+is up 2, run 3 or <m>\frac{2}{3}</m>.<br />
+		The slope of the steeper line is down 3, run 2, or <m>- \frac{3}{2}</m>.
+</p>
+  
+<p>
+<nbsp />
+</p>
+  
+<p>
+As the first graph above illustrates, parallel lines have the same slope.\pp
+On the other hand, perpendicular lines are said to have <i>negative reciprocal</i> slopes. More precisely, if two lines with slopes <m>m_1</m> and <m>m_2</m> are known to be perpendicular, then <m>m_2=-~\displaystyle\frac{1}{m_1}</m> (and so, <m>m_1m_2=-1</m>).\pp
+We can use these properties to make conclusions about parallel and perpendicular lines.\pp
+</p>
+  
+<p>
+{\tmstrong{World View Note:}} Greek Mathematician Euclid lived around 300 BC
+and published a book titled, {\tmem{The Elements}}. In it is the famous
+parallel postulate which mathematicians have tried for years to drop from the
+list of postulates. The attempts have failed, yet all the work done has
+developed new types of geometries!\pp
+</p>
+  
+<example xml:id="Lin69"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the slope of a line parallel to <m>5 y - 2 x = 7</m>.
+</p>
+  
+<md><mrow>5 y - 2 x = 7~~~~~ \amp   \amp  \tmop{To} \tmop{find} \tmop{the} \tmop{slope} \tmop{we}
+    \tmop{will} \tmop{put} \tmop{equation} \tmop{in} \tmop{slope} -
+    \tmop{intercept} \tmop{form}</mrow>
+ <mrow>\tmmathbf{\underline{+ 2 x ~~ + 2 x}} \amp   \amp  \tmop{Add} 2 x \tmop{to} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>5 y = 2 x + 7~~~~~ \amp   \amp  \tmop{Put} x \tmop{term} \tmop{first}</mrow>
+ <mrow>\tmmathbf{\overline{5} ~~~~ \overline{5} ~~~~~ \overline{5}}~~~~~ \amp   \amp  \tmop{Divide} \tmop{each}
+    \tmop{term} \tmop{by} 5</mrow>
+ <mrow>y = \frac{2}{5} x + \frac{7}{5}~~~~~ \amp   \amp  \tmop{The} \tmop{slope} \tmop{is}
+    \tmop{the} \tmop{coefficient} \tmop{of} x</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = \frac{2}{5}~~~~~ \amp   \amp  \tmop{Slope} \tmop{of} \tmop{given} \tmop{line}</mrow>
+ <mrow>\amp  \amp  \tmop{Parallel} \tmop{lines} \tmop{have} \tmop{the} \tmop{same}
+    \tmop{slope}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = \frac{2}{5}~~~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example xml:id="Lin70"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the slope of a line perpendicular to <m>3 x - 4 y = 2</m>.
+</p>
+  
+<md><mrow>3 x - 4 y = 2~~~~ \amp   \amp  \tmop{To} \tmop{find} \tmop{slope} \tmop{we}
+    \tmop{will} \tmop{put} \tmop{equation} \tmop{in} \tmop{slope} -
+    \tmop{intercept} \tmop{form}</mrow>
+ <mrow>\tmmathbf{\underline{- 3 x ~~~~~~~~- 3 x}} \amp   \amp  \tmop{Subtract} 3 x \tmop{from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>- 4 y = - 3 x + 2~~~~~ \amp   \amp  \tmop{Put} x \tmop{term} \tmop{first}</mrow>
+ <mrow>\tmmathbf{\overline{- 4} ~~~ \overline{- 4} ~~ \overline{- 4}}~~~~~ \amp   \amp  \tmop{Divide}
+    \tmop{each} \tmop{term} \tmop{by} - 4</mrow>
+ <mrow>y = \frac{3}{4} x - \frac{1}{2}~~~~ \amp   \amp  \tmop{The} \tmop{slope} \tmop{is}
+    \tmop{the} \tmop{coefficient} \tmop{of} x</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = \frac{3}{4}~~~~ \amp   \amp  \tmop{Slope} \tmop{of} \tmop{given} \tmop{line}</mrow>
+ <mrow>\amp  \amp  \tmop{Perpendicular} \tmop{lines} \tmop{have} \tmop{negative}
+    \tmop{reciprocal} \tmop{slopes}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = - \frac{4}{3}~~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Once we have a slope, it is possible to find the complete equation of the
+desired line, if we know one point on it.
+</p>
+  
+<example xml:id="Lin71"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the equation of a line through <m>(4, - 5)</m> and parallel to <m>2 x - 3 y =
+  6</m>.
+</p>
+  
+<md><mrow>2 x - 3 y = 6~~~~ \amp   \amp  \tmop{We} \tmop{first} \tmop{need} \tmop{slope}
+    \tmop{of} \tmop{parallel} \tmop{line}</mrow>
+ <mrow>\tmmathbf{\underline{- 2 x ~~~~~~~~- 2 x}} \amp   \amp  \tmop{Subtract} 2 x \tmop{from} \tmop{each}
+    \tmop{side}</mrow>
+ <mrow>- 3 y = - 2 x + 6~~~~ \amp   \amp  \tmop{Put} x \tmop{term} \tmop{first}</mrow>
+ <mrow>\tmmathbf{\overline{- 3} ~~~~ \overline{- 3} ~~ \overline{- 3}}~~~ \amp   \amp  \tmop{Divide}
+    \tmop{each} \tmop{term} \tmop{by} - 3</mrow>
+ <mrow>y = \frac{2}{3} x - 2~~~~ \amp   \amp  \tmop{Identify} \tmop{the} \tmop{slope},
+    \tmop{the} \tmop{coefficient} \tmop{of} x</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = \frac{2}{3}~~~~ \amp   \amp  \tmop{Parallel} \tmop{lines} \tmop{have} \tmop{the}
+    \tmop{same} \tmop{slope}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = \frac{2}{3}~~~~ \amp   \amp  \tmop{We} \tmop{will} \tmop{use} \tmop{this}
+    \tmop{slope} \tmop{and} \tmop{our} \tmop{point} (4, - 5)</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y - y_1 = m (x - x_1)~~~~ \amp   \amp  \tmop{Plug} \tmop{this} \tmop{information}
+    \tmop{into} \tmop{point}-\tmop{slope} \tmop{formula}</mrow>
+ <mrow>y - (- 5) = \frac{2}{3} (x - 4)~~~~ \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y + 5 = \frac{2}{3} (x - 4)~~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<example xml:id="Lin72"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the equation of the line through <m>(6, - 9)</m> perpendicular to <m>y = -
+  \displaystyle\frac{3}{5} x + 4</m> in slope-intercept form.
+</p>
+ </statement>
+</example>
+  
+<md><mrow>y = - \frac{3}{5} x + 4 \amp   \amp  \tmop{Identify} \tmop{the} \tmop{slope},
+    \tmop{coefficient} \tmop{of} x</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = - \frac{3}{5} \amp   \amp  \tmop{Perpendicular} \tmop{lines} \tmop{have}
+    \tmop{negative} \tmop{reciprocal} \tmop{slopes}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>m = \frac{5}{3} \amp   \amp  \tmop{We} \tmop{will} \tmop{use} \tmop{this}
+    \tmop{slope} \tmop{and} \tmop{our} \tmop{point} (6, - 9)</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Plug} \tmop{this} \tmop{information}
+    \tmop{into} \tmop{point} - \tmop{slope} \tmop{formula}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y - (- 9) = \frac{5}{3} (x - 6) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+ <mrow>\amp   \amp </mrow>
+ <mrow>y + 9 = \frac{5}{3} (x - 6) \amp   \amp  \tmop{Distribute} \tmop{slope}</mrow>
+ 
+</md>
+  
+<md><mrow>y + 9 = \frac{5}{3} x - 10 \amp   \amp  \tmop{Solve} \tmop{for} y</mrow>
+ <mrow>\tmmathbf{\underline{- 9 ~~~~~~~~- 9}} \amp   \amp  \tmop{Subtract} 9 \tmop{from} \tmop{both}
+    \tmop{sides}</mrow>
+ <mrow>y = \frac{5}{3} x - 19 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+  
+<p>
+Zero slopes and undefined slopes may seem like opposites (one is a horizontal line,
+one is a vertical line). Because a horizontal line is perpendicular to a
+vertical line we can say that an undefined slope and a zero slope are actually
+perpendicular slopes!
+</p>
+  
+<example xml:id="Lin73"><statement>
+<p>
+<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the equation of the line through (3, 4) perpendicular to <m>x = - 2</m>.
+</p>
+  
+<md><mrow>x = - 2~~ \amp   \amp  \tmop{This} \tmop{equation} \tmop{has} \tmop{an~undefined}
+    \tmop{slope}, \tmop{a~vertical} \tmop{line}</mrow>
+ <mrow>\tmop{Undefined} \tmop{slope}~~ \amp   \amp  \tmop{Perpendicular} \tmop{line} \tmop{then}
+    \tmop{would} \tmop{have} \tmop{a~zero} \tmop{slope}</mrow>
+ <mrow>m = 0~~ \amp   \amp  \tmop{Use} \tmop{this} \tmop{and} \tmop{our} \tmop{point} (3,
+    4)</mrow>
+ <mrow>y - y_1 = m (x - x_1)~~ \amp   \amp  \tmop{Plug} \tmop{this} \tmop{information}
+    \tmop{into} \tmop{point} - \tmop{slope} \tmop{formula}</mrow>
+ <mrow>y - 4 = 0 (x - 3)~~ \amp   \amp  \tmop{Distribute} \tmop{slope}</mrow>
+ <mrow>y - 4 = 0~~ \amp   \amp  \tmop{Solve} \tmop{for} y</mrow>
+ <mrow>\tmmathbf{\underline{+ 4 ~+ 4}} \amp   \amp  \tmop{Add} 4 \tmop{to} \tmop{each} \tmop{side}</mrow>
+ <mrow>y = 4~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+ 
+</md>
+ </statement>
+</example>
+  
+<p>
+Being aware that to be perpendicular to a vertical line means we have a
+horizontal line through a <m>y</m> value of 4, thus we could have jumped from this
+point right to the solution, <m>y = 4</m>.
+</p>
+ </section>
