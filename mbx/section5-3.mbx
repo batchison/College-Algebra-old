@@ -1,16 +1,14 @@
-
 <section>
 <title>Division</title>
+
+
 <subsection>
 <title>Polynomial Division</title>
+<objectives>
 <p>
-\pp
+Divide polynomials using long division.
 </p>
-  
-<p>
-{\tmstrong{Objective: Divide polynomials using long division.}}\pp
-</p>
-  
+</objectives>
 <p>
 Dividing polynomials is a process very similar to long division of whole
 numbers. But before we look at that, we will first want to be able to master
@@ -19,661 +17,595 @@ distributing, but the operation we distribute is the division, dividing each
 term by the monomial and reducing the resulting expression. This is shown in
 the following examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Divide and simplify the given expression.
+Divide and simplify the given expression.
 </p>
-  
-<md><mrow>\frac{9 x^5 + 6 x^4 - 18 x^3 - 24 x^2}{3 x^2} \amp   \amp  \tmop{Divide}
+<md>
+  <mrow>  \frac{9 x^5 + 6 x^4 - 18 x^3 - 24 x^2}{3 x^2} \amp   \amp  \tmop{Divide}
     \tmop{each} \tmop{term} \tmop{in} \tmop{the} \tmop{numerator} \tmop{by} 3
     x^2</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{9 x^5}{3 x^2} + \frac{6 x^4}{3 x^2} - \frac{18 x^3}{3 x^2} -
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{9 x^5}{3 x^2} + \frac{6 x^4}{3 x^2} - \frac{18 x^3}{3 x^2} -
     \frac{24 x^2}{3 x^2} \amp   \amp  \tmop{Reduce} \tmop{each} \tmop{fraction},
     \tmop{~subtracting} \tmop{exponents}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>3 x^3 + 2 x^2 - 6 x - 8 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  3 x^3 + 2 x^2 - 6 x - 8 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Divide and simplify the given expression.
+Divide and simplify the given expression.
 </p>
-  
-<md><mrow>\frac{8 x^3 + 4 x^2 - 2 x + 6}{4 x^2} \amp   \amp  \tmop{Divide} \tmop{each}
+<md>
+  <mrow>  \frac{8 x^3 + 4 x^2 - 2 x + 6}{4 x^2} \amp   \amp  \tmop{Divide} \tmop{each}
     \tmop{term} \tmop{in} \tmop{the} \tmop{numerator} \tmop{by} 4 x^2</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{8 x^3}{4 x^2} + \frac{4 x^2}{4 x^2} - \frac{2 x}{4 x^2} + \frac{6}{4
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{8 x^3}{4 x^2} + \frac{4 x^2}{4 x^2} - \frac{2 x}{4 x^2} + \frac{6}{4
     x^2} \amp   \amp  \tmop{Reduce} \tmop{each} \tmop{fraction}, \tmop{subtracting}
     \tmop{exponents}</mrow>
- 
 </md>
- 
 <p>
 Remember that negative exponents are moved to a denominator, <m>x^{-n}=\dfrac{1}{x^n}</m>.
 </p>
-  
-<md><mrow>2 x + 1 - \frac{1}{2 x} + \frac{3}{2 x^2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  2 x + 1 - \frac{1}{2 x} + \frac{3}{2 x^2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-The previous example illustrates that sometimes a division of polynomials will not produce a polynomial, but will contain fractions (also known as <i>rational expressions</i>). It is important that we remember to correctly reduce such expressions.\pp
+The previous example illustrates that sometimes a division of polynomials will not produce a polynomial, but will contain fractions (also known as <em>rational expressions</em>). It is important that we remember to correctly reduce such expressions.
 </p>
-  
+
 <p>
 Additionally, another interesting aspect of the previous example is the reduction of the second term <m>\frac{4 x^2}{4 x^2}</m>. Remember that this ratio reduces to 1, and not
-0.\pp
+0.
 </p>
-  
+
 <p>
 Unlike the previous examples, long division is required when we divide a polynomial by more than just a single term.
 </p>
-  
+
 <p>
 Long division with polynomials works very similar to long division involving whole
 numbers and it can be employed for a divisor having any degree.
 </p>
-  
+
 <p>
 For clarity, an example with whole numbers is provided in order to review the (general) steps that will also be used for polynomial long division.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Divide 631 by 4.
+Divide 631 by 4.
 </p>
-  
-<md><mrow>~~4~\overline{)~6~3~1} \amp   \amp  \tmop{Divide~} 6 \text{~by~}  4:~6/4 = 1 \ldots</mrow>
- <mrow>\tmmathbf{1}~~~~~  \amp   \amp </mrow>
- <mrow>~~4~\overline{)~6~3~1} \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by}
+<md>
+  <mrow>  ~~4~\overline{)~6~3~1} \amp   \amp  \tmop{Divide~} 6 \text{~by~}  4:~6/4 = 1 \ldots</mrow>
+  <mrow>  \tmmathbf{1}  \amp   \amp</mrow>
+  <mrow>  ~~4~\overline{)~6~3~1} \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by}
     \tmop{divisor} : 1 \cdot 4 = 4</mrow>
- <mrow>\tmmathbf{\underline{- 4}}~~~~~ \amp   \amp  \text{Subtract~}  4 \text{~from~}  6</mrow>
- <mrow>\tmmathbf{2~3}~~  \amp   \amp  \tmop{Move~} 3 \text{~down}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{- 4}} \amp   \amp  \text{Subtract~}  4 \text{~from~}  6</mrow>
+  <mrow>  \tmmathbf{2~3}  \amp   \amp  \tmop{Move~} 3 \text{~down}</mrow>
 </md>
   
-<md><mrow>1 ~\tmmathbf{5}~~  \amp   \amp  \tmop{Repeat}, \tmop{~divide~} 23 \text{~by~}  4 : 23/4 = 5 \ldots</mrow>
- <mrow>~~4~\overline{)~6~3~1} \amp   \amp </mrow>
- <mrow>\underline{- 4}~~~~~\amp   \amp </mrow>
- <mrow>23~~~~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by} \tmop{divisor}
+<md>
+  <mrow>  1 ~\tmmathbf{5}  \amp   \amp  \tmop{Repeat}, \tmop{~divide~} 23 \text{~by~}  4 : 23/4 = 5 \ldots</mrow>
+  <mrow>  ~~4~\overline{)~6~3~1} \amp   \amp</mrow>
+  <mrow>  \underline{- 4}\amp   \amp</mrow>
+  <mrow>  23~~~~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by} \tmop{divisor}
     : 5 \cdot 4 = 20</mrow>
- <mrow>\tmmathbf{\underline{- 20}}~~~ \amp   \amp  \text{Subtract~}  20 \text{~from~}  23</mrow>
- <mrow>\tmmathbf{3~1} \amp   \amp  \text{Move~}  1 \text{~down}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{- 20}} \amp   \amp  \text{Subtract~}  20 \text{~from~}  23</mrow>
+  <mrow>  \tmmathbf{3~1} \amp   \amp  \text{Move~}  1 \text{~down}</mrow>
 </md>
   
-<md><mrow>1~5 ~\tmmathbf{7}  \amp   \amp  \tmop{Repeat}, \tmop{~divide~} 31 \text{~by~}  4 : 31/4 = 7 \ldots</mrow>
- <mrow>~~4~\overline{)~6~3~1} \amp   \amp </mrow>
- <mrow>\underline{- 4}~~~~~\amp   \amp </mrow>
- <mrow>23~~~ \amp   \amp </mrow>
- <mrow>\underline{- 20}~~~ \amp   \amp </mrow>
- <mrow>31~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by} \tmop{divisor}
+<md>
+  <mrow>  1~5 ~\tmmathbf{7}  \amp   \amp  \tmop{Repeat}, \tmop{~divide~} 31 \text{~by~}  4 : 31/4 = 7 \ldots</mrow>
+  <mrow>  ~~4~\overline{)~6~3~1} \amp   \amp</mrow>
+  <mrow>  \underline{- 4}\amp   \amp</mrow>
+  <mrow>  23~~~ \amp   \amp</mrow>
+  <mrow>  \underline{- 20} \amp   \amp</mrow>
+  <mrow>  31~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by} \tmop{divisor}
     : 7 \cdot 4 = 28</mrow>
- <mrow>\tmmathbf{\underline{- 28}}~ \amp   \amp  \text{Subtract~}  28 \text{~from~}  31</mrow>
- <mrow>\tmmathbf{3}~ \amp   \amp  \text{Our~remainder}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>157 ~\frac{3}{4} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{- 28}} \amp   \amp  \text{Subtract~}  28 \text{~from~}  31</mrow>
+  <mrow>  \tmmathbf{3} \amp   \amp  \text{Our~remainder}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  157 ~\frac{3}{4} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-Note in the previous example that we write our remainder as a fraction, next to the quotient of 157, since it is technically still being divided by the divisor of 4. This same idea will be employed for remainders when dividing polynomials.\pp
+Note in the previous example that we write our remainder as a fraction, next to the quotient of 157, since it is technically still being divided by the divisor of 4. This same idea will be employed for remainders when dividing polynomials.
 </p>
-  
+
 <p>
 One way of summarizing our result is as follows.
 </p>
-  
 <me>
-\frac{631}{4}~=~157~+~\frac{3}{4}
+  \frac{631}{4}=~157~+~\frac{3}{4}
 </me>
-  
 <me>
-\frac{\text{dividend} }{\text{divisor} }~=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
+  \frac{\text{dividend} }{\text{divisor} }=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
 </me>
- 
 <p>
-<nbsp />\pp
-Just like dividing numbers, this same process will be used to divide polynomials. The only difference is we will replace the word "number" with "term" throughout the process.
+<nbsp />
+Just like dividing numbers, this same process will be used to divide polynomials. The only difference is we will replace the word <q>number</q> with <q>term</q> throughout the process.
 </p>
-  {\tmstrong{Dividing Polynomials}}  <ol><li>Divide the leading term by the leading term of the divisor.</li>
+{\tmstrong{Dividing Polynomials}}
+<ol>
+<li>Divide the leading term by the leading term of the divisor.</li>
 <li>Multiply the resulting term by the divisor.</li>
 <li>Subtract the terms carefully with the bottom terms, making sure to change signs.</li>
 <li>Bring down the next term.</li>
-<li>Repeat steps (1)-(4) until the degree of the remainder is <i>less than</i> the degree of the divisor.</li>
- </ol>  
+<li>Repeat steps (1)-(4) until the degree of the remainder is <em>less than</em> the degree of the divisor.</li>
+</ol>
+
 <p>
 Step (3) above often tends to pose the greatest challenge for students. It is important to keep in mind that we are are always subtracting the top term from the bottom term, which is why we must change the signs of the term(s) on the bottom. In most cases, we will need to utilize the distributive property. We now present an example of the subtraction step.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Subtract <m>-12x^2+7x</m> from <m>4x^2-12x</m>.
+Subtract <m>-12x^2+7x</m> from <m>4x^2-12x</m>.
 </p>
-  
-<md><mrow>14x^2 -12x \amp   \amp  \tmop{Line~up~like~terms}</mrow>
- <mrow>\underline{-(-12x^2 +7x)}\amp   \amp  \tmop{Subtract,~making~sure~to~distribute~the~negative}</mrow>
-  
+<md>
+  <mrow>  14x^2 -12x \amp   \amp  \tmop{Line~up~like~terms}</mrow>
+  <mrow>  \underline{-(-12x^2 +7x)}\amp   \amp  \tmop{Subtract,~making~sure~to~distribute~the~negative}</mrow>
 </md>
- 
 <p>
 This is equivalent to the following.
 </p>
-  
-<md><mrow>14x^2 -12x \amp   \amp </mrow>
- <mrow>\underline{+12x^2~ -~7x}  \amp   \amp  \text{Combine~like~terms} ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow>
- <mrow>26x^2 - 19x \amp  \amp  \text{Our~solution}</mrow>
- 
+<md>
+  <mrow>  14x^2 -12x \amp   \amp</mrow>
+  <mrow>  \underline{+12x^2~ -~7x}  \amp   \amp  \text{Combine~like~terms}</mrow>
+  <mrow>  26x^2 - 19x \amp  \amp  \text{Our~solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} Paolo Ruffini was an Italian Mathematician of
 the early 19<m>^{\text{th} }</m> century. In 1809 he was the first to describe a process called
-synthetic division which we will later see can be used to as an alternative to polynomial long division.\pp
+synthetic division which we will later see can be used to as an alternative to polynomial long division.
 </p>
-  
+
 <p>
 We are now ready for our first example of polynomial long division.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Divide and simplify the given expression.
+Divide and simplify the given expression.
 </p>
-  
-<md><mrow>\frac{3 x^3 - 5 x^2 - 32 x + 7}{x - 4} \amp   \amp  \tmop{Rewrite} \tmop{problem}
+<md>
+  <mrow>  \frac{3 x^3 - 5 x^2 - 32 x + 7}{x - 4} \amp   \amp  \tmop{Rewrite} \tmop{problem}
     \tmop{in} \tmop{long} \tmop{division~format}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>x - 4~\overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp  \tmop{Divide} \tmop{leading}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  x - 4~\overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp  \tmop{Divide} \tmop{leading}
     \tmop{term~by} x: \frac{3 x^3}{x} = 3 x^2</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\tmmathbf{3 x^2}~~~~~~~~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp  \tmop{Multiply~by~the~} \tmop{divisor} : 3 x^2 (x - 4) = 3 x^3 -
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \tmmathbf{3 x^2}  \amp   \amp</mrow>
+  <mrow>  x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp  \tmop{Multiply~by~the~} \tmop{divisor} : 3 x^2 (x - 4) = 3 x^3 -
     12 x^2</mrow>
- <mrow>\underline{\tmmathbf{- 3 x^3 + 12 x^2 } }~~~~~~~~~~~ \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>\tmmathbf{7 x^2 - 32 x}~~~~  \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the}
+  <mrow>  \underline{\tmmathbf{- 3 x^3 + 12 x^2 } } \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  \tmmathbf{7 x^2 - 32 x}  \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the}
     \tmop{next} \tmop{term,~}-32x</mrow>
- 
 </md>
   
-<md><mrow>3 x^2 + \tmmathbf{7 x}~~~~~~~~~~~~~~  \amp   \amp  \tmop{Repeat}, \tmop{divide} \tmop{new~leading~}
+<md>
+  <mrow>  3 x^2 + \tmmathbf{7 x}  \amp   \amp  \tmop{Repeat}, \tmop{divide} \tmop{new~leading~}
     \tmop{term~by~} x: \frac{7 x^2}{x} = 7 x</mrow>
- <mrow>x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp </mrow>
- <mrow>\underline{- 3 x^3 + 12 x^2 }~~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>7 x^2 - 32 x~~~~~ \amp   \amp  \tmop{Multiply~by~the~divisor} : 7 x (x - 4) = 7 x^2 - 28 x</mrow>
- <mrow>\underline{\tmmathbf{- 7 x^2 + 28 x}}~~~~  \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>\tmmathbf{- 4 x + 7} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
+  <mrow>  x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp</mrow>
+  <mrow>  \underline{- 3 x^3 + 12 x^2 } \amp   \amp</mrow>
+  <mrow>  7 x^2 - 32 x~~~~~ \amp   \amp  \tmop{Multiply~by~the~divisor} : 7 x (x - 4) = 7 x^2 - 28 x</mrow>
+  <mrow>  \underline{\tmmathbf{- 7 x^2 + 28 x}}  \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  \tmmathbf{- 4 x + 7} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
     \tmop{term},~7</mrow>
- 
 </md>
   
-<md><mrow>3 x^2 + 7 x \tmmathbf{- 4}~~~~~~~~~~~~~  \amp   \amp  \tmop{Repeat}, \tmop{divide} \tmop{new~leading~term~by~} x: \frac{- 4 x}{x} = - 4</mrow>
- <mrow>x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7}~~~ \amp   \amp </mrow>
- <mrow>\underline{- 3 x^3 + 12 x^2 }~~~~~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>7 x^2 - 32 x~~~~~~~~ \amp   \amp </mrow>
- <mrow>\underline{- 7 x^2 + 28 x}~~~~~~~~ \amp   \amp </mrow>
- <mrow>- 4 x + 7~~~ \amp   \amp  \tmop{Multiply} \tmop{by~the}
+<md>
+  <mrow>  3 x^2 + 7 x \tmmathbf{- 4}  \amp   \amp  \tmop{Repeat}, \tmop{divide} \tmop{new~leading~term~by~} x: \frac{- 4 x}{x} = - 4</mrow>
+  <mrow>  x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} \amp   \amp</mrow>
+  <mrow>  \underline{- 3 x^3 + 12 x^2 } \amp   \amp</mrow>
+  <mrow>  7 x^2 - 32 x~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \underline{- 7 x^2 + 28 x} \amp   \amp</mrow>
+  <mrow>  - 4 x + 7~~~ \amp   \amp  \tmop{Multiply} \tmop{by~the}
     \tmop{divisor} : - 4 (x - 4) = - 4 x + 16</mrow>
- <mrow>\tmmathbf{\underline{+ 4 x - 16}} \amp   \amp  \text{Subtract,~changing~signs}</mrow>
- <mrow>\tmmathbf{- 9}~~ \amp   \amp  \tmop{Our~remainder}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>3 x^2 + 7 x - 4 - \frac{9}{x - 4} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{+ 4 x - 16}} \amp   \amp  \text{Subtract,~changing~signs}</mrow>
+  <mrow>  \tmmathbf{- 9} \amp   \amp  \tmop{Our~remainder}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  3 x^2 + 7 x - 4 - \frac{9}{x - 4} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
-Remember that since our final remainder of -9 has a degree of zero, which is less than the degree of our divisor, <m>x-4</m>, we know from step (4) that our division is complete.\pp
+Remember that since our final remainder of -9 has a degree of zero, which is less than the degree of our divisor, <m>x-4</m>, we know from step (4) that our division is complete.
 If we chose to follow the same format as was earlier described, one could write the result of the previous example as follows.
 </p>
-  
 <me>
-\frac{3x^3-5x^2-32x+7}{x-4}~=~3x^2+7x-4~+~\frac{-9}{x-4}
+  \frac{3x^3-5x^2-32x+7}{x-4}=~3x^2+7x-4~+~\frac{-9}{x-4}
 </me>
-  
 <me>
-\frac{\text{dividend} }{\text{divisor} }~=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
+  \frac{\text{dividend} }{\text{divisor} }=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
 </me>
-  
 <p>
 We continue with another example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Divide and simplify the given expression.
+Divide and simplify the given expression.
 </p>
-  
-<md><mrow>\frac{6 x^3 - 8 x^2 + 10 x + 103}{2 x + 4} \amp   \amp  \tmop{Rewrite}
+<md>
+  <mrow>  \frac{6 x^3 - 8 x^2 + 10 x + 103}{2 x + 4} \amp   \amp  \tmop{Rewrite}
     \tmop{problem} \tmop{in~long} \tmop{division~format}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} \amp   \amp  \tmop{Divide}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} \amp   \amp  \tmop{Divide}
     \tmop{leading} \tmop{term~by~} 2x: \frac{6 x^3}{2 x} = 3 x^2</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\tmmathbf{3 x^2}~~~~~~~~~~~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} \amp   \amp  \tmop{Multiply}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \tmmathbf{3 x^2}  \amp   \amp</mrow>
+  <mrow>  2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} \amp   \amp  \tmop{Multiply}
     \tmop{term} \tmop{by} \tmop{divisor} : 3 x^2 (2 x + 4) = 6 x^3 + 12 x^2</mrow>
- <mrow>\underline{\tmmathbf{- 6 x^3 - 12 x^2 }}~~~~~~~~~~~~~~  \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>\tmmathbf{- 20 x^2 + 10 x}~~~~~ \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the}
+  <mrow>  \underline{\tmmathbf{- 6 x^3 - 12 x^2 }}  \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  \tmmathbf{- 20 x^2 + 10 x} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the}
     \tmop{next} \tmop{term},~10x</mrow>
- 
 </md>
   
-<md><mrow>3 x^2 \tmmathbf{- 10 x}~~~~~~~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103}~~~ \amp   \amp  \tmop{Repeat},
+<md>
+  <mrow>  3 x^2 \tmmathbf{- 10 x}  \amp   \amp</mrow>
+  <mrow>  2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} \amp   \amp  \tmop{Repeat},
     \tmop{divide} \tmop{new~leading~term~by~} 2x: \frac{- 20 x^2}{2 x} = - 10 x</mrow>
- <mrow>\underline{- 6 x^3 - 12 x^2 }~~~~~~~~~~~~~~~~~~~  \amp   \amp  \tmop{Multiply} \tmop{this}
+  <mrow>  \underline{- 6 x^3 - 12 x^2 }  \amp   \amp  \tmop{Multiply} \tmop{this}
     \tmop{term} \tmop{by} \tmop{divisor} :- 10 x (2 x + 4) = - 20 x^2 - 40 x</mrow>
- <mrow>- 20 x^2 + 10 x~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\underline{+ 20 x^2 + 40 x}}~~~~~~~~~ \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>\tmmathbf{50 x + 103} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
+  <mrow>  - 20 x^2 + 10 x~~~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\underline{+ 20 x^2 + 40 x}} \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  \tmmathbf{50 x + 103} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
     \tmop{term},~103</mrow>
- 
 </md>
   
-<md><mrow>3 x^2 - 10 x \tmmathbf{+ 25}~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103}~~~ \amp   \amp  \tmop{Repeat},
+<md>
+  <mrow>  3 x^2 - 10 x \tmmathbf{+ 25}  \amp   \amp</mrow>
+  <mrow>  2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} \amp   \amp  \tmop{Repeat},
     \tmop{divide} \tmop{new~leading~term~by~} 2x: \frac{50 x}{2 x} = 25</mrow>
- <mrow>\underline{- 6 x^3 - 12 x^2 }~~~~~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>- 20 x^2 + 10 x~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>\underline{+ 20 x^2 + 40 x}~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>50 x + 103~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by}
+  <mrow>  \underline{- 6 x^3 - 12 x^2 }  \amp   \amp</mrow>
+  <mrow>  - 20 x^2 + 10 x~~~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \underline{+ 20 x^2 + 40 x} \amp   \amp</mrow>
+  <mrow>  50 x + 103~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by}
     \tmop{divisor} : 25 (2 x + 4) = 50 x + 100</mrow>
- <mrow>\tmmathbf{\underline{- 50 x - 100}} \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>3 \amp   \amp \text{Our~remainder}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>3 x^2 - 10 x + 25 + \frac{3}{2 x + 4} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{- 50 x - 100}} \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  3 \amp   \amp \text{Our~remainder}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  3 x^2 - 10 x + 25 + \frac{3}{2 x + 4} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Again, we can summarize the last example by
 </p>
-  
 <me>
-\frac{6 x^3 - 8 x^2 + 10 x + 103}{2x+4}~=~3 x^2 - 10 x + 25 + \frac{3}{2 x + 4}
+  \frac{6 x^3 - 8 x^2 + 10 x + 103}{2x+4}=~3 x^2 - 10 x + 25 + \frac{3}{2 x + 4}
 </me>
-  
 <me>
-\frac{\text{dividend} }{\text{divisor} }~=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
+  \frac{\text{dividend} }{\text{divisor} }=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
 </me>
- 
 <p>
-<nbsp />\pp
+<nbsp />
 </p>
-  
+
 <p>
-In both of the previous examples the terms in the dividend had decreasing exponents, all of which included a nonzero coefficient. In other words, no term was skipped over, from the leading term (a cubic, degree of 3) down to the constant term, <m>a_0=a_0x^0</m>.\pp
+In both of the previous examples the terms in the dividend had decreasing exponents, all of which included a nonzero coefficient. In other words, no term was skipped over, from the leading term (a cubic, degree of 3) down to the constant term, <m>a_0=a_0x^0</m>.
 </p>
-  
+
 <p>
-In polynomial long division, it is essential that both the dividend and divisor are written in what is commonly referred to as <i>descending power order</i>, in which no exponent is overlooked or omitted. If a polynomial is not given in descending power order, we must make certain to rewrite it correctly before beginning our long division.\pp
-Additionally, any polynomial that appears to skip one (or more) term(s) should be rewritten, with the missing term(s) in place, accompanied by zero for the coefficient. The inclusion of such a term is known as a <i>placeholder</i> for the polynomial, and is incredibly important for a successful long division.\pp
+In polynomial long division, it is essential that both the dividend and divisor are written in what is commonly referred to as <em>descending power order</em>, in which no exponent is overlooked or omitted. If a polynomial is not given in descending power order, we must make certain to rewrite it correctly before beginning our long division.
+Additionally, any polynomial that appears to skip one (or more) term(s) should be rewritten, with the missing term(s) in place, accompanied by zero for the coefficient. The inclusion of such a term is known as a <em>placeholder</em> for the polynomial, and is incredibly important for a successful long division.
 Our last example demonstrates the importance of these preliminary steps.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Divide and simplify the given expression.
+Divide and simplify the given expression.
 </p>
-  
-<md><mrow>\frac{2 x^4 + 42x - 4 x^2}{x^2 + 3x} \amp   \amp  \tmop{Reorder} \tmop{dividend};~
+<md>
+  <mrow>  \frac{2 x^4 + 42x - 4 x^2}{x^2 + 3x} \amp   \amp  \tmop{Reorder} \tmop{dividend};~
     \tmop{need} x^3 \tmop{term}, \tmop{add} 0 x^3</mrow>
- 
 </md>
   
-<md><mrow>x^2 + 3x~ \overline{)~2 x^4 + \tmmathbf{0 x^3} - 4 x^2 + 42x} \amp   \amp  \tmop{Divide} \tmop{the}
+<md>
+  <mrow>  x^2 + 3x~ \overline{)~2 x^4 + \tmmathbf{0 x^3} - 4 x^2 + 42x} \amp   \amp  \tmop{Divide} \tmop{the}
     \tmop{front} \tmop{terms} : \frac{2 x^4}{x^2} = 2 x^2</mrow>
- 
 </md>
   
-<md><mrow>\tmmathbf{2 x^2}~~~~~~~~~~~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x} \amp   \amp  \tmop{Multiply}
+<md>
+  <mrow>  \tmmathbf{2 x^2}  \amp   \amp</mrow>
+  <mrow>  x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x} \amp   \amp  \tmop{Multiply}
     \tmop{this} \tmop{term} \tmop{by} \tmop{divisor} : 2 x^2 (x^2 + 3x) = 2 x^4 +
     6 x^3</mrow>
- <mrow>\underline{\tmmathbf{- 2 x^4 - 6 x^3} }~~~~~~~~~~~~~~~~ \amp   \amp  \tmop{Subtract,~changing~terms}</mrow>
- <mrow>\tmmathbf{- 6 x^3 - 4 x^2}~~~~~~~  \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the}
+  <mrow>  \underline{\tmmathbf{- 2 x^4 - 6 x^3} } \amp   \amp  \tmop{Subtract,~changing~terms}</mrow>
+  <mrow>  \tmmathbf{- 6 x^3 - 4 x^2}  \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the}
     \tmop{next} \tmop{term,~}-4x^2</mrow>
- 
 </md>
   
-<md><mrow>2 x^2 \tmmathbf{- 6 x}~~~~~~~~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x}~~~ \amp   \amp  \tmop{Repeat,}
+<md>
+  <mrow>  2 x^2 \tmmathbf{- 6 x}  \amp   \amp</mrow>
+  <mrow>  x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x} \amp   \amp  \tmop{Repeat,}
     \tmop{divide} \tmop{new~leading~term~by~}x^2 : \frac{- 6 x^3}{x^2} = - 6 x</mrow>
- <mrow>\underline{- 2 x^4 - 6 x^3 }~~~~~~~~~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>- 6 x^3 - 4 x^2~~~~~~~~~~~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by}
+  <mrow>  \underline{- 2 x^4 - 6 x^3 } \amp   \amp</mrow>
+  <mrow>  - 6 x^3 - 4 x^2~~~~~~~~~~~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by}
     \tmop{divisor} : - 6 x (x^2 + 3x) = - 6 x^3 - 18 x^2</mrow>
- <mrow>\underline{\tmmathbf{+ 6 x^3 + 18 x^2} }~~~~~~~~~  \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>\tmmathbf{14 x^2 + 42x} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
+  <mrow>  \underline{\tmmathbf{+ 6 x^3 + 18 x^2} }  \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  \tmmathbf{14 x^2 + 42x} \amp   \amp  \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
     \tmop{term,} 42x</mrow>
- 
 </md>
   
-<md><mrow>2 x^2 - 6 x ~\tmmathbf{+14}~~~~~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x}~~~ \amp   \amp  \tmop{Repeat},
+<md>
+  <mrow>  2 x^2 - 6 x ~\tmmathbf{+14}  \amp   \amp</mrow>
+  <mrow>  x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x} \amp   \amp  \tmop{Repeat},
     \tmop{divide} \tmop{new~leading~term~by~} x^2: \frac{14 x^2}{x^2} = 14</mrow>
- <mrow>\underline{- 2 x^4 - 6 x^3 }~~~~~~~~~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>- 6 x^3 - 4 x^2~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>\underline{+ 6 x^3 + 18 x^2}~~~~~~~~~~  \amp   \amp </mrow>
- <mrow>14 x^2 + 42x~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by} \tmop{the}
+  <mrow>  \underline{- 2 x^4 - 6 x^3 } \amp   \amp</mrow>
+  <mrow>  - 6 x^3 - 4 x^2~~~~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \underline{+ 6 x^3 + 18 x^2}  \amp   \amp</mrow>
+  <mrow>  14 x^2 + 42x~ \amp   \amp  \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by} \tmop{the}
     \tmop{divisor} : 14 (x^2 + 3x) = 14 x^2 + 42x</mrow>
- <mrow>\tmmathbf{\underline{- 14 x^2 - 42x}} \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
- <mrow>0~~~ \amp   \amp  \tmop{No} \tmop{remainder}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>2 x^2 - 6 x + 14 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{- 14 x^2 - 42x}} \amp   \amp  \tmop{Subtract,~changing~signs}</mrow>
+  <mrow>  0~~~ \amp   \amp  \tmop{No} \tmop{remainder}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  2 x^2 - 6 x + 14 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 So we have,
 </p>
-  
 <me>
-\frac{2 x^4 - 4 x^2 + 42x}{x^2+3x}~=~2 x^2 - 6 x + 14
+  \frac{2 x^4 - 4 x^2 + 42x}{x^2+3x}=~2 x^2 - 6 x + 14
 </me>
-  
 <p>
 It is important to take a moment to check each problem, to verify that the
 exponents decrease incrementally and that none are skipped.
 </p>
-  
+
 <p>
 This final example also illustrates that, just as with classic numerical long
 division, sometimes our remainder will be zero.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Synthetic Division</title>
+<objectives>
 <p>
-\pp
+Perform synthetic division only when dividing by a linear term.
 </p>
-  
+</objectives>
 <p>
-{\tmstrong{Objective: Perform synthetic division only when dividing by a linear term.}}\pp
-</p>
-  
-<p>
-Next, we will introduce a method of division that can be used to streamline the polynomial division process and is often preferred over the more traditional long division method. This method, known as <i>synthetic division</i>, although quick, is only useful when the divisor is linear. Specifically, we will require our divisor to be of the form <m>x-c</m>.\pp
+Next, we will introduce a method of division that can be used to streamline the polynomial division process and is often preferred over the more traditional long division method. This method, known as <em>synthetic division</em>, although quick, is only useful when the divisor is linear. Specifically, we will require our divisor to be of the form <m>x-c</m>.
 For our first example, we will divide <m>x^3+4x^2-5x-14</m> by <m>x-2</m>, which one can check will produce a quotient of <m>x^2+6x+7</m> and a remainder of zero using polynomial long division.
 </p>
-  
 <me>
-\frac{x^3+4x^2-5x-14}{x-2}~=~x^2+6x+7
+  \frac{x^3+4x^2-5x-14}{x-2}=~x^2+6x+7
 </me>
- 
 <p>
 The method of synthetic division focuses primarily on the coefficients of both the divisor and dividend. We must still pay careful attention, however, to the powers of our exponents, which will serve as placeholders throughout the process.
-To start the process, we will write our coefficients in what we will refer to as a <index><main>polynomial division </main><sub> synthetic division</sub></index><index><main>synthetic division tableau</main></index><b>synthetic division tableau</b> prior to dividing.\pp
+To start the process, we will write our coefficients in what we will refer to as a <index><main>polynomial division </main><sub> synthetic division</sub></index><index><main>synthetic division tableau</main></index><b>synthetic division tableau</b> prior to dividing.
 To divide <m>x^3+4x^2-5x-14</m> by <m>x-2</m>, we first write <m>2</m> in the place of the divisor since <m>2</m> is zero of the factor <m>x-2</m> and we write the coefficients of <m>x^3+4x^2-5x-14</m> in for the dividend. As our next step, we `bring down' the first coefficient of the dividend.
 We will then multiply and add repeatedly, as demonstrated below.
 </p>
-  <table id="c76d4fa88a18d0e3c9fb0e5151138e8e29fdf360" ><tr><td class='c'>
-
-<m> \begin{array}{rrrrr}
+<tabular>
+<row><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
   \amp   \amp     \amp     \amp   \\ \hhline{~----} 
   \amp    \amp      \amp    \amp     \\
-\end{array} </m>  \hspace{1in}
-</td><td class='c'>
-
-
-<m> \begin{array}{rrrrr}
+\end{array}</m>  \hspace{1in}</cell><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow \amp     \amp     \amp   \\ \hhline{~----} 
   \amp  1  \amp      \amp    \amp     \\
-\end{array} </m> </td></tr>
-<tr><td class='c'></td></tr>
-</table>  
+\end{array}</m></cell></row>
+<row><cell></cell></row>
+</tabular>
 <p>
 Next, take the <m>2</m> from the divisor and multiply by the <m>1</m> that was brought down to get <m>2</m>. Write this underneath the <m>4</m>, then add to get <m>6</m>.
 </p>
-  <table id="b23104b863a502f27bb2c1173b815f8c7851406c" ><tr><td class='c'>
-
-<m> \begin{array}{rrrrr}
+<tabular>
+<row><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow  \amp   2  \amp     \amp   \\ \hhline{~----} 
   \amp  1  \amp      \amp    \amp     \\
-\end{array} </m> \hspace{1in}
-</td><td class='c'>
-
-
-<m> \begin{array}{rrrrr}
+\end{array}</m> \hspace{1in}</cell><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow \amp   2  \amp     \amp   \\ \hhline{~----} 
   \amp  1  \amp    6  \amp    \amp     \\
-\end{array} </m> </td></tr>
-<tr><td class='c'></td></tr>
-</table>  
+\end{array}</m></cell></row>
+<row><cell></cell></row>
+</tabular>
 <p>
 Now multiply the <m>2</m> from the divisor by the <m>6</m> to get <m>12</m>, and add it to the <m>-5</m> to get <m>7</m>.
 </p>
-  <table id="5c391a9f0e7f8380ce17d2c582bc29925969db1d" ><tr><td class='c'>
-
-
-<m> \begin{array}{rrrrr}
+<tabular>
+<row><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow \amp   2  \amp   12  \amp   \\ \hhline{~----} 
   \amp  1  \amp    6  \amp    \amp     \\
-\end{array} </m> \hspace{1in}
-
-</td><td class='c'>
-
-<m> \begin{array}{rrrrr}
+\end{array}</m> \hspace{1in}</cell><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow \amp   2  \amp   12  \amp   \\ \hhline{~----} 
   \amp  1  \amp    6  \amp  7  \amp     \\
-\end{array} </m> </td></tr>
-<tr><td class='c'></td></tr>
-</table>  
+\end{array}</m></cell></row>
+<row><cell></cell></row>
+</tabular>
 <p>
 Finally, multiply the <m>2</m> in the divisor by the <m>7</m> to get <m>14</m>, and add it to the <m>-14</m> to get <m>0</m>.
 </p>
-  <table id="6a94d025006d56e9b25d05d188e43b518e8febfc" ><tr><td class='c'>
-
-<m> \begin{array}{rrrrr}
+<tabular>
+<row><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow \amp   2  \amp   12  \amp  14 \\ \hhline{~----} 
   \amp  1  \amp    6  \amp  7  \amp     \\
-\end{array} </m> \hspace{1in} 
-
-</td><td class='c'>
-
-<m> \begin{array}{rrrrr}
+\end{array}</m> \hspace{1in}</cell><cell><m>\begin{array}{rrrrr}
 
 
   2 \, \, \vline\amp  1 \amp  4 \amp  -5  \amp  -14 \\
 
    \amp  \downarrow \amp   2  \amp   12  \amp  14 \\ \hhline{~----} 
   \amp  1  \amp    6  \amp  7  \amp   \fbox{<m>0</m>}  \\
-\end{array} </m> </td></tr>
-<tr><td class='c'></td></tr>
-</table>  
+\end{array}</m></cell></row>
+<row><cell></cell></row>
+</tabular>
 <p>
-The first three numbers in the last row of our tableau will be the coefficients of the desired quotient polynomial. Remember, we started with a third degree polynomial and divided by a first degree polynomial, so the quotient will be a second degree polynomial. Hence the quotient is <m>x^2+6x+7</m>. The number in the box represents the remainder, which is zero in this case.\pp
-Due in large part to its speed, synthetic division is often a `tool of choice' for dividing polynomials by divisors of the form <m>x-c</m>. It is important to reiterate that synthetic division will <em>only</em> work for these kinds of divisors (linear divisors with leading coefficient 1), and we will need to use polynomial long division for divisors having degree larger than 1.\pp
-Another observation worth mentioning is that when a polynomial (of degree at least <m>1</m>) is divided by <m>x-c</m>, the result will be a quotient polynomial of exactly one less degree than the original polynomial. This is a direct result of the divisor being a linear expression.\pp
-For a more complete understanding of the relationship between long and synthetic division, students are encouraged to trace each step in synthetic division back to its corresponding step in long division.\pp
+The first three numbers in the last row of our tableau will be the coefficients of the desired quotient polynomial. Remember, we started with a third degree polynomial and divided by a first degree polynomial, so the quotient will be a second degree polynomial. Hence the quotient is <m>x^2+6x+7</m>. The number in the box represents the remainder, which is zero in this case.
+Due in large part to its speed, synthetic division is often a `tool of choice' for dividing polynomials by divisors of the form <m>x-c</m>. It is important to reiterate that synthetic division will <em>only</em> work for these kinds of divisors (linear divisors with leading coefficient 1), and we will need to use polynomial long division for divisors having degree larger than 1.
+Another observation worth mentioning is that when a polynomial (of degree at least <m>1</m>) is divided by <m>x-c</m>, the result will be a quotient polynomial of exactly one less degree than the original polynomial. This is a direct result of the divisor being a linear expression.
+For a more complete understanding of the relationship between long and synthetic division, students are encouraged to trace each step in synthetic division back to its corresponding step in long division.
 </p>
-  
+
 <p>
 We conclude this section with three examples using synthetic division. We will summarize each example using the form below.
 </p>
-  
 <me>
-\frac{\text{dividend} }{\text{divisor} }~=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
+  \frac{\text{dividend} }{\text{divisor} }=~\text{quotient~} +~\frac{\text{remainder} }{\text{divisor} }
 </me>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use synthetic division to perform the following polynomial division. Find the quotient and the remainder polynomials.
+Use synthetic division to perform the following polynomial division. Find the quotient and the remainder polynomials.
 </p>
-  
 <me>
-\frac{5x^3 - 2x^2 + 1}{x-3}
+  \frac{5x^3 - 2x^2 + 1}{x-3}
 </me>
-  
 <p>
 When setting up the synthetic division tableau, we need to enter <m>0</m> for the coefficient of <m>x</m> in the dividend as a placeholder, just like in polynomial division. Doing so gives us the following tableau.
 </p>
-  
 <me>
- \begin{array}{rrrrr}
+  \begin{array}{rrrrr}
 
 
   3 \, \, \vline\amp  5 \amp  -2 \amp  0  \amp  1 \\
 
    \amp  \downarrow \amp   15  \amp   39  \amp  117 \\ \hhline{~----} 
   \amp  5  \amp    13  \amp  39  \amp   \fbox{<m>118</m>}  \\
-\end{array} 
+\end{array}
 </me>
-  
 <p>
 Since the dividend was a third degree polynomial, the quotient is a quadratic polynomial with coefficients <m>5</m>, <m>13</m> and <m>39</m>. Our quotient is then<br />
-<m>q(x) = 5x^2+13x+39</m> and the remainder is <m>r(x) = 118</m>.\pp
+<m>q(x) = 5x^2+13x+39</m> and the remainder is <m>r(x) = 118</m>.
 Putting this all together, we have the following equation.
 </p>
-  
 <me>
-\frac{5x^3 - 2x^2 + 1}{x-3}~=~5x^2+13x+39~+~\frac{118}{x-3}
+  \frac{5x^3 - 2x^2 + 1}{x-3}=~5x^2+13x+39~+~\frac{118}{x-3}
 </me>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use synthetic division to perform the following polynomial division. Find the quotient and the remainder polynomials.
+Use synthetic division to perform the following polynomial division. Find the quotient and the remainder polynomials.
 </p>
-  
 <me>
-\frac{x^3+8}{x+2}
+  \frac{x^3+8}{x+2}
 </me>
-  
 <p>
 For this division, since we have a factor of <m>x+2</m>, we must use the zero of<br />
 <m>x = -2</m> to begin.
 </p>
-  
+
 <p>
 Here, we will once again stress that it is critical to take the time in order to ensure we have set the synthetic division tableau up correctly at the onset of the problem. Failure to do so will result in an incorrect answer, as well as a considerable amount time spent re-doing the problem.
 </p>
-  
 <me>
- \begin{array}{rrrrr}
+  \begin{array}{rrrrr}
 
 
   -2 \, \, \vline\amp  1 \amp  0 \amp  0  \amp  8 \\
 
    \amp  \downarrow \amp   -2  \amp   4  \amp  -8 \\ \hhline{~----} 
   \amp  1  \amp    -2  \amp  4  \amp   \fbox{<m>0</m>}  \\
-\end{array} 
+\end{array}
 </me>
-  
 <p>
 We then obtain a quotient of <m>q(x) = x^2-2x+4</m> and remainder of <m>r(x) =0</m>. This gives us the following equation.
 </p>
-  
 <me>
-\frac{x^3+8}{x+2}~=~x^2-2x+4
+  \frac{x^3+8}{x+2}=~x^2-2x+4
 </me>
- 
 <p>
 This answer is a great reminder of the factoring rules for cubic polynomials that we outlined earlier in the chapter.
 </p>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use synthetic division to perform the following polynomial division. Find the quotient and the remainder polynomials.
+Use synthetic division to perform the following polynomial division. Find the quotient and the remainder polynomials.
 </p>
-  
 <me>
-\dfrac{4-8x-12x^2}{2x-3}
+  \dfrac{4-8x-12x^2}{2x-3}
 </me>
-  
 <p>
 To divide <m>4-8x-12x^2</m> by <m>2x-3</m>, two things must be done. First, we write the dividend in descending powers of <m>x</m> as <m>-12x^2-8x+4</m>. Second, since synthetic division works only for factors of the form <m>x-c</m>, we factor <m>2x-3</m> as <m>2\left(x-\frac{3}{2}\right)</m>. Our strategy is to first divide <m>-12x^2-8x+4</m> by <m>2</m>, to get <m>-6x^2-4x+2</m>. Next, we divide by <m>\left(x-\frac{3}{2}\right)</m>. The tableau becomes
 </p>
-  
 <me>
- \begin{array}{rrrr}
+  \begin{array}{rrrr}
 
 
   \frac{3}{2} \, \, \vline\amp  -6 \amp  -4 \amp  2   \\
 
    \amp  \downarrow \amp   -9  \amp  -\frac{39}{2}  \\ \hhline{~---} 
   \amp   -6  \amp    -13  \amp  \fbox{<m>-\frac{35}{2}</m>}  \\
-\end{array} 
+\end{array}
 </me>
-  
 <p>
 From this, we get a quotient of <m>q(x)=-6 x - 13</m> and a remainder of<br />
 <m>r(x)=-\frac{35}{2}</m>. This gives us the following equation.
 </p>
-  
 <me>
-\frac{-6x^2-4x+2}{\left(x-\frac{3}{2}\right)}~=~-6 x - 13 - \frac{\left(\frac{35}{2}\right)}{\left(x-\frac{3}{2}\right)}
+  \frac{-6x^2-4x+2}{\left(x-\frac{3}{2}\right)}=~-6 x - 13 - \frac{\left(\frac{35}{2}\right)}{\left(x-\frac{3}{2}\right)}
 </me>
- 
 <p>
 Multiplying both sides by of our equation by <m>\frac{2}{2}</m> and distributing gives us our desired answer.
 </p>
-  
 <me>
-\frac{-12x^2-8x+4}{2x-3}~=~-6 x - 13 - \frac{35}{2x-3}
+  \frac{-12x^2-8x+4}{2x-3}=~-6 x - 13 - \frac{35}{2x-3}
 </me>
- </statement>
+</statement>
 </example>
- 
 <p>
 Note that we could also multiply both sides of our last equation by <m>2x-3</m> to obtain the following equation.
 </p>
-  
 <me>
--12x^2-8x+4 = \left(2x-3\right) (-6 x - 13) - 35
+  -12x^2-8x+4 = \left(2x-3\right) (-6 x - 13) - 35
 </me>
- 
 <p>
 While both of the forms above are certainly equivalent, the previous one may remind us of the familiar classic division algorithm for integers, shown below.
 </p>
-  dividend <m>=</m> (divisor)<m>\cdot</m>(quotient) <m>+</m> remainder 
+dividend <m>=</m> (divisor)<m>\cdot</m>(quotient) <m>+</m> remainder
 <p>
 The first form, however, will be particularly useful when we graph more complicated rational functions in the next chapter.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

@@ -1,11 +1,11 @@
-
 <section>
 <title>Addition/Elimination</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Solve systems of equations using the
-addition/elimination method.}}\pp
+Solve systems of equations using the
+addition/elimination method.
 </p>
-  
+</objectives>
 <p>
 When solving systems we have found that graphing is very limited when solving
 equations. We then considered a second method known as substitution. This is
@@ -16,39 +16,36 @@ known as either Elimination or Addition. We will set up the process in the
 following examples, then define the five step process we can use to solve by
 elimination.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-3 x - 4 y = 8\qquad\qquad 5 x + 4 y = - 24
+  3 x - 4 y = 8\qquad\qquad 5 x + 4 y = - 24
 </me>
-  
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
       ~~~~~~3 x - 4 y = 8\\
-      \underline{\tmmathbf{+}~~~5 x + 4 y = - 24}
+      \underline{\tmmathbf{+}5 x + 4 y = - 24}
 \end{array}  \amp   \amp  \begin{array}{l}
       \text{Notice~opposite~signs~in~front~of~}  y\\
 			\text{Add~columns~to~eliminate~}  y
 \end{array}</mrow>
- <mrow>8 x ~~~~~~~= - 16~ \amp   \amp  \tmop{~Solve} \tmop{for~} x</mrow>
- <mrow>\tmmathbf{\overline{8} ~~~~~~~~~~~~~~ \overline{8}}~~  \amp   \amp  \tmop{~Divide} \tmop{by~} 8</mrow>
- <mrow>x = - 2~~~ \amp   \amp  \tmop{~We} \tmop{have} \tmop{our~} x!</mrow>
- <mrow>5 (- 2) + 4 y = - 24~ \amp   \amp  \tmop{~Plug} \tmop{into} \tmop{either}
+  <mrow>  8 x ~~~~~~~= - 16~ \amp   \amp  \tmop{~Solve} \tmop{for~} x</mrow>
+  <mrow>  \tmmathbf{\overline{8} ~~~~~~~~~~~~~~ \overline{8}}  \amp   \amp  \tmop{~Divide} \tmop{by~} 8</mrow>
+  <mrow>  x = - 2~~~ \amp   \amp  \tmop{~We} \tmop{have} \tmop{our~} x!</mrow>
+  <mrow>  5 (- 2) + 4 y = - 24~ \amp   \amp  \tmop{~Plug} \tmop{into} \tmop{either}
     \tmop{original} \tmop{equation}</mrow>
- <mrow>- 10 + 4 y = - 24~ \amp   \amp \tmop{~Simplify}</mrow>
- <mrow>\tmmathbf{\underline{+ 10 ~~~~~~~~~+ 10}} \amp   \amp   \tmop{~Add~} 10 \tmop{~to} \tmop{both} \tmop{sides}</mrow>
- <mrow>4 y = - 14~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{4} ~~~~~~~ \overline{4}}~~  \amp   \amp  \tmop{~Divide} \tmop{by~} 4</mrow>
- <mrow>y = -\frac{7}{2}~ \amp   \amp  \tmop{~Now} \tmop{we} \tmop{have} \tmop{our~} y!</mrow>
- <mrow>(x,y)=\left( - 2, -\frac{7}{2} \right) \amp   \amp  \tmop{~Our} \tmop{solution}</mrow>
- 
+  <mrow>  - 10 + 4 y = - 24~ \amp   \amp \tmop{~Simplify}</mrow>
+  <mrow>  \tmmathbf{\underline{+ 10 ~~~~~~~~~+ 10}} \amp   \amp   \tmop{~Add~} 10 \tmop{~to} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  4 y = - 14~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{4} ~~~~~~~ \overline{4}}  \amp   \amp  \tmop{~Divide} \tmop{by~} 4</mrow>
+  <mrow>  y = -\frac{7}{2} \amp   \amp  \tmop{~Now} \tmop{we} \tmop{have} \tmop{our~} y!</mrow>
+  <mrow>  (x,y)=\left( - 2, -\frac{7}{2} \right) \amp   \amp  \tmop{~Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 In the previous example one variable had opposites in front of it, <m>- 4 y</m> and
 <m>4 y</m>. Adding these together eliminated the y completely. This allowed us to
@@ -58,40 +55,36 @@ case we will manipulate the equations to get the opposites we want by
 multiplying one or both equations (on both sides!). This is shown in the next
 example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-- 6 x + 5 y = 22\qquad\qquad 2 x + 3 y = 2
+  - 6 x + 5 y = 22\qquad\qquad 2 x + 3 y = 2
 </me>
- 
 <p>
-Notice that we can obtain "opposite" coefficients (one positive and one negative) in front of <m>x</m> by multiplying both sides of the second equation by 3.
+Notice that we can obtain <q>opposite</q> coefficients (one positive and one negative) in front of <m>x</m> by multiplying both sides of the second equation by 3.
 </p>
-  
-<md><mrow>3 (2 x + 3 y) = (2) 3 \amp   \amp  \tmop{Distribute} \tmop{to} \tmop{get}
+<md>
+  <mrow>  3 (2 x + 3 y) = (2) 3 \amp   \amp  \tmop{Distribute} \tmop{to} \tmop{get}
     \tmop{new} \tmop{second} \tmop{equation}</mrow>
- <mrow>6 x + 9 y = ~6~~~\amp   \amp  \tmop{New} \tmop{second} \tmop{equation}</mrow>
- <mrow>\underline{- 6 x + 5 y = 22}~~ \amp   \amp  \text{Add~equations~to eliminate~}  x</mrow>
- <mrow>14 y = 28~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{14} ~~~~ \overline{14}}~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 14</mrow>
- <mrow>y = 2~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y!</mrow>
- <mrow>2 x + 3 (2) = 2~~~~ \amp   \amp  \tmop{Plug} \tmop{into} \tmop{one} \tmop{of}
+  <mrow>  6 x + 9 y = ~6~~~\amp   \amp  \tmop{New} \tmop{second} \tmop{equation}</mrow>
+  <mrow>  \underline{- 6 x + 5 y = 22} \amp   \amp  \text{Add~equations~to eliminate~}  x</mrow>
+  <mrow>  14 y = 28~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{14} ~~~~ \overline{14}} \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 14</mrow>
+  <mrow>  y = 2~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y!</mrow>
+  <mrow>  2 x + 3 (2) = 2~~~~ \amp   \amp  \tmop{Plug} \tmop{into} \tmop{one} \tmop{of}
     \tmop{the} \tmop{original} \tmop{equations}</mrow>
- <mrow>2 x + 6 = 2~~~~ \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>\tmmathbf{\underline{- 6 ~- 6}}~~ \amp   \amp  \tmop{Subtract~} 6 \tmop{~from} \tmop{both} \tmop{sides}</mrow>
- <mrow>2 x = - 4~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{2} ~~~~~~~ \overline{2}}~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 2</mrow>
- <mrow>x = - 2~~ \amp   \amp  \tmop{We} \tmop{also} \tmop{have} \tmop{our~} x!</mrow>
- <mrow>(x,y)=(- 2, 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  2 x + 6 = 2~~~~ \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  \tmmathbf{\underline{- 6 ~- 6}} \amp   \amp  \tmop{Subtract~} 6 \tmop{~from} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  2 x = - 4~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{2} ~~~~~~~ \overline{2}} \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 2</mrow>
+  <mrow>  x = - 2~~ \amp   \amp  \tmop{We} \tmop{also} \tmop{have} \tmop{our~} x!</mrow>
+  <mrow>  (x,y)=(- 2, 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 When we looked at the <m>x</m> terms, <m>- 6 x</m> and <m>2 x</m> we decided to multiply the
 <m>2 x</m> by 3 to get the opposites we were looking for. What we are looking for
@@ -103,85 +96,70 @@ equations, the <m>5 y</m> by 3, and the <m>3 y</m> by<m>- 5</m> to get opposites
 multiply both equations by a constant (on both sides) to get the opposites we
 are looking for.
 </p>
-  
+<example>
+<statement>
 <p>
-
-<nbsp /><br />
+Solve the following system of equations.
 </p>
-  
-<example><statement>
-<p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
-</p>
-  
 <me>
-3 x + 6 y = - 9\qquad\qquad 2 x + 9 y = - 26
+  3 x + 6 y = - 9\qquad\qquad 2 x + 9 y = - 26
 </me>
- 
 <p>
 Here, we can obtain opposite coefficients in front of <m>y</m> by finding the least common multiple (LCM) of 6 and 9, which is 18. We will therefore multiply both sides of both equations by the appropriate values to get <m>18y</m> and <m>-18y</m>.
 </p>
-  
-<md><mrow>3 (3 x + 6 y) = (- 9) 3 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
+<md>
+  <mrow>  3 (3 x + 6 y) = (- 9) 3 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
     \tmop{equation} \tmop{by} 3</mrow>
- <mrow>9 x + 18 y = - 27~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- 2 (2 x + 9 y) = (- 26) (- 2) \amp   \amp  \tmop{Multiply} \tmop{the}
+  <mrow>  9 x + 18 y = - 27~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - 2 (2 x + 9 y) = (- 26) (- 2) \amp   \amp  \tmop{Multiply} \tmop{the}
     \tmop{second} \tmop{equation} \tmop{by} - 2</mrow>
- <mrow>- 4 x - 18 y = 52~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>9 x + 18 y = - 27 \amp   \amp  \tmop{Add} \tmop{two} \tmop{new} \tmop{equations}
+  <mrow>  - 4 x - 18 y = 52~~~~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  9 x + 18 y = - 27 \amp   \amp  \tmop{Add} \tmop{two} \tmop{new} \tmop{equations}
     \tmop{together}</mrow>
- <mrow>\underline{- 4 x - 18 y = 52~~} \amp   \amp  \text{~~~to eliminate~}  y</mrow>
- <mrow>5 x = 25~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{5} ~~~~~ \overline{5}}~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 5</mrow>
- <mrow>x = 5~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our} \tmop{solution} \tmop{for~} x</mrow>
- <mrow>3 (5) + 6 y = - 9~ \amp   \amp  \tmop{Plug} \tmop{into} \tmop{either}
+  <mrow>  \underline{- 4 x - 18 y = 52~~} \amp   \amp  \text{~~~to eliminate~}  y</mrow>
+  <mrow>  5 x = 25~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{5} ~~~~~ \overline{5}} \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 5</mrow>
+  <mrow>  x = 5~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our} \tmop{solution} \tmop{for~} x</mrow>
+  <mrow>  3 (5) + 6 y = - 9~ \amp   \amp  \tmop{Plug} \tmop{into} \tmop{either}
     \tmop{original} \tmop{equation}</mrow>
- <mrow>15 + 6 y = - 9~ \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>\tmmathbf{\underline{- 15 ~~~~~~~- 15}} \amp   \amp \tmop{Subtract~} 15 \tmop{~from} \tmop{both}
+  <mrow>  15 + 6 y = - 9~ \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  \tmmathbf{\underline{- 15 ~~~~~~~- 15}} \amp   \amp \tmop{Subtract~} 15 \tmop{~from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>6 y = - 24 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{6} ~~~~~~ \overline{6}}~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 6</mrow>
- <mrow>y = - 4~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{our} \tmop{solution}
+  <mrow>  6 y = - 24 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{6} ~~~~~~ \overline{6}} \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 6</mrow>
+  <mrow>  y = - 4~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{our} \tmop{solution}
     \tmop{for~} y</mrow>
- <mrow>(x,y)=(5, - 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  (x,y)=(5, - 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 As we get started, it is important for each problem that all variables and
 constants are aligned before we begin multiplying and adding equations. This
 is illustrated in the next example which includes the five steps we will go
 through to solve a problem using elimination.
 </p>
-  
-<p>
-
-<nbsp /><br />
-</p>
-  <table id="e62e8e8d983adfa1b42aee108970510886c00b9f" ><tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Problem </td><td class='lv'> <table id="634938f6f53dae5b306d4811d55b708ee63dc3c7" ><tr><td class='l'>
-    <m>2 x - 5 y = - 13</m></td></tr>
-<tr><td class='l'>
-    <m>- 3 y + 4 = - 5 x</m></td></tr>
-</table> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  1. Line up the variables and constants. </td><td class='lv'> <table id="e3b75361a4625078aa425f8b868dc02d67f02538" ><tr><td class='l'>
-    Rearrange the second equation</td></tr>
-<tr><td class='l'>
-    <m>2 x - 5 y = - 13</m></td></tr>
-<tr><td class='l'>
-    <m>5 x - 3 y = - 4</m></td></tr>
-<tr><td class='l'></td></tr>
-</table> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  2. Multiply to get opposites (use LCM). </td><td class='lv'> <m>\begin{array}{l}
+<tabular>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Problem</cell><cell>
+<tabular>
+<row><cell><m>2 x - 5 y = - 13</m></cell></row>
+<row><cell><m>- 3 y + 4 = - 5 x</m></cell></row>
+</tabular>
+</cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>1. Line up the variables and constants.</cell><cell>
+<tabular>
+<row><cell>Rearrange the second equation</cell></row>
+<row><cell><m>2 x - 5 y = - 13</m></cell></row>
+<row><cell><m>5 x - 3 y = - 4</m></cell></row>
+<row><cell></cell></row>
+</tabular>
+</cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>2. Multiply to get opposites (use LCM).</cell><cell><m>\begin{array}{l}
  
     \tmop{First} \tmop{Equation} : \tmop{multiply} \tmop{by} - 5\\
     - 5 (2 x - 5 y) = (- 13) (- 5)\\
@@ -190,128 +168,108 @@ through to solve a problem using elimination.
     \tmop{Second} \tmop{Equation} : \tmop{multiply} \tmop{by} 2\\
     2 (5 x - 3 y) = (- 4) 2\\
     ~~10 x - 6 y = - 8\\
-\end{array} </m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  3. Add equations to eliminate a variable.</td><td class='lv'>  
-	
-	  <m>\begin{array}{l}
+\end{array}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>3. Add equations to eliminate a variable.</cell><cell><m>\begin{array}{l}
  ~~~~~- 10 x + 25 y = 65~~~~~~\\
  ~~~~~~\underline{~10 x~ -~ 6 y = - 8~~}\\
 ~~~~~~~~~~~~~~~~19 y =57\\
-\end{array} </m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  4. Solve. </td><td class='lv'> <m>\begin{array}{l}
+\end{array}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>4. Solve.</cell><cell><m>\begin{array}{l}
      ~~~~~~~~~~~~~~19y = 57\\
     ~~~~~~~~~~~~~~~\tmmathbf{\overline{19} ~~~~ \overline{19}}\\
     ~~~~~~~~~~~~~~~~~y = 3
-\end{array} </m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  5.<nbsp /><m>\begin{array}{l}
+\end{array}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>5.<nbsp /><m>\begin{array}{l}
 	\text{Plug back into either of the} \\
 	\text{given equations and solve.} 
-\end{array} </m>
-	
-</td><td class='lv'> <table id="f5b40ed83efb8c5c8620e23825f761fcdaece7b3" ><tr><td class='l'>
-    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>2 x - 5 (3) = - 13</m></td></tr>
-<tr><td class='l'>
-    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>2 x - 15 = - 13</m></td></tr>
-<tr><td class='l'>
-    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>\tmmathbf{\underline{+ 15 ~+ 15}}</m></td></tr>
-<tr><td class='l'>
-		<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>2 x = 2</m></td></tr>
-<tr><td class='l'>
-    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>\tmmathbf{\overline{2}}</m> <nbsp /><nbsp /><nbsp /><nbsp /> <m>\tmmathbf{\overline{2}}</m></td></tr>
-<tr><td class='l'>
-    <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>x = 1</m></td></tr>
-</table> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solution </td><td class='lv'> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>(x,y)=(1, 3)</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-
-</table> 
+\end{array}</m></cell><cell>
+<tabular>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>2 x - 5 (3) = - 13</m></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>2 x - 15 = - 13</m></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>\tmmathbf{\underline{+ 15 ~+ 15}}</m></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>2 x = 2</m></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>\tmmathbf{\overline{2}}</m> <nbsp /><nbsp /><nbsp /><nbsp /> <m>\tmmathbf{\overline{2}}</m></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>x = 1</m></cell></row>
+</tabular>
+</cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solution</cell><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>(x,y)=(1, 3)</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+</tabular>
 <p>
-<nbsp />\pp
+<nbsp />
 {\tmstrong{World View Note}}: The famous mathematical text, {\tmem{The Nine
 Chapters on the Mathematical Art}}, which was printed around 179 AD in China
 describes a formula very similar to Gaussian elimination which is very similar
-to the addition method.\pp
+to the addition method.
 </p>
-  
+
 <p>
 Just as with graphing and substitution, it is possible to have no solution or
 infinitely many solutions with elimination. If the variables all disappear from our problem, a true statement will always indicate infinitely many solutions and a false statement will always indicate no solutions.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-2 x - 5 y = 3\qquad\qquad - 6 x + 15 y = - 9
+  2 x - 5 y = 3\qquad\qquad - 6 x + 15 y = - 9
 </me>
- 
 <p>
 In order to obtain opposite coefficients in front of <m>x</m>, multiply the first equation by 3.
 </p>
-  
-<md><mrow>3 (2 x - 5 y) = (3) 3 \amp   \amp </mrow>
- <mrow>6 x - 15 y = 9~~~~ \amp   \amp   \tmop{Distribute}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>6 x - 15 y = ~9~ \amp   \amp </mrow>
- <mrow>\underline{- 6 x + 15 y = - 9} \amp   \amp   \tmop{Add} \tmop{equations} \tmop{together}</mrow>
- <mrow>0 = 0~~ \amp   \amp  \tmop{True} \tmop{statement}</mrow>
- 
+<md>
+  <mrow>  3 (2 x - 5 y) = (3) 3 \amp   \amp</mrow>
+  <mrow>  6 x - 15 y = 9~~~~ \amp   \amp   \tmop{Distribute}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  6 x - 15 y = ~9~ \amp   \amp</mrow>
+  <mrow>  \underline{- 6 x + 15 y = - 9} \amp   \amp   \tmop{Add} \tmop{equations} \tmop{together}</mrow>
+  <mrow>  0 = 0~~ \amp   \amp  \tmop{True} \tmop{statement}</mrow>
 </md>
- 
 <p>
 Since we are left with a true statement, we conclude that there are infinitely many solutions.
 </p>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-4 x - 6 y = 8\qquad\qquad 6 x - 9 y = 15
+  4 x - 6 y = 8\qquad\qquad 6 x - 9 y = 15
 </me>
- 
 <p>
 Here, we will seek to obtain opposite coefficients for <m>x</m>. This means we must find the LCM of 4 and 6, which is 12. We will multiply both sides of both equations by the appropriate values in order to get <m>12x</m> and <m>-12x</m>.
 </p>
-  
-<md><mrow>3 (4 x - 6 y) = (8) 3 \amp   \amp  \tmop{Multiply} \tmop{first} \tmop{equation}
+<md>
+  <mrow>  3 (4 x - 6 y) = (8) 3 \amp   \amp  \tmop{Multiply} \tmop{first} \tmop{equation}
     \tmop{by~} 3</mrow>
- <mrow>12 x - 18 y = 24~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- 2 (6 x - 9 y) = (15) (- 2) \amp   \amp  \tmop{Multiply} \tmop{second}
+  <mrow>  12 x - 18 y = 24~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - 2 (6 x - 9 y) = (15) (- 2) \amp   \amp  \tmop{Multiply} \tmop{second}
     \tmop{equation} \tmop{by~} - 2</mrow>
- <mrow>- 12 x + 18 y = - 30~~~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>12 x - 18 y = ~24~ \amp   \amp </mrow>
- <mrow>\underline{- 12 x + 18 y = - 30} \amp   \amp   \tmop{Add} \tmop{both} \tmop{new} \tmop{equations}
+  <mrow>  - 12 x + 18 y = - 30~~~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  12 x - 18 y = ~24~ \amp   \amp</mrow>
+  <mrow>  \underline{- 12 x + 18 y = - 30} \amp   \amp   \tmop{Add} \tmop{both} \tmop{new} \tmop{equations}
     \tmop{together}</mrow>
- <mrow>0 \neq - 6~~ \amp   \amp  \tmop{False} \tmop{statement}</mrow>
- 
+  <mrow>  0 \neq - 6~~ \amp   \amp  \tmop{False} \tmop{statement}</mrow>
 </md>
- 
 <p>
-Since we are left with a false statement, we conclude that there are no solutions, or <m>\varnothing</m>.\pp
+Since we are left with a false statement, we conclude that there are no solutions, or <m>\varnothing</m>.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 We have now covered three different methods that can be used to solve a system of
 two equations with two variables: graphing, substitution, and addition/elimination. While all three can be used to solve any system, graphing works well for small integer solutions. Substitution works
 best when we have a lone variable, and addition/elimination works best when the other
 two methods fail. As each method has its own strengths, it is important that students become familiar with all three methods.
 </p>
- </section>
+</section>

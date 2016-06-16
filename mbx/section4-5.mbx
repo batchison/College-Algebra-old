@@ -1,140 +1,115 @@
-
 <section>
 <title>Piecewise-Defined and Absolute Value Functions</title>
+
+
 <subsection>
 <title>Piecewise-Defined Functions</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Evaluate a piecewise-defined function at a point, find all solutions for an equation involving a piecewise-defined function and graph a piecewise-defined function.}}\pp
+Evaluate a piecewise-defined function at a point, find all solutions for an equation involving a piecewise-defined function and graph a piecewise-defined function.
 </p>
-  
+</objectives>
 <p>
-A <i>piecewise-defined</i> (or simply, a <i>piecewise</i>) function is a function that is defined in pieces. More precisely, a piecewise-defined function is a function that is presented using one or more expressions, each defined over non-intersecting intervals. An example of a piecewise-defined function is shown below.
+A <em>piecewise-defined</em> (or simply, a <em>piecewise</em>) function is a function that is defined in pieces. More precisely, a piecewise-defined function is a function that is presented using one or more expressions, each defined over non-intersecting intervals. An example of a piecewise-defined function is shown below.
 </p>
-  
 <me>
- f(x)~=~
+  f(x)~=~
 	\begin{cases}2x-1 \amp  \text{if~~}  x> 0\\
 			x^2-1 \amp  \text{if~~}  x\leq 0
-\end{cases} 
-
+\end{cases}
 </me>
-  
 <p>
 To evaluate a piecewise-defined function at a particular value of the variable, we must first compare our value to the various intervals (or domains) applied to each piece, and then substitute our value into the piece that coincides with the correct domain. For example, since <m>x=1</m> is greater than zero, we would use the expression <m>2x-1</m> to evaluate <m>f(1)</m>,
 </p>
-  
 <me>
-f(1)=2(1)-1=2-1=1.
+  f(1)=2(1)-1=2-1=1.
 </me>
- 
 <p>
 Similarly, since <m>x=-1</m> is less than zero, we would use the expression <m>x^2-1</m> to evaluate <m>f(-1)</m>,
 </p>
-  
 <me>
-f(-1)=(-1)^2-1=1-1=0.
+  f(-1)=(-1)^2-1=1-1=0.
 </me>
- 
 <p>
 Below is a table of points obtained from the piecewise-defined function <m>f</m> above.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
 <nbsp />
 </p>
-  
 <me>
- f(x)~=~
+  f(x)~=~
 	\begin{cases}2x-1 \amp  \text{if~~}  x> 0\\
 			x^2-1 \amp  \text{if~~}  x\leq 0
-\end{cases} 
-
+\end{cases}
 </me>
- 
-<table id="27a126c81c9e6773d081e391923cedb340e8c511" ><tr><td class='cv'>
-	<m>x</m> </td><td class='c'> <m>f(x)</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>2</m> </td><td class='c'> <m>2(2)-1=3</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>1</m> </td><td class='c'> <m>2(1)-1=1</m></td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
+<tabular>
+<row><cell><m>x</m></cell><cell><m>f(x)</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>2</m></cell><cell><m>2(2)-1=3</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>1</m></cell><cell><m>2(1)-1=1</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell></row>
 
-<tr><td  class='cv' >
-	<m>0</m> </td><td class='c'> <m>(0)^2-1=-1</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-1</m> </td><td class='c'> <m>(-1)^2-1=0</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-2</m> </td><td class='c'> <m>(-2)^2-1=3</m></td></tr>
-</table> </statement>
+<row><cell  >
+	<m>0</m></cell><cell><m>(0)^2-1=-1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-1</m></cell><cell><m>(-1)^2-1=0</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-2</m></cell><cell><m>(-2)^2-1=3</m></cell></row>
+</tabular>
+</statement>
 </example>
- 
 <p>
-We have included an extra line between the values of <m>x=0</m> and <m>x=1</m> in the table above, in order to emphasize the changeover from one piece of our function (<m>2x-1</m>) to another (<m>x^2-1</m>). The value of <m>x=0</m> is very important, since it is an endpoint for the two domains of our function, <m>(0,\infty)</m> and <m>(-\infty,0]</m> . A common misconception among students is to evaluate <m>f(0)</m> at both <m>2x-1</m> and <m>x^2-1</m> because it seems to "straddle" both individual domains. And although the values for both pieces are equal at <m>x=0</m>,
+We have included an extra line between the values of <m>x=0</m> and <m>x=1</m> in the table above, in order to emphasize the changeover from one piece of our function (<m>2x-1</m>) to another (<m>x^2-1</m>). The value of <m>x=0</m> is very important, since it is an endpoint for the two domains of our function, <m>(0,\infty)</m> and <m>(-\infty,0]</m> . A common misconception among students is to evaluate <m>f(0)</m> at both <m>2x-1</m> and <m>x^2-1</m> because it seems to <q>straddle</q> both individual domains. And although the values for both pieces are equal at <m>x=0</m>,
 </p>
-  
 <me>
-2(0)-1=-1=0^2-1
+  2(0)-1=-1=0^2-1
 </me>
- 
 <p>
-this will often not be the case. Regardless, we must be careful to <i>always</i> associate <m>x=0</m> with <m>x^2-1</m>, since it is contained in our second piece's domain (<m>0\leq 0</m>) and not in our first. Our next example demonstrates what can happen with a piecewise function, if one mishandles such values of <m>x</m>.
+this will often not be the case. Regardless, we must be careful to <em>always</em> associate <m>x=0</m> with <m>x^2-1</m>, since it is contained in our second piece's domain (<m>0\leq 0</m>) and not in our first. Our next example demonstrates what can happen with a piecewise function, if one mishandles such values of <m>x</m>.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
 <nbsp />
 </p>
-  
 <me>
- g(x)~=~
+  g(x)~=~
 	\begin{cases}2x+1 \amp  \text{if~~}  x> 0\\
 			x^2-1 \amp  \text{if~~}  x\leq 0
-\end{cases} 
-
+\end{cases}
 </me>
- 
+<tabular>
+<row><cell><m>x</m></cell><cell><m>g(x)</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>2</m></cell><cell><m>2(2)+1=5</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>1</m></cell><cell><m>2(1)+1=3</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell></row>
 
-<table id="f4d16035d5a66013747782ba4fec85707a200a7f" ><tr><td class='cv'>
-	<m>x</m> </td><td class='c'> <m>g(x)</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>2</m> </td><td class='c'> <m>2(2)+1=5</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>1</m> </td><td class='c'> <m>2(1)+1=3</m></td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
-
-<tr><td  class='cv' >
-	<m>0</m> </td><td class='c'> <m>(0)^2-1=-1</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-1</m> </td><td class='c'> <m>(-1)^2-1=0</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-2</m> </td><td class='c'> <m>(-2)^2-1=3</m></td></tr>
-</table> </statement>
+<row><cell  >
+	<m>0</m></cell><cell><m>(0)^2-1=-1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-1</m></cell><cell><m>(-1)^2-1=0</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-2</m></cell><cell><m>(-2)^2-1=3</m></cell></row>
+</tabular>
+</statement>
 </example>
- 
 <p>
-In the previous example, we can see that both pieces for <m>g(x)</m> do not "match up", since the values we obtain for both pieces at <m>x=0</m> do not agree,
+In the previous example, we can see that both pieces for <m>g(x)</m> do not <q>match up</q>, since the values we obtain for both pieces at <m>x=0</m> do not agree,
 </p>
-  
 <me>
-g(0)=0^2-1=-1\qquad\text{but} \qquad 2(0)+1=1.
+  g(0)=0^2-1=-1\qquad\text{but} \qquad 2(0)+1=1.
 </me>
- 
 <p>
-Remember that when evaluating any function at a value of <m>x</m> in its domain, we should always only ever get a <i>single value</i> for <m>g(x)</m>, since this is how we defined a function earlier in the chapter. Furthermore, if we were to associate two values (<m>g(0)=\pm 1</m>) to <m>x=0</m>, our graph would consequently contain points at <m>(0,-1)</m> and <m>(0,1)</m>, and therefore fail the Vertical Line Test.\pp
-When we consider the graphs of both <m>f</m> and <m>g</m>, since both pieces of <m>f</m> seem to "match up" at <m>x=0</m>, we will see that the graph of <m>f</m> will be one <i>continuous</i> graph, with no breaks or separations appearing. On the other hand, since both pieces of <m>g</m> do not "match up" at <m>x=0</m>, we will see that the graph of <m>g</m> will contain a break at <m>x=0</m>, known as a <i>discontinuity</i> in the graph. The formal definition of a <i>continuous function</i> is one that is usually reserved for a follow-up course to Algebra (either Precalculus or Calculus). Both graphs are shown below.
+Remember that when evaluating any function at a value of <m>x</m> in its domain, we should always only ever get a <em>single value</em> for <m>g(x)</m>, since this is how we defined a function earlier in the chapter. Furthermore, if we were to associate two values (<m>g(0)=\pm 1</m>) to <m>x=0</m>, our graph would consequently contain points at <m>(0,-1)</m> and <m>(0,1)</m>, and therefore fail the Vertical Line Test.
+When we consider the graphs of both <m>f</m> and <m>g</m>, since both pieces of <m>f</m> seem to <q>match up</q> at <m>x=0</m>, we will see that the graph of <m>f</m> will be one <em>continuous</em> graph, with no breaks or separations appearing. On the other hand, since both pieces of <m>g</m> do not <q>match up</q> at <m>x=0</m>, we will see that the graph of <m>g</m> will contain a break at <m>x=0</m>, known as a <em>discontinuity</em> in the graph. The formal definition of a <em>continuous function</em> is one that is usually reserved for a follow-up course to Algebra (either Precalculus or Calculus). Both graphs are shown below.
 </p>
-  <table id="5f28ab69dbe244d5799a01a17dc4ab37a14d38c6" ><tr><td class='c'>
-
-\begin{mfpic}[16]{-4}4{-3}6
+<tabular>
+<row><cell>\begin{mfpic}[16]{-4}4{-3}6
 \arrow \reverse \function{-2.5,0,0.1}{(x-1)*(x+1)}
 \arrow \reverse \function{2.5,0,0.1}{2*(x-0.5)}
 \point[3pt]{(0,-1),(-1,0),(-2,3),(1,1),(2,3)}
@@ -146,12 +121,10 @@ When we consider the graphs of both <m>f</m> and <m>g</m>, since both pieces of 
 \tcaption{The graph of <m>f</m>}
 \tlpointsep{5pt}
 
-\axislabels x{{<m>-3 \ </m>} -3, {<m>-2 \ </m>} -2, {<m>-1 \ </m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
+\axislabels x{{<m>-3 \</m>} -3, {<m>-2 \</m>} -2, {<m>-1 \</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
 \axislabels y{{<m>-2</m>} -2, {<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4, {<m>5</m>} 5}
 
-\end{mfpic} \hspace{.25in} </td><td class='c'>
-
-\begin{mfpic}[16]{-4}4{-3}6
+\end{mfpic} \hspace{.25in}</cell><cell>\begin{mfpic}[16]{-4}4{-3}6
 \arrow \reverse \function{-2.5,0,0.1}{(x-1)*(x+1)}
 \arrow \reverse \function{2.25,0.075,0.1}{2*(x+0.5)}
 \point[3pt]{(0,-1),(-1,0),(-2,3),(1,3),(2,5)}
@@ -169,134 +142,123 @@ When we consider the graphs of both <m>f</m> and <m>g</m>, since both pieces of 
 \tcaption{The graph of <m>g</m>}
 \tlpointsep{5pt}
 
-\axislabels x{{<m>-3 \ </m>} -3, {<m>-2 \ </m>} -2, {<m>-1 \ </m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
+\axislabels x{{<m>-3 \</m>} -3, {<m>-2 \</m>} -2, {<m>-1 \</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
 \axislabels y{{<m>-2</m>} -2, {<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4, {<m>5</m>} 5}
 
-\end{mfpic}</td></tr>
-</table> 
+\end{mfpic}</cell></row>
+</tabular>
 <p>
-Notice that in order for us to have a <i>complete</i> sketch of the graph of <m>g</m>, we have evaluated <i>both</i> pieces of <m>g</m> at <m>x=0</m>, so that we can properly identify the <i>point</i> at the end of the quadratic piece <m>x^2-1</m> and the <i>hole</i> at the end of the linear piece, <m>2x+1</m>. In general, whenever faced with the task of graphing a piecewise-defined function, one should always make sure to identify exactly where each piece of the graph starts and stops, even if a location corresponds to a hole, i.e., a coordinate pair that is \text{not} actually a point on the graph.\pp
-We can also observe, both from how our functions are defined (algebraically) and from their graphs that the domain of both <m>f</m> and <m>g</m> is all real numbers, or <m>(-\infty,\infty)</m>. To identify the range of each function, we can project each of our graphs onto the <m>y-</m>axis. In doing so, we obtain a range of <m>[-1,\infty)</m> for both <m>f</m> and <m>g</m>. Notice that although both functions produce distinctly different graphs, their range is coincidentally the same, since the quadratic piece <m>x^2-1</m> begins at the same minimum value (<m>y=-1</m>) for each graph.\pp
-As we have already discussed evaluating piecewise-defined functions at a value of <m>x</m>, we will now address the issue of solving an equation that involves a piecewise function for all possible values of <m>x</m>. We will do this, once again, using our functions <m>f</m> and <m>g</m> from before.\pp
+Notice that in order for us to have a <em>complete</em> sketch of the graph of <m>g</m>, we have evaluated <em>both</em> pieces of <m>g</m> at <m>x=0</m>, so that we can properly identify the <em>point</em> at the end of the quadratic piece <m>x^2-1</m> and the <em>hole</em> at the end of the linear piece, <m>2x+1</m>. In general, whenever faced with the task of graphing a piecewise-defined function, one should always make sure to identify exactly where each piece of the graph starts and stops, even if a location corresponds to a hole, i.e., a coordinate pair that is \text{not} actually a point on the graph.
+We can also observe, both from how our functions are defined (algebraically) and from their graphs that the domain of both <m>f</m> and <m>g</m> is all real numbers, or <m>(-\infty,\infty)</m>. To identify the range of each function, we can project each of our graphs onto the <m>y-</m>axis. In doing so, we obtain a range of <m>[-1,\infty)</m> for both <m>f</m> and <m>g</m>. Notice that although both functions produce distinctly different graphs, their range is coincidentally the same, since the quadratic piece <m>x^2-1</m> begins at the same minimum value (<m>y=-1</m>) for each graph.
+As we have already discussed evaluating piecewise-defined functions at a value of <m>x</m>, we will now address the issue of solving an equation that involves a piecewise function for all possible values of <m>x</m>. We will do this, once again, using our functions <m>f</m> and <m>g</m> from before.
 For some constant <m>k</m>, to find all <m>x</m> such that <m>f(x)=k</m>, we will use the strategy outlined below, which will be the same for any piecewise-defined function.
 </p>
-  <ul><li>Set each separate piece equal to <m>k</m> and solve for <m>x</m>.</li>
+
+<ul>
+<li>Set each separate piece equal to <m>k</m> and solve for <m>x</m>.</li>
 <li>Compare your answers for <m>x</m> to the domain applied to each piece.  Only keep those solutions that coincide with the specified domain.</li>
- </ul>  
+</ul>
+
 <p>
 We illustrate this approach by finding all possible zeros (or roots) of both <m>f</m> and <m>g</m>.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the set of all zeros of
+Find the set of all zeros of
 </p>
-  
 <me>
- f(x)~=~
+  f(x)~=~
 	\begin{cases}2x-1 \amp  \text{if~~}  x> 0\\
 			x^2-1 \amp  \text{if~~}  x\leq 0
-\end{cases} 
-
+\end{cases}
 </me>
- 
 <p>
 .
 </p>
-  
-<md><mrow>f(x)=0~~~~~ \amp  \amp \text{Apply~to~each~piece~separately}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>2x-1=0,~x>0 \amp  \amp \text{First~piece;~solve~for~} x</mrow>
- <mrow>x=\frac{1}{2},~x>0 \amp  \amp  \text{One~solution;~coincides~with~domain}</mrow>
- 
+<md>
+  <mrow>  f(x)=0~~~~~ \amp  \amp \text{Apply~to~each~piece~separately}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  2x-1=0,~x>0 \amp  \amp \text{First~piece;~solve~for~} x</mrow>
+  <mrow>  x=\frac{1}{2},~x>0 \amp  \amp  \text{One~solution;~coincides~with~domain}</mrow>
 </md>
   
-<md><mrow>x^2-1=0~,~~~x\leq 0 \amp  \amp \text{Second~piece;~solve~for~} x</mrow>
- <mrow>(x-1)(x+1)=0,~x\leq 0 \amp  \amp  \text{Solve~by~factoring}</mrow>
- <mrow>x=\pm 1,~x\leq 0 \amp  \amp  \text{Two~potential~solutions}</mrow>
- <mrow>x=-1,~x\leq 0 \amp  \amp \text{Exclude~}  x=1; \text{does~not~coincide~with~domain}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>f(x)=0 \text{~when~}  x=-1,~ \frac{1}{2} \amp  \amp  \text{Our~answer}</mrow>
- 
+<md>
+  <mrow>  x^2-1=0~,~~~x\leq 0 \amp  \amp \text{Second~piece;~solve~for~} x</mrow>
+  <mrow>  (x-1)(x+1)=0,~x\leq 0 \amp  \amp  \text{Solve~by~factoring}</mrow>
+  <mrow>  x=\pm 1,~x\leq 0 \amp  \amp  \text{Two~potential~solutions}</mrow>
+  <mrow>  x=-1,~x\leq 0 \amp  \amp \text{Exclude~}  x=1; \text{does~not~coincide~with~domain}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  f(x)=0 \text{~when~}  x=-1,~ \frac{1}{2} \amp  \amp  \text{Our~answer}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the set of all zeros of
+Find the set of all zeros of
 </p>
-  
 <me>
- g(x)~=~
+  g(x)~=~
 \begin{cases}2x+1 \amp  \text{if~~}  x> 0\\
 			x^2-1 \amp  \text{if~~}  x\leq 0
-\end{cases} 
-
+\end{cases}
 </me>
- 
 <p>
 .
 </p>
-  
-<md><mrow>g(x)=0~~~~~ \amp  \amp \text{Apply~to~each~piece~separately}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>2x+1=0,~x>0 \amp  \amp \text{First~piece;~solve~for~} x</mrow>
- <mrow>x=-\frac{1}{2},~x>0 \amp  \amp  \text{Invalid~solution;~does~not~coincide~with~domain}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>x^2-1=0~,~~~x\leq 0 \amp  \amp \text{Second~piece;~solve~for~} x</mrow>
- <mrow>(x-1)(x+1)=0,~x\leq 0 \amp  \amp  \text{Solve~by~factoring}</mrow>
- <mrow>x=\pm 1,~x\leq 0 \amp  \amp  \text{Two~potential~solutions}</mrow>
- <mrow>x=-1,~x\leq 0 \amp  \amp \text{Exclude~}  x=1; \text{does~not~coincide~with~domain}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>g(x)=0 \text{~when~}  x=-1 \amp  \amp  \text{Our~answer}</mrow>
- 
+<md>
+  <mrow>  g(x)=0~~~~~ \amp  \amp \text{Apply~to~each~piece~separately}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  2x+1=0,~x>0 \amp  \amp \text{First~piece;~solve~for~} x</mrow>
+  <mrow>  x=-\frac{1}{2},~x>0 \amp  \amp  \text{Invalid~solution;~does~not~coincide~with~domain}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  x^2-1=0~,~~~x\leq 0 \amp  \amp \text{Second~piece;~solve~for~} x</mrow>
+  <mrow>  (x-1)(x+1)=0,~x\leq 0 \amp  \amp  \text{Solve~by~factoring}</mrow>
+  <mrow>  x=\pm 1,~x\leq 0 \amp  \amp  \text{Two~potential~solutions}</mrow>
+  <mrow>  x=-1,~x\leq 0 \amp  \amp \text{Exclude~}  x=1; \text{does~not~coincide~with~domain}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  g(x)=0 \text{~when~}  x=-1 \amp  \amp  \text{Our~answer}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
-Each of the previous examples can also be confirmed by the graphs that we obtained earlier.\pp
+Each of the previous examples can also be confirmed by the graphs that we obtained earlier.
 For our next example, we will graph a piecewise function that consists of three pieces.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <me>
- h(x)~=~
+  h(x)~=~
 	\begin{cases}~3 \amp  \text{if~~}  x> 0\\
 			~1 \amp  \text{if~~}  x=0\\
 			~x \amp  \text{if~~}  x\lt 0
-\end{cases} 
-
+\end{cases}
 </me>
-  <table id="699f920c7584cc671f74b7a98f0f61f968fe658e" >{m{1.5in}m{.25in}m{3.5in}}
+<tabular>
+{m{1.5in}m{.25in}m{3.5in}}
+<tabular>
+<row><cell><m>x</m></cell><cell><m>h(x)</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>2</m></cell><cell><m>3</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>1</m></cell><cell><m>3</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell></row>
 
-<table id="2453a5a7409123984276eab392ca45c4c788f424" ><tr><td class='cv'>
-	<m>x</m> </td><td class='c'> <m>h(x)</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>2</m> </td><td class='c'> <m>3</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>1</m> </td><td class='c'> <m>3</m></td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
+<row><cell  >
+	<m>0</m></cell><cell><m>1</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell></row>
 
-<tr><td  class='cv' >
-	<m>0</m> </td><td class='c'> <m>1</m></td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
-
-<tr><td  class='cv' >
-	<m>-1</m> </td><td class='c'> <m>-1</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-2</m> </td><td class='c'> <m>-2</m></td></tr>
-</table> 
-& &
+<row><cell  >
+	<m>-1</m></cell><cell><m>-1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-2</m></cell><cell><m>-2</m></cell></row>
+</tabular>
+<amp /> &
 \begin{mfpic}[18]{-4}4{-4}4
 \arrow \function{0.1,3,0.1}3
 \arrow \reverse \function{-3,-0.1,0.1}x
@@ -313,64 +275,56 @@ For our next example, we will graph a piecewise function that consists of three 
 \tcaption{The graph of <m>h</m>}
 \tlpointsep{5pt}
 
-\axislabels x{{<m>-3 \ </m>} -3, {<m>-2 \ </m>} -2, {<m>-1 \ </m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
+\axislabels x{{<m>-3 \</m>} -3, {<m>-2 \</m>} -2, {<m>-1 \</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
 \axislabels y{{<m>-3</m>} -3, {<m>-2</m>} -2, {<m>-1</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3}
 
-\end{mfpic}</table> </statement>
+\end{mfpic}
+</tabular>
+</statement>
 </example>
- 
 <p>
-Here, we see that our graph consists of three pieces, one of which is a single point at <m>(0,1)</m>. We can also once again determine both algebraically and graphically that our domain is <m>(-\infty,\infty)</m>. Using our graph, we obtain a range of <m>(-\infty,0)\cup\{1\}\cup\{3\}</m>. Our complete graph also contains holes at <m>(0,3)</m> and <m>(0,0)</m>.\pp
+Here, we see that our graph consists of three pieces, one of which is a single point at <m>(0,1)</m>. We can also once again determine both algebraically and graphically that our domain is <m>(-\infty,\infty)</m>. Using our graph, we obtain a range of <m>(-\infty,0)\cup\{1\}\cup\{3\}</m>. Our complete graph also contains holes at <m>(0,3)</m> and <m>(0,0)</m>.
 We can easily identify all three of the coordinate pairs associated with <m>x=0</m> (two holes and one point) by evaluating all three pieces at <m>x=0</m>. To reinforce this concept, we will present another example of a piecewise function that consists of three pieces.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <me>
- f(x)~=~
+  f(x)~=~
 	\begin{cases}~\frac{x}{2}-2 \amp  \text{if~~}  x\geq 3\\
 			
 			-2x^2+x+1 \amp  \text{if~~}  -2\lt x\lt 2\\
 			
 			~x-8 \amp  \text{if~~}  x\leq -2
-\end{cases} 
-
+\end{cases}
 </me>
-  <table id="5b13470f0cd55e743ae7bfa9d22836e83b00017f" >{m{1.5in}m{.25in}m{3.5in}}
+<tabular>
+{m{1.5in}m{.25in}m{3.5in}}
+<tabular>
+<row><cell><m>x</m></cell><cell><m>f(x)</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>4</m></cell><cell><m>0</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>3</m></cell><cell><m>-\frac{1}{2}</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell></row>
 
-<table id="34e754c10d5be110dd7fbf5d843b5575b657df8d" ><tr><td class='cv'>
-	<m>x</m> </td><td class='c'> <m>f(x)</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>4</m> </td><td class='c'> <m>0</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>3</m> </td><td class='c'> <m>-\frac{1}{2}</m></td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
+<row><cell  >
+	<m>1</m></cell><cell><m>0</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>\frac{1}{4}</m></cell><cell><m>\frac{9}{8}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>0</m></cell><cell><m>1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-\frac{1}{2}</m></cell><cell><m>0</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-1</m></cell><cell><m>-2</m></cell></row>
+<row bottom="medium"><cell></cell><cell></cell></row>
 
-<tr><td  class='cv' >
-	<m>1</m> </td><td class='c'> <m>0</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	
-	<m>\frac{1}{4}</m> </td><td class='c'> <m>\frac{9}{8}</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>0</m> </td><td class='c'> <m>1</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-\frac{1}{2}</m> </td><td class='c'> <m>0</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-1</m> </td><td class='c'> <m>-2</m></td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
-
-<tr><td  class='cv' >
-	<m>-2</m> </td><td class='c'> <m>-10</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-	<m>-3</m> </td><td class='c'> <m>-11</m></td></tr>
-</table> 
-& &
+<row><cell  >
+	<m>-2</m></cell><cell><m>-10</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><m>-3</m></cell><cell><m>-11</m></cell></row>
+</tabular>
+<amp /> &
 \begin{mfpic}[20]{-5}5{-12}3
 \arrow \function{3,5,0.1}{0.5*(x-4)}
 \arrow \function{-2,-4,0.1}{x-8}
@@ -388,59 +342,61 @@ We can easily identify all three of the coordinate pairs associated with <m>x=0<
 \tcaption{The graph of <m>f</m>}
 \tlpointsep{5pt}
 
-\axislabels x{{<m>-4 \ </m>} -4, {<m>-3 \ </m>} -3, {<m>-2 \ </m>} -2, {<m>-1 \ </m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
+\axislabels x{{<m>-4 \</m>} -4, {<m>-3 \</m>} -3, {<m>-2 \</m>} -2, {<m>-1 \</m>} -1, {<m>1</m>} 1, {<m>2</m>} 2, {<m>3</m>} 3, {<m>4</m>} 4}
 \axislabels y{{<m>-10</m>} -10, {<m>-8</m>} -8, {<m>-6</m>} -6, {<m>-4</m>} -4, {<m>-2</m>} -2, {<m>2</m>} 2}
 
-\end{mfpic}</table> </statement>
+\end{mfpic}
+</tabular>
+</statement>
 </example>
-  
 <p>
-In the previous example, we see that there is a "gap" in our domain between the <m>x-</m>coordinates of <m>2</m> and <m>3</m>. Hence, our domain is <m>(-\infty,2)\cup[3,\infty)</m>. From our graph, we see that our range also contains a gap between the <m>y-</m>coordinates of <m>-10</m> and <m>-9</m>. Hence, our range is <m>(-\infty,-10]\cup(-9,\infty)</m>.
+In the previous example, we see that there is a <q>gap</q> in our domain between the <m>x-</m>coordinates of <m>2</m> and <m>3</m>. Hence, our domain is <m>(-\infty,2)\cup[3,\infty)</m>. From our graph, we see that our range also contains a gap between the <m>y-</m>coordinates of <m>-10</m> and <m>-9</m>. Hence, our range is <m>(-\infty,-10]\cup(-9,\infty)</m>.
 </p>
-  
+
 <p>
 In our example we have have also identified several other essential coordinate pairs that should be included in our graph. We will now list each pair below, as well as the piece that is used to obtain it. We include the function <m>f</m>, once again, for reinforcement.
 </p>
-  
 <me>
- f(x)~=~
+  f(x)~=~
 	\begin{cases}~\frac{x}{2}-2 \amp  \text{if~~}  x\geq 3\\
 			
 			-2x^2+x+1 \amp  \text{if~~}  -2\lt x\lt 2\\
 			
 			~x-8 \amp  \text{if~~}  x\leq -2
-\end{cases} 
-
+\end{cases}
 </me>
-  <ul><li>A <m>y-</m>intercept at <m>(0,1)</m> from our second piece</li>
+<ul>
+<li>A <m>y-</m>intercept at <m>(0,1)</m> from our second piece</li>
 <li>An <m>x-</m>intercept at <m>(4,0)</m> from our first piece</li>
 <li>Two <m>x-</m>intercepts at <m>(1,0)</m> and <m>\left(-\frac{1}{2},0\right)</m> from our second piece</li>
 <li>A vertex at <m>\left(\frac{1}{4},\frac{9}{8}\right)</m> from our second piece</li>
 <li>An endpoint at <m>\left(3,-\frac{1}{2}\right)</m> from our first piece</li>
 <li>An endpoint at <m>(-2,-10)</m> from our third piece</li>
 <li>Two holes at <m>(-2,-9)</m> and <m>(2,-5)</m> from our second piece.</li>
- </ul>  
+</ul>
+
 <p>
-Lastly, we have included the point at <m>(-3,-11)</m>, to help identify the slope of the third piece of our graph.\pp
+Lastly, we have included the point at <m>(-3,-11)</m>, to help identify the slope of the third piece of our graph.
 Although this example may first appear to be quite complicated, when considered on the level of each individual piece, we see that our training in the chapters leading up to this section has adequately prepared us to handle these, as well as more challenging piecewise-defined functions that we will eventually encounter.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Absolute Value Functions</title>
+
+
 <subsubsection>
 <title>Graphing Absolute Value Equations</title>
+<objectives>
 <p>
-\pp
+Graph absolute values from a given equation
 </p>
-  
-<p>
-{\tmstrong{Objective: Graph absolute values from a given equation}}\pp
-</p>
-  
+</objectives>
 <p>
 There are a few ways to describe what is meant by the absolute value <m>|x|</m> of a real number <m>x</m>. A common description is that <m>|x|</m> represents the distance from the number <m>x</m> to <m>0</m> on the real number line. So, for example, <m>|5| = 5</m> and <m>|-5| = 5</m>, since each is <m>5</m> units away from <m>0</m> on the real number line.
 </p>
-  \begin{mfpic}[15]{-6}6{-1}2
+\begin{mfpic}[15]{-6}6{-1}2
 \arrow \reverse \arrow \polyline{(-6,0), (6,0)}
 \arrow \reverse \arrow \polyline{(-5,1), (0,1)}
 \arrow \reverse \arrow \polyline{(5,1), (0,1)}
@@ -449,53 +405,50 @@ There are a few ways to describe what is meant by the absolute value <m>|x|</m> 
 \tlabel[cc](2.5,1.5){ distance is <m>5</m> units}
 \xmarks{-5,-4,-3,-2,-1,0,1,2,3,4,5}
 \tlpointsep{4pt}
-\axislabels x{{ <m>-5 \ </m>} -5,{ <m>-4 \ </m>} -4,{ <m>-3 \ </m>} -3,{ <m>-2 \ </m>} -2,{ <m>-1 \ </m>} -1,{ <m>0</m>} 0,{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4, { <m>5</m>} 5}
-\end{mfpic}  
+\axislabels x{{ <m>-5 \</m>} -5,{ <m>-4 \</m>} -4,{ <m>-3 \</m>} -3,{ <m>-2 \</m>} -2,{ <m>-1 \</m>} -1,{ <m>0</m>} 0,{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4, { <m>5</m>} 5}
+\end{mfpic}
 <p>
 Another way to define an absolute value is by the equation <m>|x| = \sqrt{x^2}</m>. Using this definition, we have
 </p>
-  
 <me>
-|5| = \sqrt{(5)^2} = \sqrt{25} = 5\qquad\text{~and~} \qquad|-5| = \sqrt{(-5)^2} = \sqrt{25} = 5.
+  |5| = \sqrt{(5)^2} = \sqrt{25} = 5\qquad\text{~and~} \qquad|-5| = \sqrt{(-5)^2} = \sqrt{25} = 5.
 </me>
- 
 <p>
 The long and short of both of these descriptions is that <m>|x|</m> takes negative real numbers and assigns them to their positive counterparts, while it leaves positive real numbers (and zero) alone. This last description is the one we shall adopt, and is summarized in the following definition.
 </p>
-  
+
 <p>
 \begin{boxedminipage}{4.80in}
 </p>
-  
-<definition xml:id="absolutevalue"><statement>
+<definition xml:id="absolutevalue">
+<statement>
 <p>
 The <index><main>absolute value </main><sub> definition of</sub></index><index><main>function </main><sub> absolute value</sub></index><term>absolute value</term> of a real number <m>x</m>, denoted <m>|x|</m>, is given by
 </p>
-  
 <me>
- |x| = \left\{ \begin{array}{rcl} -x, \amp  \mbox{if}  \amp  x \lt  0  \\ x, \amp  \mbox{if}  \amp  x \geq 0 \\
+  |x| = \left\{ \begin{array}{rcl} -x, \amp  \mbox{if}  \amp  x \lt  0  \\ x, \amp  \mbox{if}  \amp  x \geq 0 \\
 \end{array}  \right.
 </me>
- </statement>
+</statement>
 </definition>
-  
 <p>
 \end{boxedminipage}
 </p>
-  
+
 <p>
-Notice that we have defined <m>|x|</m> using a piecewise-defined function. To check that this definition agrees with what we previously understood to be the absolute value of <m>x</m>, observe that since <m>5 \geq 0</m>, to find <m>|5|</m> we use the rule <m>|x| = x</m>, so <m>|5|=5</m>. Similarly, since <m>-5 \lt  0</m>, we use the rule <m>|x| = -x</m>, so that <m>|-5| = -(-5) = 5</m>.\pp
+Notice that we have defined <m>|x|</m> using a piecewise-defined function. To check that this definition agrees with what we previously understood to be the absolute value of <m>x</m>, observe that since <m>5 \geq 0</m>, to find <m>|5|</m> we use the rule <m>|x| = x</m>, so <m>|5|=5</m>. Similarly, since <m>-5 \lt  0</m>, we use the rule <m>|x| = -x</m>, so that <m>|-5| = -(-5) = 5</m>.
 </p>
-  
+
 <p>
 We will now graph some functions that contain an absolute value. Our strategy is to use our knowledge of the absolute value coupled with what we now know about graphing linear functions and piecewise-defined functions.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Sketch a complete graph of <m>f(x)=|x|</m>.<br />
+Sketch a complete graph of <m>f(x)=|x|</m>.<br />
 </p>
-  <table id="dca0581025c16860cfa99c6d3292449dbd254027" >{m{2.5in}m{2.5in}} 
+<tabular>
+{m{2.5in}m{2.5in}} 
  
 \begin{mfpic}[15]{-4}4{0}5
 \arrow \reverse \polyline{( -4,4), (0,0)}
@@ -508,7 +461,7 @@ We will now graph some functions that contain an absolute value. Our strategy is
 \ymarks{1,2,3,4}
 \tcaption{<m>f(x) = |x|</m>, <m>x \lt  0</m>}
 \tlpointsep{4pt}
-\axislabels x{ { <m>-3 \ </m>} -3, { <m>-2 \ </m>} -2, { <m>-1 \ </m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
+\axislabels x{ { <m>-3 \</m>} -3, { <m>-2 \</m>} -2, { <m>-1 \</m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
 \axislabels y{{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4}
 \end{mfpic} &
 
@@ -523,13 +476,14 @@ We will now graph some functions that contain an absolute value. Our strategy is
 \ymarks{1,2,3,4}
 \tcaption{<m>f(x) = |x|</m>, <m>x \geq 0</m>}
 \tlpointsep{4pt}
-\axislabels x{ { <m>-3 \ </m>} -3, { <m>-2 \ </m>} -2, { <m>-1 \ </m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
+\axislabels x{ { <m>-3 \</m>} -3, { <m>-2 \</m>} -2, { <m>-1 \</m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
 \axislabels y{{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4}
-\end{mfpic} \\</table>  
+\end{mfpic} \\
+</tabular>
 <p>
 Notice that we have a hole at <m>(0,0)</m> in the graph when <m>x\lt 0</m>. As we have seen before, this is due to the fact that the points on <m>y = -x</m> approach <m>(0,0)</m> as the <m>x</m>-values approach <m>0</m>. Since <m>x</m> is required to be strictly less than zero on this interval, we include a hole at the origin. Notice, however, that when <m>x \geq 0</m>, we get to include the point at <m>(0,0)</m>, which effectively fills in the hole from our first piece. Our final graph is shown below.
 </p>
-  \begin{mfpic}[15]{-4}4{0}5
+\begin{mfpic}[15]{-4}4{0}5
 \arrow \reverse \arrow \polyline{(-4,4),(0,0),(4,4)}
 \axes
 \tlabel[cc](4,-0.5){ <m>x</m>}
@@ -539,25 +493,25 @@ Notice that we have a hole at <m>(0,0)</m> in the graph when <m>x\lt 0</m>. As w
 \ymarks{1,2,3,4}
 \tcaption{<m>f(x) = |x|</m>}
 \tlpointsep{4pt}
-\axislabels x{ { <m>-3 \ </m>} -3, { <m>-2 \ </m>} -2, { <m>-1 \ </m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
+\axislabels x{ { <m>-3 \</m>} -3, { <m>-2 \</m>} -2, { <m>-1 \</m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
 \axislabels y{{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4}
-\end{mfpic} </statement>
+\end{mfpic}
+</statement>
 </example>
-  
 <p>
 By projecting our graph onto the <m>x-</m>axis, we see that the domain of <m>f(x)=|x|</m> is <m>(-\infty, \infty)</m>, as expected. Projecting onto the <m>y-</m>axis gives us our range of <m>[0,\infty)</m>. Our function is also increasing over the interval <m>[0,\infty)</m> and decreasing over the interval <m>(-\infty,0]</m>.
 We can also say that the graph of <m>f</m> has an absolute minimum at <m>y=0</m>, since this coordinate coincides with the (absolute) lowest point on the graph, which occurs at the origin. From our graph, we can further conclude that there is no absolute maximum value of <m>f</m>, since the <m>y</m> values on the graph extend infinitely upwards.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use the graph of <m>f(x) = |x|</m> to graph the function <m>g(x) = |x-3|</m>.\pp
+Use the graph of <m>f(x) = |x|</m> to graph the function <m>g(x) = |x-3|</m>.
 </p>
-  
+
 <p>
 We begin by graphing <m>f(x) = |x|</m> and labeling three reference points: <m>(-1,1)</m>, <m>(0,0)</m> and <m>(1,1)</m>.
 </p>
-  \begin{mfpic}[15]{-4}4{0}5
+\begin{mfpic}[15]{-4}4{0}5
 \arrow \reverse \arrow \polyline{(-4,4),(0,0),(4,4)}
 \axes
 \point[3pt]{(-1,1), (0,0), (1,1)}
@@ -571,15 +525,14 @@ We begin by graphing <m>f(x) = |x|</m> and labeling three reference points: <m>(
 \ymarks{1,2,3,4}
 \tcaption{<m>f(x) = |x|</m>}
 \tlpointsep{4pt}
-\axislabels x{ { <m>-3 \ </m>} -3, { <m>-2 \ </m>} -2, { <m>-1 \ </m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
+\axislabels x{ { <m>-3 \</m>} -3, { <m>-2 \</m>} -2, { <m>-1 \</m>} -1, { <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3}
 \axislabels y{{ <m>1</m>} 1, { <m>2</m>} 2, { <m>3</m>} 3, { <m>4</m>} 4}
-\end{mfpic}  
+\end{mfpic}
 <p>
-Since <m>g(x) = |x-3| = f(x-3)</m>, we will add <m>3</m> to each of the <m>x-</m>coordinates of the points on the graph of <m>y=f(x)</m> to obtain the graph of <m>y=g(x)</m>. This shifts the graph of <m>y=f(x)</m> to the <i>right</i> by <m>3</m> units and moves the points <m>(-1,1)</m> to <m>(2,1)</m>, <m>(0,0)</m> to <m>(3,0)</m> and <m>(1,1)</m> to <m>(4,1)</m>. Connecting these points in the classic `<m>\vee</m>' fashion produces the graph of <m>y = g(x)</m>.
+Since <m>g(x) = |x-3| = f(x-3)</m>, we will add <m>3</m> to each of the <m>x-</m>coordinates of the points on the graph of <m>y=f(x)</m> to obtain the graph of <m>y=g(x)</m>. This shifts the graph of <m>y=f(x)</m> to the <em>right</em> by <m>3</m> units and moves the points <m>(-1,1)</m> to <m>(2,1)</m>, <m>(0,0)</m> to <m>(3,0)</m> and <m>(1,1)</m> to <m>(4,1)</m>. Connecting these points in the classic `<m>\vee</m>' fashion produces the graph of <m>y = g(x)</m>.
 </p>
-  
 <me>
- \begin{array}{ccc}
+  \begin{array}{ccc}
 
 \begin{mfpic}[13]{-4}{4}{0}{5}
 \arrow \reverse \arrow \polyline{(-3.5,3.5),(0,0),(3.5,3.5)}
@@ -594,7 +547,7 @@ Since <m>g(x) = |x-3| = f(x-3)</m>, we will add <m>3</m> to each of the <m>x-</m
 \tlabel[cc](2,1){\scriptsize <m>(1,1)</m>}
 \tcaption{<m>f(x) = |x|</m>}
 \tlpointsep{4pt}
-\axislabels {x}{ {\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\axislabels {x}{ {\tiny <m>-3 \</m>} -3, {\tiny <m>-2 \</m>} -2, {\tiny <m>-1 \</m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
 \axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
 \end{mfpic}
 \amp 
@@ -619,26 +572,24 @@ Since <m>g(x) = |x-3| = f(x-3)</m>, we will add <m>3</m> to each of the <m>x-</m
 \axislabels {x}{ {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2,  {\tiny <m>4</m>} 4,  {\tiny <m>5</m>} 5,  {\tiny <m>6</m>} 6}
 \axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
 \end{mfpic}
-\end{array} 
+\end{array}
 </me>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use the graph of <m>f(x) = |x|</m> to graph the function <m>h(x) = |x|-3</m>.\pp
+Use the graph of <m>f(x) = |x|</m> to graph the function <m>h(x) = |x|-3</m>.
 </p>
-  
+
 <p>
-Since <m>h(x) = |x| - 3 = f(x) -3</m>, we will subtract <m>3</m> from each of the <m>y-</m>coordinates of the points on the graph of <m>y=f(x)</m> to obtain the graph of <m>y = h(x)</m>. This shifts the graph of <m>y=f(x)</m> <i>down</i> by <m>3</m> units and moves the points <m>(-1,1)</m> to <m>(-1,-2)</m>, <m>(0,0)</m> to <m>(0,-3)</m> and <m>(1,1)</m> to <m>(1,-2)</m>. Connecting these points with the `<m>\vee</m>' shape produces our graph of <m>y=h(x)</m>.
+Since <m>h(x) = |x| - 3 = f(x) -3</m>, we will subtract <m>3</m> from each of the <m>y-</m>coordinates of the points on the graph of <m>y=f(x)</m> to obtain the graph of <m>y = h(x)</m>. This shifts the graph of <m>y=f(x)</m> <em>down</em> by <m>3</m> units and moves the points <m>(-1,1)</m> to <m>(-1,-2)</m>, <m>(0,0)</m> to <m>(0,-3)</m> and <m>(1,1)</m> to <m>(1,-2)</m>. Connecting these points with the `<m>\vee</m>' shape produces our graph of <m>y=h(x)</m>.
 </p>
-  
 <me>
- \begin{array}{ccc}
+  \begin{array}{ccc}
 
 \begin{mfpic}[13]{-4}{4}{0}{5}
 \arrow \reverse \arrow \polyline{(-3.5,3.5),(0,0),(3.5,3.5)}
@@ -653,7 +604,7 @@ Since <m>h(x) = |x| - 3 = f(x) -3</m>, we will subtract <m>3</m> from each of th
 \tlabel[cc](2,1){\scriptsize <m>(1,1)</m>}
 \tcaption{<m>f(x) = |x|</m>}
 \tlpointsep{4pt}
-\axislabels {x}{ {\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\axislabels {x}{ {\tiny <m>-3 \</m>} -3, {\tiny <m>-2 \</m>} -2, {\tiny <m>-1 \</m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
 \axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
 \end{mfpic}
 \amp 
@@ -676,34 +627,32 @@ Since <m>h(x) = |x| - 3 = f(x) -3</m>, we will subtract <m>3</m> from each of th
 \ymarks{-4,-3,-2,-1,1}
 \tcaption{<m>h(x) = f(x) - 3 = |x|-3</m>}
 \tlpointsep{4pt}
-\axislabels {x}{ {\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\axislabels {x}{ {\tiny <m>-3 \</m>} -3, {\tiny <m>-2 \</m>} -2, {\tiny <m>-1 \</m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
 \axislabels {y}{{\tiny <m>-4</m>} -4,{\tiny <m>-3</m>} -3, {\tiny <m>-2</m>} -2,{\tiny <m>-1</m>} -1, {\tiny <m>1</m>} 1}
 \end{mfpic}
-\end{array} 
+\end{array}
 </me>
- </statement>
+</statement>
 </example>
-  
-<example xml:id="absvalgraph"><statement>
+
+<example xml:id="absvalgraph">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Use the graph of <m>f(x) = |x|</m> to graph the function <m>k(x) = 4-2|3x+1|</m>.\pp
+Use the graph of <m>f(x) = |x|</m> to graph the function <m>k(x) = 4-2|3x+1|</m>.
 </p>
-  
+
 <p>
 Notice that
 </p>
-  
 <me>
-k(x) = 4-2|3x+1| =  4-2f(3x+1) = -2f(3x+1) + 4.
+  k(x) = 4-2|3x+1| =  4-2f(3x+1) = -2f(3x+1) + 4.
 </me>
- 
 <p>
-First, we will determine the corresponding transformations resulting from inside of the absolute value. Instead of <m>|x|</m>, we have <m>|3x+1|</m>, so we must first subtract <m>1</m> from each of the <m>x-</m>coordinates of points on the graph of <m>y = f(x)</m>, then divide each of those new values by <m>3</m>. This corresponds to a horizontal shift left by <m>1</m> unit followed by a horizontal shrink by a factor of <m>3</m>. These transformations move the points <m>(-1,1)</m> to <m>\left(-\frac{2}{3}, 1 \right)</m>, <m>(0,0)</m> to <m>\left(-\frac{1}{3}, 0 \right)</m> and <m>(1,1)</m> to <m>\left(0,1\right)</m>.\pp
-Next, we will determine the corresponding transformations resulting from what appears outside of the absolute value. We must first multiply each <m>y-</m>coordinate of our new points by <m>-2</m> and then <i>add</i> <m>4</m>. Geometrically, this corresponds to a vertical <i>stretch</i> by a factor of <m>2</m>, a reflection across the <m>x-</m>axis and finally, a vertical shift <i>up</i> by <m>4</m> units. The resulting transformations move the points <m>\left(-\frac{2}{3}, 1 \right)</m> to <m>\left(-\frac{2}{3}, 2 \right)</m>, <m>\left(-\frac{1}{3}, 0 \right)</m> to <m>\left(-\frac{1}{3}, 4 \right)</m> and <m>\left(0,1\right)</m> to <m>\left(0, 2\right)</m>. Connecting our final points with the usual `<m>\vee</m>' shape produces the graph of <m>y = k(x)</m>, shown below.
+First, we will determine the corresponding transformations resulting from inside of the absolute value. Instead of <m>|x|</m>, we have <m>|3x+1|</m>, so we must first subtract <m>1</m> from each of the <m>x-</m>coordinates of points on the graph of <m>y = f(x)</m>, then divide each of those new values by <m>3</m>. This corresponds to a horizontal shift left by <m>1</m> unit followed by a horizontal shrink by a factor of <m>3</m>. These transformations move the points <m>(-1,1)</m> to <m>\left(-\frac{2}{3}, 1 \right)</m>, <m>(0,0)</m> to <m>\left(-\frac{1}{3}, 0 \right)</m> and <m>(1,1)</m> to <m>\left(0,1\right)</m>.
+Next, we will determine the corresponding transformations resulting from what appears outside of the absolute value. We must first multiply each <m>y-</m>coordinate of our new points by <m>-2</m> and then <em>add</em> <m>4</m>. Geometrically, this corresponds to a vertical <em>stretch</em> by a factor of <m>2</m>, a reflection across the <m>x-</m>axis and finally, a vertical shift <em>up</em> by <m>4</m> units. The resulting transformations move the points <m>\left(-\frac{2}{3}, 1 \right)</m> to <m>\left(-\frac{2}{3}, 2 \right)</m>, <m>\left(-\frac{1}{3}, 0 \right)</m> to <m>\left(-\frac{1}{3}, 4 \right)</m> and <m>\left(0,1\right)</m> to <m>\left(0, 2\right)</m>. Connecting our final points with the usual `<m>\vee</m>' shape produces the graph of <m>y = k(x)</m>, shown below.
 </p>
-  
 <me>
- \begin{array}{ccc}
+  \begin{array}{ccc}
 
 \begin{mfpic}[16]{-4}{4}{-2}{5}
 \arrow \reverse \arrow \polyline{(-3.5,3.5),(0,0),(3.5,3.5)}
@@ -717,7 +666,7 @@ Next, we will determine the corresponding transformations resulting from what ap
 \tlabel[cc](2,1){\scriptsize <m>(1,1)</m>}
 \tlpointsep{4pt}
 \tcaption{\scriptsize <m>f(x) = |x|</m>}
-\axislabels {x}{ {\tiny <m>-3 \ </m>} -3, {\tiny <m>-2 \ </m>} -2, {\tiny <m>-1 \ </m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
+\axislabels {x}{ {\tiny <m>-3 \</m>} -3, {\tiny <m>-2 \</m>} -2, {\tiny <m>-1 \</m>} -1,{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
 \axislabels {y}{{\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3, {\tiny <m>4</m>} 4}
 \end{mfpic}
 \amp 
@@ -740,138 +689,125 @@ Next, we will determine the corresponding transformations resulting from what ap
 \ymarks{-1,1,2,3,4}
 \tlpointsep{4pt}
 \tcaption{\scriptsize \mbox{<m>k(x) = -2f(3x+1)+4</m>} \\ <m>= -2|3x+1|+4</m>}
-\axislabels {x}{{\tiny <m>-1 \ </m>} -1, {\tiny <m>1</m>} 1}
+\axislabels {x}{{\tiny <m>-1 \</m>} -1, {\tiny <m>1</m>} 1}
 \axislabels {y}{{\tiny <m>-1</m>} -1, {\tiny <m>1</m>} 1, {\tiny <m>2</m>} 2, {\tiny <m>3</m>} 3}
 \end{mfpic}
-\end{array} 
+\end{array}
 </me>
- </statement>
+</statement>
 </example>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection>
 <title>Recognizing Absolute Value Functions as Piecewise-Defined</title>
+<objectives>
 <p>
-\pp
+Express an absolute value function as a piecewise-defined function (without an absolute value).
 </p>
-  
-<p>
-{\tmstrong{Objective: Express an absolute value function as a piecewise-defined function (without an absolute value).}}\pp
-</p>
-  
+</objectives>
 <p>
 By definition, we know that
 </p>
-  
 <me>
- |x| =  \left\{ \begin{array}{rcl} -x, \amp  \mbox{if}  \amp  x \lt  0  \\ x, \amp  \mbox{if}  \amp  x \geq 0 \\
+  |x| =  \left\{ \begin{array}{rcl} -x, \amp  \mbox{if}  \amp  x \lt  0  \\ x, \amp  \mbox{if}  \amp  x \geq 0 \\
 \end{array}  \right.
 </me>
-  
 <p>
 If <m>m\neq 0</m> and <m>b</m> is a real number, we may generalize the definition above as follows.
 </p>
-  
 <me>
- |mx+b| =  \left\{ \begin{array}{rcl} -(mx+b), \amp  \mbox{if}  \amp  mx+b \lt  0  \\ mx+b~, \amp  \mbox{if}  \amp  mx+b \geq 0 \\
+  |mx+b| =  \left\{ \begin{array}{rcl} -(mx+b), \amp  \mbox{if}  \amp  mx+b \lt  0  \\ mx+b~, \amp  \mbox{if}  \amp  mx+b \geq 0 \\
 \end{array}  \right.
 =\left\{ \begin{array}{rcl} -mx-b, \amp  \mbox{if}  \amp  mx+b \lt  0  \\ mx+b, \amp  \mbox{if}  \amp  mx+b \geq 0 \\
 \end{array}  \right.
 </me>
-  
 <p>
-Notice that since we have never specified whether <m>m</m> is positive or negative above, it would not be wise to attempt to simplify either inequality in our new definition. Once we are given a value for <m>m</m>, as in our next example, we will be able to simplify our piecewise representation completely.\pp
+Notice that since we have never specified whether <m>m</m> is positive or negative above, it would not be wise to attempt to simplify either inequality in our new definition. Once we are given a value for <m>m</m>, as in our next example, we will be able to simplify our piecewise representation completely.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Express <m>g(x) = |x-3|</m> as a piecewise-defined function.\pp
+Express <m>g(x) = |x-3|</m> as a piecewise-defined function.
 </p>
-  
 <me>
- g(x) = |x-3| =  \left\{ \begin{array}{rcl} -(x-3), \amp  \mbox{if}  \amp  ~~x-3 \lt  0  \\ (x-3), \amp  \mbox{if}  \amp  (x -3) \geq 0 \\
+  g(x) = |x-3| =  \left\{ \begin{array}{rcl} -(x-3), \amp  \mbox{if}  \amp  ~~x-3 \lt  0  \\ (x-3), \amp  \mbox{if}  \amp  (x -3) \geq 0 \\
 \end{array}  \right.
 </me>
-  
 <p>
 Simplifying, we get
 </p>
-  
 <me>
- g(x) =\left\{ \begin{array}{rcl} -x+3, \amp  \mbox{if}  \amp  x\lt 3  \\ x-3, \amp  \mbox{if}  \amp  x \geq 3 \\
+  g(x) =\left\{ \begin{array}{rcl} -x+3, \amp  \mbox{if}  \amp  x\lt 3  \\ x-3, \amp  \mbox{if}  \amp  x \geq 3 \\
 \end{array}  \right.
 </me>
-  </statement>
+</statement>
 </example>
- 
 <p>
-Our piecewise answer above should begin to make sense, when one considers the graph of <m>g</m> as a horizontal shift of <m>y=|x|</m> to the right by 3 units.\pp
+Our piecewise answer above should begin to make sense, when one considers the graph of <m>g</m> as a horizontal shift of <m>y=|x|</m> to the right by 3 units.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Express <m>h(x) = |x|-3</m> as a piecewise-defined function.\pp
+Express <m>h(x) = |x|-3</m> as a piecewise-defined function.
 </p>
-  
+
 <p>
 Since the variable within the absolute value remains unchanged, the domains for each piece in our resulting function will not change. Instead, we need only subtract <m>3</m> from each piece of our answer. Thus, we get the following representation.
 </p>
-  
 <me>
- h(x) =\left\{ \begin{array}{rcl} -x-3, \amp  \mbox{if}  \amp  x\lt 0  \\ x-3, \amp  \mbox{if}  \amp  x \geq 0 \\
+  h(x) =\left\{ \begin{array}{rcl} -x-3, \amp  \mbox{if}  \amp  x\lt 0  \\ x-3, \amp  \mbox{if}  \amp  x \geq 0 \\
 \end{array}  \right.
 </me>
- </statement>
+</statement>
 </example>
- 
 <p>
-Similarly, this answer again seems reasonable, as the graph of <m>h(x)=|x|-3</m> represents a vertical shift of <m>y=|x|</m> down by 3 units.\pp
+Similarly, this answer again seems reasonable, as the graph of <m>h(x)=|x|-3</m> represents a vertical shift of <m>y=|x|</m> down by 3 units.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Express <m>k(x)= 4 - 2|3x+1|</m> as a piecewise-defined function and identify any <m>x-</m> and <m>y-</m>intercepts on its graph. Determine the domain and range of <m>k(x)</m>.\pp
+Express <m>k(x)= 4 - 2|3x+1|</m> as a piecewise-defined function and identify any <m>x-</m> and <m>y-</m>intercepts on its graph. Determine the domain and range of <m>k(x)</m>.
 </p>
-  
+
 <p>
 We set <m>k(x)=0</m> to find any zeros: <m>4 - 2|3x+1|=0</m>.<br />
 Isolating the absolute value gives us <m>|3x+1|=2</m>, so either
 </p>
-  
 <me>
-3x+1 = 2\qquad\text{~or~} \qquad 3x+1=-2.
+  3x+1 = 2\qquad\text{~or~} \qquad 3x+1=-2.
 </me>
- 
 <p>
-This results in <m>x=\frac{1}{3}</m> or <m>x=-1</m>, so our <m>x-</m>intercepts are <m>\left(\frac{1}{3},0\right)</m> and <m>(-1,0)</m>.\pp
+This results in <m>x=\frac{1}{3}</m> or <m>x=-1</m>, so our <m>x-</m>intercepts are <m>\left(\frac{1}{3},0\right)</m> and <m>(-1,0)</m>.
 For our <m>y-</m>intercept, substituting <m>x=0</m> into <m>k(x)</m> gives us
 </p>
-  
 <me>
-y = k(0) = 4-2|3(0)+1| = 2.
+  y = k(0) = 4-2|3(0)+1| = 2.
 </me>
- 
 <p>
 So our <m>y</m>-intercept is at <m>(0,2)</m>.
 </p>
-  
+
 <p>
 Rewriting the expression for <m>k</m> as a piecewise function gives us the following.
 </p>
-  
-<md><mrow>k(x) \amp  = \amp  \left\{ \begin{array}{rcl} 4-2[-(3x+1)], \amp  \mbox{if}  \amp  3x+1 \lt 0  \\ 4-2(3x+1), \amp  \mbox{if}  \amp  3x+1 \geq 0 \\
+<md>
+  <mrow>  k(x) \amp  = \amp  \left\{ \begin{array}{rcl} 4-2[-(3x+1)], \amp  \mbox{if}  \amp  3x+1 \lt 0  \\ 4-2(3x+1), \amp  \mbox{if}  \amp  3x+1 \geq 0 \\
 \end{array}  \right.</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\amp =\amp  \left\{ \begin{array}{rcl} 4+6x+2, \amp  \mbox{if}  \amp  3x \lt  -1 \\  4-6x-2, \amp  \mbox{if}  \amp  3x \geq -1 \\
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \amp =\amp  \left\{ \begin{array}{rcl} 4+6x+2, \amp  \mbox{if}  \amp  3x \lt  -1 \\  4-6x-2, \amp  \mbox{if}  \amp  3x \geq -1 \\
 \end{array}  \right.</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\amp =\amp \left\{ \begin{array}{rcl} 6x+6, \amp  \mbox{if}  \amp  x \lt  -\frac{1}{3} \\  -6x+2, \amp  \mbox{if}  \amp  x \geq - \frac{1}{3} \\
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \amp =\amp \left\{ \begin{array}{rcl} 6x+6, \amp  \mbox{if}  \amp  x \lt  -\frac{1}{3} \\  -6x+2, \amp  \mbox{if}  \amp  x \geq - \frac{1}{3} \\
 \end{array}  \right.</mrow>
- 
 </md>
-  
 <p>
 Either algebraically, or using the graph of <m>k</m> from <xref ref="absvalgraph">page</xref>, we see that the domain of <m>k</m> is <m>(-\infty, \infty)</m> while the range is <m>(-\infty, 4]</m>.
 </p>
- </statement>
+</statement>
 </example>
- </subsubsection> </subsection> </section>
+</subsubsection>
+
+</subsection>
+
+</section>

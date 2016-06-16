@@ -1,0 +1,18 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Systems_of_Linear_Equations">
+<title>Systems of Linear Equations</title>
+
+
+<introduction>
+<p>
+\mfpicnumber{1}
+&#xf8;pengraphsfile{2_Systems}
+</p>
+</introduction>
+<xi:include  href="section2-1.mbx" />
+ <xi:include  href="section2-2.mbx" />
+ <xi:include  href="section2-3.mbx" />
+ <xi:include  href="section2-4.mbx" />
+ <xi:include  href="section2-5.mbx" />
+ <xi:include  href="section2-6.mbx" />
+ <xi:include  href="section2-7.mbx" />
+</chapter>

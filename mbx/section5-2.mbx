@@ -1,128 +1,116 @@
-
 <section>
 <title>Factoring</title>
+
+
 <subsection>
 <title>Special Products</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Identify and factor special products including a
-difference of squares, perfect squares, and sum and difference of cubes.}}\pp
+Identify and factor special products including a
+difference of squares, perfect squares, and sum and difference of cubes.
 </p>
-  
+</objectives>
 <p>
 When factoring polynomials there are a few special products that, if we can recognize
 them, we can easily break down. The first is one we have seen before.
 When multiplying, we found that the product of a sum and difference of the same two terms results in the difference of two squares. Here we will use this special product to help us factor.
 </p>
-  
 <me>
- \tmmathbf{\tmop{Difference} \tmop{of~two} \tmop{Squares} : a^2 - b^2 = (a + b)
-   (a - b)} 
+  \tmmathbf{\tmop{Difference} \tmop{of~two} \tmop{Squares} : a^2 - b^2 = (a + b)
+   (a - b)}
 </me>
- 
 <p>
 Consequently, if we faced with the difference of two squares, we may conclude that they will always factor to the
 sum and difference of their square roots. Our first four examples demonstrate this fact.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>x^2 - 16 \amp   \amp  \tmop{Difference~of~two~perfect} \tmop{squares};</mrow>
- <mrow>\amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} x \tmop{~and~} 4</mrow>
- <mrow>(x + 4) (x - 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  x^2 - 16 \amp   \amp  \tmop{Difference~of~two~perfect} \tmop{squares};</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} x \tmop{~and~} 4</mrow>
+  <mrow>  (x + 4) (x - 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>9 a^2 - 25 b^2 \amp   \amp  \tmop{Difference~of~two~perfect} \tmop{squares};</mrow>
- <mrow>\amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} 3a \tmop{~and~} 5b</mrow>
- <mrow>(3 a + 5 b) (3 a - 5 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  9 a^2 - 25 b^2 \amp   \amp  \tmop{Difference~of~two~perfect} \tmop{squares};</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} 3a \tmop{~and~} 5b</mrow>
+  <mrow>  (3 a + 5 b) (3 a - 5 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
-When factoring a difference of two squares, <m>a^2-b^2</m>, the previous technique is often overlooked whenever one (or both) of the given terms is not a <i>perfect</i> square. The following examples demonstrate that the same method may still be employed in such situations.
+When factoring a difference of two squares, <m>a^2-b^2</m>, the previous technique is often overlooked whenever one (or both) of the given terms is not a <em>perfect</em> square. The following examples demonstrate that the same method may still be employed in such situations.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>x^2 - 24 \amp   \amp  \tmop{Difference~of~two} \tmop{squares};</mrow>
- <mrow>\amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} x \tmop{~and~} 2\sqrt{6}</mrow>
- <mrow>\left(x + 2\sqrt{6}\right) \left(x - 2\sqrt{6}\right) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  x^2 - 24 \amp   \amp  \tmop{Difference~of~two} \tmop{squares};</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} x \tmop{~and~} 2\sqrt{6}</mrow>
+  <mrow>  \left(x + 2\sqrt{6}\right) \left(x - 2\sqrt{6}\right) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>2x^2 - 5 \amp   \amp  \tmop{Difference~of~two} \tmop{squares};</mrow>
- <mrow>\amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} \sqrt{2}x \tmop{~and~} \sqrt{5}</mrow>
- <mrow>\left(\sqrt{2}x + \sqrt{5}\right) \left(\sqrt{2}x - \sqrt{5}\right) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  2x^2 - 5 \amp   \amp  \tmop{Difference~of~two} \tmop{squares};</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} \sqrt{2}x \tmop{~and~} \sqrt{5}</mrow>
+  <mrow>  \left(\sqrt{2}x + \sqrt{5}\right) \left(\sqrt{2}x - \sqrt{5}\right) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-It is important to note that, unlike differences, a <i>sum</i> of squares will never factor over the real numbers. Such expressions are only factorable over the complex numbers. Hence, we say that they are <i>irreducible</i> over the reals. This can be seen in our next example, where we will attempt to employ the <m>ac-</m>method to factor.
+It is important to note that, unlike differences, a <em>sum</em> of squares will never factor over the real numbers. Such expressions are only factorable over the complex numbers. Hence, we say that they are <em>irreducible</em> over the reals. This can be seen in our next example, where we will attempt to employ the <m>ac-</m>method to factor.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>x^2 + 36 \amp   \amp  \tmop{No~linear~term}; \tmop{introduce~} 0 x</mrow>
- <mrow>x^2 + 0 x + 36 \amp   \amp  \tmop{Multiply} \tmop{to} ac \tmop{or} 36, \tmop{~add} \tmop{to} 0</mrow>
- 
+<md>
+  <mrow>  x^2 + 36 \amp   \amp  \tmop{No~linear~term}; \tmop{introduce~} 0 x</mrow>
+  <mrow>  x^2 + 0 x + 36 \amp   \amp  \tmop{Multiply} \tmop{to} ac \tmop{or} 36, \tmop{~add} \tmop{to} 0</mrow>
 </md>
- 
 <p>
-Our choices are: <m>1 \cdot 36</m>, <m>2 \cdot 18</m>, <m>3 \cdot 12</m>, <m>4 \cdot 9</m> and <m>6 \cdot 6</m>.\pp
-	Since there are no combinations that multiply to 36 and add to 0, we conclude that the given expression is irreducible over the reals.\pp
+Our choices are: <m>1 \cdot 36</m>, <m>2 \cdot 18</m>, <m>3 \cdot 12</m>, <m>4 \cdot 9</m> and <m>6 \cdot 6</m>.
+	Since there are no combinations that multiply to 36 and add to 0, we conclude that the given expression is irreducible over the reals.
 	Notice that <m>x^2+36</m> does, however, factor over the complex numbers.
 </p>
-  
-<md><mrow>x^2+36 \amp =\amp  x^2-(-36)</mrow>
- <mrow>\amp =\amp x^2-\left(\sqrt{36}\cdot\sqrt{-1}\right)^2</mrow>
- <mrow>\amp =\amp x^2-(6i)^2</mrow>
- <mrow>\amp =\amp (x-6i)(x+6i)</mrow>
-  
+<md>
+  <mrow>  x^2+36 \amp =\amp  x^2-(-36)</mrow>
+  <mrow>  \amp =\amp x^2-\left(\sqrt{36}\cdot\sqrt{-1}\right)^2</mrow>
+  <mrow>  \amp =\amp x^2-(6i)^2</mrow>
+  <mrow>  \amp =\amp (x-6i)(x+6i)</mrow>
 </md>
- 
 <p>
 We can make further sense of this result by recalling the methods from the chapter on quadratics. For example, since the discriminant of <m>x^2+36</m> is <m>b^2-4ac=0^2-4(1)(36)\lt 0</m>, we know that the expression has no real zeros. Hence, any factorization must contain imaginary numbers.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 Since, for graphing purposes, we will primarily be concerned with factorizations over the real numbers, we may conclude that such expressions are always irreducible over the real numbers,
 and therefore cannot be factored. We present the general factorization over the complex numbers below.
 </p>
-  
 <me>
- \tmmathbf{\tmop{Sum} \tmop{of} \tmop{Squares} : a^2 + b^2 = (a+bi)(a-bi)}
-
+  \tmmathbf{\tmop{Sum} \tmop{of} \tmop{Squares} : a^2 + b^2 = (a+bi)(a-bi)}
 </me>
- 
 <p>
 A special case where we can interpret an expression as a difference of two squares comes from the factorization of a
 difference of 4<m>^{\text{th} }</m> (fourth) powers. Since the square root of a fourth power is, in fact, a
@@ -130,122 +118,109 @@ square <m>\left(\sqrt[]{a^4} = a^2\right)</m>, we can factor a difference of fou
 just like we factor a difference of squares. This will yield two factors, one which will be an irreducible sum of
 squares. The other factor will be a difference of squares, which we can factor further. The next two examples demonstrate this.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>a^4 - b^4 \amp   \amp  \tmop{Difference} \tmop{of} \tmop{squares} \tmop{with}
+<md>
+  <mrow>  a^4 - b^4 \amp   \amp  \tmop{Difference} \tmop{of} \tmop{squares} \tmop{with}
     \tmop{roots~} a^2 \tmop{~and~} b^2</mrow>
- <mrow>(a^2 + b^2) (a^2 - b^2) \amp   \amp  \tmop{The} \tmop{first} \tmop{factor}
+  <mrow>  (a^2 + b^2) (a^2 - b^2) \amp   \amp  \tmop{The} \tmop{first} \tmop{factor}
     \tmop{is} \tmop{irreducible};</mrow>
- <mrow>\amp  \amp  ~~~\tmop{the} \tmop{second} \tmop{is~a}
+  <mrow>  \amp  \amp  ~~~\tmop{the} \tmop{second} \tmop{is~a}
     \tmop{difference} \tmop{of} \tmop{squares}</mrow>
- <mrow>(a^2 + b^2) (a + b) (a - b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  (a^2 + b^2) (a + b) (a - b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>x^4 - 16 \amp   \amp  \tmop{Difference} \tmop{of} \tmop{squares} \tmop{with}
+<md>
+  <mrow>  x^4 - 16 \amp   \amp  \tmop{Difference} \tmop{of} \tmop{squares} \tmop{with}
     \tmop{roots~} x^2 \tmop{~and~} 4</mrow>
- <mrow>(x^2 + 4) (x^2 - 4) \amp   \amp  \tmop{The} \tmop{first} \tmop{factor} \tmop{is}
+  <mrow>  (x^2 + 4) (x^2 - 4) \amp   \amp  \tmop{The} \tmop{first} \tmop{factor} \tmop{is}
     \tmop{irreducible};</mrow>
- <mrow>\amp  \amp  \tmop{the} \tmop{second} \tmop{is~a} \tmop{difference}
+  <mrow>  \amp  \amp  \tmop{the} \tmop{second} \tmop{is~a} \tmop{difference}
     \tmop{of} \tmop{squares}</mrow>
- <mrow>(x^2 + 4) (x + 2) (x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  (x^2 + 4) (x + 2) (x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-Such expressions as the previous two examples will be classified in the next subsection as expressions of <i>quadratic type</i>, since, for example, we may consider <m>x^4-16</m> as <m>(x^2)^2+0(x^2)+16</m>. Replacing <m>x^2</m> with <m>y</m> gives us <m>y^2+0y+16</m>, which we could consider as a quadratic in terms of <m>y</m>.
+Such expressions as the previous two examples will be classified in the next subsection as expressions of <em>quadratic type</em>, since, for example, we may consider <m>x^4-16</m> as <m>(x^2)^2+0(x^2)+16</m>. Replacing <m>x^2</m> with <m>y</m> gives us <m>y^2+0y+16</m>, which we could consider as a quadratic in terms of <m>y</m>.
 </p>
-  
+
 <p>
 Another factoring technique involves recognizing an entire expression as a perfect square.
 </p>
-  
 <me>
- \tmmathbf{\tmop{Perfect} \tmop{Square} : a^2 + 2ab + b^2 = (a +
-   b)^2} 
+  \tmmathbf{\tmop{Perfect} \tmop{Square} : a^2 + 2ab + b^2 = (a +
+   b)^2}
 </me>
- 
 <p>
 A perfect square can be difficult to recognize at first glance, but if we use
 the <m>ac-</m>method to produce two of the same number, the resulting factorization will be a perfect
 square. In this case, we can just factor by identifying the square roots of the first and last
 terms and using the sign from the middle term. This is demonstrated in the following examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>x^2 - 6 x + 9 \amp   \amp  \tmop{Multiply} \tmop{to~} ac \tmop{~or~}9, \tmop{~add} \tmop{to~} - 6</mrow>
- 
+<md>
+  <mrow>  x^2 - 6 x + 9 \amp   \amp  \tmop{Multiply} \tmop{to~} ac \tmop{~or~}9, \tmop{~add} \tmop{to~} - 6</mrow>
 </md>
- 
 <p>
 The numbers we need are <m>-3</m> and <m>-3</m>. We have a perfect square. Use the square roots of <m>a=1</m> and <m>c=9</m> and the negative sign from the linear term.
 </p>
-  
-<md><mrow>(x - 3)^2 \amp   \amp  \tmop{Our~solution}</mrow>
- 
+<md>
+  <mrow>  (x - 3)^2 \amp   \amp  \tmop{Our~solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>4 x^2 + 20 x y + 25 y^2 \amp   \amp  \tmop{Multiply} \tmop{to~} ac \tmop{~or~}100, \tmop{~add} \tmop{to~} 20</mrow>
- 
+<md>
+  <mrow>  4 x^2 + 20 x y + 25 y^2 \amp   \amp  \tmop{Multiply} \tmop{to~} ac \tmop{~or~}100, \tmop{~add} \tmop{to~} 20</mrow>
 </md>
- 
 <p>
 The numbers we need are <m>10</m> and <m>10</m>. We have a perfect square. Use the square roots of <m>a=4</m> and <m>c=25</m> and the positive sign from the middle term.
 </p>
-  
-<md><mrow>(2 x + 5 y)^2 \amp   \amp  \tmop{Our~solution}</mrow>
- 
+<md>
+  <mrow>  (2 x + 5 y)^2 \amp   \amp  \tmop{Our~solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} The first known record of work with polynomials
-comes from the Chinese around 200 BC. Problems would be written as "three
+comes from the Chinese around 200 BC. Problems would be written as <q>three
 sheaves of a good crop, two sheaves of a mediocre crop, and one sheaf of a bad
-crop sold for 29 dou". This would be interpreted as the polynomial (trinomial) <m>3 x + 2 y + z
+crop sold for 29 dou</q>. This would be interpreted as the polynomial (trinomial) <m>3 x + 2 y + z
 = 29</m>.
 </p>
-  
+
 <p>
 Another factoring shortcut involves sums and differences of cubes. Both sums and differences of cubes have very similar
 factorizations.
 </p>
-  
 <me>
- \tmmathbf{\tmop{Sum} \tmop{of} \tmop{Cubes} : a^3 + b^3 = (a + b) (a^2 -
-   ab + b^2)} 
+  \tmmathbf{\tmop{Sum} \tmop{of} \tmop{Cubes} : a^3 + b^3 = (a + b) (a^2 -
+   ab + b^2)}
 </me>
-  
 <me>
- \tmmathbf{\tmop{Difference} \tmop{of} \tmop{Cubes} : a^3 - b^3 = (a - b)
-   (a^2 + ab + b^2)} 
+  \tmmathbf{\tmop{Difference} \tmop{of} \tmop{Cubes} : a^3 - b^3 = (a - b)
+   (a^2 + ab + b^2)}
 </me>
- 
 <p>
 Comparing the formulas one may notice that the only difference resides in the signs
 between the terms. One way to remember these two formulas is to think of
@@ -255,372 +230,358 @@ we have a sum of cubes, then the second sign is subtraction. For a difference of
 addition for the second sign. Finally, AP stands for `always positive', since both
 formulas end with addition. The following examples show the factorization for a sum or difference of cubes.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>m^3 - 27 \amp   \amp  \tmop{Desired~cube} \tmop{roots~are~} m \tmop{~and~}
+<md>
+  <mrow>  m^3 - 27 \amp   \amp  \tmop{Desired~cube} \tmop{roots~are~} m \tmop{~and~}
     3</mrow>
- <mrow>(m~?~3) (m^2 ~?~ 3m ~?~9) \amp   \amp  \tmop{Use} \tmop{SOAP}
+  <mrow>  (m~?~3) (m^2 ~?~ 3m ~?~9) \amp   \amp  \tmop{Use} \tmop{SOAP}
     \tmop{to} \tmop{fill} \tmop{in} \tmop{signs}</mrow>
- <mrow>(m - 3) (m^2 + 3 m + 9) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  (m - 3) (m^2 + 3 m + 9) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>125 p^3 + 8 r^3 \amp   \amp  \tmop{Desired~cube} \tmop{roots~are~} 5 p
+<md>
+  <mrow>  125 p^3 + 8 r^3 \amp   \amp  \tmop{Desired~cube} \tmop{roots~are~} 5 p
     \tmop{~and~} 2 r</mrow>
- <mrow>(5 p~?~ 2 r) (25 p^2 ~?~ 10 pr ~?~ 4r^2) \amp   \amp  \tmop{Use~SOAP} \tmop{to} \tmop{fill} \tmop{in} \tmop{signs}</mrow>
- <mrow>(5 p + 2 r) (25 p^2 - 10 pr + 4 r^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  (5 p~?~ 2 r) (25 p^2 ~?~ 10 pr ~?~ 4r^2) \amp   \amp  \tmop{Use~SOAP} \tmop{to} \tmop{fill} \tmop{in} \tmop{signs}</mrow>
+  <mrow>  (5 p + 2 r) (25 p^2 - 10 pr + 4 r^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 The previous example illustrates an important point. When we identify the
 first and last terms of the trinomial in our factorization, we must square the cube roots <m>5 p</m> and <m>2 r</m>.
-In situations such as this, one must not forget to square both the coefficient and the variable.\pp
+In situations such as this, one must not forget to square both the coefficient and the variable.
 </p>
-  
+
 <p>
 Often after factoring a sum or difference of cubes, one will look to factor the resulting trinomial (our second factor) further. As a general rule, this factor should always be irreducible over the reals (unless there is a GCF which should have been factored out
 initially).
 </p>
-  
+
 <p>
 The following table summarizes all of the special factorizations that we have discussed thus far in the section.
 </p>
-  {\tmstrong{Factoring Special Products}}  
-<md><mrow>\tmop{Difference} \tmop{of} \tmop{Squares} \amp   \amp  a^2 - b^2 = (a + b) (a -
+{\tmstrong{Factoring Special Products}}  
+<md>
+  <mrow>  \tmop{Difference} \tmop{of} \tmop{Squares} \amp   \amp  a^2 - b^2 = (a + b) (a -
   b)</mrow>
- <mrow>\tmop{Sum} \tmop{of} \tmop{Squares} \amp   \amp  a^2 + b^2~~\tmop{(irreducible~over~the~reals)}</mrow>
- <mrow>\tmop{Perfect} \tmop{Square} \amp   \amp  a^2 + 2 a b + b^2 = (a + b)^2</mrow>
- <mrow>\tmop{Sum} \tmop{of} \tmop{Cubes} \amp   \amp  a^3 + b^3 = (a + b) (a^2 - a b +
+  <mrow>  \tmop{Sum} \tmop{of} \tmop{Squares} \amp   \amp  a^2 + b^2~~\tmop{(irreducible~over~the~reals)}</mrow>
+  <mrow>  \tmop{Perfect} \tmop{Square} \amp   \amp  a^2 + 2 a b + b^2 = (a + b)^2</mrow>
+  <mrow>  \tmop{Sum} \tmop{of} \tmop{Cubes} \amp   \amp  a^3 + b^3 = (a + b) (a^2 - a b +
   b^2)</mrow>
- <mrow>\tmop{Difference} \tmop{of} \tmop{Cubes} \amp   \amp  a^3 - b^3 = (a - b) (a^2 + a b
+  <mrow>  \tmop{Difference} \tmop{of} \tmop{Cubes} \amp   \amp  a^3 - b^3 = (a - b) (a^2 + a b
   + b^2)</mrow>
- 
 </md>
- 
 <p>
 As always, when factoring special products it is important to check for a GCF
 first. Only after checking for a GCF should we identify and factor the special product.
 We demonstrate this in the last three examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>72 x^2 - 2 \amp   \amp  \tmop{GCF} \tmop{is~} 2</mrow>
- <mrow>2 (36 x^2 - 1) \amp   \amp  \tmop{Difference} \tmop{of} \tmop{squares};
+<md>
+  <mrow>  72 x^2 - 2 \amp   \amp  \tmop{GCF} \tmop{is~} 2</mrow>
+  <mrow>  2 (36 x^2 - 1) \amp   \amp  \tmop{Difference} \tmop{of} \tmop{squares};
     \tmop{~square} \tmop{roots} \tmop{are~} 6 x \tmop{~and~} 1</mrow>
- <mrow>2 (6 x + 1) (6 x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  2 (6 x + 1) (6 x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>48 x^2 y - 24 x y + 3 y \amp   \amp  \tmop{GCF} \tmop{is~} 3 y</mrow>
- <mrow>3 y (16 x^2 - 8 x + 1) \amp   \amp  \tmop{Multiply} \tmop{to~}ac \tmop{~or~} 16, \tmop{~add}
+<md>
+  <mrow>  48 x^2 y - 24 x y + 3 y \amp   \amp  \tmop{GCF} \tmop{is~} 3 y</mrow>
+  <mrow>  3 y (16 x^2 - 8 x + 1) \amp   \amp  \tmop{Multiply} \tmop{to~}ac \tmop{~or~} 16, \tmop{~add}
     \tmop{to~} 8</mrow>
- <mrow>\amp   \amp ~~~ \tmop{The} \tmop{numbers} \tmop{are~} 4 \tmop{~and~} 4; \tmop{~we~have~a~perfect} \tmop{square}</mrow>
- <mrow>3 y (4 x - 1)^2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp   \amp ~~~ \tmop{The} \tmop{numbers} \tmop{are~} 4 \tmop{~and~} 4; \tmop{~we~have~a~perfect} \tmop{square}</mrow>
+  <mrow>  3 y (4 x - 1)^2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>128 a^4 b^2 + 54 a b^5 \amp   \amp  \tmop{GCF} \tmop{is~} 2 a b^2</mrow>
- <mrow>2 a b^2 (64 a^3 + 27 b^3) \amp   \amp  \tmop{Sum} \tmop{of} \tmop{cubes}; \tmop{~cube} \tmop{roots} \tmop{are~} 4 a \tmop{~and~} 3 b</mrow>
- <mrow>2 ab^2 (4 a + 3 b) (16 a^2 - 12 a b + 9 b^2) \amp   \amp  \tmop{Our}
+<md>
+  <mrow>  128 a^4 b^2 + 54 a b^5 \amp   \amp  \tmop{GCF} \tmop{is~} 2 a b^2</mrow>
+  <mrow>  2 a b^2 (64 a^3 + 27 b^3) \amp   \amp  \tmop{Sum} \tmop{of} \tmop{cubes}; \tmop{~cube} \tmop{roots} \tmop{are~} 4 a \tmop{~and~} 3 b</mrow>
+  <mrow>  2 ab^2 (4 a + 3 b) (16 a^2 - 12 a b + 9 b^2) \amp   \amp  \tmop{Our}
     \tmop{solution}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Quadratic Type</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Identify, factor, and solve equations of quadratic type by factoring and extracting square roots.}}
-\pp
+Identify, factor, and solve equations of quadratic type by factoring and extracting square roots.
 </p>
-  
+</objectives>
 <p>
-Recall that <m>x^2+2x-24=0</m> can be factored into <m>(x+6)(x-4)=0</m>. Also, using the method of extracting square roots, the solutions to <m>x^2-4=0</m> can be found to be <m>x=2</m> and <m>x=-2</m>. We will apply both of these ideas, factoring and extracting square roots, to find the zeros of a special type of higher degree polynomial, which we will classify as a polynomial of <i>quadratic type</i>.\pp
+Recall that <m>x^2+2x-24=0</m> can be factored into <m>(x+6)(x-4)=0</m>. Also, using the method of extracting square roots, the solutions to <m>x^2-4=0</m> can be found to be <m>x=2</m> and <m>x=-2</m>. We will apply both of these ideas, factoring and extracting square roots, to find the zeros of a special type of higher degree polynomial, which we will classify as a polynomial of <em>quadratic type</em>.
 </p>
-  
+
 <p>
 The idea behind polynomials of quadratic type is best illustrated with an example. Notice that the degree 4 polynomial equation <m>x^4+2x^2-24 = 0</m> can be made to look like the quadratic equation <m>y^2+2y-24=0</m>, if we were to replace <m>x^2</m> with <m>y</m>. This is possible, since the degree of the leading term (4) is double that of the middle term (2). Thus, the equation <m>x^4+2x^2-24 = 0</m> may be rewritten as <m>(x^2)^2+2(x^2)-24=0</m>. Replacing <m>x^2</m> with the new variable <m>y</m> helps us recognize that we may be able to factor the given equation just like a quadratic.
 </p>
-  
-<md><mrow>x^4+2x^2-24 = 0 \amp  \amp  \text{Initial~equation}</mrow>
- <mrow>(x^2)^2+2(x^2)-24 = 0 \amp  \amp  \text{Rewritten~as~quadratic~type}</mrow>
- <mrow>y^2+2y-24 = 0 \amp  \amp  \text{Change~of~variable~to~}  y</mrow>
- <mrow>(y+6)(y-4) = 0 \amp  \amp  \text{Factor}</mrow>
- <mrow>(x^2+6)(x^2-4) = 0 \amp  \amp  \text{Replace~variable~}  y \text{~with~}  x^2</mrow>
- 
+<md>
+  <mrow>  x^4+2x^2-24 = 0 \amp  \amp  \text{Initial~equation}</mrow>
+  <mrow>  (x^2)^2+2(x^2)-24 = 0 \amp  \amp  \text{Rewritten~as~quadratic~type}</mrow>
+  <mrow>  y^2+2y-24 = 0 \amp  \amp  \text{Change~of~variable~to~}  y</mrow>
+  <mrow>  (y+6)(y-4) = 0 \amp  \amp  \text{Factor}</mrow>
+  <mrow>  (x^2+6)(x^2-4) = 0 \amp  \amp  \text{Replace~variable~}  y \text{~with~}  x^2</mrow>
 </md>
-  
 <p>
 Working with this same structure, we can generate other polynomials that are of quadratic type and can also be factored. For example, <m>x^6+2x^3-24 = 0</m> may be written as <m>(x^3)^2+2(x^3)-24 = 0</m> and <m>x^8+2x^4-24 = 0</m> may be written as <m>(x^4)^2+2(x^4)-24 = 0</m>. We can then factor and extract square roots to find all possible solutions to the given equation. The next few examples demonstrate this technique. We begin by finishing up our first example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the given equation for all possible values of <m>x</m>.
+Solve the given equation for all possible values of <m>x</m>.
 </p>
-  
-<md><mrow>x^4+2x^2-24 = 0 \amp   \amp  \tmop{Quadratic~type;}</mrow>
- <mrow>\amp  \amp  ~~~\text{degree~of~}  x^4 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^2</mrow>
- <mrow>(x^2+6)(x^2-4)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
- <mrow>x^2+6=0 \text{~~~~or~~~~}  x^2-4=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
- <mrow>\sqrt{x^2} = \sqrt{-6}~~~~ \,\ \,\ \,\ \sqrt{x^2} = \sqrt{4}~~ \amp   \amp  \tmop{Extract~square~roots}</mrow>
- <mrow>x= \pm{\sqrt{-6}}~~~~~ \,\ \,\ \,\ x= \pm{\sqrt{4}} \amp   \amp  \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm)</mrow>
- <mrow>x= \pm{\sqrt{6}i}~~~~ \text{or~~~~}    x=\pm2~~ \amp   \amp  \tmop{Our} \tmop{solutions}</mrow>
- 
+<md>
+  <mrow>  x^4+2x^2-24 = 0 \amp   \amp  \tmop{Quadratic~type;}</mrow>
+  <mrow>  \amp  \amp  ~~~\text{degree~of~}  x^4 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^2</mrow>
+  <mrow>  (x^2+6)(x^2-4)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
+  <mrow>  x^2+6=0 \text{~~~~or~~~~}  x^2-4=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
+  <mrow>  \sqrt{x^2} = \sqrt{-6} \,\ \,\ \,\ \sqrt{x^2} = \sqrt{4} \amp   \amp  \tmop{Extract~square~roots}</mrow>
+  <mrow>  x= \pm{\sqrt{-6}} \,\ \,\ \,\ x= \pm{\sqrt{4}} \amp   \amp  \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm)</mrow>
+  <mrow>  x= \pm{\sqrt{6}i} \text{or~~~~}    x=\pm2~~ \amp   \amp  \tmop{Our} \tmop{solutions}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 Notice that we obtain two real solutions and two imaginary solutions in the example above.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the given equation for all possible values of <m>x</m>.
+Solve the given equation for all possible values of <m>x</m>.
 </p>
-  
-<md><mrow>x^4-12x^2+27 = 0 \amp   \amp  \tmop{Quadratic~type;}</mrow>
- <mrow>\amp  \amp  ~~~\text{degree~of~}  x^4 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^2</mrow>
- <mrow>(x^2-3)(x^2-9)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
- <mrow>x^2-3=0 \text{~~~~or~~~~}  x^2-9=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
- <mrow>\sqrt{x^2} = \sqrt{3}~~~~~ \,\ \,\ \,\ \sqrt{x^2} = \sqrt{9}~~ \amp   \amp  \tmop{Extract~square~roots}</mrow>
- <mrow>x= \pm{\sqrt{3}}~~~~~~ \,\ \,\ \,\ x= \pm{\sqrt{9}} \amp   \amp  \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm)</mrow>
- <mrow>x= \pm{\sqrt{3}}~~~~ \text{or~~~~}    x=\pm3~~ \amp   \amp  \tmop{Our} \tmop{solutions}</mrow>
- 
+<md>
+  <mrow>  x^4-12x^2+27 = 0 \amp   \amp  \tmop{Quadratic~type;}</mrow>
+  <mrow>  \amp  \amp  ~~~\text{degree~of~}  x^4 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^2</mrow>
+  <mrow>  (x^2-3)(x^2-9)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
+  <mrow>  x^2-3=0 \text{~~~~or~~~~}  x^2-9=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
+  <mrow>  \sqrt{x^2} = \sqrt{3} \,\ \,\ \,\ \sqrt{x^2} = \sqrt{9} \amp   \amp  \tmop{Extract~square~roots}</mrow>
+  <mrow>  x= \pm{\sqrt{3}} \,\ \,\ \,\ x= \pm{\sqrt{9}} \amp   \amp  \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm)</mrow>
+  <mrow>  x= \pm{\sqrt{3}} \text{or~~~~}    x=\pm3~~ \amp   \amp  \tmop{Our} \tmop{solutions}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 Unlike the first example, here we have obtained four real solutions. In the next example we will see a higher degree polynomial equation that still is of quadratic type. Recall that when extracting roots for a binomial factor having an odd degree, we will obtain just one solution, and there will be no need for a (<m>\pm</m>) sign.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the given equation for all possible values of <m>x</m>.
+Solve the given equation for all possible values of <m>x</m>.
 </p>
-  
-<md><mrow>x^6-4x^3-5 = 0 \amp   \amp  \tmop{Quadratic~type;}</mrow>
- <mrow>\amp  \amp  ~~~\text{degree~of~}  x^6 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^3</mrow>
- <mrow>(x^3-5)(x^3+1)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
- <mrow>x^3-5=0 \text{~~~~or~~~~}  x^3+1=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
- <mrow>\sqrt[3]{x^3} = \sqrt[3]{5}~~~~ \,\ \,\ \,\ \sqrt[3]{x^3} = \sqrt[3]{-1} \amp   \amp  \tmop{Extract~cube~roots}</mrow>
- <mrow>x= \sqrt[3]{5}~~~~~~ \text{or~~~~}    x=-1~~ \amp   \amp  \tmop{Our~solutions;~odd} \tmop{roots} \tmop{do~not~require} \tmop{a~} (\pm)</mrow>
- 
+<md>
+  <mrow>  x^6-4x^3-5 = 0 \amp   \amp  \tmop{Quadratic~type;}</mrow>
+  <mrow>  \amp  \amp  ~~~\text{degree~of~}  x^6 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^3</mrow>
+  <mrow>  (x^3-5)(x^3+1)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
+  <mrow>  x^3-5=0 \text{~~~~or~~~~}  x^3+1=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
+  <mrow>  \sqrt[3]{x^3} = \sqrt[3]{5} \,\ \,\ \,\ \sqrt[3]{x^3} = \sqrt[3]{-1} \amp   \amp  \tmop{Extract~cube~roots}</mrow>
+  <mrow>  x= \sqrt[3]{5} \text{or~~~~}    x=-1~~ \amp   \amp  \tmop{Our~solutions;~odd} \tmop{roots} \tmop{do~not~require} \tmop{a~} (\pm)</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Our last example is of an equation of quadratic type, that is also a difference of two squares. Our solution will reinforce the first part of this section.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the given equation for all possible values of <m>x</m>.
+Solve the given equation for all possible values of <m>x</m>.
 </p>
-  
-<md><mrow>x^4-49 = 0 \amp   \amp  \tmop{Quadratic~type~and~difference~of~two~squares}</mrow>
- <mrow>(x^2+7)(x^2-7)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
- <mrow>x^2+7=0 \text{~~~~or~~~~}  x^2-7=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
- <mrow>\sqrt{x^2} = \sqrt{-7}~~~~~ \,\ \,\ \,\ \sqrt{x^2} = \sqrt{7}~~ \amp   \amp  \tmop{Extract~square~roots}</mrow>
- <mrow>x= \pm{\sqrt{-7}}~~~~~~ \,\ \,\ \,\ x= \pm{\sqrt{7}} \amp   \amp  \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm)</mrow>
- <mrow>x= \pm{\sqrt{7}i}~~~~ \text{or~~~~}    x=\pm{\sqrt{7}}~~ \amp   \amp  \tmop{Our} \tmop{solutions~(two~real~solutions)}</mrow>
- 
+<md>
+  <mrow>  x^4-49 = 0 \amp   \amp  \tmop{Quadratic~type~and~difference~of~two~squares}</mrow>
+  <mrow>  (x^2+7)(x^2-7)=0 \amp   \amp  \text{Resulting~factorization}</mrow>
+  <mrow>  x^2+7=0 \text{~~~~or~~~~}  x^2-7=0 \amp   \amp  \text{Set~each~factor~equal~to~} 0 \text{~and~solve}</mrow>
+  <mrow>  \sqrt{x^2} = \sqrt{-7} \,\ \,\ \,\ \sqrt{x^2} = \sqrt{7} \amp   \amp  \tmop{Extract~square~roots}</mrow>
+  <mrow>  x= \pm{\sqrt{-7}} \,\ \,\ \,\ x= \pm{\sqrt{7}} \amp   \amp  \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm)</mrow>
+  <mrow>  x= \pm{\sqrt{7}i} \text{or~~~~}    x=\pm{\sqrt{7}} \amp   \amp  \tmop{Our} \tmop{solutions~(two~real~solutions)}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Factoring Summary</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Identify and use the correct method to factor various
-polynomials.}}\pp
+Identify and use the correct method to factor various
+polynomials.
 </p>
-  
+</objectives>
 <p>
 In this subsection, we will summarize the many
 factoring methods we have seen thus far. An important part of the process for solving any polynomial equation
 is the identification of the number of terms in the simplified equation. For any equation we will
 always try to factor out a GCF first.
 </p>
-  {\tmstrong{Factoring Summary}} 
+{\tmstrong{Factoring Summary}}
 <p>
 \begin{itemizedot}
 	\item {\tmstrong{GCF}} - Always look for a GCF first!
 \item {\tmstrong{2 terms}} - Sum or difference of squares or cubes.
 </p>
-  
+
 <p>
-<m> a^2 - b^2 = (a + b) (a - b)</m>
+<m>a^2 - b^2 = (a + b) (a - b)</m>
 </p>
-  
+
 <p>
 <m>a^2 + b^2</m><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />\text{irreducible~over~the~reals}
 </p>
-  
+
 <p>
-<m> a^3 + b^3 = (a + b) (a^2 - a b + b^2)</m>
+<m>a^3 + b^3 = (a + b) (a^2 - a b + b^2)</m>
 </p>
-  
+
 <p>
 <m>a^3 - b^3 = (a - b) (a^2 + ab + b^2)</m>
 </p>
-  
+
 <p>
 \item {\tmstrong{3 terms}} - Factor; watch for a perfect square.
 </p>
-  
+
 <p>
 <m>ax^2+bx+c~~~\tmop{Multiply} \tmop{to} a c \tmop{and} \tmop{add} \tmop{to} b</m>
 </p>
-  
+
 <p>
 <m>a^2 + 2 a b + b^2 = (a + b)^2</m>
 </p>
-  
+
 <p>
 \item {\tmstrong{4 terms}} - Grouping
 	\item {\tmstrong{Special case}} - Quadratic type (used in cases with polynomials having even degree and containing 2 or 3 terms)
 </p>
-  
+
 <p>
 \end{itemizedot}
 We will employ a few of the techniques summarized above in order to factor each of the following examples. Here
 the emphasis will be on which strategy to use, rather than the steps that follow.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>4 x^2 + 56 x y + 196 y^2 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 4</mrow>
- <mrow>4 (x^2 + 14 x y + 49 y^2) \amp   \amp  3 \tmop{terms}, \tmop{try~} ac\tmop{-method}</mrow>
- 
+<md>
+  <mrow>  4 x^2 + 56 x y + 196 y^2 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 4</mrow>
+  <mrow>  4 (x^2 + 14 x y + 49 y^2) \amp   \amp  3 \tmop{terms}, \tmop{try~} ac\tmop{-method}</mrow>
 </md>
- 
 <p>
 We need two terms to multiply to <m>ac</m>, or 49, and add to 14. Use 7 and 7. We have a perfect square.
 </p>
-  
-<md><mrow>4 (x + 7 y)^2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  4 (x + 7 y)^2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>5 x^2 y + 15 x y - 35 x^2 - 105 x \amp   \amp  \tmop{Factor~out~a~GCF~of~} 5 x</mrow>
- <mrow>5 x (x y + 3 y - 7 x - 21) \amp   \amp  4 \tmop{~terms}, \tmop{try}
+<md>
+  <mrow>  5 x^2 y + 15 x y - 35 x^2 - 105 x \amp   \amp  \tmop{Factor~out~a~GCF~of~} 5 x</mrow>
+  <mrow>  5 x (x y + 3 y - 7 x - 21) \amp   \amp  4 \tmop{~terms}, \tmop{try}
     \tmop{factor~by~grouping}</mrow>
- <mrow>5 x [y (x + 3) - 7 (x + 3)] \amp   \amp  \tmop{We~have~a~common~factor~of~}(x + 3)</mrow>
- <mrow>5 x (x + 3) (y - 7) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  5 x [y (x + 3) - 7 (x + 3)] \amp   \amp  \tmop{We~have~a~common~factor~of~}(x + 3)</mrow>
+  <mrow>  5 x (x + 3) (y - 7) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>100 x^2 - 400 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 100</mrow>
- <mrow>100 (x^2 - 4) \amp   \amp  \tmop{We~have~a~difference} \tmop{of}
+<md>
+  <mrow>  100 x^2 - 400 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 100</mrow>
+  <mrow>  100 (x^2 - 4) \amp   \amp  \tmop{We~have~a~difference} \tmop{of}
     \tmop{squares}</mrow>
- <mrow>100 (x + 2) (x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  100 (x + 2) (x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>108 x^3 y^2 - 39 x^2 y^2 + 3 x y^2 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 3 x y^2</mrow>
- <mrow>3 x y^2 (36 x^2 - 13 x + 1) \amp   \amp  3\tmop{terms}, \tmop{try~} ac
+<md>
+  <mrow>  108 x^3 y^2 - 39 x^2 y^2 + 3 x y^2 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 3 x y^2</mrow>
+  <mrow>  3 x y^2 (36 x^2 - 13 x + 1) \amp   \amp  3\tmop{terms}, \tmop{try~} ac
     \tmop{-method}</mrow>
- 
 </md>
- 
 <p>
 We need two terms to multiply to <m>ac</m>, or 36, and add to <m>-13</m>.<br />
 	Use <m>-9</m> and <m>-4</m>.
 </p>
-  
-<md><mrow>3 x y^2 (36 x^2 - 9 x - 4 x + 1) \amp   \amp  \tmop{Split}
+<md>
+  <mrow>  3 x y^2 (36 x^2 - 9 x - 4 x + 1) \amp   \amp  \tmop{Split}
     \tmop{middle} \tmop{term}</mrow>
- <mrow>3 x y^2 [9 x (4 x - 1) - 1 (4 x - 1)] \amp   \amp  \tmop{Factor} \tmop{by}
+  <mrow>  3 x y^2 [9 x (4 x - 1) - 1 (4 x - 1)] \amp   \amp  \tmop{Factor} \tmop{by}
     \tmop{grouping}</mrow>
- <mrow>3 x y^2 (4 x - 1) (9 x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  3 x y^2 (4 x - 1) (9 x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} Variables originated in ancient Greece where
 Aristotle would use a single capital letter to represent a number.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression completely over the real numbers.
+Factor the given expression completely over the real numbers.
 </p>
-  
-<md><mrow>5 + 625 y^3 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 5</mrow>
- <mrow>5 (1 + 125 y^3) \amp   \amp  2 \tmop{terms}, \tmop{a~sum} \tmop{of}
+<md>
+  <mrow>  5 + 625 y^3 \amp   \amp  \tmop{Factor~out~a~GCF~of~} 5</mrow>
+  <mrow>  5 (1 + 125 y^3) \amp   \amp  2 \tmop{terms}, \tmop{a~sum} \tmop{of}
     \tmop{cubes}</mrow>
- <mrow>5 (1 + 5 y) (1 - 5 y + 25 y^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  5 (1 + 5 y) (1 - 5 y + 25 y^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 It is important to be comfortable and confident not just with using all the
 factoring methods, but also on deciding which method is best to use. This is why practice is
 so important.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

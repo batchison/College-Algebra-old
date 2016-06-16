@@ -1,0 +1,22 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Quadratic_Equations">
+<title>Quadratic Equations</title>
+
+
+<introduction>
+<p>
+\mfpicnumber{1}
+&#xf8;pengraphsfile{3_Quadratics}
+</p>
+</introduction>
+<xi:include  href="section3-1.mbx" />
+ <xi:include  href="section3-2.mbx" />
+ <xi:include  href="section3-3.mbx" />
+ <xi:include  href="section3-4.mbx" />
+ <xi:include  href="section3-5.mbx" />
+ <xi:include  href="section3-6.mbx" />
+ <xi:include  href="section3-7.mbx" />
+ <xi:include  href="section3-8.mbx" />
+ <xi:include  href="section3-9.mbx" />
+ <xi:include  href="section3-10.mbx" />
+ <xi:include  href="section3-11.mbx" />
+</chapter>

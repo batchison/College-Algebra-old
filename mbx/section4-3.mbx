@@ -1,263 +1,249 @@
-
 <section>
 <title>Combining Functions</title>
+
+
 <subsection>
 <title>Function Arithmetic</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Combine functions using sum, difference, product,
-quotient and composition.}}\pp
+Combine functions using sum, difference, product,
+quotient and composition.
 </p>
-  
+</objectives>
 <p>
 In this section, we demonstrate how two (or more) functions can be combined to create new functions. This is accomplished using five common
-operations: the four basic arithmetic operations of addition, subtraction, multiplication and division, and a fifth operation that we will establish later in the section, known as a <i>composition</i>.\pp
+operations: the four basic arithmetic operations of addition, subtraction, multiplication and division, and a fifth operation that we will establish later in the section, known as a <em>composition</em>.
 The notation for the four basic functions is as follows.
 </p>
-  
-<md><mrow>\tmop{Addition} \amp   \amp  (f + g) (x) = f (x) + g (x)</mrow>
- <mrow>\tmop{Subtraction} \amp   \amp  (f - g) (x) = f (x) - g (x)</mrow>
- <mrow>\tmop{Multiplication} \amp   \amp  (f \cdot g) (x) = f (x)g (x)</mrow>
- <mrow>\tmop{Division} \amp   \amp  \left( \dfrac{f}{g}\right) (x) = \dfrac{f(x)}{g(x)} \text{,~where <m>g(x) \neq 0</m>}</mrow>
-  
+<md>
+  <mrow>  \tmop{Addition} \amp   \amp  (f + g) (x) = f (x) + g (x)</mrow>
+  <mrow>  \tmop{Subtraction} \amp   \amp  (f - g) (x) = f (x) - g (x)</mrow>
+  <mrow>  \tmop{Multiplication} \amp   \amp  (f \cdot g) (x) = f (x)g (x)</mrow>
+  <mrow>  \tmop{Division} \amp   \amp  \left( \dfrac{f}{g}\right) (x) = \dfrac{f(x)}{g(x)} \text{,~where <m>g(x) \neq 0</m>}</mrow>
 </md>
-  
 <p>
 As we will see in the next few examples, when applying the specified operations, one must be careful to completely simplify, by distributing and combining like terms where it is necessary. We will demonstrate this for each operation, highlighting the most critical steps in the process.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>f+g</m>, where <m>f (x) = x^2 - x - 2</m> and <m>g(x) = x + 1</m>.
+Find <m>f+g</m>, where <m>f (x) = x^2 - x - 2</m> and <m>g(x) = x + 1</m>.
 </p>
-  
-<md><mrow>(f + g)(x)~~~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
- <mrow>f(x) + g(x)~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~sum~of~two~functions}</mrow>
- <mrow>(x^2 - x - 2) + (x + 1) \amp   \amp  \text{Substitute~functions,~inserting~parentheses}</mrow>
- <mrow>x^2 - x - 2 + x + 1~~ \amp   \amp  \text{Simplify;~remove~the~parentheses}</mrow>
- <mrow>x^2 - x + x -2 + 1~~ \amp   \amp  \text{Combine like terms}</mrow>
- <mrow>(f + g)(x)=x^2 - 1~~~~~~~~~~ \amp   \amp  \text{Our solution}</mrow>
- <mrow>~~~~~~~~~~=(x-1)(x+1) \amp   \amp  \text{Our solution in factored form}</mrow>
- 
+<md>
+  <mrow>  (f + g)(x)~~~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
+  <mrow>  f(x) + g(x)~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~sum~of~two~functions}</mrow>
+  <mrow>  (x^2 - x - 2) + (x + 1) \amp   \amp  \text{Substitute~functions,~inserting~parentheses}</mrow>
+  <mrow>  x^2 - x - 2 + x + 1~~ \amp   \amp  \text{Simplify;~remove~the~parentheses}</mrow>
+  <mrow>  x^2 - x + x -2 + 1~~ \amp   \amp  \text{Combine like terms}</mrow>
+  <mrow>  (f + g)(x)=x^2 - 1~~~~~~~~~~ \amp   \amp  \text{Our solution}</mrow>
+  <mrow>  ~~~~~~~~~~=(x-1)(x+1) \amp   \amp  \text{Our solution in factored form}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
-We include the factored form of <m>f+g</m> in the previous example to reinforce the methods of factorization learned in an earlier chapter. Generally, either form (expanded or factored) would be considered acceptable.\pp
-Although the parentheses are not entirely necessary in our first example, we have included them nevertheless, to reinforce that each operation is applied to an <i>entire</i> function or expression. This will become more apparent in our next example (subtraction), when we will need to distribute a negative sign.
+We include the factored form of <m>f+g</m> in the previous example to reinforce the methods of factorization learned in an earlier chapter. Generally, either form (expanded or factored) would be considered acceptable.
+Although the parentheses are not entirely necessary in our first example, we have included them nevertheless, to reinforce that each operation is applied to an <em>entire</em> function or expression. This will become more apparent in our next example (subtraction), when we will need to distribute a negative sign.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>g-f</m>, where <m>f(x) = x^2 - x - 2</m> and <m>g(x) = x + 1</m>.
+Find <m>g-f</m>, where <m>f(x) = x^2 - x - 2</m> and <m>g(x) = x + 1</m>.
 </p>
-  
-<md><mrow>(g - f)(x)~~~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
- <mrow>g(x) - f(x)~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~difference~of~two~functions}</mrow>
- <mrow>(x + 1)-(x^2 - x - 2)  \amp   \amp  \text{Substitute~functions,~inserting~parentheses}</mrow>
- <mrow>x + 1 -x^2 + x + 2~~   \amp   \amp  \text{Simplify;~distribute~the~negative~sign}</mrow>
- <mrow>-x^2 + x + x +1 + 2~~ \amp   \amp  \text{Combine like terms}</mrow>
- <mrow>(g - f)(x)=-x^2 +2x +3~~~ \amp   \amp  \text{Our solution}</mrow>
- <mrow>~~~~~~~~~~=-(x-3)(x+1)\amp   \amp  \text{Our solution in factored form}</mrow>
- 
+<md>
+  <mrow>  (g - f)(x)~~~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
+  <mrow>  g(x) - f(x)~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~difference~of~two~functions}</mrow>
+  <mrow>  (x + 1)-(x^2 - x - 2)  \amp   \amp  \text{Substitute~functions,~inserting~parentheses}</mrow>
+  <mrow>  x + 1 -x^2 + x + 2~~   \amp   \amp  \text{Simplify;~distribute~the~negative~sign}</mrow>
+  <mrow>  -x^2 + x + x +1 + 2~~ \amp   \amp  \text{Combine like terms}</mrow>
+  <mrow>  (g - f)(x)=-x^2 +2x +3~~~ \amp   \amp  \text{Our solution}</mrow>
+  <mrow>  ~~~~~~~~~~=-(x-3)(x+1)\amp   \amp  \text{Our solution in factored form}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>(h \cdot k)(x)</m>, where <m>h(x) = 3x^2 - 4x</m> and <m>k(x) = x - 2</m>.
+Find <m>(h \cdot k)(x)</m>, where <m>h(x) = 3x^2 - 4x</m> and <m>k(x) = x - 2</m>.
 </p>
-  
-<md><mrow>(h \cdot k)(x)~~~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
- <mrow>h(x)\cdot k(x)~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~product~of~two~functions}</mrow>
- <mrow>(3x^2 - 4x)(x - 2)~~  \amp   \amp  \text{Substitute~functions,~inserting~parentheses}</mrow>
- <mrow>3x^3  -6x^2 -4x^2 +8x \amp   \amp  \text{Expand~by~distributing}</mrow>
- <mrow>3x^3  -10x^2 + 8x~~~ \amp   \amp  \text{Combine like terms}</mrow>
- <mrow>(h \cdot k)(x)=3x^3  -10x^2 + 8x \amp   \amp  \text{Our solution}</mrow>
- <mrow>~~~~~~=x(3x-4)(x-2)\amp   \amp  \text{Our solution in factored form}</mrow>
- 
+<md>
+  <mrow>  (h \cdot k)(x)~~~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
+  <mrow>  h(x)\cdot k(x)~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~product~of~two~functions}</mrow>
+  <mrow>  (3x^2 - 4x)(x - 2)~~  \amp   \amp  \text{Substitute~functions,~inserting~parentheses}</mrow>
+  <mrow>  3x^3  -6x^2 -4x^2 +8x \amp   \amp  \text{Expand~by~distributing}</mrow>
+  <mrow>  3x^3  -10x^2 + 8x~~~ \amp   \amp  \text{Combine like terms}</mrow>
+  <mrow>  (h \cdot k)(x)=3x^3  -10x^2 + 8x \amp   \amp  \text{Our solution}</mrow>
+  <mrow>  ~~~~~~=x(3x-4)(x-2)\amp   \amp  \text{Our solution in factored form}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>\left(\dfrac{g}{f}\right)(x)</m>, where <m>f(x) = x^2 - x - 2</m> and <m>g(x) = x + 1</m>.
+Find <m>\left(\dfrac{g}{f}\right)(x)</m>, where <m>f(x) = x^2 - x - 2</m> and <m>g(x) = x + 1</m>.
 </p>
-  
-<md><mrow>\left(\dfrac{g}{f}\right)(x)~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
- <mrow>\dfrac{g(x)}{f(x)}~~~~~~~~~ \amp   \amp  \text{Rewrite~as~a~quotient~of~two~functions}</mrow>
- <mrow>\dfrac{x + 1}{x^2 - x - 2}~~~~~  \amp   \amp  \text{Substitute~functions,~parentheses~unnecessary}</mrow>
- 
+<md>
+  <mrow>  \left(\dfrac{g}{f}\right)(x)~~~~~~~~ \amp   \amp  \text{Consider the problem}</mrow>
+  <mrow>  \dfrac{g(x)}{f(x)} \amp   \amp  \text{Rewrite~as~a~quotient~of~two~functions}</mrow>
+  <mrow>  \dfrac{x + 1}{x^2 - x - 2}  \amp   \amp  \text{Substitute~functions,~parentheses~unnecessary}</mrow>
 </md>
   
-<md><mrow>\dfrac{x+1}{(x+1)(x-2)}~~~\amp   \amp  \text{Factor (if possible)}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>x \neq -1 ~~\text{~and~} ~~ x \neq 2 \amp   \amp  \text{Restrict~denominator:~} g(x)\neq 0</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\dfrac{\cancel{x + 1}}{\cancel{(x+1)}(x-2)}~~~  \amp  \amp  \text{Simplify: reduce <m>\dfrac{x+1}{x+1}</m>}</mrow>
- <mrow>\left(\dfrac{g}{f}\right)(x)=\dfrac{1}{x-2}, ~~ x \neq -1  \amp  \amp  \text{Our solution with added restriction}</mrow>
- 
+<md>
+  <mrow>  \dfrac{x+1}{(x+1)(x-2)}\amp   \amp  \text{Factor (if possible)}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  x \neq -1 ~~\text{~and~}  x \neq 2 \amp   \amp  \text{Restrict~denominator:~} g(x)\neq 0</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \dfrac{\cancel{x + 1}}{\cancel{(x+1)}(x-2)}  \amp  \amp  \text{Simplify: reduce <m>\dfrac{x+1}{x+1}</m>}</mrow>
+  <mrow>  \left(\dfrac{g}{f}\right)(x)=\dfrac{1}{x-2}, ~~ x \neq -1  \amp  \amp  \text{Our solution with added restriction}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
-The previous example presents us with a new precautionary measure that we must be careful not to overlook. This has to do with the simplification of <m>g/f</m> and the requirement that we include the necessary restriction of <m>x\neq -1</m>. Although the <i>domain</i> of the resulting quotient is still <m>x\neq -1,2</m>, we have included <m>x\neq -1</m> as part of our final answer, since the simplified expression allows us to easily determine that <m>x</m> cannot equal 2, but fails to carry through the additional restriction.\pp
-In general, whenever we simplify any function, we must be careful to insure that the domain of the resulting expression will be in agreement with the initial <i>unsimplified</i> expression. In the chapter on rational functions, we will see the graphical consequence that arises when the restriction <m>x\neq -1</m> is overlooked.\pp
+The previous example presents us with a new precautionary measure that we must be careful not to overlook. This has to do with the simplification of <m>g/f</m> and the requirement that we include the necessary restriction of <m>x\neq -1</m>. Although the <em>domain</em> of the resulting quotient is still <m>x\neq -1,2</m>, we have included <m>x\neq -1</m> as part of our final answer, since the simplified expression allows us to easily determine that <m>x</m> cannot equal 2, but fails to carry through the additional restriction.
+In general, whenever we simplify any function, we must be careful to insure that the domain of the resulting expression will be in agreement with the initial <em>unsimplified</em> expression. In the chapter on rational functions, we will see the graphical consequence that arises when the restriction <m>x\neq -1</m> is overlooked.
 </p>
-  
+
 <p>
 Thus far, we have sought to create new functions by combining two functions <m>f</m> and <m>g</m> accordingly, keeping the variable <m>x</m> in place throughout. We could, however, just as easily evaluate the functions <m>f+g</m>, <m>f-g</m>, <m>f\cdot g</m>, and <m>f/g</m> at certain values of <m>x</m>. We do this in our next example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>(h \cdot k) (5)</m>, where <m>h (x) = 2 x - 4</m> and <m>k (x) = - 3 x + 1</m>.
+Find <m>(h \cdot k) (5)</m>, where <m>h (x) = 2 x - 4</m> and <m>k (x) = - 3 x + 1</m>.
 </p>
-  
-<md><mrow>h (x) = 2 x - 4 \text{~and~}  k (x) = - 3 x + 1  \amp   \amp  \tmop{Evaluate~each~function~at~} 5</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>h (5) = ~2 (5) - 4~=6~~~~ \amp   \amp  \tmop{Evaluate~} h \tmop{~at~} 5</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>k (5) = - 3 (5) + 1=-14 \amp   \amp  \tmop{Evaluate~} k \tmop{~at~} 5</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>(h \cdot k) (5)=\left(h (5)\right)\cdot\left(k (5)\right) \amp   \amp  \tmop{Multiply~the~two~results}</mrow>
- <mrow>=(6) (- 14)~~~~~~ \amp   \amp </mrow>
- <mrow>=- 84~~~~~~~~~~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  h (x) = 2 x - 4 \text{~and~}  k (x) = - 3 x + 1  \amp   \amp  \tmop{Evaluate~each~function~at~} 5</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  h (5) = ~2 (5) - 4~=6~~~~ \amp   \amp  \tmop{Evaluate~} h \tmop{~at~} 5</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  k (5) = - 3 (5) + 1=-14 \amp   \amp  \tmop{Evaluate~} k \tmop{~at~} 5</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  (h \cdot k) (5)=\left(h (5)\right)\cdot\left(k (5)\right) \amp   \amp  \tmop{Multiply~the~two~results}</mrow>
+  <mrow>  =(6) (- 14)~~~~~~ \amp   \amp</mrow>
+  <mrow>  =- 84~~~~~~~~~~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 The clear advantage to this process is that the simplification can be substantially easier when the variable has been replaced with a constant. One major disadvantage, however, is that our end result represents only a single value, instead of an entire function. Particularly in situations where the resulting function is not demanded, students will likely find it more efficient to use this approach when evaluating <m>f+g</m>, <m>f-g</m>, <m>f\cdot g</m> and <m>f/g</m> at a specified value.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Composite Functions</title>
 <p>
-In addition to the four basic arithmetic operations (<m>+,-,~\cdot~,\div</m>), we will now discuss a fifth operation, known as a <i>composition</i> and denoted by <m>\circ</m> (not to be confused with a product, <m>\cdot</m>). The result of a composition is called a <i>composite function</i> and is defined as follows.
+In addition to the four basic arithmetic operations (<m>+,-,~\cdot~,\div</m>), we will now discuss a fifth operation, known as a <em>composition</em> and denoted by <m>\circ</m> (not to be confused with a product, <m>\cdot</m>). The result of a composition is called a <em>composite function</em> and is defined as follows.
 </p>
-  
 <me>
- \tmmathbf{(f \circ g) (x) = f (g (x))} 
+  \tmmathbf{(f \circ g) (x) = f (g (x))}
 </me>
- 
 <p>
-The notation <m>(f\circ g)(x)</m> above should always be interpreted as "<m>f</m> of <m>g</m> of <m>x</m>". In this situation, we consider <m>g</m> to be the <i>inner</i> function, since it is being substituted into <m>f</m> for <m>x</m>. Consequently, we refer to <m>f</m> as the <i>outer</i> function.\pp
-Similarly, if we reversed the order of the two functions <m>f</m> and <m>g</m>, then the resulting composite function <m>(g\circ f)(x)=g(f(x))</m> will have inner function <m>f</m> and outer function <m>g</m>, and should be interpreted as "<m>g</m> of <m>f</m> of <m>x</m>". As we will see, one should never assume that the two composite functions <m>f\circ g</m> and <m>g\circ f</m> will be equal.\pp
+The notation <m>(f\circ g)(x)</m> above should always be interpreted as <q><m>f</m> of <m>g</m> of <m>x</m></q>. In this situation, we consider <m>g</m> to be the <em>inner</em> function, since it is being substituted into <m>f</m> for <m>x</m>. Consequently, we refer to <m>f</m> as the <em>outer</em> function.
+Similarly, if we reversed the order of the two functions <m>f</m> and <m>g</m>, then the resulting composite function <m>(g\circ f)(x)=g(f(x))</m> will have inner function <m>f</m> and outer function <m>g</m>, and should be interpreted as <q><m>g</m> of <m>f</m> of <m>x</m></q>. As we will see, one should never assume that the two composite functions <m>f\circ g</m> and <m>g\circ f</m> will be equal.
 </p>
-  
+
 <p>
 The idea behind a composition, though relatively simple, can often pose a formidable challenge at first. We will begin by evaluating a composite function at a single value. This is accomplished by first evaluating the inner function at the specified value, and
-then substituting ("plugging in") the corresponding <i>output</i> into the outer function.
+then substituting (<q>plugging in</q>) the corresponding <em>output</em> into the outer function.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>(f\circ g)(3)</m>, where <m>f(x)=x^2-2x+1</m> and <m>g(x)=x-5</m>.
+Find <m>(f\circ g)(3)</m>, where <m>f(x)=x^2-2x+1</m> and <m>g(x)=x-5</m>.
 </p>
-  
-<md><mrow>(f \circ g) (3)=f (g (3)) \amp   \amp  \text{Rewrite~}  f\circ g \text{~as~inner~and~outer~functions}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>g (3) = (3) - 5 = - 2~~~~~~~ \amp   \amp  \text{Evaluate~inner~function~at~}  x=3</mrow>
- <mrow>\amp  \amp  \text{Use~output~of~}  -2 \text{~as~input~for~}  f</mrow>
- <mrow>f (- 2) = (- 2)^2 - 2 (- 2) + 1 \amp   \amp  \tmop{Evaluate~outer~function~at~} x=-2</mrow>
- <mrow>= 4 + 4 + 1~~~~~~~~~~~~ \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>(f \circ g) (3) = 9 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  (f \circ g) (3)=f (g (3)) \amp   \amp  \text{Rewrite~}  f\circ g \text{~as~inner~and~outer~functions}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  g (3) = (3) - 5 = - 2~~~~~~~ \amp   \amp  \text{Evaluate~inner~function~at~}  x=3</mrow>
+  <mrow>  \amp  \amp  \text{Use~output~of~}  -2 \text{~as~input~for~}  f</mrow>
+  <mrow>  f (- 2) = (- 2)^2 - 2 (- 2) + 1 \amp   \amp  \tmop{Evaluate~outer~function~at~} x=-2</mrow>
+  <mrow>  = 4 + 4 + 1~~~~~~~~~~~~ \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  (f \circ g) (3) = 9 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-We can also identify a composite function in terms of the variable. In the next example, we will substitute the inner function into the outer function for every instance of the variable and then simplify. This approach is often referred to as the "inside-out" approach by some instructors.
+We can also identify a composite function in terms of the variable. In the next example, we will substitute the inner function into the outer function for every instance of the variable and then simplify. This approach is often referred to as the <q>inside-out</q> approach by some instructors.
 </p>
-  
-<example xml:id="IO"><statement>
+<example xml:id="IO">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>(f \circ g) (x)</m>, where <m>f (x) = x^2 - x</m> and <m>g (x) = x + 3</m>.
+Find <m>(f \circ g) (x)</m>, where <m>f (x) = x^2 - x</m> and <m>g (x) = x + 3</m>.
 </p>
-  
-<md><mrow>(f \circ g) (x)=f (g (x)) \amp   \amp  \text{Rewrite~}  f\circ g \text{~as~inner~and~outer~functions}</mrow>
- <mrow>\amp   \amp  \text{Our~inner~function~is~}  g(x) = x + 3</mrow>
- <mrow>f (x + 3) \amp   \amp  \text{Replace~each~}  x \text{~in~}  f \text{~with~}  (x + 3)</mrow>
- <mrow>\amp   \amp  \text{Make~sure~to~include~parentheses!}</mrow>
- <mrow>(x + 3)^2 - (x + 3) \amp   \amp  \tmop{Simplify;~expand~binomial}</mrow>
- <mrow>(x^2 + 6 x + 9) - (x + 3) \amp   \amp  \tmop{Distribute~negative}</mrow>
- <mrow>x^2 + 6 x + 9 - x - 3~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>(f \circ g) (x)=x^2 + 5 x + 6~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- <mrow>=(x+3)(x+2) \amp  \amp  \text{Our~solution~in~factored~form}</mrow>
- 
+<md>
+  <mrow>  (f \circ g) (x)=f (g (x)) \amp   \amp  \text{Rewrite~}  f\circ g \text{~as~inner~and~outer~functions}</mrow>
+  <mrow>  \amp   \amp  \text{Our~inner~function~is~}  g(x) = x + 3</mrow>
+  <mrow>  f (x + 3) \amp   \amp  \text{Replace~each~}  x \text{~in~}  f \text{~with~}  (x + 3)</mrow>
+  <mrow>  \amp   \amp  \text{Make~sure~to~include~parentheses!}</mrow>
+  <mrow>  (x + 3)^2 - (x + 3) \amp   \amp  \tmop{Simplify;~expand~binomial}</mrow>
+  <mrow>  (x^2 + 6 x + 9) - (x + 3) \amp   \amp  \tmop{Distribute~negative}</mrow>
+  <mrow>  x^2 + 6 x + 9 - x - 3~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  (f \circ g) (x)=x^2 + 5 x + 6~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+  <mrow>  =(x+3)(x+2) \amp  \amp  \text{Our~solution~in~factored~form}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-It is important to reiterate that <m>(f \circ g) (x)</m> usually will <i>not</i> equal <m>(g
-\circ f) (x)</m> as the next example shows. Again, we will take the "inside-out" approach, where the inner function is now <m>f</m> and the outer function is <m>g</m>.
+It is important to reiterate that <m>(f \circ g) (x)</m> usually will <em>not</em> equal <m>(g
+\circ f) (x)</m> as the next example shows. Again, we will take the <q>inside-out</q> approach, where the inner function is now <m>f</m> and the outer function is <m>g</m>.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>(g \circ f) (x)</m>, where <m>f (x) = x^2 - x</m> and <m>g (x) = x + 3</m>.
+Find <m>(g \circ f) (x)</m>, where <m>f (x) = x^2 - x</m> and <m>g (x) = x + 3</m>.
 </p>
-  
-<md><mrow>(g \circ f) (x)=g (f (x)) \amp   \amp  \text{Rewrite~}  g\circ f \text{~as~inner~and~outer~functions}</mrow>
- <mrow>\amp   \amp  \text{Our~inner~function~is~}  f(x) = x^2 - x</mrow>
- <mrow>g (x^2 - x) \amp   \amp  \text{Replace~each~}  x \text{~in~}  f \text{~with~}  (x^2 - x)</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>(x^2 - x) + 3 \amp   \amp  \tmop{Simplify;~remove~parentheses}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>(g \circ f) (x)=x^2 - x + 3~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  (g \circ f) (x)=g (f (x)) \amp   \amp  \text{Rewrite~}  g\circ f \text{~as~inner~and~outer~functions}</mrow>
+  <mrow>  \amp   \amp  \text{Our~inner~function~is~}  f(x) = x^2 - x</mrow>
+  <mrow>  g (x^2 - x) \amp   \amp  \text{Replace~each~}  x \text{~in~}  f \text{~with~}  (x^2 - x)</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  (x^2 - x) + 3 \amp   \amp  \tmop{Simplify;~remove~parentheses}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  (g \circ f) (x)=x^2 - x + 3~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Notice that a simple calculation of the discriminant,
 </p>
-  
 <me>
-b^2-4ac=(-1)^2-4(1)(3)=-11\lt 0,
+  b^2-4ac=(-1)^2-4(1)(3)=-11\lt 0,
 </me>
- 
 <p>
-tells us that the resulting composite function is irreducible (not factorable) over the real numbers.\pp
+tells us that the resulting composite function is irreducible (not factorable) over the real numbers.
 </p>
-  
+
 <p>
-We close this section by demonstrating the "outside-in" approach to finding a composite function <m>f\circ g</m>. The idea behind this approach is to <i>first</i> rewrite the outer function <m>f</m> by its given expression, replacing each instance of the variable with the general <m>g(x)</m>. To see that this will yield the same result as the "inside-out" approach, we will revisit <xref ref="IO">example</xref> above.
+We close this section by demonstrating the <q>outside-in</q> approach to finding a composite function <m>f\circ g</m>. The idea behind this approach is to <em>first</em> rewrite the outer function <m>f</m> by its given expression, replacing each instance of the variable with the general <m>g(x)</m>. To see that this will yield the same result as the <q>inside-out</q> approach, we will revisit <xref ref="IO">example</xref> above.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find <m>(f \circ g) (x)</m>, where <m>f (x) = x^2 - x</m> and <m>g (x) = x + 3</m>.
+Find <m>(f \circ g) (x)</m>, where <m>f (x) = x^2 - x</m> and <m>g (x) = x + 3</m>.
 </p>
-  
-<md><mrow>(f \circ g) (x)=f (g (x)) \amp   \amp  \text{Rewrite~}  f\circ g \text{~as~inner~and~outer~functions}</mrow>
- <mrow>\amp   \amp  \text{Our~outer~function~is~}  f(x) = x^2 - x</mrow>
- <mrow>\left[g(x)\right]^2-\left[g(x)\right]~~~~ \amp   \amp  \text{Replace~each~}  x \text{~in~}  f \text{~with~}  g(x)</mrow>
- <mrow>(x + 3)^2 - (x + 3) \amp   \amp  \text{Replace~each~}  g(x) \text{~by~}  x+3</mrow>
- <mrow>\amp  \amp  \text{Make~sure~to~include~parentheses!}</mrow>
- <mrow>(x^2 + 6 x + 9) - (x + 3)  \amp   \amp  \tmop{Simplify;~expand~binomial}</mrow>
- <mrow>x^2 + 6 x + 9 - x - 3~~ \amp   \amp  \tmop{Distribute~negative}</mrow>
- <mrow>x^2 + 5 x + 6~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>(f \circ g) (x)=x^2 + 5 x + 6~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- <mrow>=(x+3)(x+2) \amp  \amp  \text{Our~solution~in~factored~form}</mrow>
- 
+<md>
+  <mrow>  (f \circ g) (x)=f (g (x)) \amp   \amp  \text{Rewrite~}  f\circ g \text{~as~inner~and~outer~functions}</mrow>
+  <mrow>  \amp   \amp  \text{Our~outer~function~is~}  f(x) = x^2 - x</mrow>
+  <mrow>  \left[g(x)\right]^2-\left[g(x)\right]~~~~ \amp   \amp  \text{Replace~each~}  x \text{~in~}  f \text{~with~}  g(x)</mrow>
+  <mrow>  (x + 3)^2 - (x + 3) \amp   \amp  \text{Replace~each~}  g(x) \text{~by~}  x+3</mrow>
+  <mrow>  \amp  \amp  \text{Make~sure~to~include~parentheses!}</mrow>
+  <mrow>  (x^2 + 6 x + 9) - (x + 3)  \amp   \amp  \tmop{Simplify;~expand~binomial}</mrow>
+  <mrow>  x^2 + 6 x + 9 - x - 3~~ \amp   \amp  \tmop{Distribute~negative}</mrow>
+  <mrow>  x^2 + 5 x + 6~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  (f \circ g) (x)=x^2 + 5 x + 6~~~ \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
+  <mrow>  =(x+3)(x+2) \amp  \amp  \text{Our~solution~in~factored~form}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-{\tmstrong{World View Note:}} The term "function" came from Gottfried Wilhelm
+{\tmstrong{World View Note:}} The term <q>function</q> came from Gottfried Wilhelm
 Leibniz, a German mathematician from the late 17<m>^{\text{th} }</m> century.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>
