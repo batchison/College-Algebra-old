@@ -1,0 +1,17 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Introduction_to_Functions">
+<title>Introduction to Functions</title>
+
+
+<introduction>
+<p>
+\mfpicnumber{1}
+\opengraphsfile{4_Functions}
+</p>
+</introduction>
+<xi:include  href="section4-1.mbx" />
+ <xi:include  href="section4-2.mbx" />
+ <xi:include  href="section4-3.mbx" />
+ <xi:include  href="section4-4.mbx" />
+ <xi:include  href="section4-5.mbx" />
+ <xi:include  href="section4-6.mbx" />
+</chapter>

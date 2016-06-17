@@ -1,17 +1,15 @@
-
 <section>
 <title>The Two Forms of a Linear Equation</title>
+
+
 <subsection>
 <title>Slope-Intercept Form</title>
+<objectives>
 <p>
-\pp
+Give the equation of a line with a known slope and
+<m>y</m>-intercept.
 </p>
-  
-<p>
-{\tmstrong{Objective: Give the equation of a line with a known slope and
-<m>y</m>-intercept.}}\pp
-</p>
-  
+</objectives>
 <p>
 When graphing a line we found one method we could use is to make a table of
 values. However, if we can identify some properties of the line, we may be
@@ -22,87 +20,81 @@ by <m>(0, b)</m> where <m>b</m> is the value where the graph crosses the vertica
 <m>y</m>-axis. Any other point on the line can be represented by <m>(x, y)</m>. Using this
 information we will look at the slope formula and solve the formula for <m>y</m>.
 </p>
-  
-<example xml:id="Lin55"><statement>
-<md><mrow>m,~ (0, b),~ (x, y) \amp   \amp  \tmop{Use} \tmop{the} \tmop{slope} \tmop{formula}</mrow>
- <mrow>\frac{y - b}{x - 0} = m \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>\frac{y - b}{x} = m \amp   \amp  \tmop{Multiply} \tmop{both} \tmop{sides}
+<example xml:id="Lin55">
+<statement>
+<md>
+  <mrow>  m,~ (0, b),~ (x, y) \amp   \amp  \tmop{Use} \tmop{the} \tmop{slope} \tmop{formula}</mrow>
+  <mrow>  \frac{y - b}{x - 0} = m \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  \frac{y - b}{x} = m \amp   \amp  \tmop{Multiply} \tmop{both} \tmop{sides}
     \tmop{by} x</mrow>
- <mrow>y - b = m x \amp   \amp  \tmop{Add} b \tmop{to} \tmop{both} \tmop{sides}</mrow>
- <mrow>\tmmathbf{\underline{+ b ~~~+ b}} \amp   \amp </mrow>
- <mrow>y = m x + b \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y - b = m x \amp   \amp  \tmop{Add} b \tmop{to} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  \tmmathbf{\underline{+ b ~~~+ b}} \amp   \amp</mrow>
+  <mrow>  y = m x + b \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 This equation, <m>y = m x + b</m> can be thought of as the equation of any line
 that as a slope of <m>m</m> and a <m>y</m>-intercept of <m>b</m>. This formula is known as the
-slope-intercept formula or equation.\pp
+slope-intercept formula or equation.
 </p>
-  
+
 <p>
 \begin{boxedminipage}{4.80in}
 {\tmstrong{
 </p>
-  
 <me>
- \tmop{Slope} - \tmop{intercept~} \tmop{equation} : y = m x + b
-
+  \tmop{Slope} - \tmop{intercept~} \tmop{equation} : y = m x + b
 </me>
- 
 <p>
 }}
 \end{boxedminipage}
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 If we know the slope and the <m>y</m>-intercept we can easily find the equation that
 represents the line.
 </p>
-  
-<example xml:id="Lin56"><statement>
-<md><mrow>\tmop{Slope} = \frac{3}{4},~~ y - \tmop{intercept} = - 3 \amp   \amp  \tmop{Use}
+<example xml:id="Lin56">
+<statement>
+<md>
+  <mrow>  \tmop{Slope} = \frac{3}{4},~~ y - \tmop{intercept} = - 3 \amp   \amp  \tmop{Use}
     \tmop{the} \tmop{slope} - \tmop{intercept} \tmop{equation}</mrow>
- <mrow>y = m x + b \amp   \amp  m \tmop{is} \tmop{the} \tmop{slope},~~ b \tmop{is}
+  <mrow>  y = m x + b \amp   \amp  m \tmop{is} \tmop{the} \tmop{slope},~~ b \tmop{is}
     \tmop{the} y - \tmop{intercept}</mrow>
- <mrow>y = \frac{3}{4} x - 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y = \frac{3}{4} x - 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 We can also find the equation by looking at a graph and finding the slope and
 <m>y</m>-intercept.
 </p>
-  
-<example xml:id="Lin57"><statement>
+<example xml:id="Lin57">
+<statement>
 <p>
 <nbsp />
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
-<image source="images/" />
+<image width="90%" source="images/" />
 </p>
-  
+
 <p>
-Identify the point where the graph crosses the <m>y</m>-axis (0,3).<br /> This means the <m>y</m>-intercept is 3.\pp
+Identify the point where the graph crosses the <m>y</m>-axis (0,3).<br /> This means the <m>y</m>-intercept is 3.
 </p>
-  
+
 <p>
-Identify one other point and draw a slope triangle to find the slope.\pp
+Identify one other point and draw a slope triangle to find the slope.
 The slope is <m>m=- \frac{2}{3}</m>.
 </p>
-  <m>y = m x + b\qquad\qquad\qquad</m> Slope-intercept equation<br />
-  <m>y = - \frac{2}{3} x + 3\qquad\qquad\qquad</m> Our solution  <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />  
+<m>y = m x + b\qquad\qquad\qquad</m> Slope-intercept equation<br />
+  <m>y = - \frac{2}{3} x + 3\qquad\qquad\qquad</m> Our solution  <nbsp /><nbsp /><nbsp /><nbsp /><nbsp />
 <p>
 We can also move the opposite direction, using the equation identify the slope
 and <m>y</m>-intercept and graph the equation from this information. However, it will
@@ -110,124 +102,111 @@ be important for the equation to first be in slope intercept form. If it is
 not, we will have to solve it for <m>y</m> so we can identify the slope and the
 <m>y</m>-intercept.
 </p>
-  
-<example xml:id="Lin58"><statement>
+<example xml:id="Lin58">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the equation <m>2x=4y=6</m> in slope-intercept form.
+Write the equation <m>2x=4y=6</m> in slope-intercept form.
 </p>
-  
-<md><mrow>2 x - 4 y = 6~~ \amp   \amp  \tmop{Solve} \tmop{for} y</mrow>
- <mrow>\tmmathbf{\underline{- 2 x ~~~~- 2 x}} \amp   \amp  \tmop{Subtract} 2 x \tmop{from} \tmop{both}
+<md>
+  <mrow>  2 x - 4 y = 6~~ \amp   \amp  \tmop{Solve} \tmop{for} y</mrow>
+  <mrow>  \tmmathbf{\underline{- 2 x ~~~~- 2 x}} \amp   \amp  \tmop{Subtract} 2 x \tmop{from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>- 4 y = - 2 x + 6 \amp   \amp  \tmop{Put} x \tmop{term} \tmop{first}</mrow>
- <mrow>\tmmathbf{\overline{- 4} ~~~~ \overline{- 4} ~~ \overline{- 4}} \amp   \amp  \tmop{Divide~}
+  <mrow>  - 4 y = - 2 x + 6 \amp   \amp  \tmop{Put} x \tmop{term} \tmop{first}</mrow>
+  <mrow>  \tmmathbf{\overline{- 4} ~~~~ \overline{- 4} ~~ \overline{- 4}} \amp   \amp  \tmop{Divide~}
     \tmop{each} \tmop{term} \tmop{by} - 4</mrow>
- <mrow>y = \frac{1}{2} x - \frac{3}{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y = \frac{1}{2} x - \frac{3}{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Once we have an equation in slope-intercept form we can graph it by first
 plotting the <m>y</m>-intercept, then using the slope, finding a second point and
 connecting the dots.
 </p>
-  
-<example xml:id="Lin59"><statement>
+<example xml:id="Lin59">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Graph <m>y=\displaystyle\frac{1}{2}x-4</m>.
+Graph <m>y=\displaystyle\frac{1}{2}x-4</m>.
 </p>
-  
-<md><mrow>y = m x + b\amp   \amp  \tmop{Slope} - \tmop{intercept} \tmop{equation}</mrow>
- <mrow>m = \frac{1}{2},~ b = - 4 \amp   \amp  \tmop{Identify} \tmop{the} \tmop{slope},~ m, \tmop{and} \tmop{the} y - \tmop{intercept},~ b</mrow>
- 
+<md>
+  <mrow>  y = m x + b\amp   \amp  \tmop{Slope} - \tmop{intercept} \tmop{equation}</mrow>
+  <mrow>  m = \frac{1}{2},~ b = - 4 \amp   \amp  \tmop{Identify} \tmop{the} \tmop{slope},~ m, \tmop{and} \tmop{the} y - \tmop{intercept},~ b</mrow>
 </md>
-  Now make the graph. 
+  Now make the graph.
 <p>
-<nbsp />
+<image width="90%" source="images/" />
 </p>
-  
-<p>
-<image source="images/" />
-</p>
-  
+
 <p>
 Starting with a point at the <br />
 		<m>y</m>-intercept of <m>- 4</m>.<br />
 </p>
-  
+
 <p>
 Then use the slope <m>\frac{\tmop{rise}}{\tmop{run}}</m>, so we will rise 1
 unit and run 2 units to find the next point.<br />
 </p>
-  
+
 <p>
 Once we have both points, connect the dots to get our graph.
 </p>
- </statement>
+</statement>
 </example>
-  
-<p>
-\pp
-</p>
-  
 <p>
 {\tmstrong{World View Note:}} Before our current system of graphing, French
 Mathematician Nicole Oresme, in 1323 suggested graphing lines that would look
-more like a bar graph with a constant slope!\pp
+more like a bar graph with a constant slope!
 </p>
-  
-<example xml:id="Lin60"><statement>
+<example xml:id="Lin60">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Graph <m>3x+4y=12</m>.
+Graph <m>3x+4y=12</m>.
 </p>
-  
-<md><mrow>3 x + 4 y = 12~~ \amp   \amp  \tmop{Not} \tmop{in} \tmop{slope-intercept} \tmop{form}</mrow>
- <mrow>\tmmathbf{\underline{- 3 x ~~~~~~- 3 x}} \amp   \amp  \tmop{Subtract} 3 x \tmop{from} \tmop{both}
+<md>
+  <mrow>  3 x + 4 y = 12~~ \amp   \amp  \tmop{Not} \tmop{in} \tmop{slope-intercept} \tmop{form}</mrow>
+  <mrow>  \tmmathbf{\underline{- 3 x ~~~~~~- 3 x}} \amp   \amp  \tmop{Subtract} 3 x \tmop{from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>4 y = - 3 x + 12 \amp   \amp  \tmop{Put} \tmop{the} x \tmop{term} \tmop{first}</mrow>
- <mrow>\tmmathbf{\overline{4} ~~~~~~~ \overline{4} ~~~~~ \overline{4}}~ \amp   \amp  \tmop{Divide} \tmop{each}
+  <mrow>  4 y = - 3 x + 12 \amp   \amp  \tmop{Put} \tmop{the} x \tmop{term} \tmop{first}</mrow>
+  <mrow>  \tmmathbf{\overline{4} ~~~~~~~ \overline{4} ~~~~~ \overline{4}} \amp   \amp  \tmop{Divide} \tmop{each}
     \tmop{term} \tmop{by} 4</mrow>
- <mrow>y = - \frac{3}{4} x + 3 \amp   \amp  \tmop{Now~in} \tmop{slope} - \tmop{intercept}
+  <mrow>  y = - \frac{3}{4} x + 3 \amp   \amp  \tmop{Now~in} \tmop{slope} - \tmop{intercept}
     \tmop{form}</mrow>
- <mrow>m = - \frac{3}{4},~ b = 3 \amp   \amp  \tmop{Identify} m \tmop{and} b</mrow>
- 
+  <mrow>  m = - \frac{3}{4},~ b = 3 \amp   \amp  \tmop{Identify} m \tmop{and} b</mrow>
 </md>
-  Now make the graph. </statement>
+  Now make the graph.
+</statement>
 </example>
-  
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-<image source="images/" />
+<image width="90%" source="images/" />
 </p>
-   
+
 <p>
 Starting with a point at the <br /> <m>y</m>-intercept of <m>3</m>.<br />
 </p>
-  
+
 <p>
 Then use the slope <m>\frac{\tmop{rise}}{\tmop{run}}</m>, but its negative so
 it will go downhill, so we will drop 3 units and run 4 units to find the
 next point.<br />
 </p>
-  
+
 <p>
 Once we have both points, connect the dots to get our graph.
 </p>
-  
+
 <p>
 We want to be very careful not to confuse using slope to find the next point
 with use a coordinate such as <m>(4, - 2)</m> to find an individual point.
 Coordinates such as <m>(4, - 2)</m> start from the origin and move horizontally
 first, and vertically second. Slope starts from a point on the line that could
 be anywhere on the graph. The numerator is the vertical change and the
-denominator is the horizontal change.\pp
+denominator is the horizontal change.
 </p>
-  
+
 <p>
 Lines with zero slope or no slope can make a problem seem very different. Such lines are horizontal.
 A horizontal line will have a slope of zero which when
@@ -237,35 +216,34 @@ line, the equation can't be written in slope intercept at all because the
 slope is undefined. There is no <m>y</m> in these equations. We will simply make
 <m>x</m> equal to the <m>x</m>-coordinate of the graph.
 </p>
-  
-<example xml:id="Lin61"><statement>
+<example xml:id="Lin61">
+<statement>
 <p>
 <nbsp />
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
-<image source="images/" />
+<image width="90%" source="images/" />
 </p>
-  
+
 <p>
-Give the equation of the line in the graph.\pp
-Because we have a vertical line and no slope there is no slope-intercept equation we can use.\pp
+Give the equation of the line in the graph.
+Because we have a vertical line and no slope there is no slope-intercept equation we can use.
 Rather we make <m>x</m> equal to the <m>x</m>-coordinate of <m>- 4</m>
 </p>
-  Our solution is <m>x = - 4</m>. </subsection> 
+Our solution is <m>x = - 4</m>.
+</subsection>
+
+
 <subsection>
 <title>Point-Slope Form</title>
+<objectives>
 <p>
-\pp
+Give the equation of a line with a known slope and
+point.
 </p>
-  
-<p>
-{\tmstrong{Objective: Give the equation of a line with a known slope and
-point.}}\pp
-</p>
-  
+</objectives>
 <p>
 The slope-intercept form has the advantage of being simple to remember and
 use, however, it has one major disadvantage: we must know the <m>y</m>-intercept in
@@ -276,169 +254,159 @@ we let the slope of an equation be <m>m</m>, and a specific point on the line be
 <m>(x_1, y_1)</m>, and any other point on the line be <m>(x, y)</m>. We can use the
 slope formula to make a second equation.
 </p>
-  
-<example xml:id="Lin62"><statement>
-<md><mrow>m,~ (x_1, y_1),~ (x, y) \amp   \amp  \tmop{Recall} \tmop{slope} \tmop{formula}</mrow>
- <mrow>\frac{y_2 - y_1}{x_2 - x_1} = m \amp   \amp  \tmop{Plug} \tmop{in} \tmop{values}</mrow>
- <mrow>\frac{y - y_1}{x - x_1} = m \amp   \amp  \tmop{Multiply} \tmop{both} \tmop{sides}
+<example xml:id="Lin62">
+<statement>
+<md>
+  <mrow>  m,~ (x_1, y_1),~ (x, y) \amp   \amp  \tmop{Recall} \tmop{slope} \tmop{formula}</mrow>
+  <mrow>  \frac{y_2 - y_1}{x_2 - x_1} = m \amp   \amp  \tmop{Plug} \tmop{in} \tmop{values}</mrow>
+  <mrow>  \frac{y - y_1}{x - x_1} = m \amp   \amp  \tmop{Multiply} \tmop{both} \tmop{sides}
     \tmop{by} (x - x_1)</mrow>
- <mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Our} \tmop{equation}</mrow>
- 
+  <mrow>  y - y_1 = m (x - x_1) \amp   \amp  \tmop{Our} \tmop{equation}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 If we know the slope, <m>m</m> of an equation and any point on the line <m>(x_1,
 y_1)</m> we can easily plug these values into the equation above which will be
-called the point-slope formula or equation.\pp
+called the point-slope formula or equation.
 </p>
-  
+
 <p>
 \begin{boxedminipage}{4.80in}
 {\tmstrong{
 </p>
-  
 <me>
- \tmop{Point} - \tmop{slope~} \tmop{equation} : y - y_1 = m (x -
-   x_1) 
+  \tmop{Point} - \tmop{slope~} \tmop{equation} : y - y_1 = m (x -
+   x_1)
 </me>
- 
 <p>
 }}
 \end{boxedminipage}
-\pp
 </p>
-  
-<example xml:id="Lin63"><statement>
+<example xml:id="Lin63">
+<statement>
 <p>
-<nbsp />\pp
+<nbsp />
 Write the equation of the line through the point <m>(3, - 4)</m> with a slope of
 <m>\displaystyle\frac{3}{5}</m>.
 </p>
-  
-<md><mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Plug} \tmop{values} \tmop{into}
+<md>
+  <mrow>  y - y_1 = m (x - x_1) \amp   \amp  \tmop{Plug} \tmop{values} \tmop{into}
     \tmop{point} - \tmop{slope} \tmop{formula}</mrow>
- <mrow>y - (- 4) = \frac{3}{5} (x - 3) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
- <mrow>y + 4 = \frac{3}{5} (x - 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y - (- 4) = \frac{3}{5} (x - 3) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+  <mrow>  y + 4 = \frac{3}{5} (x - 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Often, we will prefer final answers be written in slope-intercept form. If the
 directions ask for the answer in slope-intercept form we will simply
 distribute the slope, then solve for <m>y</m>.
 </p>
-  
-<example xml:id="Lin64"><statement>
+<example xml:id="Lin64">
+<statement>
 <p>
-<nbsp />\pp
+<nbsp />
 Write the equation of the line through the point <m>(- 6, 2)</m> with a slope of
 <m>- \displaystyle\frac{2}{3}</m> in slope-intercept form.
 </p>
-  
-<md><mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Plug} \tmop{values} \tmop{into}
+<md>
+  <mrow>  y - y_1 = m (x - x_1) \amp   \amp  \tmop{Plug} \tmop{values} \tmop{into}
     \tmop{point} - \tmop{slope} \tmop{formula}</mrow>
- <mrow>y - 2 = - \frac{2}{3} \left(x - (- 6)\right) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
- <mrow>y - 2 = - \frac{2}{3} (x + 6) \amp   \amp  \tmop{Distribute~} \tmop{slope}</mrow>
- <mrow>y - 2 = - \frac{2}{3} x - 4 \amp   \amp  \tmop{Solve} \tmop{for} y \tmop{by~adding~2~to~both~sides}</mrow>
- <mrow>\tmmathbf{\underline{+ 2 ~~~~~~~~ + 2}} \amp   \amp </mrow>
- <mrow>y = - \frac{2}{3} x - 2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y - 2 = - \frac{2}{3} \left(x - (- 6)\right) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+  <mrow>  y - 2 = - \frac{2}{3} (x + 6) \amp   \amp  \tmop{Distribute~} \tmop{slope}</mrow>
+  <mrow>  y - 2 = - \frac{2}{3} x - 4 \amp   \amp  \tmop{Solve} \tmop{for} y \tmop{by~adding~2~to~both~sides}</mrow>
+  <mrow>  \tmmathbf{\underline{+ 2 ~~~~~~~~ + 2}} \amp   \amp</mrow>
+  <mrow>  y = - \frac{2}{3} x - 2 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 An important thing to observe about the point slope formula is that the
 operation between the <m>x</m>'s and <m>y</m>'s is subtraction. This means when you
 simplify the signs you will have the opposite of the numbers in the point. We
-need to be very careful with signs as we use the point-slope formula.\pp
+need to be very careful with signs as we use the point-slope formula.
 </p>
-  
+
 <p>
 In order to find the equation of a line we will always need to know the slope.
 If we don't know the slope to begin with we will have to do some work to find
 it first before we can get an equation.
 </p>
-  
-<example xml:id="Lin65"><statement>
+<example xml:id="Lin65">
+<statement>
 <p>
-<nbsp />\pp
+<nbsp />
 Find the equation of the line through the points <m>(- 2, 5) \tmop{and} (4, -
   3)</m>.
 </p>
-  
-<md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{First} \tmop{we} \tmop{must}
+<md>
+  <mrow>  m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{First} \tmop{we} \tmop{must}
     \tmop{find} \tmop{the} \tmop{slope}</mrow>
- <mrow>m = \frac{- 3 - 5}{4 - (- 2)} = \frac{- 8}{6} = - \frac{4}{3} \amp   \amp 
+  <mrow>  m = \frac{- 3 - 5}{4 - (- 2)} = \frac{- 8}{6} = - \frac{4}{3} \amp   \amp 
     \tmop{Plug} \tmop{values} \tmop{in} \tmop{slope} \tmop{formula} \tmop{and}
     \tmop{evaluate}</mrow>
- <mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Use} \tmop{point} - \tmop{slope}
+  <mrow>  y - y_1 = m (x - x_1) \amp   \amp  \tmop{Use} \tmop{point} - \tmop{slope}
     \tmop{formula},</mrow>
- <mrow>\amp  \amp  \tmop{~~~plugging~in~slope~and~either~point}</mrow>
- <mrow>y - 5 = - \frac{4}{3} (x - (- 2)) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
- <mrow>y - 5 = - \frac{4}{3} (x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp  \amp  \tmop{~~~plugging~in~slope~and~either~point}</mrow>
+  <mrow>  y - 5 = - \frac{4}{3} (x - (- 2)) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+  <mrow>  y - 5 = - \frac{4}{3} (x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example xml:id="Lin66"><statement>
+
+<example xml:id="Lin66">
+<statement>
 <p>
-<nbsp />\pp
+<nbsp />
 Find the equation of the line through the points <m>(- 3, 4) \tmop{and} (- 1,
   - 2)</m> in slope-intercept form.
 </p>
-  
-<md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{First} \tmop{we} \tmop{must}
+<md>
+  <mrow>  m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{First} \tmop{we} \tmop{must}
     \tmop{find} \tmop{the} \tmop{slope}</mrow>
- <mrow>m = \frac{- 2 - 4}{- 1 - (- 3)} = \frac{- 6}{2} = - 3 \amp   \amp  \tmop{Plug}
+  <mrow>  m = \frac{- 2 - 4}{- 1 - (- 3)} = \frac{- 6}{2} = - 3 \amp   \amp  \tmop{Plug}
     \tmop{values} \tmop{in} \tmop{slope} \tmop{formula} \tmop{and}
     \tmop{evaluate}</mrow>
- <mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Use} \tmop{point} - \tmop{slope} \tmop{formula},</mrow>
- <mrow>\amp  \amp   \tmop{~~~plugging~in~slope~and~either~point}</mrow>
- <mrow>y - 4 = - 3 (x - (- 3)) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
- <mrow>y - 4 = - 3 (x + 3) \amp   \amp  \tmop{Distribute~} \tmop{slope}</mrow>
- <mrow>y - 4 = - 3 x - 9 \amp   \amp  \tmop{Solve} \tmop{for} y</mrow>
- <mrow>\tmmathbf{\underline{+ 4 ~~~~~~~~~+ 4}} \amp   \amp  \tmop{Add} 4 \tmop{to} \tmop{both} \tmop{sides}</mrow>
- <mrow>y = - 3 x - 5 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y - y_1 = m (x - x_1) \amp   \amp  \tmop{Use} \tmop{point} - \tmop{slope} \tmop{formula},</mrow>
+  <mrow>  \amp  \amp   \tmop{~~~plugging~in~slope~and~either~point}</mrow>
+  <mrow>  y - 4 = - 3 (x - (- 3)) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+  <mrow>  y - 4 = - 3 (x + 3) \amp   \amp  \tmop{Distribute~} \tmop{slope}</mrow>
+  <mrow>  y - 4 = - 3 x - 9 \amp   \amp  \tmop{Solve} \tmop{for} y</mrow>
+  <mrow>  \tmmathbf{\underline{+ 4 ~~~~~~~~~+ 4}} \amp   \amp  \tmop{Add} 4 \tmop{to} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  y = - 3 x - 5 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example xml:id="Lin67"><statement>
+
+<example xml:id="Lin67">
+<statement>
 <p>
-<nbsp />\pp
+<nbsp />
 Find the equation of the line through the points <m>(6, - 2)</m> and <m>(- 4, 1)</m>
 in slope-intercept form.
 </p>
-  
-<md><mrow>m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{First} \tmop{we} \tmop{must}
+<md>
+  <mrow>  m = \frac{y_2 - y_1}{x_2 - x_1} \amp   \amp  \tmop{First} \tmop{we} \tmop{must}
     \tmop{find} \tmop{the} \tmop{slope}</mrow>
- <mrow>m = \frac{1 - (- 2)}{- 4 - 6} = \frac{3}{- 10} = - \frac{3}{10} \amp   \amp 
+  <mrow>  m = \frac{1 - (- 2)}{- 4 - 6} = \frac{3}{- 10} = - \frac{3}{10} \amp   \amp 
     \tmop{Plug} \tmop{values} \tmop{into} \tmop{slope} \tmop{formula}
     \tmop{and} \tmop{evaluate}</mrow>
- <mrow>y - y_1 = m (x - x_1) \amp   \amp  \tmop{Use} \tmop{point} - \tmop{slope}
+  <mrow>  y - y_1 = m (x - x_1) \amp   \amp  \tmop{Use} \tmop{point} - \tmop{slope}
     \tmop{formula},</mrow>
- <mrow>\amp  \amp   \tmop{~~~plugging~in~slope~and~either~point}</mrow>
- <mrow>y - (- 2) = - \frac{3}{10} (x - 6) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
- <mrow>y + 2 = - \frac{3}{10} (x - 6) \amp   \amp  \tmop{Distribute} \tmop{slope~}</mrow>
- <mrow>y + 2 = - \frac{3}{10} x + \frac{9}{5} \amp   \amp  \tmop{Solve} \tmop{for} y,
+  <mrow>  \amp  \amp   \tmop{~~~plugging~in~slope~and~either~point}</mrow>
+  <mrow>  y - (- 2) = - \frac{3}{10} (x - 6) \amp   \amp  \tmop{Simplify} \tmop{signs}</mrow>
+  <mrow>  y + 2 = - \frac{3}{10} (x - 6) \amp   \amp  \tmop{Distribute} \tmop{slope~}</mrow>
+  <mrow>  y + 2 = - \frac{3}{10} x + \frac{9}{5} \amp   \amp  \tmop{Solve} \tmop{for} y,
     \tmop{by~subtracting} 2 \tmop{from} \tmop{both} \tmop{sides}</mrow>
- <mrow>\tmmathbf{\underline{- 2 ~~~~~~~~~- \frac{10}{5}}} \amp   \amp  \tmop{Use} \frac{10}{5} \tmop{on}
+  <mrow>  \tmmathbf{\underline{- 2 ~~~~~~~~~- \frac{10}{5}}} \amp   \amp  \tmop{Use} \frac{10}{5} \tmop{on}
     \tmop{right} \tmop{so} \tmop{we} \tmop{have} \tmop{a} \tmop{common}
     \tmop{denominator}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>y = - \frac{3}{10} x - \frac{1}{5} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  y = - \frac{3}{10} x - \frac{1}{5} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} The city of K<m>\ddot{\text{o} }</m>nigsberg (now Kaliningrad, Russia)
 had a river that flowed through the city breaking it into several parts. There
@@ -447,4 +415,6 @@ considered the question of whether it was possible to cross each bridge
 exactly once and only once. It turned out that this problem was impossible,
 but the work laid the foundation of what would become graph theory.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

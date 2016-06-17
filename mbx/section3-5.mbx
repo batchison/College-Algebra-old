@@ -1,46 +1,46 @@
-
 <section>
 <title>Square Roots and the Imaginary Number <em>i</em></title>
+
+
 <subsection>
 <title>Square Roots</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Simplify expressions with square roots.}}\pp
+Simplify expressions with square roots.
 </p>
-  
+</objectives>
 <p>
 Recall that we define a radical (or <m>n^{\text{th} }</m> root) as follows.
 </p>
-  
 <me>
-\sqrt[n]{a}=a^{1/n},
+  \sqrt[n]{a}=a^{1/n},
 </me>
- 
 <p>
-where <m>a</m> is a nonnegative real number and <m>n</m> a positive integer.\pp
+where <m>a</m> is a nonnegative real number and <m>n</m> a positive integer.
 </p>
-  
+
 <p>
-We refer to <m>n</m> as the <i>index</i> of the radical and <m>a</m> as the <i>radicand</i>. Square roots (when <m>n=2</m>) are the most common type of radical used in mathematics. A square root "un-squares" a number. In other words, if <m>a^2=b,</m> then<br /> <m>\sqrt[2]{b}=a</m>. This relationship between a square and a square root is similar to the relationship between multiplication and division, as well as the relationship between addition and subtraction. In each case, the two operations are said to be <i>inverse</i> operations of each other. The idea behind inverses and the notion of an inverse function is one that will be discussed in detail in a later chapter.\pp
-Note that although we have written the index of 2 for the square root of <m>b</m> in the previous paragraph, in general, the index of a square root is usually omitted (<m>\sqrt[2]{b}=\sqrt{b}</m>). Using numbers, since <m>5^2 = 25</m> we say the square root of 25 is 5, and write <m>\sqrt{25}=5</m>.\pp
-While a great deal more could be said about radicals and how they fit in with the properties of exponents, for now we will focus our attention on properly working with expressions that contain a square root.\pp
+We refer to <m>n</m> as the <em>index</em> of the radical and <m>a</m> as the <em>radicand</em>. Square roots (when <m>n=2</m>) are the most common type of radical used in mathematics. A square root <q>un-squares</q> a number. In other words, if <m>a^2=b,</m> then<br /> <m>\sqrt[2]{b}=a</m>. This relationship between a square and a square root is similar to the relationship between multiplication and division, as well as the relationship between addition and subtraction. In each case, the two operations are said to be <em>inverse</em> operations of each other. The idea behind inverses and the notion of an inverse function is one that will be discussed in detail in a later chapter.
+Note that although we have written the index of 2 for the square root of <m>b</m> in the previous paragraph, in general, the index of a square root is usually omitted (<m>\sqrt[2]{b}=\sqrt{b}</m>). Using numbers, since <m>5^2 = 25</m> we say the square root of 25 is 5, and write <m>\sqrt{25}=5</m>.
+While a great deal more could be said about radicals and how they fit in with the properties of exponents, for now we will focus our attention on properly working with expressions that contain a square root.
 </p>
-  
+
 <p>
 {\tmstrong{World View Note:}} The radical sign, when first used was an R with
 a line through the tail, similar to our prescription symbol today. The R came
-from the Latin, "radix", which can be translated as "source" or
-"foundation". It wasn't until the 16<m>^{\text{th} }</m> century that our current symbol was first
+from the Latin, <q>radix</q>, which can be translated as <q>source</q> or
+<q>foundation</q>. It wasn't until the 16<m>^{\text{th} }</m> century that our current symbol was first
 used in Germany. Even then, it was just a check mark with no bar over the
-numbers!\pp
+numbers!
 </p>
-  
+
 <p>
 The following example gives several square roots.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <me>
- \begin{array}{|c|c|}
+  \begin{array}{|c|c|}
        \hline
        \sqrt{0} = 0 \amp  \sqrt{121} = 11\\
        \hline
@@ -48,19 +48,18 @@ The following example gives several square roots.
        \hline
        \sqrt{4} = 2 \amp  \sqrt{- 81} = \tmop{Undefined}\\
        \hline
-\end{array}  
+\end{array}
 </me>
- </statement>
+</statement>
 </example>
-  
 <p>
 The final example of <m>\sqrt{- 81}</m> is currently considered to be undefined, since the square root of a negative number does not equal a real number. This is because if we square a positive or a negative number, the answer
 will be positive, not to mention that <m>0^2=0</m>. Thus we can only take square roots of nonnegative numbers (positive numbers or zero). In the second part of this section, we will define a method we can use to work with and evaluate
-negative square roots. For now we will simply say they are undefined.\pp
+negative square roots. For now we will simply say they are undefined.
 </p>
-  
+
 <p>
-Not all numbers have a "nice" (or <i>rational</i>) square root. For example, if we found
+Not all numbers have a <q>nice</q> (or <em>rational</em>) square root. For example, if we found
 <m>\sqrt{8}</m> on our calculator, the answer would be
 2.828427124746190097...
 , and even this number is a rounded
@@ -69,209 +68,188 @@ use the calculator to find decimal approximations of square roots. Instead we
 will express roots in simplest radical form. We will do this using a property
 known as the product rule of radicals (in this case, square roots).
 </p>
-  
 <me>
- \tmmathbf{\tmop{Product} \tmop{Rule} \tmop{of} \tmop{Square} \tmop{Roots} :
-   \sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}} 
+  \tmmathbf{\tmop{Product} \tmop{Rule} \tmop{of} \tmop{Square} \tmop{Roots} :
+   \sqrt{a \cdot b} = \sqrt{a} \cdot \sqrt{b}}
 </me>
- 
 <p>
 More generally,
 </p>
-  
 <me>
- \tmmathbf{\tmop{Product} \tmop{Rule} \tmop{of} \tmop{Radicals} :
-   \sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}} 
+  \tmmathbf{\tmop{Product} \tmop{Rule} \tmop{of} \tmop{Radicals} :
+   \sqrt[n]{a \cdot b} = \sqrt[n]{a} \cdot \sqrt[n]{b}}
 </me>
- 
 <p>
 We can use the product rule of square roots to simplify an expression such as <m>\sqrt{180}=\sqrt{36 \cdot
 5}</m> by splitting it into two roots, <m>\sqrt{36} \cdot \sqrt{5}</m>, and simplifying
 the first root, <m>6 \sqrt{5}</m>. The trick in this process is being able to
-recognize that an expression like <m>\sqrt{180}</m> may be rewritten as <m>\sqrt{36 \cdot 5}</m>, since <m>180=36\cdot 5</m>. In the case of <m>\sqrt{8}</m>, we may write <m>\sqrt{8}=\sqrt{4}\cdot\sqrt{2}=2\sqrt{2}</m>.\pp
+recognize that an expression like <m>\sqrt{180}</m> may be rewritten as <m>\sqrt{36 \cdot 5}</m>, since <m>180=36\cdot 5</m>. In the case of <m>\sqrt{8}</m>, we may write <m>\sqrt{8}=\sqrt{4}\cdot\sqrt{2}=2\sqrt{2}</m>.
 There are several ways of applying the product rule of square roots. The most common and, with a bit of practice,
 fastest method is to find perfect squares that divide nicely into the
 radicand (the number under the radical). This is demonstrated in the next example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Completely simplify the given radical.
+Completely simplify the given radical.
 </p>
-  
-<md><mrow>\sqrt{75} \amp   \amp  75 \tmop{is} \tmop{divisible} \tmop{by} 25, 
+<md>
+  <mrow>  \sqrt{75} \amp   \amp  75 \tmop{is} \tmop{divisible} \tmop{by} 25, 
     \tmop{a~perfect} \tmop{square}</mrow>
- <mrow>\sqrt{25 \cdot 3} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
- <mrow>\sqrt{25} \cdot \sqrt{3} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
+  <mrow>  \sqrt{25 \cdot 3} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
+  <mrow>  \sqrt{25} \cdot \sqrt{3} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
     \tmop{the} \tmop{square} \tmop{root} \tmop{of} 25</mrow>
- <mrow>5 \sqrt{3} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  5 \sqrt{3} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 If there is a coefficient in front of the radical to begin with, the problem
 merely becomes a big multiplication problem, as seen in the next example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Completely simplify the given radical.
+Completely simplify the given radical.
 </p>
-  
-<md><mrow>5 \sqrt{63} \amp   \amp  63 \tmop{is} \tmop{divisible} \tmop{by} 9, 
+<md>
+  <mrow>  5 \sqrt{63} \amp   \amp  63 \tmop{is} \tmop{divisible} \tmop{by} 9, 
     \tmop{a~perfect} \tmop{square}</mrow>
- <mrow>5 \sqrt{9 \cdot 7} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
- <mrow>5 \sqrt{9} \cdot \sqrt{7} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
+  <mrow>  5 \sqrt{9 \cdot 7} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
+  <mrow>  5 \sqrt{9} \cdot \sqrt{7} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
     \tmop{the} \tmop{square} \tmop{root} \tmop{of} 9</mrow>
- <mrow>5 \cdot 3 \sqrt{7} \amp   \amp  \tmop{Multiply} \tmop{coefficients}</mrow>
- <mrow>15 \sqrt{7} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  5 \cdot 3 \sqrt{7} \amp   \amp  \tmop{Multiply} \tmop{coefficients}</mrow>
+  <mrow>  15 \sqrt{7} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 As we simplify radicals using this method it is important to be sure our final
 answer can not be simplified further, as seen in the next example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Completely simplify the given radical.
+Completely simplify the given radical.
 </p>
-  
-<md><mrow>\sqrt{72} \amp   \amp  72 \tmop{is} \tmop{divisible} \tmop{by} 9, \tmop{a~perfect}
+<md>
+  <mrow>  \sqrt{72} \amp   \amp  72 \tmop{is} \tmop{divisible} \tmop{by} 9, \tmop{a~perfect}
     \tmop{square}</mrow>
- <mrow>\sqrt{9 \cdot 8} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
- <mrow>\sqrt{9} \cdot \sqrt{8} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
+  <mrow>  \sqrt{9 \cdot 8} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
+  <mrow>  \sqrt{9} \cdot \sqrt{8} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
     \tmop{the} \tmop{square} \tmop{root} \tmop{of} 9</mrow>
- <mrow>3 \sqrt{8} \amp   \amp  \tmop{But} 8 \tmop{is} \tmop{also} \tmop{divisible}
+  <mrow>  3 \sqrt{8} \amp   \amp  \tmop{But} 8 \tmop{is} \tmop{also} \tmop{divisible}
     \tmop{by} \tmop{a~perfect} \tmop{square}, 4</mrow>
- <mrow>3 \sqrt{4 \cdot 2} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
- <mrow>3 \sqrt{4} \cdot \sqrt{2} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
+  <mrow>  3 \sqrt{4 \cdot 2} \amp   \amp  \tmop{Split} \tmop{into} \tmop{factors}</mrow>
+  <mrow>  3 \sqrt{4} \cdot \sqrt{2} \amp   \amp  \tmop{Product} \tmop{rule}, \tmop{take}
     \tmop{the} \tmop{square} \tmop{root} \tmop{of} 4</mrow>
- <mrow>3 \cdot 2 \sqrt{2} \amp   \amp  \tmop{Multiply}</mrow>
- <mrow>6 \sqrt{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  3 \cdot 2 \sqrt{2} \amp   \amp  \tmop{Multiply}</mrow>
+  <mrow>  6 \sqrt{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 The previous example could also have been done in fewer steps if we had noticed
 that <m>72 = 36 \cdot 2</m>, but often it can take longer to discover the larger
-perfect square than to simplify in several steps.\pp
+perfect square than to simplify in several steps.
 </p>
-  
+
 <p>
 Variables often are part of the radicand as well. When taking the square
 roots of one (or more) variable(s), we can divide the associated exponent of the variable by two, and write the new exponent outside of the root. For example, <m>\sqrt{x^{10}}= x^5</m>. This follows from a familiar property of exponents, shown below.
 </p>
-  
 <me>
-\left(x^m\right)^n=x^{mn}
+  \left(x^m\right)^n=x^{mn}
 </me>
- 
 <p>
 Applying this to a square root, we have
 </p>
-  
 <me>
-\sqrt{x^m}=\left(x^m\right)^{1/2}=x^{m/2}.
+  \sqrt{x^m}=\left(x^m\right)^{1/2}=x^{m/2}.
 </me>
- 
 <p>
 So, <m>\sqrt{x^{10}}=x^{10/2} = x^5</m>. This makes sense, since
 </p>
-  
-<md><mrow>\left(x^5\right)^2 \amp  = \amp  x^5\cdot x^5</mrow>
- <mrow>\amp  = \amp  \underbrace{x\cdot x\cdot\ldots\cdot x}_{\text{10 times} }</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\amp  = \amp  x^{10}</mrow>
- <mrow>\amp  = \amp  x^{5\cdot 2}.</mrow>
- 
+<md>
+  <mrow>  \left(x^5\right)^2 \amp  = \amp  x^5\cdot x^5</mrow>
+  <mrow>  \amp  = \amp  \underbrace{x\cdot x\cdot\ldots\cdot x}_{\text{10 times} }</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \amp  = \amp  x^{10}</mrow>
+  <mrow>  \amp  = \amp  x^{5\cdot 2}.</mrow>
 </md>
- 
 <p>
 In summary, when squaring, we multiply the exponent by two. So, when taking a square root, we divide the exponent by two.
 The following example demonstrates this property.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Completely simplify the given radical.
+Completely simplify the given radical.
 </p>
-  
-<md><mrow>- 5 \sqrt{18 x^4 y^6 z^{10}} \amp   \amp  18 \tmop{is} \tmop{divisible} \tmop{by}
+<md>
+  <mrow>  - 5 \sqrt{18 x^4 y^6 z^{10}} \amp   \amp  18 \tmop{is} \tmop{divisible} \tmop{by}
     9, \tmop{a~perfect} \tmop{square}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>- 5 \sqrt{9 \cdot 2 x^4 y^6 z^{10}} \amp   \amp  \tmop{Split} \tmop{into}
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  - 5 \sqrt{9 \cdot 2 x^4 y^6 z^{10}} \amp   \amp  \tmop{Split} \tmop{into}
     \tmop{factors}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>- 5 \sqrt{9} \cdot \sqrt{2} \cdot \sqrt{x^4} \cdot \sqrt{y^6} \cdot
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  - 5 \sqrt{9} \cdot \sqrt{2} \cdot \sqrt{x^4} \cdot \sqrt{y^6} \cdot
     \sqrt{z^{10}} \amp   \amp  \tmop{Product} \tmop{rule~applied~to~all~parts}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>- 5 \cdot 3 x^2 y^3 z^5 \sqrt{2} \amp  \amp  \tmop{Simplify} \tmop{roots}, \tmop{divide} \tmop{exponents} \tmop{by} 2</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>- 15 x^2 y^3 z^5 \sqrt{2} \amp   \amp  \tmop{Multiply~coefficients,~Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  - 5 \cdot 3 x^2 y^3 z^5 \sqrt{2} \amp  \amp  \tmop{Simplify} \tmop{roots}, \tmop{divide} \tmop{exponents} \tmop{by} 2</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  - 15 x^2 y^3 z^5 \sqrt{2} \amp   \amp  \tmop{Multiply~coefficients,~Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 We can't always nicely divide the exponent on a variable by two, since sometimes we
 will have a positive remainder. If there is a positive remainder, this means the remainder is left
 inside the radical, and the whole number portion (or quotient) represents the exponent that should appear outside of the
 radical. The next example demonstrates this.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Completely simplify the given radical.
+Completely simplify the given radical.
 </p>
-  
-<md><mrow>\sqrt{20 x^5 y^9 z^6} \amp   \amp  20 \tmop{is} \tmop{divisible} \tmop{by} 4, \tmop{a~perfect} \tmop{square}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\sqrt{4 \cdot 5 x^5 y^9 z^6} \amp   \amp  \tmop{Split} \tmop{into}
+<md>
+  <mrow>  \sqrt{20 x^5 y^9 z^6} \amp   \amp  20 \tmop{is} \tmop{divisible} \tmop{by} 4, \tmop{a~perfect} \tmop{square}</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \sqrt{4 \cdot 5 x^5 y^9 z^6} \amp   \amp  \tmop{Split} \tmop{into}
     \tmop{factors}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\sqrt{4} \cdot \sqrt{5} \cdot \sqrt{x^5} \cdot \sqrt{y^9} \cdot \sqrt{z^6}
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \sqrt{4} \cdot \sqrt{5} \cdot \sqrt{x^5} \cdot \sqrt{y^9} \cdot \sqrt{z^6}
     \amp   \amp  \tmop{Simplify}, \tmop{divide} \tmop{exponents} \tmop{by} 2</mrow>
- <mrow>\amp  \amp  ~~~\tmop{Remainder} \tmop{is} \tmop{left} \tmop{inside}</mrow>
- <mrow>2 x^2 y^4 z^3 \sqrt{5 x y} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp  \amp  ~~~\tmop{Remainder} \tmop{is} \tmop{left} \tmop{inside}</mrow>
+  <mrow>  2 x^2 y^4 z^3 \sqrt{5 x y} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 If we focus on the variable <m>y</m> in the previous example, when we divide the exponent 9 by 2, we get a quotient of 4 and a remainder of 1 (<m>9=2\cdot 4+1</m>). Consequently, <m>\sqrt{y^9}=y^4\sqrt{y}</m>. This same idea also applies to <m>x</m> above, since the exponent 5 is odd and therefore will have a remainder of 1. Since the exponent for <m>z</m> is even, it is divisible by 2, and so the radical in our final answer does not contain <m>z</m>.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Introduction to Complex Numbers</title>
+<objectives>
 <p>
-\pp
+Add, subtract, multiply, rationalize, and simplify
+expressions using complex numbers.
 </p>
-  
-<p>
-{\tmstrong{Objective: Add, subtract, multiply, rationalize, and simplify
-expressions using complex numbers.}}\pp
-</p>
-  
+</objectives>
 <p>
 {\tmstrong{World View Note:}} Initially, the primary
 purpose for mathematics was counting. Consequently, concepts related to negatives, zero,
-fractions or irrational numbers did not initially accompany the establishment of many early number systems. The ancient Egyptians, however, quickly developed the need for a "part", and so they developed a new type of number,
+fractions or irrational numbers did not initially accompany the establishment of many early number systems. The ancient Egyptians, however, quickly developed the need for a <q>part</q>, and so they developed a new type of number,
 the ratio or fraction. The Ancient Greeks did not believe in irrational
 numbers (people were killed for believing otherwise). The Mayans of Central
 America later realized the number zero when they found use for it as a
-placeholder. Ancient Chinese mathematicians also established negative numbers.\pp
+placeholder. Ancient Chinese mathematicians also established negative numbers.
 </p>
-  
+
 <p>
 In mathematics, when the current number system does not provide the tools to
 solve the problems the culture is working with, we tend to develop new ways
@@ -281,22 +259,18 @@ than zero (negatives), between integers (fractions), and between fractions
 numbers. To work with the square root of a negative number, mathematicians have
 defined what we now know as imaginary and complex numbers.
 </p>
-  
-<md><mrow>\tmmathbf{\tmop{Imaginary} \tmop{Number} i:~ i^2
-  = - 1~ (\tmop{thus} i = \sqrt{- 1})} \amp   \amp </mrow>
- 
+<md>
+  <mrow>  \tmmathbf{\tmop{Imaginary} \tmop{Number} i:~ i^2
+  = - 1~ (\tmop{thus} i = \sqrt{- 1})} \amp   \amp</mrow>
 </md>
- 
 <p>
 Examples of imaginary numbers include <m>3 i, - 6 i, \frac{3}{5} i \tmop{and} 3
-i \sqrt{5}</m>. A <i>complex number</i> is one that contains both a real
+i \sqrt{5}</m>. A <em>complex number</em> is one that contains both a real
 and imaginary part, such as <m>2 + 5 i</m>.
 </p>
-  
-<md><mrow>\tmmathbf{\tmop{Complex} \tmop{Number:}~ a+bi, \text{~where~}  a \text{~and~}  b \text{~are~real~numbers,~}   i = \sqrt{- 1}} \amp   \amp </mrow>
- 
+<md>
+  <mrow>  \tmmathbf{\tmop{Complex} \tmop{Number:} a+bi, \text{~where~}  a \text{~and~}  b \text{~are~real~numbers,~}   i = \sqrt{- 1}} \amp   \amp</mrow>
 </md>
- 
 <p>
 With this definition, the square root of a negative number will no longer
 be considered undefined. We now will be able to perform basic operations with the square root of
@@ -305,408 +279,382 @@ this by manipulating our definition of <m>i^2 = - 1</m>. If we multiply both sid
 of the definition by <m>i</m>, the equation becomes <m>i^3 = - i</m>. Then if we
 multiply both sides of the equation again by <m>i</m>, the equation becomes <m>i^4 =
 - i^2 = - (- 1) = 1</m>, or simply <m>i^4 = 1</m>. Multiplying again by <m>i</m> gives <m>i^5
-= i</m>. One more time gives <m>i^6 = i^2 = - 1</m>.\pp
+= i</m>. One more time gives <m>i^6 = i^2 = - 1</m>.
 </p>
-  
+
 <p>
 This pattern continues, and we can see a cycle forming. Specifically, as the exponents on <m>i</m> increase, our simplified value for <m>i^n</m> will cycle through the simplified values for <m>i,</m> <m>i^2=- 1,</m> <m>i^3= - i,</m> <m>i^4=1</m>. As there are 4 different possible answers in this
 cycle, if we divide the exponent <m>n</m> by 4 and consider the remainder, we can
 easily simplify any power of <m>i</m> by knowing the following four values:
 </p>
-  {\tmstrong{Cyclic Property of Powers of <m>i</m>}}  
+{\tmstrong{Cyclic Property of Powers of <m>i</m>}}
 <me>
- \begin{array}{rcc}
+  \begin{array}{rcc}
      i^0 \amp =\amp  1\\
      i^1 \amp =\amp  i\\
      i^2 \amp =\amp  - 1\\
      i^3 \amp =\amp  - i\\
 		 i^4=i^0\amp =\amp 1
-\end{array}  
+\end{array}
 </me>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>i^{35} \amp   \amp  \tmop{Divide} \tmop{exponent} \tmop{by} 4</mrow>
- <mrow>8 R 3 \amp   \amp  \tmop{Use} \tmop{remainder} \tmop{as} \tmop{exponent} \tmop{for}
+<md>
+  <mrow>  i^{35} \amp   \amp  \tmop{Divide} \tmop{exponent} \tmop{by} 4</mrow>
+  <mrow>  8 R 3 \amp   \amp  \tmop{Use} \tmop{remainder} \tmop{as} \tmop{exponent} \tmop{for}
     i</mrow>
- <mrow>i^3 \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>- i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  i^3 \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  - i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>i^{124} \amp   \amp  \tmop{Divide} \tmop{exponent} \tmop{by} 4</mrow>
- <mrow>31 R 0 \amp   \amp  \tmop{Use} \tmop{remainder} \tmop{as} \tmop{exponent}
+<md>
+  <mrow>  i^{124} \amp   \amp  \tmop{Divide} \tmop{exponent} \tmop{by} 4</mrow>
+  <mrow>  31 R 0 \amp   \amp  \tmop{Use} \tmop{remainder} \tmop{as} \tmop{exponent}
     \tmop{for} i</mrow>
- <mrow>i^0 \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>1 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  i^0 \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  1 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 When performing the basic mathematical operations (addition, subtraction, multiplication, division) we may treat <m>i</m>
 just like any other variable. This means that when adding and subtracting
 complex numbers we may simply combine like terms.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(2 + 5 i) + (4 - 7 i) \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms,~} 2 + 4
+<md>
+  <mrow>  (2 + 5 i) + (4 - 7 i) \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms,~} 2 + 4
     \tmop{~and~} 5 i - 7 i</mrow>
- <mrow>6 - 2 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  6 - 2 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 It is important to recognize what operation we are applying. A common mistake in the previous example is to view the
 parentheses and think that one must
-distribute. The previous example, however, requires addition. So we simply add (or combine) the like terms.\pp
+distribute. The previous example, however, requires addition. So we simply add (or combine) the like terms.
 </p>
-  
+
 <p>
 For problems involving subtraction the idea is the same, but we must first remember to
 distribute the negative to each term in the parentheses.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(4 - 8 i) - (3 - 5 i) \amp   \amp  \tmop{Distribute} \tmop{the} \tmop{negative}</mrow>
- <mrow>4 - 8 i - 3 + 5 i \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms,~} 4 - 3
+<md>
+  <mrow>  (4 - 8 i) - (3 - 5 i) \amp   \amp  \tmop{Distribute} \tmop{the} \tmop{negative}</mrow>
+  <mrow>  4 - 8 i - 3 + 5 i \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms,~} 4 - 3
     \tmop{~and~} - 8 i + 5 i</mrow>
- <mrow>1 - 3 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  1 - 3 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Addition and subtraction may also appear in a single problem.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(5 i) - (3 + 8 i) + (- 4 + 7 i) \amp   \amp  \tmop{Distribute} \tmop{the}
+<md>
+  <mrow>  (5 i) - (3 + 8 i) + (- 4 + 7 i) \amp   \amp  \tmop{Distribute} \tmop{the}
     \tmop{negative}</mrow>
- <mrow>5 i - 3 - 8 i - 4 + 7 i \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms,~} 5 i -
+  <mrow>  5 i - 3 - 8 i - 4 + 7 i \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms,~} 5 i -
     8 i + 7 i \tmop{~and~} - 3 - 4</mrow>
- <mrow>- 7 + 4 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  - 7 + 4 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Multiplying two (or more) complex numbers is similar to the multiplication of two binomials with one key exception. In each problem, we will want to simplify our final answer so that it does not contain any power of <m>i</m> greater than or equal to 2. This will always enable us to write our answer in the standard form of <m>a+bi</m>. We now show this in general below, remembering that <m>i^2=-1</m>.
 </p>
-  
-<md><mrow>(c+di)(g+hi) \amp   \amp  \tmop{Expand}</mrow>
- <mrow>cg+chi+dgi+dhi^2 \amp   \amp  \tmop{Simplify,~} i^2=-1</mrow>
- <mrow>cg+chi+dgi-dh~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
- <mrow>(cg-dh)+(ch+dg)i \amp   \amp  \tmop{Our} \tmop{solution,~in~standard~form}</mrow>
- 
+<md>
+  <mrow>  (c+di)(g+hi) \amp   \amp  \tmop{Expand}</mrow>
+  <mrow>  cg+chi+dgi+dhi^2 \amp   \amp  \tmop{Simplify,~} i^2=-1</mrow>
+  <mrow>  cg+chi+dgi-dh~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
+  <mrow>  (cg-dh)+(ch+dg)i \amp   \amp  \tmop{Our} \tmop{solution,~in~standard~form}</mrow>
 </md>
-  
 <p>
-Here, <m>cg-dh</m> represents the real part <m>a</m> and <m>ch+dg</m> represents the imaginary part <m>b</m> of our resulting complex number <m>a+bi</m>.\pp
+Here, <m>cg-dh</m> represents the real part <m>a</m> and <m>ch+dg</m> represents the imaginary part <m>b</m> of our resulting complex number <m>a+bi</m>.
 Next we will see several examples to reinforce the concept. We will begin with the product of two imaginary numbers.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(3 i) (7 i) \amp   \amp  \tmop{Multiply,~} 3\cdot 7 \tmop{~and~} i\cdot i</mrow>
- <mrow>21 i^2 \amp   \amp  \tmop{Simplify,~} i^2 = - 1</mrow>
- <mrow>21 (- 1) \amp   \amp  \tmop{Multiply}</mrow>
- <mrow>- 21 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  (3 i) (7 i) \amp   \amp  \tmop{Multiply,~} 3\cdot 7 \tmop{~and~} i\cdot i</mrow>
+  <mrow>  21 i^2 \amp   \amp  \tmop{Simplify,~} i^2 = - 1</mrow>
+  <mrow>  21 (- 1) \amp   \amp  \tmop{Multiply}</mrow>
+  <mrow>  - 21 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>5 i (3 i - 7) \amp   \amp  \tmop{Distribute}</mrow>
- <mrow>15 i^2 - 35 i \amp   \amp  \tmop{Simplify,~} i^2 = - 1</mrow>
- <mrow>15 (- 1) - 35 i \amp   \amp  \tmop{Multiply}</mrow>
- <mrow>- 15 - 35 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  5 i (3 i - 7) \amp   \amp  \tmop{Distribute}</mrow>
+  <mrow>  15 i^2 - 35 i \amp   \amp  \tmop{Simplify,~} i^2 = - 1</mrow>
+  <mrow>  15 (- 1) - 35 i \amp   \amp  \tmop{Multiply}</mrow>
+  <mrow>  - 15 - 35 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(2 - 4 i) (3 + 5 i) \amp   \amp  \tmop{Expand}</mrow>
- <mrow>6 + 10 i - 12 i - 20 i^2~~~ \amp   \amp  \tmop{Simplify,~} i^2 = - 1</mrow>
- <mrow>6 + 10 i - 12 i - 20 (- 1) \amp   \amp  \tmop{Multiply}</mrow>
- <mrow>6 + 10 i - 12 i + 20~~~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms~} 6 + 20
+<md>
+  <mrow>  (2 - 4 i) (3 + 5 i) \amp   \amp  \tmop{Expand}</mrow>
+  <mrow>  6 + 10 i - 12 i - 20 i^2~~~ \amp   \amp  \tmop{Simplify,~} i^2 = - 1</mrow>
+  <mrow>  6 + 10 i - 12 i - 20 (- 1) \amp   \amp  \tmop{Multiply}</mrow>
+  <mrow>  6 + 10 i - 12 i + 20~~~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms~} 6 + 20
     \tmop{~and~} 10 i - 12 i</mrow>
- <mrow>26 - 2 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  26 - 2 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(3 i) (6 i) (2 - 3 i) \amp   \amp  \tmop{Multiply} \tmop{first} \tmop{two}
+<md>
+  <mrow>  (3 i) (6 i) (2 - 3 i) \amp   \amp  \tmop{Multiply} \tmop{first} \tmop{two}
     \tmop{monomials}</mrow>
- <mrow>18i^2(2-3i) \amp  \amp  \tmop{Simplify,~} i^2=-1</mrow>
- <mrow>18(-1)(2-3i) \amp  \amp  \tmop{Multiply}</mrow>
- <mrow>-18(2-3i) \amp  \amp  \tmop{Distribute}</mrow>
- <mrow>-36 + 54 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  18i^2(2-3i) \amp  \amp  \tmop{Simplify,~} i^2=-1</mrow>
+  <mrow>  18(-1)(2-3i) \amp  \amp  \tmop{Multiply}</mrow>
+  <mrow>  -18(2-3i) \amp  \amp  \tmop{Distribute}</mrow>
+  <mrow>  -36 + 54 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-Notice that in the previous example we chose to simplify <m>i^2</m> before distributing. This could also have been done <i>after</i> distributing <m>18i^2</m> through (<m>2-3i</m>). The resulting expression of <m>36i^2-54i^3</m> will then simplify to match our solution above.\pp
+Notice that in the previous example we chose to simplify <m>i^2</m> before distributing. This could also have been done <em>after</em> distributing <m>18i^2</m> through (<m>2-3i</m>). The resulting expression of <m>36i^2-54i^3</m> will then simplify to match our solution above.
 </p>
-  
+
 <p>
 Recall that when squaring a binomial such as <m>(a-b)^2</m>, we must be careful to
-expand <i>completely</i>, and not forget the inner and outer terms of the product.
+expand <em>completely</em>, and not forget the inner and outer terms of the product.
 </p>
-  <table id="3a67cc59010b6a17e17e72bd3a8efee9b0bb82e3" ><tr><td class='c'>
-<m>(a-b)^2</m> </td><td class='l'> = <m>(a-b)(a-b)</m></td></tr>
-<tr><td class='c'>
-</td><td class='l'>= <m>a^2-ab-ab+b^2</m></td></tr>
-<tr><td class='c'>
-</td><td class='l'>= <m>a^2-2ab+b^2</m></td></tr>
-</table>  
+<tabular>
+<row><cell><m>(a-b)^2</m></cell><cell>= <m>(a-b)(a-b)</m></cell></row>
+<row><cell></cell><cell>= <m>a^2-ab-ab+b^2</m></cell></row>
+<row><cell></cell><cell>= <m>a^2-2ab+b^2</m></cell></row>
+</tabular>
 <p>
 The next example demonstrates this using complex numbers.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>(4 - 5 i)^2 \amp   \amp  \text{Rewrite as a product of two binomials}</mrow>
- <mrow>(4-5i)(4-5i) \amp  \amp  \tmop{Expand}</mrow>
- <mrow>16-20i-20i+25i^2 \amp   \amp  \tmop{Simplify,~} i^2=-1</mrow>
- <mrow>16-20i-20i-25~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
- <mrow>- 9 - 40 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  (4 - 5 i)^2 \amp   \amp  \text{Rewrite as a product of two binomials}</mrow>
+  <mrow>  (4-5i)(4-5i) \amp  \amp  \tmop{Expand}</mrow>
+  <mrow>  16-20i-20i+25i^2 \amp   \amp  \tmop{Simplify,~} i^2=-1</mrow>
+  <mrow>  16-20i-20i-25~~ \amp   \amp  \tmop{Combine~like~terms}</mrow>
+  <mrow>  - 9 - 40 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-When simplifying rational expressions (fractions) that contain imaginary or complex numbers in a denominator, we will employ the same strategy as that which is used for eliminating square roots from a denominator. This is a logical progression, since we defined <m>i</m> so that <m>i^2=\sqrt{-1}</m>. We refer to this strategy as <i>rationalizing the denominator</i>, since the end result will be an expression in which the denominator is a rational number (it contains no radicals).\pp
+When simplifying rational expressions (fractions) that contain imaginary or complex numbers in a denominator, we will employ the same strategy as that which is used for eliminating square roots from a denominator. This is a logical progression, since we defined <m>i</m> so that <m>i^2=\sqrt{-1}</m>. We refer to this strategy as <em>rationalizing the denominator</em>, since the end result will be an expression in which the denominator is a rational number (it contains no radicals).
 As we did with complex multiplcation, we will first demonstrate the technique generally, followed by several examples.
 </p>
-  
-<md><mrow>\dfrac{c+di}{g+hi}~~~~~~~~~\amp   \amp  \tmop{Multiply~top~and~bottom~by~}g-hi</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\dfrac{c+di}{g+hi}\cdot\left(\dfrac{g-hi}{g-hi}\right) \amp   \amp  \tmop{Expand~numerator~and~denominator}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\dfrac{cg-chi+dgi-dhi^2}{g^2-ghi+ghi-h^2i^2} \amp   \amp  \tmop{Simplify,~} i^2=-1</mrow>
- 
+<md>
+  <mrow>  \dfrac{c+di}{g+hi}\amp   \amp  \tmop{Multiply~top~and~bottom~by~}g-hi</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \dfrac{c+di}{g+hi}\cdot\left(\dfrac{g-hi}{g-hi}\right) \amp   \amp  \tmop{Expand~numerator~and~denominator}</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \dfrac{cg-chi+dgi-dhi^2}{g^2-ghi+ghi-h^2i^2} \amp   \amp  \tmop{Simplify,~} i^2=-1</mrow>
 </md>
   
-<md><mrow>\dfrac{cg-chi+dgi+dh}{g^2-\cancel{ghi}+\cancel{ghi}+h^2} \amp  \amp  \tmop{Combine~like~terms~in~top~and~bottom}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\dfrac{(cg+dh)+(dg-ch)i}{g^2+h^2} \amp  \amp  \tmop{Rewrite~as~} a+bi</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\left(\dfrac{cg+dh}{g^2+h^2}\right)+\left(\dfrac{dg-ch}{g^2+h^2}\right)i \amp   \amp  \tmop{Our} \tmop{solution,~in~standard~form}</mrow>
- 
+<md>
+  <mrow>  \dfrac{cg-chi+dgi+dh}{g^2-\cancel{ghi}+\cancel{ghi}+h^2} \amp  \amp  \tmop{Combine~like~terms~in~top~and~bottom}</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \dfrac{(cg+dh)+(dg-ch)i}{g^2+h^2} \amp  \amp  \tmop{Rewrite~as~} a+bi</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \left(\dfrac{cg+dh}{g^2+h^2}\right)+\left(\dfrac{dg-ch}{g^2+h^2}\right)i \amp   \amp  \tmop{Our} \tmop{solution,~in~standard~form}</mrow>
 </md>
-  
 <p>
-Here, <m>\frac{cg+dh}{g^2+h^2}</m> represents the real part <m>a</m> and <m>\frac{dg-ch}{g^2+h^2}</m> represents the imaginary part <m>b</m> of our resulting complex number <m>a+bi</m>. Remember that <m>c,d,g</m> and <m>h</m> all represent real numbers, so our denominator <m>g^2+h^2</m> is also a real number.\pp
-As shown above, the expression that we will typically choose to rationalize with (in this case <m>g-hi</m>) is known as the <i>complex conjugate</i> to the original denominator (<m>g+hi</m>). When multiplying two complex numbers that are conjugates to one another, the resulting product in our denominator (<m>g^2+h^2</m>) should have no imaginary part.\pp
+Here, <m>\frac{cg+dh}{g^2+h^2}</m> represents the real part <m>a</m> and <m>\frac{dg-ch}{g^2+h^2}</m> represents the imaginary part <m>b</m> of our resulting complex number <m>a+bi</m>. Remember that <m>c,d,g</m> and <m>h</m> all represent real numbers, so our denominator <m>g^2+h^2</m> is also a real number.
+As shown above, the expression that we will typically choose to rationalize with (in this case <m>g-hi</m>) is known as the <em>complex conjugate</em> to the original denominator (<m>g+hi</m>). When multiplying two complex numbers that are conjugates to one another, the resulting product in our denominator (<m>g^2+h^2</m>) should have no imaginary part.
 For our first example, we will start with a denominator which only contains an imaginary part, <m>0+bi</m>. In this case, although the complex conjugate would equal <m>0-bi</m>, we only need to multiply the numerator and denominator by <m>i</m>, since multiplying by <m>-bi</m> would result in an eventual cancellation of <m>-b</m> from the entire expression.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>\frac{7 + 3 i}{- 5 i} \amp   \amp  \tmop{A~monomial} \tmop{in}
+<md>
+  <mrow>  \frac{7 + 3 i}{- 5 i} \amp   \amp  \tmop{A~monomial} \tmop{in}
     \tmop{denominator}, \tmop{multiply} \tmop{by~} i</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{7 + 3 i}{- 5 i} \left( \frac{i}{i} \right) \amp   \amp  \tmop{Distribute~} i
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{7 + 3 i}{- 5 i} \left( \frac{i}{i} \right) \amp   \amp  \tmop{Distribute~} i
     \tmop{~in} \tmop{numerator}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{7 i + 3 i^2}{- 5 i^2} \amp   \amp  \tmop{Simplify} i^2 = - 1</mrow>
- 
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{7 i + 3 i^2}{- 5 i^2} \amp   \amp  \tmop{Simplify} i^2 = - 1</mrow>
 </md>
   
-<md><mrow>\frac{7 i + 3 (- 1)}{- 5 (- 1)} \amp   \amp  \tmop{Multiply}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{7 i - 3}{5} \amp  \amp  \text{Simplify, split up fraction}</mrow>
- <mrow>\frac{7 i}{5} - \frac{3}{5} \amp  \amp  \text{Rewrite as~} a+bi</mrow>
- <mrow>-\frac{3}{5} + \frac{7}{5} i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  \frac{7 i + 3 (- 1)}{- 5 (- 1)} \amp   \amp  \tmop{Multiply}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{7 i - 3}{5} \amp  \amp  \text{Simplify, split up fraction}</mrow>
+  <mrow>  \frac{7 i}{5} - \frac{3}{5} \amp  \amp  \text{Rewrite as~} a+bi</mrow>
+  <mrow>  -\frac{3}{5} + \frac{7}{5} i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 As shown in the previous example, a solution for such problems can be written several different ways, for
 example <m>\frac{- 3 + 7 i}{5}</m> or <m>-\frac{3}{5} + \frac{7}{5} i</m>. Although both answers are generally accepted, we will keep our final answers consistent with the definition of a complex number, <m>a+bi=</m>(Real part) + (Imaginary part)<m>i</m>.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>\frac{2 - 6 i}{4 + 8 i} \amp   \amp  \tmop{Binomial} \tmop{in} \tmop{denominator},</mrow>
- <mrow>\amp  \amp  ~~~\tmop{multiply} \tmop{by} \tmop{conjugate}, 4 - 8 i</mrow>
- <mrow>\frac{2 - 6 i}{4 + 8 i} \left( \frac{4 - 8 i}{4 - 8 i} \right) \amp   \amp 
+<md>
+  <mrow>  \frac{2 - 6 i}{4 + 8 i} \amp   \amp  \tmop{Binomial} \tmop{in} \tmop{denominator},</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{multiply} \tmop{by} \tmop{conjugate}, 4 - 8 i</mrow>
+  <mrow>  \frac{2 - 6 i}{4 + 8 i} \left( \frac{4 - 8 i}{4 - 8 i} \right) \amp   \amp 
     \tmop{Expand} \tmop{the} \tmop{numerator},</mrow>
- <mrow>\amp \amp ~~~\tmop{denominator} \tmop{is~a}
+  <mrow>  \amp \amp ~~~\tmop{denominator} \tmop{is~a}
     \tmop{difference} \tmop{of} \tmop{two~squares}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{8 - 16 i - 24 i + 48 i^2}{16 - 64 i^2} \amp   \amp  \tmop{Simplify} i^2 = -
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{8 - 16 i - 24 i + 48 i^2}{16 - 64 i^2} \amp   \amp  \tmop{Simplify} i^2 = -
     1</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{8 - 16 i - 24 i + 48 (- 1)}{16 - 64 (- 1)} \amp   \amp  \tmop{Multiply}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{8 - 16 i - 24 i - 48}{16 + 64} \amp   \amp  \tmop{Combine} \tmop{like}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{8 - 16 i - 24 i + 48 (- 1)}{16 - 64 (- 1)} \amp   \amp  \tmop{Multiply}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{8 - 16 i - 24 i - 48}{16 + 64} \amp   \amp  \tmop{Combine} \tmop{like}
     \tmop{terms}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{- 40 - 40 i}{80} \amp   \amp  \tmop{Reduce}, \tmop{factor~out~}40 \tmop{~and~divide}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\frac{- 1 - i}{2}\amp  \amp \text{Rewrite as~}  a+bi</mrow>
- <mrow>-\frac{1}{2} - \frac{1}{2}i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{- 40 - 40 i}{80} \amp   \amp  \tmop{Reduce}, \tmop{factor~out~}40 \tmop{~and~divide}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \frac{- 1 - i}{2}\amp  \amp \text{Rewrite as~}  a+bi</mrow>
+  <mrow>  -\frac{1}{2} - \frac{1}{2}i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 By rewriting <m>\sqrt{-1}</m> as <m>i</m>, we can now simplify square roots with negatives underneath. We will use
 the product rule and simplify the negative as a factor of negative one. This
 is shown in the following examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>\sqrt{- 16} \amp   \amp  \tmop{Consider} \tmop{the} \tmop{negative} \tmop{as} 
+<md>
+  <mrow>  \sqrt{- 16} \amp   \amp  \tmop{Consider} \tmop{the} \tmop{negative} \tmop{as} 
     \tmop{a~factor} \tmop{of} - 1</mrow>
- <mrow>\sqrt[]{- 1 \cdot 16} \amp   \amp  \tmop{Take} \tmop{each} \tmop{root},
+  <mrow>  \sqrt[]{- 1 \cdot 16} \amp   \amp  \tmop{Take} \tmop{each} \tmop{root},
     \tmop{square} \tmop{root} \tmop{of} - 1 \tmop{~is~} i</mrow>
- <mrow>4 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  4 i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>\sqrt[]{- 24} \amp   \amp  \tmop{Find} \tmop{perfect} \tmop{square}
+<md>
+  <mrow>  \sqrt[]{- 24} \amp   \amp  \tmop{Find} \tmop{perfect} \tmop{square}
     \tmop{factors}. \tmop{Factor~out~} - 1</mrow>
- <mrow>\sqrt[]{- 1 \cdot 4 \cdot 6} \amp   \amp  \tmop{Square} \tmop{root} \tmop{of} - 1
+  <mrow>  \sqrt[]{- 1 \cdot 4 \cdot 6} \amp   \amp  \tmop{Square} \tmop{root} \tmop{of} - 1
     \tmop{~is~} i, \tmop{square} \tmop{root} \tmop{of} 4 \tmop{is} 2</mrow>
- <mrow>2 i~\sqrt[]{6} \amp   \amp  \tmop{Move~} i \text{~over}</mrow>
- <mrow>(2 ~\sqrt[]{6})i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  2 i~\sqrt[]{6} \amp   \amp  \tmop{Move~} i \text{~over}</mrow>
+  <mrow>  (2 ~\sqrt[]{6})i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 When simplifying complex radicals, it is important that we take the <m>- 1</m> out
-of the radical (as an <m>i</m>) before we combine radicals.\pp
+of the radical (as an <m>i</m>) before we combine radicals.
 </p>
-  
+
 <p>
-Notice also that in the previous example our final answer is <m>(2 ~\sqrt[]{6})i</m> and not <m>2 ~\sqrt[]{6i}</m>. Although the parentheses are not technically needed, they are included because there is a subtle mathematical difference between these two values, since having <m>i</m> <i>underneath</i> a square root (<m>\sqrt{6i}</m>) is not equivalent to having it <i>beside</i> the square root (<m>\sqrt{6}i</m>). This common mistake can be easily avoided by taking care not to extend the square root too far when writing our final answer. The parentheses are simply an added precaution. The same care must be made in order to distinguish an expression like <m>\sqrt[]{6}x</m> from <m>\sqrt[]{6x}</m>.
+Notice also that in the previous example our final answer is <m>(2 ~\sqrt[]{6})i</m> and not <m>2 ~\sqrt[]{6i}</m>. Although the parentheses are not technically needed, they are included because there is a subtle mathematical difference between these two values, since having <m>i</m> <em>underneath</em> a square root (<m>\sqrt{6i}</m>) is not equivalent to having it <em>beside</em> the square root (<m>\sqrt{6}i</m>). This common mistake can be easily avoided by taking care not to extend the square root too far when writing our final answer. The parentheses are simply an added precaution. The same care must be made in order to distinguish an expression like <m>\sqrt[]{6}x</m> from <m>\sqrt[]{6x}</m>.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>\sqrt[]{- 6} ~\sqrt[]{- 3} \amp   \amp  \tmop{Simplify} \tmop{the}
+<md>
+  <mrow>  \sqrt[]{- 6} ~\sqrt[]{- 3} \amp   \amp  \tmop{Simplify} \tmop{the}
     \tmop{negatives}, \tmop{bringing} i \tmop{out} \tmop{of} \tmop{radicals}</mrow>
- <mrow>(i ~\sqrt[]{6}) (i ~\sqrt[]{3}) \amp   \amp  \tmop{Multiply,}
+  <mrow>  (i ~\sqrt[]{6}) (i ~\sqrt[]{3}) \amp   \amp  \tmop{Multiply,}
     i^2 = - 1</mrow>
- <mrow>- ~\sqrt[]{18} \amp   \amp  \tmop{Simplify} \tmop{the} \tmop{radical}</mrow>
- <mrow>- ~\sqrt[]{9 \cdot 2} \amp   \amp  \tmop{Take} \tmop{square} \tmop{root} \tmop{of}
+  <mrow>  - ~\sqrt[]{18} \amp   \amp  \tmop{Simplify} \tmop{the} \tmop{radical}</mrow>
+  <mrow>  - ~\sqrt[]{9 \cdot 2} \amp   \amp  \tmop{Take} \tmop{square} \tmop{root} \tmop{of}
     9</mrow>
- <mrow>- 3 ~\sqrt[]{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  - 3 ~\sqrt[]{2} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Lastly, when reducing fractions that involve <m>i</m>, as is often the case, we must take extra care to properly simplify and avoid any common mistakes. This is demonstrated in the following example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
+Write the given expression as <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers.
 </p>
-  
-<md><mrow>\frac{- 15 - \sqrt[]{- 200}}{20} \amp   \amp  \tmop{We~will~simplify} \tmop{the}
+<md>
+  <mrow>  \frac{- 15 - \sqrt[]{- 200}}{20} \amp   \amp  \tmop{We~will~simplify} \tmop{the}
     \tmop{radical} \tmop{first}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\sqrt[]{- 200} \amp   \amp  \tmop{Find} \tmop{perfect} \tmop{square}
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \sqrt[]{- 200} \amp   \amp  \tmop{Find} \tmop{perfect} \tmop{square}
     \tmop{factors}. \tmop{Factor~out~} - 1</mrow>
- <mrow>\sqrt[]{- 1 \cdot 100 \cdot 2} \amp   \amp  \tmop{Take} \tmop{square} \tmop{root}
+  <mrow>  \sqrt[]{- 1 \cdot 100 \cdot 2} \amp   \amp  \tmop{Take} \tmop{square} \tmop{root}
     \tmop{of} - 1 \tmop{and} 100</mrow>
- <mrow>10 i ~\sqrt[]{2} \amp   \amp  \tmop{Put} \tmop{this} \tmop{back} \tmop{into}
+  <mrow>  10 i ~\sqrt[]{2} \amp   \amp  \tmop{Put} \tmop{this} \tmop{back} \tmop{into}
     \tmop{original} \tmop{expression}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\frac{- 15 - 10 i ~\sqrt[]{2}}{20} \amp   \amp  \tmop{Factor~out~} 5 \text{~and~divide}</mrow>
- <mrow>\frac{- 3 - 2 i ~\sqrt[]{2}}{4}\amp  \amp  \text{Simplify answer, split up fraction}</mrow>
- <mrow>-\frac{3}{4}-\frac{2 i ~\sqrt[]{2}}{4} \amp  \amp  \text{Reduce, move~}  i\text{~to side}</mrow>
- <mrow>-\frac{3}{4}-\frac{\sqrt[]{2}}{2}i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \frac{- 15 - 10 i ~\sqrt[]{2}}{20} \amp   \amp  \tmop{Factor~out~} 5 \text{~and~divide}</mrow>
+  <mrow>  \frac{- 3 - 2 i ~\sqrt[]{2}}{4}\amp  \amp  \text{Simplify answer, split up fraction}</mrow>
+  <mrow>  -\frac{3}{4}-\frac{2 i ~\sqrt[]{2}}{4} \amp  \amp  \text{Reduce, move~}  i\text{~to side}</mrow>
+  <mrow>  -\frac{3}{4}-\frac{\sqrt[]{2}}{2}i \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 By using <m>i = \sqrt[]{- 1}</m> we will be able to simplify expressions and solve problems
 that we could not before. In the next few sections, we will see how this will enable us to better understand quadratic equations and their graphs.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

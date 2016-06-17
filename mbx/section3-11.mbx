@@ -1,15 +1,18 @@
-
 <section>
 <title>Practice Problems</title>
+
+
 <subsection>
 <title>Introduction</title>
+
+
 <subsubsection>
 <title>Quadratic Equations</title>
 <p>
 {\tmstrong{After simplifying, classify each equation as linear, quadratic, or neither.
 If the equation is a quadratic, then specify whether it is concave up or down.}}
 </p>
-  
+
 <p>
 1)<nbsp /><m>y=x^2 + 9</m><br />
 	3)<nbsp /><m>y=x+6-3x</m><br />
@@ -22,17 +25,19 @@ If the equation is a quadratic, then specify whether it is concave up or down.}}
 8)<nbsp /><m>y=(x-5)(2x+3)-2(x-3)</m><br />
 10)<nbsp /><m>y=(2x-4)(x-1)-2(x+3)^2+3x^2</m>
 </p>
-  
+
 <p>
 <nbsp /><br />
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection>
 <title>Vertex Form of a Quadratic</title>
 <p>
 {\tmstrong{Identify the vertex and concavity (concave up or down) of each quadratic.}}
 </p>
-  
+
 <p>
 1)<nbsp /><m>y=(x-3)^2+4</m><br />
 3)<nbsp /><m>y=6(x+3)^2+4</m><br />
@@ -45,15 +50,21 @@ If the equation is a quadratic, then specify whether it is concave up or down.}}
 8)<nbsp /><m>y=-\frac{1}{23}(x-8)^2+5</m><br />
 10)<nbsp /><m>y=5x^2+23</m>
 </p>
- </subsubsection> </subsection> 
+</subsubsection>
+
+</subsection>
+
+
 <subsection>
 <title>Factoring</title>
+
+
 <subsubsection>
 <title>Greatest Common Factor</title>
 <p>
 {\tmstrong{Factor the common factor out of each expression.}}
 </p>
-  
+
 <p>
 1)<nbsp /> <m>4 + 8 b^2</m><br />
 3)<nbsp /> <m>45 x^2 - 25</m><br />
@@ -89,13 +100,15 @@ If the equation is a quadratic, then specify whether it is concave up or down.}}
 30)<nbsp /> <m>- 24 x^6 - 4 x^4 + 12 x^3 + 4 x^2</m><br />
 32)<nbsp /> <m>- 10 y^7 + 6 y^{10} - 4 y^{10} x - 8 y^8 x</m>
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection>
 <title>Grouping</title>
 <p>
 {\tmstrong{Factor each expression completely.}}
 </p>
-  
+
 <p>
 1)<nbsp /> <m>40 r^3 - 8 r^2 - 25 r + 5</m><br />
 3)<nbsp /> <m>3 n^3 - 2 n^2 - 9 n + 6</m><br />
@@ -125,7 +138,9 @@ If the equation is a quadratic, then specify whether it is concave up or down.}}
 24)<nbsp /> <m>24 x y + 25 y^2 - 20 x - 30 y^3</m><br />
 26)<nbsp /> <m>56 a b + 14 - 49 a - 16 b</m>
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection xml:id="ais1">
 <title>Trinomials with Leading Coefficient <m>a=1</m></title>
 <p>
@@ -165,7 +180,9 @@ If the equation is a quadratic, then specify whether it is concave up or down.}}
 32)<nbsp /> <m>5 m^2 + 30 m n - 90 n^2</m><br />
 34)<nbsp /> <m>6 m^2 - 36 m n - 162 n^2</m>
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection xml:id="aisnot1">
 <title>Trinomials with Leading Coefficient <m>a\neq 1</m></title>
 <p>
@@ -211,73 +228,83 @@ If the equation is a quadratic, then specify whether it is concave up or down.}}
 38)<nbsp /> <m>16 x^2 + 60 x y + 36 y^2</m><br />
 40)<nbsp /> <m>12 x^2 + 50 x y + 28 y^2</m><br />
 </p>
- </subsubsection> </subsection> 
+</subsubsection>
+
+</subsection>
+
+
 <subsection>
 <title>Solving by Factoring</title>
 <p>
-{\tmstrong{Set each of the following expressions equal to zero and solve for the given variable.}}\pp
+{\tmstrong{Set each of the following expressions equal to zero and solve for the given variable.}}
 </p>
-  
+
 <p>
-1) - 15): Expressions (1) through (15) on <xref ref="ais1">page</xref>.\pp
+1) - 15): Expressions (1) through (15) on <xref ref="ais1">page</xref>.
 </p>
-  
+
 <p>
-16) - 30): Expressions (1) through (15) on <xref ref="aisnot1">page</xref>.\pp
+16) - 30): Expressions (1) through (15) on <xref ref="aisnot1">page</xref>.
 </p>
-  
+
 <p>
 31) - 40): Expressions (21) through (30) on <xref ref="aisnot1">page</xref>.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Vertex Form and Graphing</title>
+
+
 <subsubsection>
 <title>Vertex Form of a Quadratic</title>
 <p>
 {\tmstrong{Identify whether the quadratic is in vertex form, standard form, or both. If it is in vertex form, then identify the vertex (<m>h,k</m>).}}
 </p>
-  
+
 <p>
-1)<nbsp /><m>y=(x-12)^2+5 </m><br />
+1)<nbsp /><m>y=(x-12)^2+5</m><br />
 3)<nbsp /><m>y=x^2+8</m><br />
 5)<nbsp /><m>y=-4(x-1)^2+2</m><br />
 7)<nbsp /><m>y=x^2+3x+4</m><br />
 9)<nbsp /><m>y=x^2-3</m><br />
 11)<nbsp /><m>y=(x-1)^2</m><br />
-2)<nbsp /><m>y=-3(x-3)^2+5 </m><br />
-4)<nbsp /><m>y=2(x-4)^2 </m><br />
+2)<nbsp /><m>y=-3(x-3)^2+5</m><br />
+4)<nbsp /><m>y=2(x-4)^2</m><br />
 6)<nbsp /><m>y=-5(x-7)^2</m><br />
 8)<nbsp /><m>y=x^2-1</m><br />
-10)<nbsp /><m>y=(x-1)^2-3 </m><br />
+10)<nbsp /><m>y=(x-1)^2-3</m><br />
 12)<nbsp /><m>y=x^2</m>
 </p>
-  
+
 <p>
 {\tmstrong{Each quadratic equation below has been given in standard form. Rewrite each equation in vertex form.}}
 </p>
-  
+
 <p>
-13)<nbsp /><m>y=x^2+2x-1 </m><br />
+13)<nbsp /><m>y=x^2+2x-1</m><br />
 15)<nbsp /><m>y=3x^2+12x-1</m><br />
 17)<nbsp /><m>y=x^2+6</m><br />
 19)<nbsp /><m>y=x^2+8x</m><br />
 21)<nbsp /><m>y=x^2+4x-2</m><br />
 23)<nbsp /><m>y=4x^2+10x</m><br />
-14)<nbsp /><m>y=-3x^2-12x-5 </m><br />
+14)<nbsp /><m>y=-3x^2-12x-5</m><br />
 16)<nbsp /><m>y=x^2+2x</m><br />
 18)<nbsp /><m>y=-5x^2-40x</m><br />
 20)<nbsp /><m>y=x^2</m><br />
-22)<nbsp /><m>y=x^2+16x-2 </m>
+22)<nbsp /><m>y=x^2+16x-2</m>
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection>
 <title>Graphing Quadratics</title>
 <p>
 {\tmstrong{Find the vertex and intercepts of the following quadratics. Use
 this information to graph the resulting parabola.}}
 </p>
-  
+
 <p>
 1)<nbsp /> <m>y = x^2 - 2 x - 8</m><br />
 3)<nbsp /> <m>y = 2 x^2 - 12 x + 10</m><br />
@@ -301,15 +328,21 @@ this information to graph the resulting parabola.}}
 18)<nbsp /> <m>y = 5 x^2 + 20 x + 15</m><br />
 20)<nbsp /> <m>y = - 5 x^2 + 20 x - 15</m><br />
 </p>
- </subsubsection> </subsection> 
+</subsubsection>
+
+</subsection>
+
+
 <subsection>
 <title>Square Roots and the Imaginary Number <m>i</m></title>
+
+
 <subsubsection>
 <title>Square Roots</title>
 <p>
 {\tmstrong{Simplify each of the following square roots completely.}}
 </p>
-  
+
 <p>
 1)<nbsp /> <m>\sqrt[]{245}</m><br />
 3)<nbsp /> <m>\sqrt[]{36}</m><br />
@@ -355,13 +388,15 @@ this information to graph the resulting parabola.}}
 40)<nbsp /> <m>-~\sqrt[]{32 x y^2 z^3}</m><br />
 42)<nbsp /> <m>- 8~\sqrt[]{32 m^2 p^4 q}</m><br />
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection>
 <title>Intro to Complex Numbers</title>
 <p>
 {\tmstrong{Rewrite each of the following complex numbers in the form <m>a+bi</m>, where <m>a</m> and <m>b</m> are real numbers and <m>i=\sqrt{-1}</m>.}}
 </p>
-  
+
 <p>
 1)<nbsp /> <m>3 - (- 8 + 4 i)</m><br />
 3)<nbsp /> <m>(7 i) - (3 - 2 i)</m><br />
@@ -422,35 +457,41 @@ this information to graph the resulting parabola.}}
 56)<nbsp /> <m>i^{181}</m><br />
 58)<nbsp /> <m>i^{51}</m>
 </p>
- </subsubsection> </subsection> 
+</subsubsection>
+
+</subsection>
+
+
 <subsection>
 <title>Solving by Extracting Square Roots</title>
 <p>
 {\tmstrong{Find the <m>x</m>-intercepts of each quadratic by setting <m>y=0</m> and using the method of extracting square roots.}}
 </p>
-  
+
 <p>
-1)<nbsp /><m>y=(x-12)^2-5 </m><br />
+1)<nbsp /><m>y=(x-12)^2-5</m><br />
 3)<nbsp /><m>y=x^2-16</m><br />
 5)<nbsp /><m>y=-4(x-1)^2+20</m><br />
 7)<nbsp /><m>y=-4(x+6)^2+8</m><br />
 9)<nbsp /><m>y=(x-4)^2-9</m><br />
 11)<m>y=(x+2)^2+16</m><br />
-2)<nbsp /><m>y=-3(x-3)^2+30 </m><br />
-4)<nbsp /><m>y=2(x-4)^2 -200 </m><br />
+2)<nbsp /><m>y=-3(x-3)^2+30</m><br />
+4)<nbsp /><m>y=2(x-4)^2 -200</m><br />
 6)<nbsp /><m>y=-2(x-7)^2+50</m><br />
 8)<nbsp /><m>y=x^2-4</m><br />
-10)<m>y=(x-1)^2-25 </m><br />
+10)<m>y=(x-1)^2-25</m><br />
 12)<m>y=9(x-11)^2-81</m>
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Completing the Square</title>
 <p>
 {\tmstrong{Find the value that completes the square and then rewrite the given expression as a
 perfect square.}}
 </p>
-  
+
 <p>
 1)<nbsp /> <m>x^2 - 30 x +</m><nbsp /><u></u><br />
 3)<nbsp /> <m>m^2 - 36 m +</m><nbsp /><u></u><br />
@@ -461,11 +502,11 @@ perfect square.}}
 6)<nbsp /> <m>r^2 - \frac{1}{9} r +</m><nbsp /><u></u><br />
 8)<nbsp /> <m>p^2 - 17 p +</m><nbsp /><u></u>
 </p>
-  
+
 <p>
 {\tmstrong{Solve each equation by completing the square.}}
 </p>
-  
+
 <p>
 9)<nbsp /> <m>x^2 - 16 x + 55 = 0</m><br />
 11)<nbsp /> <m>v^2 - 8 v + 45 = 0</m><br />
@@ -517,27 +558,29 @@ perfect square.}}
 54)<nbsp /> <m>4 b^2 - 15 b + 56 = 3 b^2</m><br />
 56)<nbsp /> <m>10 v^2 - 15 v = 27 + 4 v^2 - 6 v</m><br />
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection xml:id="QF">
 <title>The Quadratic Formula and the Discriminant</title>
 <p>
-{\tmstrong{Use the discriminant in order to determine the number of real roots for each equation. If an equation is shown to have one (or two) real root(s), set <m>y=0</m> and use the quadratic formula to find them.}} 1)<nbsp /><m>y=x^2+2x-1 </m><br />
+{\tmstrong{Use the discriminant in order to determine the number of real roots for each equation. If an equation is shown to have one (or two) real root(s), set <m>y=0</m> and use the quadratic formula to find them.}} 1)<nbsp /><m>y=x^2+2x-1</m><br />
 3)<nbsp /><m>y=3x^2+12x-1</m><br />
 5)<nbsp /><m>y=x^2+6</m><br />
 7)<nbsp /><m>y=x^2+8x</m><br />
 9)<nbsp /><m>y=x^2+4x-2</m><br />
 11)<nbsp /><m>y=4x^2+10x</m><br />
-	2)<nbsp /><m>y=-3x^2-12x-5 </m><br />
+	2)<nbsp /><m>y=-3x^2-12x-5</m><br />
 4)<nbsp /><m>y=x^2+2x</m><br />
 6)<nbsp /><m>y=-5x^2-40x</m><br />
 8)<nbsp /><m>y=x^2</m><br />
-10)<nbsp /><m>y=x^2+16x-2 </m>
+10)<nbsp /><m>y=x^2+16x-2</m>
 </p>
-  
+
 <p>
 {\tmstrong{Solve each equation using the quadratic formula.}}
 </p>
-  
+
 <p>
 12)<nbsp /> <m>4 a^2 + 6 = 0</m><br />
 14)<nbsp /> <m>2 x^2 - 8 x - 2 = 0</m><br />
@@ -580,30 +623,34 @@ perfect square.}}
 49)<nbsp /> <m>3 x^2 - 3 = x^2</m><br />
 51)<nbsp /> <m>6 b^2 = b^2 + 7 - b</m>
 </p>
- </subsection>  
+</subsection>
+
+
 <subsection>
 <title>Quadratic Inequalities and Sign Diagrams</title>
 <p>
-{\tmstrong{Construct a sign diagram for each of the following expressions/equations. Then using interval notation, describe the set of values for which the given expression is greater than or equal to zero.}}\pp
+{\tmstrong{Construct a sign diagram for each of the following expressions/equations. Then using interval notation, describe the set of values for which the given expression is greater than or equal to zero.}}
 </p>
-  
+
 <p>
-1) - 5): Expressions (1) through (5) on <xref ref="ais1">page</xref>.\pp
+1) - 5): Expressions (1) through (5) on <xref ref="ais1">page</xref>.
 </p>
-  
+
 <p>
-6) - 10): Expressions (1) through (5) on <xref ref="aisnot1">page</xref>.\pp
+6) - 10): Expressions (1) through (5) on <xref ref="aisnot1">page</xref>.
 </p>
-  
+
 <p>
-11) - 15): Expressions (21) through (25) on <xref ref="aisnot1">page</xref>.\pp
+11) - 15): Expressions (21) through (25) on <xref ref="aisnot1">page</xref>.
 </p>
-  
+
 <p>
-16) - 20): Equations (1) through (5) on <xref ref="QF">page</xref>.\pp
+16) - 20): Equations (1) through (5) on <xref ref="QF">page</xref>.
 </p>
-  
+
 <p>
 \closegraphsfile
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

@@ -13,11 +13,6 @@
 \newcommand{\tmem}[1]{\emph{#1}}
 \renewcommand{\chaptername}{Chapter}
 \newcommand{\comment}[1]{}
-\newcommand{\pp}{
-
-~
-
-}
 </macros>
 
 </docinfo>
@@ -31,15 +26,15 @@
 </frontmatter>
 
 
-<xi:include href="./chapter1.mbx" />
+<xi:include href="./Linear_Equations.mbx" />
 
-<xi:include href="./chapter2.mbx" />
+<xi:include href="./Systems_of_Linear_Equations.mbx" />
 
-<xi:include href="./chapter3.mbx" />
+<xi:include href="./Quadratic_Equations.mbx" />
 
-<xi:include href="./chapter4.mbx" />
+<xi:include href="./Introduction_to_Functions.mbx" />
 
-<xi:include href="./chapter5.mbx" />
+<xi:include href="./Polynomial_Functions.mbx" />
 <backmatter>
 <index-part>
 <title>Index</title>

@@ -1,22 +1,22 @@
-
 <section>
 <title>Three Variables</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Solve systems of equations with three variables using
-addition/elimination.}}\pp
+Solve systems of equations with three variables using
+addition/elimination.
 </p>
-  
+</objectives>
 <p>
-Recall that the graph of an equation containing two variables is a (two-dimensional) line. If we increase the number of variables in an equation to three, then the resulting graph will be a three-dimensional plane. This particular section deals with solving a system of equations containing three variables. Whereas the solution for a system of <i>two</i> equations is the set of points where their respective <i>lines</i> intersect, the solution for a system of <i>three</i> equations will be the set of points where all three respective <i>planes</i> intersect. Although we do not intend to undertake the arduous task of graphing even a single equation containing three variables in this setting, the visual is sometimes helpful in justifying a particular outcome, and is often critical to understanding in more advanced mathematics courses such as multivariate calculus and linear algebra.\pp
+Recall that the graph of an equation containing two variables is a (two-dimensional) line. If we increase the number of variables in an equation to three, then the resulting graph will be a three-dimensional plane. This particular section deals with solving a system of equations containing three variables. Whereas the solution for a system of <em>two</em> equations is the set of points where their respective <em>lines</em> intersect, the solution for a system of <em>three</em> equations will be the set of points where all three respective <em>planes</em> intersect. Although we do not intend to undertake the arduous task of graphing even a single equation containing three variables in this setting, the visual is sometimes helpful in justifying a particular outcome, and is often critical to understanding in more advanced mathematics courses such as multivariate calculus and linear algebra.
 </p>
-  
+
 <p>
 The method for solving a system of equations with three (or more) variables is very similar to that for solving a system with two variables. When we had two variables we reduced the system
 down to one equation with one variable (by either substitution or addition/elimination). With three
 variables we will reduce the system down to one equation with two variables (usually by
-addition/elimination), which we can then solve by either substitution or addition/elimination.\pp
+addition/elimination), which we can then solve by either substitution or addition/elimination.
 </p>
-  
+
 <p>
 To reduce from three variables down to two it is very important to keep the
 work organized by lining up the variables vertically and using enough space to carefully keep track of everything. We will use addition/elimination with two equations to eliminate one
@@ -26,62 +26,60 @@ variable. This second new equation we will call (B). Once we have done this we
 will have a system of two equations, (A) and (B), with the same two variables that we can
 solve using either method, substitution or elimination, depending on the context of the problem. This is demonstrated in the following examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  <m>3 x + 2 y~ - z=- 1~</m><br />
+<m>3 x + 2 y~ - z=- 1~</m><br />
 		<m>- 2 x - 2 y + 3 z=5</m><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><br />
-		<m>5 x + 2 y~ - z=3~~~~</m> 
+		<m>5 x + 2 y~ - z=3~~~~</m>
 <p>
 Our strategy will be to first eliminate <m>y</m> using two different pairs of equations from those provided above.
 </p>
-  
-<md><mrow>3 x + 2 y~ - z = - 1 \amp   \amp  \tmop{Using} \tmop{the} \tmop{first} \tmop{two}
+<md>
+  <mrow>  3 x + 2 y~ - z = - 1 \amp   \amp  \tmop{Using} \tmop{the} \tmop{first} \tmop{two}
     \tmop{equations},</mrow>
- <mrow>\underline{- 2 x - 2 y + 3 z = ~5~} \amp   \amp  \tmop{Add}</mrow>
- <mrow>x + 2 z = ~4~ \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(A)}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- 2 x - 2 y + 3 z = 5 \amp   \amp  \tmop{Using} \tmop{the} \tmop{second}
+  <mrow>  \underline{- 2 x - 2 y + 3 z = ~5~} \amp   \amp  \tmop{Add}</mrow>
+  <mrow>  x + 2 z = ~4~ \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(A)}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - 2 x - 2 y + 3 z = 5 \amp   \amp  \tmop{Using} \tmop{the} \tmop{second}
     \tmop{two} \tmop{equations}</mrow>
- <mrow>\underline{~5 x + 2 y~ -~ z = 3} \amp   \amp  \tmop{Add}</mrow>
- <mrow>3 x + 2 z = 8 \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(B)}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>x + 2 z = 4 \amp   \amp  \text{Equation~(A)}</mrow>
- <mrow>3 x + 2 z = 8 \amp   \amp  \text{Equation~(B)}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- 1 (x + 2 z) = (4) (- 1) \amp   \amp  \tmop{Multiply~equation~(A)} \tmop{by~} - 1</mrow>
- <mrow>- x - 2 z = - 4~~~~~~ \amp   \amp  \tmop{Simplify}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- x - 2 z = - 4 \amp   \amp </mrow>
- <mrow>\underline{3 x + 2 z = ~8~} \amp   \amp  \text{Add~the~two~equations}</mrow>
- <mrow>2 x = 4~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{2} ~~~~ \overline{2}}~~ \amp   \amp \tmop{Divide} \tmop{by~} 2</mrow>
- <mrow>x = 2~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{have~} x!</mrow>
- <mrow>\amp   \amp   \tmop{Plug~} x \tmop{~into~either~(A)~or~(B)}</mrow>
- <mrow>(2) + 2 z = 4~~ \amp   \amp  \text{We~will~use~(A)}</mrow>
- <mrow>\tmmathbf{\underline{- 2 ~~~~~~~~- 2}} \amp   \amp  \text{Subtract~}  2</mrow>
- <mrow>2 z = 2~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{2} ~~~~ \overline{2}}~~ \amp   \amp   \tmop{Divide} \tmop{by~} 2</mrow>
- <mrow>z = 1~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{have~} z!</mrow>
- <mrow>\amp   \amp   \text{Plug~}  x \text{~and~}  z \text{~into~any~of~the~}  \text{original~equations}</mrow>
- 
+  <mrow>  \underline{~5 x + 2 y~ -~ z = 3} \amp   \amp  \tmop{Add}</mrow>
+  <mrow>  3 x + 2 z = 8 \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(B)}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  x + 2 z = 4 \amp   \amp  \text{Equation~(A)}</mrow>
+  <mrow>  3 x + 2 z = 8 \amp   \amp  \text{Equation~(B)}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - 1 (x + 2 z) = (4) (- 1) \amp   \amp  \tmop{Multiply~equation~(A)} \tmop{by~} - 1</mrow>
+  <mrow>  - x - 2 z = - 4~~~~~~ \amp   \amp  \tmop{Simplify}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - x - 2 z = - 4 \amp   \amp</mrow>
+  <mrow>  \underline{3 x + 2 z = ~8~} \amp   \amp  \text{Add~the~two~equations}</mrow>
+  <mrow>  2 x = 4~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{2} ~~~~ \overline{2}} \amp   \amp \tmop{Divide} \tmop{by~} 2</mrow>
+  <mrow>  x = 2~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{have~} x!</mrow>
+  <mrow>  \amp   \amp   \tmop{Plug~} x \tmop{~into~either~(A)~or~(B)}</mrow>
+  <mrow>  (2) + 2 z = 4~~ \amp   \amp  \text{We~will~use~(A)}</mrow>
+  <mrow>  \tmmathbf{\underline{- 2 ~~~~~~~~- 2}} \amp   \amp  \text{Subtract~}  2</mrow>
+  <mrow>  2 z = 2~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{2} ~~~~ \overline{2}} \amp   \amp   \tmop{Divide} \tmop{by~} 2</mrow>
+  <mrow>  z = 1~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{have~} z!</mrow>
+  <mrow>  \amp   \amp   \text{Plug~}  x \text{~and~}  z \text{~into~any~of~the~}  \text{original~equations}</mrow>
 </md>
   
-<md><mrow>3 (2) + 2 y - (1) = - 1 \amp   \amp  \tmop{We~will~use~the~first~equation}</mrow>
- <mrow>\amp   \amp  \tmop{Simplify;~reduce~and~combine~constant~terms}</mrow>
- <mrow>2 y + 5 = - 1 \amp  \amp  \tmop{Solve~for~} y</mrow>
- <mrow>\tmmathbf{\underline{- 5 ~~- 5}} \amp   \amp \tmop{Subtract~} 5</mrow>
- <mrow>2 y = - 6 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{2} ~~~~~~~ \overline{2}} \amp   \amp   \tmop{Divide} \tmop{by~} 2</mrow>
- <mrow>y = - 3 \amp   \amp  \tmop{We} \tmop{now} \tmop{have~} y!</mrow>
- <mrow>(x,y,z)=(2, - 3, 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  3 (2) + 2 y - (1) = - 1 \amp   \amp  \tmop{We~will~use~the~first~equation}</mrow>
+  <mrow>  \amp   \amp  \tmop{Simplify;~reduce~and~combine~constant~terms}</mrow>
+  <mrow>  2 y + 5 = - 1 \amp  \amp  \tmop{Solve~for~} y</mrow>
+  <mrow>  \tmmathbf{\underline{- 5 ~~- 5}} \amp   \amp \tmop{Subtract~} 5</mrow>
+  <mrow>  2 y = - 6 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{2} ~~~~~~~ \overline{2}} \amp   \amp   \tmop{Divide} \tmop{by~} 2</mrow>
+  <mrow>  y = - 3 \amp   \amp  \tmop{We} \tmop{now} \tmop{have~} y!</mrow>
+  <mrow>  (x,y,z)=(2, - 3, 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 As we are solving for <m>x, y, \tmop{and} z</m> we will have an ordered triplet
 <m>(x, y, z)</m> instead of just the ordered pair <m>(x, y)</m>. In the previous problem,
@@ -92,219 +90,195 @@ in order to get the opposites we want and eliminate the variable. As we do this,
 it is important to eliminate the {\tmstrong{same variable each time}}, using
 two {\tmstrong{different}} pairs of equations.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  <m>4 x - 3 y + 2 z = - 29~</m><br />
+<m>4 x - 3 y + 2 z = - 29~</m><br />
 		<m>6 x + 2 y - z = - 16</m><br />
-		<m>- 8 x - y + 3 z = 23~~~~</m> 
+		<m>- 8 x - y + 3 z = 23~~~~</m>
 <p>
-Notice that no variable will easily eliminate. Although we are free to choose any variable to eliminate, we will choose <m>x</m> here. Remember, we will be eliminating <m>x</m> <i>twice</i>, using two different equations each time.
+Notice that no variable will easily eliminate. Although we are free to choose any variable to eliminate, we will choose <m>x</m> here. Remember, we will be eliminating <m>x</m> <em>twice</em>, using two different equations each time.
 </p>
-  
-<md><mrow>4 x - 3 y + 2 z = - 29 \amp   \amp  \text{Begin~with~the~first~two~equations}</mrow>
- <mrow>6 x + 2 y - z = - 16\amp  \amp  \text{The~LCM~of~}  4 \text{~and~}  6 \text{~is~}  12</mrow>
- 
+<md>
+  <mrow>  4 x - 3 y + 2 z = - 29 \amp   \amp  \text{Begin~with~the~first~two~equations}</mrow>
+  <mrow>  6 x + 2 y - z = - 16\amp  \amp  \text{The~LCM~of~}  4 \text{~and~}  6 \text{~is~}  12</mrow>
 </md>
- 
 <p>
 We will multiply both sides of the first equation by 3 to obtain <m>12x</m>. Similarly, we will multiply both sides of the second equation by -2 to obtain <m>-12x</m>.
 </p>
-  
-<md><mrow>3 (4 x - 3 y + 2 z) = (- 29) 3 \amp   \amp  \tmop{Multiply} \tmop{the}
+<md>
+  <mrow>  3 (4 x - 3 y + 2 z) = (- 29) 3 \amp   \amp  \tmop{Multiply} \tmop{the}
     \tmop{first} \tmop{equation} \tmop{by~} 3</mrow>
- <mrow>12 x - 9 y + 6 z = - 87~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- 2 (6 x + 2 y - z) = (- 16) (- 2) \amp   \amp  \tmop{Multiply} \tmop{the}
+  <mrow>  12 x - 9 y + 6 z = - 87~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - 2 (6 x + 2 y - z) = (- 16) (- 2) \amp   \amp  \tmop{Multiply} \tmop{the}
     \tmop{second} \tmop{equation} \tmop{by~} - 2</mrow>
- <mrow>- 12 x - 4 y + 2 z = 32~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>12 x - 9 y + 6 z = - 87 \amp   \amp </mrow>
- <mrow>\underline{- 12 x - 4 y + 2 z = ~32~} \amp   \amp  \tmop{Add} \tmop{these} \tmop{two}
+  <mrow>  - 12 x - 4 y + 2 z = 32~~~~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  12 x - 9 y + 6 z = - 87 \amp   \amp</mrow>
+  <mrow>  \underline{- 12 x - 4 y + 2 z = ~32~} \amp   \amp  \tmop{Add} \tmop{these} \tmop{two}
     \tmop{equations} \tmop{together}</mrow>
- <mrow>- 13 y + 8 z = - 55 \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(A)}</mrow>
-  
+  <mrow>  - 13 y + 8 z = - 55 \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(A)}</mrow>
 </md>
- 
 <p>
 Next, we will use a different pair of equations.
 </p>
-  
-<md><mrow>6 x + 2 y - z = - 16 \amp   \amp  \text{Now~use~the~second~pair~of~equations}</mrow>
- <mrow>- 8 x - y + 3 z = ~23~ \amp   \amp  \text{The~LCM~of~}  6 \text{~and~}  - 8
+<md>
+  <mrow>  6 x + 2 y - z = - 16 \amp   \amp  \text{Now~use~the~second~pair~of~equations}</mrow>
+  <mrow>  - 8 x - y + 3 z = ~23~ \amp   \amp  \text{The~LCM~of~}  6 \text{~and~}  - 8
     \text{~is~}  24</mrow>
-  
 </md>
- 
 <p>
 Now, we will multiply both sides of the first equation by 4 to obtain <m>24x</m>, and both sides of the second equation by 3 to obtain <m>-24x</m>.
 </p>
-  
-<md><mrow>4 (6 x + 2 y - z) = (- 16) 4 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
+<md>
+  <mrow>  4 (6 x + 2 y - z) = (- 16) 4 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
     \tmop{equation} \tmop{by~} 4</mrow>
- <mrow>24 x + 8 y - 4z = - 64~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>3 (- 8 x - y + 3 z) = (23) 3 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{second}
+  <mrow>  24 x + 8 y - 4z = - 64~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  3 (- 8 x - y + 3 z) = (23) 3 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{second}
     \tmop{equation} \tmop{by~} 3</mrow>
- <mrow>- 24 x - 3 y + 9 z = 69~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>24 x + 8 y - 4z = - 64 \amp   \amp </mrow>
- <mrow>\underline{- 24 x - 3 y + 9 z = ~69~} \amp   \amp  \tmop{Add} \tmop{these} \tmop{two}
+  <mrow>  - 24 x - 3 y + 9 z = 69~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  24 x + 8 y - 4z = - 64 \amp   \amp</mrow>
+  <mrow>  \underline{- 24 x - 3 y + 9 z = ~69~} \amp   \amp  \tmop{Add} \tmop{these} \tmop{two}
     \tmop{equations} \tmop{together}</mrow>
- <mrow>5 y + 5 z = ~5~~ \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(B)}</mrow>
-  
+  <mrow>  5 y + 5 z = ~5~~ \amp   \amp  \tmop{Call} \tmop{this} \tmop{equation~(B)}</mrow>
 </md>
- 
 <p>
 Now, using equations (A) and (B), we will solve the given system.
 </p>
-  
-<md><mrow>- 13 y + 8 z = - 55 \amp   \amp  \text{Equation~(A)}</mrow>
- <mrow>5 y + 5 z = ~5~~~ \amp   \amp  \text{Equation~(B)}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>5 y + 5 z = 5~~~~~~~ \amp   \amp  \text{Solve~equation~(B)~for~}  z</mrow>
- <mrow>\tmmathbf{\underline{- 5 y ~~~~~~~~- 5 y}}~~~ \amp   \amp  \tmop{Subtract~} 5 y</mrow>
- <mrow>5 z = 5 - 5 y \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{5} ~~~~~ \overline{5} ~~~~ \overline{5}}~ \amp   \amp  \tmop{Divide~both~sides~by~} 5</mrow>
- <mrow>z = 1 - y~ \amp   \amp  \text{Equation~for~}  z</mrow>
- 
+<md>
+  <mrow>  - 13 y + 8 z = - 55 \amp   \amp  \text{Equation~(A)}</mrow>
+  <mrow>  5 y + 5 z = ~5~~~ \amp   \amp  \text{Equation~(B)}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  5 y + 5 z = 5~~~~~~~ \amp   \amp  \text{Solve~equation~(B)~for~}  z</mrow>
+  <mrow>  \tmmathbf{\underline{- 5 y ~~~~~~~~- 5 y}} \amp   \amp  \tmop{Subtract~} 5 y</mrow>
+  <mrow>  5 z = 5 - 5 y \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{5} ~~~~~ \overline{5} ~~~~ \overline{5}} \amp   \amp  \tmop{Divide~both~sides~by~} 5</mrow>
+  <mrow>  z = 1 - y~ \amp   \amp  \text{Equation~for~}  z</mrow>
 </md>
- 
 <p>
 Next, substitute <m>z</m> into equation (A).
 </p>
-  
-<md><mrow>- 13 y + 8 \tmmathbf{(1 - y)} = - 55 \amp   \amp  \text{Simplify}</mrow>
- <mrow>- 13 y + 8 - 8 y = - 55 \amp   \amp  \text{Distribute}</mrow>
- <mrow>- 21 y + 8 = - 55 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
- <mrow>\tmmathbf{\underline{- 8 ~~~~- 8}} \amp   \amp   \tmop{Subtract~} 8</mrow>
- <mrow>- 21 y = - 63 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{- 21} ~~~~ \overline{- 21}} \amp   \amp  \tmop{Divide} \tmop{by~} - 21</mrow>
- <mrow>y = 3~~~~  \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y!</mrow>
- 
+<md>
+  <mrow>  - 13 y + 8 \tmmathbf{(1 - y)} = - 55 \amp   \amp  \text{Simplify}</mrow>
+  <mrow>  - 13 y + 8 - 8 y = - 55 \amp   \amp  \text{Distribute}</mrow>
+  <mrow>  - 21 y + 8 = - 55 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
+  <mrow>  \tmmathbf{\underline{- 8 ~~~~- 8}} \amp   \amp   \tmop{Subtract~} 8</mrow>
+  <mrow>  - 21 y = - 63 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{- 21} ~~~~ \overline{- 21}} \amp   \amp  \tmop{Divide} \tmop{by~} - 21</mrow>
+  <mrow>  y = 3~~~~  \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y!</mrow>
 </md>
- 
 <p>
 Now plug <m>y</m> into the equation for <m>z</m>.
 </p>
-  
-<md><mrow>z = 1 - (3) \amp   \amp  \tmop{Evaluate}</mrow>
- <mrow>z = - 2~~~~~ \amp   \amp  \tmop{We} \tmop{have~} z!</mrow>
-  
+<md>
+  <mrow>  z = 1 - (3) \amp   \amp  \tmop{Evaluate}</mrow>
+  <mrow>  z = - 2~~~~~ \amp   \amp  \tmop{We} \tmop{have~} z!</mrow>
 </md>
- 
 <p>
 Now, we can find <m>x</m> from one of our original equations. We will use the first equation.
 </p>
-  
-<md><mrow>4 x - 3 (3) + 2 (- 2) = - 29 \amp   \amp  \text{Simplify}</mrow>
- <mrow>4 x - 13 = - 29 \amp   \amp  \text{Combine~like~terms}</mrow>
- <mrow>\tmmathbf{\underline{+ 13 ~~+ 13}} \amp   \amp 		\tmop{Add~} 13</mrow>
- <mrow>4 x = - 16 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{4} ~~~~~~~ \overline{4}}~ \amp   \amp  \tmop{Divide} \tmop{by~} 4</mrow>
- <mrow>x = - 4~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} x!</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>(x,y,z)=(- 4, 3, - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  4 x - 3 (3) + 2 (- 2) = - 29 \amp   \amp  \text{Simplify}</mrow>
+  <mrow>  4 x - 13 = - 29 \amp   \amp  \text{Combine~like~terms}</mrow>
+  <mrow>  \tmmathbf{\underline{+ 13 ~~+ 13}} \amp   \amp 		\tmop{Add~} 13</mrow>
+  <mrow>  4 x = - 16 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{4} ~~~~~~~ \overline{4}} \amp   \amp  \tmop{Divide} \tmop{by~} 4</mrow>
+  <mrow>  x = - 4~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} x!</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  (x,y,z)=(- 4, 3, - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} Around 250, {\tmem{The Nine Chapters on the
 Mathematical Art}} were published in China. This book had 246 problems, and
 Chapter eight was about solving systems of equations. One particular problem had four
-equations with five variables!\pp
+equations with five variables!
 </p>
-  
+
 <p>
 Just as with two variables and two equations, we can have special cases come
 up with three variables and three equations. Specifically, it is possible to encounter a system of equations that has infinitely many solutions, or none at all. The way we handle such systems is identical to that for a system containing only two equations/variables.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  <m>5 x - 4 y + 3 z = - 4</m><br />
+<m>5 x - 4 y + 3 z = - 4</m><br />
 		<m>- 10 x + 8 y - 6 z = ~8~~~~</m><br />
-		<m>15 x - 12 y + 9 z = - 12</m> 
+		<m>15 x - 12 y + 9 z = - 12</m>
 <p>
 Again, we will choose to eliminate <m>x</m>.
 </p>
-  
-<md><mrow>5 x - 4 y + 3 z = - 4 \amp   \amp  \text{Begin~with~the~first~two~equations}</mrow>
- <mrow>- 10 x + 8 y - 6 z = ~8~\amp  \amp  \text{The~LCM~of~}  5 \text{~and~}  -10 \text{~is~}  10</mrow>
- 
+<md>
+  <mrow>  5 x - 4 y + 3 z = - 4 \amp   \amp  \text{Begin~with~the~first~two~equations}</mrow>
+  <mrow>  - 10 x + 8 y - 6 z = ~8~\amp  \amp  \text{The~LCM~of~}  5 \text{~and~}  -10 \text{~is~}  10</mrow>
 </md>
- 
 <p>
 We will multiply both sides of the first equation by 2 to obtain <m>10x</m>. Since the second equation contains <m>-10x</m>, we do not need to multiply it by a constant.
 </p>
-  
-<md><mrow>2 (5 x - 4 y + 3 z) = - 4 (2) \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
+<md>
+  <mrow>  2 (5 x - 4 y + 3 z) = - 4 (2) \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
     \tmop{equation} \tmop{by~} 2</mrow>
- <mrow>10 x - 8 y + 6 z = - 8~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>10 x - 8 y + 6 z = - 8 \amp   \amp </mrow>
- <mrow>\underline{- 10 x + 8 y - 6 = ~8~} \amp   \amp  \text{Add~the~two~equations}</mrow>
- <mrow>0 = 0~~ \amp   \amp  \tmop{A~true~statement}</mrow>
- 
+  <mrow>  10 x - 8 y + 6 z = - 8~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  10 x - 8 y + 6 z = - 8 \amp   \amp</mrow>
+  <mrow>  \underline{- 10 x + 8 y - 6 = ~8~} \amp   \amp  \text{Add~the~two~equations}</mrow>
+  <mrow>  0 = 0~~ \amp   \amp  \tmop{A~true~statement}</mrow>
 </md>
- 
 <p>
-Since we are left with a true statement, we conclude that there are infinitely many solutions to the first two equations.\pp
-Remember, that our usual procedure requires us to eliminate a variable (<m>x</m> in this case) <i>twice</i>, using two different equations each time. Even though we have concluded that there are infinitely many simultaneous solutions to the first two equations, we still must consider two different equations. In this particular example, we will obtain the same outcome by choosing <i>any</i> two equations, and it is left as an exercise for the reader to show this.<br />
-<b>Hint</b>: What do you notice about the set of coefficients for each equation, in relation to each of the other two equations? Do you think our results are related to this?\pp
-Once we have eliminated the same variable <i>twice</i> and drawn the same conclusions as above, we can conclude that there are infinitely many simultaneous solutions (<m>x,y,z</m>) to \text{all three} equations, i.e., the entire system.\pp
-There are, in fact, cases where two equations will share infinitely many solutions, but the entire system of equations might <i>fail</i> to have any simultaneous solutions. This is why it is critical that we not rush to an incorrect conclusion. These more subtle cases will usually be treated in detail in a multivariate calculus or a linear algebra course.\pp
+Since we are left with a true statement, we conclude that there are infinitely many solutions to the first two equations.
+Remember, that our usual procedure requires us to eliminate a variable (<m>x</m> in this case) <em>twice</em>, using two different equations each time. Even though we have concluded that there are infinitely many simultaneous solutions to the first two equations, we still must consider two different equations. In this particular example, we will obtain the same outcome by choosing <em>any</em> two equations, and it is left as an exercise for the reader to show this.<br />
+<b>Hint</b>: What do you notice about the set of coefficients for each equation, in relation to each of the other two equations? Do you think our results are related to this?
+Once we have eliminated the same variable <em>twice</em> and drawn the same conclusions as above, we can conclude that there are infinitely many simultaneous solutions (<m>x,y,z</m>) to \text{all three} equations, i.e., the entire system.
+There are, in fact, cases where two equations will share infinitely many solutions, but the entire system of equations might <em>fail</em> to have any simultaneous solutions. This is why it is critical that we not rush to an incorrect conclusion. These more subtle cases will usually be treated in detail in a multivariate calculus or a linear algebra course.
 Our last example demonstrates the only time when it is permissible to eliminate a variable from two equations in our system once.
 </p>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  <m>3 x - 4 y + z = 2</m><br />
+<m>3 x - 4 y + z = 2</m><br />
 		<m>- 9 x + 12 y - 3 z = - 5~~~</m><br />
-		<m>4 x - 2 y - z = 3</m> 
+		<m>4 x - 2 y - z = 3</m>
 <p>
 Here, it will be slightly easier to eliminate <m>z</m>.
 </p>
-  
-<md><mrow>3 x - 4 y + z = 2~~ \amp   \amp  \text{Begin~with~the~first~two~equations}</mrow>
- <mrow>- 9 x + 12 y - 3 z = - 5\amp  \amp  \text{The~LCM~of~}  1 \text{~and~}  -3 \text{~is~}  3</mrow>
- 
+<md>
+  <mrow>  3 x - 4 y + z = 2~~ \amp   \amp  \text{Begin~with~the~first~two~equations}</mrow>
+  <mrow>  - 9 x + 12 y - 3 z = - 5\amp  \amp  \text{The~LCM~of~}  1 \text{~and~}  -3 \text{~is~}  3</mrow>
 </md>
- 
 <p>
 We will multiply both sides of the first equation by 3 to obtain <m>3z</m>. Since the second equation contains <m>-3z</m>, we do not need to multiply it by a constant.
 </p>
-  
-<md><mrow>3 (3 x - 4 y + z) = (2) 3 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
+<md>
+  <mrow>  3 (3 x - 4 y + z) = (2) 3 \amp   \amp  \tmop{Multiply} \tmop{the} \tmop{first}
     \tmop{equation} \tmop{by~} 3</mrow>
- <mrow>9 x - 12 y + 3 z = 6~~~~ \amp   \amp </mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>9 x - 12 y + 3 z = ~6~~ \amp   \amp </mrow>
- <mrow>\underline{- 9 x + 12 y - 3 z = - 5} \amp   \amp  \text{Add~the~two~equations}</mrow>
- <mrow>0 \neq 1~~ \amp   \amp  \tmop{A~false~statement}</mrow>
- 
+  <mrow>  9 x - 12 y + 3 z = 6~~~~ \amp   \amp</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  9 x - 12 y + 3 z = ~6~~ \amp   \amp</mrow>
+  <mrow>  \underline{- 9 x + 12 y - 3 z = - 5} \amp   \amp  \text{Add~the~two~equations}</mrow>
+  <mrow>  0 \neq 1~~ \amp   \amp  \tmop{A~false~statement}</mrow>
 </md>
- 
 <p>
 Since we are left with a false statement, we conclude that there are no solutions to the given system.
 </p>
- </statement>
+</statement>
 </example>
- 
 <p>
-Remember, that our usual procedure requires us to eliminate a variable (<m>z</m> in this case) <i>twice</i>, using two different equations each time. In this particular case we need only eliminate the variable once. Since we obtained a false statement, which implies that there can be no solution to the first <i>two</i> equations in the system, it will be impossible to obtain a simultaneous solution to <i>all three</i> equations.\pp
+Remember, that our usual procedure requires us to eliminate a variable (<m>z</m> in this case) <em>twice</em>, using two different equations each time. In this particular case we need only eliminate the variable once. Since we obtained a false statement, which implies that there can be no solution to the first <em>two</em> equations in the system, it will be impossible to obtain a simultaneous solution to <em>all three</em> equations.
 </p>
-  
+
 <p>
 Equations with three (or more) variables are no more difficult to attempt to solve than those containing two
 variables, if we are careful to keep our information organized and eliminate
@@ -313,4 +287,4 @@ equations or eliminate variables in different orders. But as long as our
 information is organized and our algebra is correct, we should always arrive at the
 same conclusion.
 </p>
- </section>
+</section>

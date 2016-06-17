@@ -1,0 +1,17 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Polynomial_Functions">
+<title>Polynomial Functions</title>
+
+
+<introduction>
+<p>
+\mfpicnumber{1}
+\opengraphsfile{5_Polynomials}
+</p>
+</introduction>
+<xi:include  href="section5-1.mbx" />
+ <xi:include  href="section5-2.mbx" />
+ <xi:include  href="section5-3.mbx" />
+ <xi:include  href="section5-4.mbx" />
+ <xi:include  href="section5-5.mbx" />
+ <xi:include  href="section5-6.mbx" />
+</chapter>

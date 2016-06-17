@@ -1,189 +1,159 @@
-
 <section>
 <title>Notation and Basic Examples</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Understand component parts of a polynomial and classify polynomials by degree and number of terms.}}\pp
+Understand component parts of a polynomial and classify polynomials by degree and number of terms.
 </p>
-  
+</objectives>
 <p>
 Recall that a polynomial in terms of a variable <m>x</m> is an equation (or function) of the form
 </p>
-  
 <me>
-y = a_{n}x^{n} + a_{n-1}x^{n-1}+ ... + a_{2}x^2 + a_{1}x + a_{0},
+  y = a_{n}x^{n} + a_{n-1}x^{n-1}+ ... + a_{2}x^2 + a_{1}x + a_{0},
 </me>
- 
 <p>
-where each <i>coefficient</i>, <m>a_{i}</m>, is a real number (<m>a_n\neq 0</m>) and the exponent, or <i>degree</i> of the polynomial, <m>n</m>, is a positive integer.\pp
+where each <em>coefficient</em>, <m>a_{i}</m>, is a real number (<m>a_n\neq 0</m>) and the exponent, or <em>degree</em> of the polynomial, <m>n</m>, is a positive integer.
 Examples of polynomials include: <m>y = x^2 + 5</m>, <m>y=x</m> and <m>y = -3x^7+4x^3-5x</m>. Before classifying polynomials, we will take a moment to establish some key terminology. For our general polynomial above, the
 </p>
-  <table id="d31357cddc2ddb646e1138a9fda3c4aee2173a00" ><tr><td class='l'>
-<i>degree</i> </td><td class='c'> is </td><td class='l'> <m>n</m></td></tr>
-<tr><td class='l'>
-<i>coefficients</i> </td><td class='c'> are </td><td class='l'> <m>a_n,a_{n-1},\ldots,a_1,a_0</m></td></tr>
-<tr><td class='l'>
-<i>leading coefficient</i> </td><td class='c'> is </td><td class='l'> <m>a_n</m></td></tr>
-<tr><td class='l'>
-<i>leading term</i> </td><td class='c'> is </td><td class='l'> <m>a_nx^n</m></td></tr>
-<tr><td class='l'>
-<i>constant term</i> </td><td class='c'> is </td><td class='l'> <m>a_0x^0=a_0</m>.</td></tr></table>  
+<tabular>
+<row><cell><em>degree</em></cell><cell>is</cell><cell><m>n</m></cell></row>
+<row><cell><em>coefficients</em></cell><cell>are</cell><cell><m>a_n,a_{n-1},\ldots,a_1,a_0</m></cell></row>
+<row><cell><em>leading coefficient</em></cell><cell>is</cell><cell><m>a_n</m></cell></row>
+<row><cell><em>leading term</em></cell><cell>is</cell><cell><m>a_nx^n</m></cell></row>
+<row><cell><em>constant term</em></cell><cell>is</cell><cell><m>a_0x^0=a_0</m>.</cell></row>
+</tabular>
 <p>
 A concrete example will help to clarify each of these terms.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Identify the degree, leading coefficient, leading term and constant term for the given polynomial.
+Identify the degree, leading coefficient, leading term and constant term for the given polynomial.
 </p>
-  
 <me>
-y = -19x^5+4x^4-6x+21
+  y = -19x^5+4x^4-6x+21
 </me>
-  
 <p>
-The degree of this polynomial is <m>n=5</m>, since five is the greatest exponent.\pp
-The leading term, which is the term that contains the greatest exponent (degree) is <m>a_nx^n=-19x^5</m>.\pp
-The leading coefficient is the real number being multiplied by <m>x</m> in the leading term, namely <m>a_n=-19</m>.\pp
-The constant term is <m>a_0=21</m>, which also represents the <m>y-</m>intercept for the graph of the given polynomial, just as it did in the chapter on quadratics.\pp
+The degree of this polynomial is <m>n=5</m>, since five is the greatest exponent.
+The leading term, which is the term that contains the greatest exponent (degree) is <m>a_nx^n=-19x^5</m>.
+The leading coefficient is the real number being multiplied by <m>x</m> in the leading term, namely <m>a_n=-19</m>.
+The constant term is <m>a_0=21</m>, which also represents the <m>y-</m>intercept for the graph of the given polynomial, just as it did in the chapter on quadratics.
 The complete list of coefficients for the given polynomial is
 </p>
-  
 <me>
-a_5=-19,~ a_4=4,~ a_3=0,~ a_2=0,~ a_1=-6~ \text{~and~}  a_0=21.
+  a_5=-19,~ a_4=4,~ a_3=0,~ a_2=0,~ a_1=-6~ \text{~and~}  a_0=21.
 </me>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
-It is important to point out the fact that the previous example contains no <i>cubic</i> or <i>quadratic</i> terms, since the respective coefficients are both zero. This example demonstrates that not every polynomial will contain a nonzero coefficient for every term. As another example, the <i>power function</i> \mbox{<m>f(x)=x^{10}</m>} is also characterized as a polynomial having degree <m>n=10</m>, leading coefficient <m>a_{10}=1</m>, and trailing coefficients <m>a_i=0</m> for <m>i=9,8,\ldots,1,0</m>.\pp
-Before we can identify and begin to classify a polynomial, we may need to simplify the given expression for <m>x</m>, by distributing and combining all like terms. The general form of a polynomial should be reminiscent of the standard form of a quadratic, will possibly more terms. Hence the name "polynomial", meaning "many terms".\pp
+It is important to point out the fact that the previous example contains no <em>cubic</em> or <em>quadratic</em> terms, since the respective coefficients are both zero. This example demonstrates that not every polynomial will contain a nonzero coefficient for every term. As another example, the <em>power function</em> \mbox{<m>f(x)=x^{10}</m>} is also characterized as a polynomial having degree <m>n=10</m>, leading coefficient <m>a_{10}=1</m>, and trailing coefficients <m>a_i=0</m> for <m>i=9,8,\ldots,1,0</m>.
+Before we can identify and begin to classify a polynomial, we may need to simplify the given expression for <m>x</m>, by distributing and combining all like terms. The general form of a polynomial should be reminiscent of the standard form of a quadratic, will possibly more terms. Hence the name <q>polynomial</q>, meaning <q>many terms</q>.
 The following example shows how to identify a polynomial after the necessary simplification has taken place.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Identify the degree, leading coefficient, leading term and constant term for the given polynomial function.
+Identify the degree, leading coefficient, leading term and constant term for the given polynomial function.
 </p>
-  
-<md><mrow>f(x) \amp =\amp  3(x+1)(x-1)+4x^3+2x+3</mrow>
- <mrow>\amp  = \amp  3(x^2-1)+4x^3+2x+3</mrow>
- <mrow>\amp  = \amp  3x^2-3+4x^3+2x+3</mrow>
- <mrow>\amp  = \amp  4x^3+3x^2+2x</mrow>
- 
+<md>
+  <mrow>  f(x) \amp =\amp  3(x+1)(x-1)+4x^3+2x+3</mrow>
+  <mrow>  \amp  = \amp  3(x^2-1)+4x^3+2x+3</mrow>
+  <mrow>  \amp  = \amp  3x^2-3+4x^3+2x+3</mrow>
+  <mrow>  \amp  = \amp  4x^3+3x^2+2x</mrow>
 </md>
-  
 <p>
-Upon simplying, we see that <m>f</m> has degree <m>n=3</m>, since three is the greatest exponent.\pp
-The leading term is <m>4x^3</m> with a leading coefficient of <m>a_n=4</m>.\pp
+Upon simplying, we see that <m>f</m> has degree <m>n=3</m>, since three is the greatest exponent.
+The leading term is <m>4x^3</m> with a leading coefficient of <m>a_n=4</m>.
 Since no constant term is listed, <m>a_0=0</m> is our constant term.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 Now that we can identify the essential components of a polynomial, we will categorize polynomials based upon their degree, as well as the number of terms, after all necessary simplification.
 </p>
-  <b>Types of Polynomials</b>\pp
-<table id="0d03994f823552ee96074380f0f2e2e100951d2f" ><tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-Degree </td><td class='cv'> Type </td><td class='cv'> Example </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-0 </td><td class='cv'> Constant* </td><td class='cv'> <m>-1</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-1 </td><td class='cv'> Linear </td><td class='cv'> <m>2x+\sqrt{5}</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-2 </td><td class='cv'> Quadratic </td><td class='cv'> <m>5x^2 - 32x+2</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-3 </td><td class='cv'> Cubic </td><td class='cv'> <m>(-1/2)x^{3}</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-4 </td><td class='cv'> Quartic </td><td class='cv'> <m>-3x^{4} +2x^2+3x + 1</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-5  </td><td class='cv'> Quintic </td><td class='cv'> <m>-2x^5</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-6 or more  </td><td class='cv'> <m>n^{\text{th} }</m> Degree </td><td class='cv'> <m>-2x^{7} + 52x^6 + 12</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-
-</table> 
+<b>Types of Polynomials</b>
+<tabular>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>Degree</cell><cell>Type</cell><cell>Example</cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>0</cell><cell>Constant*</cell><cell><m>-1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>1</cell><cell>Linear</cell><cell><m>2x+\sqrt{5}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>2</cell><cell>Quadratic</cell><cell><m>5x^2 - 32x+2</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>3</cell><cell>Cubic</cell><cell><m>(-1/2)x^{3}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>4</cell><cell>Quartic</cell><cell><m>-3x^{4} +2x^2+3x + 1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>5</cell><cell>Quintic</cell><cell><m>-2x^5</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>6 or more</cell><cell><m>n^{\text{th} }</m> Degree</cell><cell><m>-2x^{7} + 52x^6 + 12</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+</tabular>
 <p>
-*Note: A constant function is generally not considered a polynomial, since the degree <m>n=0</m> and is not positive.\pp
+*Note: A constant function is generally not considered a polynomial, since the degree <m>n=0</m> and is not positive.
 One point of note in the table above is the occurrence of both rational and irrational coefficients <m>\left(-1/2\text{~and~} \sqrt{5}\right)</m>. The appearance of such coefficients is permissible in polynomials, since our coefficients <m>a_i</m> are simply required to be real numbers. A coefficient containing the imaginary number <m>i=\sqrt{-1}</m>, on the other hand, is not permitted.
 </p>
-  <b>Polynomial Characterizations by Number of Nonzero Terms</b>\pp
-<table id="954ef3d63f0e6ca8384d9758b5fecc522c3b5210" ><tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-Number of Terms </td><td class='cv'> Name </td><td class='cv'> Example </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-1 </td><td class='cv'> Monomial </td><td class='cv'> <m>4x^5</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-2 </td><td class='cv'> Binomial </td><td class='cv'> <m>2x^3 +1</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-3 </td><td class='cv'> Trinomial </td><td class='cv'> <m>-23x^{18} +4x^2+3x</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-4 </td><td class='cv'> Tetranomial </td><td class='cv'> <m>-23x^{18} +4x^2+3x + 1</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
-<tr><td class='vcv'>
-5 or more </td><td class='cv'> Polynomial </td><td class='cv'> <m>-2x^4 + x^3 +15x^2-41x + 12</m> </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+<b>Polynomial Characterizations by Number of Nonzero Terms</b>
+<tabular>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>Number of Terms</cell><cell>Name</cell><cell>Example</cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>1</cell><cell>Monomial</cell><cell><m>4x^5</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>2</cell><cell>Binomial</cell><cell><m>2x^3 +1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>3</cell><cell>Trinomial</cell><cell><m>-23x^{18} +4x^2+3x</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>4</cell><cell>Tetranomial</cell><cell><m>-23x^{18} +4x^2+3x + 1</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+<row><cell>5 or more</cell><cell>Polynomial</cell><cell><m>-2x^4 + x^3 +15x^2-41x + 12</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell><cell></cell></row>
+</tabular>
+<example>
+<statement>
+<p>
+Describe the type and characterization (number of terms) of the polynomial given below.
+</p>
+<me>
+  y = -19x^5+4x^4-6x+21
+</me>
+<p>
+Polynomials are typically named by their degree first and then their number of terms. The polynomial above is a <em>quintic tetranomial</em>; quintic because it is degree five and tetranomial since it contains four terms.
+</p>
+</statement>
+</example>
 
-</table>  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Describe the type and characterization (number of terms) of the polynomial given below.
+Describe the type and characterization (number of terms) of the polynomial given below.
 </p>
-  
 <me>
-y = -19x^5+4x^4-6x+21
+  y = x^3+x^2
 </me>
- 
 <p>
-Polynomials are typically named by their degree first and then their number of terms. The polynomial above is a <i>quintic tetranomial</i>; quintic because it is degree five and tetranomial since it contains four terms.
+The polynomial above is a <em>cubic binomial</em>, since it has degree three and contains two terms.
 </p>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Describe the type and characterization (number of terms) of the polynomial given below.
+Describe the type and characterization (number of terms) of the polynomial given below.
 </p>
-  
 <me>
-y = x^3+x^2
+  y = 21x^4+12x^2-3x^2-9x^2-22x^4
 </me>
- 
-<p>
-The polynomial above is a <i>cubic binomial</i>, since it has degree three and contains two terms.
-</p>
- </statement>
-</example>
-  
-<example><statement>
-<p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Describe the type and characterization (number of terms) of the polynomial given below.
-</p>
-  
-<me>
-y = 21x^4+12x^2-3x^2-9x^2-22x^4
-</me>
- 
 <p>
 Upon simplifying, we see that the given polynomial reduces to <m>y=-x^4</m>. As a result, our polynomial is a quartic (degree four) monomial (one term).
 </p>
- </statement>
+</statement>
 </example>
- 
 <p>
-This section has "set the table" for the basic terminology that will be used throughout the chapter. In the next section, we will review two additional factoring techniques which will be necessary for working with certain polynomials, and provide a brief summary of all factoring methods that have been discussed in this text. Once we have finished our review of factoring, we will be ready to begin the natural (albeit lengthy) method of analyzing and graphing a polynomial function.
+This section has <q>set the table</q> for the basic terminology that will be used throughout the chapter. In the next section, we will review two additional factoring techniques which will be necessary for working with certain polynomials, and provide a brief summary of all factoring methods that have been discussed in this text. Once we have finished our review of factoring, we will be ready to begin the natural (albeit lengthy) method of analyzing and graphing a polynomial function.
 </p>
- </section>
+</section>

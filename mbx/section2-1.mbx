@@ -1,11 +1,11 @@
-
 <section>
 <title>Graphing</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Solve systems of equations by graphing and identifying
-the point of intersection. }}\pp
+Solve systems of equations by graphing and identifying
+the point of intersection.
 </p>
-  
+</objectives>
 <p>
 We have solved problems like <m>3 x - 4 = 11</m> by adding 4 to both sides and then
 dividing by 3 (solution is <m>x = 5</m>). We also have methods to solve equations
@@ -16,245 +16,226 @@ equations. When we have several equations we are using to solve, we call the
 equations a {\tmstrong{system of equations}}. When solving a system of
 equations we are looking for a solution that works in each equation simultaneously. This
 solution is usually given as an ordered pair <m>(x, y)</m>. The following example
-illustrates a solution working in two equations.\pp
+illustrates a solution working in two equations.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />
 Show (<m>x,y</m>)=(2,1) is the solution to the system
 </p>
-  <m> 3 x - y = 5</m><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>x + y = 3</m>  
-<md><mrow>(x,y)=(2, 1) \amp   \amp  \tmop{Identify} x \tmop{and} y \tmop{from} \tmop{the}
+<m>3 x - y = 5</m><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><m>x + y = 3</m>  
+<md>
+  <mrow>  (x,y)=(2, 1) \amp   \amp  \tmop{Identify} x \tmop{and} y \tmop{from} \tmop{the}
     \tmop{ordered} \tmop{pair}</mrow>
- <mrow>x = 2,~y = 1 \amp   \amp  \tmop{Plug} \tmop{these} \tmop{values} \tmop{into}
+  <mrow>  x = 2,~y = 1 \amp   \amp  \tmop{Plug} \tmop{these} \tmop{values} \tmop{into}
     \tmop{each} \tmop{equation}</mrow>
- 
 </md>
   
-<md><mrow>3 (2) - (1) = 5 \amp   \amp  \tmop{First} \tmop{equation}</mrow>
- <mrow>6 - 1 = 5 \amp   \amp  \tmop{Evaluate}</mrow>
- <mrow>5 = 5 \amp   \amp  \tmop{True}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>(2) + (1) = 3 \amp   \amp  \tmop{Second} \tmop{equation}, \tmop{evaluate}</mrow>
- <mrow>3 = 3 \amp   \amp  \tmop{True}</mrow>
- 
+<md>
+  <mrow>  3 (2) - (1) = 5 \amp   \amp  \tmop{First} \tmop{equation}</mrow>
+  <mrow>  6 - 1 = 5 \amp   \amp  \tmop{Evaluate}</mrow>
+  <mrow>  5 = 5 \amp   \amp  \tmop{True}</mrow>
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  (2) + (1) = 3 \amp   \amp  \tmop{Second} \tmop{equation}, \tmop{evaluate}</mrow>
+  <mrow>  3 = 3 \amp   \amp  \tmop{True}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 As we found a true statement for both equations we know (2,1) is the solution
 to the system. It is in fact the only combination of numbers that works in
-both equations. In this section, we will attempt to identify a (simultaneous) solution to two equations, if such a solution exists. It stands to reason that if we use points to describe the solution, we can use graphs to find the solution.\pp
+both equations. In this section, we will attempt to identify a (simultaneous) solution to two equations, if such a solution exists. It stands to reason that if we use points to describe the solution, we can use graphs to find the solution.
 If the graph of a line is a picture of all the solutions to its equation, we can graph two
 lines on the same coordinate plane to see the solutions of both equations. In particular, we
 are interested in finding all points that are a solution for both equations. This will be
 the point(s) where the two lines intersect! If we can find the intersection of the lines we
 have found the solution that works in both equations.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
       y = - \frac{1}{2} x + 3\\
     	y = \frac{3}{4} x - 2
 \end{array}  \amp   \amp  \tmop{First} \tmop{identify}
     \tmop{slopes} \tmop{and} y - \tmop{intercepts}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\begin{array}{l}
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \begin{array}{l}
       \tmop{First~Line} : ~~~m = - \frac{1}{2}, ~~b = 3\\
       \tmop{Second~Line} : ~m = \frac{3}{4}, ~~~b = - 2
 \end{array}  \amp   \amp  \tmop{Next} \tmop{graph} \tmop{both}
     \tmop{lines} \tmop{on} \tmop{the} \tmop{same} \tmop{plane}</mrow>
-  
 </md>
-  
 <p>
-<image source="images/" />
+<image width="85%" source="images/" />
 </p>
-  
+
 <p>
 To graph each equation, we start at the <m>y</m>-intercept and use the slope
 (<m>\frac{\tmop{rise}}{\tmop{run}}</m>) to get the next point, then connect the
-dots.\pp
+dots.
 		Remember a line with a negative slope points downhill from left to right!
 </p>
-  Find the intersection point, (4,1).  This is our solution. </statement>
+Find the intersection point, (4,1).  This is our solution.
+</statement>
 </example>
-  
 <p>
 Often our equations won't be in slope-intercept form and we will have to solve
 both equations for <m>y</m> first so we can identify the slope and <m>y</m>-intercept.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
       6 x - 3 y = - 9\\
       2 x + 2 y = - 6
 \end{array}  \amp   \amp  \tmop{Solve} \tmop{each} \tmop{equation} \tmop{for~} y</mrow>
-  
 </md>
   
-<md><mrow>6 x - 3 y = - 9~~ \amp  ~~~~~~2 x + 2 y = - 6~~~ \amp </mrow>
- <mrow>\tmmathbf{\underline{- 6 x ~~~~~~~- 6 x}} \amp  ~~~\tmmathbf{\underline{- 2 x ~~~~~~~~- 2 x}} \amp   \tmop{Subtract~} x
+<md>
+  <mrow>  6 x - 3 y = - 9~~ \amp  ~~~~~~2 x + 2 y = - 6~~~ \amp</mrow>
+  <mrow>  \tmmathbf{\underline{- 6 x ~~~~~~~- 6 x}} \amp  ~~~\tmmathbf{\underline{- 2 x ~~~~~~~~- 2 x}} \amp   \tmop{Subtract~} x
     \tmop{~terms}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>- 3 y = - 6 x ~- 9 \amp  ~~~2 y = - 2 x - 6 \amp  \tmop{Rearrange} \tmop{equations}</mrow>
- <mrow>\tmmathbf{\overline{- 3} ~~~~~ \overline{- 3} ~~ \overline{- 3}} \amp  ~~~\tmmathbf{\overline{2} ~~~~~~~ \overline{2} ~~~~~ \overline{2}} \amp  \tmop{Divide} \tmop{by} \tmop{coefficient} \tmop{of~}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  - 3 y = - 6 x ~- 9 \amp  ~~~2 y = - 2 x - 6 \amp  \tmop{Rearrange} \tmop{equations}</mrow>
+  <mrow>  \tmmathbf{\overline{- 3} ~~~~~ \overline{- 3} ~~ \overline{- 3}} \amp  ~~~\tmmathbf{\overline{2} ~~~~~~~ \overline{2} ~~~~~ \overline{2}} \amp  \tmop{Divide} \tmop{by} \tmop{coefficient} \tmop{of~}
     y</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>y = 2 x + 3~~~ \amp  ~~~y = - x - 3 \amp \tmop{Identify} \tmop{slope} \tmop{and~} y -
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  y = 2 x + 3~~~ \amp  ~~~y = - x - 3 \amp \tmop{Identify} \tmop{slope} \tmop{and~} y -
     \tmop{intercepts}</mrow>
- 
 </md>
   
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
 			\tmop{First~Line} : ~~~~m = \frac{2}{1}, ~~~~b = 3\\
       \tmop{Second~Line} : ~m = - \frac{1}{1}, ~~b = - 3
 \end{array}  \amp   \amp  \tmop{Next} \tmop{graph} \tmop{both}
     \tmop{lines} \tmop{on} \tmop{the} \tmop{same} \tmop{plane}</mrow>
-  
 </md>
-  
 <p>
-<image source="images/" />
+<image width="85%" source="images/" />
 </p>
-  
+
 <p>
 To graph each equation, we start at the <m>y</m>-intercept and use the slope
 (<m>\frac{\tmop{rise}}{\tmop{run}}</m>) to get the next point, then connect the
-dots.\pp
+dots.
 </p>
-  
+
 <p>
 Remember a line with a negative slope points downhill from left to right!
 </p>
-  Find the intersection point, (-2,11).  This is our solution. </statement>
+Find the intersection point, (-2,11).  This is our solution.
+</statement>
 </example>
-  
 <p>
 As we are graphing our lines, it is possible to have one of two unexpected
-results. These are shown and discussed in the next two examples.\pp
+results. These are shown and discussed in the next two examples.
 </p>
-  
+<example>
+<statement>
 <p>
-
-<nbsp /><br />
+Solve the following system of equations.
 </p>
-  
-<example><statement>
-<p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
-</p>
-  <m>y = \frac{3}{2} x - 4</m> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>y = \frac{3}{2} x + 1</m>\pp
+<m>y = \frac{3}{2} x - 4</m> <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> <m>y = \frac{3}{2} x + 1</m>
 		
 		Identify the slope and <m>y-</m>intercept of each equation.  
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
 			\tmop{First~Line} : ~~~~m = \frac{3}{2}, ~~b = -4\\
       \tmop{Second~Line} : ~m = \frac{3}{2}, ~~b = 1
 \end{array}  \amp   \amp  \tmop{Next} \tmop{graph} \tmop{both}
     \tmop{lines} \tmop{on} \tmop{the} \tmop{same} \tmop{plane}</mrow>
-  
 </md>
-  
 <p>
-<image source="images/" />
+<image width="85%" source="images/" />
 </p>
-  
+
 <p>
 To graph each equation, we start at the <m>y</m>-intercept and use the slope
 (<m>\frac{\tmop{rise}}{\tmop{run}}</m>) to get the next point, then connect the
-dots.\pp
+dots.
 </p>
-  
+
 <p>
 The two lines do not intersect; they are parallel! Since the lines do not intersect, we know that there is no point that will satisfy both equations.
 </p>
-  There is no solution, or <m>\varnothing</m>. </statement>
+There is no solution, or <m>\varnothing</m>.
+</statement>
 </example>
- 
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 Notice that we could also have recognized that both lines had the same slope. Remembering
 that parallel lines have the same slope one could conclude that there is no
-solution without having to graph the lines.\pp
+solution without having to graph the lines.
 </p>
-  
+<example>
+<statement>
 <p>
-
-<nbsp /><br />
+Solve the following system of equations.
 </p>
-  
-<example><statement>
-<p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
-</p>
-  
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
       2 x - 6 y = 12\\
       3 x - 9 y = 18
 \end{array}  \amp   \amp  \tmop{Solve} \tmop{each} \tmop{equation} \tmop{for~} y</mrow>
- 
 </md>
   
-<md><mrow>2 x - 6 y = 12~~~ \amp ~~~3 x - 9 y = 18~~ \amp </mrow>
- <mrow>\tmmathbf{\underline{- 2 x ~~~~~~~- 2 x}} \amp ~~~ \tmmathbf{\underline{- 3 x ~~~~~~~- 3 x}} \amp \tmop{Subtract} x
+<md>
+  <mrow>  2 x - 6 y = 12~~~ \amp ~~~3 x - 9 y = 18~~ \amp</mrow>
+  <mrow>  \tmmathbf{\underline{- 2 x ~~~~~~~- 2 x}} \amp ~~~ \tmmathbf{\underline{- 3 x ~~~~~~~- 3 x}} \amp \tmop{Subtract} x
     \tmop{terms}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>- 6 y = - 2 x + 12 \amp ~~~ - 9 y = - 3 x + 18~ \amp  \tmop{Put} x \tmop{terms}
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  - 6 y = - 2 x + 12 \amp ~~~ - 9 y = - 3 x + 18~ \amp  \tmop{Put} x \tmop{terms}
     \tmop{first}</mrow>
- <mrow>\tmmathbf{\overline{- 6} ~~~~~ \overline{- 6} ~~~ \overline{- 6}} \amp ~~~ \tmmathbf{\overline{- 9}~~~~~ 
+  <mrow>  \tmmathbf{\overline{- 6} ~~~~~ \overline{- 6} ~~~ \overline{- 6}} \amp ~~~ \tmmathbf{\overline{- 9} 
     \overline{- 9} ~~~ \overline{- 9}} \amp  \tmop{Divide} \tmop{by}
     \tmop{coefficient} \tmop{of} y</mrow>
- <mrow>y = \frac{1}{3} x - 2~~~ \amp ~~~ y = \displaystyle\frac{1}{3} x - 2 \amp  \tmop{Identify}
+  <mrow>  y = \frac{1}{3} x - 2~~~ \amp ~~~ y = \displaystyle\frac{1}{3} x - 2 \amp  \tmop{Identify}
     \tmop{the} \tmop{slopes} \tmop{and} y - \tmop{intercepts}</mrow>
-  
 </md>
   
-<md><mrow>\begin{array}{l}
+<md>
+  <mrow>  \begin{array}{l}
 			\tmop{First~Line} : ~~~~m = \frac{1}{3}, ~~b = -2\\
       \tmop{Second~Line} : ~m = \frac{1}{3}, ~~b = - 2
 \end{array}  \amp   \amp  \tmop{Next} \tmop{graph} \tmop{both}
     \tmop{lines} \tmop{on} \tmop{the} \tmop{same} \tmop{plane}</mrow>
-  
 </md>
-  
 <p>
-<image source="images/" />
+<image width="85%" source="images/" />
 </p>
-  
+
 <p>
 To graph each equation, we start at the <m>y</m>-intercept and use the slope
 (<m>\frac{\tmop{rise}}{\tmop{run}}</m>) to get the next point, then connect the
-dots.\pp
+dots.
 </p>
-  
+
 <p>
 Both equations are the same line!
 	
-As one line is directly on top of the other line, we can say that the lines "intersect" everywhere!
+As one line is directly on top of the other line, we can say that the lines <q>intersect</q> everywhere!
 </p>
-  Here we say there are infinitely many solutions.<br /> </statement>
+Here we say there are infinitely many solutions.<br />
+</statement>
 </example>
-  
 <p>
 Notice that once we had both equations in slope-intercept form we could have recognized that
 the equations were the same. At this point one could state that there are
 infinitely many solutions without having to go through the work of graphing the
-equations.\pp
+equations.
 </p>
-  
+
 <p>
 {\tmstrong{World View Note: }}The Babylonians were the first to work with
 systems of equations with two variables. However, their work with systems was
@@ -262,4 +243,4 @@ quickly passed by the Greeks who would solve systems of equations with three
 or four variables and around 300 A.D., developed methods for solving systems
 with any number of unknowns!
 </p>
- </section>
+</section>

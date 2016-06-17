@@ -1,786 +1,791 @@
-
 <section>
 <title>Practice Problems</title>
+
+
 <subsection>
 <title>Graphing</title>
 <p>
 {\tmstrong{Solve each system by graphing.}}
 </p>
-  
+
 <p>
 1)<br />
 	<m>y = - x + 1</m><br />
 	<m>y = - 5 x - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 5)<br />
 <m>y = - \frac{3}{4} x + 1</m><br />
 	<m>y = - \frac{3}{4} x + 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 9)<br />
 <m>y = \frac{5}{3} x + 4</m><br />
 	<m>y = - \frac{2}{3} x - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 13)<br />
 <m>x - y = 4</m><br />
 	<m>2 x + y = - 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 17)<br />
 <m>2 x + y = 2</m><br />
 	<m>x - y = 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 21)<br />
 <m>9y+6x=36</m><br />
 	<m>3y-6x=-12</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 25)<br />
 <m>3 + y = - x</m><br />
 	<m>- 4 - 6 x = - y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 29)<br />
 <m>- 12 + x = 4 y</m><br />
 	<m>12 - 5 x = 4 y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 2)<br />
 <m>y = - \frac{5}{4} x - 2</m><br />
 	<m>y = - \frac{1}{4} x + 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 6)<br />
 <m>y = 2 x + 2</m><br />
 	<m>y = - x - 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 10)<br />
 <m>y = \frac{1}{2} x + 4</m><br />
 	<m>y = \frac{1}{2} x + 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 14)<br />
 <m>6 x + y = - 3</m><br />
 	<m>x + y = 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 18)<br />
 <m>x + 2 y = 6</m><br />
 	<m>5 x - 4 y = 16</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 22)<br />
 <m>- 2 y + x = 4</m><br />
 	<m>2 = - x + \frac{1}{2} y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 26)<br />
 <m>16 = - x - 4 y</m><br />
 	<m>- 2 x = - 4 - 4 y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 30)<br />
 <m>- 5 x + 1 = - y</m><br />
 	<m>- y + x = - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 3)<br />
 <m>y = - 3</m><br />
 	<m>y = - x - 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 7)<br />
 <m>y = \frac{1}{3} x + 2</m><br />
 	<m>y = - \frac{5}{3} x - 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 11)<br />
 <m>x + 3 y = - 9</m><br />
 	<m>5 x + 3 y = 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 15)<br />
 <m>2 x + 3 y = - 6</m><br />
 	<m>2 x + y = 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 19)<br />
 <m>2 x + y = - 2</m><br />
 	<m>x + 3 y = 9</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 23)<br />
 <m>2 x - y = - 1</m><br />
 	<m>3 = - 2 x - y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 27)<br />
 <m>- y + 7 x = 4</m><br />
 	<m>- y + 7 x = 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 4)<br />
 <m>y = - x - 2</m><br />
 	<m>y = \frac{2}{3} x + 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 8)<br />
 <m>y = 2 x - 4</m><br />
 	<m>y = \frac{1}{2} x + 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 12)<br />
 <m>x + 4 y = - 12</m><br />
 	<m>2 x + y = 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 16)<br />
 <m>3 x + 2 y = 2</m><br />
 	<m>3 x + 2 y = - 6</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 20)<br />
 <m>x - y = 3</m><br />
 	<m>5 x + 2 y = 8</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 24)<br />
 <m>- 2 y = - 4 - x</m><br />
 	<m>- 2 y = - 5 x + 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 28)<br />
 <m>- 4 + y = x</m><br />
 	<m>x + 2 = - y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Substitution</title>
 <p>
 {\tmstrong{Solve each system by substitution.}}
 </p>
-  
+
 <p>
 1)<br />
 	<m>y = - 3 x</m><br />
 	<m>y = 6 x - 9</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 5)<br />
 <m>y = 6 x + 4</m><br />
 	<m>y = - 3 x - 5</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 9)<br />
 <m>y = 2 x - 3</m><br />
 	<m>y = - 2 x + 9</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 13)<br />
 <m>y = - 6</m><br />
 	<m>3 x - 6 y = 30</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 17)<br />
 <m>- 2 x + 2 y = 18</m><br />
 <m>y = 7 x + 15</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 21)<br />
 <m>7 x - 2 y = - 7</m><br />
 <m>y = 7</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 25)<br />
 <m>- 2 x - y = - 5</m><br />
 <m>x - 8 y = - 23</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 29)<br />
 <m>3 x + y = 9</m><br />
 	<m>2 x + 8 y = - 16</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 33)<br />
 <m>x + 5 y = 15</m><br />
 <m>- 3 x + 2 y = 6</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 2)<br />
 <m>y = x + 5</m><br />
 	<m>y = - 2 x - 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 6)<br />
 <m>y = 3 x + 13</m><br />
 	<m>y = - 2 x - 22</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 10)<br />
 <m>y = 7 x - 24</m><br />
 	<m>y = - 3 x + 16</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 14)<br />
 <m>6 x - 4 y = - 8</m><br />
 <m>y = - 6 x + 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 18)<br />
 <m>y = x + 4</m><br />
 	<m>3 x - 4 y = - 19</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 22)<br />
 <m>x - 2 y = - 13</m><br />
 <m>4 x + 2 y = 18</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 26)<br />
 <m>6 x + 4 y = 16</m><br />
 <m>- 2 x + y = - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 30)<br />
 <m>- 5 x - 5 y = - 20</m><br />
 <m>- 2 x + y = 7</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 34)<br />
 <m>2 x + 3 y = - 10</m><br />
 <m>7 x + y = 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 3)<br />
 <m>y = - 2 x - 9</m><br />
 	<m>y = 2 x - 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 7)<br />
 <m>y = 3 x + 2</m><br />
 	<m>y = - 3 x + 8</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 11)<br />
 <m>y = 6 x - 6</m><br />
 	<m>- 3 x - 3 y = - 24</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 15)<br />
 <m>y = - 5</m><br />
 	<m>3 x + 4 y = - 17</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 19)<br />
 <m>y = - 8 x + 19</m><br />
 	<m>- x + 6 y = 16</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 23)<br />
 <m>x - 5 y = 7</m><br />
 	<m>2 x + 7 y = - 20</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 27)<br />
 <m>- 6 x + y = 20</m><br />
 <m>- 3 x - 3 y = - 18</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 31)<br />
 <m>2 x + y = 2</m><br />
 <m>3 x + 7 y = 14</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 35)<br />
 <m>- 2 x + 4 y = - 16</m><br />
 <m>y = - 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 4)<br />
 <m>y = - 6 x + 3</m><br />
 	<m>y = 6 x + 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 8)<br />
 <m>y = - 2 x - 9</m><br />
 	<m>y = - 5 x - 21</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 12)<br />
 <m>- x + 3 y = 12</m><br />
 <m>y = 6 x + 21</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 16)<br />
 <m>7 x + 2 y = - 7</m><br />
 <m>y = 5 x + 5</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 20)<br />
 <m>y = - 2 x + 8</m><br />
 <m>- 7 x - 6 y = - 8</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 24)<br />
 <m>3 x - 4 y = 15</m><br />
 <m>7 x + y = 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 28)<br />
 <m>7 x + 5 y = - 13</m><br />
 <m>x - 4 y = - 16</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 32)<br />
 <m>2 x + y = - 7</m><br />
 <m>5 x + 3 y = - 21</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 36)<br />
 <m>- 2 x + 2 y = - 22</m><br />
 <m>- 5 x - 7 y = - 19</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 37)<br />
 <m>- 6 x + 6 y = - 12</m><br />
 <m>8 x - 3 y = 16</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 38)<br />
 <m>- 8 x + 2 y = - 6</m><br />
 <m>- 2 x + 3 y = 11</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 39)<br />
 <m>2 x + 3 y = 16</m><br />
 <m>- 7 x - y = 20</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 40)<br />
 <m>- x - 4 y = - 14</m><br />
 <m>- 6 x + 8 y = 12</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection xml:id="matrices1">
 <title>Addition/Elimination</title>
 <p>
@@ -788,373 +793,375 @@
 	<m>4 x + 2 y = 0</m><br />
 <m>- 4 x - 9 y = - 28</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 5)<br />
 	<m>- 6 x + 9 y = 3</m><br />
 <m>6 x - 9 y = - 9</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 9)<br />
 <m>- x - 5 y = 28</m><br />
 <m>- x + 4 y = - 17</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 13)<br />
 <m>10 x + 6 y = 24</m><br />
 <m>- 6 x + y = 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 17)<br />
 <m>- 7 x + 4 y = - 4</m><br />
 <m>10 x - 8 y = - 8</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 21)<br />
 <m>- 7 x - 3 y = 12</m><br />
 <m>- 6 x - 5 y = 20</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 25)<br />
 <m>9 x + 6 y = - 21</m><br />
 <m>- 10 x - 9 y = 28</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 29)<br />
 <m>- 8 x - 8 y = - 8</m><br />
 <m>10 x + 9 y = 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 33)<br />
 <m>0 = 9 x + 5 y</m><br />
 <m>y = \frac{2}{7} x</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 2)<br />
 <m>- 7 x + y = - 10</m><br />
 <m>- 9 x - y = - 22</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 6)<br />
 <m>5 x - 5 y = - 15</m><br />
 <m>5 x - 5 y = - 15</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 10)<br />
 <m>- 10 x - 5 y = 0</m><br />
 <m>10 x +10 y=30</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 14)<br />
 <m>x + 3 y = - 1</m><br />
 <m>10 x + 6 y = - 10</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 18)<br />
 <m>- 6 x + 4 y = 4</m><br />
 <m>- 3 x - y = 26</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 22)<br />
 <m>- 5 x + 4 y = 4</m><br />
 <m>- 7 x - 10 y = - 10</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 26)<br />
 <m>- 4 x - 5 y = 12</m><br />
 <m>- 10 x + 6 y = 30</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 30)<br />
 <m>- 7 x + 10 y = 13</m><br />
 <m>4 x + 9 y = 22</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 34)<br />
 <m>- 6 - 42 y = - 12 x</m><br />
-	<m>x - \frac{7}{2} y = \frac{1}{2} </m>
+	<m>x - \frac{7}{2} y = \frac{1}{2}</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 3)<br />
 <m>- 9 x + 5 y = - 22</m><br />
 <m>9 x - 5 y = 13</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 7)<br />
 <m>4 x - 6 y = - 10</m><br />
 <m>4 x - 6 y = - 14</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 11)<br />
 <m>2 x - y = 5</m><br />
 <m>5 x + 2 y = - 28</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 15)<br />
 <m>2 x + 4 y = 24</m><br />
 <m>4 x - 12 y = 8</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 19)<br />
 <m>5 x + 10 y = 20</m><br />
 <m>- 6 x - 5 y = - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 23)<br />
 <m>9 x - 2 y = - 18</m><br />
 <m>5 x - 7 y = - 10</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 27)<br />
 <m>- 7 x + 5 y = - 8</m><br />
 <m>- 3 x - 3 y = 12</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 31)<br />
 <m>9 y = 7 - x</m><br />
 <m>- 18 y + 4 x = - 26</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 4)<br />
 <m>- x - 2 y = - 7</m><br />
 <m>x + 2 y = 7</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 8)<br />
 <m>- 3 x + 3 y = - 12</m><br />
 <m>- 3 x + 9 y = - 24</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 12)<br />
 <m>- 5 x + 6 y = - 17</m><br />
 <m>x - 2 y = 5</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 16)<br />
 <m>- 6 x + 4 y = 12</m><br />
 <m>12 x + 6 y = 18</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 20)<br />
 <m>- 9 x - 5 y = - 19</m><br />
 <m>3 x - 7 y = - 11</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 24)<br />
 <m>3 x + 7 y = - 8</m><br />
 <m>4 x + 6 y = - 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 28)<br />
 <m>8 x + 7 y = - 24</m><br />
 <m>6 x + 3 y = - 18</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 32)<br />
 <m>21 = - 9 x + 12 y</m><br />
 	<m>\frac{4}{3} y + \frac{7}{3} x=-1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection xml:id="matrices2">
 <title>Three Variables</title>
 <p>
@@ -1163,260 +1170,260 @@
 <m>2 a + b - c = - 1</m><br />
 <m>3 a + 3 b - 2 c = - 4</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 4)<br />
 <m>x + y + z = 2</m><br />
 <m>6 x - 4 y + 5 z = 31</m><br />
 <m>5 x + 2 y + 2 z = 13</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 7)<br />
 <m>x + y + z = 6</m><br />
 <m>2 x - y - z = - 3</m><br />
 <m>x - 2 y + 3 z = 6</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 10)<br />
 <m>x + 2 y - z = 4</m><br />
 <m>4 x - 3 y + z = 8</m><br />
 <m>5 x - y = 12</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 13)<br />
 <m>2 x + y - 3 z = 0</m><br />
 <m>x - 4 y + z = 0</m><br />
 <m>4 x + 16 y + 4 z = 0</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 16)<br />
 <m>p + q + r = 1</m><br />
 <m>p + 2 q + 3 r = 4</m><br />
 <m>4 p + 5 q + 6 r = 7</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 19)<br />
 <m>x - y + 2 z = 0</m><br />
 <m>x - 2 y + 3 z = - 1</m><br />
 <m>2 x - 2 y + z = - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 2)<br />
 <m>2 x + 3 y = z - 1</m><br />
 <m>3 x = 8 z - 1</m><br />
 <m>5 y + 7 z = - 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 5)<br />
 <m>x + 6 y + 3 z = 4</m><br />
 <m>2 x + y + 2 z = 3</m><br />
 <m>3 x - 2 y + z = 0</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 8)<br />
 <m>x + y - z = 0</m><br />
 <m>x + 2 y - 4 z = 0</m><br />
 <m>2 x + y + z = 0</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 11)<br />
 <m>- 2 x + y - 3 z = 1</m><br />
 <m>x - 4 y + z = 6</m><br />
 <m>4 x + 16 y + 4 z = 24</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 14)<br />
 <m>4 x + 12 y + 16 z = 0</m><br />
 <m>3 x + 4 y + 5 z = 0</m><br />
 <m>x + 8 y + 11 z = 0</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 17)<br />
 <m>x - 2 y + 3 z = 4</m><br />
 <m>2 x - y + z = - 1</m><br />
 <m>4 x + y + z = 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 20)<br />
 <m>4 x - 7 y + 3 z = 1</m><br />
 <m>3 x + y - 2 z = 4</m><br />
 <m>4 x - 7 y + 3 z = 6</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 3)<br />
 <m>3 x + y - z = 11</m><br />
 <m>x + 3 y = z + 13</m><br />
 <m>x + y - 3 z = 11</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 6)<br />
 <m>x - y + 2 z = - 3</m><br />
 <m>x + 2 y + 3 z = 4</m><br />
 <m>2 x + y + z = - 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 9)<br />
 <m>x + y - z = 0</m><br />
 <m>x - y - z = 0</m><br />
 <m>x + y + 2 z = 0</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 12)<br />
 <m>4 x + 12 y + 16 z = 4</m><br />
 <m>3 x + 4 y + 5 z = 3</m><br />
 <m>x + 8 y + 11 z = 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 15)<br />
 <m>3 x + 2 y + 2 z = 3</m><br />
 <m>x + 2 y - z = 5</m><br />
 <m>2 x - 4 y + z = 0</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 18)<br />
 <m>x + 2 y - 3 z = 9</m><br />
 <m>2 x - y + 2 z = - 8</m><br />
 <m>3 x - y - 4 z = 3</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 21)<br />
 <m>4 x - 3 y + 2 z = 40</m><br />
 <m>5 x + 9 y - 7 z = 47</m><br />
 <m>9 x + 8 y - 3 z = 97</m>
 </p>
-  
+
 <p>
 <nbsp /> 22)<br />
 <m>3 x + y - z = 10</m><br />
 <m>8 x - y - 6 z = - 3</m><br />
 <m>5 x - 2 y - 5 z = 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 25)<br />
 <m>3 x - 4 y + 2 z = 1</m><br />
 <m>2 x + 3 y - 3 z = - 1</m><br />
 <m>x + 10 y - 8 z = 7</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 28)<br />
 <m>3 x + 2 y = z + 2</m><br />
 <m>y = 1 - 2 x</m><br />
 <m>3 z = - 2 y</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 31)<br />
 <m>w + x + y + z = 2</m><br />
@@ -1424,33 +1431,33 @@
 <m>w - x + y + z = 6</m><br />
 	<m>w - 3 x - y + z = 2</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 23)<br />
 <m>3 x + 3 y - 2 z = 13</m><br />
 <m>6 x + 2 y - 5 z = 13</m><br />
 <m>5 x - 2 y - 5 z = - 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 26)<br />
 <m>2 x + y = z</m><br />
 <m>4 x + z = 4 y</m><br />
 <m>y = x + 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 29)<br />
 <m>2 w - 2 x - 2 y + 2 z = 10</m><br />
@@ -1458,11 +1465,11 @@
 	<m>3 w + 2 x + 2 y + 4 z = - 11</m><br />
 	<m>w + 3 x - 2 y + 2 z = - 6</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 32)<br />
 <m>w + x - y + z = 0</m><br />
@@ -1470,29 +1477,29 @@
 	<m>w - 3 x - y + z = 4</m><br />
 	<m>2 w - x - y + 3 z = 7</m>
 </p>
-  
+
 <p>
 24)<br />
 <m>2 x - 3 y + 5 z = 1</m><br />
 <m>3 x + 2 y - z = 4</m><br />
 <m>4 x + 7 y - 7 z = 7</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 27)<br />
 <m>m + 6 n + 3 p = 8</m><br />
 <m>3 m + 4 n = - 3</m><br />
 <m>5 m + 7 n = 1</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 30)<br />
 <m>w - 2 x + 3 y - z = 8</m><br />
@@ -1500,136 +1507,140 @@
 	<m>w + x + y + z = 22</m><br />
 	<m>w - x + y + z = 14</m>
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 <nbsp />
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Applications</title>
+
+
 <subsubsection>
 <title>Value Problems</title>
 <p>
 {\tmstrong{Solve each value problem.}}
 </p>
-  
+
 <p>
 1) A collection of dimes and quaters is worth <m>\dollar15.25</m>. There are
 103 coins in all. How many of each is there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 2) A collection of half dollars and nickels is worth <m>\dollar13.40</m>. There
 are 34 coins in all. How many are there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 3) The attendance at a school concert was 578. Admission was <m>\dollar2.00</m>
 for adults and <m>\dollar1.50</m> for children. The total
 receipts were <m>\dollar985.00</m>. How many adults and how many
 children attended?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 4) A purse contains <m>\dollar3.90</m> made up of dimes and quarters. If there
 are 21 coins in all, how many dimes and how many quarters were there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 5) A boy has <m>\dollar2.25</m> in nickels and dimes. If there are twice as
 many dimes as nickels, how many of each kind has he?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 6) <m>\dollar3.75</m> is made up of quarters and half dollars. If the number of
 quarters exceeds the number of half dollars by 3,
 how many coins of each denomination are there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 7) A collection of 27 coins consisting of nickels and dimes amounts to
 <m>\dollar2.25</m>. How many coins of each kind are there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 8) <m>\dollar3.25</m> in dimes and nickels, were distributed among 45 boys. If
 each received one coin, how many received dimes and how many
 received nickels?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 9) There were 429 people at a play. Admission was <m>\dollar1</m> each for
 adults and 75-cents each for children. The receipts were
 <m>\dollar372.50</m>. How many children and how many adults
 attended?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 10) There were 200 tickets sold for a women's basketball game. Tickets for students were 50-cents each and for adults 75-cents
 each. The total amount of money collected was <m>\dollar132.50</m>.
 How many of each type of ticket was sold?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 11) There were 203 tickets sold for a volleyball game. For activity-card
 holders, the price was <m>\dollar1.25</m> each and for
@@ -1637,73 +1648,73 @@ noncard holders the price was <m>\dollar2</m> each. The total
 amount of money collected was <m>\dollar310</m>. How many of each type of
 ticket was sold?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 12) At a local ball game the hotdogs sold for <m>\dollar2.50</m> each and the
 hamburgers sold for <m>\dollar2.75</m> each. There were 131 total
 sandwiches sold for a total value of <m>\dollar342</m>. How many of
 each sandwich was sold?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 13) At a recent Vikings game <m>\dollar445</m> in admission tickets was taken
 in. The cost of a student ticket was <m>\dollar1.50</m> and the
 cost of a non-student ticket was <m>\dollar2.50</m>. A total of
 232 tickets were sold. How many students and how many non-students attended the game?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 14) A bank contains 27 coins in dimes and quarters. The coins have a total
 value of <m>\dollar4.95</m>. Find the number of dimes and quarters
 in the bank.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 15) A coin purse contains 18 coins in nickels and dimes. The coins have a
 total value of <m>\dollar1.15</m>. Find the number of nickels
 and dimes in the coin purse.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 16) A business executive bought 40 stamps for <m>\dollar9.60</m>. The purchase
 included 25-cents stamps and 20-cents stamps. How
 many of each type of stamp were bought?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 17) A postal clerk sold some 15-cents stamps and some 25-cents
 stamps. Altogether, 15 stamps were sold for a total cost
 of <m>\dollar3.15</m>. How many of each type of stamps were sold?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 18) A drawer contains 15-cents stamps and 18-cents stamps. The
 number of 15-cents stamps is four less than three times the
@@ -1711,713 +1722,721 @@ number of 18-cents stamps. The total value of all the
 stamps is <m>\dollar1.29</m>. How many 15-cents stamps are in the
 drawer?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 19) The total value of dimes and quarters in a bank is <m>\dollar6.05</m>.
 There are six more quarters than dimes. Find the number of
 each type of coin in the bank.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 20) A child's piggy bank contains 44 coins in quarters and dimes. The coins
 have a total value of <m>\dollar8.60</m>. Find the number of
 quarters in the bank.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 21) A coin bank contains nickels and dimes. The number of dimes is 10 less
 than twice the number of nickels. The total value of all the coins
 is <m>\dollar2.75</m>. Find the number of each type of coin in the
 bank.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 22) A total of 26 bills are in a cash box. Some of the bills are one dollar
 bills, and the rest are five dollar bills. The total amount of cash
 in the box is <m>\dollar50</m>. Find the number of each type of
 bill in the cash box.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 23) A bank teller cashed a check for <m>\dollar200</m> using twenty dollar
 bills and ten dollar bills. In all, twelve bills were handed to
 the customer. Find the number of twenty dollar bills and
 the number of ten dollar bills.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 24) A collection of stamps consists of 22-cents stamps and
 40-cents stamps. The number of 22-cents stamps is
 three more than four times the number of 40-cents stamps. The total value of the stamps is <m>\dollar8.34</m>. Find the number of
 22-cents stamps in the collection.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-25) A total of <m>\dollar27000</m> is invested, part of it at 12% and the rest
-at 13%. The total interest after one year is
+25) A total of <m>\dollar27000</m> is invested, part of it at 12<percent /> and the rest
+at 13<percent />. The total interest after one year is
 <m>\dollar3385</m>. How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-26) A total of <m>\dollar50000</m> is invested, part of it at 5% and the rest
-at 7.5%. The total interest after one year is <m>\dollar3250</m>.
+26) A total of <m>\dollar50000</m> is invested, part of it at 5<percent /> and the rest
+at 7.5<percent />. The total interest after one year is <m>\dollar3250</m>.
 How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-27) A total of <m>\dollar9000</m> is invested, part of it at 10% and the rest
-at 12%. The total interest after one year is <m>\dollar1030</m>.
+27) A total of <m>\dollar9000</m> is invested, part of it at 10<percent /> and the rest
+at 12<percent />. The total interest after one year is <m>\dollar1030</m>.
 How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-28) A total of <m>\dollar18000</m> is invested, part of it at 6% and the rest
-at 9%. The total interest after one year is
+28) A total of <m>\dollar18000</m> is invested, part of it at 6<percent /> and the rest
+at 9<percent />. The total interest after one year is
 <m>\dollar1248</m>. How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-29) An inheritance of <m>\dollar10000</m> is invested in 2 ways, part at 9.5\and the remainder at 11%. The combined
+29) An inheritance of <m>\dollar10000</m> is invested in 2 ways, part at 9.5\and the remainder at 11<percent />. The combined
 annual interest was <m>\dollar1038.50</m>. How much was
 invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 30) Kerry earned a total of <m>\dollar900</m> last year on his investments. If
 <m>\dollar7000</m> was invested at a certain rate
-of return and <m>\dollar9000</m> was invested in a fund with a rate that was 2% higher, find the two rates of interest.
+of return and <m>\dollar9000</m> was invested in a fund with a rate that was 2<percent /> higher, find the two rates of interest.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 31) Jason earned <m>\dollar256</m> interest last year on his investments. If
 <m>\dollar1600</m> was invested at a certain rate of return and
 <m>\dollar2400</m> was invested in a fund with a rate that was
 double the rate of the first fund, find the two rates of interest.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 32) Millicent earned <m>\dollar435</m> last year in interest. If
 <m>\dollar3000</m> was invested at a certain rate of return and
-<m>\dollar4500</m> was invested in a fund with a rate that was 2% lower, find the two rates of interest.
+<m>\dollar4500</m> was invested in a fund with a rate that was 2<percent /> lower, find the two rates of interest.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-33) A total of <m>\dollar8500</m> is invested, part of it at 6% and the rest
-at 3.5%. The total interest after one year is <m>\dollar385</m>.
+33) A total of <m>\dollar8500</m> is invested, part of it at 6<percent /> and the rest
+at 3.5<percent />. The total interest after one year is <m>\dollar385</m>.
 How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-34) A total of <m>\dollar12000</m> was invested, part of it at 9% and the rest
-at 7.5%. The total interest after one year is
+34) A total of <m>\dollar12000</m> was invested, part of it at 9<percent /> and the rest
+at 7.5<percent />. The total interest after one year is
 <m>\dollar1005</m>. How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-35) A total of <m>\dollar15000</m> is invested, part of it at 8% and the rest
-at 11%. The total interest after one year is <m>\dollar1455</m>.
+35) A total of <m>\dollar15000</m> is invested, part of it at 8<percent /> and the rest
+at 11<percent />. The total interest after one year is <m>\dollar1455</m>.
 How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-36) A total of <m>\dollar17500</m> is invested, part of it at 7.25% and the
-rest at 6.5%. The total interest after one year is
+36) A total of <m>\dollar17500</m> is invested, part of it at 7.25<percent /> and the
+rest at 6.5<percent />. The total interest after one year is
 <m>\dollar1227.50</m>. How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-37) A total of <m>\dollar6000</m> is invested, part of it at 4.25% and the
-rest at 5.75%. The total interest after one year is
+37) A total of <m>\dollar6000</m> is invested, part of it at 4.25<percent /> and the
+rest at 5.75<percent />. The total interest after one year is
 <m>\dollar300</m>. How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-38) A total of <m>\dollar14000</m> is invested, part of it at 5.5% and the
-rest at 9%. The total interest after one year is <m>\dollar910</m>.
+38) A total of <m>\dollar14000</m> is invested, part of it at 5.5<percent /> and the
+rest at 9<percent />. The total interest after one year is <m>\dollar910</m>.
 How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-39) A total of <m>\dollar11000</m> is invested, part of it at 6.8% and the
-rest at 8.2%. The total interest after one year is
+39) A total of <m>\dollar11000</m> is invested, part of it at 6.8<percent /> and the
+rest at 8.2<percent />. The total interest after one year is
 <m>\dollar797</m>. How much was invested at each rate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 40) An investment portfolio earned <m>\dollar2010</m> in interest last year. If
 <m>\dollar3000</m> was invested at a certain rate of
 return and <m>\dollar24000</m> was invested in a fund with a rate
-that was 4% lower, find the two rates of interest.
+that was 4<percent /> lower, find the two rates of interest.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 41) Samantha earned <m>\dollar1480</m> in interest last year on her
 investments. If <m>\dollar5000</m> was invested at a certain rate of
 return and <m>\dollar11000</m> was invested in a fund with a rate
 that was two-thirds the rate of the first fund, find the two rates of interest.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 42) A man has <m>\dollar5.10</m> in nickels, dimes, and quarters. There are
 twice as many nickels as dimes and 3 more dimes than
 quarters. How many coins of each kind were there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 43) 30 coins having a value of <m>\dollar3.30</m> consists of nickels, dimes
 and quarters. If there are twice as many quarters as
 dimes, how many coins of each kind were there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 44) A bag contains nickels, dimes and quarters having a value of
 <m>\dollar3.75</m>. If there are 40 coins in all and 3 times as
 many dimes as quarters, how many coins of each kind were there?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
- </subsubsection> 
+</subsubsection>
+
+
 <subsubsection>
 <title>Mixture Problems</title>
 <p>
 {\tmstrong{Solve each mixture problem.}}
 </p>
-  
+
 <p>
-1) A tank contains 8000 liters of a solution that is 40% acid. How much water should be added to make a solution that is 30% acid?
+1) A tank contains 8000 liters of a solution that is 40<percent /> acid. How much water should be added to make a solution that is 30<percent /> acid?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-2) How much antifreeze should be added to 5 quarts of a 30% mixture of antifreeze to make a solution that is 50\antifreeze?
+2) How much antifreeze should be added to 5 quarts of a 30<percent /> mixture of antifreeze to make a solution that is 50\antifreeze?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-3) Of 12 pounds of salt water 10% is salt; of another mixture 3% is salt.
+3) Of 12 pounds of salt water 10<percent /> is salt; of another mixture 3<percent /> is salt.
 How many pounds of the second should be added to the first
-in order to get a mixture of 5% salt?
+in order to get a mixture of 5<percent /> salt?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-4) How much alcohol must be added to 24 gallons of a 14% solution of alcohol
-in order to produce a 20% solution?
+4) How much alcohol must be added to 24 gallons of a 14<percent /> solution of alcohol
+in order to produce a 20<percent /> solution?
 </p>
-  
-<p>
-<nbsp />
-</p>
-  
-<p>
-5) How many pounds of a 4% solution of borax must be added to 24 pounds of a 12% solution of borax to obtain a 10% solution of borax?
-</p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-6) How many grams of pure acid must be added to 40 grams of a 20% acid solution to make a solution which is 36% acid?
+5) How many pounds of a 4<percent /> solution of borax must be added to 24 pounds of a 12<percent /> solution of borax to obtain a 10<percent /> solution of borax?
 </p>
-  
-<p>
-<nbsp />
-</p>
-  
-<p>
-7) A 100 LB bag of animal feed is 40% oats. How many pounds of oats must be added to this feed to produce a mixture which is 50% oats?
-</p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
+<p>
+6) How many grams of pure acid must be added to 40 grams of a 20<percent /> acid solution to make a solution which is 36<percent /> acid?
+</p>
+
+<p>
+<nbsp />
+</p>
+
+<p>
+7) A 100 LB bag of animal feed is 40<percent /> oats. How many pounds of oats must be added to this feed to produce a mixture which is 50<percent /> oats?
+</p>
+
+<p>
+<nbsp />
+</p>
+
 <p>
 8) A 20 oz alloy of platinum that costs <m>\dollar220</m> per ounce is mixed
 with an alloy that costs <m>\dollar400</m> per ounce. How many ounces of the <m>\dollar400</m> alloy should be used to make an
 alloy that costs <m>\dollar300</m> per ounce?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 9) How many pounds of tea that cost <m>\dollar4.20</m> per pound must be mixed
 with 12 lb of tea that cost <m>\dollar2.25</m> per pound to make a
 mixture that costs <m>\dollar3.40</m> per pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 10) How many liters of a solvent that costs <m>\dollar80</m> per liter must be
 mixed with 6 L of a solvent that costs <m>\dollar25</m> per liter
 to make a solvent that costs <m>\dollar36</m> per liter?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 11) How many kilograms of hard candy that cost <m>\dollar7.50</m> per kilogram
 must be mixed with 24 kg of jelly beans that cost
 <m>\dollar3.25</m> per kilogram to make a mixture
 that sells for <m>\dollar4.50</m> per kilogram?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 12) How many kilograms of soil supplement that costs <m>\dollar7.00</m> per
 kilogram must be mixed with 20 kg of aluminum nitrate that
 costs <m>\dollar3.50</m> per kilogram to make a fertilizer
 that costs <m>\dollar4.50</m> per kilogram?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 13) How many pounds of lima beans that cost 90-cents per pound must be
 mixed with 16 lb of corn that cost 50-cents per pound to make
 a mixture of vegetables that costs 65-cents per
 pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 14) How many liters of a blue dye that costs <m>\dollar1.60</m> per liter must
 be mixed with 18 L of a dye that costs <m>\dollar2.50</m> per
 liter to make a mixture that costs <m>\dollar1.90</m> per liter?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-15) Solution A is 50% acid and solution B is 80% acid. How much of each
-should be used to make 100cc. of a solution that is 68% acid?
+15) Solution A is 50<percent /> acid and solution B is 80<percent /> acid. How much of each
+should be used to make 100cc. of a solution that is 68<percent /> acid?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-16) A certain grade of milk contains 10% butter fat and a certain grade of
-cream 60% butter fat. How many quarts of each must be taken so
+16) A certain grade of milk contains 10<percent /> butter fat and a certain grade of
+cream 60<percent /> butter fat. How many quarts of each must be taken so
 as to obtain a mixture of 100 quarts that will be 45\butter fat?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-17) A farmer has some cream which is 21% butterfat and some which is 15% butter fat. How many gallons of each must be mixed to
-produce 60 gallons of cream which is 19% butterfat?
+17) A farmer has some cream which is 21<percent /> butterfat and some which is 15<percent /> butter fat. How many gallons of each must be mixed to
+produce 60 gallons of cream which is 19<percent /> butterfat?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-18) A syrup manufacturer has some pure maple syrup and some which is 85% maple syrup. How many liters of each should be mixed to make
-150L which is 96% maple syrup?
+18) A syrup manufacturer has some pure maple syrup and some which is 85<percent /> maple syrup. How many liters of each should be mixed to make
+150L which is 96<percent /> maple syrup?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-19) A chemist wants to make 50ml of a 16% acid solution by mixing a 13% acid solution and an 18% acid solution. How many milliliters of
+19) A chemist wants to make 50ml of a 16<percent /> acid solution by mixing a 13<percent /> acid solution and an 18<percent /> acid solution. How many milliliters of
 each solution should the chemist use?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-20) A hair dye is made by blending 7% hydrogen peroxide solution and a 4% hydrogen peroxide solution. How many milliliters of each
-are used to make a 300 ml solution that is 5% hydrogen
+20) A hair dye is made by blending 7<percent /> hydrogen peroxide solution and a 4<percent /> hydrogen peroxide solution. How many milliliters of each
+are used to make a 300 ml solution that is 5<percent /> hydrogen
 peroxide?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-21) A paint that contains 21% green dye is mixed with a paint that contains
-15% green dye. How many gallons of each must be used to make 60
-gal of paint that is 19% green dye?
+21) A paint that contains 21<percent /> green dye is mixed with a paint that contains
+15<percent /> green dye. How many gallons of each must be used to make 60
+gal of paint that is 19<percent /> green dye?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 22) A candy mix sells for <m>\dollar2.20</m> per kilogram. It contains
 chocolates worth <m>\dollar1.80</m> per kilogram and other candy
 worth <m>\dollar3.00</m> per kilogram. How much of each are in
 15 kilograms of the mixture?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 23) To make a weed and feed mixture, the Green Thumb Garden Shop mixes fertilizer worth <m>\dollar4.00</m>/lb. with a weed killer
 worth <m>\dollar8.00</m>/lb. The mixture will cost
 <m>\dollar6.00</m>/lb. How much of each should be used to prepare 500 lb. of the mixture?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 24) A grocer is mixing 40 cent per lb. coffee with 60 cent per lb. coffee to
 make a mixture worth 54-cents per lb. How much of each kind
 of coffee should be used to make 70 lb. of the mixture?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 25) A grocer wishes to mix sugar at 9-cents per pound with sugar at 6-cents
 per pound to make 60 pounds at 7-cents per pound. What quantity
 of each must he take?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 26) A high-protein diet supplement that costs <m>\dollar6.75</m> per pound is
 mixed with a vitamin supplement that costs <m>\dollar3.25</m>
 per pound. How many pounds of each should be used to make 5
 lb of a mixture that costs <m>\dollar4.65</m> per pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 27) A goldsmith combined an alloy that costs <m>\dollar4.30</m> per ounce with
 an alloy that costs <m>\dollar1.80</m>per ounce. How many ounces
 of each were used to make a mixture of 200 oz costing
 <m>\dollar2.50</m> per ounce?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 28) A grocery store offers a cheese and fruit sampler that combines cheddar
 cheese that costs <m>\dollar8</m> per kilogram with kiwis that cost
 <m>\dollar3</m> per kilogram. How many kilograms of each were
 used to make a 5 kg mixture that costs <m>\dollar4.50</m> per kilogram?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-29) The manager of a garden shop mixes grass seed that is 60% rye grass with
-70 lb of grass seed that is 80% rye grass to make a mixture
-that is 74% rye grass. How much of the 60% mixture
+29) The manager of a garden shop mixes grass seed that is 60<percent /> rye grass with
+70 lb of grass seed that is 80<percent /> rye grass to make a mixture
+that is 74<percent /> rye grass. How much of the 60<percent /> mixture
 is used?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-30) How many ounces of water evaporated from 50 oz of a 12% salt solution to produce a 15% salt solution?
+30) How many ounces of water evaporated from 50 oz of a 12<percent /> salt solution to produce a 15<percent /> salt solution?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 31) A caterer made an ice cream punch by combining fruit juice that cost
 <m>\dollar2.25</m> per gallon with ice cream that costs
 <m>\dollar3.25</m> per gallon. How many gallons of each were
 used to make 100 gal of punch costing <m>\dollar2.50</m> per pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-32) A clothing manufacturer has some pure silk thread and some thread that is 85% silk. How many kilograms of each must be woven
-together to make 75 kg of cloth that is 96% silk?
+32) A clothing manufacturer has some pure silk thread and some thread that is 85<percent /> silk. How many kilograms of each must be woven
+together to make 75 kg of cloth that is 96<percent /> silk?
 </p>
-  
-<p>
-<nbsp />
-</p>
-  
-<p>
-33) A carpet manufacturer blends two fibers, one 20% wool and the second 50% wool. How many pounds of each fiber should be woven together
-to produce 600 lb of a fabric that is 28% wool?
-</p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-34) How many pounds of coffee that is 40% java beans must be mixed with 80 lbs of coffee that is 30% java beans to make a coffee blend that is
-32% java beans?
+33) A carpet manufacturer blends two fibers, one 20<percent /> wool and the second 50<percent /> wool. How many pounds of each fiber should be woven together
+to produce 600 lb of a fabric that is 28<percent /> wool?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
+<p>
+34) How many pounds of coffee that is 40<percent /> java beans must be mixed with 80 lbs of coffee that is 30<percent /> java beans to make a coffee blend that is
+32<percent /> java beans?
+</p>
+
+<p>
+<nbsp />
+</p>
+
 <p>
 35) The manager of a specialty food store combined almonds that cost
 <m>\dollar4.50</m> per pound with walnuts that cost
 <m>\dollar2.50</m> per pound. How many pounds of each were
 used to make a 100 lb mixture that cost <m>\dollar3.24</m> per pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-36) A tea that is 20% jasmine is blended with a tea that is 15% jasmine. How many pounds of each tea are used to make 5 lb of tea
-that is 18% jasmine?
+36) A tea that is 20<percent /> jasmine is blended with a tea that is 15<percent /> jasmine. How many pounds of each tea are used to make 5 lb of tea
+that is 18<percent /> jasmine?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-37) How many ounces of dried apricots must be added to 18 oz of a snack mix that contains 20% dried apricots to make a mixture that
-is 25% dried apricots?
+37) How many ounces of dried apricots must be added to 18 oz of a snack mix that contains 20<percent /> dried apricots to make a mixture that
+is 25<percent /> dried apricots?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-38) How many milliliters of pure chocolate must be added to 150 ml of chocolate topping that is 50% chocolate to make a topping that is 75\chocolate?
+38) How many milliliters of pure chocolate must be added to 150 ml of chocolate topping that is 50<percent /> chocolate to make a topping that is 75\chocolate?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-39) How many ounces of pure bran flakes must be added to 50 oz of cereal that is 40% bran flakes to produce a mixture that is 50% bran
+39) How many ounces of pure bran flakes must be added to 50 oz of cereal that is 40<percent /> bran flakes to produce a mixture that is 50<percent /> bran
 flakes?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 40) A ground meat mixture is formed by combining meat that costs <m>\dollar2.20</m> per pound with meat that costs
 <m>\dollar4.20</m> per pound. How many pounds of each were used to make a 50 lb mixture that costs <m>\dollar3.00</m> per pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-41) How many grams of pure water must be added to 50 g of pure acid to make a solution that is 40% acid?
+41) How many grams of pure water must be added to 50 g of pure acid to make a solution that is 40<percent /> acid?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 42) A lumber company combined oak wood chips that cost <m>\dollar3.10</m> per pound with pine wood chips that cost <m>\dollar2.50</m> per pound.
 How many pounds of each were used to make an 80 lb mixture
 costing <m>\dollar2.65</m> per pound?
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-43) How many ounces of pure water must be added to 50 oz of a 15% saline solution to make a saline solution that is 10% salt?
+43) How many ounces of pure water must be added to 50 oz of a 15<percent /> saline solution to make a saline solution that is 10<percent /> salt?
 </p>
- </subsubsection> </subsection> 
+</subsubsection>
+
+</subsection>
+
+
 <subsection>
 <title>Matrix Notation</title>
 <p>
-{\tmstrong{Construct an augmented matrix for each of the systems of equations referenced below. Then row reduce your matrix to its row echelon form and determine if the given system has (1) no solution, (2) infinitely many solutions, or (3) exactly one solution. If one solution exists, determine the reduced row echelon form for your matrix and use it to find the solution to the given system.}}\pp
+{\tmstrong{Construct an augmented matrix for each of the systems of equations referenced below. Then row reduce your matrix to its row echelon form and determine if the given system has (1) no solution, (2) infinitely many solutions, or (3) exactly one solution. If one solution exists, determine the reduced row echelon form for your matrix and use it to find the solution to the given system.}}
 </p>
-  
+
 <p>
-1) - 5): Systems (1) through (5) on <xref ref="matrices1">page</xref>.\pp
+1) - 5): Systems (1) through (5) on <xref ref="matrices1">page</xref>.
 </p>
-  
+
 <p>
-6) - 10): Systems (11) through (15) on <xref ref="matrices1">page</xref>.\pp
+6) - 10): Systems (11) through (15) on <xref ref="matrices1">page</xref>.
 </p>
-  
+
 <p>
-11) - 20): Systems (1) through (10) on <xref ref="matrices2">page</xref>.\pp
+11) - 20): Systems (1) through (10) on <xref ref="matrices2">page</xref>.
 </p>
-  
+
 <p>
 21) - 24): Systems (29) through (32) on <xref ref="matrices3">page</xref>.
 </p>
-  
+
 <p>
 \closegraphsfile
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

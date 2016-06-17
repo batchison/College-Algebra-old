@@ -1,25 +1,24 @@
-
 <section>
 <title>Polynomial Inequalities and Sign Diagrams</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Solve and give interval notation for the solution to a polynomial inequality. Create a sign diagram to identify those intervals where a polynomial expression is positive or negative.}}\pp
+Solve and give interval notation for the solution to a polynomial inequality. Create a sign diagram to identify those intervals where a polynomial expression is positive or negative.
 </p>
-  
+</objectives>
 <p>
-Recall that in Chapter 1 we were faced with having to solve linear inequalities such as <m>-2x+3\geq 0</m>. For the most part, this process was just as straight-forward as solving a linear equation, with the only exception being the careful consideration of division (or multiplication) by a negative. This simply required a change in the direction of the inequality.\pp
-For example, we now know that <m>-2x+3\geq 0</m> when <m>x\leq \frac{3}{2}</m>. This solution could then be reinforced graphically through the introduction of a sign diagram, which describes the intervals in which a given expression (or function) is positive or negative. An example for <m>f(x)=-2x+3</m> is shown below.\pp
+Recall that in Chapter 1 we were faced with having to solve linear inequalities such as <m>-2x+3\geq 0</m>. For the most part, this process was just as straight-forward as solving a linear equation, with the only exception being the careful consideration of division (or multiplication) by a negative. This simply required a change in the direction of the inequality.
+For example, we now know that <m>-2x+3\geq 0</m> when <m>x\leq \frac{3}{2}</m>. This solution could then be reinforced graphically through the introduction of a sign diagram, which describes the intervals in which a given expression (or function) is positive or negative. An example for <m>f(x)=-2x+3</m> is shown below.
 </p>
-  <table id="fec71d7fd9440885db7f65a39986762e901affd1" ><tr><td class='c'>
-<u>Case</u> </td><td class='c'> <u>Test Value</u> </td><td class='c'> <u>Unsimplified</u> </td><td class='c'> <u>Result</u> </td></tr>
-<tr><td class='c'>
-i </td><td class='c'> <m>x=0</m> </td><td class='c'> (<m>-2(0)+3</m>) </td><td class='c'> (<m>+</m>) </td></tr>
-<tr><td class='c'>
-ii </td><td class='c'> <m>x=2</m> </td><td class='c'> (<m>-2(2)+3</m>) </td><td class='c'> (<m>-</m>)</td></tr>
-<tr><td class='c'></td></tr></table> 
+<tabular>
+<row><cell><u>Case</u></cell><cell><u>Test Value</u></cell><cell><u>Unsimplified</u></cell><cell><u>Result</u></cell></row>
+<row><cell>i</cell><cell><m>x=0</m></cell><cell>(<m>-2(0)+3</m>)</cell><cell>(<m>+</m>)</cell></row>
+<row><cell>ii</cell><cell><m>x=2</m></cell><cell>(<m>-2(2)+3</m>)</cell><cell>(<m>-</m>)</cell></row>
+<row><cell></cell></row>
+</tabular>
 <p>
-Our end result can be summarized in the following <i>sign diagram</i>.
+Our end result can be summarized in the following <em>sign diagram</em>.
 </p>
-  \begin{mfpic}[15]{-9}3{-3}2
+\begin{mfpic}[15]{-9}3{-3}2
 \arrow \reverse \arrow \polyline{(-9,0),(3,0)}
 \xmarks{-3}
 \tlpointsep{4pt}
@@ -30,28 +29,27 @@ Our end result can be summarized in the following <i>sign diagram</i>.
 \tlabel[cc](0,-1.5){<m>x=2</m>}
 
 \polyline{(-3,0.5),(-3,2)}
-\end{mfpic}  
+\end{mfpic}
 <p>
 Later, in Chapter 3 we discovered that solving a quadratic inequality such as <m>-2x^2+13x-15\lt 0</m> required a more careful treatment of the expression. In this case, since <m>-2x^2+13x-15=(-2x+3)(x-5)</m>, we recognized that the inequality <m>-2x^2+13x-15\lt 0</m> holds whenever:
 </p>
-  1.<m>\qquad -2x+3\lt 0\qquad</m> and <m>\qquad x-5>0~</m><br />
+1.<m>\qquad -2x+3\lt 0\qquad</m> and <m>\qquad x-5>0~</m><br />
 <nbsp /><br />
 OR<br />
 <nbsp /><br />
-2.<m>\qquad -2x+3>0\qquad</m> and <m>\qquad x-5\lt 0.</m> 
+2.<m>\qquad -2x+3>0\qquad</m> and <m>\qquad x-5\lt 0.</m>
 <p>
-In other words, the inequality <m>-2x^2+13x-15\lt 0</m> will hold for all values of <m>x</m> that, when plugged into the expression, yield \text{opposite signs} for each factor, since <m>(-)\cdot(+)=(-)</m> and vice versa.\pp
-Similarly, if both factors of the original expression yield the same sign for a particular value of <m>x</m>, either <m>(+)\cdot(+)</m> or <m>(-)\cdot(-)</m>, then we know that<br /> <m>-2x^2+13x-15>0</m> for <m>x</m>.\pp
-The resulting sign diagram for this case is shown below.\pp
+In other words, the inequality <m>-2x^2+13x-15\lt 0</m> will hold for all values of <m>x</m> that, when plugged into the expression, yield \text{opposite signs} for each factor, since <m>(-)\cdot(+)=(-)</m> and vice versa.
+Similarly, if both factors of the original expression yield the same sign for a particular value of <m>x</m>, either <m>(+)\cdot(+)</m> or <m>(-)\cdot(-)</m>, then we know that<br /> <m>-2x^2+13x-15>0</m> for <m>x</m>.
+The resulting sign diagram for this case is shown below.
 </p>
-  <table id="f47748f96146db72ff3ed7fc3822fb04949d8d9e" ><tr><td class='c'>
-<u>Case</u> </td><td class='c'> <u>Test Value</u> </td><td class='c'> <u>Unsimplified</u> </td><td class='c'> <u>Simplified</u> </td><td class='c'> <u>Result</u></td></tr>
-<tr><td class='c'>
-i </td><td class='c'> <m>x=0</m> </td><td class='c'> (<m>-2(0)+3</m>)(<m>0-5</m>) </td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>-</m>)</td></tr>
-<tr><td class='c'>
-ii </td><td class='c'> <m>x=2</m> </td><td class='c'> (<m>-2(2)+3</m>)(<m>2-5</m>) </td><td class='c'> (<m>-</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>+</m>)</td></tr>
-<tr><td class='c'>
-iii </td><td class='c'> <m>x=6</m> </td><td class='c'> (<m>-2(6)+3</m>)(<m>6-5</m>) </td><td class='c'> (<m>-</m>)<m>\cdot</m>(<m>+</m>) </td><td class='c'> (<m>-</m>)</td></tr></table>  \begin{mfpic}[15]{-8}8{-3}2
+<tabular>
+<row><cell><u>Case</u></cell><cell><u>Test Value</u></cell><cell><u>Unsimplified</u></cell><cell><u>Simplified</u></cell><cell><u>Result</u></cell></row>
+<row><cell>i</cell><cell><m>x=0</m></cell><cell>(<m>-2(0)+3</m>)(<m>0-5</m>)</cell><cell>(<m>+</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>-</m>)</cell></row>
+<row><cell>ii</cell><cell><m>x=2</m></cell><cell>(<m>-2(2)+3</m>)(<m>2-5</m>)</cell><cell>(<m>-</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>+</m>)</cell></row>
+<row><cell>iii</cell><cell><m>x=6</m></cell><cell>(<m>-2(6)+3</m>)(<m>6-5</m>)</cell><cell>(<m>-</m>)<m>\cdot</m>(<m>+</m>)</cell><cell>(<m>-</m>)</cell></row>
+</tabular>
+\begin{mfpic}[15]{-8}8{-3}2
 \arrow \reverse \arrow \polyline{(-8,0),(8,0)}
 \xmarks{-3,3}
 \tlpointsep{4pt}
@@ -65,15 +63,15 @@ iii </td><td class='c'> <m>x=6</m> </td><td class='c'> (<m>-2(6)+3</m>)(<m>6-5</
 \tlabel[cc](-3,-1){<m>\frac{3}{2}</m>}
 \polyline{(3,0.5),(3,2)}
 \tlabel[cc](3,-1){<m>5</m>}
-\end{mfpic}  
+\end{mfpic}
 <p>
-We conclude that <m>-2x^2+13x-15>0</m> for <m>x</m> on the interval <m>\left(\frac{3}{2},5\right)</m>.\pp
+We conclude that <m>-2x^2+13x-15>0</m> for <m>x</m> on the interval <m>\left(\frac{3}{2},5\right)</m>.
 </p>
-  
+
 <p>
-Once again, our sign diagram for <m>f(x)=-2x^2+13x-15</m> presented us with a nice visual of this, which we were able to relate to the graph of <m>f</m>. Specifically, if <m>-2x^2+13x-15>0</m>, then the graph of <m>f</m> will reside <i>above</i> the <m>x</m>-axis. On the other hand, if <m>-2x^2+13x-15\lt 0</m>, then the graph of <m>f</m> will reside <i>below</i> the <m>x</m>-axis. We include the graph in this case for confirmation that our diagram and solution to the inequality are correct.\pp
+Once again, our sign diagram for <m>f(x)=-2x^2+13x-15</m> presented us with a nice visual of this, which we were able to relate to the graph of <m>f</m>. Specifically, if <m>-2x^2+13x-15>0</m>, then the graph of <m>f</m> will reside <em>above</em> the <m>x</m>-axis. On the other hand, if <m>-2x^2+13x-15\lt 0</m>, then the graph of <m>f</m> will reside <em>below</em> the <m>x</m>-axis. We include the graph in this case for confirmation that our diagram and solution to the inequality are correct.
 </p>
-  \begin{mfpic}[20][6]{-2}8{-18}8
+\begin{mfpic}[20][6]{-2}8{-18}8
 \arrow\reverse\arrow\function{-0.25,6.75,0.1}{(-2x+3)*(x-5)}
 \xmarks{0,1,2,3,4,5,6,7}
 \ymarks{-16,-14,-12,-10,-8,-6,-4,-2,0,2,4,6}
@@ -98,29 +96,25 @@ Once again, our sign diagram for <m>f(x)=-2x^2+13x-15</m> presented us with a ni
 \arrow\reverse\arrow\polyline{(-2,0),(8,0)}
 \arrow\reverse\arrow\polyline{(0,-18),(0,8)}
 \point[2.9pt]{(1.5,0),(5,0),(0,-15)}
-\end{mfpic}  
+\end{mfpic}
 <p>
 Notice that our treatment of a quadratic inequality proved significantly more challenging than solving a linear inequality due to the introduction of a second factor. This same treatment must be applied to a polynomial inequality, which may contain one (linear), two (quadratic), three (cubic), or even more factors. Working off of our previous two inequalities, we will consider the following cubic polynomial, which includes an additional factor of <m>x</m>.
 </p>
-  
-<md><mrow>f(x)\amp =\amp -2x^3+13x^2-15x</mrow>
- <mrow>\amp =\amp x(-2x+3)(x-5)</mrow>
- 
+<md>
+  <mrow>  f(x)\amp =\amp -2x^3+13x^2-15x</mrow>
+  <mrow>  \amp =\amp x(-2x+3)(x-5)</mrow>
 </md>
-  
 <p>
 Here we will make our sign diagram, being careful to plug in any test values located between the zeros, just as in the previous examples.
 </p>
-  <table id="6e41279f2d8b11125d7f75f991e519e4ddc364e2" ><tr><td class='c'>
-<u>Case</u> </td><td class='c'> <u>Test Value</u> </td><td class='c'> <u>Unsimplified</u> </td><td class='c'> <u>Simplified</u> </td><td class='c'> <u>Result</u></td></tr>
-<tr><td class='c'>
-i </td><td class='c'> <m>x=-1</m> </td><td class='c'> (-1)(<m>-2(-1)+3</m>)(<m>-1-5</m>) </td><td class='c'> (<m>-</m>)<m>\cdot</m>(<m>+</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>+</m>)</td></tr>
-<tr><td class='c'>
-ii </td><td class='c'> <m>x=1</m> </td><td class='c'> (1)(<m>-2(1)+3</m>)(<m>1-5</m>) </td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>+</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>-</m>)</td></tr>
-<tr><td class='c'>
-iii </td><td class='c'> <m>x=3</m> </td><td class='c'> (3)(<m>-2(3)+3</m>)(<m>3-5</m>) </td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>-</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>+</m>)</td></tr>
-<tr><td class='c'>
-iv </td><td class='c'>  <m>x=6</m> </td><td class='c'> (6)(<m>-2(6)+3</m>)(<m>6-5</m>)</td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>-</m>)<m>\cdot</m>(<m>+</m>) </td><td class='c'> (<m>-</m>)</td></tr></table>  \begin{mfpic}[15]{-8}8{-3}2
+<tabular>
+<row><cell><u>Case</u></cell><cell><u>Test Value</u></cell><cell><u>Unsimplified</u></cell><cell><u>Simplified</u></cell><cell><u>Result</u></cell></row>
+<row><cell>i</cell><cell><m>x=-1</m></cell><cell>(-1)(<m>-2(-1)+3</m>)(<m>-1-5</m>)</cell><cell>(<m>-</m>)<m>\cdot</m>(<m>+</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>+</m>)</cell></row>
+<row><cell>ii</cell><cell><m>x=1</m></cell><cell>(1)(<m>-2(1)+3</m>)(<m>1-5</m>)</cell><cell>(<m>+</m>)<m>\cdot</m>(<m>+</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>-</m>)</cell></row>
+<row><cell>iii</cell><cell><m>x=3</m></cell><cell>(3)(<m>-2(3)+3</m>)(<m>3-5</m>)</cell><cell>(<m>+</m>)<m>\cdot</m>(<m>-</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>+</m>)</cell></row>
+<row><cell>iv</cell><cell><m>x=6</m></cell><cell>(6)(<m>-2(6)+3</m>)(<m>6-5</m>)</cell><cell>(<m>+</m>)<m>\cdot</m>(<m>-</m>)<m>\cdot</m>(<m>+</m>)</cell><cell>(<m>-</m>)</cell></row>
+</tabular>
+\begin{mfpic}[15]{-8}8{-3}2
 \arrow \reverse \arrow \polyline{(-8,0),(8,0)}
 \xmarks{-4,0,4}
 \tlpointsep{4pt}
@@ -138,27 +132,23 @@ iv </td><td class='c'>  <m>x=6</m> </td><td class='c'> (6)(<m>-2(6)+3</m>)(<m>6-
 \tlabel[cc](0,-1){<m>\frac{3}{2}</m>}
 \polyline{(4,0.5),(4,2)}
 \tlabel[cc](4,-1){<m>5</m>}
-\end{mfpic}  
+\end{mfpic}
 <p>
 So, if we were asked to solve the polynomial inequality
 </p>
-  
 <me>
--2x^3+13x^2-15x\leq 0,
+  -2x^3+13x^2-15x\leq 0,
 </me>
- 
 <p>
 we could conclude from our diagram that the solution is
 </p>
-  
 <me>
-\left[0,\frac{3}{2}\right]\cup[5,\infty).
+  \left[0,\frac{3}{2}\right]\cup[5,\infty).
 </me>
-  
 <p>
 Once again, we can verify that our answer is correct by comparing it to the graph of <m>f</m>, shown below.
 </p>
-  \begin{mfpic}[30][8]0{6}{-7}{25}
+\begin{mfpic}[30][8]0{6}{-7}{25}
 \arrow\reverse\arrow\function{-.5,5.1,0.1}{(x)*(-2x+3)*(x-5)}
 \xmarks{-1,1,2,3,4,5}
 \ymarks{-6,-3,3,6,9,12,15,18,21,24}
@@ -182,35 +172,33 @@ Once again, we can verify that our answer is correct by comparing it to the grap
 \arrow\reverse\arrow\polyline{(-2,0),(6,0)}
 \arrow\reverse\arrow\polyline{(0,-7),(0,25)}
 \point[2.9pt]{(0,0),(1.5,0),(5,0)}
-\end{mfpic}  
+\end{mfpic}
 <p>
 Now that we have arrived at sign diagrams of cubic functions, we will give one more example of solving a cubic inequality.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find all <m>x</m> such that <m>x^3\lt 4x^2</m>.
+Find all <m>x</m> such that <m>x^3\lt 4x^2</m>.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
-Before we begin solving the given inequality, we must <i>always</i> begin by setting one side equal to zero, leaving us with the inequality <m>x^3-4x^2\lt 0</m>.\pp
+Before we begin solving the given inequality, we must <em>always</em> begin by setting one side equal to zero, leaving us with the inequality <m>x^3-4x^2\lt 0</m>.
 </p>
-  
+
 <p>
 By factoring <m>x^3-4x^2</m> as <m>x^2(x-4)</m>, we can identify zeros of the expression on the left-hand side at <m>x=0</m> and <m>x=4</m>.
 From here, we construct a sign diagram. <br /> <br />
 </p>
-  <table id="eafe7a542924e91dfef1f4ddbc823e9694b90c87" ><tr><td class='c'>
-<u>Case</u> </td><td class='c'> <u>Test Value</u> </td><td class='c'> <u>Unsimplified</u> </td><td class='c'> <u>Simplified</u> </td><td class='c'> <u>Result</u></td></tr>
-<tr><td class='c'>
-i </td><td class='c'> <m>x=-1</m> </td><td class='c'> <m>(-1)^2(</m>-1-4<m>)</m> </td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>-</m>)</td></tr>
-<tr><td class='c'>
-ii </td><td class='c'> <m>x=1</m> </td><td class='c'> <m>(1)^2(</m>1-4<m>)</m> </td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>-</m>) </td><td class='c'> (<m>-</m>)</td></tr>
-<tr><td class='c'>
-iii </td><td class='c'> <m>x=5</m> </td><td class='c'> <m>(5)^2(</m>5-4<m>)</m> </td><td class='c'> (<m>+</m>)<m>\cdot</m>(<m>+</m>) </td><td class='c'> (<m>+</m>)</td></tr>
-<tr><td class='c'></td></tr></table>  \begin{mfpic}[15]{-8}8{-3}2
+<tabular>
+<row><cell><u>Case</u></cell><cell><u>Test Value</u></cell><cell><u>Unsimplified</u></cell><cell><u>Simplified</u></cell><cell><u>Result</u></cell></row>
+<row><cell>i</cell><cell><m>x=-1</m></cell><cell><m>(-1)^2(</m>-1-4<m>)</m></cell><cell>(<m>+</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>-</m>)</cell></row>
+<row><cell>ii</cell><cell><m>x=1</m></cell><cell><m>(1)^2(</m>1-4<m>)</m></cell><cell>(<m>+</m>)<m>\cdot</m>(<m>-</m>)</cell><cell>(<m>-</m>)</cell></row>
+<row><cell>iii</cell><cell><m>x=5</m></cell><cell><m>(5)^2(</m>5-4<m>)</m></cell><cell>(<m>+</m>)<m>\cdot</m>(<m>+</m>)</cell><cell>(<m>+</m>)</cell></row>
+<row><cell></cell></row>
+</tabular>
+\begin{mfpic}[15]{-8}8{-3}2
 \arrow \reverse \arrow \polyline{(-8,0),(8,0)}
 \xmarks{-3,3}
 \tlpointsep{4pt}
@@ -224,19 +212,19 @@ iii </td><td class='c'> <m>x=5</m> </td><td class='c'> <m>(5)^2(</m>5-4<m>)</m> 
 \tlabel[cc](-3,-1){<m>0</m>}
 \polyline{(3,0.5),(3,2)}
 \tlabel[cc](3,-1){<m>4</m>}
-\end{mfpic}  
+\end{mfpic}
 <p>
-Finally, our answer includes the regions where the expression <m>x^3-4x^2</m> is less than but not equal to zero, which we will represent as the union of two intervals: <m>(-\infty,0) \cup (0,4)</m>. Our careful steps have insured that this is also the solution for the original inequality of <m>x^3\lt 4x^2</m>. We leave it as an exercise to the reader to sketch a graph of the function <m>f(x)=x^3-4x^2</m>, and confirm that our answer is correct.\pp
+Finally, our answer includes the regions where the expression <m>x^3-4x^2</m> is less than but not equal to zero, which we will represent as the union of two intervals: <m>(-\infty,0) \cup (0,4)</m>. Our careful steps have insured that this is also the solution for the original inequality of <m>x^3\lt 4x^2</m>. We leave it as an exercise to the reader to sketch a graph of the function <m>f(x)=x^3-4x^2</m>, and confirm that our answer is correct.
 </p>
-  
+
 <p>
-At this point it is worth mentioning that one should never assume that the signs appearing in a sign diagram will always alternate from (<m>+</m>) to (<m>-</m>) or vice versa. This is a common misconception by students, and our previous example illustrates its fallacy. In fact, the appearance of a (<m>-</m>) on either side of the root <m>x=0</m> in our previous example, is directly related to the <i>even multiplicity</i> of the root.\pp
+At this point it is worth mentioning that one should never assume that the signs appearing in a sign diagram will always alternate from (<m>+</m>) to (<m>-</m>) or vice versa. This is a common misconception by students, and our previous example illustrates its fallacy. In fact, the appearance of a (<m>-</m>) on either side of the root <m>x=0</m> in our previous example, is directly related to the <em>even multiplicity</em> of the root.
 </p>
-  
+
 <p>
-Additionally, the value at <m>x=0</m> is identified as a "critical point" in our previous sign diagram <i>only</i> because it appears as a <i>root</i> of <m>x^3-4x^2</m>. Although we are always interested in identifying the point that corresponds to <m>x=0</m> (a <m>y-</m>intercept) on a graph, we need only label <m>x=0</m> on a sign diagram if it is either a root or is being used as a test value for a particular interval. The following diagram has been included for reinforcement of this concept.
+Additionally, the value at <m>x=0</m> is identified as a <q>critical point</q> in our previous sign diagram <em>only</em> because it appears as a <em>root</em> of <m>x^3-4x^2</m>. Although we are always interested in identifying the point that corresponds to <m>x=0</m> (a <m>y-</m>intercept) on a graph, we need only label <m>x=0</m> on a sign diagram if it is either a root or is being used as a test value for a particular interval. The following diagram has been included for reinforcement of this concept.
 </p>
-  \begin{mfpic}[22]{-8}8{-3}2
+\begin{mfpic}[22]{-8}8{-3}2
 \arrow \reverse \arrow \polyline{(-8,0),(8,0)}
 \xmarks{-4,0,4}
 \tlpointsep{4pt}
@@ -254,8 +242,8 @@ Additionally, the value at <m>x=0</m> is identified as a "critical point" in our
 \tlabel[cc](0,-0.7){ Root}
 \polyline{(4,0.5),(4,2)}
 \tlabel[cc](4,-0.7){ Root}
-\end{mfpic}  
+\end{mfpic}
 <p>
 Whether we are faced with a linear function (degree 1) a quadratic function (degree 2), or a polynomial having a much larger degree (3,4,...), if the polynomial can be easily factored, one can always quickly construct a sign diagram to get a better idea of the behavior of the polynomial function and its corresponding graph. The method for this is the same as that which we have outlined in each of the previous examples. The difficulty only lies in what function or inequality we are presented with.
 </p>
- </section>
+</section>

@@ -1,578 +1,537 @@
-
 <section>
 <title>Factoring</title>
+
+
 <subsection>
 <title>Greatest Common Factor</title>
+<objectives>
 <p>
-\pp
+Find the greatest common factor of a polynomial and
+factor it out of the expression.
 </p>
-  
+</objectives>
 <p>
-{\tmstrong{Objective: Find the greatest common factor of a polynomial and
-factor it out of the expression.}}\pp
-In order to discuss the factorization methods of this section, it will be necessary to introduce some of the terminology a bit early. In particular, in this section we will be working with <i>polynomial expressions</i>. While most of our work will be with polynomials containing a single variable, it will be helpful to see a few examples of polynomials that contain two (or more) variables.\pp
+In order to discuss the factorization methods of this section, it will be necessary to introduce some of the terminology a bit early. In particular, in this section we will be working with <em>polynomial expressions</em>. While most of our work will be with polynomials containing a single variable, it will be helpful to see a few examples of polynomials that contain two (or more) variables.
 Both linear and quadratic expressions of a variable <m>x</m> are basic examples of polynomials. A more general description of a polynomial in terms of the variable <m>x</m> is
 </p>
-  
 <me>
-a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0,
+  a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0,
 </me>
- 
 <p>
-where <m>n</m> is a positive integer and <m>a_0,a_1,\ldots,a_{n-1},a_n</m> represent real coefficients (<m>a_n\neq 0</m>).\pp
-A basic interpretation of this description is a sum of <m>n</m> terms, each containing a real coefficient (possibly equal to 0), where the associated power of the variable is a positive integer (or possibly 0, in the case of the constant term <m>a_0=a_0x^0</m>).\pp
-The expression <m>8 x^4 - 12 x^3 + 32 x</m> would be an example of a polynomial, in which the power <m>n</m> (known as the <i>degree</i> of the polynomial) equals 4, and the coefficients are as follows.
+where <m>n</m> is a positive integer and <m>a_0,a_1,\ldots,a_{n-1},a_n</m> represent real coefficients (<m>a_n\neq 0</m>).
+A basic interpretation of this description is a sum of <m>n</m> terms, each containing a real coefficient (possibly equal to 0), where the associated power of the variable is a positive integer (or possibly 0, in the case of the constant term <m>a_0=a_0x^0</m>).
+The expression <m>8 x^4 - 12 x^3 + 32 x</m> would be an example of a polynomial, in which the power <m>n</m> (known as the <em>degree</em> of the polynomial) equals 4, and the coefficients are as follows.
 </p>
-  
 <me>
-a_4=8,~~a_3=-12,~~a_2=0,~~a_1=32,~~a_0=0
+  a_4=8,~~a_3=-12,~~a_2=0,~~a_1=32,~~a_0=0
 </me>
- 
 <p>
 If we inserted another variable(s) into each of the terms of our expression, we could create a polynomial expression in terms of two (or more) variables. An example of this would be
 </p>
-  
 <me>
-8 x^4y - 12 x^3y^2 + 32 x.
+  8 x^4y - 12 x^3y^2 + 32 x.
 </me>
- 
 <p>
-While there is much more that we could say about this important concept of algebra, we will postpone a more in-depth treatment of polynomials until a later chapter, and move on to the topic of factorization.\pp
-Factoring a polynomial could be considered as the "opposite" action of multiplying (or expanding) polynomials together.
+While there is much more that we could say about this important concept of algebra, we will postpone a more in-depth treatment of polynomials until a later chapter, and move on to the topic of factorization.
+Factoring a polynomial could be considered as the <q>opposite</q> action of multiplying (or expanding) polynomials together.
 In working with polynomial expressions, there are many benefits to identifying both its expanded and factored forms. Specifically, we will use factored polynomials to help us solve equations, learn behaviors of graphs, and understand more complicated rational expressions. Because so many concepts in algebra depend on being able to factor polynomials, it is critical that we establish strong factorization
-skills.\pp
+skills.
 In this first part of the section, we will focus on factoring using the greatest common factor or
 GCF of a polynomial. When multiplying polynomials, we employ the distributive property, as demonstrated below.
 </p>
-  
 <me>
-4 x^2 (2 x^2 - 3 x + 8) = 8 x^4 - 12 x^3 + 32 x
+  4 x^2 (2 x^2 - 3 x + 8) = 8 x^4 - 12 x^3 + 32 x
 </me>
- 
 <p>
-Here, we will work with the same expression, but with a backwards approach, starting with the expanded form and obtaining one that is partially (or completely) factored.\pp
-We will start with <m>8 x^2 - 12 x^3 + 32 x</m> and try and work backwards to reach <m>4 x^2 (2 x - 3 x + 8)</m>.\pp
+Here, we will work with the same expression, but with a backwards approach, starting with the expanded form and obtaining one that is partially (or completely) factored.
+We will start with <m>8 x^2 - 12 x^3 + 32 x</m> and try and work backwards to reach <m>4 x^2 (2 x - 3 x + 8)</m>.
 To do this we have to be able to first identify what the GCF of a
 polynomial is. We will first introduce this concept by finding the GCF of
 a set of integers. To find a GCF of two or more integers, we must find the
-largest integer <m>d</m> that divides nicely into each of the given integers. Alternatively stated, <m>d</m> should be the largest factor of each of the integers in our set. This can often be determined with quick "mental math", as shown in the following example.
+largest integer <m>d</m> that divides nicely into each of the given integers. Alternatively stated, <m>d</m> should be the largest factor of each of the integers in our set. This can often be determined with quick <q>mental math</q>, as shown in the following example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the GCF of 15, 24, and 27.
+Find the GCF of 15, 24, and 27.
 </p>
-  
-<md><mrow>\frac{15}{3} = 5,~~~ \frac{24}{3} = 6,~~~ \frac{27}{3} = 9 \amp   \amp  \tmop{Each}
+<md>
+  <mrow>  \frac{15}{3} = 5,~~~ \frac{24}{3} = 6,~~~ \frac{27}{3} = 9 \amp   \amp  \tmop{Each}
     \tmop{of} \tmop{the} \tmop{numbers} \tmop{can} \tmop{be} \tmop{divided}
     \tmop{by} 3</mrow>
- <mrow>\tmop{GCF} = 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmop{GCF} = 3 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 When there are variables in our problem we can first find the GCF of the
 numbers, then we can identify any variables that appear in every term and factor them out, taking the smallest exponent in each case. This is shown in the next example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find the GCF of <m>24 x^4 y^2 z,</m><nbsp /><nbsp /><nbsp /><nbsp /><m>18 x^2 y^4,</m><nbsp />and <m>12 x^3 y z^5</m>.
+Find the GCF of <m>24 x^4 y^2 z,</m><nbsp /><nbsp /><nbsp /><nbsp /><m>18 x^2 y^4,</m><nbsp />and <m>12 x^3 y z^5</m>.
 </p>
-  
-<md><mrow>\frac{24}{6} = 4,~~~ \frac{18}{6} = 3,~~~ \frac{12}{6} = 2 \amp   \amp  \tmop{Each}
+<md>
+  <mrow>  \frac{24}{6} = 4,~~~ \frac{18}{6} = 3,~~~ \frac{12}{6} = 2 \amp   \amp  \tmop{Each}
     \tmop{number} \tmop{can} \tmop{be} \tmop{divided} \tmop{by} 6</mrow>
- <mrow>x^2 y \amp   \amp  x \tmop{and} y \tmop{appear} \tmop{in} \tmop{all~three~terms}, \tmop{taking}</mrow>
- <mrow>\amp  \amp  ~~~\text{the~lowest~exponent~for~each~variable}</mrow>
- <mrow>\tmop{GCF} = 6 x^2 y \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x^2 y \amp   \amp  x \tmop{and} y \tmop{appear} \tmop{in} \tmop{all~three~terms}, \tmop{taking}</mrow>
+  <mrow>  \amp  \amp  ~~~\text{the~lowest~exponent~for~each~variable}</mrow>
+  <mrow>  \tmop{GCF} = 6 x^2 y \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 To factor out a GCF from a polynomial we first need to identify the GCF of all
 the terms, this is the part that goes in front of the parentheses, then we
 divide each term by the GCF in order to determine what should appear inside of the
 parentheses. This is demonstrated in the following examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given polynomial expression.
+Find and factor out the GCF of the given polynomial expression.
 </p>
-  
-<md><mrow>4 x^2 - 20 x + 16 \amp   \amp  \tmop{GCF} \tmop{is} 4, \tmop{divide} \tmop{each}
+<md>
+  <mrow>  4 x^2 - 20 x + 16 \amp   \amp  \tmop{GCF} \tmop{is} 4, \tmop{divide} \tmop{each}
     \tmop{term} \tmop{by} 4</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\frac{4 x^2}{4} = x^2,~~ \frac{- 20 x}{4} = - 5 x,~~ \frac{16}{4} = 4 \amp   \amp 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \frac{4 x^2}{4} = x^2,~~ \frac{- 20 x}{4} = - 5 x,~~ \frac{16}{4} = 4 \amp   \amp 
     \tmop{This} \tmop{is} \tmop{what} \tmop{is} \tmop{left} \tmop{inside}
     \tmop{the} \tmop{parentheses}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>4 (x^2 - 5 x + 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  4 (x^2 - 5 x + 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 With factoring we can always check our solutions by expanding or multiplying out the answer. As in the example above, this usually will involve some form of the distributive property. Our end result upon checking should match the original expression.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given polynomial expression.
+Find and factor out the GCF of the given polynomial expression.
 </p>
-  
-<md><mrow>25 x^4 - 15 x^3 + 20 x^2 \amp   \amp  \tmop{GCF} \tmop{is} 5 x^2, \tmop{divide}
+<md>
+  <mrow>  25 x^4 - 15 x^3 + 20 x^2 \amp   \amp  \tmop{GCF} \tmop{is} 5 x^2, \tmop{divide}
     \tmop{each} \tmop{term} \tmop{by} 5x^2</mrow>
- 
 </md>
   <m>\displaystyle\frac{25 x^4}{5 x^2} = 5 x^2,~~~ \displaystyle\frac{- 15 x^3}{5 x^2} = - 3 x,~~~ \displaystyle\frac{20
     x^2}{5 x^2} = 4</m><br />
 		<nbsp /><br />
 		This is what is left inside the parentheses.  
-<md><mrow>5 x^2 (5 x^2 - 3 x + 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  5 x^2 (5 x^2 - 3 x + 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given polynomial expression.
+Find and factor out the GCF of the given polynomial expression.
 </p>
-  
-<md><mrow>3 x^3 y^2 z + 5 x^4 y^3 z^5 - 4 x y^4 \amp   \amp  \tmop{GCF} \tmop{is} x y^2,
+<md>
+  <mrow>  3 x^3 y^2 z + 5 x^4 y^3 z^5 - 4 x y^4 \amp   \amp  \tmop{GCF} \tmop{is} x y^2,
     \tmop{divide} \tmop{each} \tmop{term} \tmop{by} xy^2</mrow>
- 
 </md>
   <m>\displaystyle\frac{3 x^3 y^2 z}{x y^2} = 3 x^2 z,~~~ \displaystyle\frac{5 x^4 y^3 z^5}{x y^2} =
     5 x^3 y z^5,~~~ \displaystyle\frac{- 4 x y^4}{x y^2} = - 4 y^2</m><br />
 		<nbsp /><br />
 		This is what is left inside the parentheses.  
-<md><mrow>x y^2 (3 x^2 z + 5 x^3 y z^5 - 4 y^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  x y^2 (3 x^2 z + 5 x^3 y z^5 - 4 y^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} The first recorded algorithm for finding the
 greatest common factor comes from Greek mathematician Euclid around the year
 300 B.C.!
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given polynomial expression.
+Find and factor out the GCF of the given polynomial expression.
 </p>
-  
-<md><mrow>21 x^3 + 14 x^2 + 7 x \amp   \amp  \tmop{GCF} \tmop{is} 7 x, \tmop{divide}
+<md>
+  <mrow>  21 x^3 + 14 x^2 + 7 x \amp   \amp  \tmop{GCF} \tmop{is} 7 x, \tmop{divide}
     \tmop{each} \tmop{term} \tmop{by} 7x</mrow>
- 
 </md>
   <m>\displaystyle\frac{21 x^3}{7 x} = 3 x^2,~~~ \displaystyle\frac{14 x^2}{7 x} = 2 x,~~~ \displaystyle\frac{7 x}{7 x} = 1</m><br />
 		<nbsp /><br />
 		This is what is left inside the parentheses.  
-<md><mrow>7 x (3 x^2 + 2 x + 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  7 x (3 x^2 + 2 x + 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 It is important to note that in the previous example, the GCF of <m>7 x</m>
-was also one of the original terms. Dividing this term by the GCF left us with 1. A common mistake is to try to factor out the <m>7 x</m> and leave a value of zero. Factoring, however, will never make terms disappear completely. Any (nonzero) number or term that is divided by itself will always equal 1. Therefore, we must make certain to not forget to include a 1 in our solution.\pp
+was also one of the original terms. Dividing this term by the GCF left us with 1. A common mistake is to try to factor out the <m>7 x</m> and leave a value of zero. Factoring, however, will never make terms disappear completely. Any (nonzero) number or term that is divided by itself will always equal 1. Therefore, we must make certain to not forget to include a 1 in our solution.
 Often the line showing the division is not written in the work of factoring the GCF, and we will simply identify the GCF and put it in front of the parentheses. This step is one that will eventually be understood, and can therefore be omitted once the skill has been mastered. The following two examples demonstrate this.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given polynomial expression.
+Find and factor out the GCF of the given polynomial expression.
 </p>
-  
 <me>
- 12 x^5 y^2 - 6 x^4 y^4 + 8 x^3 y^5
+  12 x^5 y^2 - 6 x^4 y^4 + 8 x^3 y^5
 </me>
- 
 <p>
 <nbsp /><br />
 Notice, the GCF is <m>2x^3y^2</m>. Write <m>2x^3y^2</m> in front of the parentheses and divide each term by it, writing the resulting terms inside the parentheses.
 </p>
-  
-<md><mrow>2 x^3 y^2 (6 x^2 - 3 x y^2 + 4 y^3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  2 x^3 y^2 (6 x^2 - 3 x y^2 + 4 y^3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given polynomial expression.
+Find and factor out the GCF of the given polynomial expression.
 </p>
-  
 <me>
-18 a^4 b^3 - 27 a^3 b^3 + 9 a^2 b^3
+  18 a^4 b^3 - 27 a^3 b^3 + 9 a^2 b^3
 </me>
- 
 <p>
 <nbsp /><br />
 Notice, the GCF is <m>9 a^2 b^3</m>. Write <m>9 a^2 b^3</m> in front of the parentheses and divide each term by it, writing the resulting terms inside the parentheses.
 </p>
-  
-<md><mrow>9 a^2 b^3 (2 a^2 - 3 a + 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+<md>
+  <mrow>  9 a^2 b^3 (2 a^2 - 3 a + 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Again, in the previous problem, when dividing <m>9 a^2 b^3</m> by itself, the
 resulting term is 1, not zero. Be very careful that each term is accounted for in your
 final solution, and never forget that we can easily check our answers by expanding.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Grouping</title>
+<objectives>
 <p>
-\pp
+Factor polynomials with four terms using grouping.
 </p>
-  
+</objectives>
 <p>
-{\tmstrong{Objective: Factor polynomials with four terms using grouping.}}\pp
 The first thing we will always do when factoring is try to factor out a GCF.
-This GCF is often a <i>monomial</i> (a single term) like in the expression<br /> <m>5 x y + 10 x z</m>. Here, the GCF is
+This GCF is often a <em>monomial</em> (a single term) like in the expression<br /> <m>5 x y + 10 x z</m>. Here, the GCF is
 the monomial <m>5 x</m>, so we would have <m>5 x (y + 2 z)</m> as our answer. However, a GCF does not
-have to be a monomial. It could, in fact, be a <i>binomial</i> and contain two terms. To see this, consider the
+have to be a monomial. It could, in fact, be a <em>binomial</em> and contain two terms. To see this, consider the
 following two examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given expression.
+Find and factor out the GCF of the given expression.
 </p>
-  
-<md><mrow>3 a x - 7 b x \amp   \amp  \tmop{Both~terms} \tmop{have} x \tmop{in} \tmop{common},
+<md>
+  <mrow>  3 a x - 7 b x \amp   \amp  \tmop{Both~terms} \tmop{have} x \tmop{in} \tmop{common},
     \tmop{factor} \tmop{it} \tmop{out}</mrow>
- <mrow>x (3 a - 7 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x (3 a - 7 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 Now we will work with the same expression, replacing <m>x</m> with <m>(2 a + 5 b)</m>.<br />
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find and factor out the GCF of the given expression.
+Find and factor out the GCF of the given expression.
 </p>
-  
-<md><mrow>3 a (2 a + 5 b) - 7 b (2 a + 5 b) \amp   \amp  \tmop{Both~terms} \tmop{have~} (2 a + 5 b)
+<md>
+  <mrow>  3 a (2 a + 5 b) - 7 b (2 a + 5 b) \amp   \amp  \tmop{Both~terms} \tmop{have~} (2 a + 5 b)
     \tmop{~in} \tmop{common},</mrow>
- <mrow>\amp \amp  ~~~\tmop{factor} \tmop{it} \tmop{out}</mrow>
- <mrow>(2 a + 5 b) (3 a - 7 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp  ~~~\tmop{factor} \tmop{it} \tmop{out}</mrow>
+  <mrow>  (2 a + 5 b) (3 a - 7 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 In the same way that we factored out a GCF of <m>x</m> we can factor out a GCF which is
 a binomial, such as <m>(2 a + 5 b)</m> in the example above. This process can be extended to factoring expressions
-in which there is either no apparent GCF or there is more factoring that can be done after the GCF has been factored. At this point, we will introduce another useful factorization strategy, known as <i>grouping</i>. Grouping is typically employed when faced with an expression containing four terms.\pp
+in which there is either no apparent GCF or there is more factoring that can be done after the GCF has been factored. At this point, we will introduce another useful factorization strategy, known as <em>grouping</em>. Grouping is typically employed when faced with an expression containing four terms.
 Throughout this section, it is important to reinforce the fact that factoring is essentially expansion (multiplication) done in reverse. Therefore, we will first look at problem which requires us to multiply two expressions, and then try to reverse the process.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the expanded form for the given expression.
+Write the expanded form for the given expression.
 </p>
-  
-<md><mrow>(2 a + 3) (5 b + 2) \amp   \amp  \tmop{Distribute~} (2 a + 3) \tmop{~into}
+<md>
+  <mrow>  (2 a + 3) (5 b + 2) \amp   \amp  \tmop{Distribute~} (2 a + 3) \tmop{~into}
     \tmop{second} \tmop{parentheses}</mrow>
- <mrow>5 b (2 a + 3) + 2 (2 a + 3) \amp   \amp  \tmop{Distribute} \tmop{each}
+  <mrow>  5 b (2 a + 3) + 2 (2 a + 3) \amp   \amp  \tmop{Distribute} \tmop{each}
     \tmop{monomial}</mrow>
- <mrow>10ab + 15 b + 4 a + 6 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  10ab + 15 b + 4 a + 6 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 Our solution above has four terms in it. We arrived at this solution by focusing on
-the two parts, <m>5 b (2 a + 3)</m> and <m>2 (2 a + 3)</m>.\pp
-When attempting to factor by grouping, we will always divide an expression into two parts, or groups: group one will contain the first two terms of our expression and group two will contain the last two terms. Then we can identify and factor the GCF out of each group. In doing this, our hope is that what is left over in each group will be the same expression. If the resulting expressions match, we can then factor out this matching GCF from both of our designated groups, writing what is left in a new set of parentheses.\pp
+the two parts, <m>5 b (2 a + 3)</m> and <m>2 (2 a + 3)</m>.
+When attempting to factor by grouping, we will always divide an expression into two parts, or groups: group one will contain the first two terms of our expression and group two will contain the last two terms. Then we can identify and factor the GCF out of each group. In doing this, our hope is that what is left over in each group will be the same expression. If the resulting expressions match, we can then factor out this matching GCF from both of our designated groups, writing what is left in a new set of parentheses.
 Although the description of this method can sound rather complicated, the next few examples will help to clear up any lingering questions. We will start by working through the last example in reverse, factoring instead of multiplying.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>10 ab + 15 b + 4 a + 6 \amp   \amp  \tmop{Split} \tmop{expression} \tmop{into}
+<md>
+  <mrow>  10 ab + 15 b + 4 a + 6 \amp   \amp  \tmop{Split} \tmop{expression} \tmop{into}
     \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       10 ab + 15 b \amp  + 4 a + 6\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is} 5 b, \tmop{on}
     \tmop{the} \tmop{right} \tmop{is} 2</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       5 b (2 a + 3) \amp  + 2 (2 a + 3)\\
       \hline
 \end{array}  \amp   \amp  (2 a + 3) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(2 a + 3) (5 b + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (2 a + 3) (5 b + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 The key for grouping to be successful is for the two binomials to match exactly, once the GCF has been factored out of both groups. If there is any difference between the two binomials, we either have to do some adjusting or we cannot factor by grouping. Consider the following example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>6 x^2 + 9 x y - 14 x - 21 y \amp   \amp  \tmop{Split} \tmop{expression} \tmop{into}
+<md>
+  <mrow>  6 x^2 + 9 x y - 14 x - 21 y \amp   \amp  \tmop{Split} \tmop{expression} \tmop{into}
     \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       6 x^2 + 9 x y \amp  - 14 x - 21 y\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is} 3 x, \tmop{on}
     \tmop{right} \tmop{is} 7</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       3 x (2 x + 3 y) \amp  + 7 (- 2 x - 3 y)\\
       \hline
 \end{array}  \amp   \amp  \tmop{The} \tmop{signs} \tmop{in} \tmop{the}
     \tmop{parentheses} \tmop{do~not} \tmop{match} !</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 When the signs on both terms do not match, we can easily make them match by
 factoring a negative out of the GCF on the right side. Instead of <m>7</m> we will
 use <m>- 7</m>. This will change the signs inside the second set of parentheses.
 </p>
-  
-<md><mrow>\begin{array}{|l|l|}
+<md>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       3 x (2 x + 3 y) \amp  - 7 (2 x + 3 y)\\
       \hline
 \end{array}  \amp   \amp  (2 x + 3 y) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(2 x + 3 y) (3 x - 7) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (2 x + 3 y) (3 x - 7) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- 
 <p>
 <nbsp /><br />
 It will often be easy to recognize if we will need to factor out a negative sign when
 grouping. Specifically, if the first term of the first binomial is positive, the first term of the second binomial will also need to be positive. Similarly, if the first term of the first binomial is negative, the first term of the second binomial will also need to be negative.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>5 x y - 8 x - 10 y + 16 \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
+<md>
+  <mrow>  5 x y - 8 x - 10 y + 16 \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
     \tmop{into} \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       5 x y - 8 x \amp  - 10 y + 16\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is} x, \tmop{~on}
     \tmop{right} \tmop{we} \tmop{need}</mrow>
- <mrow>\amp \amp  ~~~\tmop{to~factor~out~a~negative}, \tmop{we~will~use~} - 2</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp  ~~~\tmop{to~factor~out~a~negative}, \tmop{we~will~use~} - 2</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       x (5 y - 8) \amp  - 2 (5 y - 8)\\
       \hline
 \end{array}  \amp   \amp  (5 y - 8) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(5 y - 8) (x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (5 y - 8) (x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 Occasionally, when factoring out a GCF from either group, it will appear as though there is nothing that can be factored out. In this case a GCF of either 1 or <m>- 1</m> should be used. Often this will be all that is required, in order to match up the two binomials.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>12 a b - 14 a - 6 b + 7 \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
+<md>
+  <mrow>  12 a b - 14 a - 6 b + 7 \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
     \tmop{into} \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       12 ab - 14 a \amp  - 6 b + 7\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 2 a, \tmop{~on}
     \tmop{right~use~GCF~of~} - 1</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       2 a (6 b - 7) \amp  - 1 (6 b - 7)\\
       \hline
 \end{array}  \amp   \amp  (6 b - 7) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(6 b - 7) (2 a - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (6 b - 7) (2 a - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>6 x^3 - 15 x^2 + 2 x - 5 \amp   \amp  \tmop{Split} \tmop{expression} \tmop{into}
+<md>
+  <mrow>  6 x^3 - 15 x^2 + 2 x - 5 \amp   \amp  \tmop{Split} \tmop{expression} \tmop{into}
     \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       6 x^3 - 15 x^2 \amp  + 2 x - 5\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 3 x^2,
     \tmop{~on} \tmop{right~use~GCF~of~} 1</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       3 x^2 (2 x - 5) \amp  + 1 (2 x - 5)\\
       \hline
 \end{array}  \amp   \amp  (2 x - 5) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(2 x - 5) (3 x^2 + 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (2 x - 5) (3 x^2 + 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
-When grouping, the selection or assignment of terms for each group can also be an area of concern. In particular, if after factoring out the GCF from the preassigned groups, the binomials do not match <i>and</i> cannot be adjusted as in the previous examples, a change in the group assignments may be necessary. In the next example we will demonstrate this by eventually moving the second term to the end of the given expression, to see if grouping may still be used.
+When grouping, the selection or assignment of terms for each group can also be an area of concern. In particular, if after factoring out the GCF from the preassigned groups, the binomials do not match <em>and</em> cannot be adjusted as in the previous examples, a change in the group assignments may be necessary. In the next example we will demonstrate this by eventually moving the second term to the end of the given expression, to see if grouping may still be used.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>4 a^2 - 21 b^3 + 6 a b - 14 a b^2 \amp   \amp  \tmop{Split} \tmop{the}
+<md>
+  <mrow>  4 a^2 - 21 b^3 + 6 a b - 14 a b^2 \amp   \amp  \tmop{Split} \tmop{the}
     \tmop{expression} \tmop{into} \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       4 a^2 - 21 b^3 \amp  + 6 a b - 14 a b^2\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 1, \tmop{~on}
     \tmop{right} \tmop{is~} 2 a b</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       1 (4 a^2 - 21 b^3) \amp  + 2 a b (3 - 7 b)\\
       \hline
 \end{array}  \amp   \amp  \tmop{Binomials} \tmop{do~not} \tmop{match} !</mrow>
- <mrow>\amp \amp \tmop{~~~Move}
+  <mrow>  \amp \amp \tmop{~~~Move}
     \tmop{second} \tmop{term} \tmop{to} \tmop{end}</mrow>
-  
 </md>
   
-<md><mrow>4 a^2 + 6 a b - 14 a b^2 - 21 b^3 \amp   \amp  \tmop{Start} \tmop{over},
+<md>
+  <mrow>  4 a^2 + 6 a b - 14 a b^2 - 21 b^3 \amp   \amp  \tmop{Start} \tmop{over},
     \tmop{~split} \tmop{expression} \tmop{into} \tmop{two}
     \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       4 a^2 + 6 ab \amp  - 14 a b^2 - 21 b^3\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 2 a, \tmop{~on}
     \tmop{right} \tmop{is} - 7 b^2</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       2 a (2 a + 3 b) \amp  - 7 b^2 (2 a + 3 b)\\
       \hline
 \end{array}  \amp   \amp  (2 a + 3 b) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(2 a + 3 b) (2 a - 7 b^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (2 a + 3 b) (2 a - 7 b^2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 When rearranging terms the expression might still appear to be out of order. Sometimes after
-factoring out the GCF the resulting binomials appear "backwards". There are two scenarios where this
-can happen: one with addition and one with subtraction. In the first scenario, if the binomials are say <m>(a + b)</m> and <m>(b + a)</m>, then we do not have to do any extra work. This is because addition is a <i>commutative</i> operation. This means that the sum of two terms is the same, regardless of their order. For example, <m>5 + 3 = 3 + 5 = 8</m>.
+factoring out the GCF the resulting binomials appear <q>backwards</q>. There are two scenarios where this
+can happen: one with addition and one with subtraction. In the first scenario, if the binomials are say <m>(a + b)</m> and <m>(b + a)</m>, then we do not have to do any extra work. This is because addition is a <em>commutative</em> operation. This means that the sum of two terms is the same, regardless of their order. For example, <m>5 + 3 = 3 + 5 = 8</m>.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>7 + y - 3 x y - 21 x \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
+<md>
+  <mrow>  7 + y - 3 x y - 21 x \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
     \tmop{into} \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       7 + y \amp  - 3 x y - 21 x\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 1, \tmop{~on}
     \tmop{the} \tmop{right} \tmop{is~} - 3 x</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       1 (7 + y) \amp  - 3 x (y + 7)\\
       \hline
 \end{array}  \amp   \amp  y + 7 \tmop{and} 7 + y \tmop{are} \tmop{equal},
     \tmop{~use} \tmop{either} \tmop{one}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(y + 7) (1 - 3 x) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (y + 7) (1 - 3 x) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 In the second scenario, if the binomials contain subtraction, then we need to be a bit more
@@ -580,100 +539,93 @@ careful. For example, if the binomials are <m>(a - b)</m> and <m>(b - a)</m>, we
 factor a negative sign out of either group (usually the second). Notice
 what happens when we factor out a <m>-1</m> in the following example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>(b - a) \amp   \amp  \tmop{Factor} \tmop{out~a~} - 1</mrow>
- <mrow>- 1 (- b + a) \amp   \amp  \tmop{Resulting~binomial~contains~addition},</mrow>
- <mrow>\amp \amp ~~~\tmop{we~may~switch~the} \tmop{order}</mrow>
- <mrow>- 1 (a - b) \amp   \amp  \tmop{The} \tmop{order} \tmop{of} \tmop{the}
+<md>
+  <mrow>  (b - a) \amp   \amp  \tmop{Factor} \tmop{out~a~} - 1</mrow>
+  <mrow>  - 1 (- b + a) \amp   \amp  \tmop{Resulting~binomial~contains~addition},</mrow>
+  <mrow>  \amp \amp ~~~\tmop{we~may~switch~the} \tmop{order}</mrow>
+  <mrow>  - 1 (a - b) \amp   \amp  \tmop{The} \tmop{order} \tmop{of} \tmop{the}
     \tmop{subtraction} \tmop{has} \tmop{been} \tmop{switched} !</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Generally we will not show all of the steps in the previous example when simplifying. Instead, we will simply factor out a negative sign and switch the order of the subtraction to make the resulting binomials. As with previous concepts, this omission should only be made by the student when the skill has been mastered. We conclude our discussion of grouping with one final example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>8 x y - 12 y + 15 - 10 x \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
+<md>
+  <mrow>  8 x y - 12 y + 15 - 10 x \amp   \amp  \tmop{Split} \tmop{the} \tmop{expression}
     \tmop{into} \tmop{two} \tmop{groups}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       8 x y - 12 y \amp  15 - 10 x\\
       \hline
 \end{array}  \amp   \amp  \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 4 y, \tmop{~on}
     \tmop{right~is~} 5</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       4 y (2 x - 3) \amp  + 5 (3 - 2 x)\\
       \hline
 \end{array}  \amp   \amp  \tmop{Need} \tmop{to} \tmop{switch~order},</mrow>
- <mrow>\amp \amp  \text{~~~Factor~negative~sign~out~of~second~binomial}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>\begin{array}{|l|l|}
+  <mrow>  \amp \amp  \text{~~~Factor~negative~sign~out~of~second~binomial}</mrow>
+  <mrow>  \amp \amp</mrow>
+  <mrow>  \begin{array}{|l|l|}
       \hline
       4 y (2 x - 3) \amp  - 5 (2 x - 3)\\
       \hline
 \end{array}  \amp   \amp  (2 x - 3) \tmop{appears~twice} !
     \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>\amp \amp </mrow>
- <mrow>(2 x - 3) (4 y - 5) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp \amp</mrow>
+  <mrow>  (2 x - 3) (4 y - 5) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 {\tmstrong{World View Note:}} Sofia Kovalevskaya of Russia was the first woman
 on the editorial staff of a mathematical journal in the late 19<m>^{\text{th} }</m> century. She
 also did research the rotation of the rings of Saturn.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Trinomials with Leading Coefficient <m>a=1</m></title>
+<objectives>
 <p>
-\pp
+Factor trinomials where the coefficient of <m>x^2</m> is
+one.
 </p>
-  
+</objectives>
 <p>
-{\tmstrong{Objective: Factor trinomials where the coefficient of <m>x^2</m> is
-one.}}\pp
-</p>
-  
-<p>
-Factoring polynomial expressions that contain three terms, or <i>trinomials</i>, is the most essential
+Factoring polynomial expressions that contain three terms, or <em>trinomials</em>, is the most essential
 factorization skill to algebra. Consequently, it is also the most important factorization skill to master. Again, since factoring is basically multiplication performed in reverse, we will start with a multiplication example and look at how we can reverse the process.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Write the expanded form for the given expression.
+Write the expanded form for the given expression.
 </p>
-  
-<md><mrow>(x + 6) (x - 4) \amp   \amp  \tmop{Distribute~} (x + 6) \tmop{~through}
+<md>
+  <mrow>  (x + 6) (x - 4) \amp   \amp  \tmop{Distribute~} (x + 6) \tmop{~through}
     \tmop{second} \tmop{parentheses}</mrow>
- <mrow>x (x + 6) - 4 (x + 6) \amp   \amp  \tmop{Distribute} \tmop{each} \tmop{monomial}
+  <mrow>  x (x + 6) - 4 (x + 6) \amp   \amp  \tmop{Distribute} \tmop{each} \tmop{monomial}
     \tmop{through} \tmop{parentheses}</mrow>
- <mrow>x^2 + 6 x - 4 x - 24 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
- <mrow>x^2 + 2 x - 24 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x^2 + 6 x - 4 x - 24 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}</mrow>
+  <mrow>  x^2 + 2 x - 24 \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Notice that if we reverse the last three steps of the previous example, the process looks like
 grouping. This is because it is grouping! In the second-to-last line, the GCF of the first two terms is <m>x</m>
@@ -681,402 +633,375 @@ and the GCF of the last two terms is <m>- 4</m>. In this manner, we will factor
 trinomials by writing them as a polynomial containing four terms, and then factor
 by grouping. This is demonstrated in the following example, which is the previous one done in reverse.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 + 2 x - 24 \amp   \amp  \tmop{~split} \tmop{middle~(linear)~} \tmop{term} \tmop{into} + 6
+<md>
+  <mrow>  x^2 + 2 x - 24 \amp   \amp  \tmop{~split} \tmop{middle~(linear)~} \tmop{term} \tmop{into} + 6
     x - 4 x</mrow>
- <mrow>x^2 + 6 x - 4 x - 24 \amp   \amp  \tmop{Grouping} : \tmop{GCF} \tmop{on}
+  <mrow>  x^2 + 6 x - 4 x - 24 \amp   \amp  \tmop{Grouping} : \tmop{GCF} \tmop{on}
     \tmop{left} \tmop{is} x, \tmop{~on} \tmop{right} \tmop{is} - 4</mrow>
- <mrow>x (x + 6) - 4 (x + 6) \amp   \amp  (x + 6) \tmop{~appears~twice},
+  <mrow>  x (x + 6) - 4 (x + 6) \amp   \amp  (x + 6) \tmop{~appears~twice},
     \tmop{~factor} \tmop{out} \tmop{this} \tmop{GCF}</mrow>
- <mrow>(x + 6) (x - 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  (x + 6) (x - 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 The trick to make these problems work resides in how we split the middle (or linear) term. Why did
 we choose <m>+ 6 x - 4 x</m> and not <m>+ 5 x - 3 x</m>? The reason is because <m>6 x - 4 x</m>
 is the only combination that will allow grouping to work! So how do we know what is the one combination that we need? To find the correct way to split the middle term we will use what is called the <m>ac</m>-method. Later, we will discuss why
-it is called the <m>ac</m>-method.\pp
+it is called the <m>ac</m>-method.
 The idea behind the <m>ac</m>-method is that we must find a pair of
-numbers that <i>multiply</i> to get the last (or constant) term in the expression and <i>add</i> to get the coefficient of the middle (or linear) term. In the previous example, we would want two numbers whose product is <m>- 24</m> and sum is <m>+ 2</m>. The only numbers that can do this are <m>6</m> and <m>-4</m> (<m>6 \cdot - 4 = - 24</m> and <m>6 + (- 4) = 2</m>). This method is demonstrated in
+numbers that <em>multiply</em> to get the last (or constant) term in the expression and <em>add</em> to get the coefficient of the middle (or linear) term. In the previous example, we would want two numbers whose product is <m>- 24</m> and sum is <m>+ 2</m>. The only numbers that can do this are <m>6</m> and <m>-4</m> (<m>6 \cdot - 4 = - 24</m> and <m>6 + (- 4) = 2</m>). This method is demonstrated in
 the next few examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 + 9 x + 18 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 18,
+<md>
+  <mrow>  x^2 + 9 x + 18 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 18,
     \tmop{add} \tmop{to} 9</mrow>
- <mrow>x^2 + 6 x + 3 x + 18 \amp   \amp  \tmop{Use~}6 \tmop{and} 3, \tmop{~split} \tmop{the}
+  <mrow>  x^2 + 6 x + 3 x + 18 \amp   \amp  \tmop{Use~}6 \tmop{and} 3, \tmop{~split} \tmop{the}
     \tmop{middle} \tmop{term}</mrow>
- <mrow>x (x + 6) + 3 (x + 6) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(x + 6) (x + 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x (x + 6) + 3 (x + 6) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (x + 6) (x + 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 - 4 x + 3 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 3,
+<md>
+  <mrow>  x^2 - 4 x + 3 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 3,
     \tmop{add} \tmop{to} - 4</mrow>
- <mrow>x^2 - 3 x - x + 3 \amp   \amp  \tmop{Use~}- 3 \tmop{and} - 1, \tmop{~split} \tmop{the}
+  <mrow>  x^2 - 3 x - x + 3 \amp   \amp  \tmop{Use~}- 3 \tmop{and} - 1, \tmop{~split} \tmop{the}
     \tmop{middle} \tmop{term}</mrow>
- <mrow>x (x - 3) - 1 (x - 3) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(x - 3) (x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x (x - 3) - 1 (x - 3) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (x - 3) (x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 - 8 x - 20 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 20,
+<md>
+  <mrow>  x^2 - 8 x - 20 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 20,
     \tmop{add} \tmop{to} - 8</mrow>
- <mrow>x^2 - 10 x + 2 x - 20 \amp   \amp  \tmop{Use~}- 10 \tmop{and} 2, \tmop{~split} \tmop{the}
+  <mrow>  x^2 - 10 x + 2 x - 20 \amp   \amp  \tmop{Use~}- 10 \tmop{and} 2, \tmop{~split} \tmop{the}
     \tmop{middle} \tmop{term}</mrow>
- <mrow>x (x - 10) + 2 (x - 10) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(x - 10) (x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x (x - 10) + 2 (x - 10) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (x - 10) (x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 Often when factoring we are faced with an expression containing two variables. These expressions are treated just like
 those containing only one variable. As in the next example, we will still use the coefficients to decide how to split the
 linear term.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>a^2 - 9 a b + 14 b^2 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to}
+<md>
+  <mrow>  a^2 - 9 a b + 14 b^2 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to}
     14, \tmop{add} \tmop{to} - 9</mrow>
- <mrow>a^2 - 7 a b - 2 a b + 14 b^2 \amp   \amp  \tmop{Use~}- 7 \tmop{and} - 2, \tmop{~split}
+  <mrow>  a^2 - 7 a b - 2 a b + 14 b^2 \amp   \amp  \tmop{Use~}- 7 \tmop{and} - 2, \tmop{~split}
     \tmop{the} \tmop{middle} \tmop{term}</mrow>
- <mrow>a (a - 7 b) - 2 b (a - 7 b) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(a - 7 b) (a - 2 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  a (a - 7 b) - 2 b (a - 7 b) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (a - 7 b) (a - 2 b) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 As the past few examples has shown, it is very important to be aware of
 negatives in finding the right pair of numbers used to split the linear term.
-Consider the following example, done <i>incorrectly</i>, ignoring negative signs.\pp
+Consider the following example, done <em>incorrectly</em>, ignoring negative signs.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 + 5 x - 6 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 6,
+<md>
+  <mrow>  x^2 + 5 x - 6 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 6,
     \tmop{add~to} 5</mrow>
- <mrow>x^2 + 2 x + 3 x - 6 \amp   \amp  \tmop{Use~} 2 \tmop{and} 3, \tmop{~split} \tmop{the}
+  <mrow>  x^2 + 2 x + 3 x - 6 \amp   \amp  \tmop{Use~} 2 \tmop{and} 3, \tmop{~split} \tmop{the}
     \tmop{middle} \tmop{term}</mrow>
- <mrow>x (x + 2) + 3 (x - 2) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>? ? ? \amp   \amp  \tmop{Binomials} \tmop{do} \tmop{not} \tmop{match} !</mrow>
- 
+  <mrow>  x (x + 2) + 3 (x - 2) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  ? ? ? \amp   \amp  \tmop{Binomials} \tmop{do} \tmop{not} \tmop{match} !</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Because we did not consider the negative sign with the constant term of -6 to find our pair of
-numbers, the binomials did not match and grouping was unsuccessful. Now we show factorization done correctly.\pp
+numbers, the binomials did not match and grouping was unsuccessful. Now we show factorization done correctly.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 + 5 x - 6 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 6,
+<md>
+  <mrow>  x^2 + 5 x - 6 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 6,
     \tmop{add} \tmop{to} 5</mrow>
- <mrow>x^2 + 6 x - x - 6 \amp   \amp  \tmop{Use~} 6 \tmop{and} - 1, \tmop{~split} \tmop{the}
+  <mrow>  x^2 + 6 x - x - 6 \amp   \amp  \tmop{Use~} 6 \tmop{and} - 1, \tmop{~split} \tmop{the}
     \tmop{middle} \tmop{term}</mrow>
- <mrow>x (x + 6) - 1 (x + 6) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(x + 6) (x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x (x + 6) - 1 (x + 6) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (x + 6) (x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 At this point, one might notice a shortcut for factoring such expressions. Once we identify
 the two numbers that are used to split the linear term, these will be the two
 numbers in each of our factors! In the previous example, the numbers used to split the
-linear term were 6 and <m>- 1</m>, our factors turned out to be <m>(x + 6) (x - 1)</m>.\pp
+linear term were 6 and <m>- 1</m>, our factors turned out to be <m>(x + 6) (x - 1)</m>.
 This shortcut will not always work out, as we will see momentarily. We can use it, however, when we have a leading coefficient of <m>a=1</m> for our quadratic term <m>ax^2</m>, which has been the case for all of the trinomials we have factored thus far. This shortcut is employed in the next few examples.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 - 7 x - 18 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 18,
+<md>
+  <mrow>  x^2 - 7 x - 18 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} - 18,
     \tmop{add} \tmop{to} - 7</mrow>
- <mrow>\amp   \amp  \tmop{Use~} - 9 \tmop{and} 2, \tmop{write} \tmop{the} \tmop{factors}</mrow>
- <mrow>(x - 9) (x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp   \amp  \tmop{Use~} - 9 \tmop{and} 2, \tmop{write} \tmop{the} \tmop{factors}</mrow>
+  <mrow>  (x - 9) (x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>m^2 - m n - 30 n^2 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} -
+<md>
+  <mrow>  m^2 - m n - 30 n^2 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} -
     30, \tmop{add} \tmop{to} - 1</mrow>
- <mrow>\amp   \amp  \tmop{Use~}  5 \tmop{and} - 6, \tmop{write} \tmop{the} \tmop{factors}</mrow>
- <mrow>\amp \amp  \tmop{Do~not} \tmop{forget} \tmop{second} \tmop{variable!}</mrow>
- <mrow>(m + 5 n) (m - 6 n) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp   \amp  \tmop{Use~}  5 \tmop{and} - 6, \tmop{write} \tmop{the} \tmop{factors}</mrow>
+  <mrow>  \amp \amp  \tmop{Do~not} \tmop{forget} \tmop{second} \tmop{variable!}</mrow>
+  <mrow>  (m + 5 n) (m - 6 n) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 It is also certainly possible to have a trinomial that does not factor using the <m>ac</m>-method. If there is no
 combination of numbers that multiplies and adds to the correct numbers, then
-we say that we cannot factor the polynomial "nicely", or easily. Later on in the chapter, we will learn of some other methods and terminology for factoring quadratic expressions of this type. The next example is of a quadratic expression that is not easily factorable.
+we say that we cannot factor the polynomial <q>nicely</q>, or easily. Later on in the chapter, we will learn of some other methods and terminology for factoring quadratic expressions of this type. The next example is of a quadratic expression that is not easily factorable.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>x^2 + 2 x + 6 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 6,
+<md>
+  <mrow>  x^2 + 2 x + 6 \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to} 6,
     \tmop{add} \tmop{to} 2</mrow>
- <mrow>1 \cdot 6 \tmop{~and~} 2 \cdot 3 \amp   \amp  \tmop{Only} \tmop{possibilities}
+  <mrow>  1 \cdot 6 \tmop{~and~} 2 \cdot 3 \amp   \amp  \tmop{Only} \tmop{possibilities}
     \tmop{to} \tmop{multiply} \tmop{to} 6, \tmop{~none} \tmop{add}
     \tmop{to} 2</mrow>
- <mrow>\tmop{Not~easily~factorable} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmop{Not~easily~factorable} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 Later, we will discover that the quadratic expression above cannot be factored over the real numbers. In other words, there exist no real numbers <m>r</m> and <m>s</m> such that
 </p>
-  
 <me>
-x^2 + 2 x + 6=(x-r)(x-s)
+  x^2 + 2 x + 6=(x-r)(x-s)
 </me>
- 
 <p>
-Such expressions are said to be <i>irreducible over the reals</i>, and any factorization will require us to use <i>complex</i> numbers. Complex numbers will be discussed later on in the chapter.\pp
+Such expressions are said to be <em>irreducible over the reals</em>, and any factorization will require us to use <em>complex</em> numbers. Complex numbers will be discussed later on in the chapter.
 When factoring any expression, it is important to not forget about first identifying a GCF of all the given terms. If all the terms
 in an expression have a common factor we will want to first factor out the GCF before using any other method.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>3 x^2 - 24 x + 45 \amp   \amp  \tmop{GCF} \tmop{of} \tmop{all} \tmop{terms}
+<md>
+  <mrow>  3 x^2 - 24 x + 45 \amp   \amp  \tmop{GCF} \tmop{of} \tmop{all} \tmop{terms}
     \tmop{is} 3, \tmop{~factor} \tmop{this} \tmop{out~first}</mrow>
- <mrow>3 (x^2 - 8 x + 15) \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to}
+  <mrow>  3 (x^2 - 8 x + 15) \amp   \amp  \tmop{Need} \tmop{to} \tmop{multiply} \tmop{to}
     15, \tmop{add} \tmop{to} - 8</mrow>
- <mrow>\amp   \amp \tmop{Use~} - 5 \tmop{and} - 3, \tmop{~write} \tmop{the} \tmop{factors}</mrow>
- <mrow>3 (x - 5) (x - 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \amp   \amp \tmop{Use~} - 5 \tmop{and} - 3, \tmop{~write} \tmop{the} \tmop{factors}</mrow>
+  <mrow>  3 (x - 5) (x - 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-Again it is important to comment on the shortcut of jumping right to the factors, this only works if the leading coefficient <m>a=1</m>. In the example above, we applied the shortcut only <i>after</i> we factored out a GCF of 3. Next, we will look at how this process changes when <m>a\neq1</m>.\pp
+Again it is important to comment on the shortcut of jumping right to the factors, this only works if the leading coefficient <m>a=1</m>. In the example above, we applied the shortcut only <em>after</em> we factored out a GCF of 3. Next, we will look at how this process changes when <m>a\neq1</m>.
 </p>
-  
+
 <p>
 {\tmstrong{World View Note:}} The first person to use letters for unknown
 values was Francois Vieta in 1591 in France. He used vowels to represent
 variables, just as basic codes often use letters to encrypt a message.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Trinomials with Leading Coefficient <m>a\neq 1</m></title>
+<objectives>
 <p>
-\pp
+Factor trinomials using the <m>ac</m>-method when the
+coefficient of <m>x^2</m> is not one.
 </p>
-  
-<p>
-{\tmstrong{Objective: Factor trinomials using the <m>ac</m>-method when the
-coefficient of <m>x^2</m> is not one.}}\pp
-</p>
-  
+</objectives>
 <p>
 When factoring trinomials we used the <m>ac</m>-method to split the middle (or linear) term and
 then factor by grouping. The <m>ac</m>-method gets its name from the general
 trinomial expression, <m>a x^2 + b x + c</m>, where <m>a, b,</m> and <m>c</m> are the
-leading coefficient, linear coefficient, and constant term, respectively.\pp
+leading coefficient, linear coefficient, and constant term, respectively.
 </p>
-  
+
 <p>
 {\tmstrong{World View Note:}} It was French philosopher Rene Descartes who
 first used letters from the beginning of the alphabet <m>(a, b, c)</m> to represent values we
 know and letters from the end (<m>x, y, z</m>) to represent values we don't know
-and must solve for.\pp
+and must solve for.
 </p>
-  
+
 <p>
 The <m>ac</m>-method is named as such because we will use the product <m>a \cdot c</m> to help find out what two numbers we
 will need for grouping later on. Previously, we always found two numbers whose product was equal to <m>c</m>,
 since the leading coefficient <m>a</m> was 1 in our expression (so <m>ac=1c=c</m>). Now we will be working with trinomials where <m>a\neq1</m>, so we will need to identify two numbers that multiply to <m>ac</m> and add to <m>b</m>. Aside from this adjustment, the process will be the same as before.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>3 x^2 + 11 x + 6 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (3) (6) =
+<md>
+  <mrow>  3 x^2 + 11 x + 6 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (3) (6) =
     18, \tmop{~add} \tmop{to} 11</mrow>
- <mrow>3 x^2 + 9 x + 2 x + 6 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 9
+  <mrow>  3 x^2 + 9 x + 2 x + 6 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 9
     \tmop{and} 2, \tmop{~split} \tmop{the} \tmop{linear} \tmop{term}</mrow>
- <mrow>3 x (x + 3) + 2 (x + 3) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(x + 3) (3 x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  3 x (x + 3) + 2 (x + 3) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (x + 3) (3 x + 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 When <m>a = 1</m>, we were able to use a shortcut, using the numbers that split the linear term for our factors. The
 previous example illustrates an important point: the shortcut does not work when <m>a \neq 1</m>. Therefore, we must go through all the steps of grouping in order to factor the expression.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>8 x^2 - 2 x - 15 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (8) (- 15) =
+<md>
+  <mrow>  8 x^2 - 2 x - 15 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (8) (- 15) =
     - 120, \tmop{~add} \tmop{to} - 2</mrow>
- <mrow>8 x^2 - 12 x + 10 x - 15 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} - 12
+  <mrow>  8 x^2 - 12 x + 10 x - 15 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} - 12
     \tmop{and} 10, \tmop{~split} \tmop{the} \tmop{linear} \tmop{term}</mrow>
- <mrow>4 x (2 x - 3) + 5 (2 x - 3) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(2 x - 3) (4 x + 5) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  4 x (2 x - 3) + 5 (2 x - 3) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (2 x - 3) (4 x + 5) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example><statement>
+
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>10 x^2 - 27 x + 5 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (10) (5) =
+<md>
+  <mrow>  10 x^2 - 27 x + 5 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (10) (5) =
     50, \tmop{~add} \tmop{to} - 27</mrow>
- <mrow>10 x^2 - 25 x - 2 x + 5 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} - 25
+  <mrow>  10 x^2 - 25 x - 2 x + 5 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} - 25
     \tmop{and} - 2, \tmop{~split} \tmop{the} \tmop{linear} \tmop{term}</mrow>
- <mrow>5 x (2 x - 5) - 1 (2 x - 5) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(2 x - 5) (5 x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  5 x (2 x - 5) - 1 (2 x - 5) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (2 x - 5) (5 x - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 The same process will work for trinomials containing two variables.<br />
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>4 x^2 - x y - 5 y^2 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (4) (- 5)
+<md>
+  <mrow>  4 x^2 - x y - 5 y^2 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (4) (- 5)
     = - 20, \tmop{~add} \tmop{to} - 1</mrow>
- <mrow>4 x^2 + 4 x y - 5 x y - 5 y^2 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 4
+  <mrow>  4 x^2 + 4 x y - 5 x y - 5 y^2 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 4
     \tmop{and} - 5, \tmop{~split} \tmop{the} \tmop{middle} \tmop{term}</mrow>
- <mrow>4 x (x + y) - 5 y (x + y) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
- <mrow>(x + y) (4 x - 5 y) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  4 x (x + y) - 5 y (x + y) \amp   \amp  \tmop{Factor} \tmop{by} \tmop{grouping}</mrow>
+  <mrow>  (x + y) (4 x - 5 y) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 <nbsp /><br />
 As always, when factoring we will first look for a GCF before using any other
 method, including the <m>ac</m>-method. Factoring out the GCF first also has the
 added bonus of making the coefficients smaller, so other methods become easier.<br />
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>18 x^3 + 33 x^2 - 30 x \amp   \amp  \tmop{GCF~is}3 x, \tmop{~factor} \tmop{this}
+<md>
+  <mrow>  18 x^3 + 33 x^2 - 30 x \amp   \amp  \tmop{GCF~is}3 x, \tmop{~factor} \tmop{this}
     \tmop{out} \tmop{first}</mrow>
- <mrow>3 x (6 x^2 + 11 x - 10) \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{~or} (6)
+  <mrow>  3 x (6 x^2 + 11 x - 10) \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{~or} (6)
     (- 10) = - 60, \tmop{~add} \tmop{to} 11</mrow>
- <mrow>3 x (6 x^2 + 15 x - 4 x - 10) \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 15
+  <mrow>  3 x (6 x^2 + 15 x - 4 x - 10) \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 15
     \tmop{and} - 4, \tmop{~split} \tmop{the} \tmop{linear} \tmop{term}</mrow>
- <mrow>3 x [3 x (2 x + 5) - 2 (2 x + 5)] \amp   \amp  \tmop{Factor} \tmop{by}
+  <mrow>  3 x [3 x (2 x + 5) - 2 (2 x + 5)] \amp   \amp  \tmop{Factor} \tmop{by}
     \tmop{grouping}</mrow>
- <mrow>3 x (2 x + 5) (3 x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  3 x (2 x + 5) (3 x - 2) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 As was the case with trinomials when <m>a = 1</m>, not all trinomials can be
 factored easily. If there are no combinations that multiply and add correctly, then we
 can say the trinomial is not easily factorable. In such cases, the expression will require a new method of factorization, and may even be shown to be irreducible over the real numbers (the factorization will require complex numbers). We will encounter such expressions and learn how to properly handle them before the end of this chapter. We conclude this section with one such example.
 <nbsp /><br />
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Factor the given expression.
+Factor the given expression.
 </p>
-  
-<md><mrow>3 x^2 + 2 x - 7 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (3) (- 7) = -
+<md>
+  <mrow>  3 x^2 + 2 x - 7 \amp   \amp  \tmop{Multiply} \tmop{to} a c \tmop{or~} (3) (- 7) = -
     21, \tmop{~add} \tmop{to} 2</mrow>
- <mrow>- 3 (7) \tmop{~and~} - 7 (3) \amp   \amp  \tmop{Only} \tmop{two} \tmop{ways}
+  <mrow>  - 3 (7) \tmop{~and~} - 7 (3) \amp   \amp  \tmop{Only} \tmop{two} \tmop{ways}
     \tmop{to} \tmop{multiply} \tmop{to} - 21, \tmop{~neither} \tmop{adds} \tmop{to} 2</mrow>
- <mrow>\tmop{Not~easily~factorable} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  \tmop{Not~easily~factorable} \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-It turns out that the previous example <i>is</i> factorable over the real numbers, but we will postpone this discovery until later.
+It turns out that the previous example <em>is</em> factorable over the real numbers, but we will postpone this discovery until later.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

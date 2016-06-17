@@ -1,63 +1,65 @@
-
 <section>
 <title>Compound and Absolute Value Inequalities</title>
+
+
 <subsection>
 <title>Compound Inequalities</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Solve, graph and give interval notation to the solution
-of compound inequalities and inequalities containing absolute values.}}
+Solve, graph and give interval notation to the solution
+of compound inequalities and inequalities containing absolute values.
 </p>
-  
+</objectives>
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 Several inequalities can be combined together to form what are called compound
 inequalities. There are three types of compound inequalities which we will
 investigate in this section.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 The first type of a compound inequality is an OR inequality. For this type of
 inequality we want a true statement from either one inequality OR the other
 inequality OR both. When we are graphing these type of inequalities we will
 graph each individual inequality above the number line, then combine them together on the number line for our graph.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 When we provide interval notation for our solution, if there are two different
 intervals to the graph we will put a <m>\cup</m> (union) symbol between the two intervals.
 </p>
-  
-<example xml:id="Lin100"><statement>
+<example xml:id="Lin100">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve each inequality, graph the solution, and provide the interval notation of your solution.
+Solve each inequality, graph the solution, and provide the interval notation of your solution.
 </p>
-  
-<md><mrow>2 x - 5 > 3 \tmop{~~or~~} 4 - x \geq 6~~ \amp   \amp  \tmop{Solve} \tmop{each}
+<md>
+  <mrow>  2 x - 5 > 3 \tmop{~~or~~} 4 - x \geq 6~~ \amp   \amp  \tmop{Solve} \tmop{each}
     \tmop{inequality}</mrow>
- <mrow>\tmmathbf{\underline{+ 5 ~ + 5}} ~~~ \tmmathbf{\underline{- 4 ~~~~~~ - 4}} \amp   \amp  \tmop{Add} \tmop{or}
+  <mrow>  \tmmathbf{\underline{+ 5 ~ + 5}} ~~~ \tmmathbf{\underline{- 4 ~~~~~~ - 4}} \amp   \amp  \tmop{Add} \tmop{or}
     \tmop{subtract} \tmop{first}</mrow>
- <mrow>2 x > 8 \tmop{~~~~or~~~~~} - x \geq 2~~ \amp   \amp  \tmop{Divide}</mrow>
- <mrow>\tmmathbf{\overline{2} ~~~~~ \overline{2}} ~~~~~~~~~~~~ \tmmathbf{\overline{- 1} ~~~ \overline{- 1}} \amp   \amp 
+  <mrow>  2 x > 8 \tmop{~~~~or~~~~~} - x \geq 2~~ \amp   \amp  \tmop{Divide}</mrow>
+  <mrow>  \tmmathbf{\overline{2} ~~~~~ \overline{2}} ~~~~~~~~~~~~ \tmmathbf{\overline{- 1} ~~~ \overline{- 1}} \amp   \amp 
     \tmop{Dividing} \tmop{by} \tmop{negative} \tmop{flips} \tmop{sign}</mrow>
- <mrow>x > 4 \tmop{~~~~or~~~~~} x \leq - 2~~ \amp   \amp  \tmop{Graph} \tmop{the}
+  <mrow>  x > 4 \tmop{~~~~or~~~~~} x \leq - 2~~ \amp   \amp  \tmop{Graph} \tmop{the}
     \tmop{inequalities} \tmop{separately},</mrow>
- <mrow>\amp  \amp  ~~~\tmop{then~combine}</mrow>
- 
+  <mrow>  \amp  \amp  ~~~\tmop{then~combine}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  \begin{mfpic}[8]{-8}8{-7}6
+
+\begin{mfpic}[8]{-8}8{-7}6
 \pointfilltrue
 \penwd{0.5pt}
 \polyline{(8,6),(-8,6)}
@@ -88,19 +90,19 @@ intervals to the graph we will put a <m>\cup</m> (union) symbol between the two 
 \arrow[b -5.8pt][l 6pt]\polyline{(3.15,-5),(8,-5)}
 
 \tcaption{<m>x\leq-2</m><nbsp /><nbsp /><nbsp /><nbsp />or<nbsp /><nbsp /><nbsp /><nbsp /><m>x>4</m>}
-\end{mfpic}  
+\end{mfpic}
 <p>
 {\tmstrong{World View Note:}} The symbol for infinity was first used by the
 Romans, although at the time the number was used for 1000. The Greeks also
-used the symbol for 10,000.\pp
+used the symbol for 10,000.
 </p>
-  
+
 <p>
 There are several different results that could result from an OR statement.
 The graphs could be pointing different directions, as in the graph above. The graphs could also be pointing in the same direction, as in the graph below on the left. Lastly, the graphs could be pointing in opposite directions, but overlapping, as in the graph below on the right.
 Notice how interval notation works for each of these cases.
 </p>
-  \begin{mfpic}[8]{-8}8{-7}6
+\begin{mfpic}[8]{-8}8{-7}6
 \pointfilltrue
 \penwd{0.5pt}
 \polyline{(8,6),(-8,6)}
@@ -153,44 +155,44 @@ Notice how interval notation works for each of these cases.
 \penwd{2.3pt}
 \arrow[b -5.8pt][l 6pt] \reverse \arrow[b -5.8pt][l 6pt]\polyline{(8,-5),(-8,-5)}
 \tcaption{<m>x\geq-3</m><nbsp /><nbsp /><nbsp /><nbsp />or<nbsp /><nbsp /><nbsp /><nbsp /><m>x\lt -1</m>}
-\end{mfpic}  
+\end{mfpic}
 <p>
 As the graphs overlap, we take<br /> the largest graph (<m>x\lt -1</m>) for<br /> our solution.<br />
 	Interval notation: <m>(- \infty, 1)</m>
 </p>
-  
+
 <p>
 When the graphs are combined they cover the entire number line.<br />
 </p>
-  
+
 <p>
 Interval notation: <m>(- \infty, \infty)</m> \tmop{<nbsp />or<nbsp />} <m>\mathbb{R}</m>
 </p>
-  
+
 <p>
-The second type of compound inequality is an AND inequality. These inequalities require <i>both</i> statements to be true. If one is false, they both are false. When we graph these inequalities we can follow a similar process. First, graph both inequalities above the number line. This time, however, we will only consider where they overlap to the number line for our final graph. When our solution is given in interval notation it will be expressed in a manner very similar to single inequalities (there is a symbol that can be used for AND, the intersection, denoted by a <m>\cap</m>, but we will not use it here).
+The second type of compound inequality is an AND inequality. These inequalities require <em>both</em> statements to be true. If one is false, they both are false. When we graph these inequalities we can follow a similar process. First, graph both inequalities above the number line. This time, however, we will only consider where they overlap to the number line for our final graph. When our solution is given in interval notation it will be expressed in a manner very similar to single inequalities (there is a symbol that can be used for AND, the intersection, denoted by a <m>\cap</m>, but we will not use it here).
 </p>
-  
-<example xml:id="Lin101"><statement>
+<example xml:id="Lin101">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve each inequality, graph the solution, and provide the interval notation of your solution.
+Solve each inequality, graph the solution, and provide the interval notation of your solution.
 </p>
-  
-<md><mrow>2 x + 8 \geq 5 x - 7 \tmop{~~and~~} 5 x - 3 > 3 x + 1 \amp   \amp  \tmop{Move}
+<md>
+  <mrow>  2 x + 8 \geq 5 x - 7 \tmop{~~and~~} 5 x - 3 > 3 x + 1 \amp   \amp  \tmop{Move}
     \tmop{variables} \tmop{to} \tmop{one} \tmop{side}</mrow>
- <mrow>\tmmathbf{\underline{- 2 x ~~~~~- 2 x}} ~~~~~~~~~~~~  \tmmathbf{\underline{- 3 x ~~~~- 3 x}}~~~~  \amp   \amp </mrow>
- <mrow>8 \geq 3 x - 7 \tmop{~~~and~~~} 2 x - 3 > 1~~~~~~ \amp   \amp  \tmop{Add} 7 \tmop{~or~} 3
+  <mrow>  \tmmathbf{\underline{- 2 x ~~~~~- 2 x}} ~~~~~~~~~~~~  \tmmathbf{\underline{- 3 x ~~~~- 3 x}}  \amp   \amp</mrow>
+  <mrow>  8 \geq 3 x - 7 \tmop{~~~and~~~} 2 x - 3 > 1~~~~~~ \amp   \amp  \tmop{Add} 7 \tmop{~or~} 3
     \tmop{to} \tmop{both} \tmop{sides}</mrow>
- <mrow>\tmmathbf{\underline{+ 7 ~~~~~~+ 7}} ~~~~~~~~~~~~~~~~ \tmmathbf{\underline{+ 3 ~~+ 3}}~~~ \amp   \amp </mrow>
- <mrow>15 \geq 3 x \tmop{~~~~~~and~~~~~~~} 2 x > 4~~~~~~~ \amp   \amp  \tmop{Divide}</mrow>
- <mrow>\tmmathbf{\overline{3} ~~~~~ \overline{3}} ~~~~~~~~~~~~~~~~~~~~ \tmmathbf{\overline{2} ~~~~~ \overline{2}}~~~~~~~ \amp   \amp </mrow>
- <mrow>5 \geq x \tmop{~~~~~~~and~~~~~~~} x > 2~~~~~~~~~ \amp   \amp  \tmop{Graph~the~inequalities~}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{separately,~then~combine}</mrow>
- 
+  <mrow>  \tmmathbf{\underline{+ 7 ~~~~~~+ 7}} ~~~~~~~~~~~~~~~~ \tmmathbf{\underline{+ 3 ~~+ 3}} \amp   \amp</mrow>
+  <mrow>  15 \geq 3 x \tmop{~~~~~~and~~~~~~~} 2 x > 4~~~~~~~ \amp   \amp  \tmop{Divide}</mrow>
+  <mrow>  \tmmathbf{\overline{3} ~~~~~ \overline{3}} ~~~~~~~~~~~~~~~~~~~~ \tmmathbf{\overline{2} ~~~~~ \overline{2}} \amp   \amp</mrow>
+  <mrow>  5 \geq x \tmop{~~~~~~~and~~~~~~~} x > 2~~~~~~~~~ \amp   \amp  \tmop{Graph~the~inequalities~}</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{separately,~then~combine}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  \begin{mfpic}[8]{-8}8{-7}6
+
+\begin{mfpic}[8]{-8}8{-7}6
 \pointfilltrue
 \penwd{0.5pt}
 \polyline{(8,6),(-8,6)}
@@ -220,21 +222,19 @@ The second type of compound inequality is an AND inequality. These inequalities 
 
 \tcaption{<m>x>2</m><nbsp /><nbsp /><nbsp /><nbsp />and<nbsp /><nbsp /><nbsp /><nbsp /><m>x\leq 5</m>}
 \end{mfpic}  
-<md><mrow>(2,5] \amp \amp  \text{Interval~notation}</mrow>
- 
+<md>
+  <mrow>  (2,5] \amp \amp  \text{Interval~notation}</mrow>
 </md>
-  
 <p>
-
 <nbsp />
 </p>
-  
+
 <p>
 Again, as we graph AND inequalities, only the overlapping parts of the
 individual graphs makes it to the final number line. There are also three different types of results we could get. The first is shown in the above example. The second occurs when the arrows both point
 in the same direction, as shown below on the left. The third occurs when the arrows point in opposite directions, but do not overlap, as shown below on the right. Notice how interval notation is expressed in each case.
 </p>
-  \begin{mfpic}[8]{-8}8{-7}6
+\begin{mfpic}[8]{-8}8{-7}6
 \pointfilltrue
 \penwd{0.5pt}
 \polyline{(8,6),(-8,6)}
@@ -285,7 +285,7 @@ in the same direction, as shown below on the left. The third occurs when the arr
 \arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
 \tlabel[cc](-1,-7){<nbsp />}
 \tcaption{<m>x>2</m><nbsp /><nbsp /><nbsp /><nbsp />and<nbsp /><nbsp /><nbsp /><nbsp /><m>x\lt -1</m>}
-\end{mfpic}  
+\end{mfpic}
 <p>
 In this graph, the overlap is only<br /> the smaller graph (<m>x\lt -2</m>), so<br /> this is what makes
 it to the<br /> final number line.<br />
@@ -294,34 +294,34 @@ Interval notation: <m>(- \infty, - 2)</m><br />
 In this graph there is no overlap of the parts.	Because there is no overlap, no values make it to the final number line.<br />
 	Interval notation: No solution or <m>\varnothing</m>
 </p>
-  
+
 <p>
 The third type of compound inequality is a special type of AND inequality.
 When our variable (or expression containing the variable) is between two
-numbers. We can write this as a single mathematical sentence with three parts, such as <m>5 \lt  x \leq 8</m>, to show <m>x</m> is between 5 and 8 (or equal to 8). This type of inequality is often referred to as a <i>double inequality</i>, since it contains two inequalities. When solving these types of inequalities, as there are three parts to work with, in order to stay balanced we will do the same thing to all three parts (rather than just two sides), and eventually isolate the variable in the middle. The resulting graph will contain all values between the numbers on either side of the double inequality, with appropriate brackets on the ends.
+numbers. We can write this as a single mathematical sentence with three parts, such as <m>5 \lt  x \leq 8</m>, to show <m>x</m> is between 5 and 8 (or equal to 8). This type of inequality is often referred to as a <em>double inequality</em>, since it contains two inequalities. When solving these types of inequalities, as there are three parts to work with, in order to stay balanced we will do the same thing to all three parts (rather than just two sides), and eventually isolate the variable in the middle. The resulting graph will contain all values between the numbers on either side of the double inequality, with appropriate brackets on the ends.
 </p>
-  
-<example xml:id="Lin102"><statement>
+<example xml:id="Lin102">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve each inequality, graph the solution, and provide the interval notation of your solution.
+Solve each inequality, graph the solution, and provide the interval notation of your solution.
 </p>
-  
-<md><mrow>- 6 \leq - 4 x + 2 \lt  2~~ \amp   \amp  \tmop{Subtract} 2 \tmop{from} \tmop{all}
+<md>
+  <mrow>  - 6 \leq - 4 x + 2 \lt  2~~ \amp   \amp  \tmop{Subtract} 2 \tmop{from} \tmop{all}
     \tmop{three} \tmop{parts}</mrow>
- <mrow>\tmmathbf{\underline{- 2} ~~~~~~~~~~\underline{- 2} ~~~\underline{- 2}} \amp   \amp </mrow>
- <mrow>- 8 \leq - 4 x \lt  0~~ \amp   \amp  \tmop{Divide} \tmop{all} \tmop{three}
+  <mrow>  \tmmathbf{\underline{- 2} ~~~~~~~~~~\underline{- 2} ~~~\underline{- 2}} \amp   \amp</mrow>
+  <mrow>  - 8 \leq - 4 x \lt  0~~ \amp   \amp  \tmop{Divide} \tmop{all} \tmop{three}
     \tmop{parts} \tmop{by} - 4</mrow>
- <mrow>\tmmathbf{\overline{- 4} ~~~~ \overline{- 4} ~~~~ \overline{- 4}} \amp   \amp  \tmop{Dividing}
+  <mrow>  \tmmathbf{\overline{- 4} ~~~~ \overline{- 4} ~~~~ \overline{- 4}} \amp   \amp  \tmop{Dividing}
     \tmop{by~a} \tmop{negative} \tmop{flips} \tmop{the} \tmop{symbols}</mrow>
- <mrow>2 \geq x > 0~~ \amp   \amp  \tmop{Flip} \tmop{entire} \tmop{statement}
+  <mrow>  2 \geq x > 0~~ \amp   \amp  \tmop{Flip} \tmop{entire} \tmop{statement}
     \tmop{so} \tmop{values} \tmop{get} \tmop{larger} \tmop{left} \tmop{to}
     \tmop{right}</mrow>
- <mrow>0 \lt  x \leq 2~~ \amp   \amp  \text{Graph~}  x \text{~between~0~and~2}</mrow>
- 
+  <mrow>  0 \lt  x \leq 2~~ \amp   \amp  \text{Graph~}  x \text{~between~0~and~2}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  \begin{mfpic}[8]{-8}8{-7}{-5}
+
+\begin{mfpic}[8]{-8}8{-7}{-5}
 \pointfilltrue
 \penwd{0.5pt}
 \arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
@@ -334,33 +334,35 @@ numbers. We can write this as a single mathematical sentence with three parts, s
 
 \tcaption{<m>0\lt x\leq 2</m>}
 \end{mfpic}  
-<md><mrow>(0, 2] \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
- 
+<md>
+  <mrow>  (0, 2] \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
 </md>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Absolute Value Inequalities</title>
 <p>
 When an inequality contains an absolute value we will have to remove the absolute value in order to graph the solution or provide interval notation. The way we remove the absolute value depends on the direction of the inequality symbol.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 Consider <m>|x| \lt  2</m>.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 Absolute value is defined as the distance from zero. Another way to read this
 inequality would be the distance that the variable <m>x</m> is from zero is less than 2. So on a number line we will shade all points that are less than 2 units away from zero.
 </p>
-  \begin{mfpic}[8]{-8}8{-2}0
+\begin{mfpic}[8]{-8}8{-2}0
 \pointfilltrue
 \penwd{0.5pt}
 \arrow\reverse\arrow\polyline{(8,0),(-8,0)}
@@ -375,10 +377,9 @@ inequality would be the distance that the variable <m>x</m> is from zero is less
 \tcaption{<m>|x|\lt 2</m>}
 \end{mfpic}
 	
-<md><mrow>(-2, 2) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
- 
+<md>
+  <mrow>  (-2, 2) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
 </md>
-  
 <p>
 This graph looks just like the graphs of the double (compound) inequalities!
 When the absolute value is {\tmstrong{less than}} a number we will remove the
@@ -386,23 +387,23 @@ absolute value by changing the problem to a double inequality, with the
 negative value on the left and the positive value on the right. So <m>|x| \lt  2</m>
 becomes <m>- 2 \lt  x \lt  2</m>, as the graph above illustrates.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 Consider <m>|x| > 2</m>.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 Similarly, another way to read this inequality would be the distance that <m>x</m> is from zero is greater than 2. So on the number line we shade all points that are more than 2 units away from zero.
 </p>
-  \begin{mfpic}[8]{-8}8{-7}{-5}
+\begin{mfpic}[8]{-8}8{-7}{-5}
 \pointfilltrue
 \penwd{0.5pt}
 \arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
@@ -417,10 +418,9 @@ Similarly, another way to read this inequality would be the distance that <m>x</
 \arrow[b -5.8pt][l 6pt]\polyline{(-3,-5),(-8,-5)}
 \tcaption{<m>|x|> 2</m>}
 \end{mfpic}  
-<md><mrow>(-\infty, -2)\cup(2,\infty) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
- 
+<md>
+  <mrow>  (-\infty, -2)\cup(2,\infty) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
 </md>
- 
 <p>
 This graph looks just like the graphs of the OR compound inequalities! When
 the absolute value is {\tmstrong{greater than}} a number we will remove the
@@ -429,32 +429,32 @@ inequality looking just like the problem with no absolute value, the second
 flipping the inequality symbol and changing the value to a negative. So <m>|x| >
 2 \tmop{becomes} x > 2 \tmop{or} x \lt  - 2</m>, as the graph above illustrates.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
-{\tmstrong{World View Note:}} The phrase "absolute value" comes from German
+{\tmstrong{World View Note:}} The phrase <q>absolute value</q> comes from German
 mathematician Karl Weierstrass in 1876, though he used the absolute value
 symbol for complex numbers. The first known use of the symbol for integers
 comes from a 1939 edition of a college algebra text!
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 For all absolute value inequalities we can also express our answers in
 interval notation which is done the same way as for standard compound
 inequalities.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 We can solve absolute value inequalities much like we solved absolute value
 equations. Our first step will be to isolate the absolute value. Next we will
@@ -464,23 +464,22 @@ is greater than a number. Then we will solve these inequalities. Remember, if
 we multiply or divide by a negative the inequality symbol(s) will switch
 directions!
 </p>
-  
-<example xml:id="Lin103"><statement>
+<example xml:id="Lin103">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve, graph, and provide interval notation for the solution.
+Solve, graph, and provide interval notation for the solution.
 </p>
-  
-<md><mrow>|4x - 5| \geq 6~~~~~~~~~~~~ \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{is}
+<md>
+  <mrow>  |4x - 5| \geq 6~~~~~~~~~~~~ \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{is}
     \tmop{greater}, \tmop{use} \tmop{OR}</mrow>
- <mrow>4 x - 5 \geq 6 \tmop{~~~~OR~~~} 4 x - 5 \leq - 6 \amp   \amp  \tmop{Solve}</mrow>
- <mrow>\tmmathbf{\underline{+ 5 ~~+ 5}} ~~~~~~~~~~~~~~ \tmmathbf{\underline{+ 5 ~~+ 5}} \amp   \amp  \tmop{Add~} 5 \tmop{~to}
+  <mrow>  4 x - 5 \geq 6 \tmop{~~~~OR~~~} 4 x - 5 \leq - 6 \amp   \amp  \tmop{Solve}</mrow>
+  <mrow>  \tmmathbf{\underline{+ 5 ~~+ 5}} ~~~~~~~~~~~~~~ \tmmathbf{\underline{+ 5 ~~+ 5}} \amp   \amp  \tmop{Add~} 5 \tmop{~to}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>4 x \geq 11 \tmop{~~~OR~~~~~~~} 4 x \leq - 1~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{4} ~~~~~ \overline{4} ~~~~~~~~~~~~~~~~~ \overline{4} ~~~~~~~ \overline{4}}~ \amp   \amp  \tmop{Divide}
+  <mrow>  4 x \geq 11 \tmop{~~~OR~~~~~~~} 4 x \leq - 1~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{4} ~~~~~ \overline{4} ~~~~~~~~~~~~~~~~~ \overline{4} ~~~~~~~ \overline{4}} \amp   \amp  \tmop{Divide}
     \tmop{both} \tmop{sides} \tmop{by~} 4</mrow>
- <mrow>x \geq \frac{11}{4} \tmop{~~~OR~~~~~~~~} x \leq - \frac{1}{4}~ \amp   \amp 
+  <mrow>  x \geq \frac{11}{4} \tmop{~~~OR~~~~~~~~} x \leq - \frac{1}{4} \amp   \amp 
     \tmop{Graph}</mrow>
- 
 </md>
   \begin{mfpic}[10]{-8}8{-2}0
 \pointfilltrue
@@ -495,29 +494,29 @@ directions!
 \arrow[b -5.8pt][l 6pt]\polyline{(-0.57,0),(-8,0)}
 \tcaption{<m>|4x-5|\geq 6</m>}
 \end{mfpic}  
-<md><mrow>\left( - \infty, - \frac{1}{4} \right] \cup \left[ \frac{11}{4}, \infty
+<md>
+  <mrow>  \left( - \infty, - \frac{1}{4} \right] \cup \left[ \frac{11}{4}, \infty
     \right) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
-<example xml:id="Lin104"><statement>
+
+<example xml:id="Lin104">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve, graph, and provide interval notation for the solution.
+Solve, graph, and provide interval notation for the solution.
 </p>
-  
-<md><mrow>- 4 - 3 |x| \leq - 16 \amp   \amp </mrow>
- <mrow>\tmmathbf{\underline{+ 4~~~~~~~~~~~~ + 4}} \amp   \amp  \tmop{Add~} 4 \tmop{~to} \tmop{both}
+<md>
+  <mrow>  - 4 - 3 |x| \leq - 16 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\underline{+ 4~~~~~~~~~~~~ + 4}} \amp   \amp  \tmop{Add~} 4 \tmop{~to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>- 3 |x| \leq - 12 \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides}
+  <mrow>  - 3 |x| \leq - 12 \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides}
     \tmop{by~} - 3</mrow>
- <mrow>\tmmathbf{\overline{- 3} ~~~~~ \overline{- 3}}~ \amp   \amp  \tmop{Dividing} \tmop{by~a}
+  <mrow>  \tmmathbf{\overline{- 3} ~~~~~ \overline{- 3}} \amp   \amp  \tmop{Dividing} \tmop{by~a}
     \tmop{negative} \tmop{switches} \tmop{the} \tmop{inequality}</mrow>
- <mrow>|x| \geq 4 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{is}
+  <mrow>  |x| \geq 4 \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{is}
     \tmop{greater}, \tmop{use} \tmop{OR}</mrow>
- <mrow>x \geq 4 \tmop{~~OR~~} x \leq - 4 \amp   \amp  \tmop{Graph}</mrow>
- 
+  <mrow>  x \geq 4 \tmop{~~OR~~} x \leq - 4 \amp   \amp  \tmop{Graph}</mrow>
 </md>
   \begin{mfpic}[10]{-8}8{-2}0
 \pointfilltrue
@@ -533,41 +532,39 @@ directions!
 \tcaption{<m>-4-3|x|\leq-16</m>}
 \end{mfpic}
     
-<md><mrow>(- \infty, - 4] \cup [4, \infty) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
- 
+<md>
+  <mrow>  (- \infty, - 4] \cup [4, \infty) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 In the previous example, we cannot combine <m>- 4</m> and <m>- 3</m> because they
 are not like terms, the <m>- 3</m> has an absolute value attached. So we must first
 clear the <m>- 4</m> by adding 4, then divide by <m>- 3</m>. The next example is
 similar.
 </p>
-  
-<example xml:id="Lin105"><statement>
+<example xml:id="Lin105">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve, graph, and provide interval notation for the solution.
+Solve, graph, and provide interval notation for the solution.
 </p>
-  
-<md><mrow>9 - 2 |4x + 1| > 3~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\underline{- 9 ~~~~~~~~~~~~~~~~- 9}} \amp   \amp  \tmop{Subtract~} 9 \tmop{~from} \tmop{both}
+<md>
+  <mrow>  9 - 2 |4x + 1| > 3~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\underline{- 9 ~~~~~~~~~~~~~~~~- 9}} \amp   \amp  \tmop{Subtract~} 9 \tmop{~from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>- 2 |4x + 1| > - 6~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} -
+  <mrow>  - 2 |4x + 1| > - 6~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} -
     2</mrow>
- <mrow>\tmmathbf{\overline{~- 2~} ~~~~~~~ \overline{- 2}} \amp   \amp  \tmop{Dividing} \tmop{by}
+  <mrow>  \tmmathbf{\overline{~- 2~} ~~~~~~~ \overline{- 2}} \amp   \amp  \tmop{Dividing} \tmop{by}
     \tmop{negative} \tmop{switches} \tmop{the} \tmop{inequality}</mrow>
- <mrow>|4x + 1| \lt  3~~\amp   \amp  \tmop{Absolute} \tmop{value} \tmop{is} \tmop{less},
+  <mrow>  |4x + 1| \lt  3~~\amp   \amp  \tmop{Absolute} \tmop{value} \tmop{is} \tmop{less},
     \tmop{use} \tmop{double} \tmop{inequality}</mrow>
- <mrow>- 3 \lt  4 x + 1 \lt  3~~ \amp   \amp  \tmop{Solve}</mrow>
- <mrow>\tmmathbf{\underline{- 1} ~~~~~~~\underline{- 1} ~~~\underline{- 1}} \amp   \amp  \tmop{Subtract~} 1 \tmop{~from} \tmop{all}
+  <mrow>  - 3 \lt  4 x + 1 \lt  3~~ \amp   \amp  \tmop{Solve}</mrow>
+  <mrow>  \tmmathbf{\underline{- 1} ~~~~~~~\underline{- 1} ~~~\underline{- 1}} \amp   \amp  \tmop{Subtract~} 1 \tmop{~from} \tmop{all}
     \tmop{three} \tmop{parts}</mrow>
- <mrow>- 4 \lt  4 x \lt  2~~\amp   \amp  \tmop{Divide} \tmop{all} \tmop{three} \tmop{parts}
+  <mrow>  - 4 \lt  4 x \lt  2~~\amp   \amp  \tmop{Divide} \tmop{all} \tmop{three} \tmop{parts}
     \tmop{by~} 4</mrow>
- <mrow>\tmmathbf{\overline{4} ~~~~~ \overline{4} ~~~~~ \overline{4}}~~ \amp   \amp </mrow>
- <mrow>- 1 \lt  x \lt  \frac{1}{2}~ \amp   \amp  \tmop{Graph}</mrow>
- 
+  <mrow>  \tmmathbf{\overline{4} ~~~~~ \overline{4} ~~~~~ \overline{4}} \amp   \amp</mrow>
+  <mrow>  - 1 \lt  x \lt  \frac{1}{2} \amp   \amp  \tmop{Graph}</mrow>
 </md>
   \begin{mfpic}[8]{-8}8{-2}0
 \pointfilltrue
@@ -582,12 +579,11 @@ similar.
 \tcaption{<m>9-2|4x+1|>3</m>}
 \end{mfpic}
   
-<md><mrow>\left( - 1, \frac{1}{2} \right) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
- 
+<md>
+  <mrow>  \left( - 1, \frac{1}{2} \right) \amp   \amp  \tmop{Interval} \tmop{notation}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 In the previous example, we cannot distribute the <m>- 2</m> into the absolute
 value. We can never distribute or combine things outside the absolute value
@@ -595,64 +591,66 @@ with what is inside the absolute value. Our only way to solve is to first
 isolate the absolute value by clearing the values around it, then convert to
 a compound inequality (either a double inequality or an OR inequality) and solve.
 </p>
-  
+
 <p>
 <nbsp />
 </p>
-  
+
 <p>
 It is important to remember that as we are solving these equations, an absolute value is always positive. If we end up with an absolute value that is less than a negative number, then we will have no solution because the absolute value will always be positive, and therefore greater than a negative. Similarly, if an absolute value is greater than a negative, this will always happen. Here our answer will be all real numbers.
 </p>
-  
-<example xml:id="x106"><statement>
+<example xml:id="x106">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve, graph, and provide interval notation for the solution.
+Solve, graph, and provide interval notation for the solution.
 </p>
-  
-<md><mrow>12 + 4 |6x - 1| \lt  4~~~~ \amp   \amp  \tmop{Subtract~} 12 \tmop{~from} \tmop{both}
+<md>
+  <mrow>  12 + 4 |6x - 1| \lt  4~~~~ \amp   \amp  \tmop{Subtract~} 12 \tmop{~from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>\tmmathbf{\underline{- 12 ~~~~~~~~~~~~~~~~- 12}} \amp   \amp </mrow>
- <mrow>4 |6x - 1| \lt  - 8~~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 4</mrow>
- <mrow>\tmmathbf{\overline{~~4~~} ~~~~~~ \overline{~4~}}~~~~ \amp   \amp </mrow>
- <mrow>|6x - 1| \lt  - 2~~~~ \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{cannot} \tmop{be}
+  <mrow>  \tmmathbf{\underline{- 12 ~~~~~~~~~~~~~~~~- 12}} \amp   \amp</mrow>
+  <mrow>  4 |6x - 1| \lt  - 8~~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 4</mrow>
+  <mrow>  \tmmathbf{\overline{~~4~~} ~~~~~~ \overline{~4~}} \amp   \amp</mrow>
+  <mrow>  |6x - 1| \lt  - 2~~~~ \amp   \amp  \tmop{Absolute} \tmop{value} \tmop{cannot} \tmop{be}
     \tmop{less} \tmop{than~a} \tmop{negative}</mrow>
- 
 </md>
   \begin{mfpic}[8]{-8}8{-2}0
 \pointfilltrue
 \penwd{0.5pt}
 \arrow\reverse\arrow\polyline{(8,0),(-8,0)}
 \tcaption{<m>12 + 4 |6x - 1| \lt  4</m>}
-\end{mfpic}\pp
-There is nothing to shade.  So our answer is no solution or <m>\varnothing</m>. </statement>
+\end{mfpic}
+There is nothing to shade.  So our answer is no solution or <m>\varnothing</m>.
+</statement>
 </example>
-  
-<example xml:id="Lin107"><statement>
+
+<example xml:id="Lin107">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Solve, graph, and provide interval notation for the solution.
+Solve, graph, and provide interval notation for the solution.
 </p>
-  
-<md><mrow>5 - 6 |x + 7| \leq 17~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\underline{- 5 ~~~~~~~~~~~~~~~- 5}} \amp   \amp   \tmop{Subtract~} 5 \tmop{~from} \tmop{both} \tmop{sides}</mrow>
- <mrow>- 6 |x + 7| \leq 12~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides}
+<md>
+  <mrow>  5 - 6 |x + 7| \leq 17~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\underline{- 5 ~~~~~~~~~~~~~~~- 5}} \amp   \amp   \tmop{Subtract~} 5 \tmop{~from} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  - 6 |x + 7| \leq 12~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides}
     \tmop{by~} - 6</mrow>
- <mrow>\tmmathbf{\overline{- 6~} ~~~~~~ \overline{- 6}} \amp   \amp  \tmop{Dividing} \tmop{by~a}
+  <mrow>  \tmmathbf{\overline{- 6~} ~~~~~~ \overline{- 6}} \amp   \amp  \tmop{Dividing} \tmop{by~a}
     \tmop{negative} \tmop{flips} \tmop{the} \tmop{symbol}</mrow>
- <mrow>|x + 7| \geq - 2~ \amp   \amp  \tmop{Absolute} \tmop{value~is} \tmop{always}
+  <mrow>  |x + 7| \geq - 2~ \amp   \amp  \tmop{Absolute} \tmop{value~is} \tmop{always}
     \tmop{greater} \tmop{than~a} \tmop{negative}</mrow>
- 
 </md>
   \begin{mfpic}[8]{-8}8{-2}0
 \pointfilltrue
 \penwd{2.5pt}
 \arrow[b -5.8pt][l 6pt] \reverse \arrow[b -5.8pt][l 6pt]\polyline{(8,0),(-8,0)}
 \tcaption{<m>5 - 6 |x + 7| \leq 17</m>}
-\end{mfpic}\pp
+\end{mfpic}
 We shade the entire real number line. Our answer is all real numbers or <m>\mathbb{R}</m>.
     
-<md><mrow>(-\infty,\infty) \amp   \amp \text{Interval~notation}</mrow>
- 
+<md>
+  <mrow>  (-\infty,\infty) \amp   \amp \text{Interval~notation}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- </subsection> </section>
+</subsection>
+
+</section>

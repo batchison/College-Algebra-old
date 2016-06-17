@@ -1,10 +1,10 @@
-
 <section>
 <title>Substitution</title>
+<objectives>
 <p>
-{\tmstrong{Objective: Solve systems of equations using substitution.}}\pp
+Solve systems of equations using substitution.
 </p>
-  
+</objectives>
 <p>
 Solving a system of equations by graphing has several limitations. First, it requires
 the graph to be perfectly drawn, if the lines are not straight we may arrive
@@ -12,233 +12,204 @@ at the wrong answer. Second, graphing is not a great method to use if the
 answer is really large, over 100 for example, or a decimal, since
 a graph will not help us find an answer such as 3.2134. For these reasons we
 will rarely use graphs to solve a given system of equations. Instead, an algebraic approach
-will be used.\pp
+will be used.
 </p>
-  
+
 <p>
 The first algebraic approach is called substitution. We will build the
 concepts of substitution through several examples, then end with a five-step
 process to solve problems using this method.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-x=5\qquad\qquad y=2x-3
+  x=5\qquad\qquad y=2x-3
 </me>
- 
 <p>
 We already know <m>x</m> must equal 5, so we can substitute <m>x=5</m> into the other equation.
 </p>
-  
-<md><mrow>y = 2 \tmmathbf{(5)} - 3 \amp   \amp  \tmop{Evaluate:} \tmop{~Multiply}
+<md>
+  <mrow>  y = 2 \tmmathbf{(5)} - 3 \amp   \amp  \tmop{Evaluate:} \tmop{~Multiply}
     \tmop{first}</mrow>
- <mrow>y = 10 - 3~~~ \amp   \amp  \tmop{Next~subtract}</mrow>
- <mrow>y = 7~~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{also} \tmop{have} y</mrow>
- <mrow>(x,y)=(5, 7) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  y = 10 - 3~~~ \amp   \amp  \tmop{Next~subtract}</mrow>
+  <mrow>  y = 7~~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{also} \tmop{have} y</mrow>
+  <mrow>  (x,y)=(5, 7) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 When we know what one variable equals we can plug that value (or expression)
 in for the variable in the other equation. It is very important that when we
 substitute, the substituted value goes in parentheses. The reason for this is
 shown in the next example.
 </p>
-  
+<example>
+<statement>
 <p>
-
-<nbsp /><br />
+Solve the following system of equations.
 </p>
-  
-<example><statement>
-<p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
-</p>
-  
 <me>
-2 x - 3 y = 7\qquad\qquad y = 3 x - 7
+  2 x - 3 y = 7\qquad\qquad y = 3 x - 7
 </me>
- 
 <p>
 We begin by substituting <m>y=3x-7</m> into the other equation.
 </p>
-  
-<md><mrow>2 x - 3 \tmmathbf{(3 x - 7)} = 7~~~~ \amp   \amp  \tmop{Solve~for} x, 
+<md>
+  <mrow>  2 x - 3 \tmmathbf{(3 x - 7)} = 7~~~~ \amp   \amp  \tmop{Solve~for} x, 
 		\tmop{distributing} - 3 \tmop{first}</mrow>
- <mrow>2 x - 9 x + 21 = 7~~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x - 9x</mrow>
- <mrow>- 7 x + 21 = 7~~~~ \amp   \amp </mrow>
- <mrow>\underline{\tmmathbf{- 21 ~~- 21}} \amp   \amp  \tmop{Subtract} 21</mrow>
- <mrow>- 7 x = - 14 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{- 7} ~~~~~ \overline{- 7}} \amp   \amp  \tmop{Divide} \tmop{by} - 7</mrow>
- <mrow>x = 2~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{have} \tmop{our} x.</mrow>
- <mrow>\amp  \amp  \tmop{~~~Substitute} \tmop{back} \tmop{in} \tmop{equation} \tmop{to} \tmop{find} y</mrow>
- <mrow>y = 3 \tmmathbf{(2)} - 7 \amp   \amp  \tmop{Evaluate:} \tmop{~Multiply} \tmop{first}</mrow>
- <mrow>y = 6 - 7~~~~ \amp   \amp  \tmop{Next~subtract}</mrow>
- <mrow>y = - 1~~~~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{also} \tmop{have} y</mrow>
- <mrow>(x,y)=(2, - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  2 x - 9 x + 21 = 7~~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x - 9x</mrow>
+  <mrow>  - 7 x + 21 = 7~~~~ \amp   \amp</mrow>
+  <mrow>  \underline{\tmmathbf{- 21 ~~- 21}} \amp   \amp  \tmop{Subtract} 21</mrow>
+  <mrow>  - 7 x = - 14 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{- 7} ~~~~~ \overline{- 7}} \amp   \amp  \tmop{Divide} \tmop{by} - 7</mrow>
+  <mrow>  x = 2~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{have} \tmop{our} x.</mrow>
+  <mrow>  \amp  \amp  \tmop{~~~Substitute} \tmop{back} \tmop{in} \tmop{equation} \tmop{to} \tmop{find} y</mrow>
+  <mrow>  y = 3 \tmmathbf{(2)} - 7 \amp   \amp  \tmop{Evaluate:} \tmop{~Multiply} \tmop{first}</mrow>
+  <mrow>  y = 6 - 7~~~~ \amp   \amp  \tmop{Next~subtract}</mrow>
+  <mrow>  y = - 1~~~~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{also} \tmop{have} y</mrow>
+  <mrow>  (x,y)=(2, - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
- 
 <p>
 By using the entire expression <m>3 x - 7</m> to replace <m>y</m> in the other equation
 we were able to reduce the system to a single linear equation which we can
-easily solve for our first variable. However, the "lone" variable (a variable
+easily solve for our first variable. However, the <q>lone</q> variable (a variable
 with a coefficient of 1) is not always alone on one side of the equation. If
 this happens we can isolate the lone variable by solving for it.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-3 x + 2 y = 1\qquad\qquad \tmmathbf{x} - 5 y = 6
+  3 x + 2 y = 1\qquad\qquad \tmmathbf{x} - 5 y = 6
 </me>
- 
 <p>
 The lone variable is <m>x</m>. Isolate the lone variable by adding <m>5y</m> to both sides.
 </p>
-  
-<md><mrow>x - 5 y = 6~~~~~~~ \amp  \amp </mrow>
- <mrow>\tmmathbf{\underline{+ 5 y ~~+ 5 y}}~~~  \amp   \amp </mrow>
- <mrow>x = 6 + 5 y \amp   \amp  \tmop{Substitute} \tmop{this} \tmop{into} \tmop{the}
+<md>
+  <mrow>  x - 5 y = 6~~~~~~~ \amp  \amp</mrow>
+  <mrow>  \tmmathbf{\underline{+ 5 y ~~+ 5 y}}  \amp   \amp</mrow>
+  <mrow>  x = 6 + 5 y \amp   \amp  \tmop{Substitute} \tmop{this} \tmop{into} \tmop{the}
   		\tmop{untouched} \tmop{equation}</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>3 \tmmathbf{(6 + 5 y)} + 2 y = 1 \amp   \amp  \tmop{Solve} \tmop{this}
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  3 \tmmathbf{(6 + 5 y)} + 2 y = 1 \amp   \amp  \tmop{Solve} \tmop{this}
     \tmop{equation}, \tmop{distributing} 3 \tmop{first}</mrow>
- <mrow>18 + 15 y + 2 y = 1 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 15 y + 2
+  <mrow>  18 + 15 y + 2 y = 1 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 15 y + 2
     y</mrow>
-  
 </md>
   
-<md><mrow>18 + 17 y = 1~~~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\underline{- 18 ~~~~~~~~~- 18}} \amp   \amp  \tmop{Subtract} 18 \tmop{from} \tmop{both}
+<md>
+  <mrow>  18 + 17 y = 1~~~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\underline{- 18 ~~~~~~~~~- 18}} \amp   \amp  \tmop{Subtract} 18 \tmop{from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>17 y = - 17 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{17} ~~~~~~ \overline{17}} \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} 17</mrow>
- <mrow>y = - 1 ~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our} y.</mrow>
- <mrow>\amp  \amp  \tmop{~~~Substitute} \tmop{back} \tmop{in} \tmop{equation} \tmop{to} \tmop{find} x</mrow>
- <mrow>x = 6 + 5 \tmmathbf{(- 1)} \amp   \amp  \tmop{Evaluate:} \tmop{~Multiply} \tmop{first}</mrow>
- <mrow>x = 6 - 5~~~~~~~ \amp   \amp  \tmop{Next~subtract}</mrow>
- <mrow>x = 1~~~~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{also} \tmop{have} x</mrow>
- <mrow>(x,y)=(1, - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  17 y = - 17 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{17} ~~~~~~ \overline{17}} \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} 17</mrow>
+  <mrow>  y = - 1 ~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our} y.</mrow>
+  <mrow>  \amp  \amp  \tmop{~~~Substitute} \tmop{back} \tmop{in} \tmop{equation} \tmop{to} \tmop{find} x</mrow>
+  <mrow>  x = 6 + 5 \tmmathbf{(- 1)} \amp   \amp  \tmop{Evaluate:} \tmop{~Multiply} \tmop{first}</mrow>
+  <mrow>  x = 6 - 5~~~~~~~ \amp   \amp  \tmop{Next~subtract}</mrow>
+  <mrow>  x = 1~~~~~~~~~~~~ \amp   \amp  \tmop{We} \tmop{now} \tmop{also} \tmop{have} x</mrow>
+  <mrow>  (x,y)=(1, - 1) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-The process in the previous example is known as solving by substitution. This process is described and illustrated in the following table which lists the five steps to solving by substitution.\pp
+The process in the previous example is known as solving by substitution. This process is described and illustrated in the following table which lists the five steps to solving by substitution.
 </p>
-  <table id="0cbba21d8e131980ffce4cde6bf02756ba00dbb5" ><tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Problem </td><td class='cv'> <table id="3edab4ca9e5ccf696fff61e11766c930e54f9e7f" ><tr><td class='l'>
-    <m>4 x - 2 y = ~2~~~</m></td></tr>
-<tr><td class='l'>
-    <m>~2 x + y = - 5</m></td></tr>
-</table> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  1. Find the lone variable. </td><td class='cv'> <table id="26adddb055f83b6e4aaa3bd2be2375b05c144c67" ><tr><td class='l'>
-    Lone variable is <m>y</m>, in the</td></tr>
-<tr><td class='l'>
-     second equation: <m>2 x + \tmmathbf{y} = - 5</m></td></tr>
-</table> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  2. Solve for the lone variable. </td><td class='cv'> <table id="826abf6e5c986464f6f8a8aed331f01176f8544d" ><tr><td class='c'>
-    Subtract <m>2x</m> from both sides.</td></tr>
-<tr><td class='c'>
-    <m>\tmmathbf{y = - 5 - 2 x}</m></td></tr>
-</table> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  3.<nbsp /><m>\begin{array}{l}
+<tabular>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Problem</cell><cell>
+<tabular>
+<row><cell><m>4 x - 2 y = ~2~~~</m></cell></row>
+<row><cell><m>~2 x + y = - 5</m></cell></row>
+</tabular>
+</cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>1. Find the lone variable.</cell><cell>
+<tabular>
+<row><cell>Lone variable is <m>y</m>, in the</cell></row>
+<row><cell>second equation: <m>2 x + \tmmathbf{y} = - 5</m></cell></row>
+</tabular>
+</cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>2. Solve for the lone variable.</cell><cell>
+<tabular>
+<row><cell>Subtract <m>2x</m> from both sides.</cell></row>
+<row><cell><m>\tmmathbf{y = - 5 - 2 x}</m></cell></row>
+</tabular>
+</cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>3.<nbsp /><m>\begin{array}{l}
 	\text{Substitute into the untouched} \\
 	\text{equation.} 
-\end{array} </m></td><td class='cv'> <m>4 x - 2 \tmmathbf{(- 5 - 2 x)}
-  = 2</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  4. Solve. </td><td class='cv'> <m>\begin{array}{c}
+\end{array}</m></cell><cell><m>4 x - 2 \tmmathbf{(- 5 - 2 x)}
+  = 2</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>4. Solve.</cell><cell><m>\begin{array}{c}
  4 x + 10 + 4 x = 2~~~~~~~\\
  8 x + 10 = 2\\
  ~~~~~~~~\tmmathbf{\underline{- 10 ~~- 10}}\\
 ~~~~~~~~~ 8 x = - 8\\
 ~~~~~~~~~ \tmmathbf{\overline{8} ~~~~~~ \overline{8}}\\
 ~~~~~~~~~ \tmmathbf{x = - 1}
-\end{array} </m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  5.<nbsp /><m>\begin{array}{l}
+\end{array}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell>5.<nbsp /><m>\begin{array}{l}
 	\text{Plug into lone variable} \\
 	\text{equation and evaluate.} 
-\end{array} </m> </td><td class='cv'> <m>\begin{array}{l}
+\end{array}</m></cell><cell><m>\begin{array}{l}
     y = - 5 - 2 \tmmathbf{(- 1)}\\
     y = - 5 + 2\\
     \tmmathbf{y = - 3}
-\end{array} </m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='vlv'>
-  <nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Our solution </td><td class='cv'> <m>(x,y)=(- 1, - 3)</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-
-</table>  
-<p>
-
-<nbsp /><br />
-</p>
-  
+\end{array}</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+<row><cell><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Our solution</cell><cell><m>(x,y)=(- 1, - 3)</m></cell></row>
+<row bottom="minor"><cell></cell><cell></cell></row>
+</tabular>
 <p>
 Sometimes we have several lone variables in a problem. In this case we will
 have the choice on which lone variable we wish to solve for, either will give
 the same final result.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-x + y = 5\qquad\qquad x - y = - 1
+  x + y = 5\qquad\qquad x - y = - 1
 </me>
-  
-<md><mrow>\tmmathbf{x} + y = 5~~~~~ \amp   \amp  \begin{array}{l}
+<md>
+  <mrow>  \tmmathbf{x} + y = 5~~~~~ \amp   \amp  \begin{array}{l}
       \text{Find the lone variable:~} x \text{~in the first or} \\
 			\text{~~~second equation,}  \text{or~}  y \text{~in the first equation.} \\ \text{We will choose~}  x \text{~in the first equation} .
 \end{array}</mrow>
- <mrow>\tmmathbf{x} + y = 5~~~~~ \amp   \amp  \tmop{Solve} \tmop{for~the~lone~variable~} x</mrow>
- <mrow>\tmmathbf{\underline{- y ~~- y}}~~ \amp   \amp   \tmop{Subtract} y \tmop{from} \tmop{both} \tmop{sides}</mrow>
- <mrow>x = 5 - y \amp   \amp  \tmop{Plug} \tmop{into} \tmop{the} \tmop{untouched}
+  <mrow>  \tmmathbf{x} + y = 5~~~~~ \amp   \amp  \tmop{Solve} \tmop{for~the~lone~variable~} x</mrow>
+  <mrow>  \tmmathbf{\underline{- y ~~- y}} \amp   \amp   \tmop{Subtract} y \tmop{from} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  x = 5 - y \amp   \amp  \tmop{Plug} \tmop{into} \tmop{the} \tmop{untouched}
     \tmop{equation}, \tmop{the} \tmop{second} \tmop{equation}</mrow>
- <mrow>\tmmathbf{(5 - y)} - y = - 1 \amp   \amp  \tmop{Combine}
+  <mrow>  \tmmathbf{(5 - y)} - y = - 1 \amp   \amp  \tmop{Combine}
     \tmop{like} \tmop{terms.} \tmop{Parentheses}
     \tmop{may} \tmop{be} \tmop{removed}</mrow>
- <mrow>5 - 2 y = - 1 \amp   \amp </mrow>
- <mrow>\tmmathbf{\underline{- 5 ~~~~~~~~- 5}} \amp   \amp   \tmop{Subtract} 5 \tmop{from} \tmop{both}
+  <mrow>  5 - 2 y = - 1 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\underline{- 5 ~~~~~~~~- 5}} \amp   \amp   \tmop{Subtract} 5 \tmop{from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>- 2 y = - 6 \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{- 2} ~~~~ \overline{- 2}} \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} - 2</mrow>
- <mrow>y = 3~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our} y!</mrow>
- <mrow>x = 5 - (3) \amp   \amp  \tmop{Plug} \tmop{into} \tmop{lone} \tmop{variable}
+  <mrow>  - 2 y = - 6 \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{- 2} ~~~~ \overline{- 2}} \amp   \amp   \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by} - 2</mrow>
+  <mrow>  y = 3~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our} y!</mrow>
+  <mrow>  x = 5 - (3) \amp   \amp  \tmop{Plug} \tmop{into} \tmop{lone} \tmop{variable}
     \tmop{equation~and} \tmop{evaluate}</mrow>
- <mrow>x = 2~~~~~~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{our} x</mrow>
- <mrow>(x,y)=(2, 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x = 2~~~~~~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{our} x</mrow>
+  <mrow>  (x,y)=(2, 3) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Just as with graphing it is possible to have no solution <m>\varnothing</m>
 (parallel lines) or infinite solutions (same line) with the substitution
@@ -246,137 +217,125 @@ method. While we won't have a parallel line or the same line to look at and
 conclude if it is one or the other, the process takes an interesting turn as
 shown in the following example.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-y + 4 = 3 x\qquad\qquad 2 y - 6 x = - 8
+  y + 4 = 3 x\qquad\qquad 2 y - 6 x = - 8
 </me>
-  
-<md><mrow>\tmmathbf{y} + 4 = 3 x \amp   \amp  \text{Find~the~lone~variable:~}  y
+<md>
+  <mrow>  \tmmathbf{y} + 4 = 3 x \amp   \amp  \text{Find~the~lone~variable:~}  y
     \text{~in~the~first~equation}</mrow>
-  
 </md>
   
-<md><mrow>y + 4 = 3 x~~~~~ \amp   \amp  \tmop{Solve} \tmop{for} \tmop{the} \tmop{lone}
+<md>
+  <mrow>  y + 4 = 3 x~~~~~ \amp   \amp  \tmop{Solve} \tmop{for} \tmop{the} \tmop{lone}
     \tmop{variable~} y</mrow>
- <mrow>\tmmathbf{\underline{- 4 ~~- 4}}~~~~ \amp   \amp  \tmop{Subtract} 4 \tmop{from} \tmop{both} \tmop{sides}</mrow>
- <mrow>y = 3 x - 4 \amp   \amp  \tmop{Plug} \tmop{into} \tmop{second}
+  <mrow>  \tmmathbf{\underline{- 4 ~~- 4}} \amp   \amp  \tmop{Subtract} 4 \tmop{from} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  y = 3 x - 4 \amp   \amp  \tmop{Plug} \tmop{into} \tmop{second}
     \tmop{equation}</mrow>
- <mrow>2 \tmmathbf{(3 x - 4)} - 6 x = - 8 \amp   \amp  \tmop{Solve}, \tmop{distribute}
+  <mrow>  2 \tmmathbf{(3 x - 4)} - 6 x = - 8 \amp   \amp  \tmop{Solve}, \tmop{distribute}
     \tmop{through} \tmop{parentheses}</mrow>
- <mrow>6 x - 8 - 6 x = - 8 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 6 x - 6x</mrow>
- <mrow>- 8 = - 8 \amp   \amp  \tmop{Variables} \tmop{are} \tmop{gone} !</mrow>
- 
+  <mrow>  6 x - 8 - 6 x = - 8 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 6 x - 6x</mrow>
+  <mrow>  - 8 = - 8 \amp   \amp  \tmop{Variables} \tmop{are} \tmop{gone} !</mrow>
 </md>
- 
 <p>
 Since we are left with a true statement (<m>-8=-8</m>), we conclude that there are infinitely many solutions.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 Because we had a true statement, and no variables, we know that anything that
 works in the first equation, will also work in the second equation. However,
 we do not always end up with a true statement.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-6 x - 3 y = - 9\qquad\qquad - 2 x + y = 5
+  6 x - 3 y = - 9\qquad\qquad - 2 x + y = 5
 </me>
-  
-<md><mrow>- 2 x + \tmmathbf{y} = 5~~~~~~~ \amp   \amp  \text{Find~the~lone~variable:~}  y
+<md>
+  <mrow>  - 2 x + \tmmathbf{y} = 5~~~~~~~ \amp   \amp  \text{Find~the~lone~variable:~}  y
     \text{~in~the~second~equation}</mrow>
- <mrow>- 2 x + y = 5~~~~~~~ \amp   \amp  \tmop{Solve} \tmop{for} \tmop{the} \tmop{lone}
+  <mrow>  - 2 x + y = 5~~~~~~~ \amp   \amp  \tmop{Solve} \tmop{for} \tmop{the} \tmop{lone}
     \tmop{variable}</mrow>
- <mrow>\tmmathbf{\underline{+ 2 x ~~~~~~+ 2 x}}~~~ \amp   \amp  \tmop{Add~} 2 x \tmop{~to} \tmop{both} \tmop{sides}</mrow>
- <mrow>y = 5 + 2 x \amp   \amp  \tmop{Plug} \tmop{into} \tmop{untouched}
+  <mrow>  \tmmathbf{\underline{+ 2 x ~~~~~~+ 2 x}} \amp   \amp  \tmop{Add~} 2 x \tmop{~to} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  y = 5 + 2 x \amp   \amp  \tmop{Plug} \tmop{into} \tmop{untouched}
     \tmop{equation}</mrow>
- <mrow>6 x - 3 \tmmathbf{(5 + 2 x)} = - 9 \amp   \amp  \tmop{Solve}, \tmop{distribute}
+  <mrow>  6 x - 3 \tmmathbf{(5 + 2 x)} = - 9 \amp   \amp  \tmop{Solve}, \tmop{distribute}
     \tmop{through} \tmop{parentheses}</mrow>
- <mrow>6 x - 15 - 6 x = - 9 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 6 x - 6
+  <mrow>  6 x - 15 - 6 x = - 9 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 6 x - 6
     x</mrow>
- <mrow>- 15 \neq - 9 \amp   \amp  \tmop{Variables} \tmop{are} \tmop{gone}!</mrow>
- 
+  <mrow>  - 15 \neq - 9 \amp   \amp  \tmop{Variables} \tmop{are} \tmop{gone}!</mrow>
 </md>
- 
 <p>
 Since we are left with a false statement (<m>-15\neq -9</m>) and no variables, we know that nothing will
 work in both equations and we may conclude that there are no solutions, or <m>\varnothing</m>.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} French mathematician Rene Descartes wrote a
 book which included an appendix on geometry. It was in this book that he
 suggested using letters from the end of the alphabet for unknown values. This
-is why often we are solving for the variables <m>x, y, \tmop{and} z</m>.\pp
+is why often we are solving for the variables <m>x, y, \tmop{and} z</m>.
 </p>
-  
+
 <p>
 One more question needs to be considered: what if there is no lone variable?
 If there is no lone variable substitution can still work, we will
 just have to select one variable to solve for, and introduce fractions.
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Solve the following system of equations.
+Solve the following system of equations.
 </p>
-  
 <me>
-5 x - 6 y = - 14\qquad\qquad - 2 x + 4 y = 12
+  5 x - 6 y = - 14\qquad\qquad - 2 x + 4 y = 12
 </me>
- 
 <p>
 There is no lone variable, so we will solve the first equation for <m>x</m>.
 </p>
-  
-<md><mrow>5 \tmmathbf{x} - 6 y = - 14~~~~~~~~ \amp   \amp  \tmop{Solve} \tmop{for} \tmop{our} \tmop{variable~} x</mrow>
- <mrow>\tmmathbf{\underline{+ 6 y ~~+ 6 y}}~~~~~~~ \amp   \amp  \tmop{Add~} 6 y \tmop{~to} \tmop{both} \tmop{sides}</mrow>
- <mrow>5 x = - 14 + 6 y~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{5} ~~~~~~~ \overline{5} ~~~~~ \overline{5}}~~ \amp   \amp   \tmop{Divide} \tmop{each} \tmop{term} \tmop{by~} 5</mrow>
- <mrow>x = \frac{- 14}{5} + \frac{6 y}{5} \amp   \amp  \tmop{Plug} \tmop{into}
+<md>
+  <mrow>  5 \tmmathbf{x} - 6 y = - 14~~~~~~~~ \amp   \amp  \tmop{Solve} \tmop{for} \tmop{our} \tmop{variable~} x</mrow>
+  <mrow>  \tmmathbf{\underline{+ 6 y ~~+ 6 y}} \amp   \amp  \tmop{Add~} 6 y \tmop{~to} \tmop{both} \tmop{sides}</mrow>
+  <mrow>  5 x = - 14 + 6 y~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{5} ~~~~~~~ \overline{5} ~~~~~ \overline{5}} \amp   \amp   \tmop{Divide} \tmop{each} \tmop{term} \tmop{by~} 5</mrow>
+  <mrow>  x = \frac{- 14}{5} + \frac{6 y}{5} \amp   \amp  \tmop{Plug} \tmop{into}
     \tmop{untouched} \tmop{equation}</mrow>
- <mrow>- 2 \left( \frac{- 14}{5} + \frac{6 y}{5} \right) + 4 y = 12~~~~ \amp   \amp 
+  <mrow>  - 2 \left( \frac{- 14}{5} + \frac{6 y}{5} \right) + 4 y = 12~~~~ \amp   \amp 
     \tmop{Solve}, \tmop{distribute} \tmop{through} \tmop{parentheses}</mrow>
- <mrow>\frac{28}{5} - \frac{12 y}{5} + 4 y = 12~~~~ \amp   \amp  \tmop{Clear}
+  <mrow>  \frac{28}{5} - \frac{12 y}{5} + 4 y = 12~~~~ \amp   \amp  \tmop{Clear}
     \tmop{fractions} \tmop{by} \tmop{multiplying} \tmop{by~} 5</mrow>
- <mrow>\frac{28 \tmmathbf{(5)}}{5} - \frac{12 y \tmmathbf{(5)}}{5} + 4 y
+  <mrow>  \frac{28 \tmmathbf{(5)}}{5} - \frac{12 y \tmmathbf{(5)}}{5} + 4 y
     \tmmathbf{(5)} = 12 \tmmathbf{(5)} \amp   \amp  \tmop{Reduce} \tmop{fractions}
     \tmop{and} \tmop{multiply}</mrow>
- <mrow>28 - 12 y + 20 y = 60~~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} - 12 y
+  <mrow>  28 - 12 y + 20 y = 60~~~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} - 12 y
     + 20 y</mrow>
- <mrow>28 + 8 y = 60~~~~ \amp   \amp </mrow>
- <mrow>\underline{\tmmathbf{- 28 ~~~~~~~~- 28}}~ \amp   \amp   \tmop{Subtract~} 28 \tmop{~from} \tmop{both}
+  <mrow>  28 + 8 y = 60~~~~ \amp   \amp</mrow>
+  <mrow>  \underline{\tmmathbf{- 28 ~~~~~~~~- 28}} \amp   \amp   \tmop{Subtract~} 28 \tmop{~from} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>8 y = 32~~~~ \amp   \amp </mrow>
- <mrow>\tmmathbf{\overline{8} ~~~~~ \overline{8}}~~~~~ \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 8</mrow>
- <mrow>y = 4~~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y</mrow>
- <mrow>x = -\frac{14}{5} + \frac{6 (4)}{5} \amp   \amp  \tmop{Plug} \tmop{into}
+  <mrow>  8 y = 32~~~~ \amp   \amp</mrow>
+  <mrow>  \tmmathbf{\overline{8} ~~~~~ \overline{8}} \amp   \amp  \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 8</mrow>
+  <mrow>  y = 4~~~~~~ \amp   \amp  \tmop{We} \tmop{have} \tmop{our~} y</mrow>
+  <mrow>  x = -\frac{14}{5} + \frac{6 (4)}{5} \amp   \amp  \tmop{Plug} \tmop{into}
     \tmop{lone} \tmop{variable} \tmop{equation}, \tmop{multiply}</mrow>
- <mrow>x = -\frac{14}{5} + \frac{24}{5}~~ \amp   \amp  \tmop{Add} \tmop{fractions}</mrow>
- <mrow>x = \frac{10}{5}~~~~~~~~~~~~ \amp   \amp  \tmop{Reduce} \tmop{fraction}</mrow>
- <mrow>x = 2~~~~~~~~~~~~~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{our~} x</mrow>
- <mrow>(x,y)=(2, 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
- 
+  <mrow>  x = -\frac{14}{5} + \frac{24}{5} \amp   \amp  \tmop{Add} \tmop{fractions}</mrow>
+  <mrow>  x = \frac{10}{5} \amp   \amp  \tmop{Reduce} \tmop{fraction}</mrow>
+  <mrow>  x = 2~~~~~~~~~~~~~~ \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{our~} x</mrow>
+  <mrow>  (x,y)=(2, 4) \amp   \amp  \tmop{Our} \tmop{solution}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Using the fractions does make the problem a bit trickier. This is why we
 have yet another method for solving systems of equations that will be discussed in
 the next section.
 </p>
- </section>
+</section>

@@ -1,23 +1,21 @@
-
 <section>
 <title>Applications</title>
+
+
 <subsection>
 <title>Numbers and Geometry</title>
+<objectives>
 <p>
-\pp
+Solve number and geometry problems by creating and
+solving a linear equation.
 </p>
-  
-<p>
-{\tmstrong{Objective: Solve number and geometry problems by creating and
-solving a linear equation. }}\pp
-</p>
-  
+</objectives>
 <p>
 Word problems can be tricky. Often it takes a bit of practice to convert the
 English sentence into a mathematical sentence. This is what we will focus on
-here with some basic number problems, geometry problems, and parts problems.\pp
+here with some basic number problems, geometry problems, and parts problems.
 </p>
-  
+
 <p>
 A few important phrases are described below that can give us clues for how to
 set up a problem.
@@ -25,143 +23,137 @@ set up a problem.
 \item {\tmstrong{A number}} (or unknown, an integer value, etc) often becomes our
 variable
 </p>
-  
+
 <p>
 \item {\tmstrong{Is}} (or other forms of is: was, will be, are, etc) often
 represents equals (=)
 </p>
-  
+
 <p>
 <m>x</m> is <m>5</m> becomes <m>x = 5</m>
 </p>
-  
+
 <p>
 \item {\tmstrong{More than}} often represents addition and is usually built
 backwards, writing the second part plus the first
 </p>
-  
+
 <p>
 Three more than a number becomes <m>x + 3</m>
 </p>
-  
+
 <p>
 \item {\tmstrong{Less than}} often represents subtraction and is usually
 built backwards as well, writing the second part minus the first
 </p>
-  
+
 <p>
 Four less than a number becomes <m>x - 4</m>
 \end{itemizedot}
 Using these key phrases we can take a number problem and set up and solve an equation.
 </p>
-  
-<example xml:id="Lin74"><statement>
+<example xml:id="Lin74">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />If 28 less than five times a certain number is 232. What is the number?
+If 28 less than five times a certain number is 232. What is the number?
 </p>
-  
-<md><mrow>5 x - 28~ \amp   \amp  \tmop{Subtraction} \tmop{is} \tmop{built} \tmop{backwards},
+<md>
+  <mrow>  5 x - 28~ \amp   \amp  \tmop{Subtraction} \tmop{is} \tmop{built} \tmop{backwards},
     \tmop{multiply} \tmop{the} \tmop{unknown} \tmop{by} 5</mrow>
- <mrow>5 x - 28 = 232~ \amp   \amp  \tmop{``Is''} \tmop{translates} \tmop{to} \tmop{equals}</mrow>
- <mrow>\tmmathbf{\underline{+ 28 ~~+ 28}} \amp   \amp  \tmop{Add} 28 \tmop{to} \tmop{both}
+  <mrow>  5 x - 28 = 232~ \amp   \amp  \tmop{``Is''} \tmop{translates} \tmop{to} \tmop{equals}</mrow>
+  <mrow>  \tmmathbf{\underline{+ 28 ~~+ 28}} \amp   \amp  \tmop{Add} 28 \tmop{to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>5 x = 260~ \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  5 x = 260~ \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 5</mrow>
- <mrow>\tmmathbf{\overline{~5~} ~~~~~ \overline{~5~}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{~5~} ~~~~~ \overline{~5~}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 5</mrow>
- <mrow>x = 52~ \amp   \amp  \tmop{The} \tmop{number} \tmop{is} 52</mrow>
- 
+  <mrow>  x = 52~ \amp   \amp  \tmop{The} \tmop{number} \tmop{is} 52</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 This same idea can be extended to a more involved problem as shown in the next
-example.\pp
+example.
 </p>
-  
-<example xml:id="Lin75"><statement>
+<example xml:id="Lin75">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Fifteen more than three times a number is the same as ten less than six
+Fifteen more than three times a number is the same as ten less than six
 times the number. What is the number?
 </p>
-  
-<md><mrow>3 x + 15 \amp   \amp  \tmop{First}, \tmop{addition} \tmop{is} \tmop{built}
+<md>
+  <mrow>  3 x + 15 \amp   \amp  \tmop{First}, \tmop{addition} \tmop{is} \tmop{built}
     \tmop{backwards}</mrow>
- <mrow>6 x - 10 \amp   \amp  \tmop{Then}, \tmop{subtraction} \tmop{is} \tmop{also}
+  <mrow>  6 x - 10 \amp   \amp  \tmop{Then}, \tmop{subtraction} \tmop{is} \tmop{also}
     \tmop{built} \tmop{backwards}</mrow>
- <mrow>3 x + 15 = 6 x - 10 \amp   \amp  \tmop{``Is''} \tmop{between} \tmop{the} \tmop{parts}
+  <mrow>  3 x + 15 = 6 x - 10 \amp   \amp  \tmop{``Is''} \tmop{between} \tmop{the} \tmop{parts}
     \tmop{tells} \tmop{us} \tmop{they} \tmop{must} \tmop{be} \tmop{equal}</mrow>
- <mrow>\tmmathbf{\underline{- 3 x ~~~~~~~- 3 x}}~~~~~ \amp   \amp  \tmop{Subtract} 3 x, \tmop{~so}
+  <mrow>  \tmmathbf{\underline{- 3 x ~~~~~~~- 3 x}} \amp   \amp  \tmop{Subtract} 3 x, \tmop{~so}
     \tmop{variable} \tmop{is} \tmop{all} \tmop{on} \tmop{one} \tmop{side}</mrow>
- <mrow>15 = 3 x - 10 \amp   \amp  \tmop{Now} \tmop{we} \tmop{have~a} \tmop{two} -
+  <mrow>  15 = 3 x - 10 \amp   \amp  \tmop{Now} \tmop{we} \tmop{have~a} \tmop{two} -
     \tmop{step} \tmop{equation}</mrow>
- <mrow>\tmmathbf{\underline{+ 10 ~~~~~+ 10}} \amp   \amp  \tmop{Add} 10 \tmop{to} \tmop{both}
+  <mrow>  \tmmathbf{\underline{+ 10 ~~~~~+ 10}} \amp   \amp  \tmop{Add} 10 \tmop{to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>25 = 3 x \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  25 = 3 x \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 3</mrow>
- <mrow>\tmmathbf{\overline{3} ~~~~~ \overline{3}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{3} ~~~~~ \overline{3}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 3</mrow>
- <mrow>\frac{25}{3} = x \amp   \amp  \tmop{Our} \tmop{number} \tmop{is} \frac{25}{3}</mrow>
- 
+  <mrow>  \frac{25}{3} = x \amp   \amp  \tmop{Our} \tmop{number} \tmop{is} \frac{25}{3}</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Another type of number problem involves consecutive integers.
 {\tmstrong{Consecutive integers}} are whole numbers that come one after the other,
 such as 3, 4, 5. If we are looking for several consecutive integers it is
 important to first identify what they look like with variables, before we set
-up the equation. This is shown in the following example.\pp
+up the equation. This is shown in the following example.
 </p>
-  
-<example xml:id="Lin76"><statement>
+<example xml:id="Lin76">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />The sum of three consecutive integers is 93. What are the integers?
+The sum of three consecutive integers is 93. What are the integers?
 </p>
-  
-<md><mrow>\tmop{First} x~ \amp   \amp  \tmop{Make} \tmop{the} \tmop{first} \tmop{number} x</mrow>
- <mrow>\tmop{Second} x + 1~ \amp   \amp  \tmop{To} \tmop{get} \tmop{the} \tmop{next}
+<md>
+  <mrow>  \tmop{First} x~ \amp   \amp  \tmop{Make} \tmop{the} \tmop{first} \tmop{number} x</mrow>
+  <mrow>  \tmop{Second} x + 1~ \amp   \amp  \tmop{To} \tmop{get} \tmop{the} \tmop{next}
     \tmop{number} \tmop{we} \tmop{go} \tmop{up} \tmop{one} \tmop{or} + 1</mrow>
- <mrow>\tmop{Third} x + 2~ \amp   \amp  \tmop{Add} \tmop{another} 1 (2 \tmop{total})
+  <mrow>  \tmop{Third} x + 2~ \amp   \amp  \tmop{Add} \tmop{another} 1 (2 \tmop{total})
     \tmop{to} \tmop{get} \tmop{the} \tmop{third}</mrow>
- 
 </md>
   
-<md><mrow>F + S + T = 93~ \amp   \amp  \tmop{First~} (F) \tmop{plus} \tmop{Second~} (S)
+<md>
+  <mrow>  F + S + T = 93~ \amp   \amp  \tmop{First~} (F) \tmop{plus} \tmop{Second~} (S)
     \tmop{plus}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{Third~} (T) \tmop{equals} 93</mrow>
- <mrow>(x) + (x + 1) + (x + 2) = 93~ \amp   \amp  \tmop{Replace} F, S \tmop{~and~} T \tmop{with}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{their} \tmop{respective} \tmop{expressions}</mrow>
- <mrow>x + x + 1 + x + 2 = 93~\amp   \amp  \tmop{Here} \tmop{the} \tmop{parentheses}
+  <mrow>  \amp  \amp  ~~~\tmop{Third~} (T) \tmop{equals} 93</mrow>
+  <mrow>  (x) + (x + 1) + (x + 2) = 93~ \amp   \amp  \tmop{Replace} F, S \tmop{~and~} T \tmop{with}</mrow>
+  <mrow>  \amp  \amp  ~~~\tmop{their} \tmop{respective} \tmop{expressions}</mrow>
+  <mrow>  x + x + 1 + x + 2 = 93~\amp   \amp  \tmop{Here} \tmop{the} \tmop{parentheses}
     \tmop{aren't} \tmop{needed}</mrow>
- <mrow>3 x + 3 = 93~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} x + x + x
+  <mrow>  3 x + 3 = 93~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} x + x + x
     \tmop{and} 2 + 1</mrow>
- <mrow>\tmmathbf{\underline{- 3 ~~- 3}} \amp   \amp  \tmop{Add} 3 \tmop{to} \tmop{both}
+  <mrow>  \tmmathbf{\underline{- 3 ~~- 3}} \amp   \amp  \tmop{Add} 3 \tmop{to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>3 x = 90~ \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  3 x = 90~ \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 3</mrow>
- <mrow>\tmmathbf{\overline{3} ~~~~~ \overline{3}}~~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{3} ~~~~~ \overline{3}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 3</mrow>
- <mrow>x = 30~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\tmop{First~is~} 30~ \amp   \amp  \tmop{Replace} x \tmop{in} \tmop{our}
-    \tmop{original}~ \tmop{list} \tmop{with} 30</mrow>
- <mrow>\tmop{Second~is~} (30) + 1 = 31~ \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 30,
+  <mrow>  x = 30~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \tmop{First~is~} 30~ \amp   \amp  \tmop{Replace} x \tmop{in} \tmop{our}
+    \tmop{original} \tmop{list} \tmop{with} 30</mrow>
+  <mrow>  \tmop{Second~is~} (30) + 1 = 31~ \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 30,
     31, \tmop{and} 32</mrow>
- <mrow>\tmop{Third~is~} (30) + 2 = 32~ \amp   \amp </mrow>
- 
+  <mrow>  \tmop{Third~is~} (30) + 2 = 32~ \amp   \amp</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Sometimes we will work with consecutive even or odd integers, rather than just
 consecutive integers. When we had consecutive integers, we only had to add 1
 to get to the next integer so we had <m>x</m>, <m>x + 1</m>, and <m>x + 2</m> for our first,
-second, and third integer respectively.\pp
+second, and third integer respectively.
 </p>
-  
+
 <p>
 Sets of even (or odd) integers, however, are
 spaced apart by two. So if we want three consecutive even integers, if the
@@ -169,146 +161,142 @@ first is <m>x</m>, the next integer would be <m>x + 2</m>, then finally add two 
 get the third, <m>x + 4</m>. The same is true for consecutive odd integers, if the
 first is <m>x</m>, the next will be <m>x + 2</m>, and the third would be <m>x + 4</m>. It is
 important to note that we are still adding 2 and 4 even when the integers are
-odd. This is because the phrase "odd" is referring to our <m>x</m>, not to what is
+odd. This is because the phrase <q>odd</q> is referring to our <m>x</m>, not to what is
 added to the integers. Consider the next two examples.
 </p>
-  
-<example xml:id="Lin77"><statement>
+<example xml:id="Lin77">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />The sum of three consecutive even integers is 246. What are the integers?
+The sum of three consecutive even integers is 246. What are the integers?
 </p>
-  
-<md><mrow>\tmop{First} x \amp   \amp  \tmop{Make} \tmop{the} \tmop{first} x</mrow>
- <mrow>\tmop{Second} x + 2 \amp   \amp  \tmop{Even} \tmop{numbers}, \tmop{so} \tmop{we}
+<md>
+  <mrow>  \tmop{First} x \amp   \amp  \tmop{Make} \tmop{the} \tmop{first} x</mrow>
+  <mrow>  \tmop{Second} x + 2 \amp   \amp  \tmop{Even} \tmop{numbers}, \tmop{so} \tmop{we}
     \tmop{add} 2 \tmop{to} \tmop{get} \tmop{the} \tmop{next}</mrow>
- <mrow>\tmop{Third} x + 4 \amp   \amp  \tmop{Add} 2 \tmop{more} (4 \tmop{total})
+  <mrow>  \tmop{Third} x + 4 \amp   \amp  \tmop{Add} 2 \tmop{more} (4 \tmop{total})
     \tmop{to} \tmop{get} \tmop{the} \tmop{third}</mrow>
- <mrow>F + S + T = 246 \amp   \amp  \tmop{Sum} \tmop{means} \tmop{add} \tmop{First} (F)
+  <mrow>  F + S + T = 246 \amp   \amp  \tmop{Sum} \tmop{means} \tmop{add} \tmop{First} (F)
     \tmop{plus}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{Second} (S) \tmop{plus} \tmop{Third} (T)</mrow>
- 
+  <mrow>  \amp  \amp  ~~~\tmop{Second} (S) \tmop{plus} \tmop{Third} (T)</mrow>
 </md>
   
-<md><mrow>(x) + (x + 2) + (x + 4) = 246 \amp   \amp  \tmop{Replace} \tmop{each} F, S,
+<md>
+  <mrow>  (x) + (x + 2) + (x + 4) = 246 \amp   \amp  \tmop{Replace} \tmop{each} F, S,
     \tmop{and} T \tmop{with}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{their} \tmop{respective} \tmop{expressions}</mrow>
- <mrow>x + x + 2 + x + 4 = 246 \amp   \amp  \tmop{Here} \tmop{the} \tmop{parentheses}
+  <mrow>  \amp  \amp  ~~~\tmop{their} \tmop{respective} \tmop{expressions}</mrow>
+  <mrow>  x + x + 2 + x + 4 = 246 \amp   \amp  \tmop{Here} \tmop{the} \tmop{parentheses}
     \tmop{are} \tmop{not} \tmop{needed}</mrow>
- <mrow>3 x + 6 = 246 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} x + x + x
+  <mrow>  3 x + 6 = 246 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} x + x + x
     \tmop{and} 2 + 4</mrow>
- <mrow>\tmmathbf{\underline{- 6 ~~- 6}} \amp   \amp  \tmop{Subtract} 6 \tmop{from}
+  <mrow>  \tmmathbf{\underline{- 6 ~~- 6}} \amp   \amp  \tmop{Subtract} 6 \tmop{from}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>3 x = 240 \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  3 x = 240 \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 3</mrow>
- <mrow>\tmmathbf{\overline{~3~} ~~~ \overline{~3~}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{~3~} ~~~ \overline{~3~}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 3</mrow>
- <mrow>x = 80 \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\tmop{First~is~} 80 \amp   \amp  \tmop{Replace} x \tmop{in} \tmop{the}
+  <mrow>  x = 80 \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \tmop{First~is~} 80 \amp   \amp  \tmop{Replace} x \tmop{in} \tmop{the}
     \tmop{original} \tmop{list} \tmop{with} 80</mrow>
- <mrow>\tmop{Second~is~} (80) + 2 = 82 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 80,
+  <mrow>  \tmop{Second~is~} (80) + 2 = 82 \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 80,
     82, \tmop{and} 84</mrow>
- <mrow>\tmop{Third~is~} (80) + 4 = 84 \amp   \amp </mrow>
- 
+  <mrow>  \tmop{Third~is~} (80) + 4 = 84 \amp   \amp</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
-<example xml:id="Lin78"><statement>
+
+<example xml:id="Lin78">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />Find three consecutive odd integers so that the sum of twice the first, the
+Find three consecutive odd integers so that the sum of twice the first, the
 second and three times the third is 152.
 </p>
-  
-<md><mrow>\tmop{First} x~ \amp   \amp  \tmop{Make} \tmop{the} \tmop{first} x</mrow>
- <mrow>\tmop{Second} x + 2~ \amp   \amp  \tmop{Odd} \tmop{numbers} \tmop{so} \tmop{we}
+<md>
+  <mrow>  \tmop{First} x~ \amp   \amp  \tmop{Make} \tmop{the} \tmop{first} x</mrow>
+  <mrow>  \tmop{Second} x + 2~ \amp   \amp  \tmop{Odd} \tmop{numbers} \tmop{so} \tmop{we}
     \tmop{add} 2~ (\tmop{same} \tmop{as} \tmop{even} !)</mrow>
- <mrow>\tmop{Third} x + 4~ \amp   \amp  \tmop{Add} 2 \tmop{more}~ (4 \tmop{total})
+  <mrow>  \tmop{Third} x + 4~ \amp   \amp  \tmop{Add} 2 \tmop{more} (4 \tmop{total})
     \tmop{to} \tmop{get} \tmop{the} \tmop{third}</mrow>
- <mrow>2 F + S + 3 T = 152~ \amp   \amp  \tmop{Twice} \tmop{the} \tmop{first} \tmop{gives}
+  <mrow>  2 F + S + 3 T = 152~ \amp   \amp  \tmop{Twice} \tmop{the} \tmop{first} \tmop{gives}
     2 F,</mrow>
- <mrow>\amp  \amp  ~~~\tmop{three} \tmop{times} \tmop{the} \tmop{third}
+  <mrow>  \amp  \amp  ~~~\tmop{three} \tmop{times} \tmop{the} \tmop{third}
     \tmop{gives} 3 T</mrow>
- <mrow>2 (x) + (x + 2) + 3 (x + 4) = 152~ \amp   \amp  \tmop{Replace~} F, S, \tmop{~and~} T
+  <mrow>  2 (x) + (x + 2) + 3 (x + 4) = 152~ \amp   \amp  \tmop{Replace~} F, S, \tmop{~and~} T
     \tmop{with}</mrow>
- <mrow>\amp  \amp  \tmop{their} \tmop{respective} \tmop{expressions}</mrow>
- <mrow>2 x + x + 2 + 3 x + 12 = 152~ \amp   \amp  \tmop{Distribute} \tmop{through}
+  <mrow>  \amp  \amp  \tmop{their} \tmop{respective} \tmop{expressions}</mrow>
+  <mrow>  2 x + x + 2 + 3 x + 12 = 152~ \amp   \amp  \tmop{Distribute} \tmop{through}
     \tmop{parentheses}</mrow>
- <mrow>6 x + 14 = 152~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x + x + 3 x
+  <mrow>  6 x + 14 = 152~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x + x + 3 x
     \tmop{and} 2 + 14</mrow>
- <mrow>\tmmathbf{\underline{- 14 ~- 14}} \amp   \amp  \tmop{Subtract} 14 \tmop{from}
+  <mrow>  \tmmathbf{\underline{- 14 ~- 14}} \amp   \amp  \tmop{Subtract} 14 \tmop{from}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>6 x = 138~ \amp   \amp  \tmop{Variable} \tmop{is} \tmop{multiplied} \tmop{by} 6</mrow>
- <mrow>\tmmathbf{\overline{~6~} ~~~~ \overline{~6~}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  6 x = 138~ \amp   \amp  \tmop{Variable} \tmop{is} \tmop{multiplied} \tmop{by} 6</mrow>
+  <mrow>  \tmmathbf{\overline{~6~} ~~~~ \overline{~6~}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 6</mrow>
- <mrow>x = 23~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\tmop{First~is~} 23~ \amp   \amp  \tmop{Replace} x \tmop{with} 23 \tmop{in} \tmop{the}
+  <mrow>  x = 23~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \tmop{First~is~} 23~ \amp   \amp  \tmop{Replace} x \tmop{with} 23 \tmop{in} \tmop{the}
     \tmop{original} \tmop{list}</mrow>
- <mrow>\tmop{Second~is~} (23) + 2 = 25~ \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 23,
+  <mrow>  \tmop{Second~is~} (23) + 2 = 25~ \amp   \amp  \tmop{The} \tmop{numbers} \tmop{are} 23,
     25, \tmop{and} 27</mrow>
- <mrow>\tmop{Third~is~} (23) + 4 = 27~ \amp   \amp </mrow>
- 
+  <mrow>  \tmop{Third~is~} (23) + 4 = 27~ \amp   \amp</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 When we started with our first, second, and third integers for both even and
 odd we had <m>x</m>, <m>x + 2</m>, and <m>x + 4</m>. The numbers added (2 and 4) do not change with successive odds
-or evens. It is our answer for <m>x</m> that will be odd or even.\pp
+or evens. It is our answer for <m>x</m> that will be odd or even.
 </p>
-  
+
 <p>
 Another example of translating English sentences to mathematical sentences
 comes from geometry. A well known property of triangles is that all three
 angles will always add to 180 degrees. For example, the first angle may be 50 degrees,
 the second 30 degrees, and the third 100 degrees. If you add these together,
-<m>50 + 30 + 100 = 180</m>. We can use this property to find angles of triangles.\pp
+<m>50 + 30 + 100 = 180</m>. We can use this property to find angles of triangles.
 </p>
-  
+
 <p>
 {\tmstrong{World View Note: }}German mathematician Bernhart Thibaut in 1809
 tried to prove that the angles of a triangle add to 180 degrees without using Euclid's
 parallel postulate (a point of much debate in mathematical history). He created a
 proof, but it was shown to contain an error.
 </p>
-  
-<example xml:id="Lin79"><statement>
+<example xml:id="Lin79">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />The second angle of a triangle is double the first. The third angle is 40 degrees
+The second angle of a triangle is double the first. The third angle is 40 degrees
 less than the first. Find the measure of all three angles.
 </p>
-  
-<md><mrow>\tmop{First~angle~is~} x~~ \amp   \amp  \tmop{With} \tmop{nothing} \tmop{known} \tmop{about}
+<md>
+  <mrow>  \tmop{First~angle~is~} x~~ \amp   \amp  \tmop{With} \tmop{nothing} \tmop{known} \tmop{about}
     \tmop{the} \tmop{first~angle}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{we} \tmop{label} \tmop{it~} x</mrow>
- <mrow>\tmop{Second~angle~is~} 2 x~~ \amp   \amp  \tmop{The} \tmop{second~angle} \tmop{is} \tmop{double}
+  <mrow>  \amp  \amp  ~~~\tmop{we} \tmop{label} \tmop{it~} x</mrow>
+  <mrow>  \tmop{Second~angle~is~} 2 x~~ \amp   \amp  \tmop{The} \tmop{second~angle} \tmop{is} \tmop{double}
     \tmop{the} \tmop{first}</mrow>
- <mrow>\tmop{Third~angle~is~} x - 40~~ \amp   \amp  \tmop{The} \tmop{third~angle} \tmop{is} 40^{\circ} \tmop{less}
+  <mrow>  \tmop{Third~angle~is~} x - 40~~ \amp   \amp  \tmop{The} \tmop{third~angle} \tmop{is} 40^{\circ} \tmop{less}
     \tmop{than} \tmop{the} \tmop{first}</mrow>
- <mrow>F + S + T = 180~~ \amp   \amp  \tmop{All} \tmop{three} \tmop{angles} \tmop{add}
+  <mrow>  F + S + T = 180~~ \amp   \amp  \tmop{All} \tmop{three} \tmop{angles} \tmop{add}
     \tmop{to} 180^{\circ}</mrow>
- <mrow>(x) + (2 x) + (x - 40) = 180~~ \amp   \amp  \tmop{Replace} F, S, \tmop{and} T
+  <mrow>  (x) + (2 x) + (x - 40) = 180~~ \amp   \amp  \tmop{Replace} F, S, \tmop{and} T
     \tmop{with} \tmop{the} \tmop{labeled} \tmop{values}</mrow>
- <mrow>x + 2 x + x - 40 = 180~~ \amp   \amp  \tmop{Here} \tmop{the} \tmop{parentheses}
+  <mrow>  x + 2 x + x - 40 = 180~~ \amp   \amp  \tmop{Here} \tmop{the} \tmop{parentheses}
     \tmop{are} \tmop{not} \tmop{needed}</mrow>
- <mrow>4 x - 40 = 180~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}, x + 2 x + x</mrow>
- <mrow>\underline{\tmmathbf{+ 40 ~~+ 40}} \amp   \amp  \tmop{Add} 40^{\circ} \tmop{to} \tmop{both}
+  <mrow>  4 x - 40 = 180~~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms}, x + 2 x + x</mrow>
+  <mrow>  \underline{\tmmathbf{+ 40 ~~+ 40}} \amp   \amp  \tmop{Add} 40^{\circ} \tmop{to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>4 x = 220~~ \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  4 x = 220~~ \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 4</mrow>
- <mrow>\tmmathbf{\overline{~4~} ~~~ \overline{~4~}}~~~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{~4~} ~~~ \overline{~4~}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 4</mrow>
- <mrow>x = 55~~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\tmop{First~is~} 55~~ \amp   \amp  \tmop{Replace} x \tmop{with} 55^{\circ} \tmop{in} \tmop{the}
+  <mrow>  x = 55~~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \tmop{First~is~} 55~~ \amp   \amp  \tmop{Replace} x \tmop{with} 55^{\circ} \tmop{in} \tmop{the}
     \tmop{original} \tmop{list} \tmop{of} \tmop{angles}</mrow>
- <mrow>\tmop{Second~is~} 2 (55) = 110~~ \amp   \amp  \tmop{Our} \tmop{angles} \tmop{are} 55^{\circ},
+  <mrow>  \tmop{Second~is~} 2 (55) = 110~~ \amp   \amp  \tmop{Our} \tmop{angles} \tmop{are} 55^{\circ},
     110^{\circ}, \tmop{and} 15^{\circ}</mrow>
- <mrow>\tmop{Third~is~} (55) - 40 = 15~~ \amp   \amp </mrow>
- 
+  <mrow>  \tmop{Third~is~} (55) - 40 = 15~~ \amp   \amp</mrow>
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Another geometry problem involves perimeter or the distance around an object.
 For example, consider a rectangle having a length of 8 units and a width of 3 units. There
@@ -319,98 +307,94 @@ L + 2 W</m>. So for the rectangle of length 8 units and width 3 units the formul
 <m>P = 2 (8) + 2 (3) = 16 + 6 = 22</m>. With problems that we will consider here
 the formula <m>P = 2 L + 2 W</m> will be used.
 </p>
-  
-<example xml:id="Lin80"><statement>
+<example xml:id="Lin80">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />The perimeter of a rectangle is 44 units. The width is 5 units less than double the
+The perimeter of a rectangle is 44 units. The width is 5 units less than double the
 length. Find the dimensions of the rectangle.
 </p>
-  
-<md><mrow>\tmop{Length} x \amp   \amp  \tmop{We} \tmop{will} \tmop{make} \tmop{the}
+<md>
+  <mrow>  \tmop{Length} x \amp   \amp  \tmop{We} \tmop{will} \tmop{make} \tmop{the}
     \tmop{length} x</mrow>
- <mrow>\tmop{Width} 2 x - 5 \amp   \amp  \tmop{Width} \tmop{is} \tmop{five} \tmop{less}
+  <mrow>  \tmop{Width} 2 x - 5 \amp   \amp  \tmop{Width} \tmop{is} \tmop{five} \tmop{less}
     \tmop{than} \tmop{two} \tmop{times} \tmop{the} \tmop{length}</mrow>
- <mrow>P = 2 L + 2 W \amp   \amp  \tmop{The} \tmop{formula} \tmop{for} \tmop{perimeter}
+  <mrow>  P = 2 L + 2 W \amp   \amp  \tmop{The} \tmop{formula} \tmop{for} \tmop{perimeter}
     \tmop{of} \tmop{a~rectangle}</mrow>
- <mrow>(44) = 2 (x) + 2 (2 x - 5) \amp   \amp  \tmop{Replace} P, L, \tmop{and} W
+  <mrow>  (44) = 2 (x) + 2 (2 x - 5) \amp   \amp  \tmop{Replace} P, L, \tmop{and} W
     \tmop{with} \tmop{labeled} \tmop{values}</mrow>
- <mrow>44 = 2 x + 4 x - 10 \amp   \amp  \tmop{Distribute} \tmop{through}
+  <mrow>  44 = 2 x + 4 x - 10 \amp   \amp  \tmop{Distribute} \tmop{through}
     \tmop{parentheses}</mrow>
- <mrow>44 = 6 x - 10 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x + 4 x</mrow>
- <mrow>\tmmathbf{\underline{+ 10 ~~~~~+ 10}} \amp   \amp  \tmop{Add} 10 \tmop{units~to} \tmop{both}
+  <mrow>  44 = 6 x - 10 \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 2 x + 4 x</mrow>
+  <mrow>  \tmmathbf{\underline{+ 10 ~~~~~+ 10}} \amp   \amp  \tmop{Add} 10 \tmop{units~to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>54 = 6 x \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  54 = 6 x \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 6</mrow>
- <mrow>\tmmathbf{\overline{6} ~~~~~ \overline{6}}~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{6} ~~~~~ \overline{6}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 6</mrow>
- <mrow>9 = x \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\tmop{Length~is~} 9 \tmop{units}\amp   \amp  \tmop{Replace} x \tmop{with} 9 \tmop{in} \tmop{the}
+  <mrow>  9 = x \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \tmop{Length~is~} 9 \tmop{units}\amp   \amp  \tmop{Replace} x \tmop{with} 9 \tmop{in} \tmop{the}
     \tmop{original} \tmop{list} \tmop{of} \tmop{sides}</mrow>
- <mrow>\tmop{Width~is~} 2 (9) - 5 = 13 \tmop{units}\amp   \amp </mrow>
- 
+  <mrow>  \tmop{Width~is~} 2 (9) - 5 = 13 \tmop{units}\amp   \amp</mrow>
 </md>
-  The dimensions of the rectangle are 9 units by 13 units. </statement>
+  The dimensions of the rectangle are 9 units by 13 units.
+</statement>
 </example>
-  
 <p>
 We have seen that it is important to start by clearly labeling the variables in
 a short list before we begin to solve the problem. This is important in all
 word problems involving variables, not just consecutive integers or geometry
 problems. This is shown in the following example.
 </p>
-  
-<example xml:id="Lin81"><statement>
+<example xml:id="Lin81">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp />A sofa and a love seat have a combined cost of <m>\dollar444</m>. The sofa costs
+A sofa and a love seat have a combined cost of <m>\dollar444</m>. The sofa costs
 double the love seat. How much do they each cost?
 </p>
-  
-<md><mrow>\tmop{Love} \tmop{seat~cost~is~} x \amp   \amp  \tmop{With} \tmop{no} \tmop{information}
+<md>
+  <mrow>  \tmop{Love} \tmop{seat~cost~is~} x \amp   \amp  \tmop{With} \tmop{no} \tmop{information}
     \tmop{known~about} \tmop{the}</mrow>
- <mrow>\amp  \amp  ~~~\tmop{love} \tmop{seat}, \tmop{we~label~it} x</mrow>
- <mrow>\tmop{Sofa~cost~is~} 2 x \amp   \amp  \tmop{Sofa} \tmop{is} \tmop{double} \tmop{the}
+  <mrow>  \amp  \amp  ~~~\tmop{love} \tmop{seat}, \tmop{we~label~it} x</mrow>
+  <mrow>  \tmop{Sofa~cost~is~} 2 x \amp   \amp  \tmop{Sofa} \tmop{is} \tmop{double} \tmop{the}
   	\tmop{love} \tmop{seat}, \tmop{so} \tmop{we} \tmop{multiply} \tmop{by} 2</mrow>
- 
 </md>
   
-<md><mrow>S + L = 444 \amp   \amp  \tmop{Together} \tmop{they} \tmop{cost} \dollar444, \tmop{so}
+<md>
+  <mrow>  S + L = 444 \amp   \amp  \tmop{Together} \tmop{they} \tmop{cost} \dollar444, \tmop{so}
     \tmop{we} \tmop{add}</mrow>
- <mrow>(x) + (2 x) = 444 \amp   \amp  \tmop{Replace} S \tmop{and} L \tmop{with}
+  <mrow>  (x) + (2 x) = 444 \amp   \amp  \tmop{Replace} S \tmop{and} L \tmop{with}
     \tmop{labeled} \tmop{values}</mrow>
- <mrow>\amp   \amp  \tmop{Parentheses} \tmop{are} \tmop{not} \tmop{needed},</mrow>
- <mrow>3 x = 444 \amp  \amp  ~~~ \tmop{combine} \tmop{like} \tmop{terms} x + 2x</mrow>
- <mrow>\tmmathbf{\overline{~3~} ~~~~~ \overline{~3~}} \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \amp   \amp  \tmop{Parentheses} \tmop{are} \tmop{not} \tmop{needed},</mrow>
+  <mrow>  3 x = 444 \amp  \amp  ~~~ \tmop{combine} \tmop{like} \tmop{terms} x + 2x</mrow>
+  <mrow>  \tmmathbf{\overline{~3~} ~~~~~ \overline{~3~}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 3</mrow>
- <mrow>x = 148 \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\tmop{Love} \tmop{seat~cost~is~} \dollar148 \amp   \amp  \tmop{Replace} x \tmop{with} 148
+  <mrow>  x = 148 \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \tmop{Love} \tmop{seat~cost~is~} \dollar148 \amp   \amp  \tmop{Replace} x \tmop{with} 148
     \tmop{in} \tmop{the} \tmop{original} \tmop{list}</mrow>
- <mrow>\tmop{Sofa~cost~is~} 2 (148) = \dollar296 \amp   \amp  \tmop{The} \tmop{love} \tmop{seat}
+  <mrow>  \tmop{Sofa~cost~is~} 2 (148) = \dollar296 \amp   \amp  \tmop{The} \tmop{love} \tmop{seat}
     \tmop{costs} \dollar148 \tmop{and} \tmop{the} \tmop{sofa} \tmop{costs}
     \dollar296</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
-Be careful on problems such as these. Many students see the phrase "double"
+Be careful on problems such as these. Many students see the phrase <q>double</q>
 and believe that means we only have to divide the <m>\dollar444</m> by 2 and get
 <m>\dollar222</m> for one or both of the prices. As you can see this will not
 work. By clearly labeling the variables in the original list we know exactly
 how to set up and solve these problems.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Age Problems</title>
+<objectives>
 <p>
-\pp
+Solve age problems by creating and solving a linear
+equation.
 </p>
-  
-<p>
-{\tmstrong{Objective: Solve age problems by creating and solving a linear
-equation.}}\pp
-</p>
-  
+</objectives>
 <p>
 Age problems present another application of linear equations. When we
 are solving age problems we generally will be comparing the age of two people
@@ -420,9 +404,7 @@ in these problems and we can easily get lost in all the information. To help
 us organize and solve our problem we will fill out a three by three table for
 each problem. An example of the basic structure of the table is shown below.
 </p>
-  
 <me>
-
   \begin{array}{|c|c|c|}
     \hline
     \amp  \mbox{Age~Now}  \amp  \mbox{Change} \\
@@ -431,22 +413,22 @@ each problem. An example of the basic structure of the table is shown below.
     \hline
     \mbox{Person~2}  \amp   \amp  \\
     \hline
-\end{array}  
+\end{array}
 </me>
-  {Structure of Age Table}  
+{Structure of Age Table}
 <p>
-Normally where we see "Person 1" and "Person 2" we will use the name of
+Normally where we see <q>Person 1</q> and <q>Person 2</q> we will use the name of
 the person we are talking about. We will use this table to set up the
 following example.
 </p>
-  
-<example xml:id="Lin82"><statement>
+<example xml:id="Lin82">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Adam is 20 years younger than Brian. In two years Brian will be twice as
+Adam is 20 years younger than Brian. In two years Brian will be twice as
 old as Adam. How old are they now?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
       \hline
@@ -461,10 +443,10 @@ old as Adam. How old are they now?
       \tmop{the} \tmop{second} \tmop{phrase}
       \tmop{is} \tmop{two} \tmop{years} \tmop{in} \tmop{the} \tmop{future}.
 \end{array}</mrow>
-  
 </md>
   
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
       \hline
@@ -483,8 +465,8 @@ old as Adam. How old are they now?
       \tmop{is} 20 \tmop{years} \tmop{younger} \tmop{we} \tmop{subtract} 20,
       \tmop{Adam} \tmop{is} <m>x -</m> 20.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
       \hline
@@ -499,8 +481,8 @@ old as Adam. How old are they now?
       \tmop{`Age~Now'} \tmop{column~entry,} \tmop{as} \tmop{shown}
       \tmop{in} \tmop{the} \tmop{table}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
       \hline
@@ -514,35 +496,35 @@ old as Adam. How old are they now?
       \tmop{This} \tmop{table} \tmop{is} \tmop{now} \tmop{completed},
       \tmop{and} \tmop{we} \tmop{are} \tmop{ready} \tmop{to} \tmop{solve}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>B = 2 A \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  B = 2 A \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Our} \tmop{equation} \tmop{comes} \tmop{from} \tmop{the}
       \tmop{future} \tmop{statement:} \tmop{Brian} \tmop{will} \tmop{be} \tmop{twice} \tmop{as} \tmop{old} \tmop{as} \tmop{Adam}.\\
 			\tmop{This} \tmop{means} \tmop{the} \tmop{younger}, \tmop{Adam}, \tmop{needs} \tmop{to} \tmop{be}
       \tmop{multiplied} \tmop{by} 2.
 \end{array}</mrow>
- <mrow>(x + 2) = 2 (x - 18) \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  (x + 2) = 2 (x - 18) \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Replace} <m>B</m> \tmop{and} <m>A</m> \tmop{with} \tmop{the} \tmop{information}
       \tmop{in} \tmop{their} \tmop{future}
       \tmop{cells}, \tmop{Adam} (<m>A</m>) \tmop{is} \tmop{replaced} \tmop{with} <m>x -</m> 18 \tmop{and} \tmop{Brian} (<m>B</m>) \tmop{is} \tmop{replaced} \tmop{with} <m>x +</m> 2.\\ \tmop{This} \tmop{is} \tmop{the} \tmop{equation} \tmop{to} \tmop{solve}!
 \end{array}</mrow>
- <mrow>x + 2 = 2 x - 36 \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  x + 2 = 2 x - 36 \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Distribute} \tmop{through} \tmop{parentheses}
 \end{array}</mrow>
- <mrow>\tmmathbf{\underline{- x ~~~~~- x}}~~~~~~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  \tmmathbf{\underline{- x ~~~~~- x}} \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Subtract} <m>x</m> \tmop{from} \tmop{both} \tmop{sides} \tmop{to}
       \tmop{get} \tmop{variable} \tmop{on} \tmop{one} \tmop{side}
 \end{array}</mrow>
- <mrow>2 = x - 36 \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  2 = x - 36 \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Need} \tmop{to} \tmop{clear} \tmop{the} <m>-</m> 36
 \end{array}</mrow>
- <mrow>\tmmathbf{\underline{+ 36 ~~~+ 36}} \amp   \amp  \tmop{~Add} 36 \tmop{to} \tmop{both}
+  <mrow>  \tmmathbf{\underline{+ 36 ~~~+ 36}} \amp   \amp  \tmop{~Add} 36 \tmop{to} \tmop{both}
     \tmop{sides}</mrow>
- <mrow>38 = x \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} x</mrow>
- 
+  <mrow>  38 = x \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} x</mrow>
 </md>
   
-<md><mrow>\begin{array}{|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{now}\\
       \hline
@@ -556,33 +538,34 @@ old as Adam. How old are they now?
       \tmop{Replace} \tmop{the} <m>x</m>'s \tmop{with} 38 \tmop{and} \tmop{simplify}.\\
       \tmop{Adam} \tmop{is} 18 \tmop{and} \tmop{Brian} \tmop{is} 38.
 \end{array}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Solving age problems can be summarized in the following five steps. These five
 steps are guidelines to help organize the problem we are trying to solve.
 </p>
-  <ol><li>Fill in the `Now' column. The age of the person we know nothing about is <m>x</m>.</li>
+
+<ol>
+<li>Fill in the `Now' column. The age of the person we know nothing about is <m>x</m>.</li>
 <li>Fill in the future/past column by adding/subtracting the change to
   the `Now' column.</li>
 <li>Make an equation for the relationship in the future. This is
   independent of the table.</li>
 <li>Replace variables in the equation with information in the future/past cells of table.</li>
 <li>Solve the equation for <m>x</m>, use the solution to answer the question.</li>
- </ol>  
+</ol>
+
 <p>
 These five steps are illustrated in the following example.
 </p>
-  
-<example xml:id="Lin83"><statement>
+<example xml:id="Lin83">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Carmen is 12 years older than David. Five years ago the sum of their ages was 28. How old are they now?
+Carmen is 12 years older than David. Five years ago the sum of their ages was 28. How old are they now?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  - 5\\
       \hline
@@ -592,8 +575,8 @@ These five steps are illustrated in the following example.
       \hline
 \end{array}  \amp   \amp  \tmop{Five} \tmop{years} \tmop{ago} \tmop{is} - 5
     \tmop{in} \tmop{the} \tmop{change} \tmop{column}.</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  - 5\\
       \hline
@@ -606,8 +589,8 @@ These five steps are illustrated in the following example.
       \tmop{David}. \tmop{We} \tmop{don`t} \tmop{know} \tmop{about} \tmop{David} \tmop{so} \tmop{his~age} \tmop{is} <m>x</m>.\\
       \tmop{Carmen`s~age~is} \tmop{then} <m>x +</m> 12.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  - 5\\
       \hline
@@ -618,10 +601,10 @@ These five steps are illustrated in the following example.
 \end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}\tmop{Subtract} 5 \tmop{from} \tmop{`Now'} \tmop{column}\\
     \tmop{to} \tmop{get} \tmop{the} \tmop{change}.\\
 \end{array}</mrow>
- 
 </md>
   
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  - 5\\
       \hline
@@ -632,23 +615,23 @@ These five steps are illustrated in the following example.
 \end{array}  \amp   \amp   \begin{array}{p{0.425\textwidth}}
       \tmop{Simplify} \tmop{by} \tmop{combining} \tmop{like} \tmop{terms}, 12 - 5.\\  \tmop{Our} \tmop{table} \tmop{is} \tmop{ready}!
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>C + D = 28~ \amp   \amp  \tmop{The} \tmop{sum} \tmop{of} \tmop{their} \tmop{ages}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  C + D = 28~ \amp   \amp  \tmop{The} \tmop{sum} \tmop{of} \tmop{their} \tmop{ages}
     \tmop{will} \tmop{be~} 28.</mrow>
- <mrow>\amp  \amp  \tmop{So} \tmop{we} \tmop{add~} C \tmop{~and~} D.</mrow>
- <mrow>(x + 7) + (x - 5) = 28~ \amp   \amp  \tmop{Replace~} C \tmop{and} D \tmop{with}
+  <mrow>  \amp  \amp  \tmop{So} \tmop{we} \tmop{add~} C \tmop{~and~} D.</mrow>
+  <mrow>  (x + 7) + (x - 5) = 28~ \amp   \amp  \tmop{Replace~} C \tmop{and} D \tmop{with}
     \tmop{the} \tmop{change} \tmop{cells}.</mrow>
- <mrow>x + 7 + x - 5 = 28~ \amp   \amp  \tmop{Remove} \tmop{parentheses}</mrow>
- <mrow>2 x + 2 = 28~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} x + x \tmop{and}
+  <mrow>  x + 7 + x - 5 = 28~ \amp   \amp  \tmop{Remove} \tmop{parentheses}</mrow>
+  <mrow>  2 x + 2 = 28~ \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} x + x \tmop{and}
     7 - 5</mrow>
- <mrow>\tmmathbf{\underline{- 2 ~- 2}} \amp   \amp  \tmop{Subtract} 2 \tmop{from}
+  <mrow>  \tmmathbf{\underline{- 2 ~- 2}} \amp   \amp  \tmop{Subtract} 2 \tmop{from}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>2 x = 26~ \amp   \amp  \tmop{Notice} x \tmop{is} \tmop{multiplied} \tmop{by} 2</mrow>
- <mrow>\tmmathbf{\overline{2} ~~~~~ \overline{2}}~~ \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  2 x = 26~ \amp   \amp  \tmop{Notice} x \tmop{is} \tmop{multiplied} \tmop{by} 2</mrow>
+  <mrow>  \tmmathbf{\overline{2} ~~~~~ \overline{2}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 2</mrow>
- <mrow>x = 13~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\begin{array}{|c|c|}
+  <mrow>  x = 13~ \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \begin{array}{|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now}\\
       \hline
@@ -660,21 +643,19 @@ These five steps are illustrated in the following example.
       \tmop{Replace} <m>x</m> \tmop{with} 13 \tmop{to} \tmop{answer} \tmop{the}
       \tmop{question}. \tmop{Carmen} \tmop{is} 25 \tmop{and} \tmop{David} \tmop{is} 13.
 \end{array}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Sometimes we are given the sum of two (or more) people`s ages right now. These problems can be tricky. In this case we will write the sum above the `Now' column and assign <m>x</m> to the first person's age now. The second person`s age will then involve subtraction: (Total age) <m>-~x</m>. This is shown in the next example.
 </p>
-  
-<example xml:id="Lin84"><statement>
+<example xml:id="Lin84">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> The sum of the ages of Nicole and Kristen is 32. In two years Nicole will be three times as old as Kristen. How old are they now?
+The sum of the ages of Nicole and Kristen is 32. In two years Nicole will be three times as old as Kristen. How old are they now?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
         \hline
         \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
         \hline
@@ -690,8 +671,8 @@ Sometimes we are given the sum of two (or more) people`s ages right now. These p
       \tmop{The} \tmop{first} \tmop{person`s~age} \tmop{is} <m>x</m>.\\
 			\tmop{The~second~person`s~age~becomes} 32 <m>- x</m>.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
       \hline
@@ -704,10 +685,10 @@ Sometimes we are given the sum of two (or more) people`s ages right now. These p
 		\tmop{Fill~in~the~change~column}\\
 		\tmop{by~adding~2~to~each~cell}.
 \end{array}</mrow>
- 
 </md>
   
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + 2\\
       \hline
@@ -717,27 +698,27 @@ Sometimes we are given the sum of two (or more) people`s ages right now. These p
       \hline
 \end{array}  \amp   \amp  \tmop{Combine} \tmop{like} \tmop{terms} 32 + 2,
     \tmop{our} \tmop{table} \tmop{is} \tmop{done}!</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>N = 3 K \amp   \amp  \tmop{Nicole} \tmop{is} \tmop{three} \tmop{times} \tmop{as}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  N = 3 K \amp   \amp  \tmop{Nicole} \tmop{is} \tmop{three} \tmop{times} \tmop{as}
     \tmop{old} \tmop{as} \tmop{Kristen}</mrow>
- <mrow>(x + 2) = 3 (34 - x) \amp   \amp  \tmop{Replace} \tmop{variables} \tmop{with}
+  <mrow>  (x + 2) = 3 (34 - x) \amp   \amp  \tmop{Replace} \tmop{variables} \tmop{with}
     \tmop{information} \tmop{in} \tmop{change} \tmop{cells}</mrow>
- <mrow>x + 2 = 102 - 3 x \amp   \amp  \tmop{Distribute} \tmop{through}
+  <mrow>  x + 2 = 102 - 3 x \amp   \amp  \tmop{Distribute} \tmop{through}
     \tmop{parentheses}</mrow>
- <mrow>\tmmathbf{\underline{+ 3 x ~~~~~~~~~~+ 3 x}} \amp   \amp  \tmop{Add} 3 x \tmop{to}
+  <mrow>  \tmmathbf{\underline{+ 3 x ~~~~~~~~~~+ 3 x}} \amp   \amp  \tmop{Add} 3 x \tmop{to}
     \tmop{both} \tmop{sides} \tmop{so} \tmop{variable} \tmop{is} \tmop{only}
     \tmop{on} \tmop{one} \tmop{side}</mrow>
- <mrow>4 x + 2 = 102 \amp   \amp  \tmop{Solve} \tmop{the} \tmop{two} - \tmop{step}
+  <mrow>  4 x + 2 = 102 \amp   \amp  \tmop{Solve} \tmop{the} \tmop{two} - \tmop{step}
     \tmop{equation}</mrow>
- <mrow>\tmmathbf{\underline{- 2 ~~ - 2}} \amp   \amp  \tmop{Subtract} 2 \tmop{from}
+  <mrow>  \tmmathbf{\underline{- 2 ~~ - 2}} \amp   \amp  \tmop{Subtract} 2 \tmop{from}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>4 x = 100 \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  4 x = 100 \amp   \amp  \tmop{The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 4</mrow>
- <mrow>\tmmathbf{\overline{~4~} ~~~~ \overline{~4~}} \amp   \amp  \tmop{Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{~4~} ~~~~ \overline{~4~}} \amp   \amp  \tmop{Divide} \tmop{both}
     \tmop{sides} \tmop{by} 4</mrow>
- <mrow>x = 25 \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\begin{array}{|c|c|}
+  <mrow>  x = 25 \amp   \amp  \tmop{Our} \tmop{solution} \tmop{for} x</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \begin{array}{|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now}\\
       \hline
@@ -750,30 +731,24 @@ Sometimes we are given the sum of two (or more) people`s ages right now. These p
       \tmop{column}.\\
       \tmop{Nicole} \tmop{is} 25 \tmop{and} \tmop{Kristen} \tmop{is} 7.
 \end{array}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
- 
-<p>
-\pp
-</p>
-  
 <p>
 A slight variation on age problems is to ask not how old the people are, but
 rather ask how long until we have some relationship about their ages. In this
 case we alter our table slightly. In the change column because we don't know
 the time to add or subtract we will use a variable, <m>t</m>, and add or subtract
-this from the `Now' column. This is shown in the next example.\pp
+this from the `Now' column. This is shown in the next example.
 </p>
-  
-<example xml:id="Lin85"><statement>
+<example xml:id="Lin85">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Louise is 26 years old. Her daughter is 4 years old. In how many years will
+Louise is 26 years old. Her daughter is 4 years old. In how many years will
 Louise be double her daughter's age?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + t\\
       \hline
@@ -787,8 +762,8 @@ Louise be double her daughter's age?
       \tmop{the} \tmop{table}.\\
 			\tmop{The} \tmop{change} \tmop{is} \tmop{unknown}, \tmop{so} \tmop{we} \tmop{write} <m>+ t</m> \tmop{for} \tmop{the} \tmop{change}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|}
       \hline
       \amp  \tmop{Age~} \tmop{Now} \amp  + t\\
       \hline
@@ -800,49 +775,46 @@ Louise be double her daughter's age?
       \tmop{Fill} \tmop{in} \tmop{the} \tmop{change} \tmop{column} \tmop{by}
       \tmop{adding} <m>t</m> \tmop{to} \tmop{each} \tmop{person`s} \tmop{age}.\\ \tmop{Our} \tmop{table} \tmop{is} \tmop{now} \tmop{complete}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
-  
+  <mrow>  \amp   \amp</mrow>
 </md>
   
-<md><mrow>L = 2 D \amp   \amp  \tmop{Louise} \tmop{will} \tmop{be} \tmop{double} \tmop{her}
+<md>
+  <mrow>  L = 2 D \amp   \amp  \tmop{Louise} \tmop{will} \tmop{be} \tmop{double} \tmop{her}
     \tmop{daughter`s~age}</mrow>
- <mrow>(26 + t) = 2 (4 + t) \amp   \amp  \tmop{Replace} \tmop{variables} \tmop{with}
+  <mrow>  (26 + t) = 2 (4 + t) \amp   \amp  \tmop{Replace} \tmop{variables} \tmop{with}
     \tmop{information} \tmop{in} \tmop{change} \tmop{cells}</mrow>
- <mrow>26 + t = 8 + 2 t \amp   \amp  \tmop{Distribute} \tmop{through}
+  <mrow>  26 + t = 8 + 2 t \amp   \amp  \tmop{Distribute} \tmop{through}
     \tmop{parentheses}</mrow>
- <mrow>\tmmathbf{\underline{- t ~~~~~~- t}} \amp   \amp  \tmop{Subtract} t \tmop{from}
+  <mrow>  \tmmathbf{\underline{- t ~~~~~~- t}} \amp   \amp  \tmop{Subtract} t \tmop{from}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>26 = 8 + t \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{an} 8 \tmop{added}
+  <mrow>  26 = 8 + t \amp   \amp  \tmop{Now} \tmop{we} \tmop{have} \tmop{an} 8 \tmop{added}
     \tmop{to} \tmop{the} t</mrow>
- <mrow>\underline{\tmmathbf{- 8 ~~- 8}}~~~ \amp   \amp  \tmop{Subtract} 8 \tmop{from}
+  <mrow>  \underline{\tmmathbf{- 8 ~~- 8}} \amp   \amp  \tmop{Subtract} 8 \tmop{from}
     \tmop{both} \tmop{sides}</mrow>
- <mrow>18 = t \amp   \amp  \tmop{In} 18 \tmop{years} \tmop{she} \tmop{will} \tmop{be}
+  <mrow>  18 = t \amp   \amp  \tmop{In} 18 \tmop{years} \tmop{she} \tmop{will} \tmop{be}
     \tmop{double} \tmop{her} \tmop{daughter`s} \tmop{age}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Age problems have several steps to them. If we take the time to work
-through each of the steps carefully, however, keeping the information organized, the problems can be solved quite nicely.\pp
+through each of the steps carefully, however, keeping the information organized, the problems can be solved quite nicely.
 </p>
-  
+
 <p>
 {\tmstrong{World View Note:}} The oldest man in the world was Shigechiyo Izumi from Japan who lived to be 120 years, 237 days. His exact age, however, has been disputed.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Distance, Rate and Time</title>
+<objectives>
 <p>
-\pp
+Solve distance problems by creating and solving a linear
+equation.
 </p>
-  
-<p>
-{\tmstrong{Objective: Solve distance problems by creating and solving a linear
-equation. }}\pp
-</p>
-  
+</objectives>
 <p>
 An application of linear equations can be found in distance problems. When
 solving distance problems we will use the relationship <m>r t = d</m> or rate
@@ -852,9 +824,7 @@ or <m>(30) (4) = 120</m>. This person would travel a distance of 120 miles. The 
 we will be solving here will require a few more steps than described above. So to
 keep the information in the problem organized we will use a table. The basic structure of the table is shown below.
 </p>
-  
 <me>
-
   \begin{array}{|c|c|c|c|}
     \hline
     \amp  \mbox{Rate}  \amp  \mbox{Time}  \amp  \mbox{Distance} \\
@@ -863,24 +833,24 @@ keep the information in the problem organized we will use a table. The basic str
     \hline
     \mbox{Person~2}  \amp   \amp   \amp  \\
     \hline
-\end{array}  
+\end{array}
 </me>
-  {Structure of Distance Problem}  
+{Structure of Distance Problem}
 <p>
 The third column, `distance', will always be filled in by multiplying the `rate'
 and `time' columns together. If we are given a total distance of both persons or
 trips we will put this information below the distance column. We will now use
 this table to set up and solve the following example.
 </p>
-  
-<example xml:id="Lin86"><statement>
+<example xml:id="Lin86">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Two joggers start from opposite ends of an 8 mile course running towards
+Two joggers start from opposite ends of an 8 mile course running towards
 each other. One jogger is running at a rate of 4 mph, and the other is
 running at a rate of 6 mph. After how long will the joggers meet?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -890,10 +860,10 @@ running at a rate of 6 mph. After how long will the joggers meet?
       \hline
 \end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}\tmop{The} \tmop{basic} \tmop{table} \tmop{for} \tmop{the} \tmop{joggers},\\ \tmop{Jogger~1} \tmop{and} \tmop{Jogger~2}.
 \end{array}</mrow>
- 
 </md>
   
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -906,8 +876,8 @@ running at a rate of 6 mph. After how long will the joggers meet?
       \tmop{each} \tmop{jogger}.\\
       \tmop{These} \tmop{are} \tmop{added} \tmop{to} \tmop{the} \tmop{table}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -918,8 +888,8 @@ running at a rate of 6 mph. After how long will the joggers meet?
 \end{array}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{We} \tmop{only} \tmop{know} \tmop{they} \tmop{both} \tmop{start}\tmop{~and} \tmop{end} \tmop{at} \tmop{the} \tmop{same} \tmop{time}. \tmop{We} \tmop{use} \tmop{the} \tmop{variable} <m>t</m> \tmop{for} \tmop{both} \tmop{times}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -931,35 +901,34 @@ running at a rate of 6 mph. After how long will the joggers meet?
       \tmop{The} \tmop{distance} \tmop{column} \tmop{is} \tmop{filled}
       \tmop{in} \tmop{by} \tmop{multiplying} \tmop{rate} \tmop{by} \tmop{time}.
 \end{array}</mrow>
- <mrow>\tmmathbf{8}~~~~~~  \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  \tmmathbf{8}  \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{We} \tmop{have} \tmmathbf{\tmop{total} \tmop{distance}},\\
 			8 \tmop{miles}, \tmop{under} \tmop{distance}.
 \end{array}</mrow>
- <mrow>4 t + 6 t = 8~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  4 t + 6 t = 8~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Add~the~entries~in~the~distance} \tmop{column~and~set~equal~to~total~distance}.
 \end{array}</mrow>
- <mrow>10 t = 8~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  10 t = 8~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Combine} \tmop{like} \tmop{terms}, <m>4t + 6t</m>.
 \end{array}</mrow>
- <mrow>\tmmathbf{\overline{10} ~~~ \overline{10}} \amp   \amp  \tmop{~Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{10} ~~~ \overline{10}} \amp   \amp  \tmop{~Divide} \tmop{both}
     \tmop{sides} \tmop{by} 10.</mrow>
- <mrow>t = \frac{4}{5} \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} t</mrow>
- 
+  <mrow>  t = \frac{4}{5} \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} t</mrow>
 </md>
-  The joggers will meet at <m>\frac{4}{5}</m> hour, or <m>48</m> minutes. </statement>
+  The joggers will meet at <m>\frac{4}{5}</m> hour, or <m>48</m> minutes.
+</statement>
 </example>
-  
 <p>
 As the example illustrates, once the table is filled in, the resulting equation is very easy to solve. This same process can be seen in the following example.
 </p>
-  
-<example xml:id="Lin87"><statement>
+<example xml:id="Lin87">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Bob and Fred start from the same point and walk in opposite directions. Bob walks 2 miles per hour faster than Fred. After 3 hours they are 30 miles
+Bob and Fred start from the same point and walk in opposite directions. Bob walks 2 miles per hour faster than Fred. After 3 hours they are 30 miles
 apart. How fast did each walk?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -972,10 +941,10 @@ apart. How fast did each walk?
       \tmop{times} \tmop{filled} \tmop{in}.\\
 			\tmop{Both} \tmop{traveled} 3 \tmop{hours}.
 \end{array}</mrow>
- 
 </md>
   
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -987,8 +956,8 @@ apart. How fast did each walk?
       \tmop{Bob} \tmop{walks} 2 \tmop{mph} \tmop{faster} \tmop{than} \tmop{Fred}. \tmop{We} \tmop{know} \tmop{nothing} \tmop{about} \tmop{Fred}, \tmop{so} \tmop{use} <m>r</m> \tmop{for} \tmop{his} \tmop{rate}.\\
       \tmop{Bob`s~rate} \tmop{is} <m>r~+</m> 2, \tmop{showing} 2 \tmop{mph} \tmop{faster}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1001,20 +970,20 @@ apart. How fast did each walk?
       \tmop{by} \tmop{multiplying} \tmop{rate} \tmop{by} \tmop{time}.\\
 			\tmop{Be} \tmop{sure} \tmop{to} \tmop{distribute} \tmop{the}\\3 (<m>r~+</m> 2) \tmop{for} \tmop{Bob}.
 \end{array}</mrow>
- <mrow>\tmmathbf{30}~~~~~  \amp   \amp   \tmmathbf{\tmop{Total} \tmop{distance}} \tmop{is} \tmop{put} \tmop{under} \tmop{distance}.</mrow>
- <mrow>3 r + 6 + 3 r = 30~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  \tmmathbf{30}  \amp   \amp   \tmmathbf{\tmop{Total} \tmop{distance}} \tmop{is} \tmop{put} \tmop{under} \tmop{distance}.</mrow>
+  <mrow>  3 r + 6 + 3 r = 30~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Add~the~entries~in~the~distance} \tmop{column~and~set~equal~to~total~distance}.
 \end{array}</mrow>
- <mrow>6 r + 6 = 30~ \amp   \amp  \tmop{~Combine} \tmop{like} \tmop{terms}, 3 r + 3 r.</mrow>
- <mrow>\tmmathbf{\underline{- 6 ~~- 6}} \amp   \amp  \tmop{~Subtract} 6 \tmop{from}
+  <mrow>  6 r + 6 = 30~ \amp   \amp  \tmop{~Combine} \tmop{like} \tmop{terms}, 3 r + 3 r.</mrow>
+  <mrow>  \tmmathbf{\underline{- 6 ~~- 6}} \amp   \amp  \tmop{~Subtract} 6 \tmop{from}
     \tmop{both} \tmop{sides}.</mrow>
- <mrow>6 r = 24~ \amp   \amp  \tmop{~The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  6 r = 24~ \amp   \amp  \tmop{~The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 6.</mrow>
- <mrow>\tmmathbf{\overline{6} ~~~~~ \overline{6}}~~ \amp   \amp  \tmop{~Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{6} ~~~~~ \overline{6}} \amp   \amp  \tmop{~Divide} \tmop{both}
     \tmop{sides} \tmop{by} 6.</mrow>
- <mrow>r = 4~ \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} r</mrow>
- <mrow>\amp  \amp </mrow>
- <mrow>\begin{array}{|c|c|}
+  <mrow>  r = 4~ \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} r</mrow>
+  <mrow>  \amp  \amp</mrow>
+  <mrow>  \begin{array}{|c|c|}
       \hline
       \amp  \tmop{Rate}\\
       \hline
@@ -1026,11 +995,9 @@ apart. How fast did each walk?
       \tmop{To} \tmop{answer} \tmop{the} \tmop{question} \tmop{completely} \tmop{we} \tmop{plug} 4 \tmop{in} \tmop{for} <m>r</m> \tmop{in} \tmop{the} \tmop{table}.\\
 			\tmop{Bob} \tmop{traveled} 6 \tmop{miles} \tmop{per} \tmop{hour} \tmop{and} \tmop{Fred} \tmop{traveled} 4 \tmop{mph}.
 \end{array}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
-  
 <p>
 Some problems will require us to do a bit of work before we can just fill in
 the cells. One example of this is if we are given a total time, rather than
@@ -1039,13 +1006,13 @@ total time we will write this above the time column, use <m>t</m> for the first
 person's time, and make a subtraction problem, (Total) <m>-~t</m>, for the
 second person's time. This is shown in the next example.
 </p>
-  
-<example xml:id="Lin88"><statement>
+<example xml:id="Lin88">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Two campers left their campsite by canoe and paddled downstream at an average speed of 12 mph. They turned around and paddled back upstream at an average rate of 4 mph. The total trip took 1 hour. After how much time did the campers turn around downstream?
+Two campers left their campsite by canoe and paddled downstream at an average speed of 12 mph. They turned around and paddled back upstream at an average rate of 4 mph. The total trip took 1 hour. After how much time did the campers turn around downstream?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1058,9 +1025,9 @@ second person's time. This is shown in the next example.
       \tmop{upstream}.\\
       \tmop{Given} \tmop{rates} \tmop{are} \tmop{filled} \tmop{in}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\tmmathbf{1}~~~~~~~~~~~~~~~~~~  \amp   \amp  \tmop{Total} \tmop{time} \tmop{is} \tmop{put} \tmop{above} \tmop{`time'} \tmop{column}.</mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \tmmathbf{1}  \amp   \amp  \tmop{Total} \tmop{time} \tmop{is} \tmop{put} \tmop{above} \tmop{`time'} \tmop{column}.</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1072,8 +1039,8 @@ second person's time. This is shown in the next example.
       \tmop{As} \tmop{we~only~} \tmop{have} \tmop{the} \tmop{total} \tmop{time}, \tmop{in} \tmop{the} \tmop{time} \tmop{down} \tmop{we} \tmop{have} <m>t</m>, \tmop{the} \tmop{time} \tmop{up} \tmop{becomes} \tmop{the}
       \tmop{difference}, \tmop{(total)} <m>-~t</m>.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1086,32 +1053,31 @@ second person's time. This is shown in the next example.
       \tmop{multiplying} \tmop{rate} \tmop{by} \tmop{time}.\\
 			\tmop{Be} \tmop{sure} \tmop{to} \tmop{distribute} 4 (1 <m>-~t</m>) \tmop{for} \tmop{upstream}.
 \end{array}</mrow>
- <mrow>12 t = 4 - 4 t~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  12 t = 4 - 4 t~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
 		\tmop{Since} \tmop{they} \tmop{cover} \tmop{the} \tmop{same} \tmop{distance}, \tmop{set} \tmop{values} \tmop{in} \tmop{last} \tmop{column} \tmop{equal} \tmop{to} \tmop{each} \tmop{other}.
 \end{array}</mrow>
- <mrow>\tmmathbf{\underline{+ 4 t ~~~~+ 4 t}}~ \amp   \amp  \begin{array}{p{0.425\textwidth}}\tmop{Add} <m>4t</m> \tmop{to} \tmop{both} \tmop{sides} \tmop{so} \tmop{variable} \tmop{is} \tmop{only} \tmop{on} \tmop{one} \tmop{side}.
+  <mrow>  \tmmathbf{\underline{+ 4 t ~~~~+ 4 t}} \amp   \amp  \begin{array}{p{0.425\textwidth}}\tmop{Add} <m>4t</m> \tmop{to} \tmop{both} \tmop{sides} \tmop{so} \tmop{variable} \tmop{is} \tmop{only} \tmop{on} \tmop{one} \tmop{side}.
 \end{array}</mrow>
- <mrow>16 t = 4~ \amp   \amp  \tmop{~Variable} \tmop{is} \tmop{multiplied} \tmop{by} 16.</mrow>
- <mrow>\tmmathbf{\overline{16} ~~~~ \overline{16}} \amp   \amp  \tmop{~Divide} \tmop{both}
+  <mrow>  16 t = 4~ \amp   \amp  \tmop{~Variable} \tmop{is} \tmop{multiplied} \tmop{by} 16.</mrow>
+  <mrow>  \tmmathbf{\overline{16} ~~~~ \overline{16}} \amp   \amp  \tmop{~Divide} \tmop{both}
     \tmop{sides} \tmop{by} 16.</mrow>
- <mrow>t = \frac{1}{4}~ \amp   \amp  \tmop{~Our} \tmop{solution}</mrow>
- 
+  <mrow>  t = \frac{1}{4} \amp   \amp  \tmop{~Our} \tmop{solution}</mrow>
 </md>
-  The campers turned around after <m>\frac{1}{4}</m> hour, or 15 minutes. </statement>
+  The campers turned around after <m>\frac{1}{4}</m> hour, or 15 minutes.
+</statement>
 </example>
-  
 <p>
 Another type of a distance problem is that where one person catches up with another. Here a slower person has a head start and the faster person is trying to catch up with him or her. We want to know how long it
 will take for this to happen. Our strategy for this problem will be to
 use <m>t</m> for the faster person's time, and add the amount of time for the head start to obtain the slower person's time. This is shown in the next example.
 </p>
-  
-<example xml:id="Lin89"><statement>
+<example xml:id="Lin89">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> Mike leaves his house traveling 2 miles per hour. Joy leaves 6 hours later to catch up with him, traveling 8 miles per hour. How long will it take her to catch up with him?
+Mike leaves his house traveling 2 miles per hour. Joy leaves 6 hours later to catch up with him, traveling 8 miles per hour. How long will it take her to catch up with him?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1123,8 +1089,8 @@ use <m>t</m> for the faster person's time, and add the amount of time for the he
       \tmop{Basic} \tmop{table} \tmop{for} \tmop{Mike} \tmop{and} \tmop{Joy}.\\
       \tmop{The} \tmop{given} \tmop{rates} \tmop{are} \tmop{filled} \tmop{in}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1137,8 +1103,8 @@ use <m>t</m> for the faster person's time, and add the amount of time for the he
       \tmop{Mike`s} \tmop{time} \tmop{is} <m>t~+</m> 6, \tmop{showing} \tmop{his} 6
       \tmop{hour} \tmop{head} \tmop{start}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1152,42 +1118,41 @@ use <m>t</m> for the faster person's time, and add the amount of time for the he
 			\tmop{Be} \tmop{sure} \tmop{to} \tmop{distribute} \tmop{the}\\
 			2 (<m>t~+</m> 6) \tmop{for} \tmop{Mike}.\\
 \end{array}</mrow>
- <mrow>2 t + 12 = 8 t~~~ \amp   \amp   \begin{array}{p{0.425\textwidth}}
+  <mrow>  2 t + 12 = 8 t~~~ \amp   \amp   \begin{array}{p{0.425\textwidth}}
 		\tmop{Since} \tmop{they} \tmop{cover} \tmop{the} \tmop{same} \tmop{distance}, \tmop{set} \tmop{values} \tmop{in} \tmop{last} \tmop{column} \tmop{equal} \tmop{to} \tmop{each} \tmop{other}.
 \end{array}</mrow>
- <mrow>\tmmathbf{\underline{- 2 t ~~~~~~~~- 2 t}} \amp   \amp  \tmop{~Subtract} 2 t \tmop{from}
+  <mrow>  \tmmathbf{\underline{- 2 t ~~~~~~~~- 2 t}} \amp   \amp  \tmop{~Subtract} 2 t \tmop{from}
     \tmop{both} \tmop{sides}.</mrow>
- <mrow>12 = 6 t~~~ \amp   \amp  \tmop{~The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  12 = 6 t~~~ \amp   \amp  \tmop{~The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 6.</mrow>
- <mrow>\tmmathbf{\overline{6} ~~~~~ \overline{6}}~~~ \amp   \amp  \tmop{~Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{6} ~~~~~ \overline{6}} \amp   \amp  \tmop{~Divide} \tmop{both}
     \tmop{sides} \tmop{by} 6.</mrow>
- <mrow>2 = t~~~ \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} t</mrow>
- 
+  <mrow>  2 = t~~~ \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} t</mrow>
 </md>
-  Joy catches Mike after 2 hours. </statement>
+  Joy catches Mike after 2 hours.
+</statement>
 </example>
-  
 <p>
 {\tmstrong{World View Note:}} The 10,000 (or 10k) race is the longest standard track
 event. 10,000 meters is approximately 6.2 miles. The current (at the time of
 printing) world record for this race is held by Ethiopian Kenenisa Bekele with
-a time of 26 minutes, 17.53 seconds. That is a rate of 12.7 miles per hour!\pp
+a time of 26 minutes, 17.53 seconds. That is a rate of 12.7 miles per hour!
 </p>
-  
+
 <p>
 As these example have shown, using a table can help keep all the given
 information organized, and consequently help find the equation we
 must solve. One final example illustrates this.
 </p>
-  
-<example xml:id="Lin90"><statement>
+<example xml:id="Lin90">
+<statement>
 <p>
-<nbsp /><nbsp /><nbsp /><nbsp /><nbsp /> On a 130 mile trip a car traveled at an average speed of 55 mph and then
+On a 130 mile trip a car traveled at an average speed of 55 mph and then
 reduced its speed to 40 mph for the remainder of the trip. The trip took 2.5
 hours. How long did the car travel at 40 mph?
 </p>
-  
-<md><mrow>\begin{array}{|c|c|c|c|}
+<md>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1200,13 +1165,13 @@ hours. How long did the car travel at 40 mph?
       \tmop{speeds}.\\
       \tmop{The} \tmop{given} \tmop{rates} \tmop{are} \tmop{filled} \tmop{in}.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>\amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  \amp   \amp  \begin{array}{p{0.425\textwidth}}
 		\tmmathbf{\tmop{Total} \tmop{time}} \tmop{is} \tmop{put}
     \tmop{above} \tmop{the}\\ \tmop{`Time'} \tmop{column}.
 \end{array}</mrow>
- <mrow>\tmmathbf{2.5}~~~~~~~~~~~~~~~~~~~~~  \amp  \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \tmmathbf{2.5}  \amp  \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1219,9 +1184,9 @@ hours. How long did the car travel at 40 mph?
       \tmop{The} \tmop{other} \tmop{time} \tmop{is} \tmop{the}
       \tmop{difference} 2.5 <m>-~t</m>.
 \end{array}</mrow>
- <mrow>\amp   \amp </mrow>
- <mrow>2.5~~~~~~~~~~~~~~~~~~~~~ \amp   \amp </mrow>
- <mrow>\begin{array}{|c|c|c|c|}
+  <mrow>  \amp   \amp</mrow>
+  <mrow>  2.5~~~~~~~~~~~~~~~~~~~~~ \amp   \amp</mrow>
+  <mrow>  \begin{array}{|c|c|c|c|}
       \hline
       \amp  \tmop{Rate} \amp  \tmop{Time} \amp  \tmop{Distance}\\
       \hline
@@ -1233,22 +1198,22 @@ hours. How long did the car travel at 40 mph?
       \tmop{Distance} \tmop{column} \tmop{is} \tmop{found} \tmop{by}
       \tmop{multiplying} \tmop{rate} \tmop{by} \tmop{time}. \tmop{Be} \tmop{sure} \tmop{to} \tmop{distribute} 40 (2.5 <m>-~t</m>).
 \end{array}</mrow>
- <mrow>\tmmathbf{130}~~~~~  \amp   \amp   \begin{array}{p{0.425\textwidth}}
+  <mrow>  \tmmathbf{130}  \amp   \amp   \begin{array}{p{0.425\textwidth}}
 		\tmmathbf{\tmop{Total} \tmop{distance}} \tmop{is} \tmop{put} \tmop{under} \tmop{`Distance'} \tmop{column}.
 \end{array}</mrow>
- <mrow>55 t + 100 - 40 t = 130~~~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
+  <mrow>  55 t + 100 - 40 t = 130~~~ \amp   \amp  \begin{array}{p{0.425\textwidth}}
       \tmop{Add~the~entries~in~the~distance} \tmop{column~and~set~equal} \tmop{to~total~distance}.
 \end{array}</mrow>
- <mrow>15 t + 100 = 130~~~ \amp   \amp  \tmop{~Combine} \tmop{like} \tmop{terms} 55 t - 40
+  <mrow>  15 t + 100 = 130~~~ \amp   \amp  \tmop{~Combine} \tmop{like} \tmop{terms} 55 t - 40
     t.</mrow>
- <mrow>\tmmathbf{\underline{- 100 ~~- 100}} \amp   \amp  \tmop{~Subtract} 100 \tmop{from}
+  <mrow>  \tmmathbf{\underline{- 100 ~~- 100}} \amp   \amp  \tmop{~Subtract} 100 \tmop{from}
     \tmop{both} \tmop{sides}.</mrow>
- <mrow>15 t = 30~~~ \amp   \amp  \tmop{~The} \tmop{variable} \tmop{is} \tmop{multiplied}
+  <mrow>  15 t = 30~~~ \amp   \amp  \tmop{~The} \tmop{variable} \tmop{is} \tmop{multiplied}
     \tmop{by} 30.</mrow>
- <mrow>\tmmathbf{\overline{15} ~~~~ \overline{15}}~~~ \amp   \amp  \tmop{~Divide} \tmop{both}
+  <mrow>  \tmmathbf{\overline{15} ~~~~ \overline{15}} \amp   \amp  \tmop{~Divide} \tmop{both}
     \tmop{sides} \tmop{by} 15.</mrow>
- <mrow>t = 2~~~ \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} t</mrow>
- <mrow>\begin{array}{|c|c|}
+  <mrow>  t = 2~~~ \amp   \amp  \tmop{~Our} \tmop{solution} \tmop{for} t</mrow>
+  <mrow>  \begin{array}{|c|c|}
       \hline
       \amp  \tmop{Time}\\
       \hline
@@ -1262,8 +1227,9 @@ hours. How long did the car travel at 40 mph?
       \tmop{The} \tmop{car} \tmop{traveled} 40 \tmop{mph} \tmop{for} 0.5
       \tmop{hours} (30 \tmop{minutes}).
 \end{array}</mrow>
- 
 </md>
- </statement>
+</statement>
 </example>
- </subsection> </section>
+</subsection>
+
+</section>

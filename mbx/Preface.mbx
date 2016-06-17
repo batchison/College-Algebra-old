@@ -1,0 +1,87 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude"  xml:id="Preface">
+<title>Preface</title>
+<b>About the Text</b>
+<p>
+This text has been specifically structured with the MATH123 College Algebra student in mind. It is the result of a collaboration of several full and part-time faculty members at both Framingham State University and Framingham High School and has been made possible through a grant provided by the Educational Technology Office's Teaching with Technology Program at Framingham State University during the Spring of 2015. Specific details surrounding this Teaching with Technology grant application and anticipated outcomes may be obtained by emailing { batchison@framingham.edu}.
+ The majority of the content has been either taken verbatim or adapted from those <em>open educational resources</em> (OER) that have been generously provided by their respective authors and institutions via a Creative Commons license. Separate sections have been created only when no acceptable available resource could be located. A detailed list of each utilized resource can be found later on in this introduction. The collaborators are extremely grateful and appreciative to all OER authoring individuals and institutions for the contributions that have been utilized by this text and which are freely accessible to the greater academic community.
+</p>
+<b>Additional Resources and Recommended Use</b>
+<p>
+Additional areas of focus for the Teaching with Technology grant include:
+</p>
+
+<ul>
+<li>creation of concept summary and homework handouts.</li>
+<li>creation of an online repository for new and existing concept tutorial videos.</li>
+<li>utilization of the free online homework website www.myopenmath.org and graphing utility found at www.desmos.com.</li>
+</ul>
+
+<p>
+By including access to these additional course enhancements, instructors may utilize this text as a secondary resource to their own course lecture notes and handouts, if they so choose. Students are strongly urged to take advantage of <em>all</em> course inclusions made available to them. This text should prove most useful as a resource, when additional explanations, examples and/or practice problems are desired.
+</p>
+<b>A Note to the Student</b>
+<p>
+Like any such undertaking, especially in its initial phase, the project's collaborators apologize for any unforeseen errors or formatting issues, and greatly appreciate the user's understanding with regards to such issues. As this text is very much a work-in-progress, any feedback on how it can be improved is very much appreciated and will be carefully considered.
+<b>Students wishing to provide feedback may either do so through their course instructor or by emailing { batchison@framingham.edu}.</b>
+</p>
+<b>Project Collaborators and Supporters</b> (as of August 2015)
+<p>
+The following individuals have contributed in a variety of ways, including: consulting, content creation and instruction and assessment.
+</p>
+
+<ul>
+<li>Benjamin Atchison, Assistant Professor, Framingham State University<br /><b>Lead Instructor</b> - Spring 2016</li>
+<li>Jeffrey Barden, Instructor, Framingham State University and Wentworth College</li>
+<li>Karen Dawe, Teacher and Instructor (College Tomorrow Summer Program), Framingham High School and Framingham State University</li>
+<li>Mark Morabito, Teacher and Instructor, Framingham High School and Framingham State University<br /><b>Lead Instructor</b> - Fall 2015, Spring 2016</li>
+</ul>
+
+<p>
+Additional support provided through the Framingham State University Educational Technology Office (ETO) and Whittemore Library, specifically:
+</p>
+
+<ul>
+<li>Stacy Cohen</li>
+<li>Millie Gonzalez</li>
+<li>Justin Lauzon</li>
+<li>Robin Robinson, ETO Director</li>
+</ul>
+<b>Copyright</b>
+<p>
+\doclicenseThis
+</p>
+<b>List of Utilized OERs</b>
+<p>
+The following is a list of open educational resources whose content has been taken verbatim or, in most instances, adapted for the purposes of the creation of this text. Permission has been granted by the authors. The resource location and Creative Commons licensing has been included at the end of each item.
+</p>
+
+<ul>
+<li class="custom-list-style-type" label="\textbf{SZ}" ><em>College Algebra</em>.  Stitz, Carl and Zeager, Jeff.  Third (corrected) Edition.  2013. http://www.stitz-zeager.com.  CC-BY-NC-SA.</li>
+<li class="custom-list-style-type" label="\textbf{W}" ><em>Beginning and Intermediate Algebra</em>.  Wallace, Tyler.  2010.<br />
+	http://www.wallace.ccfaculty.org/book/book.html. CC-BY.</li>
+</ul>
+
+<p>
+A more detailed itemization of this textbook's sections and corresponding attributed works will be included in a future edition of the text, and can be made available upon request.
+</p>
+<b>Text Update - <q>To Do</q> List</b>
+<p>
+As of , the following chapters/sections have yet to be included in this version of the text.
+</p>
+
+<ul>
+<li>Applications of Quadratic Equations (Chapter 3)</li>
+<li>Inverse Functions (Chapter 4)</li>
+<li>Applications of Functions (Chapter 4)</li>
+<li>Sign Diagrams for Polynomials (Chapter 5)</li>
+<li>Rational Functions (Chapter 6)</li>
+</ul>
+
+<p>
+The sections in Chapter 4 on Domain and Range and Transformations of Functions are also only partially completed at this time, since many of the graphs in these sections have been left for the reader to create directly in the text. Additionally, plans to further enhance existing sections of the text with more content and advanced examples are also ongoing. Answers to selected practice problems will also be included in the Fall 2016 version of the text.
+</p>
+
+<p>
+\mainmatter
+</p>
+</chapter>
