@@ -5,7 +5,7 @@
 <introduction>
 <p>
 \mfpicnumber{1}
-&#xf8;pengraphsfile{2_Systems}
+\opengraphsfile{2_Systems}
 </p>
 </introduction>
 <xi:include  href="section2-1.mbx" />

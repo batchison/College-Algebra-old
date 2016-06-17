@@ -5,7 +5,7 @@
 <introduction>
 <p>
 \mfpicnumber{1}
-&#xf8;pengraphsfile{3_Quadratics}
+\opengraphsfile{3_Quadratics}
 </p>
 </introduction>
 <xi:include  href="section3-1.mbx" />
