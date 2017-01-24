@@ -1,0 +1,291 @@
+\subsection{End Behavior}
+{\tmstrong{Objective: Determine the end behavior of polynomial functions for graphing purposes.}}\pp
+Now that we have learned how to classify polynomials, we are ready to see how the leading term (the leading coefficient and degree) will affect the graph. %/MM
+Below are the graphs of $y=x^2$, $y=x^4$ and $y=x^6$, side-by-side.  We have omitted the axes to allow you to see that as the exponent increases, the `bottom' becomes `flatter' and the `sides' become `steeper'.
+\begin{center}
+\begin{tabular}{ccc}
+
+\begin{mfpic}[10][5]{-3.0}{3.0}{-1}{10}
+\arrow \reverse \arrow \function{-3,3,0.1}{x**2}
+\tcaption{$y=x^2$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-1}{10}
+\arrow \reverse \arrow \function{-1.7783,1.7783,0.1}{x**4}
+\tcaption{$y=x^4$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-1}{10}
+\arrow \reverse \arrow \function{-1.4678,1.4678,0.1}{x**6}
+\tcaption{$y=x^6$}
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+
+All of these functions are \textit{even}, since $f(x)=-f(x)$, and consequently, their graphs are symmetric about the $y-$axis.  It is no coincidence that each of their degrees are even. The symmetry of these graphs is important, but we want to explore a different, yet equally important feature of these functions which can be seen graphically -- their \index{polynomial function ! end behavior}\index{end behavior ! of a function graph}\textbf{end behavior}.\pp
+The end behavior of a function identifies what is happening to the function's values (the $y$-values) as the $x$-values approach the extreme left (written $x \rightarrow -\infty$) and the extreme right (written $x \rightarrow \infty$) of the $x-$axis.\pp
+
+For example, given $f(x) = x^2$, as $x \rightarrow -\infty$, we imagine substituting\\
+$x=-100$, $x=-1000$, etc., into $f$ to get $f(-100)=10000$,
+$f(-1000)=1000000$, and so on. Thus, the function's values are becoming larger and larger positive numbers (without bound).  To describe this behavior, we write the following.
+\begin{center}
+As $x \rightarrow -\infty$, $f(x) \rightarrow \infty$.
+\end{center}
+If we study the behavior of $f$ as $x$ gets large in the positive direction, we obtain the following result. 
+\begin{center}
+As $x \rightarrow \infty$, $f(x) \rightarrow \infty$.
+\end{center}
+Each of the three equations above produce graphs that are also concave up, all with even degree, and consequently exhibit the same end-behavior.\pp 
+
+Below are the graphs of $y=-x^2$, $y=-x^4$ and $y=-x^6$, side-by-side.  Each of these graphs is a reflection of the previous three graphs, respectively, over the $x-$axis.  Hence, each graph is concave down, with end behavior described below.
+\begin{center}
+\begin{tabular}{ccc}
+
+
+\begin{mfpic}[10][5]{-3.0}{3.0}{-1}{10}
+\arrow \reverse \arrow \function{-3,3,0.1}{0-(x**2)+10}
+\tcaption{$y=-x^2$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-1}{10}
+\arrow \reverse \arrow \function{-1.7783,1.7783,0.1}{0-(x**4)+10}
+\tcaption{$y=-x^4$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-1}{10}
+\arrow \reverse \arrow \function{-1.4678,1.4678,0.1}{0-(x**6)+10}
+\tcaption{$y=-x^6$}
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+
+\begin{center}
+As $x \rightarrow -\infty$, $f(x) \rightarrow -\infty$.\\
+As $x \rightarrow \infty$, $f(x) \rightarrow -\infty$.
+\end{center}
+Remember that when determining the end behavior for these three functions, our last operation is multiplication by -1, since we have $-x^2$~and not $(-x)^2$, for example.  This will always produce a negative value as $x\rightarrow \pm\infty$. \pp
+ 
+The following table summarizes our findings for the end behavior of a power function having a degree of $n$, where $n$ represents a positive even integer.\\
+
+\centerline{ \textbf{End Behavior of $f(x) = ax^{n}$, where $n>0$ is even.}}
+
+\smallskip
+
+Suppose $f(x) = a x^{n}$ where $a \neq 0$ is a real number and $n$, the degree, is an even integer.  The end behavior of the graph of $y=f(x)$ matches one of the following. \index{end behavior ! of $f(x) = ax^{n}, n$ even}
+
+\begin{itemize}
+
+\item  For $a > 0$, as $x \rightarrow -\infty$, $f(x) \rightarrow \infty$ and as $x \rightarrow \infty$, $f(x) \rightarrow \infty$
+
+\item  For $a < 0$, as $x \rightarrow -\infty$, $f(x) \rightarrow -\infty$ and as $x \rightarrow \infty$, $f(x) \rightarrow -\infty$
+
+\end{itemize}
+
+Graphically:
+
+\begin{tabular}{m{1.5in}m{1.5in}m{1.5in}}
+
+&
+
+\begin{mfpic}[5]{-5}{5}{-1}{5}
+\arrow \reverse \function{-5,-3, 0.1}{(x**2)/5}
+\dotted \function{-3,3, 0.1}{(x**2)/5}
+\arrow \function{3,5, 0.1}{(x**2)/5}
+\tcaption{$a>0$}
+\end{mfpic}
+
+&
+
+\begin{mfpic}[5]{-5}{5}{-5}{1}
+\arrow \reverse \function{-5,-3, 0.1}{(0-(x**2))/5} 
+\dotted \function{-3,3, 0.1}{-(x**2)/5}
+\arrow \function{3,5, 0.1}{(0-(x**2))/5} 
+\tcaption{$a<0$}
+\end{mfpic} 
+
+\end{tabular}
+
+\vspace{-.2in}
+
+\smallskip
+It is important to note that what we have discussed thus far only pertains to the \textit{end} behavior (or `tails') of the graph of a particular function, and does not relate to identifying what happens in its interior, which we will refer to as its \textit{local} behavior.  The local behavior of a polynomial function is tied closely to its zeros, and will be discussed shortly.\pp
+We now turn our attention to functions of the form $f(x) = x^{n}$, where $n \geq 3$ is an odd integer.
+We omit the function $f(x)=x$, having degree 1 because it is just the linear identity function (whose graph splits the first and third quadrants) and has already been covered extensively.\pp
+Below we have graphed $y=x^3$, $y=x^5$, and $y=x^7$.    The `flattening' and `steepening' that we saw with the even-powered examples before presents itself here as well, but all of these equations are of odd-degree.  Recall that each of these functions is \textit{odd}, and their graphs are symmetric about the origin.
+
+\begin{center}
+
+\begin{tabular}{ccc}
+
+\begin{mfpic}[10][5]{-2}{2}{-5}{5}
+\arrow \reverse \arrow \function{-1.700,1.700,0.1}{x**3}
+\tcaption{$y=x^3$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-5}{5}
+\arrow \reverse \arrow \function{-1.3800,1.3800,0.1}{x**5}
+\tcaption{$y=x^5$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-5}{5}
+\arrow \reverse \arrow \function{-1.2585,1.2585,0.1}{x**7}
+\tcaption{$y=x^7$}
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+Determining the end behavior is addressed in the same manner as before, which can be confirmed by looking at the graphs.
+\begin{center}
+As $x \rightarrow -\infty$, $f(x) \rightarrow -\infty$.\\
+As $x \rightarrow \infty$, $f(x) \rightarrow \infty$.
+\end{center}
+
+
+Below we have shown $y=-x^3$, $y=-x^5$, and $y=-x^7$, whose graphs are simply reflections of the previous three graphs over the $x-$axis.
+
+\begin{center}
+
+\begin{tabular}{ccc}
+
+\begin{mfpic}[10][5]{-2}{2}{-5}{5}
+\arrow \reverse \arrow \function{-1.700,1.700,0.1}{0-(x**3)}
+\tcaption{$y=-x^3$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-5}{5}
+\arrow \reverse \arrow \function{-1.3800,1.3800,0.1}{0-(x**5)}
+\tcaption{$y=-x^5$}
+\end{mfpic}
+
+\hspace{1in} &
+
+\begin{mfpic}[10][5]{-2}{2}{-5}{5}
+\arrow \reverse \arrow \function{-1.2585,1.2585,0.1}{0-(x**7)}
+\tcaption{$y=-x^7$}
+\end{mfpic}
+
+\end{tabular}
+\end{center}
+
+The end behavior is given below.
+\begin{center}
+As $x \rightarrow -\infty$, $f(x) \rightarrow \infty$.\\
+As $x \rightarrow \infty$, $f(x) \rightarrow -\infty$.
+\end{center}
+
+As with power functions $f(x)=ax^n$ having a positive even degree $n$, we can also generalize the end behavior when $n$ is odd.  
+
+\smallskip
+
+\smallskip
+
+\centerline{ \textbf{End Behavior of $f(x) = ax^{n}$, where $n>0$ is odd.}}
+
+\smallskip
+
+Suppose $f(x) = a x^{n}$ where $a \neq 0$ is a real number and $n \geq 1$ is an odd integer.  The end behavior of the graph of $y=f(x)$ matches one of the following. \index{end behavior ! of $f(x) = ax^{n}, n$ odd}
+
+\begin{itemize}
+
+\item  For $a > 0$, as $x \rightarrow -\infty$, $f(x) \rightarrow -\infty$ and as $x \rightarrow \infty$, $f(x) \rightarrow \infty$
+
+\item  For $a < 0$, as $x \rightarrow -\infty$, $f(x) \rightarrow \infty$ and as $x \rightarrow \infty$, $f(x) \rightarrow -\infty$
+
+\end{itemize}
+
+Graphically:
+
+\medskip
+
+\begin{tabular}{m{1.5in}m{1.5in}m{1.5in}}
+
+&
+
+\begin{mfpic}[5]{-5}{5}{-1}{5}
+\arrow \reverse \function{-5,-3, 0.1}{0 - (x**2)/5}
+\dotted \function{-3,0, 0.1}{-(x**2)/5}
+\dotted \function{0,3, 0.1}{(x**2)/5}
+\arrow \function{3,5, 0.1}{(x**2)/5}
+\tcaption{$a>0$}
+\end{mfpic}
+
+&
+
+\begin{mfpic}[5]{-5}{5}{-1}{5}
+\arrow \reverse \function{-5,-3, 0.1}{(x**2)/5}
+\dotted \function{-3,0, 0.1}{(x**2)/5}
+\dotted \function{0,3, 0.1}{-(x**2)/5}
+\arrow \function{3,5, 0.1}{0 - (x**2)/5}
+\tcaption{$a<0$}
+\end{mfpic}
+
+\end{tabular}
+
+\vspace{-.2in}
+
+\smallskip
+
+As an immediate consequence of what we have just established, we can identify the end behavior of any polynomial function $$f(x) = a_{n} x^{n} + a_{n-\mbox{\tiny$1$}} x^{n-\mbox{\tiny$1$}} + \ldots + a_{\mbox{\tiny $2$}} x^{\mbox{\tiny $2$}} + a_{\mbox{\tiny $1$}} x + a_{\mbox{\tiny $0$}},$$ where $a_{n} \neq 0$, with the end behavior of the related power function\\ $g(x) = a_{n} x^{n}$.  The following example demonstrates this connection.
+
+\medskip
+\begin{example}~~~Determine the end behavior of $f(x) = 4x^3 - x + 5$.\pp
+To determine the end behavior of $f$, it will help us to write it in the following form.
+$$f(x) = 4x^3 \left( 1 - \dfrac{1}{4x^2} + \dfrac{5}{4x^3}\right)$$
+Since we are only concerned with large positive and negative values of $x$ ($x \rightarrow \pm \infty$), by using this form for $f$, we can see that as $x$ becomes unbounded (in either direction), the terms $\dfrac{1}{4x^2}$~and $\dfrac{5}{4x^3}$~ become smaller and smaller (approach $0$).  The table below confirms this.
+\[ \begin{array}{|r||r|r|}  
+
+\hline 
+
+ x & \frac{1}{4x^2} & \frac{5}{4x^3} \vphantom{\dfrac{a}{a}} \\ [2pt] \hline
+-1000  & 0.00000025 & -0.00000000125 \\  \hline
+-100  & 0.000025 & -0.00000125 \\  \hline
+-10 & 0.0025 & -0.00125 \\  \hline\hline
+10  & 0.0025 & 0.00125 \\  \hline
+100 & 0.000025 & 0.00000125 \\  \hline
+1000 & 0.00000025 & 0.00000000125 \\  \hline
+\end{array} \]
+
+\smallskip
+
+In other words, as $x \rightarrow \pm \infty$, $f(x) \approx 4x^3\left( 1 - 0 +0\right) = 4x^3$, which is the leading term of $f$.\pp
+
+Our final answer is summarized below.
+\begin{center}
+As $x \rightarrow -\infty$, $f(x) \rightarrow -\infty$.\\
+As $x \rightarrow \infty$, $f(x) \rightarrow \infty$.
+\end{center}
+\end{example}
+
+Below is another example to further cement the effect of the leading coefficient and degree of a polynomial on the end behavior of the graph of a polynomial.
+
+\begin{example}~~~Determine the end behavior of\\ $g(x) = -5x^4 +2x^3 -2x^2+4x-1$.\pp
+As in the previous example, we can rewrite $g(x)$ as follows.
+$$g(x) = -5x^4 \left( 1 - \dfrac{2}{5x} + \dfrac{2}{5x^2} - \dfrac{4}{5x^3} +\dfrac{1}{5x^4} \right)$$
+
+Again, as $x$ becomes unbounded (in either direction), the terms $- \dfrac{2}{5x}$,~$\dfrac{2}{5x^2}$,\\ $- \dfrac{4}{5x^3}$~and $\dfrac{1}{5x^4}$ will tend closer and closer to $0$, so we need only focus on the leading term.  Thus considering the power function $g(x)=-5x^4$. Since $g$ has an even degree and a negative leading coefficient, the end behavior for the graph of $f$ is as follows:
+\begin{center}
+As $x \rightarrow -\infty$, $f(x) \rightarrow -\infty$.\\
+As $x \rightarrow \infty$, $f(x) \rightarrow -\infty$.
+\end{center}
+\end{example}
+
+In general, as in each of the previous examples, when determining the end behavior of the graph of a polynomial, if we factor out the leading term, the polynomial will always become:
+$$f(x) = a_{n} x^{n} \left( 1 + \dfrac{a_{n-\mbox{\tiny$1$}}}{a_{n} x}+ \ldots + \dfrac{a_{\mbox{\tiny$2$}}}{a_{n} x^{n-2}} + \dfrac{a_{\mbox{\tiny$1$}}}{a_{n} x^{n-1}}+\dfrac{a_{\mbox{\tiny$0$}}}{a_{n} x^{n}}\right).$$
+So, as $x \rightarrow \pm \infty$, any term with an $x$ in the denominator will become smaller and smaller (approaches $0$), and we have $f(x) \approx a_{n} x^{n}$.\pp
+Geometrically, if we graph $y=f(x)$ using a graphing calculator, and continue to `zoom out', the graph of it and its leading term will become indistinguishable.  Next, we will address the \textit{local behavior} of a polynomial function, which unlike its end behavior, will distinguish a polynomial $f$ from its leading term.

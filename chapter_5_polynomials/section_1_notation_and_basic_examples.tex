@@ -1,0 +1,111 @@
+{\tmstrong{Objective: Understand component parts of a polynomial and classify polynomials by degree and number of terms.}}\pp
+
+Recall that a polynomial in terms of a variable $x$ is an equation (or function) of the form
+$$y = a_{n}x^{n} + a_{n-1}x^{n-1}+ ... + a_{2}x^2 + a_{1}x + a_{0},$$
+where each \textit{coefficient}, $a_{i}$, is a real number ($a_n\neq 0$) and the exponent, or \textit{degree} of the polynomial, $n$, is a nonnegative integer.\pp
+Examples of polynomials include: $y = x^2 + 5$, $y=x$ and $y = -3x^7+4x^3-5x$.  Before classifying polynomials, we will take a moment to establish some key terminology. For our general polynomial above, the
+\begin{center}
+\begin{tabular}{lcl}
+\textit{degree} & is & $n$\\
+\textit{coefficients} & are & $a_n,a_{n-1},\ldots,a_1,a_0$\\
+\textit{leading coefficient} & is & $a_n$\\
+\textit{leading term} & is & $a_nx^n$\\
+\textit{constant term} & is & $a_0x^0=a_0$.
+\end{tabular}
+\end{center}
+
+A concrete example will help to clarify each of these terms.
+
+\newpage
+
+\begin{example}~~~Identify the degree, leading coefficient, leading term and constant term for the given polynomial.
+$$y = -19x^5+4x^4-6x+21$$
+
+The degree of this polynomial is $n=5$, since five is the greatest exponent.\pp
+The leading term, which is the term that contains the greatest exponent (degree) is $a_nx^n=-19x^5$.\pp
+The leading coefficient is the real number being multiplied by $x$ in the leading term, namely $a_n=-19$.\pp
+The constant term is $a_0=21$, which also represents the $y-$intercept for the graph of the given polynomial, just as it did in the chapter on quadratics.\pp
+The complete list of coefficients for the given polynomial is
+$$a_5=-19,~ a_4=4,~ a_3=0,~ a_2=0,~ a_1=-6~ \text{~and~} a_0=21.$$
+\end{example}
+~\\
+It is important to point out the fact that the previous example contains no \textit{cubic} or \textit{quadratic} terms, since the respective coefficients are both zero.  This example demonstrates that not every polynomial will contain a nonzero coefficient for every term.  As another example, the \textit{power function} \mbox{$f(x)=x^{10}$} is also characterized as a polynomial having degree $n=10$, leading coefficient $a_{10}=1$, and trailing coefficients $a_i=0$ for $i=9,8,\ldots,1,0$.\pp
+Before we can identify and begin to classify a polynomial, we may need to simplify the given expression for $x$, by distributing and combining all like terms.  The general form of a polynomial should be reminiscent of the standard form of a quadratic, will possibly more terms.  Hence the name ``polynomial'', meaning ``many terms''.\pp
+The following example shows how to identify a polynomial after the necessary simplification has taken place.
+
+\newpage
+
+\begin{example}~~~Identify the degree, leading coefficient, leading term and constant term for the given polynomial function.
+
+\begin{eqnarray*}
+f(x) &=& 3(x+1)(x-1)+4x^3+2x+3\\
+& = & 3(x^2-1)+4x^3+2x+3\\
+& = & 3x^2-3+4x^3+2x+3\\
+& = & 4x^3+3x^2+2x
+\end{eqnarray*}
+
+Upon simplying, we see that $f$ has degree $n=3$, since three is the greatest exponent.\pp
+The leading term is $4x^3$ with a leading coefficient of $a_n=4$.\pp
+Since no constant term is listed, $a_0=0$ is our constant term.
+\end{example}
+
+Now that we can identify the essential components of a polynomial, we will categorize polynomials based upon their degree, as well as the number of terms, after all necessary simplification.
+
+\begin{center}
+\textbf{Types of Polynomials}\pp
+\begin{tabular}{ | c | c | c | } 
+\hline
+Degree & Type & Example \\ 
+\hline
+0 & Constant & $-1$ \\ 
+\hline
+1 & Linear & $2x+\sqrt{5}$ \\ 
+\hline
+2 & Quadratic & $5x^2 - 32x+2$ \\ 
+\hline
+3 & Cubic & $(-1/2)x^{3}$ \\ 
+\hline
+4 & Quartic & $-3x^{4} +2x^2+3x + 1$ \\ 
+\hline
+5  & Quintic & $-2x^5$ \\ 
+\hline
+6 or more  & $n^{\text{th}}$ Degree & $-2x^{7} + 52x^6 + 12$ \\ 
+\hline
+\end{tabular}
+\end{center}
+One point of note in the table above is the occurrence of both rational and irrational coefficients $\left(-1/2\text{~and~}\sqrt{5}\right)$.  The appearance of such coefficients is permissible in polynomials, since our coefficients $a_i$ are simply required to be real numbers.  A coefficient containing the imaginary number $i=\sqrt{-1}$, on the other hand, is not permitted.\
+\newpage
+\begin{center}
+\textbf{Polynomial Characterizations by Number of Nonzero Terms}\pp
+\begin{tabular}{ | c | c | c | } 
+\hline
+Number of Terms & Name & Example \\ 
+\hline
+1 & Monomial & $4x^5$ \\ 
+\hline
+2 & Binomial & $2x^3 +1$ \\ 
+\hline
+3 & Trinomial & $-23x^{18} +4x^2+3x$ \\ 
+\hline
+4 & Tetranomial & $-23x^{18} +4x^2+3x + 1$ \\ 
+\hline
+5 or more & Polynomial & $-2x^4 + x^3 +15x^2-41x + 12$ \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\begin{example}~~~Describe the type and characterization (number of terms) of the polynomial given below.
+$$y = -19x^5+4x^4-6x+21$$
+Polynomials are typically named by their degree first and then their number of terms.  The polynomial above is a \textit{quintic tetranomial}; quintic because it is degree five and tetranomial since it contains four terms.
+\end{example}
+
+\begin{example}~~~Describe the type and characterization (number of terms) of the polynomial given below.
+$$y = x^3+x^2$$
+The polynomial above is a \textit{cubic binomial}, since it has degree three and contains two terms. 
+\end{example}
+
+\begin{example}~~~Describe the type and characterization (number of terms) of the polynomial given below.
+$$y = 21x^4+12x^2-3x^2-9x^2-22x^4$$
+Upon simplifying, we see that the given polynomial reduces to $y=-x^4$.  As a result, our polynomial is a quartic (degree four) monomial (one term).
+\end{example}
+This section has ``set the table'' for the basic terminology that will be used throughout the chapter.  In the next section, we will review two additional factoring techniques which will be necessary for working with certain polynomials, and provide a brief summary of all factoring methods that have been discussed in this text.  Once we have finished our review of factoring, we will be ready to begin the natural (albeit lengthy) method of analyzing and graphing a polynomial function. 
