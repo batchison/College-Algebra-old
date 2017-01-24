@@ -1,0 +1,91 @@
+\subsection{Introduction to Sign Diagrams}\par
+
+In a later chapter we will define a \textit{function}, providing several examples of $y$ as a function of $x$, and discuss in detail the processes associated with graphing certain families of functions.  As both linears and quadratics (the next chapter) present the most basic examples of polynomials, we will take this opportunity to introduce a tool, called a sign diagram (or sign chart), that will be incredibly useful for graphing these and more complicated functions.  For the sake of the mathematics, it should be noted that the usefulness of the sign diagram for graphing is a direct consequence of the \textit{continuity} of a function and the \textit{Intermediate Value Theorem} (IVT).  The notion of continuity is one that will be studied more closely in subsequent courses (e.g. Calculus), and the IVT will be deferred to the later chapter on polynomials.%\pp
+
+\begin{example}\label{Lin97}~~~ Graph the linear equation $y=2x+3$.\pp
+Our graph will have a $y$-intercept at the point ($0,3$).  By setting $y=0$, we obtain an $x$-intercept at the point $(-3/2,0)$.  We then obtain the following graph by plotting these two intercepts and connecting them.
+\begin{center}
+\begin{mfpic}[20]{-2.5}{2.5}{-2.5}{4.5}
+\arrow\reverse\arrow\function{-2.5,0.5,0.1}{2*(x+1.5)}
+%\arrow\reverse\arrow\polyline{(0,3),(-1.5,0)}
+%\grid
+\xmarks{-2,-1,0,1,2}
+\ymarks{-2,-1,0,1,2,3,4}
+\tlabelsep{3pt}
+\axislabels x{{\small $-2$}-2,{\small $2$}2}
+\axislabels y{{\small $-2$}-2,{\small $2$}2,{\small $4$}4}
+\point[3pt]{(0,3),(-1.5,0)}
+%\penwd{0.1pt}
+%\gridlines{1,1}
+%\penwd{0.2pt}
+\axes
+\arrow[l 5pt]\polyline{(-2.4,0),(-2.5,0)}
+\arrow[l 5pt]\polyline{(0,-2.4),(0,-2.5)}
+\end{mfpic}
+\end{center}
+\end{example}
+
+When graphing any equation, it will be of particular interest to identify any $x$-intercepts on the graph.  Though this will sometimes prove a daunting and even impossible task, as we have seen, it is relatively straightforward when faced with a linear equation.  Recall that all lines which are not horizontal will have exactly one $x$-intercept.  Horizontal lines will either have no $x$-intercepts or, in the case of the horizontal line $y=0$, will have infinitely many $x$-intercepts.  Once we know the $x$-intercept of the graph of our linear equation, we can easily determine the sign ($+$ or $-$) of the $y$-coordinate for every point to the left or right of our $x$-intercept.  Since all lines are by their nature straight, this amounts to testing our equation, by plugging in a single \textit{test value} for each interval on either side of our $x$-intercept.\pp
+
+In the case of our example, though we are free to choose any real-numbered test values we would like, we will make the more common selections of $x=-2$ and $x=0$.  Note that $x=-1$ would have been a perfectly fine value instead of $x=0$, but it is often easier to plug $x=0$ into a function than any other value.  After plugging each test value into the equation, we determine the sign of the $y$-coordinate associated with $x=-2$ is negative ($-$), since $2(-2)+3<0$, and the sign of the $y$-coordinate associated with $x=0$ is positive ($+$), since $2(0)+3>0$.  Note that here we are \textbf{not} concerned with the actual values of the $y$-coordinates, just their respective signs.  This point will be reiterated as we encounter more complicated mathematical expressions.  The results of our calculations are presented on the real-number line shown below.
+
+\begin{example}\label{Lin98}~~~ Sign Diagram for $y=2x+3$.
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{0}
+\tlpointsep{4pt}
+\axislabels {x}{{$-\frac{3}{2}$} 0}
+\tlabel[cc](-4,1){$(-)$}
+\tlabel[cc](-4,-1.75){$x=-2$}
+%\tlabel[cc](0,1){$|$}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](4,1){$(+)$}
+\tlabel[cc](4,-1.75){$x=0$}
+\end{mfpic} 
+\end{center}
+\end{example} 
+
+Note that if constructed correctly, our sign diagram should be consistent with the graph of $y=2x+3$.  Specifically, a ($+$) corresponds to those points on the graph that sit \textit{above} the $x$-axis, and a ($-$) corresponds to those points that sit \textit{below} the $x$-axis.\pp
+
+We now will summarize the steps for constructing a sign diagram for a linear equation (or function) with a nonzero slope.%\pp
+
+\begin{enumerate}
+	\item If not provided, put the equation in slope-intercept form.
+	\item Determine the $x$-intercept of the graph of the equation.  Mark this value on a real-number line by placing a symbol {\large (}$~|~${\large )} directly above it that divides the line into two intervals.
+	\item Identify a test value for each interval.  Write your test values below their respective test intervals.
+	\item Determine the sign ($+$ or $-$) of the $y$-coordinate for each test value.  Mark this on the real-number line by placing either a $+$ or $-$ above the interval.
+\end{enumerate}
+
+\begin{example}\label{Lin99}~~~ Construct a sign diagram for the linear equation\\ $y=-12x-50$.\pp
+By setting $y=0$, we get $x=-\frac{50}{12}=-\frac{25}{6}=4.1\overline{6}$.  For test values, we will use $x=-5$ and $x=0$.
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Test Value & Resulting $y$-coordinate & Sign\\
+\hline
+$x=-5$ & $-12(-5)-50=60-50>0$ & ($+$)\\
+\hline
+$x=0$ & $-12(0)-50=0-50<0$ & ($-$)\\
+\hline
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{0}
+\tlpointsep{4pt}
+\axislabels {x}{{$-\frac{25}{6}$} 0}
+\tlabel[cc](-4,1){$(+)$}
+\tlabel[cc](-4,-1.75){$x=-5$}
+%\tlabel[cc](0,1){$|$}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](4,1){$(-)$}
+\tlabel[cc](4,-1.75){$x=0$}
+\end{mfpic} 
+\end{center}
+\end{example}
+
+Note that in the instance of a horizontal line $m=0$, our sign diagram will only require us to test a single value for the entire interval ($-\infty,\infty$).  It therefore suffices to just identify the sign of the $y$-intercept for the graph of our equation.  Lastly, if the $y$-intercept is zero, then our sign diagram will have no test intervals to check, since all points on our graph will be of the form ($x,0$).\pp
+
+It is worth mentioning that here we have only sought to ``set the table'' for the construction of sign diagrams, using linear equations as a very basic introduction.  Once we are exposed to more complicated equations and functions, such as quadratics in the next chapter, we will see how the construction of a sign diagram will become more involved.  In short, more complicated examples will include more $x$-intercepts, which will result in more test intervals to check.  The process, however, will essentially remain the same as we have outlined, and the resulting sign diagram will be critical in understanding the graph of a function.

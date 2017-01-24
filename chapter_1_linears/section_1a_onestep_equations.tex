@@ -1,0 +1,312 @@
+\documentclass[11pt]{book}
+%\oddsidemargin 0in
+%\evensidemargin 0in
+%\marginparwidth 0in
+
+%\usepackage[top=1in
+%,left=1.5in,
+%bottom=1in,%right=1in,textheight=8.5in,textwidth=6in
+%]{geometry}
+
+\usepackage{amsfonts,amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{docmute}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{graphics}
+\usepackage{pgf, tikz}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{setspace}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage[english]{babel}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{vwcol}
+\usepackage{cancel}
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+%\usepackage{bbm}
+
+%First appears in II.1.1
+\newcommand{\tmdummy}{$\mbox{}$}
+\newcommand{\tmmathbf}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+\newcommand{\tmstrong}[1]{\textbf{#1}}
+%{\theorembodyfont{\rmfamily}
+%First appears in II.1.?
+\newcommand{\tmem}[1]{{\em #1\/}}
+%\newenvironment{enumeratenumeric}{\begin{enumerate}[1.] }{\end{enumerate}}
+%First appears in II.1.6a
+\newenvironment{itemizedot}{\begin{itemize} \renewcommand{\labelitemi}{$\bullet$}\renewcommand{\labelitemii}{$\bullet$}\renewcommand{\labelitemiii}{$\bullet$}\renewcommand{\labelitemiv}{$\bullet$}}{\end{itemize}}
+
+
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{1.0} %SZ set to gray, 0.9
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem*{defn}{Definition}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+%\newtheorem*{thm}{Theorem}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{thm}{Theorem}[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem*{cor}%[thm]
+{Corollary} % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{eqn}{Equation}[chapter]
+\newtheorem{ex}{Example}[chapter] % this is needed for all Stitz Zeager content.
+\newtheorem{example}{Example}[chapter]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\setlength{\extrarowheight}{2pt}
+\newcommand{\bbm}{\begin{boxedminipage}{4.80in}} %SZ set to 6.41
+\newcommand{\ebm}{\end{boxedminipage}}
+\newcounter{HW}
+\newcounter{HWindent}
+
+\newcommand{\comment}[1]{}
+\newcommand{\pp}{\par~\par}
+
+\begin{document}
+
+\subsection{One-Step Equations}\par
+~\par
+{\textbf{Objective:}} {\textbf{Solve one-step linear equations by
+balancing using inverse operations}}\par
+~\par
+Solving linear equations is an important and fundamental skill in algebra. In
+algebra, we are often presented with a problem where the answer is known, but
+part of the problem is missing. The missing part of the problem is what we
+seek to find. An example of such a problem is shown below.
+
+\begin{example}\label{Lin1}
+\[ 4 x + 16 = - 4 \]
+\end{example}
+Notice the above problem has a missing part, or unknown, that is marked by
+$x$. If we are given that the solution to this equation is $x=- 5$, it could be
+plugged into the equation, replacing the $x$ with $- 5$. This is shown in
+Example \ref{Lin2}.
+
+\begin{example}\label{Lin2}
+\begin{eqnarray*}
+  4 (- 5) + 16 = - 4 &  & \tmop{Multiply} 4 (- 5)\\
+  - 20 + 16 = - 4 &  & \tmop{Add} - 20 + 16\\
+  - 4 = - 4 &  & \tmop{True} !
+\end{eqnarray*}
+\end{example}
+
+Now the equation comes out to a true statement! Notice also that if another
+number, for example, $x=3$, was plugged in, we would not get a true statement as
+seen in Example \ref{Lin3}.
+
+\begin{example}\label{Lin3}
+ \begin{eqnarray*}
+  4 (3) + 16 = - 4 &  & \tmop{Multiply} 4 (3)\\
+  12 + 16 = - 4 &  & \tmop{Add} 12 + 16\\
+  28 \neq - 4 &  & \tmop{False} !
+\end{eqnarray*}
+\end{example}
+Due to the fact that this is not a true statement, this demonstrates that $x=3$
+is not the solution. However, depending on the complexity of the problem, this
+``guess and check'' method is not very efficient. Thus, we take a more
+algebraic approach to solving equations. Here we will focus on what are called
+``one-step equations'' or equations that only require one step to solve. While
+these equations often seem very fundamental, it is important to master the
+pattern for solving these problems so we can solve more complex problems.\par
+~\par
+
+{\textbf{Addition Problems}}\par
+~\par
+
+To solve equations, the general rule is to do the opposite, as demonstrated in the following example.
+
+\begin{example}\label{Lin4}
+\begin{eqnarray*}
+  x + 7 = - 5 &  & \tmop{The} 7 \tmop{is} \tmop{added} \tmop{to} \tmop{the}
+  x\\
+  ~~~\underline{\tmmathbf{- 7 ~~- 7}} &  & \tmop{Subtract} 7 \tmop{from}
+  \tmop{both} \tmop{sides} \tmop{to} \tmop{get} \tmop{rid} \tmop{of}
+  \tmop{it}\\
+  x = - 12 &  & \tmop{Our} \tmop{solution}
+\end{eqnarray*}
+\end{example}
+
+It is important for the reader to recognize the benefit of checking an answer by plugging it back into the given equation, as we did with examples \ref{Lin2} and \ref{Lin3} above.  This is a step that often gets overlooked by many individuals who may be eager to attempt the next problem.  As is the case with most textbooks, we will often omit this step from this point forward, with the understanding that it will usually be an exercise that is left to the reader to verify the validity of each answer.\pp
+
+The same process is used in each of the following examples.
+
+\pagebreak
+
+\begin{example}\label{Lin5}
+~\end{example}
+
+	\begin{table}[h]
+		\begin{tabular}{l}
+    ~~~$4 + x = 8$\\
+    \underline{$\ensuremath{\boldsymbol{- 4 ~~~~~~~- 4}}$}~~~~\\
+    ~~~~ $x = 4$
+  \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+    \ \ $7 = x + 9$\\
+    $\tmmathbf{\underline{- 9 ~~~~- 9}}$\\
+    ~~~~ $- 2 = x$
+  \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+    \ \ ~~$5 = 8 + x$\\
+    $\tmmathbf{\underline{- 8 ~~- 8}}$\\
+    ~~~~ $- 3 = x$
+  \end{tabular}
+  \caption{Addition Examples}
+	\end{table}
+%\end{example}
+
+%\pagebreak
+
+{\textbf{Subtraction Problems}}\par
+~\par
+In a subtraction problem, we get rid of negative numbers by adding them to
+both sides of the equation, as demonstrated in the following example.
+
+\begin{example}\label{Lin6}
+  \begin{eqnarray*}
+    x - 5 = 4~~~ &  & \tmop{The} 5 \tmop{is} \tmop{negative}, \tmop{or}
+    \tmop{subtracted} \tmop{from} x\\
+    ~~~~~~\tmmathbf{\underline{+ 5 ~~+ 5}} &  & \tmop{Add} 5 \tmop{to} \tmop{both}
+    \tmop{sides}\\
+    x = 9\qquad  &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+The same process is used in each of the following examples. Notice that each time we are getting rid of a negative
+number by adding.\pp
+In every example, we introduce the opposite operation of what is shown, in order to solve the given equation.  This notion of opposites is more commonly referred to as an \textit{inverse} operation.  The inverse operation of addition is subtraction, and vice versa.  Similarly, the inverse operation of multiplication is division, and vice versa, which we will see momentarily.
+
+\begin{example}\label{Lin7}
+~\end{example}
+
+  \begin{table}[h]
+    \begin{tabular}{l}
+      $- 6 + x = - 2$\\
+      $\tmmathbf{\underline{+ 6 ~~~~~~~+ 6}}$\\
+      ~~~~ $x = 4$
+    \end{tabular} \begin{tabular}{l}
+      
+    \end{tabular}\begin{tabular}{l}
+      
+    \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+      $- 10 = x - 7$\\
+      $ \tmmathbf{\underline{+ 7 ~~~~~~~+ 7}}$\\
+      ~~~~ $- 3 = x$
+    \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+      ~~~$5 = - 8 + x$\\
+      ~$\tmmathbf{\underline{+ 8 ~~~+ 8}}$\\
+      ~~~~ $13 = x$
+    \end{tabular}
+    \caption{Subtraction Examples}
+  \end{table}
+%\end{example}
+
+{\textbf{Multiplication Problems}}\par
+~\par
+With a multiplication problem, we get rid of the number by dividing on both
+sides, as demonstrated in the following examples.
+
+\begin{example}\label{Lin8}
+  \begin{eqnarray*}
+    4 x = 20 ~~&  & \tmop{Variable} \tmop{is} \tmop{multiplied} \tmop{by} 4\\
+    ~~~\tmmathbf{\overline{4} ~~~~~ \overline{4}}~~ &  & \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} 4\\
+    x = 5~~ &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+With multiplication problems it is very important that care is taken with
+signs. If $x$ is multiplied by a negative then we will divide by a negative.
+This is shown in example \ref{Lin9}.
+
+\begin{example}\label{Lin9}
+  \begin{eqnarray*}
+    - 5 x = 30 &  & \tmop{Variable} \tmop{is} \tmop{multiplied} \tmop{by} -
+    5\\
+    \tmmathbf{\overline{- 5} ~~~~ \overline{- 5}} &  & \tmop{Divide} \tmop{both}
+    \tmop{sides} \tmop{by} - 5\\
+    x = - 6 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+The same process is used in each of the following examples. Notice how
+negative and positive numbers are handled as each problem is solved.
+
+\begin{example}\label{Lin10}
+~\end{example}
+ 
+ \begin{table}[h]
+    \begin{tabular}{l}
+      $8 x = - 24$\\
+      $\tmmathbf{\overline{8} ~~~~~~~~ \overline{8}}$\\
+      ~~~~ $x = - 3$
+    \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+      $- 4 x = - 20$\\
+      \ $\tmmathbf{\overline{- 4} ~~~~~ \overline{- 4}}$\\
+      ~~~~ $x = 5$
+    \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+      $42 = 7 x$~~\\
+      ~$\tmmathbf{\overline{7} ~~~~~ \overline{7}}$\\
+      ~~~~ $6 = x$
+    \end{tabular}
+    \caption{Multiplication Examples}
+  \end{table}
+%\end{example}
+
+{\textbf{Division Problems}}\par
+~\par
+In division problems, we get rid of the denominator by multiplying on both
+sides, since multiplication is the opposite, or \textit{inverse}, operation of division. This is demonstrated in the examples shown below.
+
+\begin{example}\label{Lin11}
+  \begin{eqnarray*}
+    \frac{x}{5} = - 3 &  & \tmop{Variable} \tmop{is} \tmop{divided} \tmop{by}
+    5\\
+    \tmmathbf{(5)} \frac{x}{5} = - 3 \tmmathbf{(5)} &  & \tmop{Multiply}
+    \tmop{both} \tmop{sides} \tmop{by} 5\\
+    x = - 15 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+Then we get our solution $x = - 15$. %The same process is used in each of the
+%following examples.
+
+\pagebreak
+
+\begin{example}\label{Lin12}
+~\end{example}
+
+\begin{table}[h]
+  \begin{tabular}{l}
+    $ \frac{x}{- 7} = - 2$\\
+    $\tmmathbf{(-7)}\frac{x}{- 7} = - 2\tmmathbf{(-7)}$\\
+    ~~~~ $x = 14$
+  \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+    $ \frac{x}{8} = 5$\\
+    $\tmmathbf{(8)} \frac{x}{8} = 5 \tmmathbf{(8)}$\\
+    ~~~~ $x = 40$
+  \end{tabular} \ \ \ \ \ \ \ \ \ \ \ \ \ \ \begin{tabular}{l}
+    $ \frac{x}{- 4} = 9$\\
+    $\tmmathbf{(-4)}\frac{x}{- 4} = 9\tmmathbf{(-4)}$\\
+    ~~~~ $x = - 36$
+  \end{tabular}
+  \caption{Division Examples}
+\end{table}
+%\end{example}
+
+The process described above is fundamental to solving equations. Once this
+process is mastered, the problems we will see have several more steps. These
+problems may seem more complex, but the process and patterns used will remain
+the same.\pp
+{\textbf{World View Note: }}The study of algebra originally was called the
+``Cossic Art'' \ from the Latin, the study of ``things'' (which we now call
+variables).
+\end{document}

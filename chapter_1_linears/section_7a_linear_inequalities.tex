@@ -1,0 +1,302 @@
+{\tmstrong{Objective: Solve, graph, and give interval notation for the solution to a linear inequality.  Create a sign diagram to identify those intervals where a linear expression is positive or negative.}}\par
+
+\subsection{Linear Inequalities}
+
+When given a linear equation such as $x+2=5$, one can solve to obtain \textit{one} solution ($x=3$).  Although the method for solving an inequality is, in general, very similar to that for solving an equation, we will see that the solution to a inequality will usually include an entire range of values.\par
+~\par
+In order to solve any inequality, we must first understand the accompanying notation and respective terminology.  Much of what will follow may seem familiar, as it was also introduced in the last chapter of Part I of this text.  Students struggling with the notation may wish to review the earlier material in Part I regarding Number Sets.
+
+\begin{center}
+\begin{tabular}{cl}
+\underline{Symbol} & \underline{Meaning}\\
+$<$ & less than\\
+$>$ & greater than\\
+$\leq$ & less than or equal to\\
+$\geq$ & greater than or equal to\\
+$\neq$ & not equal to
+\end{tabular}
+\end{center}
+
+{\tmstrong{World View Note:}} English mathematician Thomas Harriot first used the above symbols in 1631.  However, they were not immediately accepted as symbols such as $\sqsubset$ and $\sqsupset$ were already coined by another English mathematician, William Oughtred.\par
+~\par
+Notice that the ``equals'' symbol $=$ is not listed above, as we will be working with \textit{inequalities}, rather than \textit{equations}.  It is also worth mentioning that there are several alternate ways of describing the same symbol.  For example, the phrases ``at most'' or ``no more than'' can easily be interchanged with ``less than or equal to'', and similarly for ``at least'', ``no less than'', and ``greater than or equal to''.  Because of this, one needs to use a bit of caution, when faced with any problem that is presented verbally. \par
+
+\pagebreak
+
+\begin{example}\label{Lin91}
+	\
+\end{example}
+$$2<5, \qquad\qquad 1>-1, \qquad\qquad 5\leq 10, \qquad\qquad 3\leq 3,$$
+$$7\geq-2, \qquad\qquad 4\geq 4, \qquad\qquad -1\neq 1$$
+
+The examples above, though true, do not contain a variable.  We now will work with inequalities containing one (or more) variable(s).  Following the previous sections of this chapter, we will first concern ourselves with linear inequalities, followed by basic absolute value inequalities.  The solution to an inequality is the set of all real numbers that make the inequality true.\par
+
+\begin{example}\label{Lin92}~~~ Solve the linear inequality  $x+2<5$. 
+\begin{eqnarray*}
+x+2<5~~ && \\
+\tmmathbf{\underline{-2}~~~\underline{-2}} && \text{Subtract~} 2 \text{~from~both~sides} \\
+x<3~~ && \text{Our~solution}
+\end{eqnarray*}
+\end{example}
+
+Notice that we solve the previous inequality using the same method that one would use to solve the equation $x+2=5$.  Some differences will be seen later.\par
+~\par
+When describing the solution to a given inequality, it will often be useful to graph the solution on a number line and shade the section(s) of the number line that coincide with the solution set.  The number line below illustrates our previous example.%\pp
+
+%\begin{example}
+%\end{example}
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-2}{0.5}
+%\arrow 
+\reverse \arrow \polyline{(-8,0),(8,0)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$3$} 4}
+\tlabel[cc](4,-1){$3$}
+\circle{(4,0),.275}
+\penwd{2.3pt}
+\arrow[b -5.8pt][l 6pt]\polyline{(3.65,0),(-8,0)}
+\tcaption{$x<3$}
+\end{mfpic} 
+\end{center}
+
+Note that an open circle is used to indicate that the value $x=3$ is \textit{not} a valid solution to the given inequality.  A closed circle would therefore indicate that $x=3$ is a valid solution.  It is also a good idea to test a few values in order to check our work.\par
+~\par
+
+\underline{Check}:\par
+
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Test Location} & \underline{Test Value} & \underline{Unsimplified} & \underline{Simplified} & \underline{Result}\\
+Shaded region & $x=1$ & $1+2<5$ & $3<5$ & True\\
+Boundary value & $x=3$ & $3+2<5$ & $5<5$ & False\\
+Unshaded region & $x=5$ & $5+2<5$ & $7<5$ & False
+\end{tabular}
+\end{center}
+
+A common misconception that many students have with an inequality such as $x<3$ and is worth mentioning has to do with the values between $x=2$ and $x=3$.  Although we have seen that $x$ cannot equal $3$ in the given inequality, this does not mean that the solution set has a largest value at $x=2$ (the largest \textit{integer} solution to the inequality).  In fact, there are infinitely many \textit{real-number} solutions to the inequality between the integers $2$ and $3$.  For example, $2.5$, $2.7$, $2.9$, $2.99$, $2.999$, and $2.9999999999999999$ are all valid solutions to $x<3$.  Because of this, one could say that the inequality is \textit{bounded above by} $x=3$, but there is no \textit{largest} solution that satisfies it.\par
+~\par
+There are four primary ways of presenting the solution to an inequality:
+\begin{enumerate}
+		\item In words (verbally): ``All real numbers $x$ greater than or equal to $4$.''
+		\item Using inequality (and set-builder) notation: $\{x|x\geq 4\}$.
+		\item Using interval notation: $[4,\infty)$.
+		\item Using real-number line notation (graphically):
+
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-2}{0.5}
+\pointfilltrue
+\arrow\polyline{(8,0),(-8,0)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](4,-1){$4$}
+\penwd{2.3pt}
+\point[6pt]{(4,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(4,0),(8,0)}
+%\tcaption{$x<3$}
+\end{mfpic}
+\end{center}
+		
+\end{enumerate}
+In many of our examples, it will be acceptable to exclude the set-builder notation $\{x|\qquad\}$ altogether, and instead simply present the inequality $x\geq 4$.  Still, it is important that students recognize the meaning behind the notation (``The set of all real numbers $x$ such that...'').\par
+~\par
+Recall that for interval notation we use brackets $[$ or $]$ to denote \textit{inclusion} of a boundary value, and parentheses $($ and $)$ to denote \textit{exclusion}.  This notation can therefore be interchanged with a closed circle (inclusion) or an open circle (exclusion), when graphing a given solution set on the real-number line.  As a convention, from this point forward we will adopt brackets and parentheses instead of closed and open circles for graphical representations of solution sets, since it presents a nice connection between interval and real-number line notation.  Both notations, however, are generally accepted.  An example is shown below.
+
+\pagebreak
+
+\begin{example}\label{Lin93}
+~\end{example}
+
+\begin{center}
+\begin{mfpic}[8]{-20}{20}{-2}{0}
+%\arrow 
+\reverse \arrow \polyline{(-20,0),(-4,0)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$3$} 4}
+\tlabel[cc](-8,-2){$3$}
+\circle{(-8,0),.325}
+\tcaption{$x<3$}
+%\end{mfpic} 
+%\begin{mfpic}[8]{-8}{8}{-2}{0}
+%\arrow 
+\reverse \arrow \polyline{(4,0),(20,0)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$3$} 4}
+\tlabel[cc](16,-2){$3$}
+%\circle{(4,0),.275}
+\tlabel[cc](16,0){{\Large\bf )}}
+\penwd{2.3pt}
+\arrow[b -5.8pt][l 6pt]\polyline{(-8.35,0),(-20,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(15.9,0),(4,0)}
+%\tcaption{$x<3$}
+\end{mfpic} 
+%\end{multicols}
+%$x<3$
+\end{center}
+
+%\vspace{.25in}
+
+\begin{center}
+%\begin{multicols}{2}
+%~\\
+\begin{mfpic}[8]{-20}{20}{-2}{0}
+\pointfilltrue
+\arrow\polyline{(-4,0),(-20,0)}
+\arrow\polyline{(20,0),(4,0)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](-8,-2){$4$}
+\penwd{2.3pt}
+\point[6pt]{(-8,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(-8,0),(-4,0)}
+%\tcaption{$x<3$}
+%\end{mfpic}
+%\begin{mfpic}[8]{-8}{8}{-2}{0}
+%\pointfilltrue
+%\xmarks{4}
+%\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](16,-2){$4$}
+\tlabel[cc](16,0){{\Large\bf [}}
+\penwd{2.3pt}
+%\point[6pt]{(4,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(16.15,0),(20,0)}
+\tcaption{$x\geq 4$}
+\end{mfpic}
+%\end{multicols}
+%$x\geq 4$
+\end{center}
+
+Next, we will solve and present the solution to a linear equality using all four presentation methods.
+
+\begin{example}\label{Lin94}~~~ Solve the linear inequality  $4x-3\geq 5$. 
+\begin{eqnarray*}
+4x-3\geq 5~~~&&\\
+\tmmathbf{\underline{+3}~~~~\underline{+3}} &&  \text{Add~} 3 \text{~to~both~sides} \\
+4x\geq 8~~~ && \\
+\tmmathbf{\overline{4}~~~~\overline{4}}~~~&& \text{Divide~both~sides~by~} 4\\
+x\geq 2~~~ && \text{Our~solution}
+\end{eqnarray*}
+\end{example}
+
+Our solution can be expressed as follows.
+
+\begin{enumerate}
+	\item Verbally: ``The set of all values of $x$ that are greater than or equal to (at least) $2$''.
+	\item Inequality: $\{x|x\geq 2\}$
+	\item Interval: $[2,\infty)$
+	\item Real-number Line (Graphically): 
+\end{enumerate}
+
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-2}{0}
+\pointfilltrue
+\arrow\polyline{(8,0),(-8,0)}
+%\xmarks{4}
+\tlpointsep{4pt}
+%\axislabels {x}{{$4$} 4}
+\tlabel[cc](2,-2){$2$}
+\penwd{2.3pt}
+\tlabel[cc](2,0){{\Large\bf [}}
+\arrow[b -5.8pt][l 6pt]\polyline{(2.15,0),(8,0)}
+%\tcaption{$x<3$}
+\end{mfpic}
+\end{center}
+
+\underline{Check}:\par
+
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Test Location} & \underline{Test Value} & \underline{Unsimplified} & \underline{Simplified} & \underline{Result}\\
+Shaded region & $x=3$ & $4(3)-3\geq 5$ & $~9\geq 5$ & True\\
+Boundary value & $x=2$ & $4(2)-3\geq 5$ & $~5\geq 5$ & True\\
+Unshaded region & $x=0$ & $4(0)-3\geq 5$ & $-3\geq 5$ &False
+\end{tabular}
+\end{center}
+
+Next, we would like to closely examine the impact that each of the four main operations ($+$, $-$, $\times$, $\div$) has on a given inequality.  This will shed more light on one of the fundamental differences between solving an equation and solving an inequality.  To demonstrate this, we will repeatedly use an obvious true statement, $4<10$.\par
+
+\begin{example}\label{Lin95}
+	\
+\end{example}
+\underline{Original Inequality:} $4<10$
+\begin{center}
+\begin{tabular}{lcl}
+\underline{Action} & \underline{Resulting Inequality} & \underline{Outcome}\\
+Add $5$ & $9<15$ & True\\
+Subtract $5$ & $-1<5$ & True\\
+Add $-3$ & $1<7$ & True\\
+Subtract $-3$ & $7<13$ & True\\
+\end{tabular}
+\end{center}
+Note that since addition and subtraction are closely related, we see that the original inequality is also preserved when negative values are either added or subtracted.  In other words, adding (or subtracting) $-3$ will also preserve the validity of the inequality.  It is also worth noting that the action of adding $-3$ is analogous with that of subtracting $3$, so there are no surprises.  Later on, we will use the term \textit{inverse} to describe the relationship between these two operations.\par
+~\par
+\underline{Original Inequality:} $4<10$
+\begin{center}
+\begin{tabular}{lcl}
+\underline{Action} & \underline{Resulting Inequality} & \underline{Outcome}\\
+Multiply by $3$ & $12<30$ & True\\
+Divide by $2$ & $2<5$ & True\\
+Multiply by $-3$ & $-12<-30$ & {\bf False}\\
+Divide by $-2$ & $-2<-5$ & {\bf False}\\
+\end{tabular}
+\end{center}
+Here, we see that multiplication, and consequently division, by a negative value forces us to change the direction of the inequality ($-2<-5$ changes to $-2>-5$) in order to preserve its validity.  This is best illustrated by the following diagram.
+
+\begin{center}
+%\begin{multicols}{3}
+\begin{mfpic}[8]{-20}{20}{-2}{4}
+%\arrow 
+\arrow\reverse\arrow\polyline{(-20,0),(-4,0)}
+\xmarks{-12,-10,-7,7,10,12}
+\tlpointsep{4pt}
+%\axislabels {x}{{$3$} 4}
+\tlabel[cc](-12,-1.5){$0$}
+\tlabel[cc](-10,-1.5){$2$}
+\tlabel[cc](-7,-1.5){$5$}
+%\tcaption{$2<3$}
+%\end{mfpic} 
+%\begin{mfpic}[5]{-4}{4}{-2}{0}
+\arrow\curve{(-2.5,2),(0,3),(2.5,2)}
+%\tlpointsep{4pt}
+\tcaption{$2<5$\hspace{0.8in}\textit{Multiply by $-1$}\hspace{0.7in}$-5<-2$}
+%\end{mfpic} 
+%\begin{mfpic}[8]{-8}{8}{-2}{0.5}
+%\arrow 
+\arrow\reverse\arrow\polyline{(4,0),(20,0)}
+%\xmarks{-2,-5}
+%\tlpointsep{4pt}
+%\axislabels {x}{{$3$} 4}
+\tlabel[cc](12,-1.5){$0$}
+\tlabel[cc](10,-1.5){$-2$}
+\tlabel[cc](7,-1.5){$-5$}
+\point[6pt]{(-10,0),(-7,0),(7,0),(10,0)}
+%\tcaption{$-2>-3$}
+\end{mfpic} 
+%\end{multicols}
+\end{center}
+
+Note that as with addition and subtraction, the \textit{inverse} relationship between the operations of multiplication and division is again at work, since for example, division by $-2$ is analogous to multiplication by $-1/2$.\par
+~\par
+We conclude our treatment of linear inequalities with a more complicated example.  All our solution steps will be identical to those for solving a linear equation, with the only exception being those steps related to multiplication or division by a negative number.\par
+
+\begin{example}\label{Lin96}~~~ Solve the linear inequality  $-1-2(x-3)\leq 5x-9$. 
+\begin{eqnarray*}
+-1-2(x-3)~\leq~ 5x-9~~ && \\
+-1-2x+6~\leq~ 5x-9~~ && \text{Distribute~} -2\\
+5-2x~\leq~ 5x-9~~ && \text{Combine~like~terms}\\
+\tmmathbf{\underline{-5}~~~~~~~~~~~~~~~~\underline{-5}}~~ &&  \text{Subtract~} 5 \text{~from~both~sides}\\
+-2x~\leq~ 5x-14 && \\
+\tmmathbf{\underline{-5x}~~~~\underline{-5x}}~~~~~ && \text{Subtract~} 5x \text{~from~both~sides} \\
+-7x~\leq~ -14~~~~~ && \\
+\tmmathbf{\overline{-7}~~~~~~~\overline{-7}}~~~~~&& \text{Divide~both~sides~by~} -7\\
+x\geq 2~~~~~~~~~ && \text{Our~solution}
+\end{eqnarray*}
+\end{example}
+
+
+We leave it as an exercise to the reader to check that our solution is correct. 

@@ -1,0 +1,261 @@
+\subsection{Absolute Value Inequalities}
+
+When an inequality contains an absolute value we will have to remove the absolute value in order to graph the solution or provide interval notation. The way we remove the absolute value depends on the direction of the inequality symbol.\par
+~\par
+Consider $|x| < 2$.\par
+~\par
+Absolute value is defined as the distance from zero. Another way to read this
+inequality would be the distance that the variable $x$ is from zero is less than 2. So on a number line we will shade all points that are less than 2 units away from zero.%\pp
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-2}{0}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,0),(-8,0)}
+\tlabel[cc](3,-2){$2$}
+\tlabel[cc](-3,-2){$-2$}
+\tlabel[cc](0,-2){$0$}
+\tlabel[cc](0,0){$\mid$}
+\penwd{2.5pt}
+\tlabel[cc](-3,0){{\Large\bf (}}
+\tlabel[cc](3,0){{\Large\bf )}}
+%\arrow[b -5.8pt][l 6pt]\polyline{(3.15,0),(8,0)}
+\polyline{(-2.9,0),(3,0)}
+\tcaption{$|x|<2$}
+\end{mfpic}
+	\begin{eqnarray*}
+    (-2, 2) &  & \tmop{Interval} \tmop{notation}
+  \end{eqnarray*}
+\end{center}
+
+This graph looks just like the graphs of the double (compound) inequalities!
+When the absolute value is {\tmstrong{less than}} a number we will remove the
+absolute value by changing the problem to a double inequality, with the
+negative value on the left and the positive value on the right. So $|x| < 2$
+becomes $- 2 < x < 2$, as the graph above illustrates.\par
+~\par
+Consider $|x| > 2$.\par
+~\par
+Similarly, another way to read this inequality would be the distance that $x$ is from zero is greater than 2. So on the number line we shade all points that are more than 2 units away from zero.%\pp
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-7}{-5}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,-5),(-8,-5)}
+\tlabel[cc](0,-7){$0$}
+\tlabel[cc](3,-7){$2$}
+\tlabel[cc](-3,-7){$-2$}
+\tlabel[cc](0,-5){$\mid$}
+\penwd{2.5pt}
+\tlabel[cc](-3,-5){{\Large\bf )}}
+\tlabel[cc](3,-5){{\Large\bf (}}
+\arrow[b -5.8pt][l 6pt]\polyline{(3.15,-5),(8,-5)}
+\arrow[b -5.8pt][l 6pt]\polyline{(-3,-5),(-8,-5)}
+\tcaption{$|x|> 2$}
+\end{mfpic}
+\end{center}
+	\begin{eqnarray*}
+    (-\infty, -2)\cup(2,\infty) &  & \tmop{Interval} \tmop{notation}
+  \end{eqnarray*}
+	
+This graph looks just like the graphs of the OR compound inequalities! When
+the absolute value is {\tmstrong{greater than}} a number we will remove the
+absolute value by changing the problem to an OR inequality, the first
+inequality looking just like the problem with no absolute value, the second
+flipping the inequality symbol and changing the value to a negative. So $|x| >
+2 \tmop{becomes} x > 2 \tmop{or} x < - 2$, as the graph above illustrates.\par
+~\par
+{\tmstrong{World View Note:}} The phrase ``absolute value'' comes from German
+mathematician Karl Weierstrass in 1876, though he used the absolute value
+symbol for complex numbers. The first known use of the symbol for integers
+comes from a 1939 edition of a college algebra text!\par
+~\par
+For all absolute value inequalities we can also express our answers in
+interval notation which is done the same way as for standard compound
+inequalities.\par
+~\par
+We can solve absolute value inequalities much like we solved absolute value
+equations. Our first step will be to isolate the absolute value. Next we will
+remove the absolute value by either making a double inequality if the absolute
+value is less than a number, or making an OR inequality if the absolute value
+is greater than a number. Then we will solve these inequalities. Remember, if
+we multiply or divide by a negative the inequality symbol(s) will switch
+directions!
+
+\begin{example}\label{Lin103}~~~ Solve, graph, and provide interval notation for the solution.
+  \begin{eqnarray*}
+    |4x - 5| \geq 6~~~~~~~~~~~~ &  & \tmop{Absolute} \tmop{value} \tmop{is}
+    \tmop{greater}, \tmop{use} \tmop{OR}\\
+    4 x - 5 \geq 6 \tmop{~~~~OR~~~} 4 x - 5 \leq - 6 &  & \tmop{Solve}\\
+    \tmmathbf{\underline{+ 5 ~~+ 5}} ~~~~~~~~~~~~~~ \tmmathbf{\underline{+ 5 ~~+ 5}} &  & \tmop{Add~} 5 \tmop{~to}
+    \tmop{both} \tmop{sides}\\
+    4 x \geq 11 \tmop{~~~OR~~~~~~~} 4 x \leq - 1~ &  & \\
+    \tmmathbf{\overline{4} ~~~~~ \overline{4} ~~~~~~~~~~~~~~~~~ \overline{4} ~~~~~~~ \overline{4}}~ &  & \tmop{Divide}
+    \tmop{both} \tmop{sides} \tmop{by~} 4\\
+    x \geq \frac{11}{4} \tmop{~~~OR~~~~~~~~} x \leq - \frac{1}{4}~ &  &
+    \tmop{Graph}
+  \end{eqnarray*}
+
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-2}{0}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,0),(-8,0)}
+\tlabel[cc](-0.5,-1.7){\small{$-\frac{1}{4}$}}
+\tlabel[cc](2.5,-1.7){\small{$\frac{11}{4}$}}
+%\tlabel[cc](0,0){$\mid$}
+\penwd{2.5pt}
+\tlabel[cc](-0.5,0){{\Large\bf ]}}
+\tlabel[cc](2.5,0){{\Large\bf [}}
+\arrow[b -5.8pt][l 6pt]\polyline{(2.7,0),(8,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(-0.57,0),(-8,0)}
+\tcaption{$|4x-5|\geq 6$}
+\end{mfpic}
+\end{center}
+  \begin{eqnarray*}
+    \left( - \infty, - \frac{1}{4} \right] \cup \left[ \frac{11}{4}, \infty
+    \right) &  & \tmop{Interval} \tmop{notation}
+  \end{eqnarray*}
+\end{example}
+  
+\begin{example}\label{Lin104}~~~ Solve, graph, and provide interval notation for the solution.
+  \begin{eqnarray*}
+    - 4 - 3 |x| \leq - 16 &  & \\
+    \tmmathbf{\underline{+ 4~~~~~~~~~~~~ + 4}} &  & \tmop{Add~} 4 \tmop{~to} \tmop{both}
+    \tmop{sides}\\
+    - 3 |x| \leq - 12 &  & \tmop{Divide} \tmop{both} \tmop{sides}
+    \tmop{by~} - 3\\
+    \tmmathbf{\overline{- 3} ~~~~~ \overline{- 3}}~ &  & \tmop{Dividing} \tmop{by~a}
+    \tmop{negative} \tmop{switches} \tmop{the} \tmop{inequality}\\
+    |x| \geq 4 &  & \tmop{Absolute} \tmop{value} \tmop{is}
+    \tmop{greater}, \tmop{use} \tmop{OR}\\
+    x \geq 4 \tmop{~~OR~~} x \leq - 4 &  & \tmop{Graph}
+  \end{eqnarray*}
+
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-2}{0}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,0),(-8,0)}
+\tlabel[cc](-5,-1.7){$-4$}
+\tlabel[cc](5,-1.7){$4$}
+%\tlabel[cc](0,0){$\mid$}
+\penwd{2.5pt}
+\tlabel[cc](-5,0){{\Large\bf ]}}
+\tlabel[cc](5,0){{\Large\bf [}}
+\arrow[b -5.8pt][l 6pt]\polyline{(5.2,0),(8,0)}
+\arrow[b -5.8pt][l 6pt]\polyline{(-5.07,0),(-8,0)}
+\tcaption{$-4-3|x|\leq-16$}
+\end{mfpic}
+    \begin{eqnarray*}
+      (- \infty, - 4] \cup [4, \infty) &  & \tmop{Interval} \tmop{notation}
+    \end{eqnarray*}
+  \end{center}
+\end{example}
+  
+In the previous example, we cannot combine $- 4$ and $- 3$ because they
+are not like terms, the $- 3$ has an absolute value attached. So we must first
+clear the $- 4$ by adding 4, then divide by $- 3$. The next example is
+similar.
+
+\begin{example}\label{Lin105}~~~ Solve, graph, and provide interval notation for the solution.
+  \begin{eqnarray*}
+    9 - 2 |4x + 1| > 3~~ &  &\\
+    \tmmathbf{\underline{- 9 ~~~~~~~~~~~~~~~~- 9}} &  & \tmop{Subtract~} 9 \tmop{~from} \tmop{both}
+    \tmop{sides} \\
+    - 2 |4x + 1| > - 6~ &  & \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} -
+    2\\
+    \tmmathbf{\overline{~- 2~} ~~~~~~~ \overline{- 2}} &  & \tmop{Dividing} \tmop{by}
+    \tmop{negative} \tmop{switches} \tmop{the} \tmop{inequality}\\
+    |4x + 1| < 3~~&  & \tmop{Absolute} \tmop{value} \tmop{is} \tmop{less},
+    \tmop{use} \tmop{double} \tmop{inequality}\\
+    - 3 < 4 x + 1 < 3~~ &  & \tmop{Solve}\\
+    \tmmathbf{\underline{- 1} ~~~~~~~\underline{- 1} ~~~\underline{- 1}} &  & \tmop{Subtract~} 1 \tmop{~from} \tmop{all}
+    \tmop{three} \tmop{parts}\\
+    - 4 < 4 x < 2~~&  & \tmop{Divide} \tmop{all} \tmop{three} \tmop{parts}
+    \tmop{by~} 4\\
+    \tmmathbf{\overline{4} ~~~~~ \overline{4} ~~~~~ \overline{4}}~~ &  & \\
+    - 1 < x < \frac{1}{2}~ &  & \tmop{Graph}
+  \end{eqnarray*}
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-2}{0}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,0),(-8,0)}
+\tlabel[cc](-2,-2){$-1$}
+\tlabel[cc](1,-2){\small{$\frac{1}{2}$}}
+%\tlabel[cc](-3,-2){$-2$}
+%\tlabel[cc](0,0){$\mid$}
+\penwd{2.5pt}
+\tlabel[cc](-2,0){{\Large\bf (}}
+\tlabel[cc](1,0){{\Large\bf )}}
+%\arrow[b -5.8pt][l 6pt]\polyline{(3.15,0),(8,0)}
+\polyline{(-1.9,0),(1.05,0)}
+\tcaption{$9-2|4x+1|>3$}
+\end{mfpic}
+  \begin{eqnarray*}
+    \left( - 1, \frac{1}{2} \right) &  & \tmop{Interval} \tmop{notation}
+  \end{eqnarray*}
+\end{center}
+\end{example}
+  
+In the previous example, we cannot distribute the $- 2$ into the absolute
+value. We can never distribute or combine things outside the absolute value
+with what is inside the absolute value. Our only way to solve is to first
+isolate the absolute value by clearing the values around it, then convert to
+a compound inequality (either a double inequality or an OR inequality) and solve.\par
+~\par
+It is important to remember that as we are solving these equations, an absolute value is always positive. If we end up with an absolute value that is less than a negative number, then we will have no solution because the absolute value will always be positive, and therefore greater than a negative. Similarly, if an absolute value is greater than a negative, this will always happen. Here our answer will be all real numbers.
+
+\begin{example}\label{106}~~~ Solve, graph, and provide interval notation for the solution.
+  \begin{eqnarray*}
+    12 + 4 |6x - 1| < 4~~~~ &  & \tmop{Subtract~} 12 \tmop{~from} \tmop{both}
+    \tmop{sides}\\
+    \tmmathbf{\underline{- 12 ~~~~~~~~~~~~~~~~- 12}} &  & \\
+    4 |6x - 1| < - 8~~~~ &  & \tmop{Divide} \tmop{both} \tmop{sides} \tmop{by~} 4\\
+    \tmmathbf{\overline{~~4~~} ~~~~~~ \overline{~4~}}~~~~ &  & \\
+    |6x - 1| < - 2~~~~ &  & \tmop{Absolute} \tmop{value} \tmop{cannot} \tmop{be}
+    \tmop{less} \tmop{than~a} \tmop{negative}
+  \end{eqnarray*}
+
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-2}{0}
+\pointfilltrue
+\penwd{0.5pt}
+\arrow\reverse\arrow\polyline{(8,0),(-8,0)}
+\tcaption{$12 + 4 |6x - 1| < 4$}
+\end{mfpic}\pp
+There is nothing to shade.  So our answer is no solution or $\varnothing$.
+%  \begin{eqnarray*}
+%    &  & \tmop{No} \tmop{Solution} \tmop{or~} \varnothing
+%  \end{eqnarray*}
+\end{center}
+\end{example}
+  
+  
+\begin{example}\label{Lin107}~~~ Solve, graph, and provide interval notation for the solution.
+  \begin{eqnarray*}
+    5 - 6 |x + 7| \leq 17~ &  &\\
+    \tmmathbf{\underline{- 5 ~~~~~~~~~~~~~~~- 5}} &  &  \tmop{Subtract~} 5 \tmop{~from} \tmop{both} \tmop{sides}\\
+    - 6 |x + 7| \leq 12~ &  & \tmop{Divide} \tmop{both} \tmop{sides}
+    \tmop{by~} - 6\\
+    \tmmathbf{\overline{- 6~} ~~~~~~ \overline{- 6}} &  & \tmop{Dividing} \tmop{by~a}
+    \tmop{negative} \tmop{flips} \tmop{the} \tmop{symbol}\\
+    |x + 7| \geq - 2~ &  & \tmop{Absolute} \tmop{value~is} \tmop{always}
+    \tmop{greater} \tmop{than~a} \tmop{negative}
+  \end{eqnarray*}
+\begin{center}
+\begin{mfpic}[8]{-8}{8}{-2}{0}
+\pointfilltrue
+\penwd{2.5pt}
+\arrow[b -5.8pt][l 6pt] \reverse \arrow[b -5.8pt][l 6pt]\polyline{(8,0),(-8,0)}
+\tcaption{$5 - 6 |x + 7| \leq 17$}
+\end{mfpic}\pp
+We shade the entire real number line. Our answer is all real numbers or $\mathbb{R}$.
+    \begin{eqnarray*}
+      (-\infty,\infty) &  &\text{Interval~notation} 
+    \end{eqnarray*}
+  \end{center}
+\end{example}
