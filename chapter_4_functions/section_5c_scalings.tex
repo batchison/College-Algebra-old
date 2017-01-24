@@ -1,0 +1,456 @@
+\subsection{Scalings}
+
+{\tmstrong{Objective: Graph functions by stretching or shrinking}}\pp
+
+We now turn our attention to our last class of transformations known as \textbf{scalings}.  A thorough discussion of scalings can get complicated because they are not as straight-forward as the previous transformations.  A quick review of what we've covered so far, namely vertical shifts, horizontal shifts and reflections, will show you why those transformations are known as \index{transformation ! rigid}\textbf{rigid transformations}.  Simply put, they do not change the \emph{shape} of the graph, only its position and orientation in the plane.  If, however, we wanted to make a new graph twice as tall as a given graph, or one-third as wide, we would be changing the shape of the graph. This type of transformation is called \textbf{non-rigid}\index{transformation ! non-rigid} for obvious reasons.  Not only will it be important for us to differentiate between modifying inputs versus outputs, we must also pay close attention to the magnitude of the changes we make.  As you will see shortly, the Mathematics turns out to be easier than the associated grammar.
+
+\smallskip
+
+Suppose we wish to graph the function $g(x) =2 f(x)$ where $f(x)$ is the function whose graph is given at the beginning of the section. From its graph, we can build a table of values for $g$ as before.
+
+\begin{center}
+
+\begin{tabular}{m{1.5in}m{3.5in}}
+
+\begin{mfpic}[12]{-1}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+ 
+&
+
+\[ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+ x & (x,f(x)) & f(x) & g(x)=2f(x) & (x, g(x)) \\ \hline
+0  & (0,1)& 1 & 2 &(0, 2) \\  \hline
+2 & (2,3) & 3 &  6 &(2,6) \\  \hline
+4 & (4,3) & 3 &  6 &(4, 6) \\  \hline
+5 & (5,5) & 5 &  10 &( 5 ,10) \\  \hline
+
+\end{array} \] 
+
+\end{tabular}
+
+\end{center}
+
+\vspace{-.3in}
+
+In general, if $(a,b)$ is on the graph of $f$, then $f(a) = b$ so that $g(a) = 2 f(a) = 2b$ puts $(a,2b)$ on the graph of $g$.  In other words, to obtain the graph of $g$, we multiply all of the $y$-coordinates of the points on the graph of $f$ by $2$.  Multiplying all of the $y$-coordinates of all of the points on the graph of $f$ by $2$ causes what is known as a `vertical scaling\footnote{Also called a `vertical stretching', `vertical expansion' or `vertical dilation' by a factor of $2$.} by a factor of $2$', and the results are given on the next page. 
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{11}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,11){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7,8,9,10}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6, {\tiny $7$} 7, {\tiny $8$} 8, {\tiny $9$} 9,  {\tiny $10$} 10 }
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize vertical scaling by a factor of $2$ }}{\xrightarrow{\hspace{1.7in}}}}{\mbox{ \scriptsize multiply each $y$-coordinate by $2$}} 
+
+&
+
+
+\begin{mfpic}[15]{-1}{6}{-1}{11}
+%\polyline{(0,2), (2,6), (4,6), (5,10)}
+%\point[3pt]{(0,2), (2,6), (4,6), (5,10)}
+%\tlabel[cc](-1,2){\scriptsize $(0,2)$}
+%\tlabel[cc](2,6.5){\scriptsize $(2,6)$}
+%\tlabel[cc](4,5.5){\scriptsize $(4,6)$}
+%\tlabel[cc](5,10.5){\scriptsize $(5,10)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,11){\scriptsize $y$}
+\tcaption{\scriptsize $y= 2f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7,8,9,10}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6, {\tiny $7$} 7, {\tiny $8$} 8, {\tiny $9$} 9,  {\tiny $10$} 10 }
+\end{mfpic}
+
+\end{array} \]
+
+If we wish to graph $y = \frac{1}{2} f(x)$, we multiply the all of the $y$-coordinates of the points on the graph of $f$ by $\frac{1}{2}$.  This creates a `vertical scaling\footnote{Also called `vertical shrinking', `vertical compression' or `vertical contraction' by a factor of $2$.} by a factor of $\frac{1}{2}$' as seen below.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize vertical scaling by a factor of $\frac{1}{2}$ }}{\xrightarrow{\hspace{1.7in}}}}{\mbox{ \scriptsize multiply each $y$-coordinate by $\frac{1}{2}$}} 
+
+&
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+%\polyline{(0,0.5), (2,1.5), (4,1.5), (5,2.5)}
+%\point[3pt]{(0,0.5), (2,1.5), (4,1.5), (5,2.5)}
+%\tlabel[cc](-1,0.5){\scriptsize $\left(0,\frac{1}{2}\right)$}
+%\tlabel[cc](2,2){\scriptsize $\left(2,\frac{3}{2}\right)$}
+%\tlabel[cc](4,1){\scriptsize $\left(4,\frac{3}{2}\right)$}
+%\tlabel[cc](5,3){\scriptsize $\left(5,\frac{5}{2}\right)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=\frac{1}{2} f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1,{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{array} \]
+
+These results are generalized in the following theorem.
+
+\smallskip
+
+\bbm
+
+%\smallskip
+
+\begin{thm} \label{vscalings}\index{graph ! vertical scaling}\textbf{Vertical Scalings.}  Suppose $f$ is a function and $a>0$.  To graph $y=a f(x)$, multiply all of the $y$-coordinates of the points on the graph of $f$ by $a$.  We say the graph of $f$ has been vertically scaled by a factor of $a$. 
+
+\begin{itemize}
+
+\item If $a > 1$, we say the graph of $f$ has undergone a vertical stretching (expansion, dilation) by a factor of $a$. 
+
+\item If $0 < a < 1$, we say the graph of $f$ has undergone a vertical shrinking (compression, contraction) by a factor of $\frac{1}{a}$.
+
+\end{itemize}
+
+\end{thm}
+
+\ebm
+
+%\pagebreak
+
+A few remarks about Theorem \ref{vscalings} are in order.  First, a note about the verbiage.  To the authors, the words `stretching', `expansion', and `dilation' all indicate something getting bigger.  Hence, `stretched by a factor of $2$' makes sense if we are scaling something by multiplying it by $2$.  Similarly, we believe words like `shrinking', `compression' and `contraction' all indicate something getting smaller, so if we scale something by a factor of $\frac{1}{2}$, we would say it `shrinks by a factor of $2$' - not `shrinks by a factor of $\frac{1}{2}$'.  This is why we have written the descriptions `stretching by a factor of $a$' and `shrinking by a factor of $\frac{1}{a}$' in the statement of the theorem.  Second, in terms of inputs and outputs, Theorem \ref{vscalings} says multiplying the \textit{outputs} from a function by positive number $a$ causes the graph to be vertically scaled by a factor of $a$.  It is natural to ask what would happen if we multiply the \textit{inputs} of a function by a positive number.  This leads us to our last transformation of the section.
+
+\smallskip
+
+Referring to the graph of $f$ given at the beginning of this section, suppose we want to graph $g(x) = f(2x)$.  In other words, we are looking to see what effect multiplying the inputs to $f$ by $2$ has on its graph.  If we attempt to build a table directly, we quickly run into the same problem we had in our discussion leading up to Theorem \ref{hshifts}, as seen in the table below.  
+\begin{center}
+$ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+x & (x,f(x)) & f(x)& g(x)=f(2x) & (x, g(x)) \\ \hline
+0  & (0,1)& 1 & f(2 \cdot 0) = f(0) = 1   &(0, 1) \\  \hline
+2 & (2,3) & 3 & f(2\cdot2) = f(4) = 3  &(2,3) \\  \hline
+4 & (4,3) & 3 &  f(2 \cdot 4) = f(8) = ? &  \\  \hline
+5 & (5,5) & 5 & f(2 \cdot 5) = f(10) = ?  &  \\  \hline
+
+\end{array} $ 
+\end{center}
+
+We solve this problem in the same way we solved this problem before.  For example, if we want to determine the point on $g$ which corresponds to the point $(2,3)$ on the graph of $f$,  we set $2x =2 $ so that $x=1$.  Substituting $x=1$ into $g(x)$, we obtain $g(1) = f(2 \cdot 1) = f(2) = 3$, so that $(1,3)$ is on the graph of $g$. Continuing in this fashion, we obtain the following table.   
+
+%\smallskip
+
+%\begin{tabular}{cc}
+
+
+%&
+\begin{center}
+$ \begin{array}{|r||c|c|c|}  
+
+\hline
+
+x & 2x & g(x)=f(2x) & (x, g(x)) \\ \hline
+0 & 0 & g(0)=f(0) = 1   &(0, 0) \\  \hline
+1 &  2 &  g(1)=f(2) = 3  &(1,3) \\  \hline
+2 & 4  & g(2)=f(4) = 3 &  (2,3)\\  \hline
+\frac{5}{2}  & 5 & g\left(\frac{5}{2}\right)=f(5) = 5  & \left(\frac{5}{2},5\right) \\ [1pt] \hline
+
+\end{array} $
+\end{center}
+%\end{tabular} 
+
+%\smallskip
+
+In general, if $(a,b)$ is on the graph of $f$, then $f(a) = b$.  Hence $g\left(\frac{a}{2}\right) = f\left(2 \cdot \frac{a}{2}\right) = f(a) = b$ so that $\left(\frac{a}{2}, b\right)$ is on the graph of $g$.  In other words, to graph $g$ we divide the $x$-coordinates of the points on the graph of $f$ by $2$.  This results in a horizontal scaling\footnote{Also called `horizontal shrinking', `horizontal compression' or `horizontal contraction' by a factor of $2$.} by a factor of $\frac{1}{2}$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scaling by}}{\mbox{\scriptsize a factor of $\frac{1}{2}$ }}}{\xrightarrow{\hspace{1.3in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $\frac{1}{2}$}}} 
+
+&
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+%\polyline{(0,1), (1,3), (2,3), (2.5,5)}
+%\point[3pt]{(0,1), (1,3), (2,3), (2.5,5)}
+%\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+%\tlabel[cc](1,3.5){\scriptsize $(1,3)$}
+%\tlabel[cc](2,2.5){\scriptsize $(2,3)$}
+%\tlabel[cc](2.5,5.5){\scriptsize $\left(\frac{5}{2},5\right)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=g(x) = f(2x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{array}\]
+
+If, on the other hand, we wish to graph $y = f\left( \frac{1}{2} x\right)$, we end up multiplying the $x$-coordinates of the points on the graph of $f$ by $2$ which results in a horizontal scaling\footnote{Also called `horizontal stretching', `horizontal expansion' or `horizontal dilation' by a factor of $2$.} by a factor of $2$, as demonstrated below.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[11]{-1}{11}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\tiny $(0,1)$}
+\tlabel[cc](2,3.5){\tiny $(2,3)$}
+\tlabel[cc](4,2.5){\tiny $(4,3)$}
+\tlabel[cc](5,5.5){\tiny $(5,5)$}
+\tlabel[cc](11,-0.5){\tiny $x$}
+\tlabel[cc](0.5,6){\tiny $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5,6,7,8,9,10}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6, {\tiny $7$} 7, {\tiny $8$} 8, {\tiny $9$} 9, {\tiny $10$} 10}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scaling by}}{\mbox{\scriptsize a factor of $2$ }}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $2$}}} 
+
+&
+
+\begin{mfpic}[11]{-1}{11}{-1}{6}
+%\polyline{(0,1), (4,3), (8,3), (10,5)}
+%\point[3pt]{(0,1), (4,3), (8,3), (10,5)}
+%\tlabel[cc](-1,1){\tiny $(0,1)$}
+%\tlabel[cc](4,3.5){\tiny $(4,3)$}
+%\tlabel[cc](8,2.5){\tiny $(8,3)$}
+%\tlabel[cc](10,5.5){\tiny $(10,5)$}
+%\tlabel[cc](11,-0.5){\tiny $x$}
+%\tlabel[cc](0.5,6){\tiny $y$}
+\tcaption{\scriptsize $y=g(x) = f\left( \frac{1}{2} x \right)$}
+\axes
+\xmarks{1,2,3,4,5,6,7,8,9,10}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6, {\tiny $7$} 7, {\tiny $8$} 8, {\tiny $9$} 9, {\tiny $10$} 10}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{array}\]
+
+We have the following theorem.
+
+\smallskip
+
+\bbm
+
+%\smallskip
+
+\begin{thm} \label{hscalings}\index{graph ! horizontal scaling}\textbf{Horizontal Scalings.}  Suppose $f$ is a function and $b>0$.  To graph $y= f(bx)$, divide all of the $x$-coordinates of the points on the graph of $f$ by $b$. We say the graph of $f$ has been horizontally scaled by a factor of $\frac{1}{b}$. 
+
+\begin{itemize}
+
+\item If $0 < b < 1$, we say the graph of $f$ has undergone a horizontal stretching (expansion, dilation) by a factor of $\frac{1}{b}$. 
+
+\item If $b>1$, we say the graph of $f$ has undergone a horizontal shrinking (compression, contraction) by a factor of $b$.
+
+\end{itemize}
+
+\end{thm}
+
+\ebm
+
+%\smallskip
+
+Theorem \ref{hscalings} tells us that if we multiply the input to a function by $b$, the resulting graph is scaled horizontally by a factor of $\frac{1}{b}$ since the $x$-values are divided by $b$ to produce corresponding points on the graph of $y = f(bx)$.    The next example explores how vertical and horizontal scalings sometimes interact with each other and with the other transformations introduced in this section. 
+
+
+%USE THESE EXAMPLES BUT SMUSH THEM TOGETHER AND DON'T USE MFPIC AS MUCH
+
+\begin{example}  Let $f(x)= \sqrt{x}$.   Use the graph of $f$ to graph the following functions.  Also, state their domains and ranges.
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item  $g(x) =  3 \sqrt{x}$
+
+\item  $j(x) = \sqrt{9x}$
+
+%\item  $m(x) =1 - \sqrt{\frac{x+3}{2}}$
+
+\end{enumerate}
+\end{multicols}
+
+{\bf Solution.}  
+
+\begin{enumerate}
+
+\item  First we note that the domain of $g$ is $[0, \infty)$ for the usual reason.  Next, we have $g(x) = 3 f(x)$ so by Theorem \ref{vscalings}, we obtain the graph of $g$ by multiplying all of the $y$-coordinates of the points on the graph of $f$ by $3$.  The result is a vertical scaling of the graph of $f$ by a factor of $3$.  We find the range of $g$ is also $[0, \infty)$.
+%\newpage
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[13]{-1}{5}{-1}{7}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,7){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2,3,4,5,6}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize vertical scaling by}}{\mbox{\scriptsize a factor of $3$ }}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $y$-coordinate by $3$}}} 
+
+
+&
+
+\begin{mfpic}[13]{-1}{5}{-1}{7}
+%\arrow \function{0,5,0.1}{3*sqrt(x)}
+%\point[3pt]{(0,0), (1,3), (4,6)}
+%\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+%\tlabel[cc](1.5,2.5){\scriptsize $(1,3)$}
+%\tlabel[cc](3.5,6.5){\scriptsize $(4,6)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,7){\scriptsize $y$}
+\tcaption{\scriptsize $y= g(x) = 3 f(x)=3 \sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2,3,4,5,6}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6}
+\end{mfpic} \\
+
+\end{array} \]
+
+\item  To determine the domain of $j$, we solve $9x \geq 0$ to find $x \geq 0$. Our domain is once again $[0,\infty)$.   We recognize $j(x) = f(9x)$ and by Theorem \ref{hscalings}, we obtain the graph of $j$ by dividing the $x$-coordinates of the points on the graph of $f$ by $9$.  From the graph, we see the range of $j$ is also $[0,\infty)$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-0.5,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\stackrel{\mbox{\scriptsize horizontal scaling by}}{\mbox{\scriptsize a factor of $\frac{1}{9}$ }}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize multiply each}}{\mbox{\scriptsize $x$-coordinate by $\frac{1}{9}$}}} 
+
+&
+
+\begin{mfpic}[15]{-1}{5}{-1}{3}
+%\arrow \function{0,0.75,0.1}{sqrt(9*x)}
+%\point[3pt]{(0,0), (0.11111111,1), (0.44444444,2)}
+%\tlabel[cc](-0.5,0.25){\scriptsize $(0,0)$}
+%\tlabel[cc](1,0.75){\scriptsize $\left(\frac{1}{9},1\right)$}
+%\tlabel[cc](1,1.75){\scriptsize $\left(\frac{4}{9},2\right)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=j(x) = f(9x)=\sqrt{9x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic} \\
+
+\end{array} \]
+
+\end{enumerate}
+\end{example}

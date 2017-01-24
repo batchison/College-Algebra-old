@@ -1,0 +1,80 @@
+\subsection{Identifying Domain and Range Algebraically}
+
+%{\tmstrong{Objective: }}\pp
+
+%Now comes finding domain from functions from Wallace
+When trying to identify the domain of a function that has been described algebraically or whose graph is not known, we will often need to consider what is \textit{not} permissible for the function, then exclude any values of $x$ that will make the function undefined from the interval $(-\infty,\infty)$.  What is left will be our domain.  With virtually every algebraic function, this amounts to avoiding the following situations.
+\begin{itemize}
+	\item Negatives under an even radical $\left(\sqrt{~}~,~~\sqrt[4]{~}~,~~\sqrt[6]{~}~,~\ldots\right)$
+	\item Zero in a denominator
+\end{itemize}
+In the previous three chapters, we dealt exclusively with linear and quadratic equations.  While both linears and quadratics also represent $y$ as a function of $x$, they are also included in a much larger family of functions known as \textit{polynomials}.  Polynomial functions, which are discussed in detail in the next chapter, are functions of the form
+$$f(x)=a_nx^n+a_{n-1}x^{n-1}+\ldots+a_2x+a_1x+a_0,$$
+where each of the coefficients $a_i$ represent real numbers (with $a_n\neq 0$) and $n$ represents a nonnegative integer.  Since polynomials  contain no radicals or variables in a denominator, we can immediately conclude that their domain will always be all real numbers, or $(-\infty,\infty)$.  We reiterate this with our first example.
+  
+\begin{example}~~~Find the domain of $f(x)=\frac{1}{3} x^2-x$.
+  \begin{eqnarray*}
+    f (x) = \frac{1}{3} x^2 - x & & \text{No~radicals~or~variables~in~a~denominator}\\
+		& & \text{No~values~of~} x\text{~need~to~be~excluded}\\
+		\tmop{All~real~numbers~or~}(-\infty,\infty) & & \tmop{Our} \tmop{solution}
+ \end{eqnarray*}
+ \end{example}
+
+Our next example will be of a \textit{rational~function}, which is defined as a ratio of two polynomial functions.  We will explore rational functions and their graphs in a later chapter.  Since rational functions usually include expressions in a denominator, their domains will often require us to exclude one or more values of $x$.
+
+\begin{example}~~~Find the domain of the function $f (x) = \dfrac{3 x - 1}{x^2 + x - 6}$.
+  \begin{eqnarray*}
+    f (x) = \frac{3 x - 1}{x^2 + x - 6}
+    &  & \tmop{Cannot~have~zero~in~a~denominator}\\
+		& & \\
+    x^2 + x - 6 \neq 0 &  & \tmop{Solve} \tmop{by} \tmop{factoring}\\
+    (x + 3) (x - 2) \neq 0 &  & \tmop{Set} \tmop{each} \tmop{factor}
+    \tmop{not} \tmop{equal} \tmop{to} \tmop{zero}\\
+    x + 3 \neq 0 \tmop{~and~} x - 2 \neq 0 &  & \tmop{Solve} \tmop{each}
+    \tmop{inequality}\\
+%    \underline{- 3~~~ - 3} ~~~~~~~ \underline{+ 2~~~ + 2} &  & \\
+    x \neq - 3, 2 &  & \tmop{Our~solution~as~an~inequality}\\
+		(-\infty,-3)\cup(-3,2)\cup(2,\infty) & & \text{Our~solution~using~interval~notation}
+  \end{eqnarray*}
+\end{example}
+
+The notation in the previous example tells us that $x$ can be any value except
+for $- 3$ and $2$. If $x$ were to equal one of those two values, our expression in the denominator would reduce to zero and the function
+would consequently be undefined.  Furthermore, although one can easily see that $x=\frac{1}{3}$ will make the numerator equal zero, since $x=\frac{1}{3}$ does not coincide with the two values obtained above (either -3 or 2), we should not exclude it from our domain.\pp
+ %MM
+This example further illustrates that whenever we are finding the domain of a rational function, we need not be concerned at all with the numerator, and instead must restrict our domain to exclude any value for $x$ that would make the \textit{denominator} equal to zero.\pp
+For our final two examples, we will introduce a square root in our function, first in the numerator and later in the denominator.
+
+\begin{example}~~~Find the domain of $f (x) = \sqrt[]{-2 x + 3}$.
+  \begin{eqnarray*}
+    f (x) = \sqrt[]{-2 x + 3} &  & \tmop{Even~radical;~cannot~have~negative~underneath}\\
+    %& & \\
+		-2 x + 3 \geq 0 &  & \tmop{Set~greater~than~or~equal~to~zero~and~solve}\\
+    -2 x \geq -3 &  & \tmop{Remember~to~switch~direction~of~inequality}\\
+		& &\\
+    x \leq \frac{3}{2} \text{~~or~} \left(-\infty,\frac{3}{2}\right]&  & \tmop{Our~solution~as~an~inequality~or~an~interval}
+		 %\left(-\infty,\frac{3}{2}\right] & &\tmop{Our~solution~as~an~interval}
+  \end{eqnarray*}
+\end{example}
+
+The notation in the above example states that our variable can be
+$\frac{3}{2}$ or any real number less than $\frac{3}{2}$. But any number greater
+than $\frac{3}{2}$ would make the function undefined.
+\newpage
+
+\begin{example}~~~Find the domain of $m (x) = \dfrac{-x}{\sqrt[]{7x-3}}$.\pp
+  The even radical tells us that we cannot have a negative value underneath.  But also, the denominator cannot equal zero.  This results in two inequalities.
+%	\begin{eqnarray*}
+%    m (x) = \frac{-1}{\sqrt[]{7x-3}} &  & \\
+		$$7x - 3 \geq  0 \text{~~AND~~} 7x-3 \neq 0$$
+Solving for $x$, we get the following.
+$$	x \geq \frac{3}{7} \text{~~AND~~} x \neq \frac{3}{7}$$
+Our final solution is $x > \dfrac{3}{7}$, or $\left(\dfrac{3}{7},\infty\right)$ as an interval.  This represents the intersection of both inequalities above.
+\end{example}
+
+The previous two examples can be generalized as follows.
+\begin{itemize}
+	\item In instances where the given function is a square root (or even radical), to find the domain we may set up and solve an inequality in which the entire expression underneath is set $\geq 0$.
+	\item In instances where the numerator of a given function is a polynomial and the denominator is a square root (or even radical), to find the domain we may set up and solve an inequality in which the expression underneath is set $> 0$ (strictly positive).
+\end{itemize}
+Since these two cases certainly do not handle every possible function than we may encounter, one should always be cautious when attempting to find the domain of any function.
