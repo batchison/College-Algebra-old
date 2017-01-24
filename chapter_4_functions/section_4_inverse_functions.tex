@@ -1,0 +1,680 @@
+\documentclass[11pt]{book}
+
+%determine if  a function has an inverse 
+%subsection at the top first--> One to one with defintion and graphically 
+
+%\oddsidemargin 0in
+%\evensidemargin 0in
+%\marginparwidth 0in
+ 
+%\usepackage[top=1in
+%,left=1.5in,
+%bottom=1in,%right=1in,textheight=8.5in,textwidth=6in
+%]{geometry}
+
+% \usepackage{pgfplots}%Mark added
+\usepackage{amsfonts,amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{docmute}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{graphics}
+\usepackage{pgf, tikz} 
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{setspace}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage[english]{babel}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{vwcol}
+\usepackage{xcolor}
+\usepackage{cancel}
+
+%COMMENTED OUT THE FOLLOWING BECAUSE IT WAS GIVING ME TROUBLE 
+%\usepackage[
+%type={CC},
+%modifier={by-nc-sa},
+%version={4.0},
+%]{doclicense}
+%\usepackage{bbm}
+ 
+%First appears in II.1.1
+\newcommand{\tmdummy}{$\mbox{}$}
+\newcommand{\tmmathbf}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+\newcommand{\tmstrong}[1]{\textbf{#1}}
+%{\theorembodyfont{\rmfamily}
+%First appears in II.1.?
+\newcommand{\tmem}[1]{{\em #1\/}}
+%\newenvironment{enumeratenumeric}{\begin{enumerate}[1.] }{\end{enumerate}}
+%First appears in II.1.6a
+\newenvironment{itemizedot}{\begin{itemize} \renewcommand{\labelitemi}{$\bullet$}\renewcommand{\labelitemii}{$\bullet$}\renewcommand{\labelitemiii}{$\bullet$}\renewcommand{\labelitemiv}{$\bullet$}}{\end{itemize}}
+ 
+ 
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{1.0} %SZ set to gray, 0.9
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem*{defn}{Definition}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+%\newtheorem*{thm}{Theorem}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{thm}{Theorem}[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem*{cor}%[thm]
+{Corollary} % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{eqn}{Equation}[chapter]
+\newtheorem{ex}{Example}[chapter] % this is needed for all Stitz Zeager content.
+\newtheorem{example}{Example}[chapter]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\setlength{\extrarowheight}{2pt}
+\newcommand{\bbm}{\begin{boxedminipage}{4.80in}} %SZ set to 6.41
+\newcommand{\ebm}{\end{boxedminipage}}
+\newcounter{HW}
+\newcounter{HWindent}
+ 
+\newcommand{\comment}[1]{}
+\newcommand{\pp}{\par~\par}
+
+\begin{document}
+%\mfpicnumber{1}
+%\opengraphsfile{InversesAttempt}
+\subsection{Definition and Horizontal Line Test}
+
+{\tmstrong{Objective: Introduce the concept of an inverse function and examine the graphical relationship between a function and its inverse.  Determine whether or not a function is invertible using the Horizontal Line Test.}}\pp
+
+In this section, we introduce the notion of an inverse function to a function $f$, and develop an understanding of the relationship (both algebraic and graphical) between a function $f$ and its inverse.\\
+~\\
+One often considers the operations of addition and subtraction to be ``opposites'' of one another, and similarly for multiplication and division.  The reason for this, naturally, is because each of these operations ``undoes'' the other.  In mathematics, since the term ``opposite'' can take on different meanings, we instead consider addition and subtraction (or multiplication and division) to be \textit{inverse operations} of one another.  This notion of an inverse can be applied to entire functions, which we will now discuss.\\
+~\\
+We start by analyzing a very basic function which is reversible, a linear function.  Consider the function $f(x) = 3x+4$.  Thinking of $f$ as a process, we start with an input $x$ and apply two steps, in order: 
+
+\begin{enumerate}
+	\item multiply by $3$ 
+	\item add $4$. 
+\end{enumerate}
+
+To reverse this process, we seek a function $g$ which will undo each of these steps, by taking the output from $f$, $3x+4$, and returning the original input $x$.  If we think of the real-world reversible two-step process of first putting on socks then putting on shoes, to reverse the process, we first take off the shoes, and then we take off the socks.    In much the same way, the function $g$ should undo the last step of $f$ first.  That is, the function $g$ should:
+
+\begin{enumerate}
+	\item subtract  $4$, then 
+	\item divide by $3$. 
+\end{enumerate}
+
+Following this procedure, we get $g(x) = \dfrac{x-4}{3}$.\\
+~\\
+Now we can test our function to see if it conceptually agrees with our ``feet, socks, and shoes'' analogy.  Just as in the first part of the process we began with our bare feet and ended up in shoes, the reverse process brings us back, in the end, to our bare feet.  We can see if this holds for $f$ and $g$ by using what we already know about functions.\\
+
+For example, if $x=5$, then $$f(5) = 3(5)+4 = 15+4 = 19.$$
+Substituting the output $19$ from $f$ as our new input for $g$, we get $$g(19) = \dfrac{19-4}{3} = \dfrac{15}{3} = 5,$$
+which is our original input for $f$.\\
+
+To check that $g$ does this for all $x$ in the domain of $f$ (not just a single value), we will need to find and simplify the composite function $(g\circ f)(x)=g(f(x))$.
+
+$$g(f(x)) = g(3x+4) = \dfrac{(3x+\cancel{4})-\cancel{4}}{3} = \dfrac{\cancel{3}x}{\cancel{3}} = x$$
+
+If we carefully examine the arithmetic, as we simplify $g(f(x))$, we can actually see $g$ ``undoing'' the addition of $4$ first, followed by the multiplication by $3$.\\
+
+Not only does $g$ ``undo'' $f$, but $f$ also undoes $g$, which we can verify by once again looking at a composite function.  This time we will find and simplify $(f\circ g)(x)=f(g(x))$.
+
+$$f(g(x)) = f\left(\dfrac{x-4}{3}\right) = \cancel{3} \left(\dfrac{x-4}{\cancel{3}}\right) + 4 = (x-\cancel{4}) + \cancel{4} = x$$
+
+In each composition, we began and ended with the variable $x$, which can be thought of as the bare feet in our analogy.  Two functions $f$ and $g$ which are related in this manner are defined to be \textit{inverse functions}, or simply \textit{inverses}, of each other.  More precisely, using the language of function composition, two functions $f$ and $g$ are said to be inverses if both:
+
+\begin{itemize}
+	\item $g(f(x)) = x$ for all $x$ in the domain of $f$, and 
+	\item $f(g(x)) = x$ for all $x$ in the domain of $g$.
+\end{itemize}
+
+We say that a function $f$ is \textit{invertible} if an inverse function of $f$ exists.  If two functions $g$ and $f$ are inverses of each other, then we denote this by $g(x)=f^{-1}(x)$, and similarly $f(x)=g^{-1}(x)$.  This notation can be a bit ``gnarly'' at first, since an inverse function $f^{-1}$ of $f$ must not be confused with the reciprocal function, $1/f$.  The primary difference between these two functions is that a reciprocal function satisfies the property that $$f(x)\cdot (1/f)(x)=1,$$ whereas for inverses, $$(f\circ f^{-1})(x)=x \text{~~~~and~~~~} (f^{-1}\circ f)(x)=x.$$
+Using our function $f(x)=3x+4,$ we can see this distinction.
+
+\begin{itemize}
+	\item Original Function: $f(x)=3x+4$
+	\item Inverse Function: $f^{-1}(x)=\dfrac{x-4}{3}$
+	\item Reciprocal Function: $(1/f)(x)=\dfrac{1}{3x+4}$
+\end{itemize}
+
+
+\smallskip
+
+\colorbox{ResultColor}{\bbm
+
+\begin{thm}\textbf{Properties of Inverse Functions:}\\ Let $f$ and $f^{-1}$ be inverse functions of one another. \index{inverse ! of a function ! properties of} \index{function ! inverse ! properties of}
+
+\begin{itemize}
+
+\item  The range of $f$ is the domain of $f^{-1}$ and the domain of $f$ is the range of $f^{-1}$.
+
+\item  $f(a) = b$ if and only if $f^{-1}(b) = a$.
+
+\item  The point $(a,b)$ is on the graph of $f$ if and only if the point $(b,a)$ is on the graph of $f^{-1}$.
+
+\end{itemize}
+
+\label{inversefunctionprops}
+
+\end{thm}
+\ebm}
+
+\smallskip
+
+As a direct consequence of the third property above, we will see that the graph of $f^{-1}$ may be obtained by reflecting the graph of $f$ about the line $y=x$.  Again, we will use our example, by graphing the inverse functions $f(x) = 3x+4$ and $f^{-1}(x) = \dfrac{x-4}{3}$ on the same set of axes.
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-5,0) -- coordinate (x axis mid) (5,0) node[below right] {$x$};
+\draw [<->](0,-5) -- coordinate (y axis mid) (0,5) node[above right] {$y$};
+\foreach \x in {-4,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,4}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-4,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,4}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw [<->, line width=1.25pt, domain=-2.5:0.25] plot (\x, {3*(\x)+4});
+\draw [<->,gray, domain=-3.5:4.75] plot (\x, {(\x-4)/3});
+\draw [<->,dotted, domain=-4:4] plot (\x,{\x});
+\node at (4,3) {\scriptsize $y=x$};
+\node at (1.75,4.5) {\scriptsize $f(x)=3x+4$};
+\node at (4.5,1) {\scriptsize $f^{-1}(x)=\dfrac{x-4}{3}$};
+\draw[fill] (0,4) circle (0.075);
+\draw[fill, gray] (4,0) circle (0.075);
+\draw[fill] (-1.33333,0) circle (0.075);
+\draw[fill, gray] (0,-1.33333) circle (0.075);
+\end{tikzpicture}
+\end{center}
+
+Again, from the third property, the figure above confirms that the $y-$intercept $(0,b)$ of the graph of $f$ will be an $x-$intercept $(b,0)$ of the graph of $f^{-1}$.  Similarly, the $x-$intercept of the graph of $f$ will be a $y-$intercept of the graph of $f^{-1}$.\\
+
+%TODO: Discuss the symmetry, pick out certain points, expound on the properties
+
+Let us now turn our attention to the quadratic function $f(x) = x^2$.  Is $f$ invertible?  If we consider the idea of ``undoing'' an operation, a likely candidate for the inverse of $f$ is the function $g(x) = \sqrt{x}$.  Checking the composition gives us
+$$(g\circ f)(x) = g(f(x)) = \sqrt{x^2} = |x|,$$
+which is not equal to $x$, for all real numbers in the domain of $f$, $(-\infty, \infty)$.\\
+~\\
+This subtle issue arises when we input a negative value for $x$ into the composition above.  For example, when $x=-2$,  $f(-2)= (-2)^2 = 4$, but $g(4) = \sqrt{4}=2$.  Hence, $g$ fails to return the original input $x=-2$ from its output of $4$.  What $g$ does, however, is match the output $4$ to a \textit{different} input, namely $x=2$, since $f(2)$ also equals $4$.\\
+Since both $f(-2)$ and $f(2)$ equal $4$, it will be impossible to construct a function which inputs $x=4$ and outputs \textit{both} $x=2$ and $x=-2$.  This is due to the fact that, by definition, a function assigns a real number $x$ with exactly one other real number.\\
+~\\
+Furthermore, we know that if and inverse $f^{-1}$ of $f(x)=x^2$ exists, its graph can be obtained by reflecting the graph of $x^2$ about the line $y=x$.\\ 
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+\draw [<->](-7,0) -- coordinate (x axis mid) (7,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,8) node[above right] {$y$};
+\foreach \x in {-6,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,6}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y);
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,7}
+\draw (1pt,\y) -- (-3pt,\y); 
+\foreach \y in {2,4,6}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \x in {2,4,6}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\draw [<->, line width=1.25pt, domain=-2.5:2.5] plot (\x, {(\x)^2});
+\draw [<->, dotted, domain=-2.5:2.5] plot (\x, 4);
+\draw [<->, dotted] (4, -2.5) -- (4, 2.5);
+\draw [<->, gray, domain=0:6.25] plot (\x, {(\x)^0.5});
+\draw [<->, gray, domain=0:6.25] plot (\x, {-(\x)^0.5});
+%\draw [<->,gray, domain=-3.5:4.75] plot (\x, {(\x-4)/3});
+\draw [<->,dotted, domain=-3:4] plot (\x,{\x});
+\node at (-4,-3) {\scriptsize $y=x$};
+\node at (-4.5,4) {\scriptsize $y=4$};
+\node at (4,-3.5) {\scriptsize $x=4$};
+%\node at (1.75,4.5) {\scriptsize $f(x)=3x+4$};
+%\node at (4.5,1) {\scriptsize $f^{-1}(x)=\dfrac{x-4}{3}$};
+\draw[fill] (2,4) circle (0.075);
+\draw[fill] (-2,4) circle (0.075);
+\draw[fill, gray] (4,2) circle (0.075);
+\draw[fill, gray] (4,-2) circle (0.075);
+%\draw[fill, gray] (4,0) circle (0.075);
+%\draw[fill] (-1.33333,0) circle (0.075);
+%\draw[fill, gray] (0,-1.33333) circle (0.075);
+\end{tikzpicture}
+\end{center}
+
+In the above graph, we see that the vertical line $x=4$ intersects the reflection of the parabola $y=x^2$ about the diagonal $y=x$ twice, which fails the Vertical Line Test, and as such, our proposed inverse cannot represent $y$ as a function of $x$.\\
+~\\
+The vertical line $x=4$ corresponds to the \textit{horizontal line} $y=4$ intersecting the graph of the parabola $y=x^2$.  The fact that the horizontal line $y=4$ intersects the graph of $y=x^2$ twice further confirms that two \textit{different} inputs, namely $x=-2$ and $x=2$, are paired with the \textit{same} output, $4$, which is the cause of all our trouble in attempting to find an inverse function to $f(x)=x^2$.\\
+~\\
+In general, in order for a function to be invertible, the function must have the property that any two inputs for $x$ can never be paired with the same output, or else we will run into the same problem as with $f(x) = x^2$.  We give this property a name.\\
+
+%\smallskip
+
+\colorbox{ResultColor}{\bbm
+
+\begin{defn} \label{onetoone} A function $f$ is said to be \index{function ! one-to-one} \textit{one-to-one} if $f$ matches different inputs to different outputs.  Equivalently, $f$ is one-to-one if and only if  whenever $f(c) = f(d)$, then $c=d$. \index{one-to-one function}
+
+\end{defn}
+\ebm}
+
+%\smallskip
+
+Graphically, we can identify one-to-one functions using the following test.\\
+
+%\smallskip
+
+\colorbox{ResultColor}{\bbm
+
+\begin{thm}  \textbf{The Horizontal Line Test (HLT):}\index {Horizontal Line Test (HLT)}\\
+A function $f$ is one-to-one if and only if no horizontal line intersects the graph of $f$ more than once.
+
+\label{HLT}
+
+\end{thm}
+
+\ebm}
+
+\smallskip
+
+We say that the graph of a function \textbf{passes} the Horizontal Line Test  if no horizontal line intersects the graph more than once; otherwise, we say the graph of the function \textbf{fails} the Horizontal Line Test.\\
+~\\
+Lastly, we have argued that if $f$ is invertible, then $f$ must be one-to-one, since otherwise the reflection of the graph of $y = f(x)$ about the line $y = x$ will fail the Vertical Line Test.  It turns out that being one-to-one is also enough to guarantee invertibility of a function $f$.  To see this, we can think of $f$ as the set of ordered pairs which constitute its graph.  If switching the $x$- and $y$-coordinates of the points results in a function (i.e., passes the VLT), then $f$ is invertible and we have found the graph of its inverse, $f^{-1}$. This is precisely what the Horizontal Line Test does for us: it checks to see whether or not a set of points describes $x$ as a function of $y$.\\
+~\\
+We summarize these results below.\\
+
+\colorbox{ResultColor}{\bbm
+
+\begin{thm}  \textbf{Equivalent Conditions for Invertibility:}\\
+Suppose $f$ is a function. The following statements are equivalent.
+\begin{itemize}
+\item $f$ is invertible ($f^{-1}$ exists).
+\item $f$ is one-to-one.
+\item The graph of $f$ passes the Horizontal Line Test.
+\end{itemize}
+
+\end{thm}
+
+\ebm}
+
+\smallskip
+\newpage
+
+In the case of $f(x)=x^2$, since the corresponding parabola fails the Horizontal Line Test, $f$ is not invertible.  If we were to restrict the domain of our function to either the left half ($x\leq 0$) or right half ($x\geq 0$) of the parabola, however, we could produce a function that passes the HLT and consequently has an inverse, as seen in the following two graphs. 
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.4,yscale=0.4]
+\draw [<->](-7,0) -- coordinate (x axis mid) (7,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,8) node[above right] {$y$};
+\foreach \x in {-6,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,6}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y);
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,7}
+\draw (1pt,\y) -- (-3pt,\y); 
+\draw [<-, line width=1.25pt, domain=-2.5:0] plot (\x, {(\x)^2});
+%\draw [<->, dotted, domain=-2.5:2.5] plot (\x, 4);
+%\draw [<->, dotted] (4, -2.5) -- (4, 2.5);
+%\draw [<->, gray, domain=0:6.25] plot (\x, {(\x)^0.5});
+\draw [->, gray, domain=0:6.25] plot (\x, {-(\x)^0.5});
+%\draw [<->,gray, domain=-3.5:4.75] plot (\x, {(\x-4)/3});
+\draw [<->,dotted, domain=-3:4] plot (\x,{\x});
+\node at (-4,-3) {\scriptsize $y=x$};
+\node at (-5,2) {\scriptsize $f(x)=x^2$,};
+\node at (-4.75,1) {\scriptsize $x\leq 0$};
+\node at (3,-3.5) {\scriptsize $f^{-1}(x)=-\sqrt{x}$};
+%\node at (1.75,4.5) {\scriptsize $f(x)=3x+4$};
+%\node at (4.5,1) {\scriptsize $f^{-1}(x)=\dfrac{x-4}{3}$};
+%\draw[fill] (2,4) circle (0.075);
+%\draw[fill] (-2,4) circle (0.075);
+%\draw[fill, gray] (4,2) circle (0.075);
+%\draw[fill, gray] (4,-2) circle (0.075);
+%\draw[fill, gray] (4,0) circle (0.075);
+%\draw[fill] (-1.33333,0) circle (0.075);
+%\draw[fill, gray] (0,-1.33333) circle (0.075);
+\end{tikzpicture}
+~
+\begin{tikzpicture}[xscale=0.4,yscale=0.4]
+\draw [<->](-7,0) -- coordinate (x axis mid) (7,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,8) node[above right] {$y$};
+\foreach \x in {-6,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,6}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y);
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,7}
+\draw (1pt,\y) -- (-3pt,\y); 
+\draw [->, line width=1.25pt, domain=0:2.5] plot (\x, {(\x)^2});
+%\draw [<->, dotted, domain=-2.5:2.5] plot (\x, 4);
+%\draw [<->, dotted] (4, -2.5) -- (4, 2.5);
+%\draw [<->, gray, domain=0:6.25] plot (\x, {(\x)^0.5});
+\draw [->, gray, domain=0:6.25] plot (\x, {(\x)^0.5});
+%\draw [<->,gray, domain=-3.5:4.75] plot (\x, {(\x-4)/3});
+\draw [<->,dotted, domain=-3:4] plot (\x,{\x});
+\node at (-4,-3) {\scriptsize $y=x$};
+\node at (5,6) {\scriptsize $g(x)=x^2,$};
+\node at (5.25,5) {\scriptsize $x\geq 0$};
+\node at (5,1.25) {\scriptsize $g^{-1}(x)=\sqrt{x}$};
+%\node at (-4.5,4) {\scriptsize $y=4$};
+%\node at (4,-3.5) {\scriptsize $x=4$};
+%\node at (1.75,4.5) {\scriptsize $f(x)=3x+4$};
+%\node at (4.5,1) {\scriptsize $f^{-1}(x)=\dfrac{x-4}{3}$};
+%\draw[fill] (2,4) circle (0.075);
+%\draw[fill] (-2,4) circle (0.075);
+%\draw[fill, gray] (4,2) circle (0.075);
+%\draw[fill, gray] (4,-2) circle (0.075);
+%\draw[fill, gray] (4,0) circle (0.075);
+%\draw[fill] (-1.33333,0) circle (0.075);
+%\draw[fill, gray] (0,-1.33333) circle (0.075);
+\end{tikzpicture}
+\end{center}
+
+In the next subsection, we will outline the process of determining whether or not a function is invertible, and if so, find its inverse function algebraically.
+
+\newpage
+
+\subsection{Finding Inverses Algebraically}
+
+{\tmstrong{Objective: Determine whether or not a function is invertible.  Find the inverse of a function algebraically.}}\pp
+
+Recall that a function $f$ is one-to-one if and only if whenever $f(c) = f(d)$, then $c=d$.  Using this definition, we will now test whether or not a given function is one-to-one and consequently invertible.
+
+\begin{example} Determine if the function $f(x) = \dfrac{1-2x}{5}$ is one-to-one.\\
+~\\
+Notice that $f$ is a linear function with a nonzero slope.  Hence, its graph passes the Horizontal Line Test.  To confirm that $f$ is one-to-one algebraically, we begin by assuming $f(c) = f(d)$ and attempt to deduce that $c=d$. 
+
+\[ \begin{array}{rclr}
+
+f(c) & = & f(d) & \\ [3pt]
+\dfrac{1-2c}{5} & = & \dfrac{1-2d}{5} & \\ [5pt]
+1-2c & = & 1-2d & \\
+-2c & = & -2d & \\
+c & = & d \, \, \checkmark & \\
+
+\end{array} \]
+
+Hence, $f$ is one-to-one.
+\end{example}
+
+
+\begin{example} Determine if the function $g(x) = \dfrac{2x}{1-x}$ is one-to-one.\\
+~\\
+The function $g$ is known as a rational function, and will be formally discussed in a later chapter.  To determine whether or not $g$ is one-to-one, we must use an algebraic approach.  Again, we begin with the assumption that $g(c) = g(d)$.
+
+\[ \begin{array}{rclr}
+g(c) & = & g(d) & \\ [3pt]
+\dfrac{2c}{1-c} & = & \dfrac{2d}{1-d} & \\ [6pt]
+2c(1-d) & = & 2d(1-c) & \\
+2c - 2cd & = & 2d - 2dc & \\
+2c & = & 2d & \\
+c & = & d \, \, \checkmark \\ 
+\end{array} \]
+
+Hence, $g$ is one-to-one.  
+\end{example}
+
+\begin{example} Determine if the function $h(x) = x^2 - 2x+4$ is one-to-one.\\
+~\\
+Notice that $h$ is a quadratic function, whose graph is a parabola, and consequently fails the Horizontal Line Test.  This means that our function should not be one-to-one.  We now verify this algebraically.\\
+~\\
+Let $h(c) = h(d)$.  As we work our way through the problem, we encounter a nonlinear equation, which requires us to set the right-hand side equal to zero and factor accordingly.
+
+\[ \begin{array}{rclr}
+
+h(c) & = & h(d) & \\
+c^2 - 2c+4 & = & d^2 - 2d+4 & \\
+
+c^2 - 2c & = & d^2 - 2d & \\
+
+c^2 - d^2 - 2c + 2d & = & 0 & \mbox{Factor by grouping} \\
+
+(c+d)(c-d) - 2(c-d) & = & 0 & \mbox{Difference of squares}\\
+
+(c-d)((c+d) -2) & = & 0 & \\
+
+c-d = 0 & \mbox{or} & c+d -2 = 0 & \\
+
+c = d & \mbox{or} & c = 2-d & \\
+
+\end{array} \]
+
+We get $c=d$ as one possibility, but we also get the possibility that $c=2-d$.  This suggests that $h$ will likely not be one-to-one.\\
+~\\
+Letting $d=0$, we get $c = 0$ or $c = 2$.  This implies that, $h(0) = 4$ and $h(2) = 4$, and we have produced two different inputs with the same output.  Hence, $h$ is not one-to-one, as anticipated.
+\end{example}
+
+Once we have established whether a function $f$ is one-to-one, and consequently invertible, our next task is to identify $f^{-1}$ precisely.  In the previous part of this section, we noticed that switching each point, $(x,y)$, of the graph of $f$ produced a point $(y,x)$ on the graph of $f^{-1}$. This is our motivation in the steps for finding an inverse algebraically, as we will be switching the $x$ and $y$ coordinates to do so.
+
+\smallskip
+
+\colorbox{ResultColor}{\bbm
+
+\phantomsection \label{inverseprocedure}
+
+\centerline{\textbf{Steps for finding the Inverse of a Function}} 
+
+\begin{enumerate}
+
+\item  Rewrite $f(x)$ as $y$.
+
+\item  Switch $x$ and $y$.
+
+\item  Solve for $y$.
+
+\item  Rewrite $y$ as $f^{-1}(x)$.
+
+\end{enumerate}
+
+\ebm}
+
+\smallskip 
+
+In the next few examples, we find the inverse of each function $f$, as well as confirm that the domain of $f$ is the range of $f^{-1}$ and the range of $f$ is the domain of $f^{-1}$.  We also check each answer using function composition.  We leave it as an exercise to the reader to graph each function (using a graphing utility where necessary), and verify that the two functions are reflections of each other about the line $y=x$.
+
+\begin{example}~~~  Find the inverse $f^{-1}$ of the function $f(x)=\dfrac{1-2x}{5}$.  Verify using compositions that $f$ and $f^{-1}$ are inverses, and that the domain and range of $f$ equal the range and domain of $f^{-1}$, respectively.\\
+~\\
+We write $y=f(x)$ and proceed to switch $x$ and $y$
+
+
+\[ \begin{array}{rclr}
+
+y & = & f(x) & \\ [3pt]
+y & = &  \dfrac{1-2x}{5} & \\ [6pt]
+x & = & \dfrac{1-2y}{5} & \mbox{Switch $x$ and $y$} \\ [6pt]
+5x & = & 1 - 2y & \mbox{Solve for $y$} \\ [6pt]
+5x-1 & = & -2y & \\ 
+\dfrac{5x-1}{-2} & = & y & \\ 
+y & = & -\dfrac{5}{2} x + \dfrac{1}{2} & \\
+\end{array} \]
+
+We have $f^{-1}(x) = -\frac{5}{2} x + \frac{1}{2}$.\\
+~\\
+To verify this answer, we first check that $\left(f^{-1} \circ f \right)(x) = x $ for all $x$ in the domain of $f$, which is all real numbers.
+
+\[ \begin{array}{rclr}
+\left(f^{-1} \circ f \right)(x) & = & f^{-1}(f(x)) & \\ 
+& = & -\dfrac{5}{2} f(x) + \dfrac{1}{2} & \\ [6pt]
+& = & -\dfrac{5}{2} \left(\dfrac{1-2x}{5}\right) + \dfrac{1}{2} & \\ 
+& = & -\dfrac{1}{2} (1-2x) + \dfrac{1}{2} & \\ [6pt]
+& = & -\dfrac{1}{2} + x + \dfrac{1}{2} & \\ 
+& = & x \, \, \checkmark \\
+
+\end{array}\]
+
+We now check that $\left(f \circ f^{-1} \right)(x) = x $ for all $x$ in the domain of $f^{-1}$ which is also all real numbers.
+
+\[ \begin{array}{rclr}
+\left(f \circ f^{-1} \right)(x) & = & f(f^{-1}(x)) & \\ [3pt]
+& = &\dfrac{1-2f^{-1}(x)}{5} & \\ [6pt]
+& = &\dfrac{1-2\left(  -\frac{5}{2} x + \frac{1}{2} \right)}{5} & \\ [6pt]
+& = & \dfrac{1+5x-1}{5} & \\ 
+& = &\dfrac{5x}{5}  & \\
+& = & x \, \, \checkmark\\
+\end{array}\]
+
+Since both $f$ and $f^{-1}$ are linear functions with nonzero slopes, their domain and range is all real numbers, $(-\infty,\infty)$.
+
+%\begin{tikzpicture}[xscale=1,yscale=1]
+%\draw [<->](-3,0) -- coordinate (x axis mid) (3,0) node[below right] {$x$};
+%\draw [<->](0,-3) -- coordinate (y axis mid) (0,3) node[above right] {$y$};
+%\foreach \x in {-2,...,-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\x};
+%\foreach \x in {1,...,2}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\x};
+%\foreach \y in {-2,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y) 
+%node[anchor=east] {\y}; 
+%\foreach \y in {1,...,2}
+%\draw (1pt,\y) -- (-3pt,\y) 
+%node[anchor=east] {\y}; 
+%\draw [<->,blue, domain=-2.7:2.7] plot (\x, {(1-2*\x)/5});
+%\draw [<->,violet, domain=-1.5:1.5] plot (\x, {(-5*\x+1)/2});
+%\draw [<->,dotted, domain=-2.5:2.5] plot (\x,{\x});
+%\end{tikzpicture}
+\end{example}
+
+\begin{example}~~~  Find the inverse $g^{-1}$ of the function $g(x) = \dfrac{2x}{1-x}$.  Verify using compositions that $g$ and $g^{-1}$ are inverses, and that the domain and range of $g$ equal the range and domain of $g^{-1}$, respectively.\\
+~\\
+Notice that the domain of $g$ is $(-\infty,1) \cup (1, \infty)$.  One can verify graphically, that the range of $g$ is $(-\infty,-2) \cup (-2, \infty)$.\\
+~\\
+To find $g^{-1}(x)$, we start with $y=g(x)$.
+
+\[ \begin{array}{rclr}
+y & = & g(x) & \\ [5pt]
+y & = &  \dfrac{2x}{1-x} & \\ [7pt]
+x & = & \dfrac{2y}{1-y} & \mbox{Switch $x$ and $y$} \\ [3pt]
+x(1-y) & = & 2y & \mbox{Solve for $y$; clear denominator} \\ [3pt]
+x-xy & = & 2y & \mbox{Distribute $x$}\\ [3pt]
+x & = & xy + 2y & \mbox{Move $y$ terms to one side}\\ [3pt]
+x & = & y(x+2) & \mbox{Factor out $y$}\\ [8pt]
+y & = & \dfrac{x}{x+2} & \mbox{Divide by $x+2$}\\ [8pt]
+\end{array} \]
+
+We have $g^{-1}(x) = \dfrac{x}{x+2}$.\\
+~\\
+Notice that the domain of $g^{-1}$ matches the range of $g$ from earlier,\\
+$(-\infty,-2) \cup (-2, \infty)$.  Again, we can use the graph of $g^{-1}$ to verify that the range of $g^{-1}$ also matches the domain of $g$, $(-\infty,1) \cup (1, \infty)$.\\
+~\\
+To check that our inverse is correct, we first check that $\left(g^{-1} \circ g \right)(x) = x $.
+
+\begin{longtable}{rclr}
+$\left(g^{-1} \circ g \right)(x)$ & = & $g^{-1}(g(x))$ & \\ [7pt]
+& = & $g^{-1} \left(\dfrac{2x}{1-x}\right)$ & \\ [20pt]
+& = & $\dfrac{ \left(\dfrac{2x}{1-x}\right)}{ \left(\dfrac{2x}{1-x}\right)+2}$ & \\ [30pt]
+& = & $\dfrac{ \left(\dfrac{2x}{1-x}\right)}{ \left(\dfrac{2x}{1-x}\right)+2} \cdot \dfrac{(1-x)}{(1-x)}$ & Clear denominators \\ [15pt]
+& = & $\dfrac{ 2x}{ 2x + 2(1-x)}$ & \\ [15pt]
+& = & $\dfrac{2x}{2x+2-2x}$ & \\ [15pt]
+& = & $\dfrac{2x}{2}$ & \\ [7pt]
+& = & $x \, \, \checkmark$ & \\
+\end{longtable}
+
+\newpage
+Lastly, we check that $\left(g \circ g^{-1} \right)(x) = x $.
+
+\[ \begin{array}{rclr}
+\left(g \circ g^{-1} \right)(x) & = & g\left(g^{-1}(x)\right) & \\ [15pt]
+ & = & g \left(\dfrac{x}{x+2}\right) & \\ [15pt]
+& = & \dfrac{ 2\left(\dfrac{x}{x+2}\right)}{ 1-\left(\dfrac{x}{x+2}\right)} \\ [30pt]
+& = & \dfrac{ 2\left(\dfrac{x}{x+2}\right)}{ 1-\left(\dfrac{x}{x+2}\right)} \cdot \dfrac{(x+2)}{(x+2)}  & \mbox{Clear denominators} \\ [30pt]
+& = & \dfrac{ 2x}{ (x+2) -x} & \\ [15pt]
+& = & \dfrac{2x}{2} & \\ [15pt]
+& = & x \, \, \checkmark \\
+\end{array} \]
+\end{example}  
+
+For our last two examples, we revisit the inverse relationship between quadratics and functions containing square roots.
+
+\begin{example}~~~  Find the inverse $h^{-1}$ of the function $h(x) = 3\sqrt{x}+4$.  Compare the domain and range of $h$ with that of $h^{-1}$.  Verify using compositions that $h$ and $h^{-1}$ are inverses.\\
+~\\
+Notice that the domain of $h$ is $x\geq 0$, or $[0,\infty)$, and the range is $y\geq 4$, or $[4,\infty)$.\\
+~\\
+To find $h^{-1}(x)$, we start with $y=h(x)$.
+
+\[ \begin{array}{rclr}
+y & = & h(x) & \\ [5pt]
+y & = &  3\sqrt{x}+4 & \\ [7pt]
+\end{array} \]
+\[ \begin{array}{rclr}
+x & = & 3\sqrt{y}+4 & \mbox{Switch $x$ and $y$} \\ [3pt]
+x-4 & = & 3\sqrt{y} & \mbox{Solve for $y$} \\ [3pt]
+\dfrac{x-4}{3} & = & \sqrt{y} & \\
+y & = & \left(\dfrac{x-4}{3}\right)^2 & \mbox{Square both sides}\\ [8pt]
+\end{array} \]
+
+We have $h^{-1}(x) = \left(\dfrac{x-4}{3}\right)^2=\frac{1}{9}(x-4)^2$, whose graph is a parabola, opening upwards with vertex $(4,0)$.\\
+~\\
+Consequently, the range of $h^{-1}$ is $y\geq 0$, or $[0,\infty)$, which coincides with the domain of $h$.  In order for our functions to truly be inverses of one another, however, we must impose a restriction on the domain of $h^{-1}$, which would otherwise be all real numbers.  Instead, we only take the right half of the graph of our parabola, which coincides with a domain of $h^{-1}$ of $x\geq 4$, or $[4,\infty)$.  This restriction guarantees that the domain of $h^{-1}$ matches the range of $h$, and that the graph of $h^{-1}$ passes the Horizontal Line Test, which is a requirement of invertibility.  We leave it as an exercise to the reader to show that $(h\circ h^{-1})(x)=x$ and $(h^{-1}\circ h)(x)=x$.
+\end{example}
+
+For our last example, we begin with a quadratic function, whose domain has already been restricted, in order to guarantee the existence of an inverse.
+
+\begin{example}~~~  Find the inverse $f^{-1}$ of the function\\ $f(x) = -2x^2-20x-30,$ where $x\geq -5$.  Verify using compositions that $f$ and $f^{-1}$ are inverses, and that the domain and range of $f$ equal the range and domain of $f^{-1}$, respectively.\\
+~\\
+To find $f^{-1}(x)$, we start with $y=f(x)$.
+
+\[ \begin{array}{rclr}
+y & = & f(x) & \\ [5pt]
+y & = &  -2x^2-20x-30 & \\ [7pt]
+x & = & -2y^2-20y-30 & \mbox{Switch $x$ and $y$} \\ [3pt]
+\end{array} \]
+
+Any further attempt to solve for $y$, however, will lead us to a dead end.  This is due in large part to the fact that we cannot combine the terms $-2y^2$ and $-20y$.  Instead, we first convert the quadratic $f(x)$ to its vertex form.
+
+\newpage
+
+$$h=\frac{-b}{2a}=\frac{-(-20)}{2(-2)}=\frac{20}{-4}=-5$$
+$$k=f(h)=-2(-5)^2-20(-5)-30=-50+100-30=20$$
+\begin{center}
+Vertex Form: $f(x)=-2(x+5)^2+20,$ where $x\geq -5$
+\end{center}
+We can now use our vertex form to find $f^{-1}$, as follows.
+
+\[ \begin{array}{rclr}
+y & = & f(x) & \\ [5pt]
+y & = &  -2(x+5)^2+20 & \\ [7pt]
+x & = & -2(y+5)^2+20 & \mbox{Switch $x$ and $y$} \\ [3pt]
+x-20 & = & -2(y+5)^2 & \mbox{Solve for $y$} \\ [3pt]
+\dfrac{x-20}{-2} & = & (y+5)^2 & \\
+\sqrt{\frac{x-20}{-2}} & = & y+5 & \mbox{Square root both sides} \\ [3pt]
+\sqrt{\frac{x-20}{-2}}-5 & = & y & \\
+\end{array} \]
+
+We have that $f^{-1}(x)=\sqrt{\frac{x-20}{-2}}-5=\sqrt{\frac{20-x}{2}}-5$.\\
+~\\
+Using our standard form for $f$, we see that the graph of $f$ is the right half of a parabola (since we were given that $x\geq -5$), opening downward with vertex $(-5,20)$.  Thus we can conclude that the range of $f$ is $y\leq 20$.  Similarly, if we consider our answer for $f^{-1}$, we see that our inverse function has a domain of $20-x\geq 0$, or $x\leq 20$, which agrees with the range of $f$.  Furthermore, since a square root must always be nonnegative, we can conclude that the range of $f^{-1}$ is $y\geq -5$, which agrees with the given domain restriction $(x\geq -5)$ of $f$.\\
+~\\
+It is important to mention that in our steps for finding $f^{-1}$, we were required to introduce a square root into the equation.  Although this would usually require us to include a $\pm$, our final answer only shows a positive square root.  This is not by accident, but is in fact necessary, since including a $\pm$ will produce an expression whose graph fails the Vertical Line Test, and can therefore not be the correct inverse function of $f$.  Furthermore, because we are given that the domain of $f$ is $x\geq -5$, a decision must be made to only include a positive square root for $f^{-1}$, and disregard the case of a negative square root.  If we were instead initially given that $x\leq -5$ for our quadratic $f$, our answer for $f^{-1}$ would in fact require a negative square root.  Interpreted graphically, such a change would correspond to the graph of $f$ as the left half of our parabola ($x\leq -5$), instead of the right half ($x\geq -5$).\\
+~\\
+To conclude this section, we will check that $(f^{-1}\circ f)(x)=x$.  We leave it as an exercise to the reader to confirm that $(f\circ f^{-1})(x)=x$.  As when we found $f^{-1}$, in each case, it will again be beneficial to use the vertex form for $f$, rather than the standard form.
+
+\[ \begin{array}{rclr}
+\left(f^{-1}\circ f \right)(x) & = & f^{-1}\left(f(x)\right) & \\ [15pt]
+ & = & f^{-1} \left(-2(x+5)^2+20\right) & \\ [15pt]
+& = &  \sqrt{\frac{20-(-2(x+5)^2+20)}{2}}-5 \\ [30pt]
+& = &  \sqrt{\frac{20+2(x+5)^2-20}{2}}-5  \\ [30pt]
+& = &  \sqrt{\frac{2(x+5)^2}{2}}-5 & \\ [15pt]
+& = &  \sqrt{(x+5)^2}-5 & \\ [15pt]
+& = &  (x+5)-5 & \\ [15pt]
+& = & x \, \, \checkmark \\
+\end{array} \]
+ 
+\end{example}
+\end{document}

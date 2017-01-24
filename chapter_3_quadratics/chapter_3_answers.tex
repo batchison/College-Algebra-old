@@ -1,0 +1,811 @@
+\documentclass[11pt]{book}
+%\oddsidemargin 0in
+%\evensidemargin 0in
+%\marginparwidth 0in
+
+%\usepackage[top=1in
+%,left=1.5in,
+%bottom=1in,%right=1in,textheight=8.5in,textwidth=6in
+%]{geometry}
+
+\usepackage{amsfonts,amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{docmute}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{graphics}
+\usepackage{pgf, tikz}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{setspace}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage[english]{babel}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{vwcol}
+\usepackage{cancel}
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+%\usepackage{bbm}
+
+%First appears in II.1.1
+\newcommand{\tmdummy}{$\mbox{}$}
+\newcommand{\tmmathbf}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+\newcommand{\tmstrong}[1]{\textbf{#1}}
+%{\theorembodyfont{\rmfamily}
+%First appears in II.1.?
+\newcommand{\tmem}[1]{{\em #1\/}}
+%\newenvironment{enumeratenumeric}{\begin{enumerate}[1.] }{\end{enumerate}}
+%First appears in II.1.6a
+\newenvironment{itemizedot}{\begin{itemize} \renewcommand{\labelitemi}{$\bullet$}\renewcommand{\labelitemii}{$\bullet$}\renewcommand{\labelitemiii}{$\bullet$}\renewcommand{\labelitemiv}{$\bullet$}}{\end{itemize}}
+
+
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{1.0} %SZ set to gray, 0.9
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem*{defn}{Definition}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+%\newtheorem*{thm}{Theorem}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{thm}{Theorem}[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem*{cor}%[thm]
+{Corollary} % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{eqn}{Equation}[chapter]
+\newtheorem{ex}{Example}[chapter] % this is needed for all Stitz Zeager content.
+\newtheorem{example}{Example}[chapter]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\setlength{\extrarowheight}{2pt}
+\newcommand{\bbm}{\begin{boxedminipage}{4.80in}} %SZ set to 6.41
+\newcommand{\ebm}{\end{boxedminipage}}
+\newcounter{HW}
+\newcounter{HWindent}
+
+\newcommand{\comment}[1]{}
+\newcommand{\pp}{\par~\par}
+
+\begin{document}
+\subsection*{Introduction}
+
+\subsubsection{Quadratic Equations}
+ L=linear, Q=quadratic, N=neither, U=concave up, D=concave down
+\begin{multicols}{2}
+  1)~$y=x^2 + 9$, QU\\
+	3)~$y=-2x+6$, L\\
+	5)~$y=-3x^2-3x+9$, QD\\
+  7)~$y=x^2+x+1$, QU\\
+  9)~$y=-2x-17$, L%\\
+%	2)~$y=5-2x+x^2$\\
+%	4)~$y=5x+x^2-3x-3x^2$\\
+%  6)~$y=3x^2+-x+x-3x^2+6$\\
+%  8)~$y=(x-5)(2x+3)-2(x-3)$\\
+%  10)~$y=(2x-4)(x-1)-2(x+3)^2+3x^2$
+\end{multicols}
+
+%~\\%\newpage
+
+\subsubsection{An Introduction to the Vertex Form} 
+
+%{\tmstrong{Identify the vertex and concavity (concave up or down) of each quadratic.}}
+U=concave up, D=concave down%\\
+
+\begin{multicols}{2}
+  1)~$(3,4)$, U\\
+  3)~$(-3,4)$, U\\
+  5)~$(1,-7)$, D\\
+  7)~$(0,4)$, U\\
+  9)~$(0,4)$, U%\\
+%  2)~$y=(x-2)^2+5$\\
+%  4)~$y=-2(x-3)^2+4$\\
+%  6)~$y=-(x+1)^2$\\
+%  8)~$y=-\frac{1}{23}(x-8)^2+5$\\
+%  10)~$y=5x^2+23$
+\end{multicols}
+%~\\
+%\newpage
+
+\subsection*{Factoring}
+
+\subsubsection{Greatest Common Factor}
+
+%{\tmstrong{Factor the common factor out of each expression.}}
+
+\begin{multicols}{2}
+  1)~ $4(1+2b^2)$\\
+  3)~ $5(9x^2-5)$\\
+  5)~ $7(8-5p)$\\
+  7)~ $7ab(1-5a)$\\
+  9)~ $-3a^2b(1-2ab)$\\
+  11)~ $-5x^2(1+x+3x^2)$\\
+  13)~ $10(2x^4-3x+3)$\\
+  15)~ $4(7m^4+10m^3+2)$\\
+  17)~ $5(6b^9+ab-3a^2)$\\
+  19)~ $-8a^2b(6b-7a-7a^3)$\\
+  21)~ $5x^3y^2z(4x^5z+3x^2+7y)$\\
+  23)~ $10(5x^2y+y^2+7xz^2)$\\
+  25)~ $5q(6pr-p+1)$\\
+  27)~ $-3(6n^5-n^3+7n-1)$\\
+  29)~ $-10x^{11}(4+2x-5x^2+5x^3)$\\
+  31)~ $-4mn(8n^7-m^5-3n^3-4)$%\\
+%~\\
+%  2)~ $x - 5$\\
+%  4)~ $-n - 2 n^2$\\
+%  6)~ $50 x - 80 y$\\
+%  8)~ $27 x^2 y^5 - 72 x^3 y^2$\\
+%  10)~ $8 x^3 y^2 + 4 x^3$\\
+%  12)~ $- 32 n^9 + 32 n^6 + 40 n^5$\\
+%  14)~ $21 p^6 + 30 p^2 + 27$\\
+%  16)~ $- 10 x^4 + 20 x^2 + 12 x$\\
+%  18)~ $27 y^7 + 12 y^2 x + 9 y^2$\\
+%  20)~ $30 m^6 + 15 m n^2 - 25$\\
+%  22)~ $3 p + 12 q - 15 q^2 r^2$\\
+%  24)~ $30 y^4 z^3 x^5 + 50 y^4 z^5 - 10 y^4 z^3 x$\\
+%  26)~ $28 b + 14 b^2 + 35 b^3 + 7 b^5$\\
+%  28)~ $30 a^8 + 6 a^5 + 27 a^3 + 21 a^2$\\
+%  30)~ $- 24 x^6 - 4 x^4 + 12 x^3 + 4 x^2$\\
+%  32)~ $- 10 y^7 + 6 y^{10} - 4 y^{10} x - 8 y^8 x$
+\end{multicols}
+
+%\newpage
+
+\subsubsection{Grouping}
+
+%{\tmstrong{Factor each expression completely.}}
+
+  1)~ $(8r^2-5)(5r-1)=\left(2\sqrt{2}r-\sqrt{5}\right)\left(2\sqrt{2}r+\sqrt{5}\right)(5r-1)$\\
+  3)~ $(n^2-3)(3n-2)=\left(n-\sqrt{3}\right)\left(n+\sqrt{3}\right)(3n-2)$\\
+  5)~ $(3b^2-7)(5b+7)=\left(\sqrt{3}b-\sqrt{7}\right)\left(\sqrt{3}b+\sqrt{7}\right)(5b+7)$\\
+  7)~ $(3x^2+2)(x+5)$\\
+  9)~ $(7x^2-4)(5x-4)=\left(\sqrt{7}x-2\right)\left(\sqrt{7}x+2\right)(5x-4)$%\\
+\begin{multicols}{2}
+  11)~ $(7x+5)(y-7)$\\
+  13)~ $(8x+3)(4y+5x)$\\
+  15)~ $(8x+1)(2y-7)$\\
+  17)~ $(2x+7y^2)(y-4x)$\\
+  19)~ $(5x-y)(8y+7)$\\
+  21)~ $(4u+3)(8v-5)$\\
+  23)~ $(5x+6)(2y+5)$\\
+  25)~ $(3u-7)(v-2u)$\\
+  27)~ $(8y-3x)(2x+1)$%\\
+ % 2)~ $35 x^3 - 10 x^2 - 56 x + 16$\\
+ % 4)~ $14 v^3 + 10 v^2 - 7 v - 5$\\
+ % 6)~ $6 x^3 - 48 x^2 + 5 x - 40$\\
+ % 8)~ $28 p^3 + 21 p^2 + 20 p + 15$\\
+ % 10)~ $7 n^3 + 21 n^2 - 5 n - 15$\\
+ % 12)~ $42 r^3 - 49 r^2 + 18 r - 21$\\
+ % 14)~ $15 a b - 6 a + 5 b^3 - 2 b^2$\\
+ % 16)~ $3 m n - 8 m + 15 n - 40$\\
+ % 18)~ $5 m n + 2 m - 25 n - 10$\\
+ % 20)~ $8 x y + 56 x - y - 7$\\
+ % 22)~ $4 u v + 14 u^2 + 12 v + 42 u$\\
+ % 24)~ $24 x y + 25 y^2 - 20 x - 30 y^3$\\
+ % 26)~ $56 a b + 14 - 49 a - 16 b$
+\end{multicols}
+
+%~\\%\newpage
+
+\subsubsection{Trinomials with Leading Coefficient $a=1$}
+
+%{\tmstrong{Factor each expression completely.}}
+%\label{ais1}
+\begin{multicols}{2}
+  1)~ $(p+9)(p+8)$\\
+  3)~ $(n-8)(n-1)$\\
+  5)~ $(x-10)(x+1)$\\
+  7)~ $(b+4)(b+8)$\\
+  9)~ $(x+10)(x-7)$\\
+  11)~ $(n-5)(n-3)$\\
+  13)~ $(p+9)(p+6)$\\
+  15)~ $(n-7)(n-8)$\\
+  17)~ $(u-5v)(u-3v)$\\
+  19)~ $(m+4n)(m-2n)$\\
+  21)~ $(x-9y)(x-2y)$\\
+  23)~ $(x+4y)(x-3y)$\\
+  25)~ $(x+6y)(x-2y)$\\
+  27)~ $5(a+2)(a+10)$\\
+  29)~ $6(a+8)(a-4)$\\
+  31)~ $6(x+2y)(x+y)$\\
+  33)~ $6(x+9y)(x+7y)$%\\
+%~\\
+%  2)~ $x^2_{} + x - 72$\\
+%  4)~ $x^2 + x - 30$\\
+%  6)~ $x^2 + 13 x + 40$\\
+%  8)~ $b^2 - 17 b + 70$\\
+%  10)~ $x^2 + 3 x - 18$\\
+%  12)~ $a^2 - 6 a - 27$\\
+%  14)~ $p^2 + 7 p - 30$\\
+%  16)~ $m^2 - 15 m n + 50 n^2$\\
+%  18)~ $m^2 - 3 m n - 40 n^2$\\
+%  20)~ $x^2 + 10 x y + 16 y^2$\\
+%  22)~ $u^2 - 9 u v + 14 v^2$\\
+%  24)~ $x^2 + 14 x y + 45 y^2$\\
+%  26)~ $4 x^2 + 52 x + 168$\\
+%  28)~ $5 n^2 - 45 n + 40$\\
+%  30)~ $5 v^2 + 20 v - 25$\\
+%  32)~ $5 m^2 + 30 m n - 90 n^2$\\
+%  34)~ $6 m^2 - 36 m n - 162 n^2$
+\end{multicols}
+
+%\newpage
+
+\subsubsection{Trinomials with Leading Coefficient $a\neq 1$}
+
+%{\tmstrong{Factor each expression completely.}}
+%\label{aisnot1}
+\begin{multicols}{2}
+  1)~ $(7x-6)(x-6)$\\
+  3)~ $(7b+1)(b+2)$\\
+  5)~ $(5a+7)(a-4)$\\
+  7)~ $(2x-1)(x-2)$\\
+  9)~ $(2x+5)(x+7)$\\
+  11)~ $(2b-3)(b+1)$\\
+  13)~ $(5x+3)(x+2)$\\
+  15)~ $(3x-5)(x-4)$\\
+  17)~ $(3x+2y)(x+5y)$\\
+  19)~ $(5x-7y)(x+7y)$\\
+  21)~ $3(2x+1)(x-7)$\\
+  23)~ $3(7x+6)(x-5)$\\
+  25)~ $3(7x-2)(x-4)$\\
+  27)~ $(6x+5)(x+4)$\\
+  29)~ $(4x-1)(x-4)$\\
+  31)~ $(4x+y)(x+2y)$\\
+  33)~ $(4m+3n)(m-3n)$\\
+  35)~ $(4x+y)(x+3y)$\\
+  37)~ $2(3x+5y)(2x+7y)$\\
+  39)~ $4(6x-y)(x-2y)$%\\
+%~\\
+%  2)~ $7 n^2 - 44 n + 12$\\
+%  4)~ $7 v^2 - 24 v - 16$\\
+%  6)~ $5 n^2 - 7 n - 24$\\
+%  8)~ $3 r^2 - 4 r - 4$\\
+%  10)~ $7 x^2 + 29 x - 30$\\
+%  12)~ $5 k^2 - 26 k + 24$\\
+%  14)~ $3 r^2 + 16 r + 21$\\
+%  16)~ $3 u^2 + 13 u v - 10 v^2$\\
+%  18)~ $7 x^2 - 2 x y - 5 y^2$\\
+%  20)~ $5 u^2 + 31 u v - 28 v^2$\\
+%  22)~ $10 a^2 - 54 a - 36$\\
+%  24)~ $21 n^2 + 45 n - 54$\\
+%  26)~ $4 r^2 + r - 3$\\
+%  28)~ $6 p^2 + 11 p - 7$\\
+%  30)~ $4 r^2 + 3 r - 7$\\
+%  32)~ $4 m^2 + 6 m n + 6 n^2$\\
+%  34)~ $4 x^2 - 6 x y + 30 y^2$\\
+%  36)~ $18 u^2 - 3 u v - 36 v^2$\\
+%  38)~ $16 x^2 + 60 x y + 36 y^2$\\
+%  40)~ $12 x^2 + 50 x y + 28 y^2$\\
+\end{multicols}
+
+%\newpage
+
+\subsection*{Solving by Factoring}
+
+%{\tmstrong{Set each of the following expressions equal to zero and solve for the given variable.}}\pp
+
+%1) - 15): Expressions (1) through (15) on page \pageref{ais1}.\pp
+
+%16) - 30): Expressions (1) through (15) on page \pageref{aisnot1}.\pp
+
+%31) - 40): Expressions (21) through (30) on page \pageref{aisnot1}.
+\begin{multicols}{2}
+  1)~ $p=-9,-8$\\
+	%$(p+9)(p+8)$\\
+  3)~ $n=1,8$\\
+	%$(n-8)(n-1)$\\
+  5)~ $x=-1,10$\\
+	%$(x-10)(x+1)$\\
+  7)~ $b=-4,-8$\\
+	%$(b+4)(b+8)$\\
+  9)~ $x=-10,7$\\
+	%$(x+10)(x-7)$\\
+  11)~ $n=3,5$\\
+	%$(n-5)(n-3)$\\
+  13)~ $p=-6,-9$\\
+	%$(p+9)(p+6)$\\
+  15)~ $n=7,8$\\
+	%$(n-7)(n-8)$\\
+17)~ $n=2/7,6$\\
+%$(7n-2)(n-6)$\\
+19)~ $v=-4/7,4$\\
+%$(7v+4)(v-4)$\\
+21)~ $n=-8/5,3$\\
+%$(5n+8)(n-3)$\\
+23)~ $r=-2/3,2$\\
+%$(3r+2)(r-2)$\\
+25)~ $x=-5,6/7$\\
+%$(7x-6)(x+5)$\\
+27)~ $x=6/5,4$\\
+%$(5x-6)(x-4)$\\
+29)~ $r=-3,-7/3$\\
+%$(3r+7)(r+3)$\\
+  31)~ $x=-1/2,7$\\
+	%$3(2x+1)(x-7)$\\
+  33)~ $x=-6/7,5$\\
+	%$3(7x+6)(x-5)$\\
+  35)~ $x=2/7,4$\\
+	%$3(7x-2)(x-4)$\\
+  37)~ $x=-4,-5/6$\\
+	%$(6x+5)(x+4)$\\
+  39)~ $x=1/4,4$%\\
+	%$(4x-1)(x-4)$%\\
+\end{multicols}
+%\newpage
+
+\subsection*{Vertex Form and Graphing}
+
+\subsubsection{The Vertex Form}
+
+%{\tmstrong{Identify whether the quadratic is in vertex form, standard form, or both.  If it is in vertex form, then identify the vertex ($h,k$).}}
+V=vertex form, S=standard form, B=both
+\begin{multicols}{2}
+  1)~V, $(12,5)$\\%$y=(x-12)^2+5 $\\
+  3)~B, $(0,8)$\\%$y=x^2+8$\\
+  5)~V, $(1,2)$\\%$y=-4(x-1)^2+2$\\
+  7)~S\\%$y=x^2+3x+4$\\
+  9)~B, $(0,-3)$\\%$y=x^2-3$\\
+  11)~V, $(1,0)$%$y=(x-1)^2$\\
+%  2)~$y=-3(x-3)^2+5 $\\
+%  4)~$y=2(x-4)^2 $\\
+%  6)~$y=-5(x-7)^2$\\
+%  8)~$y=x^2-1$\\
+%  10)~$y=(x-1)^2-3 $\\
+%  12)~$y=x^2$
+\end{multicols}
+
+%~\vspace{1in}
+
+%{\tmstrong{Each quadratic equation below has been given in standard form.  Rewrite each equation in vertex form.}}
+
+\begin{multicols}{2}
+  13)~$y=(x+1)^2-2$\\
+	%$y=x^2+2x-1 $\\
+  15)~$y=3(x+2)^2-13$\\
+	%$y=3x^2+12x-1$\\
+  17)~$y=x^2+6$\\
+  19)~$y=(x+4)^2-16$\\
+	%$y=x^2+8x$\\
+  21)~$y=(x+2)^2-6$\\
+	%$y=x^2+4x-2$\\
+  23)~$y=4\left(x+\frac{5}{4}\right)^2-\frac{25}{4}$%\\
+	%$y=4x^2+10x$%\\
+ % 14)~$y=-3x^2-12x-5 $\\
+ % 16)~$y=x^2+2x$\\
+ % 18)~$y=-5x^2-40x$\\
+ % 20)~$y=x^2$\\
+ % 22)~$y=x^2+16x-2 $
+\end{multicols}
+
+\subsubsection{Graphing Quadratics}
+
+%{\tmstrong{Find the vertex and intercepts of the following quadratics. Use
+%this information to graph the resulting parabola.}}
+\begin{center}
+No.) $y$-int, ~~~ vertex, ~~~ $x$-int(s)
+\end{center}
+\begin{multicols}{2}
+	1)~ $(0,-8), ~~~ (1,-9), ~~~ (-2,0), (4,0)$\\
+	%1)$y = x^2 - 2 x - 8$\\
+  3)~ $(0,10), ~~~~ (3,-8), ~~~ (1,0), ~(5,0)$\\
+	%3)~ $y = 2 x^2 - 12 x + 10$\\
+  5)~ $(0,-18), ~~~ (3,0), ~~~~ (3,0)$\\
+	%5)~ $y = - 2 x^2 + 12 x - 18$\\
+  7)~ $(0,-45), ~~~ (4,3), ~~~~ (3,0), (5,0)$\\
+	%7)~ $y = - 3 x^2 + 24 x - 45$\\
+  9)~ $(0,5), ~~~~~ (2,9), ~~~~~ (-1,0), (5,0)$\\
+	%9)~ $y = - x^2 + 4 x_{} + 5$\\
+  11)~ $(0,-5), ~~~~ (3,4), ~~~ (1,0), (5,0)$\\
+	%11)~ $y = - x^2 + 6 x - 5$\\
+  13)~ $(0,-24), ~~~ (4,8), ~~~ (2,0), (6,0)$\\
+	%13)~ $y = - 2 x^2 + 16 x - 24$\\
+  15)~~ $(0,9), ~~~~ (-2,-3), ~~~~ (-3,0), (-1,0)$\\
+	%15)~ $y = 3 x^2 + 12 x + 9$\\
+  17)~ $(0,75), ~~~ (4,-5), ~~~ (3,0), (5,0)$\\
+	%17)~ $y = 5 x^2 - 40 x + 75$\\
+  19)~ $(0,-175), ~~~ (-6,5), ~~ (-7,0), (-5,0)$%\\
+	%19)~ $y = - 5 x^2 - 60 x - 175$%\\
+%~\\
+ % 2)~ $y = x^2 - 2 x - 3$\\
+ % 4)~ $y = 2 x^2 - 12 x + 16$\\
+ % 6)~ $y = - 2 x^2 + 12 x - 10$\\
+ % 8)~ $y = - 3 x^2 + 12 x - 9$\\
+ % 10)~ $y = - x^2 + 4 x - 3$\\
+ % 12)~ $y = - 2 x^2 + 16 x - 30$\\
+ % 14)~ $y = 2 x^2 + 4 x - 6$\\
+ % 16)~ $y = 5 x^2 + 30 x + 45$\\
+ % 18)~ $y = 5 x^2 + 20 x + 15$\\
+ % 20)~ $y = - 5 x^2 + 20 x - 15$\\
+\end{multicols}
+
+%\newpage
+
+\subsection*{Square Roots and the Imaginary Number $i$}
+
+\subsubsection{Square Roots}
+
+%{\tmstrong{Simplify each of the following square roots completely.}}%\pp
+
+\begin{multicols}{2}
+	1)~ $7~\sqrt[]{5}$\\
+  3)~ $6$\\
+  5)~ $2~\sqrt[]{3}$\\
+  7)~ $6~\sqrt[]{3}$\\
+  9)~ $48~\sqrt[]{2}$\\
+  11)~ $-112~\sqrt[]{2}$\\
+  13)~ $8~\sqrt[]{3 n}$\\
+  15)~ $14v$\\
+  17)~ $6x~\sqrt[]{7}$\\
+  19)~ $-10k^2$\\
+  21)~ $- 56x^2$\\
+  23)~ $- 30~\sqrt[]{m}$\\
+  25)~ $3xy~\sqrt[]{5}$\\
+  27)~ $4xy~\sqrt[]{xy}$\\
+  29)~ $8x^2y^2~\sqrt[]{5}$\\
+  31)~ $24y~\sqrt[]{5x}$\\
+  33)~ $35xy~\sqrt[]{5y}$\\
+  35)~ $- 12u~\sqrt[]{5 u v}$\\
+  37)~ $- 48x^2yz^2~\sqrt[]{5}$\\
+  39)~ $8 j^2~\sqrt[]{5hk}$\\
+  41)~ $- 12p~\sqrt[]{6m n}$%\\
+%  ~\\
+%  2)~ $\sqrt[]{125}$\\
+%  4)~ $\sqrt[]{196}$\\
+%  6)~ $\sqrt[]{72}$\\
+%  8)~ $5~\sqrt[]{32}$\\
+%  10)~ $7~\sqrt[]{128}$\\
+%  12)~ $- 7~\sqrt[]{63}$\\
+%  14)~ $\sqrt[]{343 b}$\\
+%  16)~ $\sqrt[]{100 n^3}$\\
+%  18)~ $\sqrt[]{200 a^3}$\\
+%  20)~ $- 4~\sqrt[]{175 p^4}$\\
+%  22)~ $- 2~\sqrt[]{128 n}$\\
+%  24)~ $8~\sqrt[]{112 p^2}$\\
+%  26)~ $\sqrt[]{72 a^3 b^4}$\\
+%  28)~ $\sqrt[]{512 a^4 b^2}$\\
+%  30)~ $\sqrt[]{512 m^4 n^3}$\\
+%  32)~ $8~\sqrt[]{98 m n}$\\
+%  34)~ $2~\sqrt[]{72 x^2 y^2}$\\
+%  36)~ $- 5~\sqrt[]{72 x^3 y^4}$\\
+%  38)~ $6~\sqrt[]{50 a^4 b c^2}$\\
+%  40)~ $-~\sqrt[]{32 x y^2 z^3}$\\
+%  42)~ $- 8~\sqrt[]{32 m^2 p^4 q}$\\
+\end{multicols}
+
+%\newpage
+
+\subsubsection{Intro to Complex Numbers}
+
+%{\tmstrong{Rewrite each of the following complex numbers in the form $a+bi$, where $a$ and $b$ are real numbers and $i=\sqrt{-1}$.}}%\pp
+
+\begin{multicols}{2}
+  1)~ $11+4i$\\
+  %1)~ $3 - (- 8 + 4 i)$\\
+  3)~ $-3+9i$\\
+  %3)~ $(7 i) - (3 - 2 i)$\\
+  5)~ $-3-13i$\\
+  %5)~ $(- 6 i) - (3 + 7 i)$\\
+  7)~ $-4-11i$\\
+  %7)~ $(3 - 3 i) + (- 7 - 8 i)$\\
+  9)~ $-8-2i$\\
+  %9)~ $(i) - (2 + 3 i) - 6$\\
+  11)~ $48$\\
+  %11)~ $(6 i) (- 8 i)$\\
+  13)~ $40$\\
+  %13)~ $(- 5 i) (8 i)$\\
+  15)~ $-49$\\
+  %15)~ $(- 7 i)^2$\\
+  17)~ $11+60i$\\
+  %17)~ $(6 + 5 i)^2$\\
+  19)~ $80-10i$\\
+  %19)~ $(- 7 - 4 i) (- 8 + 6 i)$\\
+  21)~ $27+38i$\\
+  %21)~ $(- 4 + 5 i) (2 - 7 i)$\\
+  23)~ $44+8i$\\
+  %23)~ $(- 8 - 6 i) (- 4 + 2 i)$\\
+  25)~ $-3+11i$\\
+  %25)~ $(1 + 5 i) (2 + i)$\\
+  27)~ $5+9i$\\
+  %27)~ $\dfrac{- 9 + 5 i}{i}$\\
+  29)~ $-\frac{3}{2}+\frac{5}{3}i$\\
+  %29)~ $\dfrac{- 10 - 9 i}{6 i}$\\
+  31)~ $-\frac{3}{2}+\frac{3}{4}i$\\
+  %31)~ $\dfrac{- 3 - 6 i}{4 i}$\\
+  33)~ $1+10i$\\
+  %33)~ $\dfrac{10 - i}{- i}$\\
+  35)~ $\frac{4}{101}-\frac{40}{101}i$\\
+  %35)~ $\dfrac{4 i}{- 10 + i}$\\
+  37)~ $\frac{56}{85}+\frac{48}{85}i$\\
+  %37)~ $\dfrac{8}{7 - 6 i}$\\
+  39)~ $\frac{70}{149}+\frac{49}{149}i$\\
+  %39)~ $\dfrac{7}{10 - 7 i}$\\
+  41)~ $-\frac{5}{37}-\frac{30}{37}i$\\
+  %41)~ $\dfrac{5 i}{- 6 - i}$\\
+  43)~ $9i$\\
+  %43)~ $\sqrt{- 81}$\\
+  45)~ $2~\sqrt{5}$\\
+  %45)~ $\sqrt{- 10} \sqrt{- 2}$\\
+  47)~ $\frac{1}{2}+\frac{\sqrt{3}}{2}i$\\
+  %47~ $\frac{3 + \sqrt{- 27}}{6}$\\
+  49)~ $2-i$\\
+  %49)~ $\frac{8 - \sqrt{- 16}}{4}$\\
+  51)~ $i$\\
+  %51)~ $i^{73}$\\
+  53)~ $1$\\
+  %53)~ $i^{48}$\\
+  55)~ $-1$\\
+  %55)~ $i^{62}$\\
+  57)~ $-1$%\\
+  %57)~ $i^{154}$\\
+  %2)~ $(3 i) - (7 i)$\\
+  %4)~ $5 + (- 6 - 6 i)$\\
+  %6)~ $(- 8 i) - (7 i) - (5 - 3 i)$\\
+  %8)~ $(- 4 - i) + (1 - 5 i)$\\
+  %10)~ $(5 - 4 i) + (8 - 4 i)$\\
+  %12)~ $(3 i) (- 8 i)$\\
+  %14)~ $(8 i) (- 4 i)$\\
+  %16)~ $(- i) (7 i) (4 - 3 i)$\\
+  %18)~ $(8 i) (- 2 i) (- 2 - 8 i)$\\
+  %20)~ $(3 i) (- 3 i) (4 - 4 i)$\\
+  %22)~ $- 8 (4 - 8 i) - 2 (- 2 - 6 i)$\\
+  %24)~ $(- 6 i) (3 - 2 i) - (7 i) (4 i)$\\
+  %26)~ $(- 2 + i) (3 - 5 i)$\\
+  %28)~ $\dfrac{- 3 + 2 i}{- 3 i}$\\
+  %30)~ $\dfrac{- 4 + 2 i}{3 i}$\\
+  %32)~ $\dfrac{- 5 + 9 i}{9 i}$\\
+  %34)~ $\dfrac{10}{5 i}$\\
+  %36)~ $\dfrac{9 i}{1 - 5 i}$\\
+  %38)~ $\dfrac{4}{4 + 6 i}$\\
+  %40)~ $\dfrac{9}{- 8 - 6 i}$\\
+  %42)~ $\dfrac{8 i}{6 - 7 i}$\\
+%\end{multicols}
+%\begin{multicols}{2}
+  %44)~ $\sqrt{- 45}$\\
+  %46)~ $\sqrt{- 12} \sqrt{- 2}$\\
+  %48)~ $\frac{- 4 - \sqrt{- 8}}{- 4}$\\
+  %50)~ $\frac{6 + \sqrt{- 32}}{4}$\\
+  %52)~ $i^{251}$\\
+  %54)~ $i^{68}$\\
+  %56)~ $i^{181}$\\
+  %58)~ $i^{51}$
+\end{multicols}
+
+%\newpage
+
+\subsection*{Solving by Extracting Square Roots}
+
+%{\tmstrong{Find the $x$-intercepts of each quadratic by setting $y=0$ and using the method of extracting square roots.}}
+
+\begin{multicols}{2}
+  1)~$12\pm\sqrt{5}$\\
+  %1)~$y=(x-12)^2-5 $\\
+  3)~$\pm 4$\\
+  %3)~$y=x^2-16$\\
+  5)~$1\pm\sqrt{5}$\\
+  %5)~$y=-4(x-1)^2+20$\\
+  7)~$-6\pm\sqrt{2}$\\
+  %7)~$y=-4(x+6)^2+8$\\
+  9)~$1,7$\\
+  %9)~$y=(x-4)^2-9$\\
+  11)~$-2\pm 4i$
+  %11)$y=(x+2)^2+16$%\\
+ % 2)~$y=-3(x-3)^2+30 $\\
+ % 4)~$y=2(x-4)^2 -200 $\\
+ % 6)~$y=-2(x-7)^2+50$\\
+ % 8)~$y=x^2-4$\\
+ % 10)$y=(x-1)^2-25 $\\
+ % 12)$y=9(x-11)^2-81$
+\end{multicols}
+
+%\newpage
+
+\subsection*{Completing the Square}
+
+%{\tmstrong{Find the value that completes the square and then rewrite the given expression as a
+%perfect square.}}
+
+\begin{multicols}{2}
+  1)~ $x^2 - 30 x~+$~\underline{~~225~~}~$=(x-15)^2$\\
+  3)~ $m^2 - 36 m~+$~\underline{~~324~~}~$=(m-18)^2$\\
+  5)~ $x^2 - 15 x~+$~\underline{~~$225/4$~~}~$=(x-15/2)^2$\\
+  7)~ $y^2 - y~+$~\underline{~~$1/4$~~}~$=(y-1/2)^2$%\\
+%  2)~ $a^2 - 24 a +$~\underline{\hspace{.5in}}\\
+%  4)~ $x^2 - 34 x +$~\underline{\hspace{.5in}}\\
+%  6)~ $r^2 - \frac{1}{9} r +$~\underline{\hspace{.5in}}\\
+%  8)~ $p^2 - 17 p +$~\underline{\hspace{.5in}}
+\end{multicols}
+
+%{\tmstrong{Solve each equation by completing the square.}}
+
+\begin{multicols}{2}
+   %9)~ $$\\
+  %9)~ $x^2 - 16 x + 55 = 0$\\
+   11)~ $v=4\pm\sqrt{29}i$\\
+	%11)~ $v^2 - 8 v + 45 = 0$\\
+   %13)~ $$\\
+	%13)~ $6 x^2 + 12 x + 63 = 0$\\
+   15)~ $k=1\pm\frac{\sqrt{215}}{5}i$\\
+	%15)~ $5 k^2 - 10 k + 48 = 0$\\
+   17)~ $x=-\frac{5}{2}\pm\sqrt{86}$\\
+	%17)~ $x^2 + 10 x - 57 = 4$\\
+   %19)~ $$\\
+	%19)~ $n^2 - 16 n + 67 = 4$\\
+   21)~ $x=-1\pm\sqrt{21}i$\\
+	%21)~ $2 x^2 + 4 x + 38 = - 6$\\
+   %23)~ $$\\
+	%23)~ $8 b^2 + 16 b - 37 = 5$\\
+   25)~ $x=-5\pm 2i$\\
+	%25)~ $x^2 = - 10 x - 29$\\
+   27)~ $n=3,~7$\\
+	%27)~ $n^2 = - 21 + 10 n$\\
+   %29)~ $$\\
+	%29)~ $3 k^2 + 9 = 6 k$\\
+   31)~ $x=2\pm\sqrt{29}i$\\
+	%31)~ $2 x^2 + 63 = 8 x$\\
+   %33)~ $$\\
+	%33)~ $p^2 - 8 p = - 55$\\
+   35)~ $n=1,~7$\\
+	%35)~ $7 n^2 - n + 7 = 7 n + 6 n^2$\\
+   37)~ $b=-1\pm\frac{\sqrt{258}}{6}i$\\
+	%37)~ $13 b^2 + 15 b + 44 = - 5 + 7 b^2 + 3 b$\\
+   %39)~ $$\\
+	%39)~ $5 x^2 + 5 x = - 31 - 5 x$\\
+   41)~ $v=-\frac{5}{2}\pm\frac{\sqrt{87}}{2}i$\\
+	%41)~ $v^2 + 5 v + 28 = 0$\\
+   %43)~ $$\\
+	%43)~ $7 x^2 - 6 x + 40 = 0$\\
+   45)~ $k=\frac{7}{2}\pm\frac{\sqrt{137}}{2}i$\\
+	%45)~ $k^2 - 7 k + 50 = 3$\\
+   47)~ $x=-4,~\frac{12}{5}$\\
+	%47)~ $5 x^2 + 8 x - 40 = 8$\\
+   %49)~ $$\\
+	%49)~ $m^2 = - 15 + 9 m$\\
+   51)~ $r=-\frac{5}{8}\pm\frac{\sqrt{415}}{8}i$\\
+	%51)~ $8 r^2 + 10 r = - 55$\\
+   %53)~ $$\\
+	%53)~ $5 n^2 - 8 n + 60 = - 3 n + 6 + 4 n^2$\\
+   55)~ $x=-\frac{5}{2},~1$\\
+	%55)~ $- 2 x^2 + 3 x - 5 = - 4 x^2$\\
+  % )~ $$\\
+	%~\\
+ % 10)~ $n^2 - 8 n - 12 = 0$\\
+ % 12)~ $b^2 + 2 b + 43 = 0$\\
+ % 14)~ $3 x^2 - 6 x + 47 = 0$\\
+ % 16)~ $8 a^2 + 16 a - 1 = 0$\\
+ % 18)~ $p^2 - 16 p - 52 = 0$\\
+ % 20)~ $m^2 - 8 m - 3 = 6$\\
+ % 22)~ $6 r^2 + 12 r - 24 = - 6$\\
+ % 24)~ $6 n^2 - 12 n - 14 = 4$\\
+ % 26)~ $v^2 = 14 v + 36$\\
+ % 28)~ $a^2 - 56 = - 10 a$\\
+ % 30)~ $5 x^2 = - 26 + 10 x$\\
+ % 32)~ $5 n^2 = - 10 n + 15$\\
+ % 34)~ $x^2 + 8 x + 15 = 8$\\
+ % 36)~ $n^2 + 4 n = 12$\\
+ % 38)~ $- 3 r^2 + 12 r + 49 = - 6 r^2$\\
+ % 40)~ $8 n^2 + 16 n = 64$\\
+ % 42)~ $b^2 + 7 b - 33 = 0$\\
+ % 44)~ $4 x^2 + 4 x + 25 = 0$\\
+ % 46)~ $a^2 - 5 a + 25 = 3$\\
+ % 48)~ $2 p^2 - p + 56 = - 8$\\
+ % 50)~ $n^2 - n = - 41$\\
+ % 52)~ $3 x^2 - 11 x = - 18$\\
+ % 54)~ $4 b^2 - 15 b + 56 = 3 b^2$\\
+ % 56)~ $10 v^2 - 15 v = 27 + 4 v^2 - 6 v$\\
+\end{multicols}
+
+%\newpage
+
+\subsection*{The Quadratic Formula and the Discriminant}
+
+%{\tmstrong{Use the discriminant in order to determine the number of real roots for each equation.  If an equation is shown to have one (or two) real root(s), set $y=0$ and use the quadratic formula to find them.}}
+%\label{QF}
+\begin{multicols}{2}
+  %1)~$y=x^2+2x-1$\\
+  1)~Two real roots,~$x=-1\pm\sqrt{2}$\\
+  %3)~$y=3x^2+12x-1$\\
+  3)~Two real roots,~$x=-2\pm\frac{\sqrt{39}}{3}$\\
+  %5)~$y=x^2+6$\\
+  5)~No real roots\\
+  %7)~$y=x^2+8x$\\
+  7)~Two real roots,~$x=0,~-8$\\
+  %9)~$y=x^2+4x-2$\\
+  9)~Two real roots,~$x=-2\pm\sqrt{6}$\\
+  %11)~$y=4x^2+10x$\\
+  11)~Two real roots,~$x=0,~-\frac{5}{2}$\\
+%	2)~$y=-3x^2-12x-5 $\\
+%  4)~$y=x^2+2x$\\
+%  6)~$y=-5x^2-40x$\\
+%  8)~$y=x^2$\\
+%  10)~$y=x^2+16x-2 $
+\end{multicols}
+
+%{\tmstrong{Solve each equation using the quadratic formula.}}
+
+\begin{multicols}{2}
+ % 12)~ $4 a^2 + 6 = 0$\\
+ % 14)~ $2 x^2 - 8 x - 2 = 0$\\
+ % 16)~ $2 m^2 - 3 = 0$\\
+ % 18)~ $3 r^2 - 2 r - 1 = 0$\\
+ % 20)~ $4 n^2 - 36 = 0$\\
+ % 22)~ $v^2 - 4 v - 5 = - 8$\\
+ % 24)~ $2 a^2 + 3 a + 14 = 6$\\
+ % 26)~ $3 k^2 + 3 k - 4 = 7$\\
+ % 28)~ $7 x^2 + 3 x - 16 = - 2$\\
+ % 30)~ $2 p^2 + 6 p - 16 = 4$\\
+ % 32)~ $3 n^2 + 3 n = - 3$\\
+ % 34)~ $2 x^2 = - 7 x + 49$\\
+ % 36)~ $5 x^2 = 7 x + 7$\\
+ % 38)~ $8 n^2 = - 3 n - 8$\\
+ % 40)~ $2 x^2 + 5 x = - 3$\\
+ % 42)~ $4 a^2 - 64 = 0$\\
+ % 44)~ $4 p^2 + 5 p - 36 = 3 p^2$\\
+ % 46)~ $- 5 n^2 - 3 n - 52 = 2 - 7 n^2$\\
+ % 48)~ $7 r^2 - 12 = - 3 r$\\
+ % 50)~ $2 n^2 - 9 = 4$\\
+%  13)~ $3 k^2 + 2 = 0$\\
+  13)~ $k=\pm\frac{\sqrt{6}}{3}i$\\
+%  15)~ $6 n^2 - 1 = 0$\\
+  15)~ $n=\pm\frac{\sqrt{6}}{6}$\\
+%  17)~ $5 p^2 + 2 p + 6 = 0$\\
+  17)~ $p=-\frac{1}{5}\pm\frac{\sqrt{29}}{5}i$\\
+%  19)~ $2 x^2 - 2 x - 15 = 0$\\
+%  19)~ $$\\
+%  21)~ $3 b^2 + 6 = 0$\\
+  21)~ $b=\pm\sqrt{2}i$\\
+%  23)~ $2 x^2 + 4 x + 12 = 8$\\
+%  23)~ $$\\
+%  25)~ $6 n^2 - 3 n + 3 = - 4$\\
+  25)~ $n=\frac{1}{4}\pm\frac{\sqrt{159}}{12}i$\\
+%  27)~ $4 x^2 - 14 = - 2$\\
+  27)~ $x=\pm\sqrt{3}$\\
+%  29)~ $4 n^2 + 5 n = 7$\\
+%  29)~ $$\\
+%  31)~ $m^2 + 4 m - 48 = - 3$\\
+  31)~ $m=5,~-9$\\
+%  33)~ $3 b^2 - 3 = 8 b$\\
+%  33)~ $$\\
+%  35)~ $3 r^2 + 4 = - 6 r$\\
+  35)~ $r=-1\pm\frac{\sqrt{3}}{3}i$\\
+%  37)~ $6 a^2 = - 5 a + 13$\\
+  37)~ $a=-\frac{5}{12}\pm\frac{\sqrt{337}}{12}$\\
+%  39)~ $6 v^2 = 4 + 6 v$\\
+%  39)~ $$\\
+%  41)~ $x^2 = 8$\\
+  41)~ $x=\pm 2\sqrt{2}$\\
+%  43)~ $2 k^2 + 6 k - 16 = 2 k$\\
+%  43)~ $$\\
+%  45)~ $12 x^2 + x + 7 = 5 x^2 + 5 x$\\
+  45)~ $x=\frac{2}{7}\pm\frac{3\sqrt{5}}{7}i$\\
+%  47)~ $7 m^2 - 6 m + 6 = - m$\\
+  47)~ $m=\frac{5}{14}\pm\frac{\sqrt{143}}{14}i$\\
+%  49)~ $3 x^2 - 3 = x^2$\\
+  49)~ $x=\pm\frac{\sqrt{6}}{2}$\\
+%  51)~ $6 b^2 = b^2 + 7 - b$
+%  51)~ $$\\
+\end{multicols}
+
+%\newpage
+
+\comment{\subsection*{Applications}
+
+\newpage
+
+\subsection*{Quadratic Inequalities and Sign Diagrams}
+
+{\tmstrong{Construct a sign diagram for each of the following expressions/equations.  Then using interval notation, describe the set of values for which the given expression is greater than or equal to zero.}}\pp
+
+1) - 5): Expressions (1) through (5) on page \pageref{ais1}.\pp
+
+6) - 10): Expressions (1) through (5) on page \pageref{aisnot1}.\pp
+
+11) - 15): Expressions (21) through (25) on page \pageref{aisnot1}.\pp
+
+16) - 20): Equations (1) through (5) on page \pageref{QF}.\pp}
+\end{document}

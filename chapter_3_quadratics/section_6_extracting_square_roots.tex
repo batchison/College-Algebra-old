@@ -1,0 +1,162 @@
+{\tmstrong{Objective: Find the zeros of a quadratic in vertex form by extracting square roots.}}\pp
+
+Up until now, when attempting to solve an equation such as $x^2-4=0$, we have had no choice but to factor the expression on the left and set each factor equal to zero.
+\begin{example}~~~Solve the given equation for all possible values of $x$.
+\begin{eqnarray*}
+x^2-4=0 & & \text{Factor,~difference~of~two~squares}\\
+(x-2)(x+2)=0 & & \text{Use~Zero~Factor~Property}\\
+x-2=0 \text{~or~} x+2=0 & & \text{Solve}\\
+x=2 \text{~~or~~} -2 & & \text{Our~solution}
+\end{eqnarray*}
+\end{example}
+
+The values $x=2$ and $x=-2$ are known as the \textit{zeros} or \textit{roots} of the equation $y=x^2-4$.  Observe that the graphical interpretation of a zero is an $x-$intercept (when $y=0$).  In this case, the $x-$intercepts of the resulting parabola are at $(2,0)$ and $(-2,0)$.\pp
+
+We will now introduce a new technique for identifying the zeros of a quadratic equation, known as the method of \textit{extracting square roots}.  The method of extracting square roots will only be employed once we have identified the vertex form for a given quadratic, $y=a(x-h)^2+k$.  The general steps for the method are shown below, and the requirement of the vertex form will be essential.
+
+%\newpage
+
+\begin{example}~~~Determine the zeros of the quadratic equation\\ $y=ax^2+bx+c$, where $a\neq 0$.\pp
+First obtain the vertex form:  $h=-\dfrac{b}{2a}$, set $x=h$ to find $k$.
+\begin{eqnarray*}
+a(x-h)^2+k=0~~~ & &\text{Vertex~form}\\
+\tmmathbf{\underline{-k~~-k}} & & \text{Subtract~} k \text{~from~both~sides}\\
+a(x-h)^2=-k & &\\
+\tmmathbf{\overline{~a~}~~~~~~~~\overline{~a~}} & &  \text{Divide~both~sides~by~} a\\
+(x-h)^2=-\frac{k}{a}& &%\\
+\end{eqnarray*}
+\begin{eqnarray*}
+\sqrt{(x-h)^2}=\pm\sqrt{-\frac{k}{a}}& &\text{Take~square~root~of~both~sides}\\
+& & ~~~\text{to~extract~radicand,~} x-h\\
+x-h=\pm\sqrt{-\frac{k}{a}} & & \\
+\tmmathbf{\underline{+h}~~~~~~~~~\underline{+h}} & & \text{Add~} h \text{~to~both~sides}\\
+& &\\
+x=h\pm\sqrt{-\frac{k}{a}} & & \text{Our~solution}
+\end{eqnarray*}
+\end{example}
+
+In the previous example, there are two important points to consider.  First is the introduction of the square root into the equation.  This step is the reason behind the name of the method, and its success hinges upon the fact that the vertex form contains a single instance of the variable $x$.  Unlike with the vertex form, if we were to introduce a square root directly to the equation $ax^2+bx+c=0$ (using the standard form), we would immediately reach a dead end, and be unable to simplify the resulting equation.  This is primarily because we cannot combine the ``unlike'' terms $ax^2$ and $bx$, and we cannot split up sums (and differences) of terms underneath a square root.\pp
+Additionally, it is critical that we include a `$\pm$' on the right side of the equation once the square root has been introduced.  The justification for this follows from the fact that there are always two values (one positive and one negative) that will equal the value underneath a square root (assuming that value is nonzero, since $\sqrt{0}=0$).  For example, $\sqrt{4}=\pm 2$ and $\sqrt{-9}=\pm 3i$.\pp
+%Lastly, we should not forget the relationship between the standard and vertex forms of a quadratic equation.  We can always obtain the vertex form by first finding $h=-\frac{b}{2a}$, and then setting $x=h$ and solving for $k$.
+We now present a few examples that demonstrate the method, as well as some of the possibilities for the number of zeros, and consequently, the number of $x-$intercepts of the corresponding graph.
+
+\newpage
+
+\begin{example}~~~Use the method of extracting square roots to find the zeros of the equation $y = (x+4)^2-9$.\\
+%\newpage
+
+\begin{vwcol}[widths={0.25,0.75},sep=.8cm, justify=flush,rule=0pt,indent=1em]
+%\begin{multicols}{2}
+\begin{mfpic}[10]{-8.25}{.5}{-10}{4}
+\arrow \reverse \arrow \function{-7.5,-.5,.1}{(((x+4)**2))-9}
+\axes
+\xmarks{-8 step 1 until 0}
+\ymarks{-9 step 1 until 0}
+
+\plotsymbol[4]{SolidCircle}{(-7,0),(-1,0)}
+\tlabelsep{3pt}
+\axislabels x{{$-8$}-8,{$-6$}-6,{$-4$}-4,{$-2$}-2,}
+\axislabels y{{$-9$}-9}%,{$-7$}-7,{$-6$}-6,{$-5$}-5,{$-4$}-4,{$-3$}-3,{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2,{$3$}3,{$4$}4,{$5$}5,{$6$}6}
+\end{mfpic}
+
+\begin{eqnarray*}
+%    \ y = (x+4)^2-9 &  & \tmop{A}  \tmop{quadratic} \tmop{in} \tmop{vertex} \tmop{form}\\
+    \ 0 = (x+4)^2-9 &  &  \tmop{Set} \tmop{equal} \tmop{to} \tmop{zero~and~solve}\\
+    \ \tmmathbf{\underline{+9}~~~~~~~~~~~~~~~\underline{+9}}   & & \tmop{Isolate} \tmop{the} \tmop{square} 	 \\
+    \ 9=(x+4)^2~~~~~ & & \\
+		\pm\sqrt{9} = \sqrt{(x+4)^2}~~ & & \tmop{Square} \tmop{root} \tmop{both} \tmop{sides} \\
+		\ \pm3 = x + 4~~~~~~~~~  & &  \tmop{Solve} \tmop{for~} x\\
+		\ \tmmathbf{\underline{-4}~~~~~~\underline{-4}}~~~~~~~~~  & &  \tmop{Subtract~} 4\\
+		\ x=\pm3 - 4~~~~~~~ & & \tmop{Two} \tmop{solutions} \\
+		\ x=3 - 4~~ \Rightarrow x = -1   & & \tmop{One} \tmop{solution}\\
+		\ x=-3 - 4 \Rightarrow x = -7  & & \tmop{The} \tmop{other} \tmop{solution}\\
+  \end{eqnarray*}
+ %\end{multicols}
+\end{vwcol}
+Our zeros are $x=-7$ and $x=-1$.  The corresponding $x-$intercepts are at the points $(-7,0)$ and $(-1,0)$.
+\end{example}
+
+
+
+\begin{example}~~~Use the method of extracting square roots to find the zeros of the equation $y = -3(x-1)^2+12$.\\
+%\newpage
+
+\begin{vwcol}[widths={0.25,0.75},sep=.5cm, justify=flush,rule=0pt,indent=1em]
+%\begin{multicols}{2}
+\begin{mfpic}%[20]
+[14]{-1.5}{4}{-3}{13}
+\arrow \reverse \arrow \function{-1.2,3.2,.1}{(-3)*((x-1)**2)+12}
+\axes
+\xmarks{-1 step 1 until 3}
+\ymarks{1 step 1 until 12}
+
+\plotsymbol[4]{SolidCircle}{(3,0),(-1,0)}
+%\tlabelsep{3pt}
+\axislabels x{{$-1$}-1,{$1$}1,{$2$}2,{$3$}3 }
+\axislabels y{{$12$}12}%,{$-7$}-7,{$-6$}-6,{$-5$}-5,{$-4$}-4,{$-3$}-3,{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2,{$3$}3,{$4$}4,{$5$}5,{$6$}6}
+\end{mfpic}
+
+\begin{eqnarray*}
+    %\ y = -3(x-1)^2+12 &  & \tmop{A}  \tmop{quadratic} \tmop{in} \tmop{vertex} \tmop{form}\\
+		%\ y = -3(x-1)^2+12 &  & \text{A quadratic in vertex form}\\
+    \ 0 = -3(x-1)^2+12 &  &  \tmop{Set} \tmop{equal} \tmop{to} \tmop{zero~and~solve}\\
+    \ \tmmathbf{\underline{-12}~~~~~~~~~~~~~~~~~~~\underline{-12}}    & & \tmop{Subtract~}12\\
+		\ -12 = -3(x-1)^2~~~~~~~ & &  \text{Isolate~the~square,}\\
+		\ \tmmathbf{\overline{-3}~~~~~~~~~~\overline{-3}}~~~~~~~~~~~ & & ~~~\tmop{divide} \tmop{both} \tmop{sides} \tmop{by~}-3\\
+		\ &&\\
+		\ 4 = (x-1)^2~~~~~~~~~~~ & &\\
+		\ \pm\sqrt{4} = \sqrt{(x-1)^2}~~~~~~~~ & & \tmop{Square} \tmop{root} \tmop{both} \tmop{sides}\\
+		\ \pm2 = x - 1~~~~~~~~~~~~~~~  & &  \tmop{Solve} \tmop{for~} x\\
+		\ \tmmathbf{\underline{+1}~~~~~~\underline{+1}}~~~~~~~~~~~~~~~  & &  \tmop{Add~}1\\
+		\ x=\pm2 +1~~~~~~~~~~~~~ & & \tmop{Two} \tmop{solutions} \\
+		\ x=1 - 2 \Rightarrow x = -1  & & \tmop{One} \tmop{solution}\\
+		\ x=1 + 2 \Rightarrow x = 3~~  & & \tmop{The} \tmop{other} \tmop{solution}\\
+  \end{eqnarray*}
+%\end{multicols}
+\end{vwcol}
+Our two zeros are $x=-1$ and $x=3$.
+\end{example}
+
+
+In some cases, the introduction of a square root results in an imaginary number.  This scenario coincides with our corresponding parabola having no $x-$intercepts.  In the previous example, if we were to change the sign of $k$ from $+12$ to $-12$, the corresponding parabola would still open downwards, while having a vertex at $(1,-12)$, located below the $x-$axis.  This will result in the appearance of a $\sqrt{-4}=2i$, rather than a $\sqrt{4}$, in our solution.  Consequently, there will be no real zeros for the equation and no $x-$intercepts on its graph.\pp
+We conclude this section with a final example, which will also result in no real zeros.
+
+%\begin{example}
+\begin{example}~~~Use the method of extracting square roots to find the zeros of the equation $y = -1(x-1)^2-4$.\\
+%\newpage
+
+\begin{vwcol}[widths={0.25,0.75},sep=.5cm, justify=flush,rule=0pt,indent=1em]
+%\begin{multicols}{2}
+\begin{mfpic}%[20]
+[14]{-1.5}{3.5}{-8}{1.5}
+\arrow \reverse \arrow \function{-1,3,.1}{(-1)*((x-1)**2)-4}
+\axes
+\xmarks{-1 step 1 until 3}
+\ymarks{-6 step 1 until 1}
+
+%\plotsymbol[4]{SolidCircle}{(3,0),(-1,0)}
+%\tlabelsep{3pt}
+\axislabels x{{$1$}1}
+\axislabels y{{$-4$}-4}%,{$-7$}-7,{$-6$}-6,{$-5$}-5,{$-4$}-4,{$-3$}-3,{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2,{$3$}3,{$4$}4,{$5$}5,{$6$}6}
+\end{mfpic}
+
+\begin{eqnarray*}
+%    \ y = -1(x-1)^2-4 &  & \tmop{A}  \tmop{quadratic} \tmop{in} \tmop{vertex} \tmop{form}\\
+    \ 0 = -1(x-1)^2-4 &  &  \tmop{Set} \tmop{equal} \tmop{to} \tmop{zero~and~solve}\\
+    \ \tmmathbf{\underline{+4}~~~~~~~~~~~~~~~~~~~\underline{+4}}   & & \tmop{Add~}4\\
+		\ 4 = -1(x-1)^2~~~~~ & &  \tmop{Isolate} \tmop{the} \tmop{square,}\\
+		\ \tmmathbf{\overline{-1}~~~~~~~~~\overline{-1}}~~~~~~~~~~ & & ~~~\text{divide~both~sides~by~}-1\\
+		&&\\
+		-4 = (x-1)^2~~~~~&&\\
+    \ \pm\sqrt{-4} = \sqrt{(x-1)^2}~~ & & \tmop{Square} \tmop{root} \tmop{both} \tmop{sides}\\
+		\ \pm2i = x - 1~~~~~~~~~& &  \tmop{Solve} \tmop{for~}x\\
+		\ \tmmathbf{\underline{+1}~~~~~~~\underline{+1}}~~~~~~~~~  & &  \tmop{Add~}1\\
+		\ x=\pm2i +1~~~~~~~ & & \tmop{Two} \tmop{solutions} \\
+		\ x=1 - 2i~~~~~~~~~ & & \tmop{One} \tmop{solution}\\
+		\ x=1 + 2i~~~~~~~~~ & & \tmop{The} \tmop{other} \tmop{solution}
+  \end{eqnarray*}
+%\end{multicols}
+\end{vwcol}
+\end{example}
+~\pp
+Once again, the negative appearing under the square root results in two complex zeros (no real zeros).  Graphically, the function never touches or crosses the $x-$axis.

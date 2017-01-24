@@ -1,0 +1,206 @@
+{\tmstrong{Objective: Solve quadratic equations by completing the square.}}\pp
+
+In this section, we will introduce a method for obtaining the vertex form of a quadratic function from the standard form, without having to rely on the vertex formula $h=-\displaystyle\frac{b}{2a}$.  This method is known as \textit{completing the square}.  To complete the square, and convert a quadratic expression $ax^2+bx+c$ from standard form to the vertex form $a(x-h)^2+k$ (without our prior knowledge of the relationship between $h$, $a$ and $b$), we will first start by considering the expression $ax^2+bx$.\pp
+Observe that if a quadratic is of the form $x^2 + b x + c$, and \textit{is} a perfect square, the constant
+term, $c$, can be found by the formula $\left( \frac{1}{2} \cdot b
+\right)^2$. This is shown in the following examples.  In each example, we will find the number
+needed to complete the perfect square, and then factor it.
+
+\begin{example}~~~Identify the constant term $c$ that is needed to factor the given trinomial as a perfect square.
+  \begin{eqnarray*}
+    x^2 + 8 x + c &  & c = \left( \frac{1}{2} \cdot b \right)^2 \tmop{and}
+    \tmop{our} b = 8\\
+    \left( \frac{1}{2} \cdot 8 \right)^2 = 4^2 = 16 &  & \tmop{The}
+    \tmop{necessary~constant~term} \tmop{is~} 16\\
+    x^2 + 8 x + 16 &  & \tmop{Our} \tmop{desired~trinomial}; \tmop{factor}\\
+    (x + 4)^2 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Identify the constant term $c$ that is needed to factor the given trinomial as a perfect square.
+  \begin{eqnarray*}
+    x^2 - 7 x + c &  & c = \left( \frac{1}{2} \cdot b \right)^2 \tmop{and}
+    \tmop{our} b = 7\\
+    \left( \frac{1}{2} \cdot 7 \right)^2 = \left( \frac{7}{2} \right)^2 =
+    \frac{49}{4} &  & \tmop{The~necessary~constant~term~is~} \frac{49}{4}\\
+    &  & \\
+    x^2 - 7 x + \frac{49}{4} &  & \tmop{Our} \tmop{desired~trinomial}; \tmop{factor}\\
+    &  & \\
+    \left( x - \frac{7}{2} \right)^2 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Identify the constant term $c$ that is needed to factor the given trinomial as a perfect square.
+  \begin{eqnarray*}
+    x^2 + \frac{5}{3} x + c &  & c = \left( \frac{1}{2} \cdot b \right)^2
+    \tmop{and} \tmop{our} b = \frac{5}{3}\\
+    &  & \\
+    \left( \frac{1}{2} \cdot \frac{5}{3} \right)^2 = \left( \frac{5}{6}
+    \right)^2 = \frac{25}{36} &  & \tmop{The~necessary~constant~term~is~}
+    \frac{25}{36}\\
+    &  & \\
+    x^2 + \frac{5}{3} x + \frac{25}{36} &  & \tmop{Our} \tmop{desired~trinomial}; \tmop{factor}\\
+    &  & \\
+    \left( x + \frac{5}{6} \right)^2 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+The process demonstrated in the previous examples may be used to obtain the vertex form of a quadratic. The following set of steps describes the process used to complete the square.  Since all three of the previous examples contained a leading coefficient of $a=1$, an example where $a\neq 1$ has been included below to illustrate the special care that must be taken in this case.\pp 
+
+\begin{tabular}{|l|l|}
+  \hline
+  ~~~~~~~~~~~~~~~~~~~~~~Expression & $3 x^2 + 18 x - 6$\\
+  \hline
+  1. Separate constant term from variables &% \begin{tabular}{l}
+    %\ \ \ \ \ \ \ \ \ \ \ $\underline{+ 6 + 6}$\\
+    $(3 x^2 + 18 x) - 6$\\
+  %\end{tabular}\\
+  \hline
+  2. Factor out $a$ from each term in parentheses & %\begin{tabular}{l}
+    $3(x^2 + 6 x) - 6$\\
+		%$\frac{3}{3} x^2 + \frac{18}{3} x = \frac{6}{3}$\\
+    %$x^2 + 6 x = 2$
+  %\end{tabular}\\
+  \hline
+   &\\
+	3. Determine value to complete the square: $\left( \frac{1}{2} \cdot b \right)^2$
+  & $\left( \frac{1}{2} \cdot 6 \right)^2 = 3^2 = 9$\\
+  &\\
+	\hline
+  4. Add \& subtract value to expression in parentheses& %\begin{tabular}{l}
+    %$x^2 + 6 x = 2$\\
+    %\ \ \ \ \ \ \ \ \ $\underline{+ 9 + 9}$\\
+    %$x^2 + 6 x + 9 = 11$
+  %\end{tabular}\\
+	 $3(x^2 + 6 x+9-9) - 6$\\
+  \hline
+  5. Separate subtracted value from other three terms,  &\\ %$(x + 3)^2 = 11$\\
+   ~~~making sure to multiply by $a$ & $3(x^2 + 6 x+9)-3(9) - 6$\\
+  \hline
+  6. Combine constant terms outside parentheses&$3(x^2+6x+9)^2-27-6$\\
+	\hline
+	7. Factor remaining trinomial & $3(x+3)^2-33$\\
+	\hline
+	
+%	and simplify remaining constant termsSolve by even root property & $\begin{array}{l}
+ %   \sqrt{(x + 3)^2} = \pm \sqrt[]{11}\\
+  %  x + 3 = \pm \sqrt[]{11}\\
+   % \underline{- 3 - 3}\\
+   % x = - 3 \pm \sqrt[]{11}
+  %\end{array}$\\
+  %\hline
+\end{tabular}
+
+~\pp
+
+{\tmstrong{World View Note:}} The Chinese in 200 B.C. were the first known
+cultural group to use a method similar to completing the square, but their
+method was only used to calculate positive roots.  The advantage of this method is it can be used to solve any quadratic
+equation. The following examples show how completing the square can give us
+rational solutions, irrational solutions, and even complex solutions.
+
+\begin{example}~~~Use the method of completing the square to solve the given equation.
+  \begin{eqnarray*}
+    4 x^2 + 40 x + 51 = 0 &  & \text{Equation~in~standard~form}\\
+    %\underline{- 48 - 48} &  & \tmop{Subtract} 24\\
+    (4 x^2 + 40 x)+ 51=0 &  & \tmop{Separate} \tmop{constant} \tmop{term}\\
+    %\overline{2}  \overline{2}  \overline{2} &  & \\
+    4(x^2 + 10 x) + 51=0 &  & \tmop{Factor~out~} a\\
+    &&\\
+		\left( \frac{1}{2} \cdot 10 \right)^2 = 5^2 = 25 &  & \tmop{Complete}
+    \tmop{the} \tmop{square} : \text{find~}\left( \frac{1}{2} \cdot b \right)^2\\
+    &&\\
+		4(x^2 + 10 x+25-25) +51=0 &  & \tmop{Add~and~subtract~} 25
+    \tmop{~inside~parentheses}\\
+    %\underline{+ 25 + 25} &  & \\
+    4(x^2 + 10 x+25)-4(25) +51=0 &  & \tmop{Separate~trinomial}\\
+    4(x^2 + 10 x+25)^2 -100+51= 0 &  & \text{Simplify:~combine~constant~terms,}\\
+		& & ~~~\text{factor~trinomial}\\
+		4(x + 5)^2 -49= 0&&\tmop{Solve~by~extracting~square~roots}\\
+    &&\\
+		(x + 5)^2= \frac{49}{4}&&\tmop{Isolate~the~square}\\
+		&&\\
+		\sqrt[]{(x + 5)^2} = \pm~ \sqrt[]{\frac{49}{4}} &  & \tmop{Square~root~both~sides}\\
+    &&\\
+		x + 5 = \pm \frac{7}{2} &  & \tmop{Subtract~} 5 \tmop{from} \tmop{both}
+    \tmop{sides}\\
+    \tmmathbf{\underline{- 5}~~~~\underline{- 5}}  &  & \\
+    &&\\
+		x = - 5 \pm \frac{7}{2} &  &\\
+    &&\\
+		x = -\frac{17}{2} \tmop{~or~} -\frac{3}{2} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\newpage
+
+\begin{example}~~~Use the method of completing the square to solve the given equation.
+  \begin{eqnarray*}
+    x^2-3x-2 = 0 &  & \text{Equation~in~standard~form}\\
+    %\underline{- 48 - 48} &  & \tmop{Subtract} 24\\
+    (x^2 -3x)-2=0 &  & \tmop{Separate} \tmop{constant} \tmop{term}\\
+    %\overline{2}  \overline{2}  \overline{2} &  & \\
+    &  & \text{Leading~coefficient~is~} a=1\\
+    &&\\
+		\left( \frac{1}{2} \cdot -3 \right)^2 = \left(-\frac{3}{2}\right)^2 = \frac{9}{4} &  & \tmop{Complete}
+    \tmop{the} \tmop{square} : \text{find~}\left( \frac{1}{2} \cdot b \right)^2\\
+    &&\\
+		\left(x^2 -3x+\frac{9}{4}-\frac{9}{4}\right)-2=0 &  & \tmop{Add~and~subtract~} \frac{9}{4}
+    \tmop{~inside~parentheses}\\
+    %\underline{+ 25 + 25} &  & \\
+    \left(x^2 -3x+\frac{9}{4}\right)-\frac{9}{4}-2=0 &  & \tmop{Separate~trinomial}\\
+    \left(x^2 -3x+\frac{9}{4}\right)-\frac{9}{4}-2=0 &  & \text{Simplify:~combine~constant~terms,}\\
+		& & ~~~\text{factor~trinomial}\\
+		\left(x - \frac{3}{2}\right)^2 -\frac{17}{4}= 0&&\tmop{Solve~by~extracting~square~roots}\\
+    &&\\
+		\left(x - \frac{3}{2}\right)^2 =\frac{17}{4}&&\tmop{Isolate~the~square}\\
+		&&\\
+		\sqrt[]{\left(x - \frac{3}{2}\right)^2} = \pm~ \sqrt[]{\frac{17}{4}} &  & \tmop{Square~root~both~sides}\\
+    &&\\
+		x - \frac{3}{2} = \pm~ \frac{\sqrt{17}}{2} &  & \tmop{Reduce~square~root;}\\
+		\tmmathbf{\underline{+ \frac{3}{2}}~~~~~~~~\underline{+ \frac{3}{2}}}  && \text{Add~} \frac{3}{2} \tmop{to} \tmop{both} \tmop{sides}\\
+    &&\\
+		x = \frac{3}{2}\pm~ \frac{\sqrt{17}}{2}&  &\\
+    &&\\
+		x = \frac{3+\sqrt{17}}{2} \tmop{~or~} \frac{3-\sqrt{17}}{2} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+As the previous example shows, completing the square when $a=1$ can be seen as slightly easier than when $a\neq 1$.  Our last example demonstrates how we can more also handle the case when $a\neq 1$ early on in our solution, by simply dividing the equation by $a$.
+
+\begin{example}~~~Use the method of completing the square to solve the given equation.
+  \begin{eqnarray*}
+    3 x^2 - 2 x + 7=0 &  & \tmop{Equation~in~standard~form}\\
+    \tmmathbf{\overline{3} ~~~~~~ \overline{3} ~~~~ \overline{3} ~~~~\overline{3}}&  & \text{Divide~both~sides~by~} 3\\
+    &  & \\
+    x^2 - \frac{2}{3} x + \frac{7}{3}=0 &  & \text{Resulting~equation~has~} a=1\\
+		&  & \\
+    \left( \frac{1}{2} \cdot -\frac{2}{3} \right)^2 = \left( -\frac{1}{3}\right)^2 = \frac{1}{9} &&\tmop{Complete} \tmop{the} \tmop{square:~find~} \left(\frac{1}{2} \cdot b \right)^2\\
+    &&\\
+		x^2 - \frac{2}{3} x +\frac{1}{9}-\frac{1}{9}+ \frac{7}{3}=0&  & \tmop{Add~and~subtract~} \frac{1}{9} \tmop{to~left~side}\\
+    &  & \\
+    \left(x^2 - \frac{2}{3} x +\frac{1}{9}\right)-\frac{1}{9}+ \frac{7}{3}=0 && \text{Combine~constant~terms~by}\\
+		&&~~~\text{obtaining~a~common~denominator}\\
+		-\frac{1}{9}+ \frac{7}{3} = -\frac{1}{9} + \frac{21}{9}=\frac{20}{9} &  &\\
+		&&\\
+		\left(x^2 - \frac{2}{3} x +\frac{1}{9}\right)+\frac{20}{9}=0 & & \tmop{Factor~trinomial}\\
+    &  & \\
+    \left(x - \frac{1}{3}\right)^2+ \frac{20}{9}=0 &  & \tmop{Solve~by~extracting~square~roots}\\
+    &  & \\
+    \left( x - \frac{1}{3} \right)^2 = - \frac{20}{9} &  & \text{Isolate~the~square}\\
+    &  & \\
+    \sqrt[]{\left( x - \frac{1}{3} \right)^2} = \pm~ \sqrt[]{\frac{- 20}{9}} & 
+    & \tmop{Square~root~both~sides}\\
+    &  & \\
+    x - \frac{1}{3} = \frac{\pm 2 i~ \sqrt[]{5}}{3} &  & \tmop{Simplify~the~radical}\\
+		\tmmathbf{\underline{+ \frac{1}{3}}~~~~~~~~\underline{ + \frac{1}{3} }}  &  & \text{Add~} \frac{1}{3}
+    \tmop{to} \tmop{both} \tmop{sides}\\
+    &&\\
+		x = \frac{1}{3} \pm \frac{2~\sqrt[]{5}}{3}i &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example} 
+
+\newpage
+
+As we mentioned earlier, completing the square is simply an alternative method to the vertex formula for converting a quadratic expression from standard form into vertex form.  Still, as many of the previous examples have demonstrated, we will often need to work with fractions and be comfortable finding common denominators when solving quadratic equations using this method.  Although this can be intimidating, with enough practice, one should be able to easily solve almost any quadratic equation by completing the square. %MM
+\pp
+In the next section, we will present one final method for determining the zeros of a quadratic.

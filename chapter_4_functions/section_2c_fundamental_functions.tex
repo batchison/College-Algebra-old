@@ -1,0 +1,823 @@
+\documentclass[11pt]{book}
+
+%determine if  a function has an inverse 
+%subsection at the top first--> One to one with defintion and graphically 
+
+%\oddsidemargin 0in
+%\evensidemargin 0in
+%\marginparwidth 0in
+ 
+%\usepackage[top=1in
+%,left=1.5in,
+%bottom=1in,%right=1in,textheight=8.5in,textwidth=6in
+%]{geometry}
+
+% \usepackage{pgfplots}%Mark added
+\usepackage{amsfonts,amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{docmute}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{graphics}
+\usepackage{pgf, tikz} 
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{setspace}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage[english]{babel}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{vwcol}
+\usepackage{xcolor}
+\usepackage{cancel}
+
+%COMMENTED OUT THE FOLLOWING BECAUSE IT WAS GIVING ME TROUBLE 
+%\usepackage[
+%type={CC},
+%modifier={by-nc-sa},
+%version={4.0},
+%]{doclicense}
+%\usepackage{bbm}
+ 
+%First appears in II.1.1
+\newcommand{\tmdummy}{$\mbox{}$}
+\newcommand{\tmmathbf}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+\newcommand{\tmstrong}[1]{\textbf{#1}}
+%{\theorembodyfont{\rmfamily}
+%First appears in II.1.?
+\newcommand{\tmem}[1]{{\em #1\/}}
+%\newenvironment{enumeratenumeric}{\begin{enumerate}[1.] }{\end{enumerate}}
+%First appears in II.1.6a
+\newenvironment{itemizedot}{\begin{itemize} \renewcommand{\labelitemi}{$\bullet$}\renewcommand{\labelitemii}{$\bullet$}\renewcommand{\labelitemiii}{$\bullet$}\renewcommand{\labelitemiv}{$\bullet$}}{\end{itemize}}
+ 
+ 
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{1.0} %SZ set to gray, 0.9
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem*{defn}{Definition}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+%\newtheorem*{thm}{Theorem}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{thm}{Theorem}[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem*{cor}%[thm]
+{Corollary} % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{eqn}{Equation}[chapter]
+\newtheorem{ex}{Example}[chapter] % this is needed for all Stitz Zeager content.
+\newtheorem{example}{Example}[chapter]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\setlength{\extrarowheight}{2pt}
+\newcommand{\bbm}{\begin{boxedminipage}{4.80in}} %SZ set to 6.41
+\newcommand{\ebm}{\end{boxedminipage}}
+\newcounter{HW}
+\newcounter{HWindent}
+ 
+\newcommand{\comment}[1]{}
+\newcommand{\pp}{\par~\par}
+
+\begin{document}
+\subsection{Ten Fundamental Functions}
+
+%{\tmstrong{Objective: }}\pp
+In this subsection, we have listed ten fundamental functions which will be referenced throughout the rest of the text, as well as one example of each.  Each type of function represents part of the foundation of a traditional algebra course.  In each case, students should be able to quickly identify the graph of each function, as well as its domain and range.  A page has been reserved for each function, so that students can perform a complete analysis: construct a table of values, identify any $x-$ and $y-$intercepts, sketch a complete graph, and identify domain (both algebraically and graphically) and range (graphically).
+\begin{center}
+\begin{tabular}{|c|c|l|}
+\hline
+Function Type & General Form & ~~~~~~Example\\
+\hline
+&&\\
+Linear & $mx+b$ & $f(x)=3x-4$\\
+&&\\
+Quadratic & $ax^2+bx+c$ & $g(x)=x^2$\\
+&&\\
+Square Root & $\sqrt{x-h}$ & $k(x)=\sqrt{x}$\\
+&&\\
+Absolute Value & $|x-h|$ & $\ell(x)=|x|$\\
+&&\\
+Cubic & $(x-h)^3$ & $m(x)=x^3$\\
+&&\\
+Cube Root & $\sqrt[3]{x-h}$ & $n(x)=\sqrt[3]{x}$\\
+&&\\
+Rational & $\dfrac{1}{x-h}$ & $p(x)=\dfrac{1}{x}$\\
+&&\\
+Semicircular & $\sqrt{r^2-x^2},~r>0$ & $q(x)=\sqrt{9-x^2}$\\
+&&\\
+Exponential* & $a^x,~a>0, a\neq 1$ & $r(x)=2^x$\\
+&&\\
+Logarithmic* & $\log_a(x),~a>0, a\neq1$ & $s(x)=\log_2(x)$\\
+&&\\
+\hline
+\end{tabular}
+\end{center}
+*We have included Exponential and Logarithmic functions for a more complete list.  These functions will be more formally treated in a Precalculus setting. 
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Linear} $(m\neq 0)$\\
+Example: &$f(x)=3x-4$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $f(x)$\\
+	\hline
+ & \\
+ -3 & -13\\
+ & \\
+ -2 & -10\\
+ & \\
+ -1 & -7\\
+ & \\
+ 0 & -4\\
+ & \\
+ 1 & -1\\
+ & \\
+ $\frac{4}{3}$ & 0\\
+ & \\
+ 2 & 2\\
+ & \\
+ 3 & 5\\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{0.5in}
+~\\
+\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-5.25) -- coordinate (y axis mid) (0,5.25) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-5,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,5}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw [<->, domain=-0.33:3] plot (\x, {3*(\x)-4});
+\draw[fill] (1.33,0) circle (0.075) node[above right] {\scriptsize ($\frac{4}{3},0$)}; 
+\draw[fill] (0,-4) circle (0.075);
+\end{tikzpicture}
+\begin{center}
+Graph of $f(x)=3x-4$
+\end{center}
+\end{multicols}
+\vspace{0.25in}
+\begin{tabular}{ll}
+$y-$intercept: & $(0,-4)$\\
+&\\
+$x-$intercept(s): & $\left(\frac{4}{3},0\right)$\\
+&\\
+Domain: & $(-\infty,\infty)$\\
+&\\
+Range: & $(-\infty,\infty)$
+\end{tabular}
+\\
+\vspace{0.25in}
+
+\noindent Notes: If $m=0$, then the corresponding graph of $f(x)=b$ is a horizontal line.  The domain of $f$ is still $(-\infty,\infty)$, but the range consists of a single value, $\{b\}$. 
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Quadratic} \\
+Example: &$g(x)=x^2$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $g(x)$\\
+	\hline
+ & \\
+ -3 & 9\\
+ & \\
+ -2 & 4\\
+ & \\
+ -1 & 1\\
+ & \\
+ 0 & 0\\
+ & \\
+ 1 & 1\\
+ & \\
+ 2 & 4\\
+ & \\
+ 3 & 9\\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+~\\
+~\\
+~\\
+~\\
+\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-1) -- coordinate (y axis mid) (0,10) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-3,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,9}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw [<->, domain=-3:3] plot (\x, {(\x)^2});
+\draw[fill] (0,0) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}
+\begin{center}
+Graph of $g(x)=x^2$
+\end{center}
+\end{multicols}
+~\\
+%\vspace{0.25in}
+\begin{tabular}{ll}
+$y-$intercept: & $(0,0)$\\
+&\\
+$x-$intercept(s): & $(0,0)$\\
+&\\
+Domain: & $(-\infty,\infty)$\\
+&\\
+Range: & $[0,\infty)$
+\end{tabular}
+\\
+~\\
+%\vspace{0.25in}
+
+\noindent Notes: The domain of any quadratic function is $(-\infty,\infty)$.If\\ $g(x)=a(x-h)^2+k$, is a quadratic function in vertex form, then if $a>0$, the corresponding parabola will be concave \textit{up}, and the range of $g$ will be $[k,\infty)$.  If $a<0$, then the corresponding parabola will be concave \textit{down}, and the range of $g$ will be $(-\infty,k]$. 
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Square Root}\\
+Example: &$k(x)=\sqrt{x}$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $k(x)$\\
+	\hline
+ & \\
+-1 & undefined\\
+ & \\
+0 & 0\\
+ & \\
+1 & 1\\
+ & \\
+2 & $\sqrt{2}\approx 1.41$\\
+ & \\
+3 & $\sqrt{3}\approx 1.73$\\
+ & \\
+4 & 2\\
+ & \\
+9 & 3\\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+\begin{tikzpicture}[xscale=0.6,yscale=0.6]
+\draw [<->](-1,0) -- coordinate (x axis mid) (10,0) node[below right] {$x$};
+\draw [<->](0,-1) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+%\foreach \x in {-3,...,-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,9}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-3,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[domain=0:3,->] plot ({\x^(2)},\x);
+\draw[fill] (0,0) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}
+\begin{center}
+Graph of $k(x)=\sqrt{x}$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & $(0,0)$\\
+&\\
+$x-$intercept(s): & $(0,0)$\\
+&\\
+Domain: & $[0,\infty)$\\
+&\\
+Range: & $[0,\infty)$
+\end{tabular}
+\\
+~\\
+%\vspace{0.25in}
+
+\noindent Notes: The domain of a square root function of the form $k(x)=\sqrt{x-h}$ will be $x>h$.  The range will be the same as in the example, $[0,\infty)$.  The $x-$intercept will be $(h,0)$. 
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Absolute Value}\\
+Example: &$\ell(x)=|x|$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $\ell(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $\ell(x)=|x|$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Cubic}\\
+Example: &$m(x)=x^3$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $m(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $m(x)=x^3$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Cube Root}\\
+Example: &$n(x)=\sqrt[3]{x}$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $n(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $n(x)=\sqrt[3]{x}$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Rational}\\
+Example: &$p(x)=\dfrac{1}{x}$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $p(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $p(x)=\dfrac{1}{x}$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Semicircular}\\
+Example: &$q(x)=\sqrt{9-x^2}$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $q(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $q(x)=\sqrt{9-x^2}$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Exponential}\\
+Example: &$r(x)=2^x$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $r(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $r(x)=2^x$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+
+\newpage
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{ll}
+Function Type: &\textbf{Logarithmic}\\
+Example: &$s(x)=\log_2x$
+\end{tabular}
+\\
+\vspace{0.25in}
+\begin{tabular}{c|c}
+	$x$ & $s(x)$\\
+	\hline
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+ & \\
+\end{tabular}
+\end{center}
+~\\
+\vspace{1in}
+~\\
+\phantom{\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+\draw [<->](-4,0) -- coordinate (x axis mid) (4,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt);
+%node[anchor=north] {\scriptsize \x};
+\foreach \y in {-3,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,3}
+\draw (1pt,\y) -- (-3pt,\y); 
+%node[anchor=east] {\scriptsize \y}; 
+%\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+%\draw[fill] (1,-5) circle (0.075);
+%\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}}
+\begin{center}
+Graph of $s(x)=\log_2x$
+\end{center}
+\end{multicols}
+\vspace{0.5in}
+\begin{tabular}{ll}
+$y-$intercept: & \\
+&\\
+$x-$intercept(s): & \\
+&\\
+Domain: & \\
+&\\
+Range: & \\
+& \\
+Notes: &
+\end{tabular}
+\end{document}

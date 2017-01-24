@@ -1,0 +1,244 @@
+{\tmstrong{Objective: Solve systems of equations with three variables using
+addition/elimination.}}\pp
+
+Recall that the graph of an equation containing two variables is a (two-dimensional) line.  If we increase the number of variables in an equation to three, then the resulting graph will be a three-dimensional plane.  This particular section deals with solving a system of equations containing three variables.  Whereas the solution for a system of \textit{two} equations is the set of points where their respective \textit{lines} intersect, the solution for a system of \textit{three} equations will be the set of points where all three respective \textit{planes} intersect.  Although we do not intend to undertake the arduous task of graphing even a single equation containing three variables in this setting, the visual is sometimes helpful in justifying a particular outcome, and is often critical to understanding in more advanced mathematics courses such as multivariate calculus and linear algebra.\pp
+
+The method for solving a system of equations with three (or more) variables is very similar to that for solving a system with two variables. When we had two variables we reduced the system
+down to one equation with one variable (by either substitution or addition/elimination). With three
+variables we will reduce the system down to one equation with two variables (usually by
+addition/elimination), which we can then solve by either substitution or addition/elimination.\pp
+
+To reduce from three variables down to two it is very important to keep the
+work organized by lining up the variables vertically and using enough space to carefully keep track of everything. We will use addition/elimination with two equations to eliminate one
+variable. This new equation we will call (A). Then we will use a different
+pair of equations and use addition/elimination to eliminate the {\tmstrong{same}}
+variable. This second new equation we will call (B). Once we have done this we
+will have a system of two equations, (A) and (B), with the same two variables that we can
+solve using either method, substitution or elimination, depending on the context of the problem. This is demonstrated in the following examples.
+
+%\vspace{.7in}
+%~\\
+\newpage
+
+\begin{example}~~~Solve the following system of equations.
+\begin{center}
+%\begin{tabular}{lcl}
+		$3 x + 2 y~ - z=- 1~$\\
+		$- 2 x - 2 y + 3 z=5$~~~~~~~\\
+		$5 x + 2 y~ - z=3~~~~$
+%\end{tabular}
+\end{center}
+Our strategy will be to first eliminate $y$ using two different pairs of equations from those provided above.
+
+	\begin{eqnarray*}
+    3 x + 2 y~ - z = - 1 &  & \tmop{Using} \tmop{the} \tmop{first} \tmop{two}
+    \tmop{equations},\\
+    \underline{- 2 x - 2 y + 3 z = ~5~} &  & \tmop{Add} \\
+    x + 2 z = ~4~ &  & \tmop{Call} \tmop{this} \tmop{equation~(A)}\\
+    &  & \\
+    - 2 x - 2 y + 3 z = 5 &  & \tmop{Using} \tmop{the} \tmop{second}
+    \tmop{two} \tmop{equations}\\
+    \underline{~5 x + 2 y~ -~ z = 3} &  & \tmop{Add}\\
+    3 x + 2 z = 8 &  & \tmop{Call} \tmop{this} \tmop{equation~(B)}\\
+    &  & \\
+% \end{eqnarray*}
+ %\begin{eqnarray*}
+    x + 2 z = 4 &  & \text{Equation~(A)}\\
+    3 x + 2 z = 8 &  & \text{Equation~(B)}\\
+    &  & \\
+    - 1 (x + 2 z) = (4) (- 1) &  & \tmop{Multiply~equation~(A)} \tmop{by~} - 1\\
+    - x - 2 z = - 4~~~~~~ &  & \tmop{Simplify}\\
+    &  & \\
+    - x - 2 z = - 4 &  &\\
+    \underline{3 x + 2 z = ~8~} &  & \text{Add~the~two~equations}\\
+    2 x = 4~~ &  & \\
+    \tmmathbf{\overline{2} ~~~~ \overline{2}}~~ &  &\tmop{Divide} \tmop{by~} 2 \\
+    x = 2~~ &  & \tmop{We} \tmop{now} \tmop{have~} x!\\
+    &  &  \tmop{Plug~} x \tmop{~into~either~(A)~or~(B)}\\
+    (2) + 2 z = 4~~ &  & \text{We~will~use~(A)}\\
+    \tmmathbf{\underline{- 2 ~~~~~~~~- 2}} &  & \text{Subtract~} 2\\
+    2 z = 2~~ &  &\\
+    \tmmathbf{\overline{2} ~~~~ \overline{2}}~~ &  &  \tmop{Divide} \tmop{by~} 2\\
+    z = 1~~ &  & \tmop{We} \tmop{now} \tmop{have~} z!\\
+    &  &  \text{Plug~} x \text{~and~} z \text{~into~any~of~the~} \text{original~equations}%\\
+ \end{eqnarray*}
+ \begin{eqnarray*}
+    3 (2) + 2 y - (1) = - 1 &  & \tmop{We~will~use~the~first~equation}\\
+    &  & \tmop{Simplify;~reduce~and~combine~constant~terms}\\
+		2 y + 5 = - 1 & & \tmop{Solve~for~} y\\
+		\tmmathbf{\underline{- 5 ~~- 5}} &  &\tmop{Subtract~} 5\\
+    2 y = - 6 &  &\\
+    \tmmathbf{\overline{2} ~~~~~~~ \overline{2}} &  &  \tmop{Divide} \tmop{by~} 2\\
+    y = - 3 &  & \tmop{We} \tmop{now} \tmop{have~} y!\\
+%    &  & \\
+    (x,y,z)=(2, - 3, 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+As we are solving for $x, y, \tmop{and} z$ we will have an ordered triplet
+$(x, y, z)$ instead of just the ordered pair $(x, y)$. In the previous problem,
+$y$ was easily eliminated using the addition method. Sometimes, however, we may
+have to do a bit of work to eliminate a variable. Just as with the addition
+of two equations, we may have to multiply the equations by a constant on both sides
+in order to get the opposites we want and eliminate the variable. As we do this, remember that 
+it is important to eliminate the {\tmstrong{same variable each time}}, using
+two {\tmstrong{different}} pairs of equations.
+
+\begin{example}~~~Solve the following system of equations.
+\begin{center}
+		$4 x - 3 y + 2 z = - 29~$\\
+		$6 x + 2 y - z = - 16$\\
+		$- 8 x - y + 3 z = 23~~~~$
+\end{center}
+Notice that no variable will easily eliminate.  Although we are free to choose any variable to eliminate, we will choose $x$ here.  Remember, we will be eliminating $x$ \textit{twice}, using two different equations each time.
+	\begin{eqnarray*}
+    4 x - 3 y + 2 z = - 29 &  & \text{Begin~with~the~first~two~equations}\\
+		6 x + 2 y - z = - 16& & \text{The~LCM~of~} 4 \text{~and~} 6 \text{~is~} 12%\\
+	\end{eqnarray*}
+We will multiply both sides of the first equation by 3 to obtain $12x$.  Similarly, we will multiply both sides of the second equation by -2 to obtain $-12x$.
+
+	\begin{eqnarray*}
+    3 (4 x - 3 y + 2 z) = (- 29) 3 &  & \tmop{Multiply} \tmop{the}
+    \tmop{first} \tmop{equation} \tmop{by~} 3\\
+    12 x - 9 y + 6 z = - 87~~~~ &  & \\
+    &  & \\
+    - 2 (6 x + 2 y - z) = (- 16) (- 2) &  & \tmop{Multiply} \tmop{the}
+    \tmop{second} \tmop{equation} \tmop{by~} - 2\\
+    - 12 x - 4 y + 2 z = 32~~~~~~~~~~~ &  & \\
+    &  & \\
+    12 x - 9 y + 6 z = - 87 &  & \\
+    \underline{- 12 x - 4 y + 2 z = ~32~} &  & \tmop{Add} \tmop{these} \tmop{two}
+    \tmop{equations} \tmop{together}\\
+    - 13 y + 8 z = - 55 &  & \tmop{Call} \tmop{this} \tmop{equation~(A)}\\
+\end{eqnarray*}
+Next, we will use a different pair of equations.
+\begin{eqnarray*}
+    6 x + 2 y - z = - 16 &  & \text{Now~use~the~second~pair~of~equations}\\
+    - 8 x - y + 3 z = ~23~ &  & \text{The~LCM~of~} 6 \text{~and~} - 8
+    \text{~is~} 24\\
+\end{eqnarray*}
+		Now, we will multiply both sides of the first equation by 4 to obtain $24x$, and both sides of the second equation by 3 to obtain $-24x$.
+\begin{eqnarray*}
+    4 (6 x + 2 y - z) = (- 16) 4 &  & \tmop{Multiply} \tmop{the} \tmop{first}
+    \tmop{equation} \tmop{by~} 4\\
+    24 x + 8 y - 4z = - 64~~~~ &  & \\
+    &  & \\
+    3 (- 8 x - y + 3 z) = (23) 3 &  & \tmop{Multiply} \tmop{the} \tmop{second}
+    \tmop{equation} \tmop{by~} 3\\
+    - 24 x - 3 y + 9 z = 69~~~~ &  & \\
+    &  & \\
+    24 x + 8 y - 4z = - 64 &  & \\
+    \underline{- 24 x - 3 y + 9 z = ~69~} &  & \tmop{Add} \tmop{these} \tmop{two}
+    \tmop{equations} \tmop{together}\\
+    5 y + 5 z = ~5~~ &  & \tmop{Call} \tmop{this} \tmop{equation~(B)}\\
+  \end{eqnarray*}
+	Now, using equations (A) and (B), we will solve the given system.
+	\begin{eqnarray*}
+	   - 13 y + 8 z = - 55 &  & \text{Equation~(A)}\\
+    5 y + 5 z = ~5~~~ &  & \text{Equation~(B)}\\
+		&  & \\
+    5 y + 5 z = 5~~~~~~~ &  & \text{Solve~equation~(B)~for~} z\\
+    \tmmathbf{\underline{- 5 y ~~~~~~~~- 5 y}}~~~ &  & \tmop{Subtract~} 5 y\\
+    5 z = 5 - 5 y &  & \\
+    \tmmathbf{\overline{5} ~~~~~ \overline{5} ~~~~ \overline{5}}~ &  & \tmop{Divide~both~sides~by~} 5\\
+    z = 1 - y~ &  & \text{Equation~for~} z
+   \end{eqnarray*}
+	Next, substitute $z$ into equation (A).
+	 \begin{eqnarray*}
+		- 13 y + 8 \tmmathbf{(1 - y)} = - 55 &  & \text{Simplify}\\
+    - 13 y + 8 - 8 y = - 55 &  & \text{Distribute}\\
+    - 21 y + 8 = - 55 &  & \tmop{Combine} \tmop{like} \tmop{terms}\\
+    \tmmathbf{\underline{- 8 ~~~~- 8}} &  &  \tmop{Subtract~} 8\\
+    - 21 y = - 63 &  & \\
+    \tmmathbf{\overline{- 21} ~~~~ \overline{- 21}} &  & \tmop{Divide} \tmop{by~} - 21\\
+    y = 3~~~~  &  & \tmop{We} \tmop{have} \tmop{our~} y!
+		\end{eqnarray*}
+	Now plug $y$ into the equation for $z$.
+	 \begin{eqnarray*}
+	  z = 1 - (3) &  & \tmop{Evaluate}\\
+    z = - 2~~~~~ &  & \tmop{We} \tmop{have~} z!\\
+		\end{eqnarray*}
+	Now, we can find $x$ from one of our original equations.  We will use the first equation.
+		\begin{eqnarray*}
+    4 x - 3 (3) + 2 (- 2) = - 29 &  & \text{Simplify}\\
+    4 x - 13 = - 29 &  & \text{Combine~like~terms}\\
+    \tmmathbf{\underline{+ 13 ~~+ 13}} &  &		\tmop{Add~} 13\\
+    4 x = - 16 &  & \\
+    \tmmathbf{\overline{4} ~~~~~~~ \overline{4}}~ &  & \tmop{Divide} \tmop{by~} 4\\
+    x = - 4~ &  & \tmop{We} \tmop{have} \tmop{our~} x!\\
+    &  & \\
+    (x,y,z)=(- 4, 3, - 2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+ 
+{\tmstrong{World View Note:}} Around 250, {\tmem{The Nine Chapters on the
+Mathematical Art}} were published in China. This book had 246 problems, and
+Chapter eight was about solving systems of equations. One particular problem had four
+equations with five variables!\pp
+
+Just as with two variables and two equations, we can have special cases come
+up with three variables and three equations. Specifically, it is possible to encounter a system of equations that has infinitely many solutions, or none at all.  The way we handle such systems is identical to that for a system containing only two equations/variables.
+
+\begin{example}~~~Solve the following system of equations.
+\begin{center}
+		$5 x - 4 y + 3 z = - 4$\\
+		$- 10 x + 8 y - 6 z = ~8~~~~$\\
+		$15 x - 12 y + 9 z = - 12$
+\end{center}
+Again, we will choose to eliminate $x$.
+	\begin{eqnarray*}
+    5 x - 4 y + 3 z = - 4 &  & \text{Begin~with~the~first~two~equations}\\
+		- 10 x + 8 y - 6 z = ~8~& & \text{The~LCM~of~} 5 \text{~and~} -10 \text{~is~} 10%\\
+	\end{eqnarray*}
+		We will multiply both sides of the first equation by 2 to obtain $10x$.  Since the second equation contains $-10x$, we do not need to multiply it by a constant.
+	\begin{eqnarray*}
+    2 (5 x - 4 y + 3 z) = - 4 (2) &  & \tmop{Multiply} \tmop{the} \tmop{first}
+    \tmop{equation} \tmop{by~} 2\\
+    10 x - 8 y + 6 z = - 8~~~~ &  & \\
+    &  & \\
+    10 x - 8 y + 6 z = - 8 &  & \\
+    \underline{- 10 x + 8 y - 6 = ~8~} &  & \text{Add~the~two~equations}\\
+    0 = 0~~ &  & \tmop{A~true~statement}
+  \end{eqnarray*}
+Since we are left with a true statement, we conclude that there are infinitely many solutions to the first two equations.\pp
+Remember, that our usual procedure requires us to eliminate a variable ($x$ in this case) \textit{twice}, using two different equations each time.  Even though we have concluded that there are infinitely many simultaneous solutions to the first two equations, we still must consider two different equations.  In this particular example, we will obtain the same outcome by choosing \textit{any} two equations, and it is left as an exercise for the reader to show this.\\
+{\bf Hint}: What do you notice about the set of coefficients for each equation, in relation to each of the other two equations?  Do you think our results are related to this?\pp
+Once we have eliminated the same variable \textit{twice} and drawn the same conclusions as above, we can conclude that there are infinitely many simultaneous solutions ($x,y,z$) to \text{all three} equations, i.e., the entire system.\pp
+There are, in fact, cases where two equations will share infinitely many solutions, but the entire system of equations might \textit{fail} to have any simultaneous solutions.  This is why it is critical that we not rush to an incorrect conclusion.  These more subtle cases will usually be treated in detail in a multivariate calculus or a linear algebra course.\pp
+Our last example demonstrates the only time when it is permissible to eliminate a variable from two equations in our system once.%\pp
+
+\end{example}
+  
+\begin{example}~~~Solve the following system of equations.
+\begin{center}
+		$3 x - 4 y + z = 2$\\
+		$- 9 x + 12 y - 3 z = - 5~~~$\\
+		$4 x - 2 y - z = 3$
+\end{center}
+Here, it will be slightly easier to eliminate $z$.
+	\begin{eqnarray*}
+    3 x - 4 y + z = 2~~ &  & \text{Begin~with~the~first~two~equations}\\
+		- 9 x + 12 y - 3 z = - 5& & \text{The~LCM~of~} 1 \text{~and~} -3 \text{~is~} 3%\\
+	\end{eqnarray*}
+		We will multiply both sides of the first equation by 3 to obtain $3z$.  Since the second equation contains $-3z$, we do not need to multiply it by a constant.
+	\begin{eqnarray*}
+    3 (3 x - 4 y + z) = (2) 3 &  & \tmop{Multiply} \tmop{the} \tmop{first}
+    \tmop{equation} \tmop{by~} 3\\
+    9 x - 12 y + 3 z = 6~~~~ &  & \\
+    &  & \\
+    9 x - 12 y + 3 z = ~6~~ &  &\\
+    \underline{- 9 x + 12 y - 3 z = - 5} &  & \text{Add~the~two~equations}\\
+    0 \neq 1~~ &  & \tmop{A~false~statement}%\\
+  \end{eqnarray*}
+Since we are left with a false statement, we conclude that there are no solutions to the given system.%\pp
+\end{example}
+Remember, that our usual procedure requires us to eliminate a variable ($z$ in this case) \textit{twice}, using two different equations each time.  In this particular case we need only eliminate the variable once.  Since we obtained a false statement, which implies that there can be no solution to the first \textit{two} equations in the system, it will be impossible to obtain a simultaneous solution to \textit{all three} equations.\pp
+
+
+Equations with three (or more) variables are no more difficult to attempt to solve than those containing two
+variables, if we are careful to keep our information organized and eliminate
+the same variable twice, each time using two different pairs of equations. As with many problems, it is possible to solve each system several different ways. We can use different pairs of
+equations or eliminate variables in different orders.  But as long as our
+information is organized and our algebra is correct, we should always arrive at the
+same conclusion.
+
+%\end{document}

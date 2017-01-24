@@ -1,0 +1,469 @@
+\textbf{Note:} This section has been taken in its entirety from Carl Stitz and Jeff Zeager's \textit{College Algebra} text.  As of this version of the text, it remains largely unedited.  In many of the examples that follow, graphs have been intentionally left blank for the student to complete directly in the text, so as to further reinforce each concept. 
+\subsection{Shifts}
+
+{\tmstrong{Objective: Graph functions by translating up, down, left or right}}\pp
+
+\label{Transformations}
+
+In this section, we study how the graphs of functions change, or \textbf{transform}, when certain specialized modifications are made to their formulas. The transformations we will study fall into three broad categories:  shifts, reflections and scalings, and we will present them in that order.  Suppose the graph below is the complete graph of a function $f$.\index{transformations of function graphs}\index{function ! transformation of graphs}
+
+\begin{center}
+
+\begin{mfpic}[15]{-1}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{center}
+
+The Fundamental Graphing Principle for Functions says that for a point $(a,b)$ to be on the graph, $f(a) = b$.  In particular, we know $f(0) = 1$, $f(2)=3$, $f(4)=3$ and $f(5)=5$.  Suppose we wanted to graph the function defined by the formula $g(x) = f(x) + 2$.  Let's take a minute to remind ourselves of what $g$ is doing.  We start with an input $x$ to the function $f$ and we obtain the output $f(x)$.  The function $g$ takes the output $f(x)$ and adds $2$ to it.  In order to graph $g$, we need to graph the points $(x,g(x))$.  How are we to find the values for $g(x)$ without a formula for $f(x)$?  The answer is that we don't need a \textit{formula} for $f(x)$, we just need the \textit{values} of $f(x)$.  The values of $f(x)$ are the $y$ values on the graph of $y=f(x)$.  For example, using the points indicated on the graph of $f$, we can make the following table.
+
+\[ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+ x & (x,f(x)) & f(x) & g(x)=f(x)+2 & (x, g(x)) \\ \hline
+0  & (0,1)& 1 & 3 &(0, 3) \\  \hline
+2 & (2,3) & 3 &  5 &(2,5) \\  \hline
+4 & (4,3) & 3 &  5 &(4, 5) \\  \hline
+5 & (5,5) & 5 &  7 &( 5 ,7) \\  \hline
+
+\end{array} \] 
+
+In general, if $(a,b)$ is on the graph of $y=f(x)$, then $f(a) = b$, so $g(a) = f(a) +2 = b+2$.  Hence, $(a,b+2)$ is on the graph of $g$. In other words, to obtain the graph of $g$, we add $2$ to the $y$-coordinate of each point on the graph of $f$.  Geometrically, adding $2$ to the $y$-coordinate of a point moves the point $2$ units above its previous location.  Adding $2$ to every $y$-coordinate on a graph \textit{en masse} is usually described as `shifting the graph up $2$ units'.  Notice that the graph retains the same basic shape as before, it is just $2$ units above its original location.  In other words, we connect the four points we moved in the same manner in which they were connected before.  We have the results side-by-side below.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{8}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,8){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2,  {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6, {\tiny $7$} 7}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift up $2$ units}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize add $2$ to each $y$-coordinate}} 
+
+& 
+
+\begin{mfpic}[15]{-1}{6}{-1}{8}
+%\polyline{(0,3), (2,5), (4,5), (5,7)}
+%\point[3pt]{(0,3), (2,5), (4,5), (5,7)}
+%\tlabel[cc](-1,3){\scriptsize $(0,3)$}
+%\tlabel[cc](2,5.5){\scriptsize $(2,5)$}
+%\tlabel[cc](4,4.5){\scriptsize $(4,5)$}
+%\tlabel[cc](5,7.5){\scriptsize $(5,7)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,8){\scriptsize $y$}
+\tcaption{\scriptsize $y=g(x) = f(x)+2$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2,3,4,5,6,7}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1,{\tiny $2$} 2,  {\tiny $4$} 4, {\tiny $5$} 5, {\tiny $6$} 6, {\tiny $7$} 7}
+\end{mfpic} \end{array}\]
+ 
+You'll note that the domain of $f$ and the domain of $g$ are the same, namely $[0,5]$, but that the range of $f$ is $[1,5]$ while the range of $g$ is $[3,7]$.  In general, shifting a function vertically like this will leave the domain unchanged, but could very well affect the range.  You can easily imagine what would happen if we wanted to graph the function $j(x) = f(x) - 2$.  Instead of adding $2$ to each of the $y$-coordinates on the graph of $f$, we'd be subtracting $2$.  Geometrically, we would be moving the graph down $2$ units.  We leave it to the reader to verify that the domain of $j$ is the same as $f$, but the range of $j$ is $[-1,3]$.  What we have discussed is generalized in the following theorem.
+
+\smallskip
+
+\bbm
+
+%\smallskip
+
+\begin{thm}\label{vshifts}\textbf{Vertical Shifts}\index{graph ! vertical shift} Suppose $f$ is a function and $k$ is a positive number. 
+
+\begin{itemize}
+
+\item To graph $y=f(x)+k$, shift the graph of $y=f(x)$ up $k$ units by adding $k$ to the $y$-coordinates of the points on the graph of $f$.
+
+\item To graph $y=f(x)-k$, shift the graph of $y=f(x)$ down $k$ units by subtracting $k$ from the $y$-coordinates of the points on the graph of $f$.
+
+\end{itemize}
+
+\end{thm}
+
+\ebm
+
+\smallskip
+
+The key to understanding Theorem \ref{vshifts} and, indeed, all of the theorems in this section comes from an  understanding of the Fundamental Graphing Principle for Functions.  If $(a,b)$ is on the graph of $f$, then $f(a) = b$.  Substituting $x=a$ into the equation  $y=f(x)+k$ gives $y=f(a)+k = b+k$.  Hence, $(a,b+k)$ is on the graph of $y=f(x)+k$, and we have the result.  In the language of `inputs' and `outputs', Theorem \ref{vshifts} can be paraphrased as ``Adding to, or subtracting from, the \textit{output} of a function causes the graph to shift up or down, respectively.''   So what happens if we add to or subtract from the \textit{input} of the function?  
+
+\smallskip
+
+Keeping with the graph of $y=f(x)$ above, suppose we wanted to graph $g(x) = f(x+2)$.  In other words, we are looking to see what happens when we add $2$ to the input of the function.  It is worth noting that $f(x+2)$ and $f(x)+2$ are, in general, wildly different algebraic animals.   We will see momentarily that their geometry is also dramatically different.  Let's try to generate a table of values of $g$ based on those we know for $f$.  We quickly find that we run into some difficulties.
+
+\[ \begin{array}{|c||c|c|c|c|}  
+
+\hline
+
+x & (x,f(x)) & f(x)& g(x)=f(x+2) & (x, g(x)) \\ \hline
+0  & (0,1)& 1 & f(0+2) = f(2) = 3   &(0, 3) \\  \hline
+2 & (2,3) & 3 & f(2+2) = f(4) = 3  &(2,3) \\  \hline
+4 & (4,3) & 3 &  f(4+2) = f(6) = ? &  \\  \hline
+5 & (5,5) & 5 & f(5+2) = f(7) = ?  &  \\  \hline
+
+\end{array} \] 
+
+When we substitute $x=4$ into the formula $g(x)=f(x+2)$, we are asked to find $f(4+2)=f(6)$ which doesn't exist because the domain of $f$ is only $[0,5]$.  The same thing happens when we attempt to find $g(5)$.  What we need here is a new strategy.  We know, for instance, $f(0) = 1$.  To determine the corresponding point on the graph of $g$, we need to figure out what value of $x$ we must substitute into $g(x) = f(x+2)$ so that the quantity $x+2$, works out to be $0$.  Solving $x+2=0$ gives $x=-2$, and $g(-2) = f((-2)+2) = f(0) = 1$ so  $(-2,1)$ is on the graph of $g$.  To use the fact $f(2) = 3$, we set $x+2 = 2$ to get $x=0$. Substituting gives $g(0) = f(0+2) = f(2) = 3$.  Continuing in this fashion, we get  \[ \begin{array}{|r||c|c|c|}  
+
+\hline
+
+x & x+2 & g(x)=f(x+2) & (x, g(x)) \\ \hline
+-2 & 0 & g(-2)=f(0) = 1   &(-2, 1) \\  \hline
+0 &  2 &  g(0)=f(2) = 3  &(0,3) \\  \hline
+2 & 4  & g(2)=f(4) = 3 &  (2,3)\\  \hline
+3 & 5 & g(3)=f(5) = 5  & (3,5) \\  \hline
+
+\end{array} \] 
+
+In summary, the points $(0,1)$, $(2,3)$, $(4,3)$ and $(5,5)$ on the graph of $y=f(x)$ give rise to the points  $(-2,1)$, $(0,3)$, $(2,3)$ and $(3,5)$ on the graph of $y=g(x)$, respectively.  In general, if $(a,b)$ is on the graph of $y=f(x)$, then $f(a) = b$.  Solving $x+2 = a$ gives $x = a-2$ so that $g(a-2) = f((a-2)+2) = f(a) = b$.  As such, $(a-2,b)$ is on the graph of $y=g(x)$. The point $(a-2,b)$ is exactly $2$ units to the \emph{left} of the point $(a,b)$ so the graph of $y=g(x)$ is obtained by shifting the graph $y=f(x)$ to the left $2$ units, as pictured below.
+
+\[\begin{array}{ccc}
+
+\begin{mfpic}[12]{-3}{6}{-1}{6}
+\polyline{(0,1), (2,3), (4,3), (5,5)}
+\point[3pt]{(0,1), (2,3), (4,3), (5,5)}
+\tlabel[cc](-1,1){\scriptsize $(0,1)$}
+\tlabel[cc](2,3.5){\scriptsize $(2,3)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,3)$}
+\tlabel[cc](5,5.5){\scriptsize $(5,5)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)$}
+\axes
+\xmarks{-2,-1, 1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1\hspace{7pt}$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic} 
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left $2$ units}}{\xrightarrow{\hspace{1in}}}}{\stackrel{\mbox{ \scriptsize subtract $2$ from each}}{\mbox{\scriptsize$x$-coordinate}}} 
+
+& 
+
+\begin{mfpic}[12]{-3}{6}{-1}{6}
+%\polyline{(-2,1), (0,3), (2,3), (3,5)}
+%\point[3pt]{(-2,1), (0,3), (2,3), (3,5)}
+%\tlabel[cc](-3,1){\scriptsize $(-2,1)$}
+%\tlabel[cc](-1,3){\scriptsize $(0,3)$}
+%\tlabel[cc](2,2.5){\scriptsize $(2,3)$}
+%\tlabel[cc](3,5.5){\scriptsize $(3,5)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,6){\scriptsize $y$}
+\tcaption{\scriptsize $y=g(x)=f(x+2)$}
+\axes
+\xmarks{-2,-1, 1,2,3,4,5}
+\ymarks{1,2,3,4,5}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1\hspace{7pt}$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $4$} 4, {\tiny $5$} 5}
+\end{mfpic}
+
+\end{array}\]
+
+Note that while the ranges of $f$ and $g$ are the same, the domain of $g$ is $[-2,3]$ whereas the domain of $f$ is $[0,5]$.  In general, when we shift the graph horizontally, the range will remain the same, but the domain could change.  If we set out to graph $j(x) = f(x-2)$, we would find ourselves \textit{adding} $2$ to all of the $x$ values of the points on the graph of $y=f(x)$ to effect a shift to the \emph{right} $2$ units. Generalizing these notions produces the following result.
+
+\smallskip
+
+\bbm
+
+%\smallskip
+
+\begin{thm} \label{hshifts}\textbf{Horizontal Shifts}\index{graph ! horizontal shift}  Suppose $f$ is a function and $h$ is a positive number. 
+
+\begin{itemize}
+
+\item To graph $y=f(x+h)$, shift the graph of $y=f(x)$ left $h$ units by subtracting $h$ from the $x$-coordinates of the points on the graph of $f$.
+
+\item To graph $y=f(x-h)$, shift the graph of $y=f(x)$ right $h$ units by adding $h$ to the $x$-coordinates of the points on the graph of $f$.
+
+\end{itemize}
+
+\end{thm}
+
+\ebm
+
+\smallskip
+
+In other words,  Theorem \ref{hshifts} says that adding to or subtracting from the  \textit{input} to a function amounts to shifting the graph left or right, respectively.  Theorems \ref{vshifts} and \ref{hshifts} present a theme which will run common throughout the section:  changes to the outputs from a function affect the $y$-coordinates of the graph, resulting in some kind of vertical change;  changes to the inputs to a function affect the $x$-coordinates of the graph, resulting in some kind of horizontal change.
+
+
+\comment{ %Comment out all examples
+\begin{example}  $~$ \label{transformationex1}
+
+\begin{enumerate}
+
+\item  Graph $f(x) = \sqrt{x}$.  Plot at least three points. 
+
+\item  Use your graph in 1 to graph $g(x) = \sqrt{x}-1$. 
+
+\item  Use your graph in 1 to graph  $j(x) = \sqrt{x-1}$.
+
+\item  Use your graph in 1 to graph $m(x) = \sqrt{x+3} - 2$. 
+
+\end{enumerate}
+
+\smallskip
+
+{\bf Solution.}  
+
+\begin{enumerate}
+
+\item  Owing to the square root, the domain of $f$ is $x \geq 0$, or $[0,\infty)$.  We choose perfect squares to build our table and graph below.  From the graph we verify the domain of $f$ is $[0,\infty)$ and the range of $f$ is also $[0, \infty)$.
+
+\begin{tabular}{m{0.5in}m{3in}m{3in}}
+
+&
+
+$\begin{array}{|c||c|c|}  
+
+\hline
+
+x & f(x) & (x,f(x)) \\ \hline
+0  & 0& (0,0)  \\  \hline
+1 & 1 & (1,1)  \\  \hline
+4 & 2 & (4,2)  \\  \hline
+
+\end{array}$ & 
+
+\begin{mfpic}[15]{-1}{5}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+\end{tabular}
+
+\item The domain of $g$ is the same as the domain of $f$, since the only condition on both functions is that $x \geq 0$.  If we compare the formula for $g(x)$ with $f(x)$, we see that $g(x) = f(x) - 1$.  In other words, we have subtracted $1$ from the output of the function $f$. By Theorem \ref{vshifts}, we know that in order to graph $g$, we shift the graph of $f$ down one unit by subtracting $1$ from each of the $y$-coordinates of the points on the graph of $f$.  Applying this to the three points we have specified on the graph, we move $(0,0)$ to $(0,-1)$, $(1,1)$ to $(1,0)$, and $(4,2)$ to $(4,1)$.  The rest of the points follow suit, and we connect them with the same basic shape as before. We confirm the domain of $g$ is $[0, \infty)$ and find the range of $g$ to be $[-1, \infty)$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{5}{-2}{3}
+%\arrow \function{0,5,0.1}{sqrt(x)}
+%\point[3pt]{(0,0), (1,1), (4,2)}
+%\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+%\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+%\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1,{\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift down $1$ unit}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize subtract $1$ from each $y$-coordinate}} 
+
+&
+
+\begin{mfpic}[15]{-1}{5}{-2}{3}
+\arrow \function{0,5,0.1}{sqrt(x)-1}
+\point[3pt]{(0,-1), (1,0), (4,1)}
+\tlabel[cc](-1,-1){\scriptsize $(0,-1)$}
+\tlabel[cc](1,0.5){\scriptsize $(1,0)$}
+\tlabel[cc](4,1.5){\scriptsize $(4,1)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=g(x)=\sqrt{x}-1$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $1$} 1,{\tiny $2$} 2}
+\end{mfpic}
+
+\end{array}\]
+
+\item  Solving $x-1 \geq 0$ gives $x \geq 1$, so the domain of $j$ is $[1,\infty)$.  To graph $j$, we note that $j(x) = f(x-1)$.  In other words, we are subtracting $1$ from the \textit{input} of $f$.  According to Theorem \ref{hshifts}, this induces a shift to the right of the graph of $f$.  We add $1$ to the $x$-coordinates of the points on the graph of $f$ and get the result below.  The graph reaffirms that the domain of $j$ is  $[1,\infty)$ and tells us that the range of $j$ is $[0,\infty)$.
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[15]{-1}{6}{-1}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](6,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift right $1$ unit}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize add $1$ to each $x$-coordinate}} 
+
+&
+
+\begin{mfpic}[15]{-1}{6}{-1}{3}
+%\arrow \function{1,6,0.1}{sqrt(x-1)}
+%\point[3pt]{(1,0), (2,1), (5,2)}
+%\tlabel[cc](1,-0.5){\scriptsize $(1,0)$}
+%\tlabel[cc](2,1.5){\scriptsize $(2,1)$}
+%\tlabel[cc](5,2.5){\scriptsize $(5,2)$}
+%\tlabel[cc](6,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=j(x)=\sqrt{x-1}$}
+\axes
+\xmarks{1,2,3,4,5}
+\ymarks{1,2}
+\tlpointsep{4pt}
+\axislabels {x}{ {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4, {\tiny $5$} 5}
+\axislabels {y}{{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+\end{array}\]
+
+\item  To find the domain of $m$, we solve $x+3 \geq 0$ and get $[-3, \infty)$.  Comparing the formulas of $f(x)$ and $m(x)$, we have $m(x) = f(x+3) - 2$.  We have $3$ being added to an input, indicating a horizontal shift,  and $2$ being subtracted from an output, indicating a vertical shift. We leave it to the reader to verify that, in this particular case, the order in which we perform these transformations is immaterial;  we will arrive at the same graph regardless as to which transformation we apply first.\footnote{We shall see in the next example that order is  generally important when applying more than one transformation to a graph.} We follow the convention `inputs first',\footnote{We could equally have chosen the convention `outputs first'.} and to that end we first tackle the horizontal shift.  Letting $m_{\mbox{\tiny$1$}}(x) = f(x+3)$ denote this intermediate step,  Theorem \ref{hshifts} tells us that the graph of $y=m_{\mbox{\tiny$1$}}(x)$ is the graph of $f$ shifted to the left $3$ units. Hence, we subtract $3$ from each of the $x$-coordinates of the points on the graph of $f$.  
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[14]{-4}{5}{-3}{3}
+\arrow \function{0,5,0.1}{sqrt(x)}
+\point[3pt]{(0,0), (1,1), (4,2)}
+\tlabel[cc](-1,0.25){\scriptsize $(0,0)$}
+\tlabel[cc](1,1.5){\scriptsize $(1,1)$}
+\tlabel[cc](4,2.5){\scriptsize $(4,2)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=f(x)=\sqrt{x}$}
+\axes
+\xmarks{-3,-2,-1,1,2,3,4}
+\ymarks{-2,-1,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2,{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift left $3$ units}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize subtract $3$ from each $x$-coordinate}} 
+
+&
+
+\begin{mfpic}[14]{-4}{5}{-3}{3}
+%\arrow \function{-3,2,0.1}{sqrt(x+3)}
+%\point[3pt]{(-3,0), (-2,1), (1,2)}
+%\tlabel[cc](-4,0.25){\scriptsize $(-3,0)$}
+%\tlabel[cc](-2,1.5){\scriptsize $(-2,1)$}
+%\tlabel[cc](1,2.5){\scriptsize $(1,2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m_{\mbox{\tiny$1$}}(x)=f(x+3)=\sqrt{x+3}$}
+\axes
+\xmarks{-3,-2,-1,1,2,3,4}
+\ymarks{-2,-1,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2,{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+\end{array} \]
+
+Since $m(x) = f(x+3)-2$ and $f(x+3) = m_{\mbox{\tiny$1$}}(x)$, we have $m(x) = m_{\mbox{\tiny$1$}}(x) - 2$.  We can apply  Theorem \ref{vshifts} and obtain the graph of $m$ by subtracting $2$ from the $y$-coordinates of each of the points on the graph of $m_{\mbox{\tiny$1$}}(x)$.  The graph verifies that the domain of $m$ is $[-3, \infty)$ and we find the range of $m$ to be $[-2, \infty)$.    
+
+\[ \begin{array}{ccc}
+
+\begin{mfpic}[14]{-4}{5}{-3}{3}
+%\arrow \function{-3,2,0.1}{sqrt(x+3)}
+%\point[3pt]{(-3,0), (-2,1), (1,2)}
+%\tlabel[cc](-4,0.25){\scriptsize $(-3,0)$}
+%\tlabel[cc](-2,1.5){\scriptsize $(-2,1)$}
+%\tlabel[cc](1,2.5){\scriptsize $(1,2)$}
+%\tlabel[cc](5,-0.5){\scriptsize $x$}
+%\tlabel[cc](0.5,3){\scriptsize $y$}
+%\tcaption{\scriptsize $y=m_{\mbox{\tiny$1$}}(x)=f(x+3)=\sqrt{x+3}$}
+\axes
+\xmarks{-3,-2,-1,1,2,3,4}
+\ymarks{-2,-1,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2,{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+&
+
+\stackrel{\stackrel{\mbox{\scriptsize shift down $2$ units}}{\xrightarrow{\hspace{1in}}}}{\mbox{ \scriptsize subtract $2$ from each $y$-coordinate}} 
+
+&
+
+\begin{mfpic}[14]{-4}{5}{-3}{3}
+\arrow \function{-3,2,0.1}{sqrt(x+3)-2}
+\point[3pt]{(-3,-2), (-2,-1), (1,0)}
+\tlabel[cc](-3,-2.5){\scriptsize $(-3,-2)$}
+\tlabel[cc](-3.5,-1){\scriptsize $(-2,-1)$}
+\tlabel[cc](1,0.5){\scriptsize $(1,0)$}
+\tlabel[cc](5,-0.5){\scriptsize $x$}
+\tlabel[cc](0.5,3){\scriptsize $y$}
+\tcaption{\scriptsize $y=m(x)= m_{\mbox{\tiny$1$}}(x) -2  = \sqrt{x+3}-2$}
+\axes
+\xmarks{-3,-2,-1,1,2,3,4}
+\ymarks{-2,-1,1,2}
+\tlpointsep{4pt}
+\axislabels {x}{{\tiny $-3 \hspace{7pt}$} -3, {\tiny $-2 \hspace{7pt}$} -2, {\tiny $-1 \hspace{7pt}$} -1,{\tiny $1$} 1, {\tiny $2$} 2, {\tiny $3$} 3, {\tiny $4$} 4}
+\axislabels {y}{{\tiny $-1$} -1, {\tiny $-2$} -2,{\tiny $1$} 1, {\tiny $2$} 2}
+\end{mfpic}
+
+\end{array}\]
+
+\end{enumerate}
+
+Keep in mind that we can check our answer to any of these kinds of problems by showing that any of the points we've moved lie on the graph of our final answer.  For example, we can check that $(-3,-2)$ is on the graph of $m$ by computing  $m(-3) = \sqrt{(-3)+3} - 2 = \sqrt{0}-2 = -2\, \checkmark$ \qed
+
+\end{example}
+
+\smallskip
+}  %Comments out the previous example

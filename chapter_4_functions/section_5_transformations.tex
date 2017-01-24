@@ -1,0 +1,961 @@
+\documentclass[11pt]{book}
+%\oddsidemargin 0in
+%\evensidemargin 0in
+%\marginparwidth 0in
+
+%\usepackage[top=1in
+%,left=1.5in,
+%bottom=1in,%right=1in,textheight=8.5in,textwidth=6in
+%]{geometry}
+
+\usepackage{amsfonts,amssymb,amsmath,amsthm,fancyhdr,supertabular,longtable,hhline}
+\usepackage{colortbl}
+\usepackage{docmute}
+\usepackage{import, multicol,boxedminipage}
+\usepackage{chapterfolder}
+\usepackage[metapost,truebbox]{mfpic}
+\usepackage[pdflatex]{graphicx}
+\usepackage{graphics}
+\usepackage{pgf, tikz}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{setspace}
+\usepackage{makeidx}
+\usepackage{nomencl}
+\usepackage[english]{babel}
+\usepackage[colorlinks, hyperindex, plainpages=false, linkcolor=blue, urlcolor=blue, pdfpagelabels]{hyperref}
+\usepackage[all]{hypcap}
+\usepackage{cancel}
+\usepackage{sectsty}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{vwcol}
+\usepackage{xcolor}
+\usepackage{cancel}
+\usepackage[
+type={CC},
+modifier={by-nc-sa},
+version={4.0},
+]{doclicense}
+%\usepackage{bbm}
+
+%First appears in II.1.1
+\newcommand{\tmdummy}{$\mbox{}$}
+\newcommand{\tmmathbf}[1]{\ensuremath{\boldsymbol{#1}}}
+\newcommand{\tmop}[1]{\ensuremath{\operatorname{#1}}}
+\newcommand{\tmstrong}[1]{\textbf{#1}}
+%{\theorembodyfont{\rmfamily}
+%First appears in II.1.?
+\newcommand{\tmem}[1]{{\em #1\/}}
+%\newenvironment{enumeratenumeric}{\begin{enumerate}[1.] }{\end{enumerate}}
+%First appears in II.1.6a
+\newenvironment{itemizedot}{\begin{itemize} \renewcommand{\labelitemi}{$\bullet$}\renewcommand{\labelitemii}{$\bullet$}\renewcommand{\labelitemiii}{$\bullet$}\renewcommand{\labelitemiv}{$\bullet$}}{\end{itemize}}
+
+
+\allsectionsfont{\mdseries \scshape}
+\definecolor{ResultColor}{gray}{1.0} %SZ set to gray, 0.9
+\theoremstyle{definition}  % this prevents the text in definitions, theorems, and corollaries from being italicized
+\newtheorem*{defn}{Definition}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+%\newtheorem*{thm}{Theorem}%[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{thm}{Theorem}[chapter] % this item asterisked for numbering purposes (across all chapters).
+\newtheorem*{cor}%[thm]
+{Corollary} % this item asterisked for numbering purposes (across all chapters).
+\newtheorem{eqn}{Equation}[chapter]
+\newtheorem{ex}{Example}[chapter] % this is needed for all Stitz Zeager content.
+\newtheorem{example}{Example}[chapter]
+\newtheorem{fig}{\sc Figure}[chapter]
+\setlength{\parindent}{0in}
+\setlength{\extrarowheight}{2pt}
+\newcommand{\bbm}{\begin{boxedminipage}{4.80in}} %SZ set to 6.41
+\newcommand{\ebm}{\end{boxedminipage}}
+\newcounter{HW}
+\newcounter{HWindent}
+
+\newcommand{\comment}[1]{}
+\newcommand{\pp}{\par~\par}
+
+\begin{document}
+
+{\tmstrong{Objective: Identify basic transformations of the graph of a function through familiar examples.}}
+
+\subsection{Introduction}
+
+In this section, we will continue to become more comfortable with general function notation and use it to establish a ``database'' of actions that may be applied to a particular function, each of which resulting in a predictable transformation of the graph of the original function.  The three fundamental transformations which we will discuss are:
+\begin{itemize}
+	\item translations, or ``shifts''
+	\item reflections
+	\item scalings, or ``stretches'' and ``shrinks''
+\end{itemize}
+Each of these transformations will not only be identified by their name, but also by whether they have an effect on the original graph vertically or horizontally.\pp
+Eventually, once we have described, in detail, each action and its respective transformation, we will be able to consider transformations resulting from two or more actions on the given function.  In fact, our first example, taken directly from the familiar chapter on quadratics (see page \pageref{trans1}) will demonstrate such a transformation.
+\begin{example}~~~Sketch a complete graph of $g(x)=-2(x+1)^2+3$.\\
+~\\
+Recall that the vertex of the graph of $g$ is at $(h,k)=(-1,3)$.  The negative leading coefficient ($a=-2$) reminds us that the graph opens (or points) downward.  Although it is not necessary to find the intercepts in order to determine the general shape of the graph, we will include a table of points for the graph of $g$, which include both the $x-$ and $y-$intercepts, as well as a reference point at $(1,-5)$.  We leave it as an exercise to the reader to verify that the values from the table are accurate.  For the purposes of this example, we will only identify the vertex and reference point directly on our graph.
+
+\newpage
+
+%\begin{example}~~~Consider $y=-2(x+2)^2+1$.\\
+%\begin{vwcol}[widths={0.3,0.7},
+% sep=.8cm, justify=flush,rule=0pt,indent=1em]
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c|c}
+	$x$ & $g(x)$\\
+	\hline
+	$-1$ & $3$\\
+	\hline
+	$0$ & $-1$\\
+	\hline
+	$1$ & $-5$\\
+	\hline
+	$-1+\sqrt{6}/2$ & $0$\\
+	\hline
+	$-1-\sqrt{6}/2$ & $0$
+\end{tabular}
+\end{center}
+
+\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+\draw [<->](-5,0) -- coordinate (x axis mid) (5,0) node[below right] {$x$};
+\draw [<->](0,-6) -- coordinate (y axis mid) (0,5) node[above right] {$y$};
+\foreach \x in {-4,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,4}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-5,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,4}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw [<->, domain=-3.1:1.1] plot (\x, {-2*(\x+1)^2+3});
+\draw[fill] (1,-5) circle (0.075);
+\draw[fill] (-1,3) circle (0.075);
+\end{tikzpicture}
+\end{multicols}
+Although it should be relatively straightforward to deduce the graph of $g$ using the methods from the previous chapter, if we were to instead consider the fundamental quadratic function $f(x)=x^2$ and compare it to $g$, we would actually notice \textit{four} contributing factors which act on $f$ and transform its graph to the graph of $g$ shown above.  We will identify each factor below, using a numbered list to help keep track of the changes.  Later, we will see how rearranging the order of each of our actions can produce a different transformation of the original graph. 
+%$$\color{red}f(x)=x^2\color{black}\qquad\qquad\qquad g(x)=\color{blue}-\color{black}\color{green}2\color{black}(\color{red}x\color{black}\color{orange}+1\color{black})\color{red}^2\color{black}\color{violet}+3\color{black}$$
+\begin{center}
+Original Function: $f(x)=x^2$ \hspace{0.25in} New Function: $g(x)=-2(x+1)^2+3$
+\end{center}
+
+Contributing factors, taken in order:
+\begin{enumerate}
+	\item $+1$ inside parentheses results in a horizontal shift $1$ unit left.
+	\item multiplier of $2$ outside parentheses results in a vertical stretch by a factor of 2.
+	\item negative multiplier ($-$) results in a reflection about the $x-$axis.
+	\item $+3$ outside of parentheses results in a vertical shift $3$ units up.
+\end{enumerate}
+\end{example}
+By considering each individual action separately, we can actually determine a sequence of functions and corresponding graphical transformations that, taken as a whole, result in the graph of $g$.  This sequence is detailed below, along with each of their graphs, which include a reference point when $x=1$.  %Again, we will use colors to help keep track of each individual transformation.
+\newpage
+\begin{center}
+\begin{tabular}{clcll}
+Number & Function &&& Resulting Action\\
+\hline
+0. & $f_0(x)=f(x)$&=&$~~~~~~~x^2$ & Original Function\\
+1. & $f_1(x)$&=&$~~~~(x+1)^2$ & Horizontal Shift\\
+2. & $f_2(x)$&=&$~~2(x+1)^2$ & Vertical Stretch\\
+3. & $f_3(x)$&=&$-2(x+1)^2$ & Reflection about $x-$axis\\
+4. & $f_4(x)=g(x)$&=&$-2(x+1)^2+3$ & Vertical Shift
+\end{tabular}
+\end{center}
+
+%\item[0.] $f_0(x)=f(x)=x^2$ ~~~~(Original Function)
+%\item[1.] $f_1(x)=(x+1)^2$ ~~~~(Horizontal Shift)
+%\item[2.] $f_2(x)=2(x+1)^2$ ~~~~(Vertical Stretch)
+%\item[3.] $f_3(x)=-2(x+1)^2$ ~~~~(Reflection about $x-$axis)
+%\item[4.] $f_4(x)=g(x)=-2(x+1)^2+3$ ~~~~(Vertical Shift)
+\begin{center}
+\begin{tikzpicture}[xscale=0.6,yscale=0.6]
+\draw [<->](-5,0) -- coordinate (x axis mid) (5,0) node[below right] {$x$};
+\draw [<->](0,-10.25) -- coordinate (y axis mid) (0,10.25) node[above right] {$y$};
+\foreach \x in {-4,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,4}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-10,-8,...,-2}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {2,4,...,10}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,3,...,9}
+\draw (1pt,\y) -- (-2pt,\y); 
+\foreach \y in {-9,-7,...,-1}
+\draw (1pt,\y) -- (-2pt,\y);
+\draw[fill, gray] (1,1) circle (0.075);
+\draw[fill, gray] (1,4) circle (0.05);
+\draw[fill, gray] (1,8) circle (0.05);
+\draw[fill, gray] (1,-8) circle (0.05);
+\draw[fill] (1,1) node[right] {\scriptsize $f_0(1)=f(1)=1$};
+\draw[fill] (1,4) node[right] {\scriptsize $f_1(1)=4$};
+\draw[fill] (1,8) node[right] {\scriptsize $f_2(1)=8$};
+\draw[fill] (1,-8) node[right] {\scriptsize $f_3(1)=-8$};
+\draw[fill] (1,-5) circle (0.075) node[right] {\scriptsize $f_4(1)=g(1)=-5$};
+\draw [<->, gray, domain=-3.2:3.2] plot (\x, {(\x)^2});
+\draw [<->, dotted, domain=-4.2:2.2] plot (\x,{(\x+1)^2});
+\draw [<->, dotted, domain=-3.25:1.25] plot (\x, {2*(\x+1)^2});
+\draw [<->, dotted, domain=-3.25:1.25] plot (\x, {-2*(\x+1)^2});
+\draw [<->, domain=-3.25:1.25] plot (\x, {-2*(\x+1)^2+3});
+\end{tikzpicture}
+\end{center}
+
+Now that we have seen the result of a combination of multiple actions on a familiar function $f(x)=x^2$, we turn our attention to understanding the effects of each single action on the graph of an arbitrary function.
+
+\newpage
+
+\subsection{Translations}
+
+First, we consider the action of adding (or subtracting) a number to a function.  In our earlier example, $f(x)=-2(x+1)^2+3$, this was done in two different places: once inside of the square ($+1$) and once outside of it ($+3$).  And, as we have already seen, adding 1 inside of the square resulted in a horizontal shift of the graph, while adding 3 outside of the square resulted in a vertical shift.  Such transformations are also referred to as \textit{translations}.  Our two cases demonstrate the possible effects that adding a number to a function can have on its graph.  What remains to be seen is how the sign of the number can effect the graph.\\
+~\\
+We will begin by exploring vertical shifts of the function $f(x)=\sqrt{x}$.
+
+\begin{example}~~~Graph the functions $g(x)=\sqrt{x}+2$ and $h(x)=\sqrt{x}-5$ and describe them as transformations of the graph of $f(x)=\sqrt{x}$.\\
+~\\
+First, observe that we can rewrite each function in terms of $f$ as $g(x)=f(x)+2$ and $h(x)=f(x)-5$.  It is also worth noting that the domain of all three functions is $[0,\infty)$.  Next, we make a table of values to help sketch the graph of each function on the same set of axes.
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c|c}
+$x$ & $f(x)$ & $g(x)$ & $h(x)$ \\
+\hline
+0 & 0 & 2 & -5 \\
+1 & 1 & 3 & -4 \\
+4 & 2 & 4 & -3 \\
+9 & 3 & 5 & -2 \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.6,yscale=0.6]
+\draw [<->](-1,0) -- coordinate (x axis mid) (10,0) node[below right] {$x$};
+\draw [<->](0,-5.5) -- coordinate (y axis mid) (0,5.5) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,9}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-5,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,5}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill, gray] (9,3) circle (0.075);
+\draw[fill, gray] (4,2) circle (0.075);
+\draw[fill, gray] (1,1) circle (0.075);
+\draw[fill, gray] (0,0) circle (0.075);
+\draw[fill] (0,2) circle (0.075);
+\draw[fill] (1,3) circle (0.075);
+\draw[fill] (4,4) circle (0.075);
+\draw[fill] (9,5) circle (0.075);
+\draw[fill] (0,-5) circle (0.075);
+\draw[fill] (1,-4) circle (0.075);
+\draw[fill] (4,-3) circle (0.075);
+\draw[fill] (9,-2) circle (0.075);
+\draw[fill] (6,2) node[right] {\scriptsize $f(x)=\sqrt{x}$};
+\draw[fill] (6,4) node[right] {\scriptsize $g(x)=\sqrt{x}+2$};
+\draw[fill] (6,-3) node[right] {\scriptsize $h(x)=\sqrt{x}-5$};
+\draw [->, gray, domain=0:9.5] plot (\x, {(\x)^0.5});
+\draw [->, domain=0:9.5] plot (\x, {(\x)^0.5+2});
+\draw [->, domain=0:9.5] plot (\x, {(\x)^0.5-5});
+\end{tikzpicture}
+\end{center}
+\end{multicols}
+From our graph, we see that the graph of $g$ represents a vertical shift of the graph of $f$ up 2 units, while the graph of $h$ represents a vertical shift of the graph of $f$ down 5 units.
+\end{example}
+
+Our results are generalized below.\\
+~\\
+\smallskip
+\bbm
+%\smallskip
+\begin{thm}\label{vshifts}\textbf{Vertical Shifts}\index{graph ! vertical shift}\\
+Let $f$ be a function and $k$ a real number.  Consider the function
+$$g(x)=f(x)+k.$$
+\begin{itemize}
+\item If $k>0$, then the graph of $g$ represents a \textbf{vertical shift}, or translation, of the graph of $f$ \textbf{up} $k$ units.
+\item If $k<0$, then the graph of $g$ represents a \textbf{vertical shift}, or translation, of the graph of $f$ \textbf{down} $k$ units.
+\end{itemize}
+\end{thm}
+\ebm
+\smallskip
+
+Next, we will explore horizontal shifts of the function $f(x)=\dfrac{1}{x}$.
+
+\begin{example}~~~Graph the functions $g(x)=\dfrac{1}{x-1}$ and $h(x)=\dfrac{1}{x+2}$ and describe them as transformations of the graph of $f(x)=\dfrac{1}{x}$.\\
+~\\
+First, observe that we can rewrite each function in terms of $f$ as $g(x)=f(x-1)$ and $h(x)=f(x+2)$.  Also notice that the domains of each function exclude a different value for $x$.
+\begin{center}
+\begin{tabular}{cc}
+Function & Domain\\
+\hline
+&\\
+$f(x)=\dfrac{1}{x}$ & $x\neq 0$\\
+&\\
+$g(x)=\dfrac{1}{x-1}$ & $x\neq 1$\\
+&\\
+$h(x)=\dfrac{1}{x+2}$ & $x\neq -2$
+\end{tabular}
+\end{center}
+
+Again, we construct a table of values to help graph each function.  In this example, it will be easier to compare each graph to our original graph one at a time.  In each figure, the graph of $f$ appears using a dotted curve.  A set of two reference points, having the same $y-$coordinate has also been included in each graph.
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ & $g(x)$  \\
+\hline
+-3 & -$\frac{1}{3}$ & -$\frac{1}{4}$  \\
+-2 & -$\frac{1}{2}$ & -$\frac{1}{3}$  \\
+-1 & -1 & -$\frac{1}{2}$  \\
+0 & DNE & -1  \\
+1 & 1 & DNE  \\
+2 & $\frac{1}{2}$ & 1  \\
+3 & $\frac{1}{3}$ & $\frac{1}{2}$  \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+\draw [<->](-5.5,0) -- coordinate (x axis mid) (5.5,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-5,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,5}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-4,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,4}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill, gray] (1,1) circle (0.075);
+\draw[fill] (2,1) circle (0.075);
+%\draw[fill, gray] (6,2) node[right] {\scriptsize $f(x)=\frac{1}{x}$};
+\draw[fill] (2.5,2) node[right] {\scriptsize $g(x)=\frac{1}{x-1}$};
+%\draw[fill] (6,-3) node[right] {\scriptsize $h(x)=\frac{1}{x+2}$};
+\draw [<->, gray, dotted, domain=-3.5:-0.25] plot (\x, {1/(\x)});
+\draw [<->, gray, dotted, domain=0.25:3.5] plot (\x, {1/(\x)});
+\draw [<->, domain=-2.5:0.75] plot (\x, {1/(\x-1)});
+\draw [<->, domain=1.25:4.5] plot (\x, {1/(\x-1)});
+%\draw [<->, domain=-5.5:-2.25] plot (\x, {1/(\x+2)});
+%\draw [<->, domain=-1.75:1.5] plot (\x, {1/(\x+2)});
+\end{tikzpicture}
+\end{center}
+\end{multicols}
+From our graph, we see that the graph of $g$ represents a horizontal shift of the graph of $f$ to the right 1 unit.
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $h(x)$ \\
+\hline
+-3 & -$\frac{1}{3}$ &  -1 \\
+-2 & -$\frac{1}{2}$ &  DNE \\
+-1 & -1 &  1 \\
+0 & DNE &  $\frac{1}{2}$ \\
+1 & 1 &  $\frac{1}{3}$ \\
+2 & $\frac{1}{2}$ &  $\frac{1}{4}$ \\
+3 & $\frac{1}{3}$ &  $\frac{1}{5}$ \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+\draw [<->](-5.5,0) -- coordinate (x axis mid) (5.5,0) node[below right] {$x$};
+\draw [<->](0,-4) -- coordinate (y axis mid) (0,4) node[above right] {$y$};
+\foreach \x in {-5,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,5}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-4,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,4}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill] (0,0.5) circle (0.075);
+\draw[fill, gray] (2,0.5) circle (0.075);
+%\draw[fill, gray] (6,2) node[right] {\scriptsize $f(x)=\frac{1}{x}$};
+%\draw[fill] (6,4) node[right] {\scriptsize $g(x)=\frac{1}{x-1}$};
+\draw[fill] (-6,2) node[right] {\scriptsize $h(x)=\frac{1}{x+2}$};
+\draw [<->, gray, dotted, domain=-3.5:-0.25] plot (\x, {1/(\x)});
+\draw [<->, gray, dotted, domain=0.25:3.5] plot (\x, {1/(\x)});
+%\draw [<->, domain=-2.5:0.75] plot (\x, {1/(\x-1)});
+%\draw [<->, domain=1.25:4.5] plot (\x, {1/(\x-1)});
+\draw [<->, domain=-5.5:-2.25] plot (\x, {1/(\x+2)});
+\draw [<->, domain=-1.75:1.5] plot (\x, {1/(\x+2)});
+\end{tikzpicture}
+\end{center}
+\end{multicols}
+Similarly, we see that the graph of $h$ represents a horizontal shift of the graph of $f$ to the left 2 units.
+\end{example}
+It is worth noting that \textit{adding} 2 from $x$ in the case of $h$ above resulted in a horizontal shift of the graph of $f$ to the \textit{left}.  Often, this goes against what we would typically expect from adding a positive constant to $x$, since the left-half of the $x-$axis is considered the negative half (when $x<0$).\\
+~\\
+Instead, if we consider plugging values into the expression $x+2$, then evaluating $h(x)=f(x+2)$ at $x=-2$ (two units to the \textit{left} of zero) will yield the same $y-$coordinate as evaluating $f(x)$ at $x=0$.  We have also seen this notion at work when identifying the vertex of a parabola using the standard form of a quadratic function.  For example, the graph of $h(x)=(x+2)^2$ has a vertex at $(-2,0)$, which is two units to the left of the vertex $(0,0)$ associated with the graph of $f(x)=x^2$.\\
+~\\
+A similar observation is worth mentioning when we consider the resulting graph from \textit{subtracting} a positive constant from $x$, as in the case of $g$ above.  In this case, the resulting transformation is a horizontal shift to the \textit{right}.\\
+~\\
+We are again ready to generalize our findings.\\
+~\\
+\smallskip
+\bbm
+%\smallskip
+\begin{thm} \label{hshifts}\textbf{Horizontal Shifts}\index{graph ! horizontal shift}\\
+Let $f$ be a function and $h$ a real number.  Consider the function
+$$g(x)=f(x-h).$$
+\begin{itemize}
+\item If $h>0$, then the graph of $g$ represents a \textbf{horizontal shift}, or translation, of the graph of $f$ \textbf{right} $h$ units.
+\item If $h<0$, then the graph of $g$ represents a \textbf{horizontal shift}, or translation, of the graph of $f$ \textbf{left} $h$ units.
+\end{itemize}
+\end{thm}
+\ebm
+
+~\\
+
+Before moving on to our next type of transformation, it is important to point out the nature of the associated transformation of the graph of a function $f(x)$, when adding (or subtracting) a constant either inside or outside of the function.  Specifically, a change to the original function occurring outside, such as $f(x)+4$, results in a \textit{vertical} change of the graph of the original function, whereas a change occuring inside, such as $f(x+4)$, results in a \textit{horizontal} change of the original graph.  This will be a recurring theme, as we explore each of our remaining transformation types, and will be helpful as we encounter more advanced functions.
+
+\newpage
+
+\subsection{Reflections}
+
+Next, we consider the action of multiplication by $-1$.  Given a function $f(x)$, we will consider the functions $-f(x)$ and $f(-x)$, whose graphs will represent reflections of the graph of $f$ about either the $x-$axis or $y-$axis.  Following along the same theme as in the previous subsection, one can initially guess that the graph of $-f(x)$ will represent a vertical reflection of the graph of $f$ about the $x-$axis, since the negative sign occurs outside of the original function.  This guess should also make sense to us, since multiplication of $f(x)$ by a negative sign would change the $y-$coordinate of any point $(x,y)=(x,f(x))$ on the graph of $f$, from either positive to negative or negative to positive.
+
+\begin{example}~~~Graph the function $g(x)=-\sqrt{x}$ and describe it as a transformation of the graph of $f(x)=\sqrt{x}$.\\
+~\\
+Notice that since $g(x)=-f(x)$, the domain of $g$ will be the same as that of $f$, $[0,\infty)$, whereas the range of $g$ will be $(-\infty,0]$.  Next, we make a table of values to help sketch the graph of each function on the same set of axes.
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $g(x)$ \\
+\hline
+0 & 0 &  0 \\
+1 & 1 &  -1 \\
+4 & 2 &  -2 \\
+9 & 3 &  -3 \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.5,yscale=0.5]
+\draw [<->](-1,0) -- coordinate (x axis mid) (10,0) node[below right] {$x$};
+\draw [<->](0,-5.5) -- coordinate (y axis mid) (0,5.5) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,9}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-5,...,-1}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,5}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill] (6,2) node[right] {\scriptsize $f(x)=\sqrt{x}$};
+\draw[fill] (6,-2) node[right] {\scriptsize $g(x)=-\sqrt{x}$};
+\draw [->, dotted, domain=0:9.5] plot (\x, {(\x)^0.5});
+\draw [->, domain=0:9.5] plot (\x, {-(\x)^0.5});
+\end{tikzpicture}
+\end{center}
+\end{multicols}
+
+From our graph, we easily see that the graph of $g$ represents a vertical reflection of the graph of $f$ about the $x-$axis, as expected.
+\end{example}
+
+\begin{example}~~~Graph the function $h(x)=\sqrt{-x}$ and describe it as a transformation of the graph of $f(x)=\sqrt{x}$.\\
+~\\
+Notice that since $h(x)=f(-x)$, the range of $h$ will be the same as that of $f$, $[0,\infty)$, whereas the domain of $h$ will be $(-\infty,0]$.  Next, we make a table of values to help sketch the graph of each function on the same set of axes.
+
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $h(x)$ \\
+\hline
+-9 & DNE &  -3 \\
+-4 & DNE &  -2 \\
+-1 & DNE &  -1 \\
+0 & 0 &  0 \\
+1 & 1 &  DNE \\
+4 & 2 &  DNE \\
+9 & 3 &  DNE \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.6,yscale=0.6]
+\draw [<->](-10,0) -- coordinate (x axis mid) (10,0) node[below right] {$x$};
+\draw [<->](0,-1) -- coordinate (y axis mid) (0,5.5) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,9}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {-9,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-5,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y) 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,5}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill] (6,2) node[right] {\scriptsize $f(x)=\sqrt{x}$};
+\draw[fill] (-10,2) node[right] {\scriptsize $h(x)=\sqrt{-x}$};
+\draw [->, dotted, domain=0:9.5] plot (\x, {(\x)^0.5});
+\draw [->, domain=0:-9.5] plot (\x, {(-\x)^0.5});
+\end{tikzpicture}
+\end{center}
+
+From our graph, we easily see that the graph of $h$ represents a horizontal reflection of the graph of $f$ about the $y-$axis, as expected.
+\end{example}
+
+Our two examples above are generalized below.\\
+~\\
+\bbm
+%\smallskip
+\begin{thm} \label{reflections}\index{graph ! reflection about an axis}\index{reflection ! of a function graph}\textbf{Reflections}\\
+Let $f$ be a function
+\begin{itemize}
+\item The graph of $g(x)=-f(x)$ represents a \textbf{reflection}, of the graph of $f$ \textbf{about the $x$-axis} (a vertical change).
+\item The graph of $g(x)=f(-x)$ represents a \textbf{reflection}, of the graph of $f$ \textbf{about the $y$-axis} (a horizontal change).
+\end{itemize}
+\end{thm}
+\ebm
+
+\smallskip
+
+\newpage
+
+\subsection{Scalings}
+
+In this last portion of the transformations section, we focus our attention on scalings of the graph of a function $f$, also known as ``stretches'' or ``shrinks''.  Again, we will look to classify both vertical and horizontal scalings, and will treat each case separately, beginning with vertical scalings.
+
+\begin{example}~~~Graph the function $g(x)=2x^3$ and describe it as a transformation of the graph of $f(x)=x^3$.\\
+~\\
+As we have seen in both of the previous subsections, we can anticipate a vertical effect on the graph of $f$, from the multiplication by 2 \textit{outside}, or after, the cubing of $x$.  In this case, we have that $g(x)=2f(x)$, which will result in a doubling of every $y-$coordinate from our original graph.  Our table and graphs below confirm this. 
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $g(x)$ \\
+\hline
+-3 & -27 &  -54 \\
+-2 & -8 &  -16 \\
+-1 & -1 &  -2 \\
+0 & 0 &  0 \\
+1 & 1 &  2 \\
+2 & 8 &  16 \\
+3 & 27 &  54 \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.75,yscale=0.25]
+\draw [<->](-3.5,0) -- coordinate (x axis mid) (3.5,0) node[below right] {$x$};
+\draw [<->](0,-18) -- coordinate (y axis mid) (0,18) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-15,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y); 
+\foreach \y in {-5,-10,-15}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+%\foreach \y in {1,...,15}
+%\draw (1pt,\y) -- (-3pt,\y); 
+\foreach \y in {5,10,15}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill] (2,3) node[right] {\scriptsize $f(x)=x^3$};
+\draw[fill] (2.25,14) node[right] {\scriptsize $g(x)=2x^3$};
+\draw [<->, dotted, domain=-2.25:2.25] plot (\x, {(\x)^3});
+\draw [<->, domain=-2.05:2.05] plot (\x, {2*(\x)^3});
+\end{tikzpicture}
+\end{center} 
+\end{multicols}
+It is worth mentioning here that for the purposes of easily displaying our graphs, we have taken the liberty of adjusting the $y-$axis to easily fit the page.  This adjustment should not affect our ability to identify the resulting transformation of the graph of $f$ in any way.\\
+~\\
+As anticipated, our graph of $g$ represents a vertical stretch of the graph of $f$.  In this case, for a given value $x$, since every $y-$coordinate for the graph of $g$ equals \textit{twice} the value of the corresponding $y-$coordinate on the graph of $f$, we say that the resulting transformation is a \textit{vertical stretch} of the graph of $f$ \textit{by a factor of} 2. 
+\end{example}
+
+\begin{example}~~~Graph the function $h(x)=\frac{1}{2}x^3$ and describe it as a transformation of the graph of $f(x)=x^3$.\\
+~\\
+Again, we can anticipate a vertical effect on the graph of $f$, from the multiplication by $\frac{1}{2}$ \textit{outside}, or after, the cubing of $x$.  In this case, we have that $h(x)=\frac{1}{2}f(x)$, which will result in a halving of every $y-$coordinate from our original graph.  Our table and graphs below confirm this. 
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $h(x)$ \\
+\hline
+-3 & -27 &  -27/2 \\
+-2 & -8 &  -4 \\
+-1 & -1 &  -1/2 \\
+0 & 0 &  0 \\
+1 & 1 &  1/2 \\
+2 & 8 &  4 \\
+3 & 27 &  27/2 \\
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tikzpicture}[xscale=0.75,yscale=0.25]
+\draw [<->](-3.5,0) -- coordinate (x axis mid) (3.5,0) node[below right] {$x$};
+\draw [<->](0,-18) -- coordinate (y axis mid) (0,18) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,3}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {-3,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-15,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y); 
+\foreach \y in {-5,-10,-15}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+%\foreach \y in {1,...,15}
+%\draw (1pt,\y) -- (-3pt,\y); 
+\foreach \y in {5,10,15}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\draw[fill] (0.25,14) node[right] {\scriptsize $f(x)=x^3$};
+\draw[fill] (2,3) node[right] {\scriptsize $h(x)=\frac{1}{2}x^3$};
+\draw [<->, dotted, domain=-2.45:2.45] plot (\x, {(\x)^3});
+\draw [<->, domain=-3.25:3.25] plot (\x, {0.5*(\x)^3});
+\end{tikzpicture}
+\end{center} 
+\end{multicols}
+As with the previous example, for the purposes of easily displaying our graphs, we have taken the liberty of adjusting the $y-$axis to easily fit the page.\\
+~\\
+Now, our graph of $h$ represents a vertical shrink of the graph of $f$.  In this case, for a given value $x$, since every $y-$coordinate for the graph of $h$ equals \textit{half} the value of the corresponding $y-$coordinate on the graph of $f$, we say that the resulting transformation is a \textit{vertical shrink} of the graph of $f$ \textit{by a factor of} 2.\\
+~\\
+Notice that despite the change from the last example (stretch to shrink), we still keep the same \textit{factor} of 2.  This is because the use of the term ``shrink'' tells us to \textit{divide} by 2, as opposed to multiplying when the term ``stretch'' is used.  Instead, if we were to mistakenly claim that the transformation for $h$ represented a vertical shrink by a factor of $\frac{1}{2}$, this would actually mean that each $y-$coordinate for the graph of $f$ should be divided by $\frac{1}{2}$, or doubled, which does not match the correct transformation for $h$.
+\end{example}
+In each of the previous two examples, we witnessed a vertical stretch when $f(x)$ was multiplied by 2 and a vertical shrink when $f(x)$ was multiplied by $\frac{1}{2}$.  The fundamental difference in these two cases depends on the multiplier, and whether it is greater than or less than one.  We now summarize each of these cases for vertical scalings.\\
+
+\bbm
+%\smallskip
+\begin{thm} \label{vscalings}\index{graph ! vertical scaling}\textbf{Vertical Scalings.}\\
+Let $f$ be a function and $a$ a positive real number.  Consider the function
+$$g(x)=af(x).$$
+\begin{itemize}
+\item If $a > 1$ the graph of $g$ represents a \textbf{vertical stretch}, or expansion, of the graph of $f$ \textbf{by a factor of $a$}. 
+\item If $a < 1$ the graph of $g$ represents a \textbf{vertical shrink}, or compression, of the graph of $f$ \textbf{by a factor of $1/a$}.
+\end{itemize}
+\end{thm}
+\ebm
+
+\smallskip
+~\\
+For our last set of examples, we will analyze horizontal scalings.
+
+\begin{example}~~~Graph the function $g(x)=(2x)^2$ and describe it as a transformation of the graph of $f(x)=x^2$.\\
+~\\
+Since $g(x)=f(2x)$, and the action occurs inside of the square, we will anticipate a horizontal effect on the graph of $f$.  It is worth mentioning that the domain and range of $g$ equal the domain and range of $f$.  Again, we make a table to assist in graphing $g$. 
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $g(x)$ \\
+\hline
+0 & 0 & 0 \\
+%1/2 & 1/4 &  1 \\
+1 & 1 &  4 \\
+3/2 & 9/4 &  9 \\
+2 & 4 &  16 \\
+%5/2 & 25/4=6.25 &  25 \\
+3 & 9 &  36 \\
+4 & 16 & 64 \\
+\end{tabular}
+%\begin{tabular}{c||c|c}
+%$x$ & $f(x)$ &  $g(x)$ \\
+%\hline
+%0 & 0 & 0 \\
+%1/2 & 0.71 &  1 \\
+%1 & 1 &  1.41 \\
+%2 & 1.41 &  2 \\
+%4 & 2 &  2.83 \\
+%8 & 2.83 &  4 \\
+%16 & 4 &  5.66 \\
+%\end{tabular}
+\end{center}
+Notice that:\\
+~\\
+$g(1)=f(2)=4$,\\
+~\\
+$g\left(\frac{3}{2}\right)=f(3)=9$, and\\
+~\\
+$g(2)=f(4)=16$.
+\end{multicols}
+In this example, we see that the points $(x,y)$ for the graph of $f$ will now correspond to the points $(x/2,y)$ for the graph of $g$.  This results in a horizontal shrink (or compression) of the graph of $f$ by a factor of 2, as shown in the graph below.  The point at the origin $(0,0)$, also the vertex, remains unchanged, since $0/2$ still equals $0$.  Notice that, as in the previous set of examples, we have adjusted the scaling of the $y-$axis, to easily display the graphs on the page.  Again, this should not prevent us from correctly identifying the transformation.    
+\begin{center}
+\begin{tikzpicture}[xscale=.8,yscale=0.4]
+\draw [<->](-5,0) -- coordinate (x axis mid) (5,0) node[below right] {$x$};
+\draw [<->](0,-1) -- coordinate (y axis mid) (0,20) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,4}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {-4,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-5,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y) 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {2,4,...,18}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,19}
+\draw (1pt,\y) -- (-3pt,\y); 
+\draw[fill] (4,16) circle (0.075) node[right] {\tiny $(4,16)$};
+\draw[fill] (2,16) circle (0.075) node[right] {\tiny $(2,16)$};
+\draw[fill] (3,9) circle (0.075) node[right] {\tiny $(3,9)$};
+\draw[fill] (1.5,9) circle (0.075) node[right] {\tiny $\left(\frac{3}{2},9\right)$};
+\draw[fill] (2,4) circle (0.075) node[right] {\tiny $(2,4)$};
+\draw[fill] (1,4) circle (0.075) node[right] {\tiny $(1,4)$};
+\draw[fill] (2.65,19) node[right] {\tiny $f(x)=x^2$};
+\draw[fill] (0.15,19) node[right] {\tiny $g(x)=(2x)^2$};
+\draw [<->, dotted, domain=-4.5:4.5] plot (\x, {(\x)^2});
+\draw [<->, domain=-2.25:2.25] plot (\x, {4*(\x)^2});
+\end{tikzpicture}
+\end{center}
+\end{example}
+\newpage
+\begin{example}~~~Graph the function $h(x)=\left(\frac{x}{2}\right)^2$ and describe it as a transformation of the graph of $f(x)=x^2$.\\
+~\\
+Since $h(x)=f\left(\frac{x}{2}\right)$, we will anticipate a horizontal effect on the graph of $f$.  Again, we make a table to assist in graphing $h$. 
+
+\begin{multicols}{2}
+\begin{center}
+\begin{tabular}{c||c|c}
+$x$ & $f(x)$ &  $h(x)$ \\
+\hline
+0 & 0 & 0 \\
+%1/2 & 1/4 &  1 \\
+1 & 1 &  1/4 \\
+2 & 4 &  1 \\
+%5/2 & 25/4=6.25 &  25 \\
+3 & 9 &  9/4 \\
+4 & 16 & 4 \\
+\end{tabular}
+\end{center}
+Notice that:\\
+~\\
+~\\
+%$h(1)=f\left(\frac{1}{2}\right)=\frac{1}{4}$,\\
+%~\\
+$h(2)=f(1)=1$, and\\
+~\\
+$h(4)=f(2)=4$.
+\end{multicols}
+In this example, we see that the points $(x,y)$ for the graph of $f$ will now correspond to the points $(2x,y)$ for the graph of $h$.  This results in a horizontal stretch (or expansion) of the graph of $f$ by a factor of 2, as shown in the graph below.  As in the previous example, the origin $(0,0)$ remains unchanged.
+\begin{center}
+\begin{tikzpicture}[xscale=1,yscale=0.5]
+\draw [<->](-5,0) -- coordinate (x axis mid) (5,0) node[below right] {$x$};
+\draw [<->](0,-1) -- coordinate (y axis mid) (0,10) node[above right] {$y$};
+%\foreach \x in {-1}
+%\draw (\x,1pt) -- (\x,-3pt)
+%node[anchor=north] {\scriptsize \x};
+\foreach \x in {1,...,4}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {-4,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+%\foreach \y in {-5,...,-1}
+%\draw (1pt,\y) -- (-3pt,\y) 
+%node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {2,4,...,8}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=east] {\scriptsize \y}; 
+\foreach \y in {1,...,9}
+\draw (1pt,\y) -- (-3pt,\y); 
+%\draw[fill] (4,16) circle (0.075) node[right] {\scriptsize $(4,16)$};
+\draw[fill] (4,4) circle (0.075) node[right] {\tiny $(4,4)$};
+\draw[fill] (2,4) circle (0.075) node[right] {\tiny $(2,4)$};
+\draw[fill] (1,1) circle (0.075) node[left] {\tiny $(1,1)$};
+\draw[fill] (2,1) circle (0.075) node[right] {\tiny $(1,1)$};
+\draw[fill] (3.25,9) node[right] {\scriptsize $f(x)=x^2$};
+\draw[fill] (3,2) node[right] {\scriptsize $h(x)=\left(\frac{x}{2}\right)^2$};
+\draw [<->, dotted, domain=-3:3] plot (\x, {(\x)^2});
+\draw [<->, domain=-4.5:4.5] plot (\x, {0.25*(\x)^2});
+\end{tikzpicture}
+\end{center}
+\end{example}
+
+\smallskip
+\newpage
+We are now ready to summarize the cases for horizontal scalings.\\
+~\\
+\bbm
+%\smallskip
+\begin{thm} \label{hscalings}\index{graph ! horizontal scaling}\textbf{Horizontal Scalings.}\\
+Let $f$ be a function and $b$ a positive real number.  Consider the function
+$$g(x)=f(bx).$$
+\begin{itemize}
+\item If $b > 1$ the graph of $g$ represents a \textbf{horizontal shrink}, or compression, of the graph of $f$ \textbf{by a factor of $b$}.
+\item If $b < 1$ the graph of $g$ represents a \textbf{horizontal stretch}, or expansion, of the graph of $f$ \textbf{by a factor of $1/b$}. 
+\end{itemize}
+\end{thm}
+\ebm
+\newpage
+
+\subsection{Transformations Summary}
+Now that we have discussed each of the basic transformations of the graph of a function $f$, we are ready to consider combining two or more transformations, as demonstrated with our very first example of this section, $f(x)=-2(x+1)^2+3$.  It will be critical that we keep track of the order of our actions on the function $f$, in order to correctly determine the resulting transformation of its graph.  To assist in this, we now present the following theorem.\\
+
+%\bigskip
+
+\bbm
+
+\smallskip
+
+\begin{thm} \label{transformationsthm}\index{transformations of function graphs}\index{function ! transformation of graphs}\index{graph ! transformations}\textbf{Transformations Summary}\\
+Let $f$ be a function.  Consider the function 
+$$g(x)=af(bx+h)+k,$$
+where $a \neq 0$ and $b \neq 0$.  Then, the graph of $g$ may be obtained from the graph of $f$ by following the sequence of transformations below. 
+\begin{enumerate}
+\item  \textbf{Horizontal Shift}:\\
+Shift the graph of $f$ by $h$ units to the the left if $h > 0$, or right if $h< 0$.
+\item  \textbf{Horizontal Scale/Horizontal Reflection}:\\
+Scale the graph from (1.) horizontally, as a shrink by a factor of $|b|$ if $|b|>1$, or a stretch by a factor of $|1/b|$ if $0<|b|<1$.\\
+~\\
+If $b<0,$ reflect the graph about the $y$-axis.
+\item  \textbf{Vertical Scale/Vertical Reflection}:\\
+Scale the graph from (2.) vertically, as a stretch by a factor of $|a|$ if $|a|>1$, or a shrink by a factor of $|1/a|$ if $0<|a|<1$.\\
+~\\
+If $a<0,$ reflect the graph about the $x$-axis.
+\item  \textbf{Vertical Shift}:\\
+Shift the graph from (3.) by $k$ units up if $k > 0$, or down if $k< 0$.
+\end{enumerate}
+\end{thm}
+
+\ebm
+
+\smallskip
+\newpage
+In our first example, recall that the order of transformations was as follows.
+$$f(x)=-2(x+1)^2+3$$
+Contributing factors, taken in order:
+\begin{enumerate}
+	\item $+1$ inside parentheses results in a horizontal shift $1$ unit left.
+	\item multiplier of $2$ outside parentheses results in a vertical stretch by a factor of 2.
+	\item negative multiplier ($-$) results in a reflection about the $x-$axis.
+	\item $+3$ outside of parentheses results in a vertical shift $3$ units up.
+\end{enumerate}
+
+For our next example, we will rearrange the order of transformations from the previous example and utilize the graph of $f$ to determine the graph of $g$.  We can then work backwards, drawing upon our knowledge of quadratic equations to identify the corresponding function from our graph.
+
+%\newpage
+
+\begin{example}~~~Graph the resulting transformation of $f(x)=x^2$ from the sequence of transformations described below.  Use the graph to determine the corresponding function $g(x)$.  Using the Transformations Summary Theorem, compare your answer with the original sequence.
+%\begin{multicols}{2}
+\begin{center}
+\begin{enumerate}
+	\item Vertical shift $3$ units up
+	\item Vertical stretch by a factor of 2
+	\item Horizontal shift $1$ unit left
+	\item Vertical reflection about the $x-$axis
+\end{enumerate}
+\end{center}
+
+\newpage
+\begin{center}
+\begin{tikzpicture}[xscale=0.7,yscale=0.7]
+\draw [<->](-5,0) -- coordinate (x axis mid) (5,0) node[below right] {$x$};
+\draw [<->](0,-6) -- coordinate (y axis mid) (0,6) node[above right] {$y$};
+\foreach \x in {1,...,4}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \x in {-4,...,-1}
+\draw (\x,1pt) -- (\x,-3pt)
+node[anchor=north] {\scriptsize \x};
+\foreach \y in {-4,-2}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=west] {\scriptsize \y}; 
+\foreach \y in {-5,...,-1}
+\draw (1pt,\y) -- (-3pt,\y); 
+\foreach \y in {2,4}
+\draw (1pt,\y) -- (-3pt,\y) 
+node[anchor=west] {\scriptsize \y}; 
+\foreach \y in {1,...,5}
+\draw (1pt,\y) -- (-3pt,\y); 
+\draw[fill] (-1,-3) circle (0.075) node[above] {\tiny $(-1,-3)$};
+\draw[fill] (1.25,1) node[right] {\scriptsize $f(x)=x^2$};
+\draw[fill] (-3,-4) node[right] {\scriptsize $g(x)$};
+\draw [<->, dotted, domain=-2.2:2.2] plot (\x, {(\x)^2});
+\draw [<->, domain=-2.2:0.2] plot (\x, {-2*(\x+1)^2-3});
+\end{tikzpicture}
+\end{center}
+
+Our resulting function is $g(x)=-2(x+1)^2-3$.  Using the Transformations Summary Theorem, we see that our original sequence of transformations in this case also corresponds to the following sequence.
+
+\begin{center}
+\begin{enumerate}
+	\item Horizontal shift $1$ unit left
+	\item Vertical stretch by a factor of 2
+	\item Vertical reflection about the $x-$axis
+	\item Vertical shift $3$ units \textit{down}
+\end{enumerate}
+\end{center}
+\end{example}
+\newpage
+
+We conclude this section with one final example.
+
+\begin{example}~~~Use the Transformations Summary Theorem to sketch a graph of the function below, as a transformation of $f(x)=\sqrt[3]{x}$.
+$$g(x)=-\sqrt[3]{2x-3}+1$$
+Using the theorem, we can break down our graph as the following sequence of transformations of the graph of $f$.  Since it will be difficult to keep track of each change in the graph, we use the point $(0,0)$ as a reference, keeping track of how it is affected by each change.
+\begin{enumerate}
+	\item Horizontal shift 3 units to the right. $\Rightarrow$~~$(3,0)$
+	\item Horizontal shrink by a factor of $2$. $\Rightarrow$~~$(1.5,0)$
+	\item Vertical reflection about the $x-$axis. $\Rightarrow$~~$(1.5,0)$
+	\item Vertical shift 1 unit up. $\Rightarrow$~~$(1.5,1)$
+\end{enumerate}
+Our graph of $g$ is shown below.
+\begin{center}
+
+\begin{tikzpicture}[xscale=.5,yscale=.5]
+%\draw[xstep=1, ystep=1, gray, very thin, dotted] (-30,-4) grid (30,4);
+\draw[<->] (0,-4) -- (0,4) node[right]{$y$};
+\draw[<->] (-10,0) -- (10,0) node[above right]{$x$};
+\foreach \x in {-3,...,-1}
+\draw (1pt,\x) -- (-3pt,\x) 
+node[anchor=west] {\scriptsize \x}; 
+\foreach \x in {1,...,3}
+\draw (1pt,\x) -- (-3pt,\x) 
+node[anchor=west] {\scriptsize \x}; 
+\foreach \y in {-9,...,-1}
+\draw (\y,1pt) -- (\y,-3pt) 
+node[anchor=north] {\scriptsize \y}; 
+\foreach \y in {1,...,9}
+\draw (\y,1pt) -- (\y,-3pt) 
+node[anchor=north] {\scriptsize \y}; 
+\draw[dotted, domain=-2:2,<->] plot ({\x^(3)},\x) node[right]{$f(x) = \sqrt[3]{x}$};
+\draw[domain=-1:3,<->] plot ({0.5*(1-\x)^(3)+1.5},\x) node[left]{$g(x)=-\sqrt[3]{2x-3}+1$};
+\draw[fill=black] (1.5,1) circle (2pt) node[below right]{\tiny (1.5,1)};
+\end{tikzpicture}
+\end{center}
+\end{example}
+This last example demonstrates the significant challenge that comes from having to interpret the graph of a function that results from a sequence of two or more transformations.  Although we have only kept track of how the function $g$ affected one reference point in our example, by focusing our attention on just a few points of reference, we can come to a better understanding of the general shape of the graph of $g$, and how it relates to the graph of the fundamental function $f$.
+\end{document}

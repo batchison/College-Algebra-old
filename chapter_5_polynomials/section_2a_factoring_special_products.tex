@@ -1,0 +1,288 @@
+\subsection{Special Products}
+
+{\tmstrong{Objective: Identify and factor special products including a
+difference of squares, perfect squares, and sum and difference of cubes.}}\pp
+
+When factoring polynomials there are a few special products that, if we can recognize
+them, we can easily break down. The first is one we have seen before.
+When multiplying, we found that the product of a sum and difference of the same two terms results in the difference of two squares. Here we will use this special product to help us factor.
+\[ \tmmathbf{\tmop{Difference} \tmop{of~two} \tmop{Squares} : a^2 - b^2 = (a + b)
+   (a - b)} \]
+Consequently, if we faced with the difference of two squares, we may conclude that they will always factor to the
+sum and difference of their square roots.  Our first four examples demonstrate this fact.
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    x^2 - 16 &  & \tmop{Difference~of~two~perfect} \tmop{squares};\\
+		& & ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} x \tmop{~and~} 4\\
+    (x + 4) (x - 4) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    9 a^2 - 25 b^2 &  & \tmop{Difference~of~two~perfect} \tmop{squares};\\
+		& & ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} 3a \tmop{~and~} 5b\\
+    (3 a + 5 b) (3 a - 5 b) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+When factoring a difference of two squares, $a^2-b^2$, the previous technique is often overlooked whenever one (or both) of the given terms is not a \textit{perfect} square.  The following examples demonstrate that the same method may still be employed in such situations.
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    x^2 - 24 &  & \tmop{Difference~of~two} \tmop{squares};\\
+		& & ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} x \tmop{~and~} 2\sqrt{6}\\
+    \left(x + 2\sqrt{6}\right) \left(x - 2\sqrt{6}\right) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    2x^2 - 5 &  & \tmop{Difference~of~two} \tmop{squares};\\
+		& & ~~~\tmop{the} \tmop{square} \tmop{roots} \tmop{are~} \sqrt{2}x \tmop{~and~} \sqrt{5}\\
+    \left(\sqrt{2}x + \sqrt{5}\right) \left(\sqrt{2}x - \sqrt{5}\right) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+It is important to note that, unlike differences, a \textit{sum} of squares will never factor over the real numbers.  Such expressions are only factorable over the complex numbers.  Hence, we say that they are \textit{irreducible} over the reals. This can be seen in our next example, where we will attempt to employ the $ac-$method to factor.
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    x^2 + 36 &  & \tmop{No~linear~term}; \tmop{introduce~} 0 x\\
+    x^2 + 0 x + 36 &  & \tmop{Multiply} \tmop{to} ac \tmop{or} 36, \tmop{~add} \tmop{to} 0
+	\end{eqnarray*}
+	Our choices are: $1 \cdot 36$, $2 \cdot 18$, $3 \cdot 12$, $4 \cdot 9$ and $6 \cdot 6$.\pp
+	Since there are no combinations that multiply to 36 and add to 0, we conclude that the given expression is irreducible over the reals.\pp
+	Notice that $x^2+36$ does, however, factor over the complex numbers.
+	\begin{eqnarray*}
+	x^2+36 &=& x^2-(-36)\\
+	&=&x^2-\left(\sqrt{36}\cdot\sqrt{-1}\right)^2\\
+	&=&x^2-(6i)^2\\
+	&=&(x-6i)(x+6i)\\
+	\end{eqnarray*}
+	We can make further sense of this result by recalling the methods from the chapter on quadratics.  For example, since the discriminant of $x^2+36$ is $b^2-4ac=0^2-4(1)(36)<0$, we know that the expression has no real zeros.  Hence, any factorization must contain imaginary numbers.
+\end{example}
+
+\newpage
+
+Since, for graphing purposes, we will primarily be concerned with factorizations over the real numbers, we may conclude that such expressions are always irreducible over the real numbers,%MM
+and therefore cannot be factored.  We present the general factorization over the complex numbers below.
+\[ \tmmathbf{\tmop{Sum} \tmop{of} \tmop{Squares} : a^2 + b^2 = (a+bi)(a-bi)}
+\]
+A special case where we can interpret an expression as a difference of two squares comes from the factorization of a
+difference of 4$^{\text{th}}$ (fourth) powers. Since the square root of a fourth power is, in fact, a
+square $\left(\sqrt[]{a^4} = a^2\right)$, we can factor a difference of fourth powers
+just like we factor a difference of squares. This will yield two factors, one which will be an irreducible sum of
+squares.  The other factor will be a difference of squares, which we can factor further.  The next two examples demonstrate this.
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    a^4 - b^4 &  & \tmop{Difference} \tmop{of} \tmop{squares} \tmop{with}
+    \tmop{roots~} a^2 \tmop{~and~} b^2\\
+    (a^2 + b^2) (a^2 - b^2) &  & \tmop{The} \tmop{first} \tmop{factor}
+    \tmop{is} \tmop{irreducible};\\
+		& & ~~~\tmop{the} \tmop{second} \tmop{is~a}
+    \tmop{difference} \tmop{of} \tmop{squares}\\
+    (a^2 + b^2) (a + b) (a - b) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    x^4 - 16 &  & \tmop{Difference} \tmop{of} \tmop{squares} \tmop{with}
+    \tmop{roots~} x^2 \tmop{~and~} 4\\
+    (x^2 + 4) (x^2 - 4) &  & \tmop{The} \tmop{first} \tmop{factor} \tmop{is}
+    \tmop{irreducible};\\
+		& & \tmop{the} \tmop{second} \tmop{is~a} \tmop{difference}
+    \tmop{of} \tmop{squares}\\
+    (x^2 + 4) (x + 2) (x - 2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+Such expressions as the previous two examples will be classified in the next subsection as expressions of \textit{quadratic type}, since, for example, we may consider $x^4-16$ as $(x^2)^2+0(x^2)+16$.  Replacing $x^2$ with $y$ gives us $y^2+0y+16$, which we could consider as a quadratic in terms of $y$.
+\newpage
+Another factoring technique involves recognizing an entire expression as a perfect square.
+\[ \tmmathbf{\tmop{Perfect} \tmop{Square} : a^2 + 2ab + b^2 = (a +
+   b)^2} \]
+A perfect square can be difficult to recognize at first glance, but if we use
+the $ac-$method to produce two of the same number, the resulting factorization will be a perfect
+square. In this case, we can just factor by identifying the square roots of the first and last
+terms and using the sign from the middle term. This is demonstrated in the following examples.
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    x^2 - 6 x + 9 &  & \tmop{Multiply} \tmop{to~} ac \tmop{~or~}9, \tmop{~add} \tmop{to~} - 6
+  \end{eqnarray*}
+	The numbers we need are $-3$ and $-3$.  We have a perfect square.  Use the square roots of $a=1$ and $c=9$ and the negative sign from the linear term.
+  \begin{eqnarray*}
+    (x - 3)^2 &  & \tmop{Our~solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    4 x^2 + 20 x y + 25 y^2 &  & \tmop{Multiply} \tmop{to~} ac \tmop{~or~}100, \tmop{~add} \tmop{to~} 20
+  \end{eqnarray*}
+	The numbers we need are $10$ and $10$.  We have a perfect square.  Use the square roots of $a=4$ and $c=25$ and the positive sign from the middle term.
+  \begin{eqnarray*}
+    (2 x + 5 y)^2 &  & \tmop{Our~solution}
+  \end{eqnarray*}
+\end{example}
+ 
+{\tmstrong{World View Note:}} The first known record of work with polynomials
+comes from the Chinese around 200 BC. Problems would be written as ``three
+sheaves of a good crop, two sheaves of a mediocre crop, and one sheaf of a bad
+crop sold for 29 dou''. This would be interpreted as the polynomial (trinomial) $3 x + 2 y + z
+= 29$.
+\newpage
+Another factoring shortcut involves sums and differences of cubes.  Both sums and differences of cubes have very similar
+factorizations.
+\[ \tmmathbf{\tmop{Sum} \tmop{of} \tmop{Cubes} : a^3 + b^3 = (a + b) (a^2 -
+   ab + b^2)} \]
+\[ \tmmathbf{\tmop{Difference} \tmop{of} \tmop{Cubes} : a^3 - b^3 = (a - b)
+   (a^2 + ab + b^2)} \]
+Comparing the formulas one may notice that the only difference resides in the signs
+between the terms. One way to remember these two formulas is to think of
+SOAP. Here, S stands for the `same sign' as the given expression. If we have a sum of cubes, we add
+first.  For a difference of cubes, we subtract first.  O stands for the `opposite sign'. If
+we have a sum of cubes, then the second sign is subtraction.  For a difference of cubes, we would have
+addition for the second sign.  Finally, AP stands for `always positive', since both
+formulas end with addition. The following examples show the factorization for a sum or difference of cubes.
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    m^3 - 27 &  & \tmop{Desired~cube} \tmop{roots~are~} m \tmop{~and~}
+    3\\
+    (m~?~3) (m^2 ~?~ 3m ~?~9) &  & \tmop{Use} \tmop{SOAP}
+    \tmop{to} \tmop{fill} \tmop{in} \tmop{signs}\\
+    (m - 3) (m^2 + 3 m + 9) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    125 p^3 + 8 r^3 &  & \tmop{Desired~cube} \tmop{roots~are~} 5 p
+    \tmop{~and~} 2 r\\
+    (5 p~?~ 2 r) (25 p^2 ~?~ 10 pr ~?~ 4r^2) &  & \tmop{Use~SOAP} \tmop{to} \tmop{fill} \tmop{in} \tmop{signs}\\
+    (5 p + 2 r) (25 p^2 - 10 pr + 4 r^2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+The previous example illustrates an important point. When we identify the
+first and last terms of the trinomial in our factorization, we must square the cube roots $5 p$ and $2 r$.
+In situations such as this, one must not forget to square both the coefficient and the variable.\pp %MM
+
+Often after factoring a sum or difference of cubes, one will look to factor the resulting trinomial (our second factor) further. As a general rule, this factor should always be irreducible over the reals (unless there is a GCF which should have been factored out
+initially).
+\newpage
+The following table summarizes all of the special factorizations that we have discussed thus far in the section.
+
+\begin{center}
+  {\tmstrong{Factoring Special Products}}
+\end{center}
+\begin{eqnarray*}
+  \tmop{Difference} \tmop{of} \tmop{Squares} &  & a^2 - b^2 = (a + b) (a -
+  b)\\
+  \tmop{Sum} \tmop{of} \tmop{Squares} &  & a^2 + b^2~~\tmop{(irreducible~over~the~reals)}\\
+  \tmop{Perfect} \tmop{Square} &  & a^2 + 2 a b + b^2 = (a + b)^2\\
+  \tmop{Sum} \tmop{of} \tmop{Cubes} &  & a^3 + b^3 = (a + b) (a^2 - a b +
+  b^2)\\
+  \tmop{Difference} \tmop{of} \tmop{Cubes} &  & a^3 - b^3 = (a - b) (a^2 + a b
+  + b^2)
+\end{eqnarray*}
+As always, when factoring special products it is important to check for a GCF
+first. Only after checking for a GCF should we identify and factor the special product.
+We demonstrate this in the last three examples.
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    72 x^2 - 2 &  & \tmop{GCF} \tmop{is~} 2\\
+    2 (36 x^2 - 1) &  & \tmop{Difference} \tmop{of} \tmop{squares};
+    \tmop{~square} \tmop{roots} \tmop{are~} 6 x \tmop{~and~} 1\\
+    2 (6 x + 1) (6 x - 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    48 x^2 y - 24 x y + 3 y &  & \tmop{GCF} \tmop{is~} 3 y\\
+    3 y (16 x^2 - 8 x + 1) &  & \tmop{Multiply} \tmop{to~}ac \tmop{~or~} 16, \tmop{~add}
+    \tmop{to~} 8\\
+    &  &~~~ \tmop{The} \tmop{numbers} \tmop{are~} 4 \tmop{~and~} 4; \tmop{~we~have~a~perfect} \tmop{square}\\
+    3 y (4 x - 1)^2 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Factor the given expression completely over the real numbers.
+  \begin{eqnarray*}
+    128 a^4 b^2 + 54 a b^5 &  & \tmop{GCF} \tmop{is~} 2 a b^2\\
+    2 a b^2 (64 a^3 + 27 b^3) &  & \tmop{Sum} \tmop{of} \tmop{cubes}; \tmop{~cube} \tmop{roots} \tmop{are~} 4 a \tmop{~and~} 3 b\\
+    2 ab^2 (4 a + 3 b) (16 a^2 - 12 a b + 9 b^2) &  & \tmop{Our}
+    \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+\newpage
+
+\subsection{Quadratic Type}
+
+{\tmstrong{Objective: Identify, factor, and solve equations of quadratic type by factoring and extracting square roots.}}
+\pp
+
+Recall that $x^2+2x-24=0$ can be factored into $(x+6)(x-4)=0$.  Also, using the method of extracting square roots, the solutions to $x^2-4=0$ can be found to be $x=2$ and $x=-2$.  We will apply both of these ideas, factoring and extracting square roots, to find the zeros of a special type of higher degree polynomial, which we will classify as a polynomial of \textit{quadratic type}.\pp
+
+The idea behind polynomials of quadratic type is best illustrated with an example.  Notice that the degree 4 polynomial equation $x^4+2x^2-24 = 0$ can be made to look like the quadratic equation $y^2+2y-24=0$, if we were to replace $x^2$ with $y$.  This is possible, since the degree of the leading term (4) is double that of the middle term (2).  Thus, the equation $x^4+2x^2-24 = 0$ may be rewritten as $(x^2)^2+2(x^2)-24=0$.  Replacing $x^2$ with the new variable $y$ helps us recognize that we may be able to factor the given equation just like a quadratic.
+\begin{eqnarray*}
+x^4+2x^2-24 = 0 & & \text{Initial~equation}\\
+(x^2)^2+2(x^2)-24 = 0 & & \text{Rewritten~as~quadratic~type}\\
+y^2+2y-24 = 0 & & \text{Change~of~variable~to~} y\\
+(y+6)(y-4) = 0 & & \text{Factor}\\
+(x^2+6)(x^2-4) = 0 & & \text{Replace~variable~} y \text{~with~} x^2
+\end{eqnarray*}
+
+Working with this same structure, we can generate other polynomials that are of quadratic type and can also be factored.  For example, $x^6+2x^3-24 = 0$ may be written as $(x^3)^2+2(x^3)-24 = 0$ and $x^8+2x^4-24 = 0$ may be written as $(x^4)^2+2(x^4)-24 = 0$.  We can then factor and extract square roots to find all possible solutions to the given equation.  The next few examples demonstrate this technique.  We begin by finishing up our first example.
+
+\begin{example}~~~Solve the given equation for all possible values of $x$.
+  \begin{eqnarray*}
+   x^4+2x^2-24 = 0 &  & \tmop{Quadratic~type;}\\
+	& & ~~~\text{degree~of~} x^4 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^2\\
+   (x^2+6)(x^2-4)=0 &  & \text{Resulting~factorization}  \\
+	 x^2+6=0 \text{~~~~or~~~~} x^2-4=0 &  & \text{Set~each~factor~equal~to~}0 \text{~and~solve} \\
+\sqrt{x^2} = \sqrt{-6}~~~~ \,\ \,\ \,\ \sqrt{x^2} = \sqrt{4}~~ &  & \tmop{Extract~square~roots} \\
+		x= \pm{\sqrt{-6}}~~~~~ \,\ \,\ \,\ x= \pm{\sqrt{4}} &  & \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm) \\
+		x= \pm{\sqrt{6}i}~~~~ \text{or~~~~}   x=\pm2~~ &  & \tmop{Our} \tmop{solutions}
+	\end{eqnarray*}
+\end{example}
+Notice that we obtain two real solutions and two imaginary solutions in the example above.
+
+\begin{example}~~~Solve the given equation for all possible values of $x$.
+  \begin{eqnarray*}
+   x^4-12x^2+27 = 0 &  & \tmop{Quadratic~type;}\\
+	& & ~~~\text{degree~of~} x^4 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^2\\
+   (x^2-3)(x^2-9)=0 &  & \text{Resulting~factorization}  \\
+	 x^2-3=0 \text{~~~~or~~~~} x^2-9=0 &  & \text{Set~each~factor~equal~to~}0 \text{~and~solve} \\
+\sqrt{x^2} = \sqrt{3}~~~~~ \,\ \,\ \,\ \sqrt{x^2} = \sqrt{9}~~ &  & \tmop{Extract~square~roots} \\
+		x= \pm{\sqrt{3}}~~~~~~ \,\ \,\ \,\ x= \pm{\sqrt{9}} &  & \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm) \\
+		x= \pm{\sqrt{3}}~~~~ \text{or~~~~}   x=\pm3~~ &  & \tmop{Our} \tmop{solutions}
+	\end{eqnarray*}
+\end{example}
+Unlike the first example, here we have obtained four real solutions.  In the next example we will see a higher degree polynomial equation that still is of quadratic type.  Recall that when extracting roots for a binomial factor having an odd degree, we will obtain just one solution, and there will be no need for a ($\pm$) sign.
+
+\begin{example}~~~Solve the given equation for all possible values of $x$.
+  \begin{eqnarray*}
+   x^6-4x^3-5 = 0 &  & \tmop{Quadratic~type;}\\
+	& & ~~~\text{degree~of~} x^6 \tmop{~is} \tmop{twice} \tmop{degree} \tmop{of~} x^3\\
+   (x^3-5)(x^3+1)=0 &  & \text{Resulting~factorization}  \\
+	 x^3-5=0 \text{~~~~or~~~~} x^3+1=0 &  & \text{Set~each~factor~equal~to~}0 \text{~and~solve} \\
+\sqrt[3]{x^3} = \sqrt[3]{5}~~~~ \,\ \,\ \,\ \sqrt[3]{x^3} = \sqrt[3]{-1} &  & \tmop{Extract~cube~roots} \\
+		x= \sqrt[3]{5}~~~~~~ \text{or~~~~}   x=-1~~ &  & \tmop{Our~solutions;~odd} \tmop{roots} \tmop{do~not~require} \tmop{a~} (\pm)
+	\end{eqnarray*}
+\end{example}
+
+Our last example is of an equation of quadratic type, that is also a difference of two squares.  Our solution will reinforce the first part of this section.
+
+\begin{example}~~~Solve the given equation for all possible values of $x$.
+  \begin{eqnarray*}
+   x^4-49 = 0 &  & \tmop{Quadratic~type~and~difference~of~two~squares}\\
+   (x^2+7)(x^2-7)=0 &  & \text{Resulting~factorization}  \\
+	 x^2+7=0 \text{~~~~or~~~~} x^2-7=0 &  & \text{Set~each~factor~equal~to~}0 \text{~and~solve} \\
+\sqrt{x^2} = \sqrt{-7}~~~~~ \,\ \,\ \,\ \sqrt{x^2} = \sqrt{7}~~ &  & \tmop{Extract~square~roots} \\
+		x= \pm{\sqrt{-7}}~~~~~~ \,\ \,\ \,\ x= \pm{\sqrt{7}} &  & \tmop{Even} \tmop{roots} \tmop{require} \tmop{a~} (\pm) \\
+		x= \pm{\sqrt{7}i}~~~~ \text{or~~~~}   x=\pm{\sqrt{7}}~~ &  & \tmop{Our} \tmop{solutions~(two~real~solutions)}
+	\end{eqnarray*}
+\end{example}

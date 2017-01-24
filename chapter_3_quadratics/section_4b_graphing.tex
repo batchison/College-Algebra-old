@@ -1,0 +1,308 @@
+\subsection{Graphing Quadratics}\pp
+
+{\tmstrong{Objective: Graph quadratic equations using the vertex,
+$x$-intercepts, and $y$-intercept.}}\pp
+
+Up until now, we have discussed the general shape of the graph of a quadratic equation (known as a \textit{parabola}), but have only seen a few examples.  Furthermore, most of our examples have only identified the vertex of the parabola, and perhaps an $x-$ or $y-$intercept of the graph.  Although these examples have been able to show us the general shape of each graph (where it is centered, whether it opens up or down, whether it is narrow or wide), our steps for obtaining each graph have not followed a standard procedure.  Here, we will define that procedure more precisely, and provide a few examples for reinforcement.\pp
+
+One way that we can always build a picture of the general shape of a graph is to make a table of values, as we will do in our first example.
+
+\begin{example}~~~Sketch a graph of the quadratic equation $y = x^2 - 4 x + 3$ by making a table of values and plotting points on the graph.\pp
+We will test five values to get an idea of the shape of the graph.	
+	\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|}
+	\hline 
+	$x$ & ~~0~~ & ~~1~~ & ~~2~~ & ~~3~~ & ~~4~~\\
+	\hline 
+%	&&&&&\\
+	$y$ &  &  &  &  & \\
+%	&&&&&\\
+	\hline
+	\end{tabular}
+	\end{center}
+%	\begin{eqnarray*}
+%	  \begin{array}{|l|l|}
+ %     \hline
+  %    x & y\\
+   %   \hline
+%      0 & \\
+ %     \hline
+  %    1 & \\
+   %   \hline
+    %  2 & \\
+%      \hline
+ %     3 & \\
+  %    \hline
+   %   4 & \\
+%      \hline
+%    \end{array} &  & \tmop{We} \tmop{will} \tmop{test} 5 \tmop{values}
+%    \tmop{to} \tmop{get} \tmop{a} \tmop{sense} \tmop{of} \tmop{shape}\\
+%\end{eqnarray*}
+ \begin{center}
+	\begin{tabular}{lcl}
+	  $y =(0)^2 + 4 (0) + 3=0 - 0 + 3~~=~3$ &&  Plug in 0 for $x$ and evaluate.\\
+		$y =(1)^2 - 4 (1) + 3=1 - 4 + 3~~=~0$ &&  Plug in 1 for $x$ and evaluate.\\
+    $y =(2)^2 - 4 (2) + 3=4 - 8 + 3~~=- 1$ &&  Plug in 2 for $x$ and evaluate.\\
+    $y =(3)^2 - 4 (3) + 3=9 - 12 + 3~=~0$ &&  Plug in 3 for $x$ and evaluate.\\
+    $y =(4)^2 - 4 (4) + 3=16 - 16 + 3=~3$ &&  Plug in 4 for $x$ and evaluate.%\\
+%\begin{center}
+	\end{tabular}
+\end{center}
+\newpage
+Our completed table is below.  Plot the points on the $xy-$plane.
+	\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|}
+	\hline 
+	$x$ & ~~0~~ & ~~1~~ & ~~2~~ & ~~3~~ & ~~4~~\\
+	\hline 
+%	&&&&&\\
+	$y$ & 3 & 0 & -1 & 0 & 3\\
+%	&&&&&\\
+	\hline
+	\end{tabular}
+	\end{center}
+%    \begin{array}{|l|l|}
+%      \hline
+%      x & y\\
+%      \hline
+%      0 & 3\\
+%      \hline
+%      1 & 0\\
+%      \hline
+%      2 & - 1\\
+%      \hline
+%      3 & 0\\
+%      \hline
+%      4 & 3\\
+%      \hline
+%    \end{array} &  & \tmop{Our} \tmop{completed} \tmop{table} . \tmop{Plot}
+%    \tmop{points} \tmop{on} \tmop{graph}
+%  \end{eqnarray*}
+\end{example}
+~\\
+ %\begin{multicols}{2}
+    %\includegraphics{Quadratics - Graphing-1.eps}
+\begin{vwcol}[widths={0.65,0.35},
+ sep=.8cm, justify=flush,rule=0pt,indent=1em]  
+~\\
+~\\
+Plot the points $(0, 3), (1, 0), (2, - 1), (3, 0),$ and $(4, 3)$.\\
+~\\
+Connect the dots with a smooth curve.
+%Our Solution\\
+
+\begin{mfpic}[15]{-1}{5}{-1.5}{5.0}
+\arrow \reverse \arrow \function{-.5,4.5,.1}{(((x-2)**2))-1}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-1,1,2,3,4}
+\tlabelsep{3pt}
+\axislabels x{{$1$}1,  {$2$}2,{$3$}3,{$4$}4 }
+\axislabels y{{$-1$}-1,{$1$}1,{$2$}2, {$3$}3,{$4$}4}
+\plotsymbol[4]{SolidCircle}{(0,3),(1,0),(2,-1),(3,0),(4,3)}
+\end{mfpic}
+\end{vwcol}
+%\end{example}
+
+~\vspace{.25in}
+
+{\tmstrong{World View Note: }}The first major female mathematician was
+Hypatia of Egypt who was born around 370 A.D.. She studied conic sections. The
+parabola is one type of conic section.\pp
+The above method to graph a parabola works for any equation, however, it can be very difficult to find a sufficient collection of points in order to identify the overall shape of the complete graph.  For this reason, we will now formally identify several key points on the graph of a parabola, which will enable us to always determine a complete graph.  These points are the $y-$intercept, $x-$intercepts, and the vertex $(h,k)$.\\
+
+\begin{multicols}{2}
+  %\includegraphics{Quadratics - Graphing-2.eps}
+\begin{mfpic}[18]{-1}{4}{-4.5}{3.5}
+\arrow \reverse \arrow \function{-1.5,3.5,.1}{(((x-1)**2))-4}
+\axes
+%\xmarks{-2,-1,1,2,3,4}
+%\ymarks{-5,-4,-3,-2,-1,1,2,3,4,5}
+\tlabelsep{3pt}
+%\axislabels x{{$-2$}-2, {$-1$}-1, {$1$}1,  {$2$}2,{$3$}3,{$4$}4 }
+%\axislabels y{{$-4$}-4,{$-4$}-4,{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2, {$3$}3,{$4$}4,{$5$}5, }
+%\plotsymbol[4]{SolidCircle}{(-1,0),(0,-3),(1,-4),(3,0)}
+\pointdef{B}(-1,0)
+\pointdef{A}(0,-3)
+\pointdef{C}(3,0)
+\pointdef{V}(1,-4)
+
+\point{\A, \B, \C, \V}
+\tlpointsep{3pt}
+\tlabels
+{%[tr]%(0, 0){$O$} %[tc](\xmax, 0){$x$} [cr](0, \ymax){$y$}
+        %[cl](\Ax, \Ay){$A$} [cl](\Bx, \By){$B$} [cr](\Cx, \Cy){$C$} [br](\Vx, \Vy){$V$}}
+				[cl](-1,-3 ){$A$} [cc](-0.75,0.5){$B$} [cc](2.75,0.5){$C$} [cc](1,-3.5){$V$}}
+\tlpointsep{6pt}
+\end{mfpic}
+
+~\\	
+	
+  Point $A$: $y$-intercept; where the graph crosses the vertical $y$-axis (when $x=0$).\pp  
+  Points $B$ and $C$: $x$-intercepts; where the graph crosses the horizontal $x$-axis (when $y=0$)\pp
+	Point $V$: vertex ($h,k$); The point of the minimum (or maximum) value, where the graph changes direction.
+\end{multicols}
+
+We will use the following method to find each of the key points on our parabola.
+
+\begin{center}
+  {\tmstrong{Steps for graphing a quadratic in standard form, $y = a x^2 + b x + c$.}}
+\end{center}
+\begin{enumerate}
+  \item Identify and plot the vertex: $h = -\displaystyle\frac{b}{2 a}$. Plug $h$ into the equation to find $k$.  Resulting point is $(h,k)$.
+	
+	\item Identify and plot the $y$-intercept: Set $x = 0$ and solve.  The $y$-intercept will correspond to the constant term $c$.  Resulting point is $(0,c)$.
+  
+  \item Identify and plot the $x$-intercept(s): Set $y = 0$ and solve for $x$.  Depending on the expression, we will end up with zero, one or two $x-$intercepts.\pp
+	{\bf Important:} Up until now, we have only discussed how to solve a quadratic equation for $x$ by factoring.  If an expression is not easily factorable, we may not be able to identify the $x$-intercepts.  Soon, we will learn of two additional methods for finding $x$-intercepts, which will prove especially useful, when an equation is not easily factorable.
+\end{enumerate}
+After ploting these points we can connect them with a smooth curve to find a complete sketch of our parabola!\\
+
+\begin{example}~~~Provide a complete sketch of the equation $y = x^2 + 4 x + 3$.
+  \begin{eqnarray*}
+    y = x^2 + 4 x + 3 &  & \tmop{Find} \tmop{the} \tmop{key} \tmop{points}\\
+    &  & \\
+    h = -\frac{4}{2 (1)} = -\frac{4}{2} = - 2 &  & \tmop{To} \tmop{find}
+    \tmop{the} \tmop{vertex}, \tmop{use~} h = -\frac{b}{2 a}\\
+    k = (- 2)^2 + 4 (- 2) + 3 &  & \tmop{Plug} h \tmop{into~the} \tmop{equation} \tmop{to} \tmop{find} k\\
+    k = 4 - 8 + 3 &  & \tmop{Evaluate}\\
+    k = - 1 &  & \tmop{The} y \tmop{-coordinate~of~the~vertex}\\
+    (- 2, - 1) &  & \tmop{Vertex} \tmop{as~a} \tmop{point}\\
+    &  & \\
+		y = 3 &  & (0,c) \tmop{~is} \tmop{the} y \tmop{-intercept}
+	\end{eqnarray*}
+  \begin{eqnarray*}
+  %	&&\\
+    0 = x^2 + 4 x + 3 &  & \tmop{To} \tmop{find~the~} x \tmop{-intercept}
+    \tmop{we} \tmop{solve} \tmop{the} \tmop{equation}\\
+    0 = (x + 3) (x + 1) &  & \tmop{Factor}\\
+    x + 3 = 0 \tmop{~and~} x + 1 = 0~~~ &  & \tmop{Set} \tmop{each} \tmop{factor}
+    \tmop{equal} \tmop{to} \tmop{zero}\\
+    \tmmathbf{\underline{- 3 ~~- 3} ~~~~~~~~ \underline{- 1 ~~- 1}} &  & \tmop{Solve} \tmop{each}
+    \tmop{equation}\\
+    x = - 3 \tmop{~~and~~} x = - 1~ &  & \tmop{Our} x\tmop{-intercepts}%\\
+ \end{eqnarray*}
+\end{example}
+    
+\begin{vwcol}[widths={0.6,0.4},
+ sep=.8cm, rule=0pt]%, justify=flush,rule=0pt]%indent=1em]
+
+    Graph the $y$-intercept at $(0,3)$,\pp
+		the $x$-intercepts at $(- 3,0)$ and $(- 1,0)$,\pp
+		and the vertex at $(- 2, - 1)$.\pp
+		Connect the dots with a smooth curve\\
+		%~\vspace{.25in} 
+		in a `U'-shape to get our parabola.\\
+    		
+		\begin{mfpic}[18]{-4.5}{0.75}{-1.5}{5.5}
+\arrow \reverse \arrow \function{-4.25,0.25,.1}{(((x+2)**2))-1}
+\axes
+\xmarks{-3,-2,-1}
+\ymarks{-1,1,2,3}
+
+\axislabels x{{$-3$}-3,{$-2$}-2,{$-1$}-1,}
+\axislabels y{{$-1$}-1,{$1$}1,{$2$}2, {$3$}3}
+\plotsymbol[4]{SolidCircle}{(-2,-1),(-3,0),(-1,0),(0,3)}
+\end{mfpic}
+\end{vwcol}    
+Remember that if $a>0$, then our parabola will open upwards, as in the previous example.  In our next example, $a<0$, and the resulting parabola will open downwards.
+
+\begin{example}~~~Provide a complete sketch of the equation\\
+$y = - 3 x^2 + 12 x - 9$.
+  \begin{eqnarray*}
+    y = - 3 x^2 + 12 x - 9 &  & \tmop{Find} \tmop{key} \tmop{points}\\
+    &  & \\
+    h = -\frac{12}{2 (- 3)} = -\frac{12}{- 6} = 2 &  & \tmop{To} \tmop{find}
+    \tmop{the} \tmop{vertex}, \tmop{use~} h = -\frac{b}{2 a}\\
+    k = - 3 (2)^2 + 12 (2) - 9 &  & \tmop{Plug} h \tmop{into~the} \tmop{equation} \tmop{to} \tmop{find} k\\
+    k = - 3 (4) + 24 - 9 &  & \tmop{Evaluate}\\
+    k = 3 &  & \tmop{The} y \tmop{-coordinate~of~the~vertex}\\
+    (2, 3) &  & \tmop{Vertex} \tmop{as~a} \tmop{point}\\
+    &  & \\
+		y = -9 &  & (0,c) \tmop{~is} \tmop{the} y \tmop{-intercept}\\
+  \end{eqnarray*}
+  \begin{eqnarray*}
+    0 = - 3 x^2 + 12 x - 9 &  & \tmop{To} \tmop{find~the~} x \tmop{-intercept}
+    \tmop{we} \tmop{solve} \tmop{the} \tmop{equation}\\
+    0 = - 3 (x^2 - 4 x + 3) &  & \tmop{Factor} \tmop{out} \tmop{GCF}
+    \tmop{first}\\
+		0 = - 3 (x - 3) (x - 1) &  & \tmop{Factor~remaining~trinomial}\\
+    x - 3 = 0 \tmop{~and~} x - 1 = 0~~ &  & \tmop{Set~each~factor~with~a~variable~equal~to~zero}\\
+		\tmmathbf{\underline{+ 3 ~~+ 3} ~~~~~~~~ \underline{+ 1 ~+ 1}} &  & \tmop{Solve} \tmop{each}
+    \tmop{equation}\\
+    x =  3 \tmop{~~~and~~~~} x =  1~~ &  & \tmop{Our} x\tmop{-intercepts}%\\  \end{eqnarray*}
+		\end{eqnarray*}
+  \end{example}
+\begin{multicols}{2}
+%~
+\begin{mfpic}[20]{-0.5}{5}{-10.5}{4}
+\arrow \reverse \arrow \function{-0.1,4.1,.1}{((-3)*((x-2)**2))+3}
+\axes
+\xmarks{1,2,3,4}
+\ymarks{-9,-8,-7,-6,-5,-4,-3,-2,-1,1,2,3}
+\axislabels x{{$1$}1,  {$2$}2,{$3$}3,{$4$}4}
+\axislabels y{{$-9$}-9,{$-8$}-8,{$-7$}-7,{$-6$}-6,{$-5$}-5,{$-4$}-4,{$-3$}-3,{$-2$}-2,{$-1$}-1,{$1$}1,{$2$}2, {$3$}3}
+\plotsymbol[4]{SolidCircle}{(0,-9),(1,0),(2,3),(3,0)}
+\end{mfpic}
+
+~\vspace{.5in}
+
+Graph the $y$-intercept at $(0,-9)$,\pp
+the $x$-intercepts at $(3,0)$ and $(1,0)$,\pp
+and the vertex at $(2,3)$.\pp
+Connect the dots with a smooth curve
+		%~\vspace{.25in} 
+in a `U'-shape to get our parabola.
+
+\end{multicols}
+
+Remember that the graph of any quadratic is a parabola with the
+same `U'-shape (opening up or down).  If we plot our points and we
+cannot connect them in the correct `U'-shape, then one or more of our points is likely to be incorrect.  If this happens, a simple check of our calculations should identify where any mistakes were made!  Each of our examples have involved quadratics that were easily factorable.  Although we can still graph quadratics such as $y=x^2-3$ without actually identifying the $x-$intercepts, being able to identify them by solving $x^2-3=0$ and other more involved quadratic equations for $x$ is a skill that we will eventually come to master.
+
+
+%Below
+%are some common equations (some we have yet to cover!) with their graph shape
+%drawn.
+
+
+%MARK: MAKE GRAPHS?
+%\begin{multicols}{2}
+%  \begin{center}
+%    Absolute Value
+    
+ %   $y = |x|$
+    
+    %\includegraphics{Quadratics - Graphing-5.eps}
+    
+  %  Quadratic
+    
+   % $y = x^2$
+    
+   % \includegraphics{Quadratics - Graphing-6.eps}
+    
+    %Square Root
+    
+   % $y = \sqrt[]{x}$
+    
+    %\includegraphics{Quadratics - Graphing-7.eps}
+    
+    %Cubic
+    
+    %$y = x^3$
+    
+   % \includegraphics{Quadratics - Graphing-8.eps}
+    
+    %Exponential
+    
+    %$y = a^x$
+    
+    %\includegraphics{Quadratics - Graphing-9.eps}
+    
+    %Logarithmic
+    
+   % $y = \log_a x$
+    
+    %\includegraphics{Quadratics - Graphing-10.eps}
+  %\end{center}
+%\end{multicols}

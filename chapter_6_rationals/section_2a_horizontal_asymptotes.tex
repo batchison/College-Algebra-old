@@ -1,0 +1,83 @@
+{\tmstrong{Objective: Identify the end behavior of a rational function.}}\pp
+\subsection{Horizontal Asymptotes}
+\noindent
+Recall that $n$ and $m$ are the \textit{degrees} of the numerator and denominator of $f$, respectively.  We denote these by $\deg(p)=n$ and $\deg(q)=m$.  The \textit{leading coefficients} of $p$ and $q$ are $a_n$ and $b_m$, respectively.  As was the case with polynomials, we can use the degrees and leading coefficients of $p$ and $q$ to quickly determine the end behavior, or `tails' of the graph of the rational function $f$.\pp
+
+Like polynomials, some graphs of rational functions can approach $+\infty$ or $-\infty$ as $x$ approaches $\pm\infty$.  Other graphs of rational functions, however, can approach a finite value $k$ for $y$ and seem to `level off' as $x$ approaches $\pm\infty$.  In such instances, we say that the graph of $f$ has a \textit{horizontal asymptote} at $y=k$, and write the following.
+\begin{center}
+As $x\longrightarrow\pm\infty,~f(x)\longrightarrow k^{\pm}$.
+\end{center}
+If the graph of $f$ approaches the line $y=k$ from above, we write $k^+$, and if the graph of $f$ approaches the line $y=k$ from below, we write $k^-$. If we have not been provided with the graph of a particular rational function and cannot easily (or quickly) determine the exact nature of its ends as it approaches the line $y=k$, it is also acceptable to omit the $\pm$ altogether and simply write the following.
+\begin{center}
+As $x\longrightarrow\pm\infty,~f(x)\longrightarrow k$.
+\end{center}
+Our first example will help illustrate this concept.\\
+~\\
+INSERT IMAGE HERE
+~\\
+\begin{center}
+As $x\longrightarrow\infty,~f(x)\longrightarrow 5^{+}$.\\
+As $x\longrightarrow -\infty,~f(x)\longrightarrow 5^{-}$.
+\end{center}
+\newpage
+Below are the three cases for the end behavior of a rational function $f$.
+$$f(x)=\frac{p(x)}{q(x)}=\frac{a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0}{b_mx^m+b_{m-1}x^{m-1}+\ldots+b_1x+b_0}$$
+\begin{itemize}
+	\item If $n=m,$ then $f$ has a horizontal asymptote at $y=\displaystyle\frac{a_n}{b_m}$.
+	\item If $n<m,$ then $f$ has a horizontal asymptote at $y=0$.
+	\item If $n>m,$ then $f$ has no horizontal asymptote.  In this case, $y$ approaches either $\infty$ or $-\infty,$ depending on the signs of $a_n$ and $b_m$.
+\end{itemize}
+
+Below are several examples to help illustrate these cases.
+
+\begin{center}
+\scalebox{0.6}{
+\begin{tabular}{cccccccc}
+Function & = & Factored form & = & Expanded form & $\deg(p),\deg(q)$ & Horizontal asymptote? & End behavior\\
+\hline\\
+$f(x)$ & = & $\displaystyle\frac{-x(x+2)(x-2)}{(x-3)(x+3)}$ & = & $\displaystyle\frac{-x^3+4x}{x^2-9}$ & $3,2$ & No, $3>2$ & $\text{As~} x\rightarrow\infty,~y\rightarrow-\infty \atop \text{As~} x\rightarrow-\infty,~y\rightarrow\infty$\\
+\\
+$g(x)$ & = & $\displaystyle\frac{-x(x+2)(x-2)(x+5)}{(x-3)(x+3)(x+5)}$ & = & $\displaystyle\frac{-x^4-5x^3+4x^2+20x}{x^3+5x^2-9x-45}$ & $4,3$ & No, $4>3$ & $\text{As~} x\rightarrow\infty,~y\rightarrow-\infty \atop \text{As~} x\rightarrow-\infty,~y\rightarrow\infty$\\
+\\
+$h(x)$ & = & $\displaystyle\frac{(x+2)(x-2)}{-x(x-3)(x+3)}$ & = & $\displaystyle\frac{x^2-4}{-x^3+9x}$ & $2,3$ & Yes, $2<3$ & $\text{As~} x\rightarrow\infty,~y\rightarrow 0 \atop \text{As~} x\rightarrow-\infty,~y\rightarrow 0$\\
+\\
+$k(x)$ & = & $\displaystyle\frac{(x+2)(x-2)}{-x^2(x-3)(x+3)}$ & = & $\displaystyle\frac{x^2-4}{-x^4+9x^2}$ & $2,4$ & Yes, $2<4$ & $\text{As~} x\rightarrow\infty,~y\rightarrow 0 \atop \text{As~} x\rightarrow-\infty,~y\rightarrow 0$\\
+\\
+$r(x)$ & = & $\displaystyle\frac{4(x+2)^2(x-2)^2}{-x^2(x-3)(x+3)}$ & = & $\displaystyle\frac{4x^4-32x^2+64}{-x^4+9x^2}$ & $4,4$ & Yes, $4=4$ & $\text{As~} x\rightarrow\infty,~y\rightarrow -4 \atop \text{As~} x\rightarrow-\infty,~y\rightarrow -4$\\
+\\
+$s(x)$ & = & $\displaystyle\frac{(x+3)^2(2x-3)}{3(x+4)(x-2)^2}$ & = & $\displaystyle\frac{2x^3+9x^2-27}{3x^3-36x+48}$ & $3,3$ & Yes, $3=3$ & $\text{As~} x\rightarrow\infty,~y\rightarrow \frac{2}{3} \atop \text{As~} x\rightarrow-\infty,~y\rightarrow \frac{2}{3}$\\
+\\
+$w(x)$ & = & $\displaystyle\frac{(x+3)^2(2x-3)}{(x+4)(x-2)^3}$ & = & $\displaystyle\frac{2x^3+9x^2-27}{x^4-2x^3-12x^2+40x-32}$ & $3,4$ & Yes, $3<4$ & $\text{As~} x\rightarrow\infty,~y\rightarrow 0 \atop \text{As~} x\rightarrow-\infty,~y\rightarrow 0$
+\end{tabular}}
+\end{center}
+\pagebreak
+
+{\bf Some Notes}:
+	\begin{itemize}
+		%\item Functions $f,g,h,k$ above are the same as from the notes in class.  Function $w$ is from the quiz in class.
+		\item The {\bf factored form} is necessary for finding any $x-$intercepts, vertical asymptotes, holes, and in completing the sign diagram, used to determine the interior of the graph of the given function.
+		\item The {\bf expanded form} is necessary for finding the end-behavior, or ``tails'' of the graph of the given function.
+		\item Students should be able to obtain the expanded form of a given function, if it is not provided.
+		\item Students should be able to obtain the factored form of a given function, if it is not provided, for some ``simple'' rational functions.  This applies for functions $f,h,$ and $k$ above.  Students can obtain the factored form of functions $g,r,s,$ and $w$ using the Rational Root/Zero Theorem, and polynomial or synthetic division.
+		\item The term ``simplified'' should be avoided altogether, since the definition of what it means for a function to be simplified is relative to each individual.  Furthermore, students who reduce function $g$ above by canceling out the term $(x+5)$ will fail to identify the hole in the graph of $g$ at $x=-5$.
+		\item Students who do not remember the above theorem may always make tables like the one below, in order to determine the end behavior of the graph of a given function.
+	\end{itemize}
+$$s(x)\qquad=\qquad\displaystyle\frac{(x+3)^2(2x-3)}{3(x+4)(x-2)^2}\qquad=\qquad\displaystyle\frac{2x^3+9x^2-27}{3x^3-36x+48}$$
+\begin{center}
+\begin{tabular}{c|c}
+x & s(x)\\
+\hline
+10 & 1.0688\\
+100 & 0.6975\\
+1000 & 0.6697
+\end{tabular}
+\qquad\qquad\qquad\qquad
+\begin{tabular}{c|c}
+x & s(x)\\
+\hline
+-10 & 0.4348\\
+-100 & 0.6375\\
+-1000 & 0.6584
+\end{tabular}
+\end{center}
+So, as $x\rightarrow\infty,$ $y\rightarrow\left(\displaystyle\frac{2}{3}\right)^{+}$ and as $x\rightarrow-\infty,$ $y\rightarrow\displaystyle\left(\frac{2}{3}\right)^{-}$.  The $+$ and $-$ above the $\left(\displaystyle\frac{2}{3}\right)$ signifies that the values in the left table are all greater than $\displaystyle\frac{2}{3}$ and the values in the right table are all less than $\displaystyle\frac{2}{3}$.  This may be used to determine how the graph of $s$ approaches the horizontal asymptote $y=\displaystyle\frac{2}{3}$ (either from above or below).  Using a graphing utility, confirm this result.

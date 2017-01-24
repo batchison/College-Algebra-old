@@ -1,0 +1,194 @@
+{\tmstrong{Objective: Recognize and identify the domain of a rational function, as well as any $x-$ and $y-$intercepts of its graph.}}\pp
+\noindent
+A \textit{rational function} is a function that can be represented as a ratio (or fraction) of two polynomials $p$ and $q$.  The general form of a rational function $f$ is $$f(x)=\frac{p(x)}{q(x)}=\frac{a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0}{b_mx^m+b_{m-1}x^{m-1}+\ldots+b_1x+b_0},$$
+where each of the $a_i$ and $b_j$ are real numbers, for $i,j=0,1,2,\ldots$, $a_n$ and $b_m\neq 0$, and both $m$ and $n$ are nonnegative integers.\pp
+We have already encountered at least one example of a rational function, namely $f(x)=\frac{1}{x}$, whose graph we should also be familiar with.
+\begin{example}~\\
+\begin{center}
+\begin{multicols}{2}
+
+$f(x)=\dfrac{1}{x}$\\
+~\\
+Domain: $x\neq 0$ or\\
+$(-\infty,0)\cup(0,\infty)$\\
+~\\
+Range: $y\neq 0$ or\\
+$(-\infty,0)\cup(0,\infty)$\\
+
+\columnbreak
+
+\begin{mfpic}[10][10]{-5}{5}{-5}{5}
+\arrow\reverse\arrow\function{-5,-0.2,.1}{1/x}
+\arrow\reverse\arrow\function{0.2,5,.1}{1/x}
+\axes
+\tlabelsep{3pt}
+\tlabel[cc](1,5){\scriptsize $y$}
+\tlabel[cc](5,1){\scriptsize $x$}
+\tcaption{The graph of $\frac{1}{x}$}
+\end{mfpic}
+
+\end{multicols}
+\end{center}
+\end{example}
+\newpage
+As with any function, we can easily identify the $y-$intercept of the graph of $f$ by evaluating the function at $x=0$.
+$$f(0)=\frac{p(0)}{q(0)}=\frac{a_n(0)^n+a_{n-1}(0)^{n-1}+\ldots+a_1(0)+a_0}{b_m(0)^m+b_{m-1}(0)^{m-1}+\ldots+b_1(0)+b_0}=\frac{a_0}{b_0}$$
+Hence, the graph of $f$ will have a $y-$intercept at the point $\left(0,\frac{a_0}{b_0}\right)$.\pp
+To identify the domain of $f$, we must eliminate all real numbers $x$ which make the denominator equal to zero.  In other words, the domain of $f$ is the set of all $x$ such that $q(x)\neq 0$.\pp
+To find all possible $x-$intercepts for the graph of $f$, we set the function equal to zero and solve for all possible $x$, keeping \textit{only} those values that are also in our domain.  Since $f(x)$ can only equal zero if its numerator is zero, this amounts to finding all roots of the polynomial $p$.
+\begin{eqnarray*}
+ f(x) & = & 0\\
+\dfrac{p(x)}{q(x)} & = & 0\\
+\cancel{q(x)}\cdot\dfrac{p(x)}{\cancel{q(x)}} & = & 0\cdot q(x)
+\end{eqnarray*}
+$$p(x) = 0, ~ q(x)\neq 0$$ 
+We are now ready to analyze some basic rational functions and their graphs.
+\newpage
+
+%1
+\begin{example}~\\
+\begin{center}
+\begin{multicols}{2}
+
+$f(x)=\dfrac{-2x-4}{x-5}=\dfrac{-2(x+2)}{x-5}$\\
+~\\
+$y-$int at $(0,\frac{4}{5})$\\
+~\\
+Domain: $x\neq 5$ or\\
+$(-\infty,5)\cup(5,\infty)$\\
+~\\
+$x-$int at $(-2,0)$
+
+\columnbreak
+
+\begin{mfpic}[6][3]{-10}{15}{-20}{20}
+\dashed\polyline{(-10,-2),(15,-2)}
+\dashed\polyline{(5,-20),(5,20)}
+\point[3pt]{(-2,0),(0,0.8)}
+\arrow\reverse\arrow\function{-10,4.35,.1}{-2*(x+2)/(x-5)}
+\arrow\reverse\arrow\function{5.7,15,.1}{-2*(x+2)/(x-5)}
+\axes
+\tlabelsep{3pt}
+\tlabel[cc](-5,-4	){\scriptsize $y=-2$}
+\tlabel[cc](7,10){\scriptsize $x=5$}
+\tlabel[cc](1,20){\scriptsize $y$}
+\tlabel[cc](15,2){\scriptsize $x$}
+\tcaption{The graph of $f$}
+\end{mfpic}
+
+\end{multicols}
+\end{center}
+\end{example}
+
+%2
+\begin{example}~\\
+\begin{center}
+\begin{multicols}{2}
+
+$g(x)=\dfrac{x^2-4}{x-5}=\dfrac{(x-2)(x+2)}{x-5}$\\
+~\\
+$y-$int at $(0,\frac{4}{5})$\\
+~\\
+Domain: $x\neq 5$ or\\
+$(-\infty,5)\cup(5,\infty)$\\
+~\\
+$x-$ints at $(2,0)$ and $(-2,0)$
+
+\columnbreak
+
+\begin{mfpic}[6][1.5]{-10}{15}{-35}{35}
+\dashed\polyline{(5,-35),(5,35)}
+\dashed\polyline{(-10,-5),(15,20)}
+\point[3pt]{(-2,0),(2,0),(0,0.8)}
+\arrow\reverse\arrow\function{-8,4.2,.1}{((x-2)*(x+2))/(x-5)}
+\arrow\reverse\arrow\function{6,14,.1}{((x-2)*(x+2))/(x-5)}
+\axes
+\tlabelsep{3pt}
+\tlabel[cc](7,-17.5){\scriptsize $x=5$}
+\tlabel[cc](1,35){\scriptsize $y$}
+\tlabel[cc](15,3){\scriptsize $x$}
+\tcaption{The graph of $g$}
+\end{mfpic}
+
+\end{multicols}
+\end{center}
+\end{example}
+
+%3
+\begin{example}~\\
+\begin{center}
+\begin{multicols}{2}
+
+$h(x)=\dfrac{x^3-25x}{x-5}=\dfrac{x(x-5)(x+5)}{x-5}$\\
+~\\
+$y-$int at $(0,0)$\\
+~\\
+Domain: $x\neq 5$ or\\
+$(-\infty,5)\cup(5,\infty)$\\
+~\\
+$x-$ints at $(0,0)$ and $(-5,0)$
+
+\columnbreak
+
+\begin{mfpic}[8][1]{-11}{7.5}{-25}{75}
+%\dashed\polyline{(5,-75),(5,75)}
+\point[3pt]{(0,0),(-5,0)}
+\pointfillfalse
+\point[3.7pt]{(5,50)}
+%\circle{(5,50),0.5}
+\arrow\reverse\function{-11,4.9,.1}{(x*(x-5)*(x+5))/(x-5)}
+\reverse\arrow\function{5.1,6.25,.1}{(x*(x-5)*(x+5))/(x-5)}
+\axes
+\tlabelsep{3pt}
+\tlabel[cc](1,75){\scriptsize $y$}
+\tlabel[cc](7.5,5){\scriptsize $x$}
+\xmarks{5}
+\ymarks{50}\tlabel[cc](5,-10){\tiny $5$}
+\tlabel[cc](-1,50){\tiny $50$}
+\tcaption{The graph of $h$}
+\end{mfpic}
+\end{multicols}
+\end{center}
+\end{example}
+
+Each of the three previous graphs exhibit some similarities, as well as some clear distinctions, all of which will be addressed in detail later on in the chapter.  For example, although they all share a common domain of $x\neq 5$, what happens to the graph of each function near $x=5$ is different from one function to the next.\pp
+Both the graph of $f$ and the graph of $g$ exhibit what we call a \textit{vertical asymptote} at $x=5$, which simply stated is a vertical line that the graph of each function approaches, but never actually crosses (since $x=5$ is not in the domain of each function).  In the case of $h$, however, our graph exhibits a hole at the point $(5,50)$.  In fact, the graph of $h$ resembles the graph of a parabola, except at $x=5$, which we will later see is a direct consequence of the repeated factor of $(x-5)$ that appears in both the numerator and the denominator of $h$.
+$$h(x)=\dfrac{x^3-25x}{x-5}=\dfrac{x(x-5)(x+5)}{x-5}=\dfrac{x\cancel{(x-5)}(x+5)}{\cancel{x-5}}=x^2+5x,~x\neq 5$$
+Note also that we can easily distinguish from the graph of $h$ that the range of the function is $(-\infty,\infty)$.\pp
+In the case of $f$, we see that its range is $y\neq -2$, or $(-\infty,-2)\cup(-2,\infty)$.  The graph of $f$ also exhibits what we call a \textit{horizontal asymptote} at the line $y=-2$, whose definition is somewhat similar to that of a vertical asymptote, with some key differences.  We will discuss the presence of horizontal asymptotes in the section that deals with the \textit{end behavior} of the graph of a rational function.\pp
+In the case of $g$, it is quite difficult to determine precisely the range of $g$ from its graph.  This is due in large part to the fact that we cannot pinpoint exactly where the local minimum and maximums of $g$ are located (where each piece of its graph goes from increasing to decreasing or vice versa).  The identification of these two points will require more advanced methods from calculus.\pp
+The graph of $g$ also has what is known as a \text{slant asymptote}, which we will be able to determine precisely by employing polynomial division later on.\pp
+We finish our introduction with yet another example.
+\newpage
+\begin{example}~\\
+$$f(x)=\dfrac{x^2-2x+1}{x^2+x-6}=\dfrac{(x-1)^2}{(x+3)(x-2)}$$
+\begin{itemize}
+	\item Domain: $x\neq -3,2$ or $(-\infty,-3)\cup(-3,2)\cup(2,\infty)$
+	\item $y-$intercept at $(0,f(0))=(0,-\frac{1}{6})$
+	\item $x-$intercept at $(1,0)$
+\end{itemize}
+\end{example}
+\begin{center}
+\begin{mfpic}[20][15]{-7}{7}{-6}{7}
+\dashed\polyline{(2,-6),(2,7)}
+\dashed\polyline{(-3,-6),(-3,7)}
+\dashed\polyline{(-7,1),(7,1)}
+\point[3pt]{(1,0),(0,-0.16667)}
+%\pointfillfalse
+%\point[3.7pt]{(1,0)}
+%\circle{(5,50),0.5}
+\arrow\reverse\arrow\function{-7,-3.55,.1}{((x-1)**2)/((x+3)*(x-2))}
+\arrow\reverse\arrow\function{-2.50,1.95,.1}{((x-1)**2)/((x+3)*(x-2))}
+\arrow\reverse\arrow\function{2.05,7,.1}{((x-1)**2)/((x+3)*(x-2))}
+\axes
+\tlabelsep{3pt}
+\tlabel[cc](0.5,7){\scriptsize $y$}
+\tlabel[cc](7,-1){\scriptsize $x$}
+\tlabel[cc](3,-3){\scriptsize $x=2$}
+\tlabel[cc](-4.25,-3){\scriptsize $x=-3$}
+\tlabel[cc](5,1.75){\scriptsize $y=1$}
+\tcaption{The graph of $f$}
+\end{mfpic}
+\end{center}
+In this example, we see that our graph has two vertical asymptotes at the values of $x$ not in our domain ($x=-3$ and $x=2$).  Additionally, the graph of $f$ has a horizontal asymptote at the line $y=1$.  Notice, however, that unlike with our vertical asymptotes, the graph of $f$ actually crosses over the line $y=1$ when $x$ is slightly greater than $2$.  Once again, we cannot easily determine the range of $f$ from its graph, since we cannot determine the minimum value of its right-most piece without using methods from calculus.\pp
+It is also worth mentioning that the graph of $f$ has a turnaround point at its lone $x-$intercept $(1,0)$.  As was the case in the chapter on polynomial functions, this is a direct consequence of the \textit{even multiplicity} (2) of the root $x=1$.

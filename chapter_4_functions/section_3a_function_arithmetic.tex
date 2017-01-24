@@ -1,0 +1,98 @@
+\subsection{Function Arithmetic}
+
+{\tmstrong{Objective: Combine functions using sum, difference, product,
+quotient and composition.}}\pp
+
+In this section, we demonstrate how two (or more) functions can be combined to create new functions. This is accomplished using five common
+operations:  the four basic arithmetic operations of addition, subtraction, multiplication and division, and a fifth operation that we will establish later in the section, known as a \textit{composition}.\pp
+The notation for the four basic functions is as follows. 
+\begin{eqnarray*}
+  \tmop{Addition} &  & (f + g) (x) = f (x) + g (x)\\   %\text{Combine like terms}\\ %MM
+  \tmop{Subtraction} &  & (f - g) (x) = f (x) - g (x)\\  %\text{Distribute the negative}\\ %MM
+  \tmop{Multiplication} &  & (f \cdot g) (x) = f (x)g (x) \\ % \text{Distribute}\\ %MM
+  \tmop{Division} &  & \left( \dfrac{f}{g}\right) (x) = \dfrac{f(x)}{g(x)} \text{,~where $g(x) \neq 0$}\\  %\text{Factor \& Simplify} \\ %MM
+\end{eqnarray*}
+
+As we will see in the next few examples, when applying the specified operations, one must be careful to completely simplify, by distributing and combining like terms where it is necessary.  We will demonstrate this for each operation, highlighting the most critical steps in the process.
+%When we perform one of these operations, we can choose to evaluate each of the functions separately and then perform the operation (addition, subtraction, multiplication, or division) or  we can simply evaluate the two
+%functions at the value and then do the operation with both solutions%
+
+\begin{example}~~~Find $f+g$, where $f (x) = x^2 - x - 2$ and $g(x) = x + 1$.
+  \begin{eqnarray*}
+    (f + g)(x)~~~~~~~~~~ &  & \text{Consider the problem} \\
+		f(x) + g(x)~~~~~~~~~ &  & \text{Rewrite~as~a~sum~of~two~functions}\\
+		(x^2 - x - 2) + (x + 1) &  & \text{Substitute~functions,~inserting~parentheses}\\
+		x^2 - x - 2 + x + 1~~ &  & \text{Simplify;~remove~the~parentheses}\\
+		x^2 - x + x -2 + 1~~ &  & \text{Combine like terms}\\
+    (f + g)(x)=x^2 - 1~~~~~~~~~~ &  & \text{Our solution}\\
+    ~~~~~~~~~~=(x-1)(x+1) &  & \text{Our solution in factored form}
+  \end{eqnarray*}
+\end{example}
+	
+We include the factored form of $f+g$ in the previous example to reinforce the methods of factorization learned in an earlier chapter.  Generally, either form (expanded or factored) would be considered acceptable.\pp
+Although the parentheses are not entirely necessary in our first example, we have included them nevertheless, to reinforce that each operation is applied to an \textit{entire} function or expression.  This will become more apparent in our next example (subtraction), when we will need to distribute a negative sign.
+	
+\begin{example}~~~Find $g-f$, where $f(x) = x^2 - x - 2$ and $g(x) = x + 1$.
+  \begin{eqnarray*}
+    (g - f)(x)~~~~~~~~~~ &  & \text{Consider the problem} \\
+		g(x) - f(x)~~~~~~~~~ &  & \text{Rewrite~as~a~difference~of~two~functions}\\
+		(x + 1)-(x^2 - x - 2)  &  & \text{Substitute~functions,~inserting~parentheses}\\
+		x + 1 -x^2 + x + 2~~   &  & \text{Simplify;~distribute~the~negative~sign}\\
+		-x^2 + x + x +1 + 2~~ &  & \text{Combine like terms}\\
+(g - f)(x)=-x^2 +2x +3~~~ &  & \text{Our solution}\\
+    ~~~~~~~~~~=-(x-3)(x+1)&  & \text{Our solution in factored form}
+ \end{eqnarray*}
+\end{example}
+	
+\begin{example}~~~Find $(h \cdot k)(x)$, where $h(x) = 3x^2 - 4x$ and $k(x) = x - 2$.
+ \begin{eqnarray*}
+    (h \cdot k)(x)~~~~~~~~~~ &  & \text{Consider the problem} \\
+		h(x)\cdot k(x)~~~~~~~~~ &  & \text{Rewrite~as~a~product~of~two~functions}\\
+    (3x^2 - 4x)(x - 2)~~  &  & \text{Substitute~functions,~inserting~parentheses}\\
+		%(3x^2)(x) + (3x^2)(-2) + (-4x)(x)+ (-4x)(-2)  &  & \text{Expand~by~distributing}\\
+		3x^3  -6x^2 -4x^2 +8x &  & \text{Expand~by~distributing}\\
+		3x^3  -10x^2 + 8x~~~ &  & \text{Combine like terms}\\
+    (h \cdot k)(x)=3x^3  -10x^2 + 8x &  & \text{Our solution}\\
+    ~~~~~~=x(3x-4)(x-2)&  & \text{Our solution in factored form}
+\end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Find $\left(\dfrac{g}{f}\right)(x)$, where $f(x) = x^2 - x - 2$ and $g(x) = x + 1$.
+ \begin{eqnarray*}
+    \left(\dfrac{g}{f}\right)(x)~~~~~~~~ &  & \text{Consider the problem} \\
+		\dfrac{g(x)}{f(x)}~~~~~~~~~ &  & \text{Rewrite~as~a~quotient~of~two~functions}\\
+    \dfrac{x + 1}{x^2 - x - 2}~~~~~  &  & \text{Substitute~functions,~parentheses~unnecessary}
+\end{eqnarray*}
+ \begin{eqnarray*}
+  	 \dfrac{x+1}{(x+1)(x-2)}~~~&  & \text{Factor (if possible)}\\
+  & & \\ 
+		x \neq -1 ~~\text{~and~}~~ x \neq 2 &  & \text{Restrict~denominator:~}g(x)\neq 0\\
+  & & \\ 
+	\dfrac{\cancel{x + 1}}{\cancel{(x+1)}(x-2)}~~~  & & \text{Simplify: reduce $\dfrac{x+1}{x+1}$}\\
+	\left(\dfrac{g}{f}\right)(x)=\dfrac{1}{x-2}, ~~ x \neq -1  & & \text{Our solution with added restriction}
+	\end{eqnarray*}
+\end{example}
+		
+The previous example presents us with a new precautionary measure that we must be careful not to overlook.  This has to do with the simplification of $g/f$ and the requirement that we include the necessary restriction of $x\neq -1$.  Although the \textit{domain} of the resulting quotient is still $x\neq -1,2$, we have included $x\neq -1$ as part of our final answer, since the simplified expression allows us to easily determine that $x$ cannot equal 2, but fails to carry through the additional restriction.\pp
+In general, whenever we simplify any function, we must be careful to insure that the domain of the resulting expression will be in agreement with the initial \textit{unsimplified} expression.  In the chapter on rational functions, we will see the graphical consequence that arises when the restriction $x\neq -1$ is overlooked.\pp
+ 
+Thus far, we have sought to create new functions by combining two functions $f$ and $g$ accordingly, keeping the variable $x$ in place throughout.  We could, however, just as easily evaluate the functions $f+g$, $f-g$, $f\cdot g$, and $f/g$ at certain values of $x$.  We do this in our next example.
+\begin{example}~~~Find $(h \cdot k) (5)$, where $h (x) = 2 x - 4$ and $k (x) = - 3 x + 1$.
+  \begin{eqnarray*}
+    h (x) = 2 x - 4 \text{~and~} k (x) = - 3 x + 1  &  & \tmop{Evaluate~each~function~at~} 5\\
+    &  & \\
+    h (5) = ~2 (5) - 4~=6~~~~ &  & \tmop{Evaluate~} h \tmop{~at~} 5\\
+    %h (5) = 10 - 4 &  & \\
+   %  = 6~~~~ &  & \\
+    &  & \\
+    k (5) = - 3 (5) + 1=-14 &  & \tmop{Evaluate~} k \tmop{~at~} 5\\
+    %k (5) = - 15 + 1 &  & \\
+   %  = - 14~~~~ &  & \\
+    &  & \\
+		(h \cdot k) (5)=\left(h (5)\right)\cdot\left(k (5)\right) &  & \tmop{Multiply~the~two~results}\\
+    =(6) (- 14)~~~~~~ &  & \\
+    =- 84~~~~~~~~~~~~ &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+The clear advantage to this process is that the simplification can be substantially easier when the variable has been replaced with a constant.  One major disadvantage, however, is that our end result represents only a single value, instead of an entire function.  Particularly in situations where the resulting function is not demanded, students will likely find it more efficient to use this approach when evaluating $f+g$, $f-g$, $f\cdot g$ and $f/g$ at a specified value.

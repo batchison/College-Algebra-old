@@ -1,0 +1,286 @@
+\subsection{Polynomial Division}\pp
+
+{\tmstrong{Objective: Divide polynomials using long division.}}\pp
+
+Dividing polynomials is a process very similar to long division of whole
+numbers. But before we look at that, we will first want to be able to master
+dividing a polynomial by a monomial. The way we do this is very similar to
+distributing, but the operation we distribute is the division, dividing each
+term by the monomial and reducing the resulting expression. This is shown in
+the following examples.
+
+\begin{example}~~~Divide and simplify the given expression.
+  \begin{eqnarray*}
+    \frac{9 x^5 + 6 x^4 - 18 x^3 - 24 x^2}{3 x^2} &  & \tmop{Divide}
+    \tmop{each} \tmop{term} \tmop{in} \tmop{the} \tmop{numerator} \tmop{by} 3
+    x^2\\
+    &  & \\
+    \frac{9 x^5}{3 x^2} + \frac{6 x^4}{3 x^2} - \frac{18 x^3}{3 x^2} -
+    \frac{24 x^2}{3 x^2} &  & \tmop{Reduce} \tmop{each} \tmop{fraction},
+    \tmop{~subtracting} \tmop{exponents}\\
+    &  & \\
+    3 x^3 + 2 x^2 - 6 x - 8 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Divide and simplify the given expression.
+  \begin{eqnarray*}
+    \frac{8 x^3 + 4 x^2 - 2 x + 6}{4 x^2} &  & \tmop{Divide} \tmop{each}
+    \tmop{term} \tmop{in} \tmop{the} \tmop{numerator} \tmop{by} 4 x^2\\
+    &  & \\
+    \frac{8 x^3}{4 x^2} + \frac{4 x^2}{4 x^2} - \frac{2 x}{4 x^2} + \frac{6}{4
+    x^2} &  & \tmop{Reduce} \tmop{each} \tmop{fraction}, \tmop{subtracting}
+    \tmop{exponents}
+	\end{eqnarray*}
+	Remember that negative exponents are moved to a denominator, $x^{-n}=\dfrac{1}{x^n}$.
+	\begin{eqnarray*}
+    2 x + 1 - \frac{1}{2 x} + \frac{3}{2 x^2} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+
+The previous example illustrates that sometimes a division of polynomials will not produce a polynomial, but will contain fractions (also known as \textit{rational expressions}).  It is important that we remember to correctly reduce such expressions.\pp
+
+Additionally, another interesting aspect of the previous example is the reduction of the second term $\frac{4 x^2}{4 x^2}$. Remember that this ratio reduces to 1, and not
+0.\pp
+
+Unlike the previous examples, long division is required when we divide a polynomial by more than just a single term.
+
+Long division with polynomials works very similar to long division involving whole
+numbers and it can be employed for a divisor having any degree. 
+
+For clarity, an example with whole numbers is provided in order to review the (general) steps that will also be used for polynomial long division.
+
+\begin{example}~~~Divide 631 by 4.
+  \begin{eqnarray*}
+    ~~4~\overline{)~6~3~1} &  & \tmop{Divide~} 6 \text{~by~} 4:~6/4 = 1 \ldots\\
+    \tmmathbf{1}~~~~~  &  & \\
+    ~~4~\overline{)~6~3~1} &  & \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by}
+    \tmop{divisor} : 1 \cdot 4 = 4\\
+    \tmmathbf{\underline{- 4}}~~~~~ &  & \text{Subtract~} 4 \text{~from~} 6\\
+    \tmmathbf{2~3}~~  &  & \tmop{Move~} 3 \text{~down}%\\
+  \end{eqnarray*}
+	\begin{eqnarray*}
+    1 ~\tmmathbf{5}~~  &  & \tmop{Repeat}, \tmop{~divide~} 23 \text{~by~} 4 : 23/4 = 5 \ldots\\
+    ~~4~\overline{)~6~3~1} &  & \\
+    \underline{- 4}~~~~~&  & \\
+    23~~~~ &  & \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by} \tmop{divisor}
+    : 5 \cdot 4 = 20\\
+    \tmmathbf{\underline{- 20}}~~~ &  & \text{Subtract~} 20 \text{~from~} 23\\
+    \tmmathbf{3~1} &  & \text{Move~} 1 \text{~down}%\\
+    %&  & \\
+  \end{eqnarray*}
+	\begin{eqnarray*}
+    1~5 ~\tmmathbf{7}  &  & \tmop{Repeat}, \tmop{~divide~} 31 \text{~by~} 4 : 31/4 = 7 \ldots\\
+    ~~4~\overline{)~6~3~1} &  & \\
+    \underline{- 4}~~~~~&  & \\
+    23~~~ &  & \\
+    \underline{- 20}~~~ &  & \\
+    31~ &  & \tmop{Multiply} \tmop{this} \tmop{number} \tmop{by} \tmop{divisor}
+    : 7 \cdot 4 = 28\\
+    \tmmathbf{\underline{- 28}}~ &  & \text{Subtract~} 28 \text{~from~} 31\\
+    \tmmathbf{3}~ &  & \text{Our~remainder}\\
+		& & \\
+	  157 ~\frac{3}{4} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+Note in the previous example that we write our remainder as a fraction, next to the quotient of 157, since it is technically still being divided by the divisor of 4.  This same idea will be employed for remainders when dividing polynomials.\pp
+
+One way of summarizing our result is as follows.
+$$\frac{631}{4}~=~157~+~\frac{3}{4}$$ 
+$$\frac{\text{dividend}}{\text{divisor}}~=~\text{quotient~}+~\frac{\text{remainder}}{\text{divisor}}$$
+~\pp
+Just like dividing numbers, this same process will be used to divide polynomials. The only difference is we will replace the word ``number'' with ``term'' throughout the process.
+
+\begin{center}
+{\tmstrong{Dividing Polynomials}}
+\end{center}
+\begin{enumerate}
+  \setcounter{enumi}{0}
+
+  \item Divide the leading term by the leading term of the divisor. 
+		
+  \item Multiply the resulting term by the divisor.
+  
+  \item Subtract the terms carefully with the bottom terms, making sure to change signs.
+  
+  \item Bring down the next term.
+  
+  \item Repeat steps (1)-(4) until the degree of the remainder is \textit{less than} the degree of the divisor.
+  
+\end{enumerate}
+Step (3) above often tends to pose the greatest challenge for students.  It is important to keep in mind that we are are always subtracting the top term from the bottom term, which is why we must change the signs of the term(s) on the bottom.  In most cases, we will need to utilize the distributive property.  We now present an example of the subtraction step.
+
+\newpage
+
+\begin{example}~~~Subtract $-12x^2+7x$ from $4x^2-12x$. 
+ \begin{eqnarray*}
+    14x^2 -12x &  & \tmop{Line~up~like~terms} \\
+   \underline{-(-12x^2 +7x)}&  & \tmop{Subtract,~making~sure~to~distribute~the~negative}\\
+	\end{eqnarray*}
+This is equivalent to the following.
+\begin{eqnarray*}
+	14x^2 -12x &  &  \\
+    \underline{+12x^2~ -~7x}  &  & \text{Combine~like~terms}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \\
+		26x^2 - 19x & & \text{Our~solution}
+	\end{eqnarray*}
+\end{example}
+
+{\tmstrong{World View Note:}} Paolo Ruffini was an Italian Mathematician of
+the early 19$^{\text{th}}$ century. In 1809 he was the first to describe a process called
+synthetic division which we will later see can be used to as an alternative to polynomial long division.\pp
+
+We are now ready for our first example of polynomial long division.
+\begin{example}~~~Divide and simplify the given expression.
+  \begin{eqnarray*}
+    \frac{3 x^3 - 5 x^2 - 32 x + 7}{x - 4} &  & \tmop{Rewrite} \tmop{problem}
+    \tmop{in} \tmop{long} \tmop{division~format}\\
+    &  & \\
+    x - 4~\overline{)~3 x^3 - 5 x^2 - 32 x + 7} &  & \tmop{Divide} \tmop{leading}
+    \tmop{term~by} x: \frac{3 x^3}{x} = 3 x^2\\
+    &  & \\
+    \tmmathbf{3 x^2}~~~~~~~~~~~~~~~~~~~~~  &  & \\
+    x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} &  & \tmop{Multiply~by~the~} \tmop{divisor} : 3 x^2 (x - 4) = 3 x^3 -
+    12 x^2\\
+    \underline{\tmmathbf{- 3 x^3 + 12 x^2 } }~~~~~~~~~~~ &  & \tmop{Subtract,~changing~signs}\\
+    \tmmathbf{7 x^2 - 32 x}~~~~  &  & \tmop{Bring} \tmop{down} \tmop{the}
+    \tmop{next} \tmop{term,~}-32x
+\end{eqnarray*}
+\newpage
+ \begin{eqnarray*}
+		3 x^2 + \tmmathbf{7 x}~~~~~~~~~~~~~~  &  & \tmop{Repeat}, \tmop{divide} \tmop{new~leading~}
+    \tmop{term~by~} x: \frac{7 x^2}{x} = 7 x\\
+    x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7} &  & \\
+    \underline{- 3 x^3 + 12 x^2 }~~~~~~~~~~~~ &  & \\
+    7 x^2 - 32 x~~~~~ &  & \tmop{Multiply~by~the~divisor} : 7 x (x - 4) = 7 x^2 - 28 x\\
+    \underline{\tmmathbf{- 7 x^2 + 28 x}}~~~~  &  & \tmop{Subtract,~changing~signs}\\
+    \tmmathbf{- 4 x + 7} &  & \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
+    \tmop{term},~7
+\end{eqnarray*}
+ \begin{eqnarray*}
+    3 x^2 + 7 x \tmmathbf{- 4}~~~~~~~~~~~~~  &  & \tmop{Repeat}, \tmop{divide} \tmop{new~leading~term~by~} x: \frac{- 4 x}{x} = - 4\\
+    x - 4~ \overline{)~3 x^3 - 5 x^2 - 32 x + 7}~~~ &  & \\
+    \underline{- 3 x^3 + 12 x^2 }~~~~~~~~~~~~~~~ &  & \\
+    7 x^2 - 32 x~~~~~~~~ &  & \\
+    \underline{- 7 x^2 + 28 x}~~~~~~~~ &  & \\
+    - 4 x + 7~~~ &  & \tmop{Multiply} \tmop{by~the}
+    \tmop{divisor} : - 4 (x - 4) = - 4 x + 16\\
+    \tmmathbf{\underline{+ 4 x - 16}} &  & \text{Subtract,~changing~signs}\\
+    \tmmathbf{- 9}~~ &  & \tmop{Our~remainder}\\
+    &  & \\
+    3 x^2 + 7 x - 4 - \frac{9}{x - 4} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+Remember that since our final remainder of -9 has a degree of zero, which is less than the degree of our divisor, $x-4$, we know from step (4) that our division is complete.\pp
+If we chose to follow the same format as was earlier described, one could write the result of the previous example as follows.
+$$\frac{3x^3-5x^2-32x+7}{x-4}~=~3x^2+7x-4~+~\frac{-9}{x-4}$$ 
+$$\frac{\text{dividend}}{\text{divisor}}~=~\text{quotient~}+~\frac{\text{remainder}}{\text{divisor}}$$
+\newpage
+We continue with another example.
+
+\begin{example}~~~Divide and simplify the given expression.
+  \begin{eqnarray*}
+    \frac{6 x^3 - 8 x^2 + 10 x + 103}{2 x + 4} &  & \tmop{Rewrite}
+    \tmop{problem} \tmop{in~long} \tmop{division~format}\\
+    &  & \\
+    2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} &  & \tmop{Divide}
+    \tmop{leading} \tmop{term~by~} 2x: \frac{6 x^3}{2 x} = 3 x^2\\
+    &  & \\
+    \tmmathbf{3 x^2}~~~~~~~~~~~~~~~~~~~~~~~~  &  & \\
+    2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103} &  & \tmop{Multiply}
+    \tmop{term} \tmop{by} \tmop{divisor} : 3 x^2 (2 x + 4) = 6 x^3 + 12 x^2\\
+    \underline{\tmmathbf{- 6 x^3 - 12 x^2 }}~~~~~~~~~~~~~~  &  & \tmop{Subtract,~changing~signs}\\
+    \tmmathbf{- 20 x^2 + 10 x}~~~~~ &  & \tmop{Bring} \tmop{down} \tmop{the}
+    \tmop{next} \tmop{term},~10x
+  \end{eqnarray*}
+	\begin{eqnarray*}
+		3 x^2 \tmmathbf{- 10 x}~~~~~~~~~~~~~~~~~~~~  &  & \\
+    2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103}~~~ &  & \tmop{Repeat},
+    \tmop{divide} \tmop{new~leading~term~by~} 2x: \frac{- 20 x^2}{2 x} = - 10 x\\
+    \underline{- 6 x^3 - 12 x^2 }~~~~~~~~~~~~~~~~~~~  &  & \tmop{Multiply} \tmop{this}
+    \tmop{term} \tmop{by} \tmop{divisor} :- 10 x (2 x + 4) = - 20 x^2 - 40 x\\
+    - 20 x^2 + 10 x~~~~~~~~~~ &  & \\
+    \tmmathbf{\underline{+ 20 x^2 + 40 x}}~~~~~~~~~ &  & \tmop{Subtract,~changing~signs}\\
+    \tmmathbf{50 x + 103} &  & \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
+    \tmop{term},~103
+  \end{eqnarray*}
+	\begin{eqnarray*}
+    3 x^2 - 10 x \tmmathbf{+ 25}~~~~~~~~~~~~~  &  & \\
+    2 x + 4~ \overline{)~6 x^3 - 8 x^2 + 10 x + 103}~~~ &  & \tmop{Repeat},
+    \tmop{divide} \tmop{new~leading~term~by~} 2x: \frac{50 x}{2 x} = 25\\
+    \underline{- 6 x^3 - 12 x^2 }~~~~~~~~~~~~~~~~~~  &  & \\
+    - 20 x^2 + 10 x~~~~~~~~~~ &  & \\
+    \underline{+ 20 x^2 + 40 x}~~~~~~~~~~ &  & \\
+    50 x + 103~ &  & \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by}
+    \tmop{divisor} : 25 (2 x + 4) = 50 x + 100\\
+    \tmmathbf{\underline{- 50 x - 100}} &  & \tmop{Subtract,~changing~signs}\\
+    3 &  &\text{Our~remainder}\\
+    &  & \\
+    3 x^2 - 10 x + 25 + \frac{3}{2 x + 4} &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+\newpage
+Again, we can summarize the last example by
+$$\frac{6 x^3 - 8 x^2 + 10 x + 103}{2x+4}~=~3 x^2 - 10 x + 25 + \frac{3}{2 x + 4}$$ 
+$$\frac{\text{dividend}}{\text{divisor}}~=~\text{quotient~}+~\frac{\text{remainder}}{\text{divisor}}$$
+~\pp
+
+In both of the previous examples the terms in the dividend had decreasing exponents, all of which included a nonzero coefficient.  In other words, no term was skipped over, from the leading term (a cubic, degree of 3) down to the constant term, $a_0=a_0x^0$.\pp
+
+In polynomial long division, it is essential that both the dividend and divisor are written in what is commonly referred to as \textit{descending power order}, in which no exponent is overlooked or omitted. If a polynomial is not given in descending power order, we must make certain to rewrite it correctly before beginning our long division.\pp
+Additionally, any polynomial that appears to skip one (or more) term(s) should be rewritten, with the missing term(s) in place, accompanied by zero for the coefficient. The inclusion of such a term is known as a \textit{placeholder} for the polynomial, and is incredibly important for a successful long division.\pp
+Our last example demonstrates the importance of these preliminary steps.
+\begin{example}~~~Divide and simplify the given expression.
+  \begin{eqnarray*}
+    \frac{2 x^4 + 42x - 4 x^2}{x^2 + 3x} &  & \tmop{Reorder} \tmop{dividend};~
+    \tmop{need} x^3 \tmop{term}, \tmop{add} 0 x^3
+	\end{eqnarray*}
+\newpage
+  \begin{eqnarray*}
+    x^2 + 3x~ \overline{)~2 x^4 + \tmmathbf{0 x^3} - 4 x^2 + 42x} &  & \tmop{Divide} \tmop{the}
+    \tmop{front} \tmop{terms} : \frac{2 x^4}{x^2} = 2 x^2
+	\end{eqnarray*}
+	\begin{eqnarray*}
+    \tmmathbf{2 x^2}~~~~~~~~~~~~~~~~~~~~~~~~  &  & \\
+    x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x} &  & \tmop{Multiply}
+    \tmop{this} \tmop{term} \tmop{by} \tmop{divisor} : 2 x^2 (x^2 + 3x) = 2 x^4 +
+    6 x^3\\
+    \underline{\tmmathbf{- 2 x^4 - 6 x^3} }~~~~~~~~~~~~~~~~ &  & \tmop{Subtract,~changing~terms}\\
+    \tmmathbf{- 6 x^3 - 4 x^2}~~~~~~~  &  & \tmop{Bring} \tmop{down} \tmop{the}
+    \tmop{next} \tmop{term,~}-4x^2
+   \end{eqnarray*}
+  \begin{eqnarray*}
+	  2 x^2 \tmmathbf{- 6 x}~~~~~~~~~~~~~~~~~~~~~  &  & \\
+    x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x}~~~ &  & \tmop{Repeat,}
+    \tmop{divide} \tmop{new~leading~term~by~}x^2 : \frac{- 6 x^3}{x^2} = - 6 x\\
+    \underline{- 2 x^4 - 6 x^3 }~~~~~~~~~~~~~~~~~~~ &  & \\
+    - 6 x^3 - 4 x^2~~~~~~~~~~~ &  & \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by}
+    \tmop{divisor} : - 6 x (x^2 + 3x) = - 6 x^3 - 18 x^2\\
+    \underline{\tmmathbf{+ 6 x^3 + 18 x^2} }~~~~~~~~~  &  & \tmop{Subtract,~changing~signs}\\
+    \tmmathbf{14 x^2 + 42x} &  & \tmop{Bring} \tmop{down} \tmop{the} \tmop{next}
+    \tmop{term,} 42x
+		\end{eqnarray*}
+  \begin{eqnarray*}
+    2 x^2 - 6 x ~\tmmathbf{+14}~~~~~~~~~~~~~~  &  & \\
+    x^2 + 3x~ \overline{)~2 x^4 + 0 x^3 - 4 x^2 + 42x}~~~ &  & \tmop{Repeat},
+    \tmop{divide} \tmop{new~leading~term~by~} x^2: \frac{14 x^2}{x^2} = 14\\
+    \underline{- 2 x^4 - 6 x^3 }~~~~~~~~~~~~~~~~~~~ &  & \\
+    - 6 x^3 - 4 x^2~~~~~~~~~~~ &  & \\
+    \underline{+ 6 x^3 + 18 x^2}~~~~~~~~~~  &  & \\
+    14 x^2 + 42x~ &  & \tmop{Multiply} \tmop{this} \tmop{term} \tmop{by} \tmop{the}
+    \tmop{divisor} : 14 (x^2 + 3x) = 14 x^2 + 42x\\
+    \tmmathbf{\underline{- 14 x^2 - 42x}} &  & \tmop{Subtract,~changing~signs}\\
+    0~~~ &  & \tmop{No} \tmop{remainder}\\
+    &  & \\
+    2 x^2 - 6 x + 14 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+So we have,
+$$\frac{2 x^4 - 4 x^2 + 42x}{x^2+3x}~=~2 x^2 - 6 x + 14$$ 
+
+It is important to take a moment to check each problem, to verify that the
+exponents decrease incrementally and that none are skipped. 
+
+This final example also illustrates that, just as with classic numerical long
+division, sometimes our remainder will be zero.

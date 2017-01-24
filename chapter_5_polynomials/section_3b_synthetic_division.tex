@@ -1,0 +1,228 @@
+\subsection{Synthetic Division}\pp
+
+{\tmstrong{Objective: Perform synthetic division only when dividing by a linear term.}}\pp %MM edits
+
+Next, we will introduce a method of division that can be used to streamline the polynomial division process and is often preferred over the more traditional long division method.  This method, known as \textit{synthetic division}, although quick, is only useful when the divisor is linear.  Specifically, we will require our divisor to be of the form $x-c$.\pp
+For our first example, we will divide $x^3+4x^2-5x-14$ by $x-2$, which one can check will produce a quotient of $x^2+6x+7$ and a remainder of zero using polynomial long division.
+$$\frac{x^3+4x^2-5x-14}{x-2}~=~x^2+6x+7$$
+The method of synthetic division focuses primarily on the coefficients of both the divisor and dividend.  We must still pay careful attention, however, to the powers of our exponents, which will serve as placeholders throughout the process.
+To start the process, we will write our coefficients in what we will refer to as a \index{polynomial division ! synthetic division}\index{synthetic division tableau}\textbf{synthetic division tableau} prior to dividing.\pp  
+To divide $x^3+4x^2-5x-14$ by $x-2$, we first write $2$ in the place of the divisor since $2$ is zero of the factor $x-2$ and we write the coefficients of $x^3+4x^2-5x-14$ in for the dividend.  As our next step, we `bring down' the first coefficient of the dividend.
+We will then multiply and add repeatedly, as demonstrated below.
+
+\bigskip
+
+\begin{center}
+
+\begin{tabular}{cc}
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+  &  &    &    &  \\ \hhline{~----} 
+  &   &     &   &    \\  
+\end{array}$  \hspace{1in}
+&
+
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow &    &    &  \\ \hhline{~----} 
+  & 1  &     &   &    \\  
+\end{array}$ \\
+
+\end{tabular}
+
+\end{center}
+
+\bigskip
+
+\newpage
+
+Next, take the $2$ from the divisor and multiply by the $1$ that was brought down to get $2$.  Write this underneath the $4$, then add to get $6$.
+
+\bigskip
+
+\begin{center}
+
+\begin{tabular}{cc}
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow  &  2  &    &  \\ \hhline{~----} 
+  & 1  &     &   &    \\  
+\end{array}$ \hspace{1in}
+&
+
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow &  2  &    &  \\ \hhline{~----} 
+  & 1  &   6  &   &    \\  
+\end{array}$ \\
+
+
+\end{tabular}
+
+\end{center}
+
+\bigskip
+
+Now multiply the $2$ from the divisor by the $6$ to get $12$, and add it to the $-5$ to get $7$.
+
+\bigskip
+
+\begin{center}
+
+\begin{tabular}{cc}
+
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow &  2  &  12  &  \\ \hhline{~----} 
+  & 1  &   6  &   &    \\  
+\end{array}$ \hspace{1in}
+
+&
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow &  2  &  12  &  \\ \hhline{~----} 
+  & 1  &   6  & 7  &    \\  
+\end{array}$ \\
+
+
+\end{tabular}
+
+\end{center}
+
+
+Finally, multiply the $2$ in the divisor by the $7$ to get $14$, and add it to the $-14$ to get $0$.
+
+\bigskip
+
+\begin{center}
+
+\begin{tabular}{cc}
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow &  2  &  12  & 14 \\ \hhline{~----} 
+  & 1  &   6  & 7  &    \\  
+\end{array}$ \hspace{1in} 
+
+&
+
+$ \begin{array}{rrrrr}
+
+
+  2 \, \, \vline& 1 & 4 & -5  & -14 \\
+
+   & \downarrow &  2  &  12  & 14 \\ \hhline{~----} 
+  & 1  &   6  & 7  &  \fbox{$0$}  \\  
+\end{array}$ \\
+
+
+
+\end{tabular}
+
+\end{center}
+
+The first three numbers in the last row of our tableau will be the coefficients of the desired quotient polynomial.  Remember, we started with a third degree polynomial and divided by a first degree polynomial, so the quotient will be a second degree polynomial.  Hence the quotient is $x^2+6x+7$.  The number in the box represents the remainder, which is zero in this case.\pp
+Due in large part to its speed, synthetic division is often a `tool of choice' for dividing polynomials by divisors of the form $x-c$.  It is important to reiterate that synthetic division will \emph{only} work for these kinds of divisors (linear divisors with leading coefficient 1), and we will need to use polynomial long division for divisors having degree larger than 1.\pp
+Another observation worth mentioning is that when a polynomial (of degree at least $1$) is divided by $x-c$, the result will be a quotient polynomial of exactly one less degree than the original polynomial.  This is a direct result of the divisor being a linear expression.\pp
+For a more complete understanding of the relationship between long and synthetic division, students are encouraged to trace each step in synthetic division back to its corresponding step in long division.\pp
+
+We conclude this section with three examples using synthetic division.  We will summarize each example using the form below.
+$$\frac{\text{dividend}}{\text{divisor}}~=~\text{quotient~}+~\frac{\text{remainder}}{\text{divisor}}$$
+
+\begin{example}~~~Use synthetic division to perform the following polynomial division.  Find the quotient and the remainder polynomials.
+
+$$\frac{5x^3 - 2x^2 + 1}{x-3}$$
+
+When setting up the synthetic division tableau, we need to enter $0$ for the coefficient of $x$ in the dividend as a placeholder, just like in polynomial division.  Doing so gives us the following tableau.
+
+
+\[ \begin{array}{rrrrr}
+
+
+  3 \, \, \vline& 5 & -2 & 0  & 1 \\
+
+   & \downarrow &  15  &  39  & 117 \\ \hhline{~----} 
+  & 5  &   13  & 39  &  \fbox{$118$}  \\  
+\end{array}\]
+
+Since the dividend was a third degree polynomial, the quotient is a quadratic polynomial with coefficients $5$, $13$ and $39$.  Our quotient is then\\
+$q(x) = 5x^2+13x+39$ and the remainder is $r(x) = 118$.\pp
+Putting this all together, we have the following equation.
+$$\frac{5x^3 - 2x^2 + 1}{x-3}~=~5x^2+13x+39~+~\frac{118}{x-3}$$
+\end{example}
+
+\begin{example}~~~Use synthetic division to perform the following polynomial division.  Find the quotient and the remainder polynomials.
+$$\frac{x^3+8}{x+2}$$
+
+For this division, since we have a factor of $x+2$, we must use the zero of\\
+$x = -2$ to begin.
+
+Here, we will once again stress that it is critical to take the time in order to ensure we have set the synthetic division tableau up correctly at the onset of the problem.  Failure to do so will result in an incorrect answer, as well as a considerable amount time spent re-doing the problem.
+
+\[ \begin{array}{rrrrr}
+
+
+  -2 \, \, \vline& 1 & 0 & 0  & 8 \\
+
+   & \downarrow &  -2  &  4  & -8 \\ \hhline{~----} 
+  & 1  &   -2  & 4  &  \fbox{$0$}  \\  
+\end{array}\]
+
+We then obtain a quotient of $q(x) = x^2-2x+4$ and remainder of $r(x) =0$. This gives us the following equation.
+$$\frac{x^3+8}{x+2}~=~x^2-2x+4$$
+This answer is a great reminder of the factoring rules for cubic polynomials that we outlined earlier in the chapter.
+\end{example}
+
+\begin{example}~~~Use synthetic division to perform the following polynomial division.  Find the quotient and the remainder polynomials.
+$$\dfrac{4-8x-12x^2}{2x-3}$$
+
+To divide $4-8x-12x^2$ by $2x-3$, two things must be done.  First, we write the dividend in descending powers of $x$ as $-12x^2-8x+4$.  Second, since synthetic division works only for factors of the form $x-c$, we factor $2x-3$ as $2\left(x-\frac{3}{2}\right)$.  Our strategy is to first divide $-12x^2-8x+4$ by $2$, to get $-6x^2-4x+2$.  Next, we divide by $\left(x-\frac{3}{2}\right)$.  The tableau becomes
+
+\[ \begin{array}{rrrr}
+
+
+  \frac{3}{2} \, \, \vline& -6 & -4 & 2   \\ [4pt]
+
+   & \downarrow &  -9  & -\frac{39}{2}  \\ [4pt] \hhline{~---} 
+  &  -6  &   -13  & \fbox{$-\frac{35}{2}$}  \\  
+\end{array}\]
+
+From this, we get a quotient of $q(x)=-6 x - 13$ and a remainder of\\
+$r(x)=-\frac{35}{2}$.  This gives us the following equation.
+$$\frac{-6x^2-4x+2}{\left(x-\frac{3}{2}\right)}~=~-6 x - 13 - \frac{\left(\frac{35}{2}\right)}{\left(x-\frac{3}{2}\right)}$$
+Multiplying both sides by of our equation by $\frac{2}{2}$ and distributing gives us our desired answer.
+$$\frac{-12x^2-8x+4}{2x-3}~=~-6 x - 13 - \frac{35}{2x-3}$$
+\end{example}
+Note that we could also multiply both sides of our last equation by $2x-3$ to obtain the following equation.
+$$-12x^2-8x+4 = \left(2x-3\right) (-6 x - 13) - 35$$
+While both of the forms above are certainly equivalent, the previous one may remind us of the familiar classic division algorithm for integers, shown below.
+\begin{center}
+dividend $=$ (divisor)$\cdot$(quotient) $+$ remainder
+\end{center}
+The first form, however, will be particularly useful when we graph more complicated rational functions in the next chapter.
