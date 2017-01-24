@@ -1,0 +1,222 @@
+{\tmstrong{Objective: Solve and give interval notation for the solution to a quadratic inequality.  Create a sign diagram to identify those intervals where a quadratic expression is positive or negative.}}\pp
+
+%\subsection{Quadratic Inequalities}
+
+Recall that the \textit{vertex form} for a quadratic equation is $y=a(x-h)^2+k,$ where $a\neq 0$ and ($h,k$) represents the \textit{vertex} of the corresponding graph, called a \textit{parabola}.  If $a>0$, then the parabola opens upward, and if $a<0$, then the parabola opens downward.  With any quadratic equation, we have seen that there are three possibilities for the number of \textit{zeros} or \textit{roots} of the equation ($0,1,$ or $2$).  Assuming $a>0$, we illustrate these possibilities in the graphs below.
+
+\begin{center}
+\begin{mfpic}[17]{-10}{10}{-5}{5}
+\arrow\reverse\arrow\function{-9.3,-6.7,0.1}{(x+8)**2+1}
+\arrow\reverse\arrow\function{-0.65,2.65,0.1}{(x-1)**2}
+\arrow\reverse\arrow\function{5.25,8.75,0.1}{(x-6)*(x-8)}
+%\xmarks{-9,-8,-7,-6,-5,-2,-1,0,1,2,5,6,7,8,9}
+%\ymarks{-2,-1,0,1,2,3,4}
+\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-10,0),(-4,0)}
+\arrow\reverse\arrow\polyline{(-3,0),(3,0)}
+\arrow\reverse\arrow\polyline{(4,0),(10,0)}
+\arrow\reverse\arrow\polyline{(-7,-1.5),(-7,3)}
+\arrow\reverse\arrow\polyline{(0,-1.5),(0,3)}
+\arrow\reverse\arrow\polyline{(7,-1.5),(7,3)}
+\point[2.3pt]{(1,0),(6,0),(8,0)}
+\end{mfpic}
+\end{center}
+
+Notice also that each of these three graphs lie above the $x$-axis over different intervals.  In the case of the parabola on the left, the entire graph lies above the $x$-axis, whereas the middle parabola lies above the $x$-axis everywhere \textit{except} at its $x$-intercept (where $y=0$).  Even more interesting is the parabola on the right, which contains two \textit{separate} intervals where its graph lies above the $x$-axis.
+\pp
+Considering the case where $a<0$, we see three similar graphs as those appearing above, with the only major difference being the opening of each parabola downward instead of upward (when $a>0$).  When we consider again those intervals where each graph lies above the $x$-axis, each parabola below exhibits a different behavior than those where $a>0$. 
+
+\begin{center}
+\begin{mfpic}[17]{-10}{10}{-5}{5}
+\arrow\reverse\arrow\function{-9.3,-6.7,0.1}{(-1*(x+8)*(x+8))-1}
+\arrow\reverse\arrow\function{-0.65,2.65,0.1}{-1*(x-1)*(x-1)}
+\arrow\reverse\arrow\function{5.25,8.75,0.1}{-1*(x-6)*(x-8)}
+%\xmarks{-9,-8,-7,-6,-5,-2,-1,0,1,2,5,6,7,8,9}
+%\ymarks{-2,-1,0,1,2,3,4}
+\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-10,0),(-4,0)}
+\arrow\reverse\arrow\polyline{(-3,0),(3,0)}
+\arrow\reverse\arrow\polyline{(4,0),(10,0)}
+\arrow\reverse\arrow\polyline{(-7,-3),(-7,1.5)}
+\arrow\reverse\arrow\polyline{(0,-3),(0,1.5)}
+\arrow\reverse\arrow\polyline{(7,-3),(7,1.5)}
+\point[2.3pt]{(1,0),(6,0),(8,0)}
+\end{mfpic}
+\end{center}
+
+Now, each of the first two graphs have no points that lie above the $x$-axis, whereas the last graph, on the right, lies above the $x$-axis over the interval that is between its $x$-intercepts.
+\pp
+Each of these six graphs above exhibit all of the various possibilities for the \textit{sign} of a quadratic expression $ax^2+bx+c$, where $a\neq 0$.  As was the case with linears in the previous chapter, we can determine the general shape of the graph of a quadratic equation (or function) through identification of its zeros and construction of a sign diagram.  As a consequence, we will also see the care that must be taken when asked to solve a quadratic inequality.
+\pp
+Let us begin with what should be a familiar example, $y=x^2-1$, which we can recall has a factorization of $y=(x+1)(x-1)$.
+\pp
+\begin{example}
+Solve the quadratic inequality $x^2-1< 0$.
+\end{example}
+\pp
+As has often been the case, our first instinct is to add $1$ to both sides of the given inequality, obtaining $x^2< 1$.  Our next guess is most likely to take a square root of both sides of the given inequality.  Here, however, is where we encounter a common ``pitfall'', which begs the question: how does one handle radicals and inequalities?
+\pp
+The answer is that unlike with solving linear inequalities, one should not attempt to solve for the variable $x$, but rather set the given inequality equal to zero and attempt to \textit{factor} the resulting expression on the other side.  In doing this, we obtain $(x+1)(x-1)<0$.  Recalling that $x=\pm1$ are zeros of the given expression, we can therefore rule them out of our solution.  Next, we will \textit{test} the expression on the left by plugging in three values for $x$:\\(i) $x<-1$, (ii) $-1<x<1$, and (iii) $x>1$.
+\pp
+\begin{center}
+\begin{tabular}{ccccc}
+\underline{Case} & \underline{Test Value} & \underline{Unsimplified} & \underline{Simplified} & \underline{Result}\\
+i & $x=-2$ & ($-2+1$)($-2-1$) & ($-$)$\cdot$($-$) & ($+$)\\
+ii & $x=0$ & ($0+1$)($0-1$) & ($+$)$\cdot$($-$) & ($-$)\\
+iii & $x=2$ & ($2+1$)($2-1$) & ($+$)$\cdot$($+$) & ($+$)
+\end{tabular}
+\end{center}
+Our end result can be summarized in the following \textit{sign diagram}.
+
+\begin{center}
+\begin{mfpic}[15]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,3}
+\tlpointsep{4pt}
+\axislabels {x}{{$-1$} -3,{$1$} 3}
+\tlabel[cc](-6,1){$(+)$}
+\tlabel[cc](-6,-1.5){$x=-2$}
+\tlabel[cc](0,1){$(-)$}
+\tlabel[cc](0,-1.5){$x=0$}
+\tlabel[cc](6,1){$(+)$}
+\tlabel[cc](6,-1.55){$x=2$}
+\polyline{(-3,0.5),(-3,2)}
+\polyline{(3,0.5),(3,2)}
+\end{mfpic} 
+\end{center}
+From our sign diagram, we can conclude that $x^2-1<0$ when $-1<x<1$, or using interval notation, ($-1,1$).
+\pp
+\begin{example}
+Solve the inequality $x^2\geq 1$.
+\end{example}
+Here, we need only subtract $-1$ from both sides of the inequality, to obtain $x^2-1\geq 0$.  After factoring the left-hand side, We may then use the sign diagram from our previous example.  Our solution set will be the \textit{union} of two intervals, $(-\infty,-1]\cup[1,\infty)$.
+\pp
+\begin{example}
+Solve the inequality $-(x-1)^2+9\geq 0$.
+\end{example}
+Notice that the left-hand side of our inequality is in vertex form.  So we will draw upon our knowledge of the graph of $y=-(x-1)^2+9$ later on to confirm our answer.
+\pp
+We start by expanding the left-hand side to obtain $$-(x^2-2x+1)+9\geq 0,$$ which reduces to $$-x^2+2x+8\geq 0.$$  After factoring, we obtain $$-(x+2)(x-4)\geq 0.$$  Since both $x=-2$ and $x=4$ are zeros of the left-hand side, for our sign diagram, we will therefore test $x=-3$, $x=0$, and $x=5$.  It is important to not overlook the negative sign that appears in front of our inequality when testing our values.  Our results are shown below.
+
+\begin{center}
+\begin{mfpic}[15]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,3}
+\tlpointsep{4pt}
+\axislabels {x}{{$-2$} -3,{$4$} 3}
+\tlabel[cc](-6,1){$(-)$}
+\tlabel[cc](-6,-1.5){$x=-3$}
+\tlabel[cc](0,1){$(+)$}
+\tlabel[cc](0,-1.5){$x=0$}
+\tlabel[cc](6,1){$(-)$}
+\tlabel[cc](6,-1.55){$x=5$}
+\polyline{(-3,0.5),(-3,2)}
+\polyline{(3,0.5),(3,2)}
+\end{mfpic} 
+\end{center}
+
+From our sign diagram, we can determine that 
+\begin{center}
+$-(x-1)^2+9\geq 0$ when $-2\leq x\leq 4$.
+\end{center}
+Again, the vertex form $y=-(x-1)^2+9$ confirms this, since the corresponding parabola will have a vertex of ($1,9$), which lies above the $x$-axis, and will open downward, as the leading coefficient $a=-1$ is negative.  This implies that there will be two $x$-intercepts, which we found to be at the points ($-2,0$) and ($4,0$).  Hence the graph will be nonnegative over an interval between (and including) the $x$-intercepts.  To reinforce this, we provide the graph below, highlighting the portion that coincides with our desired interval.
+
+\begin{center}
+\begin{mfpic}[10]{-6}{6}{-8}{10}
+\arrow\reverse\arrow\function{-3,5,0.1}{-1*(x+2)*(x-4)}
+\xmarks{-5,-4,-3,-2,-1,0,1,2,3,4,5}
+\ymarks{-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9}
+\tlabel[cc](-1.5,-0.75){$-2$}
+\tlabel[cc](1,-0.75){$1$}
+\tlabel[cc](4.5,-0.75){$4$}
+\tlabel[cc](-0.75,9){$9$}
+\tlabel[cc](0.5,10){$y$}
+\tlabel[cc](6,-0.75){$x$}
+\tlabelsep{3pt}
+\arrow\reverse\arrow\polyline{(-6,0),(6,0)}
+\arrow\reverse\arrow\polyline{(0,-8),(0,10)}
+\point[2.9pt]{(-2,0),(4,0)}
+\penwd{2pt}
+\function{-2,4,0.1}{-1*(x+2)*(x-4)}
+\end{mfpic}
+\end{center}
+
+In our next example, we will touch upon the notion of the \textit{multiplicity} of a zero for a given equation/function, and how it affects the graph.
+\pp
+\begin{example}
+Solve the inequality $x^2+4x>-4$.
+\end{example}
+Setting the right-hand side to zero gives us
+$$x^2+4x+4>0.$$
+Factoring, we then have
+$$(x+2)^2>0.$$
+Hence, we have only one zero for the left-hand side ($x=-2$), which means that there are only two intervals to test.
+\begin{center}
+\begin{mfpic}[10]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{0}
+\tlpointsep{4pt}
+\axislabels {x}{{$-2$} 0}
+\tlabel[cc](-4,1){$(+)$}
+\tlabel[cc](-4,-1.75){$x=-3$}
+%\tlabel[cc](0,1){$|$}
+\polyline{(0,0.5),(0,2)}
+\tlabel[cc](4,1){$(+)$}
+\tlabel[cc](4,-1.75){$x=0$}
+\end{mfpic} 
+\end{center}
+Our solution set may be represented as the inequality $x\neq -2$, or as the union of intervals $(-\infty,-2)\cup(-2,\infty)$.
+\pp
+Notice that $x=-2$ was a zero in each of the last two examples.  In the first example, a change in sign occurred (negative to positive) as the values of $x$ increased from one side of our zero to the other.  In the second example, however, both the values below and above $x=-2$ yield positive signs.
+\pp
+This result has to do with the number of factors of $(x+2)$ appearing in our expression.  This number is known as the \textit{multiplicity} of the zero $x=-2$.  Briefly stated, the \textit{parity} of a zero's multiplicity (whether the number of factors is even or odd) will determine whether or not the sign of the given expression on either side of the zero remains the same or changes.  This notion will be quite useful when graphing complicated functions, and will be revisited in the chapter on polynomial functions.
+\pp
+\begin{example}
+Solve the inequality $x^2+4x<-4$.
+\end{example}
+Since we have only switched the direction of our inequality in the last example, we may conclude that the inequality has no solution set, represented by the empty set, $\varnothing$.
+\pp
+Up until this point, all of our examples have reduced to expressions that can easily be factored.  As this is often not the case for quadratic expressions, we will now attempt to solve some more challenging inequalities.
+\pp
+\begin{example}
+Solve the inequality $x^2-x+1>0$.
+\end{example}
+After brief inspection, we see that the expression on the left-hand side is not easily factorable.  At this point, in order to determine if any real zeros exist for $x^2-x+1$, we have a few methods to choose from.  We will use the quadratic formula, shown below.
+$$x=\frac{-(-1)\pm\sqrt{(-1)^2-4(1)(1)}}{2(1)}$$
+$$x=\frac{1}{2}\pm\frac{\sqrt{-3}}{2}=\frac{1}{2}\pm\frac{\sqrt{3}}{2}i$$
+Since we are left with a negative under the square root, we conclude that the given expression has no real zeros.  Hence, the corresponding parabola will have no $x$-intercepts.  Note: A slightly quicker method would have been to simply calculate the discriminant of $(-1)^2-4(1)(1)=-3<0$.
+\pp
+As our leading coefficient $a=1$ in the above expression is positive, we know that the corresponding parabola will open upward.  Using this information, along with the fact that there are no $x$-intercepts, we may conclude that the entire parabola must lie above the $x$-axis.  Hence, our solution set is all real numbers, ($-\infty,\infty$).
+\pp
+\begin{example}
+Solve the inequality $x^2>4x-1$.
+\end{example}
+Setting the right-hand side to zero, we have
+$$x^2-4x+1>0.$$
+Although we could again resort to the quadratic formula, we will instead identify the vertex form of the expression on the left, shown below.
+$$h=-\frac{-4}{2(1)}=2\qquad\qquad k=2^2-4(2)+1=-3$$
+$$x^2-4x+1=(x-2)^2-3$$
+So, setting $(x-2)^2-3$ equal to zero and extracting square roots, we obtain two real zeros at $x=2\pm\sqrt{3}$.  It then follows that
+$$x^2-4x+1=\left(x-(2-\sqrt{3})\right)\left(x-(2+\sqrt{3})\right).$$
+Since we have two real zeros, we will construct a sign diagram, using test values on either side of $2-\sqrt{3}\approx 0.27$ and $2+\sqrt{3}\approx 3.73$.  Our results are shown below.
+  
+\begin{center}
+\begin{mfpic}[15]{-8}{8}{-3}{2}
+\arrow \reverse \arrow \polyline{(-8,0),(8,0)}
+\xmarks{-3,3}
+\tlpointsep{4pt}
+\axislabels {x}{{$2-\sqrt{3}$} -3,{$2+\sqrt{3}$} 3}
+\tlabel[cc](-6,1){$(+)$}
+\tlabel[cc](-6,-1.5){$x=0$}
+\tlabel[cc](0,1){$(-)$}
+\tlabel[cc](0,-1.5){$x=2$}
+\tlabel[cc](6,1){$(+)$}
+\tlabel[cc](6,-1.55){$x=4$}
+\polyline{(-3,0.5),(-3,2)}
+\polyline{(3,0.5),(3,2)}
+\end{mfpic} 
+\end{center}
+
+Note that since we already obtained the vertex of ($2,-3$), we have chosen $x=2$ as a test value for our middle interval.
+\pp
+From the above diagram, we conclude that $x^2>4x-1$ precisely on the union of intervals $(-\infty,2-\sqrt{3})\cup(2+\sqrt{3},\infty)$.

@@ -1,0 +1,154 @@
+\subsection{Greatest Common Factor}\pp
+
+%\maketitle
+
+{\tmstrong{Objective: Find the greatest common factor of a polynomial and
+factor it out of the expression.}}\pp
+In order to discuss the factorization methods of this section, it will be necessary to introduce some of the terminology a bit early.  In particular, in this section we will be working with \textit{polynomial expressions}.  While most of our work will be with polynomials containing a single variable, it will be helpful to see a few examples of polynomials that contain two (or more) variables.\pp
+Both linear and quadratic expressions of a variable $x$ are basic examples of polynomials.  A more general description of a polynomial in terms of the variable $x$ is
+$$a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0,$$
+where $n$ is a nonnegative integer and $a_0,a_1,\ldots,a_{n-1},a_n$ represent real coefficients ($a_n\neq 0$).\pp
+A basic interpretation of this description is a sum of $n$ terms, each containing a real coefficient (possibly equal to 0), where the associated power of the variable is a positive integer (or possibly 0, in the case of the constant term $a_0=a_0x^0$).\pp
+The expression $8 x^4 - 12 x^3 + 32 x$ would be an example of a polynomial, in which the power $n$ (known as the \textit{degree} of the polynomial) equals 4, and the coefficients are as follows.
+$$a_4=8,~~a_3=-12,~~a_2=0,~~a_1=32,~~a_0=0$$
+If we inserted another variable(s) into each of the terms of our expression, we could create a polynomial expression in terms of two (or more) variables.  An example of this would be $$8 x^4y - 12 x^3y^2 + 32 x.$$
+While there is much more that we could say about this important concept of algebra, we will postpone a more in-depth treatment of polynomials until a later chapter, and move on to the topic of factorization.\pp 
+Factoring a polynomial could be considered as the ``opposite'' action of multiplying (or expanding) polynomials together.
+In working with polynomial expressions, there are many benefits to identifying both its expanded and factored forms.  Specifically, we will use factored polynomials to help us solve equations, learn behaviors of graphs, and understand more complicated rational expressions.  Because so many concepts in algebra depend on being able to factor polynomials, it is critical that we establish strong factorization
+skills.\pp
+In this first part of the section, we will focus on factoring using the greatest common factor or
+GCF of a polynomial.  When multiplying polynomials, we employ the distributive property, as demonstrated below.
+$$4 x^2 (2 x^2 - 3 x + 8) = 8 x^4 - 12 x^3 + 32 x$$
+Here, we will work with the same expression, but with a backwards approach, starting with the expanded form and obtaining one that is partially (or completely) factored.\pp
+We will start with $8 x^2 - 12 x^3 + 32 x$ and try and work backwards to reach $4 x^2 (2 x - 3 x + 8)$.\pp
+To do this we have to be able to first identify what the GCF of a
+polynomial is. We will first introduce this concept by finding the GCF of
+a set of integers. To find a GCF of two or more integers, we must find the
+largest integer $d$ that divides nicely into each of the given integers.  Alternatively stated, $d$ should be the largest factor of each of the integers in our set.  This can often be determined with quick ``mental math'', as shown in the following example.
+
+\begin{example}~~~Find the GCF of 15, 24, and 27.%    \tmop{Find} \tmop{the} \tmop{GCF} \tmop{of} 15, 24, \tmop{and} 27 &  & \\
+  \begin{eqnarray*}
+    \frac{15}{3} = 5,~~~ \frac{24}{3} = 6,~~~ \frac{27}{3} = 9 &  & \tmop{Each}
+    \tmop{of} \tmop{the} \tmop{numbers} \tmop{can} \tmop{be} \tmop{divided}
+    \tmop{by} 3\\
+    \tmop{GCF} = 3 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+When there are variables in our problem we can first find the GCF of the
+numbers, then we can identify any variables that appear in every term and factor them out, taking the smallest exponent in each case. This is shown in the next example.
+
+\begin{example}~~~Find the GCF of $24 x^4 y^2 z,$~~$18 x^2 y^4,$~and $12 x^3 y z^5$.
+  \begin{eqnarray*}
+    %\tmop{GCF} \tmop{of} 24 x^4 y^2 z, 18 x^2 y^4, \tmop{and} 12 x^3 y z^5 & 
+    %& \\
+    \frac{24}{6} = 4,~~~ \frac{18}{6} = 3,~~~ \frac{12}{6} = 2 &  & \tmop{Each}
+    \tmop{number} \tmop{can} \tmop{be} \tmop{divided} \tmop{by} 6\\
+    x^2 y &  & x \tmop{and} y \tmop{appear} \tmop{in} \tmop{all~three~terms}, \tmop{taking}\\
+		& & ~~~\text{the~lowest~exponent~for~each~variable}\\
+%		\tmop{using}   \tmop{lowest} \tmop{exponets}\\
+    \tmop{GCF} = 6 x^2 y &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+  
+To factor out a GCF from a polynomial we first need to identify the GCF of all
+the terms, this is the part that goes in front of the parentheses, then we
+divide each term by the GCF in order to determine what should appear inside of the
+parentheses. This is demonstrated in the following examples.
+
+\begin{example}~~~Find and factor out the GCF of the given polynomial expression.
+  \begin{eqnarray*}
+    4 x^2 - 20 x + 16 &  & \tmop{GCF} \tmop{is} 4, \tmop{divide} \tmop{each}
+    \tmop{term} \tmop{by} 4\\
+		&&\\
+    \frac{4 x^2}{4} = x^2,~~ \frac{- 20 x}{4} = - 5 x,~~ \frac{16}{4} = 4 &  &
+    \tmop{This} \tmop{is} \tmop{what} \tmop{is} \tmop{left} \tmop{inside}
+    \tmop{the} \tmop{parentheses}\\
+    &&\\
+    4 (x^2 - 5 x + 4) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+With factoring we can always check our solutions by expanding or multiplying out the answer.  As in the example above, this usually will involve some form of the distributive property.  Our end result upon checking should match the original expression.
+
+\begin{example}~~~Find and factor out the GCF of the given polynomial expression.
+   \begin{eqnarray*}
+    25 x^4 - 15 x^3 + 20 x^2 &  & \tmop{GCF} \tmop{is} 5 x^2, \tmop{divide}
+    \tmop{each} \tmop{term} \tmop{by} 5x^2%\\
+    \end{eqnarray*}
+		\begin{center}
+		$\displaystyle\frac{25 x^4}{5 x^2} = 5 x^2,~~~ \displaystyle\frac{- 15 x^3}{5 x^2} = - 3 x,~~~ \displaystyle\frac{20
+    x^2}{5 x^2} = 4$\\
+		~\\
+		This is what is left inside the parentheses.
+		\end{center}
+    \begin{eqnarray*}
+    5 x^2 (5 x^2 - 3 x + 4) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+  
+	\newpage
+	
+\begin{example}~~~Find and factor out the GCF of the given polynomial expression.
+  \begin{eqnarray*}
+    3 x^3 y^2 z + 5 x^4 y^3 z^5 - 4 x y^4 &  & \tmop{GCF} \tmop{is} x y^2,
+    \tmop{divide} \tmop{each} \tmop{term} \tmop{by} xy^2%\\
+    %&&\\
+    \end{eqnarray*}
+		\begin{center}
+		$\displaystyle\frac{3 x^3 y^2 z}{x y^2} = 3 x^2 z,~~~ \displaystyle\frac{5 x^4 y^3 z^5}{x y^2} =
+    5 x^3 y z^5,~~~ \displaystyle\frac{- 4 x y^4}{x y^2} = - 4 y^2$\\
+		~\\
+		This is what is left inside the parentheses.
+		\end{center}
+    \begin{eqnarray*}
+    x y^2 (3 x^2 z + 5 x^3 y z^5 - 4 y^2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+  
+{\tmstrong{World View Note:}} The first recorded algorithm for finding the
+greatest common factor comes from Greek mathematician Euclid around the year
+300 B.C.!
+
+\begin{example}~~~Find and factor out the GCF of the given polynomial expression.
+  \begin{eqnarray*}
+    21 x^3 + 14 x^2 + 7 x &  & \tmop{GCF} \tmop{is} 7 x, \tmop{divide}
+    \tmop{each} \tmop{term} \tmop{by} 7x
+    \end{eqnarray*}
+		\begin{center}
+    $\displaystyle\frac{21 x^3}{7 x} = 3 x^2,~~~ \displaystyle\frac{14 x^2}{7 x} = 2 x,~~~ \displaystyle\frac{7 x}{7 x} = 1$\\
+		~\\
+		This is what is left inside the parentheses.
+		\end{center}
+  \begin{eqnarray*}
+    7 x (3 x^2 + 2 x + 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+It is important to note that in the previous example, the GCF of $7 x$
+was also one of the original terms.  Dividing this term by the GCF left us with 1. A common mistake is to try to factor out the $7 x$ and leave a value of zero.  Factoring, however, will never make terms disappear completely.  Any (nonzero) number or term that is divided by itself will always equal 1.  Therefore, we must make certain to not forget to include a 1 in our solution.\pp
+Often the line showing the division is not written in the work of factoring the GCF, and we will simply identify the GCF and put it in front of the parentheses.  This step is one that will eventually be understood, and can therefore be omitted once the skill has been mastered.  The following two examples demonstrate this.
+
+\begin{example}~~~Find and factor out the GCF of the given polynomial expression.
+$$ 12 x^5 y^2 - 6 x^4 y^4 + 8 x^3 y^5$$
+~\\
+Notice, the GCF is $2x^3y^2$.  Write $2x^3y^2$ in front of the parentheses and divide each term by it, writing the resulting terms inside the parentheses. 
+  \begin{eqnarray*}
+    2 x^3 y^2 (6 x^2 - 3 x y^2 + 4 y^3) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Find and factor out the GCF of the given polynomial expression.
+$$18 a^4 b^3 - 27 a^3 b^3 + 9 a^2 b^3$$
+~\\
+Notice, the GCF is $9 a^2 b^3$.  Write $9 a^2 b^3$ in front of the parentheses and divide each term by it, writing the resulting terms inside the parentheses.  
+  \begin{eqnarray*}
+    9 a^2 b^3 (2 a^2 - 3 a + 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+Again, in the previous problem, when dividing $9 a^2 b^3$ by itself, the
+resulting term is 1, not zero. Be very careful that each term is accounted for in your
+final solution, and never forget that we can easily check our answers by expanding.
+
+%\end{document}

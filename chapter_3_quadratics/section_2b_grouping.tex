@@ -1,0 +1,310 @@
+\subsection{Grouping}\pp
+
+%\maketitle
+
+{\tmstrong{Objective: Factor polynomials with four terms using grouping.}}\pp
+The first thing we will always do when factoring is try to factor out a GCF.
+This GCF is often a \textit{monomial} (a single term) like in the expression\\ $5 x y + 10 x z$.  Here, the GCF is
+the monomial $5 x$, so we would have $5 x (y + 2 z)$ as our answer. However, a GCF does not
+have to be a monomial.  It could, in fact, be a \textit{binomial} and contain two terms. To see this, consider the
+following two examples.
+
+\begin{example}~~~Find and factor out the GCF of the given expression.
+  \begin{eqnarray*}
+    3 a x - 7 b x &  & \tmop{Both~terms} \tmop{have} x \tmop{in} \tmop{common},
+    \tmop{factor} \tmop{it} \tmop{out}\\
+    x (3 a - 7 b) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+~\\
+Now we will work with the same expression, replacing $x$ with $(2 a + 5 b)$.\\
+
+\begin{example}~~~Find and factor out the GCF of the given expression.
+  \begin{eqnarray*}
+    3 a (2 a + 5 b) - 7 b (2 a + 5 b) &  & \tmop{Both~terms} \tmop{have~} (2 a + 5 b)
+    \tmop{~in} \tmop{common},\\
+		&& ~~~\tmop{factor} \tmop{it} \tmop{out}\\
+    (2 a + 5 b) (3 a - 7 b) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+In the same way that we factored out a GCF of $x$ we can factor out a GCF which is
+a binomial, such as $(2 a + 5 b)$ in the example above. This process can be extended to factoring expressions
+in which there is either no apparent GCF or there is more factoring that can be done after the GCF has been factored.  At this point, we will introduce another useful factorization strategy, known as \textit{grouping}.  Grouping is typically employed when faced with an expression containing four terms.\pp
+Throughout this section, it is important to reinforce the fact that factoring is essentially expansion (multiplication) done in reverse.  Therefore, we will first look at problem which requires us to multiply two expressions, and then try to reverse the process.
+
+\begin{example}~~~Write the expanded form for the given expression.
+  \begin{eqnarray*}
+    (2 a + 3) (5 b + 2) &  & \tmop{Distribute~} (2 a + 3) \tmop{~into}
+    \tmop{second} \tmop{parentheses}\\
+    5 b (2 a + 3) + 2 (2 a + 3) &  & \tmop{Distribute} \tmop{each}
+    \tmop{monomial}\\
+%&&\\
+    10ab + 15 b + 4 a + 6 &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+~\\
+Our solution above has four terms in it.  We arrived at this solution by focusing on
+the two parts, $5 b (2 a + 3)$ and $2 (2 a + 3)$.\pp
+When attempting to factor by grouping, we will always divide an expression into two parts, or groups: group one will contain the first two terms of our expression and group two will contain the last two terms. Then we can identify and factor the GCF out of each group.  In doing this, our hope is that what is left over in each group will be the same expression. If the resulting expressions match, we can then factor out this matching GCF from both of our designated groups, writing what is left in a new set of parentheses.\pp
+Although the description of this method can sound rather complicated, the next few examples will help to clear up any lingering questions.  We will start by working through the last example in reverse, factoring instead of multiplying.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    10 ab + 15 b + 4 a + 6 &  & \tmop{Split} \tmop{expression} \tmop{into}
+    \tmop{two} \tmop{groups}\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      10 ab + 15 b & + 4 a + 6\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is} 5 b, \tmop{on}
+    \tmop{the} \tmop{right} \tmop{is} 2\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      5 b (2 a + 3) & + 2 (2 a + 3)\\
+      \hline
+    \end{array} &  & (2 a + 3) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+&&\\
+    (2 a + 3) (5 b + 2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+~\\  
+The key for grouping to be successful is for the two binomials to match exactly, once the GCF has been factored out of both groups. If there is any difference between the two binomials, we either have to do some adjusting or we cannot factor by grouping. Consider the following example.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    6 x^2 + 9 x y - 14 x - 21 y &  & \tmop{Split} \tmop{expression} \tmop{into}
+    \tmop{two} \tmop{groups}\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      6 x^2 + 9 x y & - 14 x - 21 y\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is} 3 x, \tmop{on}
+    \tmop{right} \tmop{is} 7\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      3 x (2 x + 3 y) & + 7 (- 2 x - 3 y)\\
+      \hline
+    \end{array} &  & \tmop{The} \tmop{signs} \tmop{in} \tmop{the}
+    \tmop{parentheses} \tmop{do~not} \tmop{match} !
+  \end{eqnarray*}
+\end{example}
+  
+When the signs on both terms do not match, we can easily make them match by
+  factoring a negative out of the GCF on the right side. Instead of $7$ we will
+  use $- 7$. This will change the signs inside the second set of parentheses.
+  \begin{eqnarray*}
+    \begin{array}{|l|l|}
+      \hline
+      3 x (2 x + 3 y) & - 7 (2 x + 3 y)\\
+      \hline
+    \end{array} &  & (2 x + 3 y) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+&&\\
+    (2 x + 3 y) (3 x - 7) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+~\\
+It will often be easy to recognize if we will need to factor out a negative sign when
+grouping. Specifically, if the first term of the first binomial is positive, the first term of the second binomial will also need to be positive. Similarly, if the first term of the first binomial is negative, the first term of the second binomial will also need to be negative.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    5 x y - 8 x - 10 y + 16 &  & \tmop{Split} \tmop{the} \tmop{expression}
+    \tmop{into} \tmop{two} \tmop{groups}\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      5 x y - 8 x & - 10 y + 16\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is} x, \tmop{~on}
+    \tmop{right} \tmop{we} \tmop{need}\\
+		&& ~~~\tmop{to~factor~out~a~negative}, \tmop{we~will~use~} - 2\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      x (5 y - 8) & - 2 (5 y - 8)\\
+      \hline
+    \end{array} &  & (5 y - 8) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+&&\\
+    (5 y - 8) (x - 2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+  ~\\
+Occasionally, when factoring out a GCF from either group, it will appear as though there is nothing that can be factored out.  In this case a GCF of either 1 or $- 1$ should be used. Often this will be all that is required, in order to match up the two binomials.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    12 a b - 14 a - 6 b + 7 &  & \tmop{Split} \tmop{the} \tmop{expression}
+    \tmop{into} \tmop{two} \tmop{groups}\\
+   &&\\
+		\begin{array}{|l|l|}
+      \hline
+      12 ab - 14 a & - 6 b + 7\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 2 a, \tmop{~on}
+    \tmop{right~use~GCF~of~} - 1\\
+   &&\\
+	  \begin{array}{|l|l|}
+      \hline
+      2 a (6 b - 7) & - 1 (6 b - 7)\\
+      \hline
+    \end{array} &  & (6 b - 7) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+   &&\\
+	  (6 b - 7) (2 a - 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    6 x^3 - 15 x^2 + 2 x - 5 &  & \tmop{Split} \tmop{expression} \tmop{into}
+    \tmop{two} \tmop{groups}\\
+   &&\\
+	  \begin{array}{|l|l|}
+      \hline
+      6 x^3 - 15 x^2 & + 2 x - 5\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 3 x^2,
+    \tmop{~on} \tmop{right~use~GCF~of~} 1\\
+   &&\\
+	  \begin{array}{|l|l|}
+      \hline
+      3 x^2 (2 x - 5) & + 1 (2 x - 5)\\
+      \hline
+    \end{array} &  & (2 x - 5) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+   &&\\
+	  (2 x - 5) (3 x^2 + 1) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+ ~\\
+When grouping, the selection or assignment of terms for each group can also be an area of concern.  In particular, if after factoring out the GCF from the preassigned groups, the binomials do not match \textit{and} cannot be adjusted as in the previous examples, a change in the group assignments may be necessary.  In the next example we will demonstrate this by eventually moving the second term to the end of the given expression, to see if grouping may still be used.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    4 a^2 - 21 b^3 + 6 a b - 14 a b^2 &  & \tmop{Split} \tmop{the}
+    \tmop{expression} \tmop{into} \tmop{two} \tmop{groups}\\
+    &&\\
+	 \begin{array}{|l|l|}
+      \hline
+      4 a^2 - 21 b^3 & + 6 a b - 14 a b^2\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 1, \tmop{~on}
+    \tmop{right} \tmop{is~} 2 a b\\
+   &&\\
+	  \begin{array}{|l|l|}
+      \hline
+      1 (4 a^2 - 21 b^3) & + 2 a b (3 - 7 b)\\
+      \hline
+    \end{array} &  & \tmop{Binomials} \tmop{do~not} \tmop{match} !\\
+		&&\tmop{~~~Move}
+    \tmop{second} \tmop{term} \tmop{to} \tmop{end}\\
+  \end{eqnarray*}
+  \begin{eqnarray*}
+    4 a^2 + 6 a b - 14 a b^2 - 21 b^3 &  & \tmop{Start} \tmop{over},
+    \tmop{~split} \tmop{expression} \tmop{into} \tmop{two}
+    \tmop{groups}\\
+   &&\\
+	  \begin{array}{|l|l|}
+      \hline
+      4 a^2 + 6 ab & - 14 a b^2 - 21 b^3\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 2 a, \tmop{~on}
+    \tmop{right} \tmop{is} - 7 b^2\\
+   &&\\
+	  \begin{array}{|l|l|}
+      \hline
+      2 a (2 a + 3 b) & - 7 b^2 (2 a + 3 b)\\
+      \hline
+    \end{array} &  & (2 a + 3 b) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+   &&\\
+	  (2 a + 3 b) (2 a - 7 b^2) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+  ~\\
+When rearranging terms the expression might still appear to be out of order. Sometimes after
+factoring out the GCF the resulting binomials appear ``backwards''. There are two scenarios where this
+can happen: one with addition and one with subtraction. In the first scenario, if the binomials are say $(a + b)$ and $(b + a)$, then we do not have to do any extra work.  This is because addition is a \textit{commutative} operation.  This means that the sum of two terms is the same, regardless of their order.  For example, $5 + 3 = 3 + 5 = 8$.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    7 + y - 3 x y - 21 x &  & \tmop{Split} \tmop{the} \tmop{expression}
+    \tmop{into} \tmop{two} \tmop{groups}\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      7 + y & - 3 x y - 21 x\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 1, \tmop{~on}
+    \tmop{the} \tmop{right} \tmop{is~} - 3 x\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      1 (7 + y) & - 3 x (y + 7)\\
+      \hline
+    \end{array} &  & y + 7 \tmop{and} 7 + y \tmop{are} \tmop{equal},
+    \tmop{~use} \tmop{either} \tmop{one}\\
+&&\\
+    (y + 7) (1 - 3 x) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+~\\
+In the second scenario, if the binomials contain subtraction, then we need to be a bit more
+careful. For example, if the binomials are $(a - b)$ and $(b - a)$, we will
+factor a negative sign out of either group (usually the second). Notice
+what happens when we factor out a $-1$ in the following example.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    (b - a) &  & \tmop{Factor} \tmop{out~a~} - 1\\
+    - 1 (- b + a) &  & \tmop{Resulting~binomial~contains~addition},\\
+		&&~~~\tmop{we~may~switch~the} \tmop{order}\\
+    - 1 (a - b) &  & \tmop{The} \tmop{order} \tmop{of} \tmop{the}
+    \tmop{subtraction} \tmop{has} \tmop{been} \tmop{switched} !
+  \end{eqnarray*}
+\end{example}
+  
+Generally we will not show all of the steps in the previous example when simplifying.  Instead, we will simply factor out a negative sign and switch the order of the subtraction to make the resulting binomials.  As with previous concepts, this omission should only be made by the student when the skill has been mastered.  We conclude our discussion of grouping with one final example.
+
+\begin{example}~~~Factor the given expression.
+  \begin{eqnarray*}
+    8 x y - 12 y + 15 - 10 x &  & \tmop{Split} \tmop{the} \tmop{expression}
+    \tmop{into} \tmop{two} \tmop{groups}\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      8 x y - 12 y & 15 - 10 x\\
+      \hline
+    \end{array} &  & \tmop{GCF} \tmop{on} \tmop{left} \tmop{is~} 4 y, \tmop{~on}
+    \tmop{right~is~} 5\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      4 y (2 x - 3) & + 5 (3 - 2 x)\\
+      \hline
+    \end{array} &  & \tmop{Need} \tmop{to} \tmop{switch~order},\\
+		&& \text{~~~Factor~negative~sign~out~of~second~binomial}\\
+&&\\
+    \begin{array}{|l|l|}
+      \hline
+      4 y (2 x - 3) & - 5 (2 x - 3)\\
+      \hline
+    \end{array} &  & (2 x - 3) \tmop{appears~twice} !
+    \tmop{~Factor} \tmop{out} \tmop{this} \tmop{GCF}\\
+&&\\
+    (2 x - 3) (4 y - 5) &  & \tmop{Our} \tmop{solution}
+  \end{eqnarray*}
+\end{example}
+~\\  
+{\tmstrong{World View Note:}} Sofia Kovalevskaya of Russia was the first woman
+on the editorial staff of a mathematical journal in the late 19$^{\text{th}}$ century. She
+also did research the rotation of the rings of Saturn.
+
+%\end{document}
